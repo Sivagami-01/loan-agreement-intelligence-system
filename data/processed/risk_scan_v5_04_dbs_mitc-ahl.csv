@@ -1,0 +1,229 @@
+﻿doc_id,clause_id,continuation_of,page,clause_text,prefilter_passed,matched_keywords,category,severity,clause_type,features,severity_rule,severity_explanation,rationale,number_flag,flagged_numbers,model_used,parse_error,prompt_version
+04_dbs_mitc-ahl,C0001,,1,"1
+I.         This MITC Covers the Following Products:
+a.   Housing Loans
+b. Loans Against Property (“LAP”)
+II.        Scope and Purpose of the Loan",True,collateral_security,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,This introductory heading outlines the covered products and scope of the MITC without setting risk terms.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0002,,1,"a. Housing Loans: These are loans that will be sanctioned for the purchase of ready property/under-construction property, 
+home extension or for replacement of/switchover of a housing loan earlier availed of by the Borrower from any other 
+bank/financial institution. The Loan will only be sanctioned for the purchase / construction/ extension of residential property 
+only. Such property must be situated within India.",True,principal_amount; collateral_security,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This definition clause describes eligible housing loan purposes and geographic location requirements.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0003,,1,"b. LAP: These are loans that may be sanctioned for various personal or business purposes of the Borrower as may be acceptable 
+to DBS Bank India Limited (the “Lender”) which purpose must be specifically described and disclosed to the Lender at the 
+time of applying for the Loan. Such a Loan is granted against the security of an immovable residential, fully constructed, and 
+freehold property with a clear and marketable title, situated within India. 
+c.   All Loans may be availed of by Indian citizens.",True,principal_amount; collateral_security; reporting_inspection,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,"This definition clause outlines loan-against-property purposes, security requirements, and citizen eligibility.",False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0004,,1,"III.      Interest
+The Borrower(s) will be required to pay interest on the Loan as stipulated in the Loan Agreement that will be executed by and 
+between the Borrower(s) and the Lender. Interest accrues and is calculated on a daily basis on the total outstanding balance on 
+that day, and is compounded and will be payable monthly, as on the due dates set in the Payment Schedule provided by the 
+Lender. Interest in the normal course will form a part of the Equated Monthly Installments (EMIs) or Pre-EMI spayable by the 
+Borrower(s).",True,interest; repayment_terms,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,This clause specifies that interest accrues daily and is payable monthly as part of EMIs.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0005,,1,"Penal  charges, additional interest and interest on interest (as payable in accordance with the terms of the Loan 
+Agreement) will be required to be paid by the Borrower additionally, that is to say, the same would not be covered as part of the 
+EMIs or Pre-EMIs.",True,interest; penalties_fees; charges_expenses,Penalties and charges,High,fee_or_cost,"{""penal_rate_or_default_charge"": true}",R_FEE_HIGH,Severity High because: fee_or_cost; penal_rate_or_default_charge,This clause establishes that penal charges and additional interest are payable separately from regular EMIs.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0006,,1,"IV.      Rate of Interest/Type of Interest and change in Rate of Interest
+The Rate of Interest is the rate at which the Lender will compute and apply interest on the Loan.
+Rate of Interest may be of 3 types: Fixed Rate of Interest, Floating Rate of Interest, or Hybrid Rate of Interest (being a 
+combination of Fixed Rate of Interest and Floating Rate of Interest, that is to say that the interest rate would be fixed for a specific 
+period and floating for the balance tenure of the Loan).",True,interest; rate_of_interest,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,"This clause defines the interest rate types available, including fixed, floating, and hybrid rates.",False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0007,,1,"Switch from on type of Rate of Interest to another may be permitted by 
+the Lender, at its sole discretion, subject to such terms and conditions as the Lender may deem fit, including but not limited to 
+payment of such fees/charges by the Borrower as the Lender may specify. The Floating Rate of Interest is linked to the RBI Policy 
+Repo Rate which is subject to change from time to time. Any change in the RBI Policy Repo Rate will result in a change in the Rate 
+of Interest applicable to the Loan. Any such change will be notified to the Borrower and will apply from the date of such change.",True,interest; rate_of_interest; charges_expenses; lender_powers_remedies,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true, ""sole_discretion"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,This clause governs interest rate switches at lender discretion and links floating rates to the RBI Policy Repo Rate.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0008,,1,"The standard reset date for the Floating Rate of Interest (unless otherwise informed by the Lender to the Borrower) is the 7th day 
+of each Quarter. i.e.: 7th January, 7th April, 7th July, 7th October.",True,interest; rate_of_interest; margin_spread_reset,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,This clause specifies the standard reset dates for the Floating Rate of Interest.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0009,,1,"V.       Fees and Charges Applicable
+All fees and charges applicable to the Borrower(s) may be found in the Schedule of Charges attached to the Loan Application 
+Form and/or on the official website of the Lender. 
+Please note that the applicable fees and charges may change from time to time. Such changes will be updated on the official 
+website of the Lender from time to time.",True,charges_expenses,Penalties and charges,Medium,fee_or_cost,{},R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",This clause states that applicable fees and charges are found in the schedule and website and may change over time.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0010,,1,"The Borrower shall indemnify, save, defend and hold harmless the Lender and its officers, directors, employees, from and against 
+all, direct and indirect, claims, damages, losses, costs and expenses, including attorneys’ fees arising out of any action, omission, 
+breach or default by the Borrower and/or its employees or agents under or in the course of performing the Loan Agreement 
+and/or otherwise incurred by the Lender as a result of granting the Loan to the Borrower or in the course of performance of its 
+obligations under the Loan Agreement.",True,charges_expenses; default_triggers,Covenants,Medium,indemnity,"{""broad_or_uncapped"": true, ""reaches_affiliates_or_third_parties"": true}",R_IND_MED,Severity Medium because: indemnity; standard or narrow indemnity,This clause contains a broad borrower indemnity protecting the lender and its officers from all direct and indirect losses and expenses.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0011,,1,"VI.
+Penal charges
+MOST IMPORTANT TERMS AND CONDITIONS (MITC)
+AHL Apr24 V5
+In the event of occurrence of any or all of the below event(s) the Borrower agrees to pay to the Lender Penal charges as 
+mentioned in Schedule I (“Penal Charges”) :-",True,penalties_fees; charges_expenses,Penalties and charges,High,fee_or_cost,"{""penal_rate_or_default_charge"": true}",R_FEE_HIGH,Severity High because: fee_or_cost; penal_rate_or_default_charge,This clause introduces the penal charges payable upon the occurrence of specified events.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0012,,1,"a. In the event of Material Breach related to Borrower’s non-payment of EMI or any other charges and amount as per 
+terms of this Loan Agreement, the Borrower agrees to pay to the Lender Penal Charges on overdue EMI amount.  
+Penal Charges shall be calculated daily based on the actual number of overdue days. Without prejudice to the 
+foregoing, if the Lender recalls the Loan or any part of it, the Borrower shall have to pay Penal Charges on the 
+Outstanding Balance due and owing to the Lender from the date of recall until the date of receipt of full payment by 
+the Lender.",True,repayment_terms; penalties_fees; charges_expenses; default_triggers; termination_accel,Penalties and charges,High,fee_or_cost,"{""penal_rate_or_default_charge"": true}",R_FEE_HIGH,Severity High because: fee_or_cost; penal_rate_or_default_charge,This clause mandates daily penal charges for non-payment of EMIs or upon loan recall.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0013,,1,"b. In the event of Material Breach (other than non-payment as mentioned in VI (a) above) by the Borrower, the Penal 
+Charges as mentioned in Schedule I will be charged till Material Breach has been cured by the Borrower to the 
+satisfaction of the Lender. 
+Provided that nothing contained in this Clause shall affect or prejudice the right of the Lender to declare an Event of Default 
+and exercise the rights vested in it under of Loan Agreement.",True,penalties_fees; charges_expenses; default_triggers,Penalties and charges,High,fee_or_cost,"{""penal_rate_or_default_charge"": true}",R_FEE_HIGH,Severity High because: fee_or_cost; penal_rate_or_default_charge,This clause applies penal charges for material breaches other than non-payment until cured to the lender's satisfaction.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0014,,2,"2
+MOST IMPORTANT TERMS AND CONDITIONS (MITC)
+VIII.
+Loan Drawdown / Disbursement
+The Loan (or any part thereof) may be disbursed by the Lender upon receiving a drawdown request from the Borrower. 
+The entire Loan Amount should be availed of within the Availability Period specified by the Lender. The loan sanction may 
+be kept open at the sole discretion of DBS Lender for an additional period of such number of days beyond the Availability Period as 
+the Lender may at its sole discretion deem fit. The Lender may, at any time, at its sole discretion, recall the Loan(in whole or part).",True,principal_amount; termination_accel; lender_powers_remedies,none,none,definition,"{""sole_discretion"": true}",R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This clause outlines loan drawdown and disbursement terms alongside lender recall rights.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0015,,2,"The mode and manner of disbursement is left to the sole discretion of the Lender. The disbursement of the Loan or any part 
+thereof by the Lender may be made to the Borrower, or directly to the developer/builder/construction company /contractor/seller 
+of the Property, where applicable or any other concerned Person, as the Lender may in its sole discretion deem fit.",True,principal_amount; collateral_security; lender_powers_remedies,none,none,definition,"{""sole_discretion"": true}",R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This clause grants the lender sole discretion over the mode and direct beneficiary of loan disbursements.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0016,,2,"In case the Loan 
+being availed of by the Borrower is in replacement/switchover of a housing loan earlier availed of by the Borrower from another 
+bank/financial institution, the disbursement of the Loan Amount or any part thereof by the Lender may be made to the Borrower, 
+or directly to such other bank/financial institution, as the Lender may in its sole discretion deem fit.",True,principal_amount; lender_powers_remedies,none,none,definition,"{""sole_discretion"": true}",R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This clause permits direct disbursement to prior financial institutions during loan switchovers at lender discretion.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0017,,2,"IX.       Repayment
+The Borrower will repay the principal/Loan together with the interest calculated on the reducing principal balance by way of 
+Equated Monthly Installments or EMIs, if not demanded earlier by the Lender in accordance with the terms of the Loan 
+Agreement, as stipulated in the Repayment Schedule Agreement or as may otherwise be communicated by the Lender to the 
+Borrower from time to time,.",True,interest; principal_amount; repayment_terms,Repayment,Low,other,{},R_OTHER_LOW,Severity Low because: other; general or residual term,This clause sets out the borrower's obligation to repay principal and interest via EMIs.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0018,,2,"Provided that the Lender shall be entitled to re-compute and/or modify the amounts constituting the 
+EMI(s) and the dates for payment thereof by the Borrower on the occurrence of any event which in the opinion of the Lender 
+necessitates a re-computation/ modification of the same. In the event of any such modification, the Borrower hereby agrees and 
+undertakes to issue fresh Payment Instruments as the Lender may require. Strict compliance with the Repayment Schedule as 
+communicated by the Lender from time to time is an essential condition for the grant of the Loan.",True,repayment_terms; covenant_undertaking,Repayment,Low,other,{},R_OTHER_LOW,Severity Low because: other; general or residual term,This clause entitles the lender to re-compute and modify EMI amounts and payment dates upon certain occurrences.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0019,,2,"Without prejudice to the general right available to the Lender to vary or amend the Repayment Schedule, from time to time, the 
+Lender shall be entitled to amend the Repayment Schedule (including without limitation varying the amount of each PEMI (as 
+applicable) or EMI), in case of:",True,repayment_terms,Repayment,Low,other,{},R_OTHER_LOW,Severity Low because: other; general or residual term,This clause grants the lender the right to amend the repayment schedule from time to time.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0020,,2,"(a) any change occurring in the Interest Rate applicable to the Loan as per the provisions of the Loan Agreement, to reflect 
+the change in the Interest Rate; and/or",True,interest,Repayment,Low,other,"{""floating_or_reset_rate"": true}",R_OTHER_LOW,Severity Low because: other; general or residual term,This clause permits repayment schedule amendments to reflect changes in the applicable interest rate.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0021,,2,"(b) Disbursement of the Loan Amount in tranches/parts, each time a tranche is disbursed under the Loan. 
+Consequent to any change in the Floating Interest Rate, the Lender may at its sole discretion, decide not to change the EMI 
+amount, in which event, in case there is an increase in the Floating Interest Rate, the interest component in an EMI will increase 
+and the principal component will reduce resulting in an extension of the term of the Loan and vice versa when the Floating 
+Interest Rate decreases.",True,interest; principal_amount; repayment_terms; lender_powers_remedies,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true, ""sole_discretion"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,This clause governs floating interest rate adjustments and permits the lender at its sole discretion to extend loan terms by altering principal and interest components.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0022,,2,"In the event of any increase in the Floating Interest Rate, and consequential increase in the EMIs/ PEMIs 
+which are required to be paid by the Borrower, the Borrower shall be required to pay such increased EMI/ PEMI amount and/or the 
+resultant differential amount as determined by the Lender in its sole discretion and intimated to the Borrower.",True,interest; repayment_terms; lender_powers_remedies,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true, ""sole_discretion"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,The borrower must pay increased EMI or differential amounts determined by the lender in its sole discretion upon any floating interest rate increase.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0023,,2,"The Lender, at its 
+sole discretion but without being bound to do so, may at the request of the Borrower and on payment of a Repricing Fee by the 
+Borrower permit the Borrower to change the applicable Interest Rate, with effect from a prospective date acceptable to the 
+Lender. The Repricing Fee shall be determined by the Lender, from time to time, at its sole discretion. Such Repricing Fee shall be 
+intimated by the Lender every time the Borrower makes a request for change in the applicable Interest Rate.",True,interest; charges_expenses; lender_powers_remedies,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true, ""sole_discretion"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",The lender may permit an interest rate change upon payment of a repricing fee determined at its sole discretion.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0024,,2,"The Borrower is required to make payment of the EMIs through Standing Instructions from their account held with the Lender, or 
+through the Electronic Clearing System (Debit) by setting up a mandate for such payments, through the National automated 
+Clearing House (NACH) system by setting up mandates for such payments or by providing the Lender with sets of Post-Dated or 
+Undated Cheques or by such other modes as may be acceptable to the Lender. Such instructions /mandates/cheques must be 
+executed and delivered to the Lender at such time(s) as may be stipulated by the Lender.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+04_dbs_mitc-ahl,C0025,,2,"The Borrower shall ensure that the payment instructions/mandate/cheque is honoured and therefore must ensure that:
+- Sufficient funds are available in the designated account to be debited;",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+04_dbs_mitc-ahl,C0026,,2,"- No cancel / stop payment have been put on the cheques/payment instruments given towards repayment;
+AHL Apr24 V3",True,repayment_terms; termination_accel,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,The borrower covenants that no cancellation or stop payment orders have been placed on repayment cheques or instruments.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0027,,2,"VII.     Conditions for Disbursement
+The Lender may disburse the Loan (or any part thereof), at its discretion, subject to fulfilment of certain conditions precedent 
+as more particularly mentioned in the Loan Agreement, a few of which are stated below. The full list of conditions precedent 
+and subsequent are stated in Clauses 3.2 and 3.3 of the Loan Agreement and must be carefully read by the Borrower(s).
+-  The Borrower must ful fill the Bank's requirement of credit worthiness",True,principal_amount,none,none,closing_condition,{},R_N1_NON_RISK,Severity none because: closing_condition; N1 non-risk type,This provision outlines disbursement conditions and creditworthiness requirements precedent to loan funding.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0028,,2,"-  The Borrower(s) must have executed all necessary security documents in favour of the Lender, and deposited with the    
+         Lender original title deeds to the Property.",True,collateral_security; enforcement_asset,Collateral,Medium,security_or_guarantee,{},R_SEC_MED,Severity Medium because: security_or_guarantee; standard security interest or guarantee,The borrower must execute security documents and deposit original property title deeds with the lender.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0029,,2,"-   Incase of a Housing Loan, the Borrower must pay the entire margin amount(i.e.the difference between the purchase price    
+       and the sanctioned loan amount) be foredisbursal of the Loan or any part thereof.",True,margin_spread_reset; principal_amount,Financial terms,Low,other,{},R_OTHER_LOW,Severity Low because: other; general or residual term,Housing loan borrowers must pay the entire margin amount before loan disbursal.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0030,,2,"-   No ‘Events of Default’ (as fully described under Clause11 of the Loan Agreement) should have happened, which includes 
+         but is not limited to giving of misleadinginformationtothe Lender,the Borrower being declared in solvent, a depreciation   
+         in the value of the secured property, and default in duly performing obligation under any other loan or facility availed of 
+         from the Lender by the Borrower.",True,collateral_security; default_triggers,Default conditions,Medium,other_default_trigger,{},R_ODEF_MED,Severity Medium because: other_default_trigger; other default trigger,Occurrence of events of default such as misleading information or insolvency prevents loan disbursement.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0031,,2,"-   The Borrower shall have furnished to/procured for the Lender all necessary documents, undertakings, indemnities, decla
+         rations etc. and done/procured to be done all necessary acts, deeds, etc. as may be required by the Lender.",True,covenant_undertaking,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),"The borrower must furnish necessary documents, undertakings, and indemnities required by the lender.",False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0032,,3,"3
+- The Standing Instructions/ECS/NACH Mandate(s) is/are not varied or cancelled without the prior written consent of 
+the Lender; and",True,termination_accel; covenant_undertaking,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,Standing instructions and NACH mandates cannot be varied or cancelled without prior written consent from the lender.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0033,,3,"- The designated account to be debited is neither closed not changed without the prior written consent of the Lender;
+MOST IMPORTANT TERMS AND CONDITIONS (MITC)",True,covenant_undertaking,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,The designated debit account cannot be closed or changed without prior written consent from the lender.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0034,,3,"XIV.    Cross Default and Cross Collateralization
+If the Borrower(s) defaults on any other credit/ facility agreement or arrangement with DBS Bank and/or its successors-in-interest 
+or with any of the affiliates or DBS Group companies (collectively “DBS Group”), the same shall be deemed to be an Event of 
+Default in terms of the Loan Agreement and the consequences thereof as set out in the Loan Agreement and other financing 
+documents will follow.",True,interest; collateral_security; default_triggers,Default conditions,Medium,cross_default,{},R_XDEF_MED,Severity Medium because: cross_default; cross-default requiring acceleration or cure expiration,A default on any credit facility with DBS Bank or its affiliates constitutes an event of default under the loan agreement.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0035,,3,"Failure to ensure the above, resulting in dishonour of the SI/ECS/NACH mandate/cheque will be treated as an Event of Default in 
+terms of the Loan Agreement and trigger the consequences set out therein for the same. Without prejudice to the same, such 
+dishonour may also result in exercise by the Lender of criminal remedies as may be available under law.",True,penalties_fees; default_triggers; lender_powers_remedies,Default conditions,High,payment_default_trigger,{},R_TRIG_HIGH,Severity High because: payment_default_trigger; core default trigger with short or no >=10d cure window,Dishonour of payment mandates or cheques constitutes an event of default and may trigger criminal remedies.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0036,,3,"X.        Prepayment and Foreclosure
+The Borrower(s) may prepay/foreclose the Loan by giving prior notice in writing to the Lender. Such prepayment /foreclosure shall 
+be subject to the prepayment/foreclosure rules of the Lender, as may be applicable from time to time and the terms of the Loan 
+Agreement. If prepayment/foreclosure is made by cheque, the prepayment/foreclosure by the Borrower takes effect/would be 
+deemed to have been made only when the cheque is cleared and the account of the Lender is credited.",True,repayment_terms,Repayment,Low,prepayment_term,{},R_PREPAY_LOW,Severity Low because: prepayment_term; routine prepayment without extra charges,Prepayment or foreclosure requires written notice and takes effect only upon cheque clearance and credit to the lender's account.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0037,,3,"Prepayment/Foreclosure charges if any will be applicable to such prepayment/foreclosure in accordance with the Schedule of 
+Charges. However, no prepayment/foreclosure charges will be charged on loans where the interest rate is floating, or loans 
+where the interest rate is hybrid and foreclosure is made after the fixed period (during which the fixed interest rate applies), where 
+after the floating interest rate becomes applicable,.",True,interest; repayment_terms; charges_expenses,Penalties and charges,Low,prepayment_term,"{""borrower_protective"": true, ""charges_apply"": true}",R_BORROWER_PROTECTIVE_FEAT,Severity Low because: prepayment_term; borrower_protective,[borrower-protective] Prepayment charges apply per the schedule of charges except for floating rate loans or hybrid loans after the fixed period.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0038,,3,"XI.      Security
+The Loan Amount, together with interest, charges, costs,  Penal charges, additional interest, further interest, expenses and other 
+obligations of the Borrower under the Loan Agreement and other financing documents will be secured by the following:",True,interest; principal_amount; penalties_fees; charges_expenses; collateral_security,Collateral,Medium,security_or_guarantee,{},R_SEC_MED,Severity Medium because: security_or_guarantee; standard security interest or guarantee,"Loan obligations, interest, penal charges, and expenses are secured by specified collateral and security.",False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0039,,3,"a. A first and exclusive mortgage (in the form and manner acceptable to the Lender) over the Property being purchased with the 
+Loan in case of Housing Loans, or over any other immovable (residential) Property in case of a LAP. The Lender shall have the 
+right to decide, in its sole discretion, the form, manner, type and the timing of creation of mortgage or any other security;",True,collateral_security; lender_powers_remedies,Collateral,Medium,security_or_guarantee,"{""sole_discretion"": true}",R_SEC_MED,Severity Medium because: security_or_guarantee; standard security interest or guarantee,"A first and exclusive mortgage is created over the property, with the lender retaining sole discretion over its timing and form.",False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0040,,3,"b. Giving of a guarantee by a guarantor (either corporate or personal), wherever applicable.
+c. Demand promissory note(s);",True,collateral_security,Collateral,Medium,security_or_guarantee,{},R_SEC_MED,Severity Medium because: security_or_guarantee; standard security interest or guarantee,Security includes a corporate or personal guarantee and demand promissory notes.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0041,,3,d. Any additional security (in the form and manner acceptable to the Lender) as required by the Lender.,True,collateral_security,Collateral,Medium,security_or_guarantee,"{""sole_discretion"": true}",R_SEC_MED,Severity Medium because: security_or_guarantee; standard security interest or guarantee,Any additional security acceptable to the lender may be required.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0042,,3,"XII.      Insurance
+The Borrower shall, at its sole cost and risk, insure and keep insured the Property against all insurable risks, for such amounts and 
+such periods as may be required by the Lender, with an insurance company acceptable to the Lender. The Lender shall be 
+made/named as the sole beneficiary/loss payee under the policy and shall produce evidence thereof to the Lender.",True,collateral_security; enforcement_asset,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),The borrower must insure the property at its sole cost with the lender named as the sole beneficiary.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0043,,3,"In the event of 
+the Borrower failing to insure the Property to the satisfaction of the Lender, the Lender shall be entitled to cause the Property to be 
+insured with an insurance company for all risks that the Lender may, in its sole discretion, deem fit and to debit the insurance 
+charges to the Loan Account of the Borrower.",True,charges_expenses; collateral_security; enforcement_asset; lender_powers_remedies,Covenants,Low,reporting_or_insurance_covenant,"{""charges_apply"": true, ""sole_discretion"": true}",R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),The lender may insure the property in its sole discretion and debit the charges to the account if the borrower fails to do so.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0044,,3,"XIII.     Event(s) of Default
+Event(s) of Default in terms of the Loan Agreement include inter alia the following:",True,default_triggers,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,This clause is a routine heading introducing events of default.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0045,,3,(a) any default in payment of the Secured Obligations (or any part thereof) on the respective Due Dates.,True,default_triggers,Default conditions,High,payment_default_trigger,{},R_TRIG_HIGH,Severity High because: payment_default_trigger; core default trigger with short or no >=10d cure window,Any failure to make payments on due dates constitutes an event of default.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0046,,3,"(b) Use of the Loan Amount, or any part thereof, for any purpose other than the Purpose (as set out in the Loan Agreement).",True,principal_amount,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,Misusing the loan amount for unauthorized purposes triggers a covenant breach.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0047,,3,"(c) Any of the representations, warranties, declarations or statements made by the Borrower, whether under the Loan 
+Agreement, Security Documents, or any other agreements/documents executed pursuant thereto and/or in the Application 
+Form or any other information given by the Borrower being found to be incorrect, false or inaccurate at the time when they 
+are made or deemed to be made.",True,collateral_security,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Inaccurate representations or warranties given by the borrower constitute a default event.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0048,,3,"(d) Any breach or default by the Borrower, in performance or observance of any covenant, obligation, term, condition or 
+undertaking imposed upon or undertaken the Borrower under the Loan Agreement, any of the Security Documents and/or 
+any other agreements entered into pursuant thereto.",True,collateral_security; default_triggers; covenant_undertaking,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,Any breach of covenants or obligations under the loan documents constitutes an event of default.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0049,,3,"(e) If, in the opinion of the Lender, there is any deterioration or impairment of the Secured Assets, or any part thereof or any 
+decline or depreciation in the value or market price thereof (whether actual or reasonably anticipated); and/or",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+04_dbs_mitc-ahl,C0050,,3,"(f) Any event or circumstance which in the opinion of the Lender is likely to adversely affect the ability of the Borrower to repay 
+the Loan and other Secured Obligations in full to the Lender or perform any obligation under the Loan Agreement, the 
+Security Documents or any related document/agreement.
+On the occurrence of any Event of Default as mentioned in the Loan Agreement or any other financing document, the 
+outstanding principal amount plus the outstanding interest amount plus any other charges, Penal  charges, fees etc.",True,interest; principal_amount; repayment_terms; penalties_fees; charges_expenses; collateral_security; default_triggers,Default conditions,High,other_default_trigger,"{""automatic"": true, ""no_notice"": true, ""sole_discretion"": true}",R_ODEF_HIGH,Severity High because: other_default_trigger; sole_discretion,Any adverse circumstance determined by the lender accelerates all amounts due and payable immediately.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0051,,3,"shall 
+forthwith become due and payable, and the Lender shall be entitled to take such steps as mentioned in the 
+Loan Agreement or any other financing document, including but not limited to enforcement of security to recover such dues. 
+AHL Apr24 V3 4
+XV.",True,payable_due; collateral_security; termination_accel; lender_powers_remedies,Termination,Critical,acceleration_or_termination_right,"{""automatic"": true, ""no_notice"": true}",R_ACCEL_CRIT,"Severity Critical because: acceleration_or_termination_right; automatic, no_notice",Outstanding amounts forthwith become due and payable allowing immediate security enforcement upon default.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0052,,4,"Reporting
+As per the relevant Reserve Bank of India guidelines, the Lender will provide credit information relating to any Borrower 
+who has availed of a Loan, to the Credit Information Company or any other licensed bureau on a monthly/periodic basis. 
+The Borrower(s) should ensure that timely payment of all amounts due/payable in respect of the Loan are duly paid on time to 
+inter alia avoid any adverse credit history with Credit Information Company.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+04_dbs_mitc-ahl,C0053,,4,"XVI.    Borrowers and Co-Borrowers
+Where the Loan is provided to more than one Borrower, the liability of the Borrower and all Co-Borrowers to repay the Loan 
+together with all interest, and any / all other charges, fees, Penal charges, additional interest, further interest and other monies 
+due/payable, and to observe the terms and conditions of the Loan Agreement, Security Documents, and any other relevant 
+documents in relation to the Loan,  shall at all times be joint and several.",True,interest; repayment_terms; penalties_fees; charges_expenses; collateral_security,Collateral,High,security_or_guarantee,"{""joint_and_several"": true}",R_SEC_HIGH,Severity High because: security_or_guarantee; joint_and_several,Borrowers and co-borrowers share joint and several liability for repaying the loan and charges.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0054,,4,"XVII.  Change in Address or Other Details
+The Borrower must notify the Lender regarding any change in residential address or any other information supplied to the Lender 
+in relation to the Loan. The Lender must be immediately intimated of such changes.",True,reporting_inspection,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),The borrower must immediately notify the lender of any changes in address or provided details.,False,,gemini-3.5-flash-lite,False,v5
+04_dbs_mitc-ahl,C0055,,4,"XVIII.  Customer service
+For any service related issue, customers can get in touch with the Lender by:
+(i)  Calling Customer Care numbers provided on our official website.
+(ii)  Visiting a DBS Bank branch.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+04_dbs_mitc-ahl,C0056,,4,(iii) Placing a request online by logging onto our official website: www.dbsbank.com/in.,False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+04_dbs_mitc-ahl,C0057,,4,"XIX.    Customer Grievance Redressal Procedure 
+If there are instances where the customer is not satisfied with the services provided by the Lender, to highlight such instances 
+and/or register a complaint, the customer may refer to the grievance redressal policy displayed on our official website.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+04_dbs_mitc-ahl,C0058,,4,"XX.     Disclaimer
+The terms and conditions set out herein are only an abridged form of the terms and conditions applicable to the Loan 
+availed/proposed to be availed of by the Borrower from the Lender and do not contain the full provisions of the Loan Agreement. 
+The detailed and full terms and conditions are mentioned in the Loan Agreement, a standard format whereof has been handed 
+over to the Borrower for his perusal, understanding and ready reference.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+04_dbs_mitc-ahl,C0059,,4,"The Borrower must read the Loan Agreement in its entirety and carefully understand its contents before signing the same, which 
+will in any event be final and binding on the Borrower and will prevail in case of any discrepancy/inconsistency between the terms 
+of the MITC and those of the Loan Agreement. The Borrower shall, if required, seek legal advice from his/her/their/its lawyers to 
+ensure that the Borrower has understood the contents hereof and of the Loan Agreement, and his/her/their/its obligations 
+hereunder and thereunder and the full consequences of signing the same.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+04_dbs_mitc-ahl,C0060,,4,"MOST IMPORTANT TERMS AND CONDITIONS (MITC)
+AHL Apr24 V3
+""The terms and conditions set out herein are only an abridged form of the terms and conditions applicable to the Loan 
+availed/proposed to be availed of by the Borrower from the Lender and do not contain the full provisions of the Loan 
+Agreement.""
+Capitalized terms used herein shall have the meaning as specified in the Loan Agreement.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5

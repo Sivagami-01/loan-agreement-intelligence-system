@@ -1,0 +1,129 @@
+[[PAGE 1]]
+EX-10.1
+
+2
+
+plpc-10qxex101x2025q2.htm
+
+EX-10.1
+
+[[PAGE 2]]
+Document
+Exhibit 10.1
+Execution Copy
+AMENDMENT NO. 9
+TO AMENDED AND RESTATED LOAN AGREEMENT
+This AMENDMENT NO. 9 TO AMENDED AND RESTATED LOAN AGREEMENT (this “
+Amendment
+”) is entered into as of July 30, 2025, by and among 
+PREFORMED LINE PRODUCTS COMPANY, 
+an Ohio corporation (“
+PLP
+”), 
+PREFORMED LINE PRODUCTS (AUSTRALIA) PTY LTD.
+, a corporation incorporated under the laws of the Commonwealth of Australia (“
+PLP Australia
+”), 
+PLP SUBCON GMBH
+, a limited liability company established and existing under the laws of Austria (“
+PLP Austria
+”),
+ PLP POLAND (BELOS) S.A. 
+(formerly known as BELOS-PLP S.A.), a company organized under the laws of Poland (“
+PLP Poland
+”),
+ APRESA PLP SPAIN, S.A.U. 
+(formerly known as APRESA – PLP SPAIN, S. A.), a company organized under the laws of Spain (“
+PLP Spain
+” and collectively with PLP Poland, PLP, PLP Australia and PLP Austria, the “
+Borrowers
+” and each a “
+Borrower
+”) and 
+PNC BANK, NATIONAL ASSOCIATION, 
+a national banking association, its successors and assigns, as lender (“
+Bank
+”). 
+WITNESSETH
+:
+WHEREAS, PLP, PLP Australia and Bank have entered into that certain Amended and Restated Loan Agreement, dated as of September 24, 2015, as amended pursuant to that certain (1) Amendment No. 1 to Amended and Restated Loan Agreement, dated as of November 6, 2015, by and among PLP, PLP Australia, and Bank, (2) Amendment No. 2 to Amended and Restated Loan Agreement, dated as of August 22, 2016, by and among PLP, PLP Australia, and Bank, (3) Joinder and Amendment No. 3 to Amended and Restated Loan Agreement, dated as of March 13, 2018, by and among PLP, PLP Australia, BELOS-PLP S.A., a company organized under the laws of Poland (“PLP Poland”) and Bank, (4) Amendment No. 4 to Amended and Restated Loan Agreement, dated as of November 30, 2018, by and among PLP, PLP Australia, PLP Poland and Bank, (5) Amendment No. 5 to Amended and Restated Loan Agreement, dated as of April 25, 2019, by and among PLP, PLP Australia, PLP Poland, PT PREFORMED LINE PRODUCTS INDONESIA, a company organized under the laws of Indonesia (“
+PLP Indonesia
+”), and Bank, (6)  Joinder and Amendment No. 6 to Amended and Restated Loan Agreement, dated as of March 25, 2020, by and among PLP, PLP Australia, PLP Indonesia, PLP Poland, PLP Austria and Bank, (7) Amendment No. 7 to Amended and Restated Loan Agreement, dated as of March 2, 2022, by and among PLP, PLP Australia, PLP Poland, PLP Indonesia, PLP Austria and Bank and (8) Joinder and Amendment No. 8 to Amended and Restated Loan Agreement, dated as of March 14, 2025, by and among PLP, PLP Australia, PLP Poland, PLP Indonesia, PLP Austria, PLP Spain and Bank (as amended by this Amendment, and as further amended, restated, modified or supplemented from time to time, the “
+Loan Agreement
+”), pursuant to which Bank has made certain loans and financial accommodations available to the Borrowers;
+WHEREAS, the loans to PLP Indonesia were repaid in full in 2024 and the Borrowers have requested that PLP Indonesia be removed as a Borrower under the Loan Agreement; and
+WHEREAS, the parties desire to amend the Loan Agreement as hereinafter set forth;
+NOW, THEREFORE, in consideration of the mutual promises and agreements contained herein and other good and valuable consideration, the receipt and adequacy of which are hereby acknowledged, the parties hereto do hereby agree as follows:
+1.
+DEFINED TERMS.
+Each defined term used herein and not otherwise defined herein shall have the meaning ascribed to such term in the Loan Agreement. 
+2.
+AMENDMENT TO THE LOAN AGREEMENT.
+2.1    
+Amendment to Entity Names
+. The Loan Agreement is hereby amended to replace all references to “BELOS-PLP S.A.” and “APRESA – PLP SPAIN, S. A.” throughout the Loan Agreement with “PLP POLAND (BELOS) S.A.” and “APRESA PLP SPAIN, S.A.U.”, respectively.
+2.2    
+Removal of PLP Indonesia as a Borrower
+.  The Loan Agreement and all other Loan Documents are hereby amended to remove PLP Indonesia from the definition of “Borrower” and “Borrowers.”
+2.3    
+Amendment to Liens and Encumbrances Provisions
+.  Section 5.2 of the Loan Agreement is hereby amended to delete subpart (v) therefrom and replace it with the following:
+(v) (a) any mortgage, security interest, capitalized lease or other lien (each a “purchase money security interest”) which is created or assumed in purchasing, constructing or improving any real property or equipment or to which any such property is subject when purchased, provided, however, that (A) the purchase money security interest shall be confined to the aforesaid property, (B) the indebtedness secured thereby does not exceed the total cost of the purchase, construction or improvement, and (C) any such indebtedness, if repaid in whole or in part, cannot be reborrowed, (b) any mortgage, security interest or other lien (other than any purchase money security interest) which encumbers any fixed asset of any corporation or other business entity that is not a Subsidiary of any Borrower on the date of this Agreement but which becomes, by acquisition, a subsidiary of a Borrower after the date of this Agreement, but only if the mortgage, security interest or other lien in question encumbered the fixed asset in question at the time such subsidiary is acquired, and (c) any security interest or lien on property and equipment acquired in an acquisition but not in contemplation thereof, provided, however, that the aggregate amount of all indebtedness secured by mortgages, security interests or other liens permitted by this clause (v) shall not at any time exceed an aggregate amount equal to fifty-five million dollars ($55,000,000) at any one time outstanding for all Companies;
+3.    REPRESENTATIONS AND WARRANTIES.
+Each of the Borrowers hereby represents and warrants to Bank as follows:
+3.1    
+The Amendment
+.  This Amendment has been duly and validly executed by an authorized officer of such Borrower and constitutes the legal, valid and binding obligation of such Borrower enforceable against such Borrower in accordance with its terms.
+3.2      
+Loan Agreement
+.  The Loan Agreement, as amended by this Amendment, remains in full force and effect and remains the valid and binding obligation of each Borrower enforceable against each Borrower in accordance with its terms.  Each Borrower hereby ratifies and confirms the Loan Agreement.
+3.3    
+Claims and Defenses
+.   As of the date of this Amendment, no Borrower has any defenses, claims, counterclaims or setoffs with respect to the Loan Agreement or its Obligations thereunder or with respect to any actions of Bank or any of its respective officers, directors, shareholders, employees, agents or attorneys, and each Borrower irrevocably and absolutely waives any such defenses, claims, counterclaims and setoffs and releases Bank and each of its respective officers, directors, shareholders, employees, agents and attorneys from the same.
+3.4    
+Representations and Warranties
+.  The representations and warranties of each Borrower contained in the Loan Agreement (as amended hereby) and the other Loan Documents (as amended in connection herewith), are true and correct.
+3.5    
+No Event of Default
+.  No Event of Default or condition which, but for the giving of notice or passage of time, would give rise to an Event of Default has occurred and is continuing.
+3.6    
+Material Adverse Change
+.  No material adverse change has occurred since the date of the most recent Financial Statements delivered to the Bank.
+4.    REAFFIRMATION. 
+Each of the Borrowers hereby acknowledges and agrees that the terms and provisions hereof shall not affect in any way any payment, performance, observance or other obligations or liabilities of such Borrower under the Loan Agreement or under any of the other Loan Documents, all of which obligations and liabilities shall remain in full force and effect and extend to the further loans, extensions of credit and other obligations incurred under the Loan Documents, and each of which obligations and liabilities are hereby ratified, confirmed and reaffirmed in all respects.
+5.    CONDITIONS PRECEDENT TO EFFECTIVENESS OF THIS AMENDMENT.
+In addition to all of the other conditions and agreements set forth herein, the effectiveness of this Amendment is subject to each of the following conditions precedent:
+5.1      
+Amendment No. 9 to Amended and Restated Loan Agreement
+.  Bank shall have received an original counterpart of this Amendment, executed and delivered by a duly authorized officer of each Borrower. 
+5.2      
+Fifteenth Amended and Restated Line of Credit Note
+.  Bank shall have received that certain Fifteenth Amended and Restated Line of Credit Note, dated as of the date hereof, 
+executed and delivered by a duly authorized officer of PLP, PLP Australia, PLP Poland, PLP Spain and PLP Austria, in favor of Bank.     
+5.3    
+Fees and Expenses
+.  Borrowers shall have paid all fees of Bank in connection with this Amendment including, without limitation, all legal fees.
+5.4    
+Other Documents and Deliveries.
+  Bank shall have received such other agreements, documents, and instruments executed in connection with this Amendment and any other materials as reasonably requested by Bank.
+6.    MISCELLANEOUS.
+6.1    
+Governing Law
+.  This Amendment shall be governed by and construed in accordance with the law of the State of Ohio, without regard to principles of conflict of law.
+6.2    
+Severability
+.  Each provision of this Amendment shall be interpreted in such manner as to be valid under applicable law, but if any provision hereof shall be invalid under applicable law, such provision shall be ineffective to the extent of such invalidity, without invalidating the remainder of such provision or the remaining provisions hereof.
+6.3    
+Counterparts
+.  This Amendment may be executed in any number of counterparts and by different parties hereto in separate counterparts, each of which when so executed shall be deemed to be an original and all of which taken together shall constitute but one and the same agreement.  Delivery of an executed counterpart hereof by facsimile shall be effective as manual delivery of such counterpart; 
+provided
+, 
+however
+, that, each party hereto will promptly thereafter deliver counterpart originals of such counterpart facsimiles delivered by or on behalf of such party.
+6.4    
+Nonwaiver
+.  The execution, delivery, performance and effectiveness of this Amendment shall not operate nor be deemed to be nor construed as a waiver (i) of any right, power or remedy of Bank under the Loan Agreement, nor (ii) of any term, provision, representation, warranty or covenant contained in the Loan Agreement or any other documentation executed in connection therewith.  Further, none of the provisions of this Amendment shall constitute, be deemed to be or construed as, a waiver of any Event of Default under the Loan Agreement, as amended by this Agreement.
+6.5    
+Reference to and Effect on the Loan Agreement
+.  Upon the effectiveness of this Amendment, each reference in the Loan Agreement to “this Agreement”, “hereunder”, “hereof”, “herein”, or words of like import shall mean and be a reference to the Loan Agreement, as amended hereby, and each reference to the Loan Agreement in any other document, instrument or agreement executed and/or delivered in connection with the Loan Agreement shall mean and be a reference to the Loan Agreement, as amended hereby.
+[Remainder of this page intentionally left blank; Signature page follows]

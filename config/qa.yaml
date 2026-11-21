@@ -1,0 +1,4 @@
+max_doc_chars_for_whole_doc: 400000
+temperature: 0.0
+model_role: "main"
+retry_on_invalid_json: 1

@@ -1,0 +1,987 @@
+{
+  "prompt_version": "v3",
+  "split_arg": "all",
+  "finished_docs": [
+    "03_dbs_mitc",
+    "000010/104897/0000950123-11-030926_2.txt",
+    "09_muthoothomefin_MHIL-MITC",
+    "000081/810113/0000950116-04-002411_4.txt"
+  ],
+  "stopped_reason": null,
+  "total_seconds": 1.09,
+  "model_used_counts": {
+    "gemini-3.5-flash-lite": 202
+  },
+  "review_sampling": {
+    "high_critical_pool": 17,
+    "high_critical_sampled": 17,
+    "medium_low_pool": 117,
+    "medium_low_sampled": 10,
+    "total_review_rows": 27
+  },
+  "documents": [
+    {
+      "doc_id": "03_dbs_mitc",
+      "doc_type": "indian_mitc",
+      "split": "dev",
+      "splitter_clauses": 11,
+      "prefilter_passed": 10,
+      "prefilter_dropped": 1,
+      "flagged_clauses": 10,
+      "none_clauses": 1,
+      "unclassified_clauses": 0,
+      "silver_total": 12,
+      "silver_prefilter_kept": 11,
+      "silver_flagged": 11,
+      "silver_flagged_rate": 91.7,
+      "silver_cat_agree_on_flagged": 5,
+      "silver_cat_agree_pct_of_flagged": 45.5,
+      "silver_cat_agree_pct_of_all": 41.7,
+      "silver_sev_exact_on_flagged": 6,
+      "silver_sev_within1_on_flagged": 8,
+      "silver_sev_within1_pct_of_flagged": 72.7,
+      "unlabeled_flagged_total": 3,
+      "unlabeled_by_severity": {
+        "Low": 1,
+        "Medium": 1,
+        "High": 1,
+        "Critical": 0
+      },
+      "full_scan_score": 38.3,
+      "full_scan_level": "Moderate",
+      "full_scan_level_before_floor": "Moderate",
+      "full_scan_floor_applied": false,
+      "silver_labeled_score": 45.8,
+      "silver_labeled_level": "Moderate",
+      "v2_labeled_score": 44.2,
+      "v2_labeled_level": "High",
+      "calls_made": 0,
+      "live_calls_made": 0,
+      "seconds": 0.0,
+      "model_used_counts": {
+        "gemini-3.5-flash-lite": 10
+      },
+      "prompt_version": "v3",
+      "silver_matches": [
+        {
+          "silver_clause_id": "IM01",
+          "silver_category": "Financial terms",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0002"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Financial terms",
+          "pred_severity": "Medium",
+          "snippet": "Floating Rate of Interest – This is linked to the RBI Policy Repo Rate which is subject to change from time to"
+        },
+        {
+          "silver_clause_id": "IM02",
+          "silver_category": "Penalties and charges",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0002"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Financial terms",
+          "pred_severity": "Medium",
+          "snippet": "List of Fees and charges is available in the Schedule of Charges and also made available at <<<Link of website"
+        },
+        {
+          "silver_clause_id": "IM03",
+          "silver_category": "Penalties and charges",
+          "silver_severity": "High",
+          "matched_scan_ids": [
+            "C0003"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Penalties and charges",
+          "pred_severity": "High",
+          "snippet": "In case any dues remain unpaid on the respective Due Dates or in case of breach of applicable LTV ratio/ margi"
+        },
+        {
+          "silver_clause_id": "IM04",
+          "silver_category": "Covenants",
+          "silver_severity": "Low",
+          "matched_scan_ids": [
+            "C0003"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Penalties and charges",
+          "pred_severity": "High",
+          "snippet": "The Borrower must have saving account in DBS Bank and loan sanctioned will be credited to the DBS bank saving "
+        },
+        {
+          "silver_clause_id": "IM05",
+          "silver_category": "Repayment",
+          "silver_severity": "High",
+          "matched_scan_ids": [
+            "C0005"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Default conditions",
+          "pred_severity": "High",
+          "snippet": "Repayment must be made via standing instructions, ECS/NACH mandate, or post-dated checks as acceptable to DBS "
+        },
+        {
+          "silver_clause_id": "IM06",
+          "silver_category": "Repayment",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0006"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Repayment",
+          "pred_severity": "Low",
+          "snippet": "The Borrower may, with the prior approval of DBS Bank, prepay the Borrower's Dues, in full or in part, subject"
+        },
+        {
+          "silver_clause_id": "IM07",
+          "silver_category": "Collateral",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0006"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Repayment",
+          "pred_severity": "Low",
+          "snippet": "The Facility Amount, together with interest, charges, costs, Penal Charges, additional interest, further inter"
+        },
+        {
+          "silver_clause_id": "IM08",
+          "silver_category": "Default conditions",
+          "silver_severity": "High",
+          "matched_scan_ids": [
+            "C0008"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Default conditions",
+          "pred_severity": "High",
+          "snippet": "g) Market Price Decline of Gold Jewels: Reduction in the value of the gold jewels due to market price changes."
+        },
+        {
+          "silver_clause_id": "IM09",
+          "silver_category": "Default conditions",
+          "silver_severity": "High",
+          "matched_scan_ids": [
+            "C0009"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Covenants",
+          "pred_severity": "Low",
+          "snippet": "The Borrower shall promptly notify DBS Bank in writing upon becoming aware of any Event of default and the ste"
+        },
+        {
+          "silver_clause_id": "IM10",
+          "silver_category": "Default conditions",
+          "silver_severity": "High",
+          "matched_scan_ids": [
+            "C0010"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Default conditions",
+          "pred_severity": "High",
+          "snippet": "If the Borrower(s) defaults on any other credit/ facility agreement or arrangement with DBS Bank and/or its su"
+        },
+        {
+          "silver_clause_id": "IM11",
+          "silver_category": "Covenants",
+          "silver_severity": "Low",
+          "matched_scan_ids": [
+            "C0010"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Default conditions",
+          "pred_severity": "High",
+          "snippet": "The Borrower must notify the DBS Bank regarding any change in residential address, or any other information su"
+        },
+        {
+          "silver_clause_id": "IM12",
+          "silver_category": "Covenants",
+          "silver_severity": "Low",
+          "matched_scan_ids": [
+            "C0011"
+          ],
+          "prefilter_kept": false,
+          "flagged": false,
+          "pred_category": "none",
+          "pred_severity": "none",
+          "snippet": "The Borrower must carefully read and understand the full Loan Agreement before signing, as it is legally bindi"
+        }
+      ]
+    },
+    {
+      "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+      "doc_type": "sec_agreement",
+      "split": "dev",
+      "splitter_clauses": 106,
+      "prefilter_passed": 95,
+      "prefilter_dropped": 11,
+      "flagged_clauses": 81,
+      "none_clauses": 25,
+      "unclassified_clauses": 0,
+      "silver_total": 17,
+      "silver_prefilter_kept": 17,
+      "silver_flagged": 17,
+      "silver_flagged_rate": 100.0,
+      "silver_cat_agree_on_flagged": 14,
+      "silver_cat_agree_pct_of_flagged": 82.4,
+      "silver_cat_agree_pct_of_all": 82.4,
+      "silver_sev_exact_on_flagged": 14,
+      "silver_sev_within1_on_flagged": 17,
+      "silver_sev_within1_pct_of_flagged": 100.0,
+      "unlabeled_flagged_total": 65,
+      "unlabeled_by_severity": {
+        "Low": 21,
+        "Medium": 40,
+        "High": 4,
+        "Critical": 0
+      },
+      "full_scan_score": 48.8,
+      "full_scan_level": "Moderate",
+      "full_scan_level_before_floor": "Moderate",
+      "full_scan_floor_applied": false,
+      "silver_labeled_score": 46.2,
+      "silver_labeled_level": "High",
+      "v2_labeled_score": 42.1,
+      "v2_labeled_level": "Moderate",
+      "calls_made": 0,
+      "live_calls_made": 0,
+      "seconds": 0.0,
+      "model_used_counts": {
+        "gemini-3.5-flash-lite": 95
+      },
+      "prompt_version": "v3",
+      "silver_matches": [
+        {
+          "silver_clause_id": "R01",
+          "silver_category": "Termination",
+          "silver_severity": "Low",
+          "matched_scan_ids": [
+            "C0020",
+            "C0021"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Financial terms",
+          "pred_severity": "Medium",
+          "snippet": "The Bank agrees, on the terms and subject to the conditions hereinafter set forth, to make Advances to the Bor"
+        },
+        {
+          "silver_clause_id": "R02",
+          "silver_category": "Repayment",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0021"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Financial terms",
+          "pred_severity": "Medium",
+          "snippet": "Within the limits of the, the Borrower may borrow, repay pursuant to Section 2.07 and re-borrow under this Sec"
+        },
+        {
+          "silver_clause_id": "R03",
+          "silver_category": "Penalties and charges",
+          "silver_severity": "Low",
+          "matched_scan_ids": [
+            "C0022"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Penalties and charges",
+          "pred_severity": "Low",
+          "snippet": "Section 2.03 Commitment Fees. There are no commitment fees payable by the Borrower hereunder."
+        },
+        {
+          "silver_clause_id": "R04",
+          "silver_category": "Financial terms",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0023"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Financial terms",
+          "pred_severity": "Medium",
+          "snippet": "Interest on the Note is computed on a 365/360 basis; that is, by applying the ratio of the interest rate over "
+        },
+        {
+          "silver_clause_id": "R05",
+          "silver_category": "Repayment",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0023"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Financial terms",
+          "pred_severity": "Medium",
+          "snippet": "The Borrower hereby authorizes the Bank, if and to the extent payment is not promptly made pursuant hereto, to"
+        },
+        {
+          "silver_clause_id": "R06",
+          "silver_category": "Repayment",
+          "silver_severity": "Low",
+          "matched_scan_ids": [
+            "C0024"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Repayment",
+          "pred_severity": "Low",
+          "snippet": "Whenever any payment to be made hereunder or under a Note shall be stated to be due on a Saturday, Sunday or a"
+        },
+        {
+          "silver_clause_id": "R07",
+          "silver_category": "Covenants",
+          "silver_severity": "Low",
+          "matched_scan_ids": [
+            "C0053"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Covenants",
+          "pred_severity": "Medium",
+          "snippet": "The Borrower and Guarantors will keep accurate books of record and account for itself in which true and comple"
+        },
+        {
+          "silver_clause_id": "R08",
+          "silver_category": "Covenants",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0059"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Covenants",
+          "pred_severity": "Medium",
+          "snippet": "Section 5.08 Minimum Net Worth. So long as the Note shall remain unpaid or the Bank shall have any Commitment "
+        },
+        {
+          "silver_clause_id": "R09",
+          "silver_category": "Covenants",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0060"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Covenants",
+          "pred_severity": "Medium",
+          "snippet": "Section 5.09 Ratio of Debt to Tangible Net Worth. So long as the Note shall remain unpaid or the Bank shall ha"
+        },
+        {
+          "silver_clause_id": "R10",
+          "silver_category": "Covenants",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0074"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Covenants",
+          "pred_severity": "Medium",
+          "snippet": "Section 6.02 Indebtedness. The Borrower and Guarantors will not incur, create, assume or permit to exist any i"
+        },
+        {
+          "silver_clause_id": "R11",
+          "silver_category": "Covenants",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0078"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Covenants",
+          "pred_severity": "Medium",
+          "snippet": "Section 6.04 Sale of Assets. The Borrower and Guarantors will not sell, lease, assign, transfer or otherwise d"
+        },
+        {
+          "silver_clause_id": "R12",
+          "silver_category": "Default conditions",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0084"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Default conditions",
+          "pred_severity": "Medium",
+          "snippet": "(a) Default in the payment of any sums payable on the Note when it becomes due and payable and continuance of "
+        },
+        {
+          "silver_clause_id": "R13",
+          "silver_category": "Default conditions",
+          "silver_severity": "High",
+          "matched_scan_ids": [
+            "C0088"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Default conditions",
+          "pred_severity": "High",
+          "snippet": "(e) The Borrower or any Guarantor shall be adjudicated a bankrupt or insolvent, or admit in writing its inabil"
+        },
+        {
+          "silver_clause_id": "R14",
+          "silver_category": "Default conditions",
+          "silver_severity": "High",
+          "matched_scan_ids": [
+            "C0092"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Default conditions",
+          "pred_severity": "High",
+          "snippet": "(j) Adverse conditions develop at any time affecting Borrower's or any Guarantor's affairs, financial or other"
+        },
+        {
+          "silver_clause_id": "R15",
+          "silver_category": "Termination",
+          "silver_severity": "High",
+          "matched_scan_ids": [
+            "C0095"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Termination",
+          "pred_severity": "High",
+          "snippet": "(a) The Bank may, by notice to the Borrower and Guarantors, declare the Commitment to be terminated whereupon "
+        },
+        {
+          "silver_clause_id": "R16",
+          "silver_category": "Collateral",
+          "silver_severity": "Critical",
+          "matched_scan_ids": [
+            "C0096"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Collateral",
+          "pred_severity": "High",
+          "snippet": "(c) The Bank may, without notice to the Borrower and Guarantors and without further action, apply any and all "
+        },
+        {
+          "silver_clause_id": "R17",
+          "silver_category": "Penalties and charges",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0101"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Penalties and charges",
+          "pred_severity": "Medium",
+          "snippet": "The Borrower and Guarantors agree to pay on demand all costs and expenses of the Bank in connection with the p"
+        }
+      ]
+    },
+    {
+      "doc_id": "09_muthoothomefin_MHIL-MITC",
+      "doc_type": "indian_mitc",
+      "split": "test",
+      "splitter_clauses": 31,
+      "prefilter_passed": 27,
+      "prefilter_dropped": 4,
+      "flagged_clauses": 27,
+      "none_clauses": 4,
+      "unclassified_clauses": 0,
+      "silver_total": 14,
+      "silver_prefilter_kept": 14,
+      "silver_flagged": 14,
+      "silver_flagged_rate": 100.0,
+      "silver_cat_agree_on_flagged": 8,
+      "silver_cat_agree_pct_of_flagged": 57.1,
+      "silver_cat_agree_pct_of_all": 57.1,
+      "silver_sev_exact_on_flagged": 4,
+      "silver_sev_within1_on_flagged": 14,
+      "silver_sev_within1_pct_of_flagged": 100.0,
+      "unlabeled_flagged_total": 15,
+      "unlabeled_by_severity": {
+        "Low": 8,
+        "Medium": 7,
+        "High": 0,
+        "Critical": 0
+      },
+      "full_scan_score": 39.2,
+      "full_scan_level": "Moderate",
+      "full_scan_level_before_floor": "Moderate",
+      "full_scan_floor_applied": false,
+      "silver_labeled_score": 46.2,
+      "silver_labeled_level": "High",
+      "v2_labeled_score": 43.8,
+      "v2_labeled_level": "Moderate",
+      "calls_made": 0,
+      "live_calls_made": 0,
+      "seconds": 0.0,
+      "model_used_counts": {
+        "gemini-3.5-flash-lite": 27
+      },
+      "prompt_version": "v3",
+      "silver_matches": [
+        {
+          "silver_clause_id": "IM01",
+          "silver_category": "Financial terms",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0003"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Financial terms",
+          "pred_severity": "Low",
+          "snippet": "Under Semi Fixed, the interest rate is fixed for the first 36 months of the loan tenure. The rate type for the"
+        },
+        {
+          "silver_clause_id": "IM02",
+          "silver_category": "Financial terms",
+          "silver_severity": "Low",
+          "matched_scan_ids": [
+            "C0004"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Financial terms",
+          "pred_severity": "Low",
+          "snippet": "Interest shall be calculated on the principal outstanding as per the loan account / repayment schedule on a da"
+        },
+        {
+          "silver_clause_id": "IM03",
+          "silver_category": "Covenants",
+          "silver_severity": "High",
+          "matched_scan_ids": [
+            "C0006"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Covenants",
+          "pred_severity": "Medium",
+          "snippet": "The loan amount should be used by the borrower exclusively for the purpose mentioned above. Use of funds for p"
+        },
+        {
+          "silver_clause_id": "IM04",
+          "silver_category": "Penalties and charges",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0007"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Penalties and charges",
+          "pred_severity": "Low",
+          "snippet": "Administrative Fees towards Housing & Non-Housing Loans. Administrative Fees upto 3.5% of Loan amount. At the "
+        },
+        {
+          "silver_clause_id": "IM05",
+          "silver_category": "Penalties and charges",
+          "silver_severity": "High",
+          "matched_scan_ids": [
+            "C0008"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Penalties and charges",
+          "pred_severity": "Medium",
+          "snippet": "Penal charges shall be levied at the rate of 24.00% p.a. on the overdue / defaulted amount, calculated for the"
+        },
+        {
+          "silver_clause_id": "IM06",
+          "silver_category": "Collateral",
+          "silver_severity": "Low",
+          "matched_scan_ids": [
+            "C0014",
+            "C0015"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Penalties and charges",
+          "pred_severity": "Medium",
+          "snippet": "In case of delay in releasing of original movable / immovable property documents or failing to file charge sat"
+        },
+        {
+          "silver_clause_id": "IM07",
+          "silver_category": "Penalties and charges",
+          "silver_severity": "High",
+          "matched_scan_ids": [
+            "C0014"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Penalties and charges",
+          "pred_severity": "Medium",
+          "snippet": "Execution of CMM/DM order Order Execution Charges To take possession of property Per order execution Rs.50,000"
+        },
+        {
+          "silver_clause_id": "IM08",
+          "silver_category": "Termination",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0015"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Penalties and charges",
+          "pred_severity": "Low",
+          "snippet": "In case of loan cancellation, at any stage before the loan is disbursed, the borrower will have to bear the ex"
+        },
+        {
+          "silver_clause_id": "IM09",
+          "silver_category": "Collateral",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0016"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Collateral",
+          "pred_severity": "Medium",
+          "snippet": "The loan will be secured by way of mortgage of the property mentioned below in favor of MHIL"
+        },
+        {
+          "silver_clause_id": "IM10",
+          "silver_category": "Termination",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0020"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Covenants",
+          "pred_severity": "Medium",
+          "snippet": "On event of expiry of moratorium, if the loan remains undisbursed (partly/fully), MHIL will have right to down"
+        },
+        {
+          "silver_clause_id": "IM11",
+          "silver_category": "Repayment",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0021"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Repayment",
+          "pred_severity": "Medium",
+          "snippet": "EMI is appropriated first towards recovery of interest due and the remaining amount is used for recovery of pr"
+        },
+        {
+          "silver_clause_id": "IM12",
+          "silver_category": "Repayment",
+          "silver_severity": "Low",
+          "matched_scan_ids": [
+            "C0022"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Default conditions",
+          "pred_severity": "Medium",
+          "snippet": "MHI L shall not be obliged to serve notice, reminder or intimation to the borrower(s) regarding his/her/their "
+        },
+        {
+          "silver_clause_id": "IM13",
+          "silver_category": "Covenants",
+          "silver_severity": "High",
+          "matched_scan_ids": [
+            "C0022"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Default conditions",
+          "pred_severity": "Medium",
+          "snippet": "Borrowers agree to give unconditional permission to the authorized representatives of MHIL to visit the proper"
+        },
+        {
+          "silver_clause_id": "IM14",
+          "silver_category": "Default conditions",
+          "silver_severity": "Critical",
+          "matched_scan_ids": [
+            "C0023"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Collateral",
+          "pred_severity": "High",
+          "snippet": "In event of continued default and declaration of the loan amount as delinquent or Non-Performing Asset (NPA), "
+        }
+      ]
+    },
+    {
+      "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+      "doc_type": "sec_agreement",
+      "split": "test",
+      "splitter_clauses": 83,
+      "prefilter_passed": 70,
+      "prefilter_dropped": 13,
+      "flagged_clauses": 67,
+      "none_clauses": 16,
+      "unclassified_clauses": 0,
+      "silver_total": 17,
+      "silver_prefilter_kept": 17,
+      "silver_flagged": 17,
+      "silver_flagged_rate": 100.0,
+      "silver_cat_agree_on_flagged": 16,
+      "silver_cat_agree_pct_of_flagged": 94.1,
+      "silver_cat_agree_pct_of_all": 94.1,
+      "silver_sev_exact_on_flagged": 9,
+      "silver_sev_within1_on_flagged": 16,
+      "silver_sev_within1_pct_of_flagged": 94.1,
+      "unlabeled_flagged_total": 51,
+      "unlabeled_by_severity": {
+        "Low": 21,
+        "Medium": 18,
+        "High": 12,
+        "Critical": 0
+      },
+      "full_scan_score": 56.7,
+      "full_scan_level": "High",
+      "full_scan_level_before_floor": "High",
+      "full_scan_floor_applied": false,
+      "silver_labeled_score": 45.0,
+      "silver_labeled_level": "High",
+      "v2_labeled_score": 47.1,
+      "v2_labeled_level": "High",
+      "calls_made": 0,
+      "live_calls_made": 0,
+      "seconds": 0.0,
+      "model_used_counts": {
+        "gemini-3.5-flash-lite": 70
+      },
+      "prompt_version": "v3",
+      "silver_matches": [
+        {
+          "silver_clause_id": "R01",
+          "silver_category": "Penalties and charges",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0009"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Penalties and charges",
+          "pred_severity": "Medium",
+          "snippet": "(j) \"Default Rate\" shall mean an annual interest rate equal to the lesser of the maximum interest rate permitt"
+        },
+        {
+          "silver_clause_id": "R02",
+          "silver_category": "Penalties and charges",
+          "silver_severity": "Low",
+          "matched_scan_ids": [
+            "C0009"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Penalties and charges",
+          "pred_severity": "Medium",
+          "snippet": "(k) \"Documentation Fee\" shall mean a documentation fee payable to Lender in the amount of $500.00."
+        },
+        {
+          "silver_clause_id": "R03",
+          "silver_category": "Repayment",
+          "silver_severity": "Low",
+          "matched_scan_ids": [
+            "C0031"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Repayment",
+          "pred_severity": "Medium",
+          "snippet": "Borrowers shall pay the principal of the Loan and interest thereon on the terms set forth in the Note. All Ins"
+        },
+        {
+          "silver_clause_id": "R04",
+          "silver_category": "Repayment",
+          "silver_severity": "High",
+          "matched_scan_ids": [
+            "C0032"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Repayment",
+          "pred_severity": "Medium",
+          "snippet": "In the event that a Vessel shall suffer an Event of Loss, Borrowers shall prepay the principal of the Note plu"
+        },
+        {
+          "silver_clause_id": "R05",
+          "silver_category": "Collateral",
+          "silver_severity": "High",
+          "matched_scan_ids": [
+            "C0037"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Collateral",
+          "pred_severity": "High",
+          "snippet": "Maritrans 196 Co., does hereby grant to Lender a first priority security interest in, and acknowledge and agre"
+        },
+        {
+          "silver_clause_id": "R06",
+          "silver_category": "Covenants",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0039"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Covenants",
+          "pred_severity": "High",
+          "snippet": "WITHOUT LENDER'S PRIOR WRITTEN CONSENT, NO BORROWER SHALL (EXCEPT AS EXPRESSLY PERMITTED UNDER THE PREFERRED M"
+        },
+        {
+          "silver_clause_id": "R07",
+          "silver_category": "Penalties and charges",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0044"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Penalties and charges",
+          "pred_severity": "Medium",
+          "snippet": "If Borrowers fail to pay any of the Installments within ten (10) days after receipt of notice from Lender that"
+        },
+        {
+          "silver_clause_id": "R08",
+          "silver_category": "Collateral",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0045"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Collateral",
+          "pred_severity": "High",
+          "snippet": "the Collateral is not subject to, and Borrowers will not grant or permit to exist, any Liens or claims on or a"
+        },
+        {
+          "silver_clause_id": "R09",
+          "silver_category": "Default conditions",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0046"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Default conditions",
+          "pred_severity": "Medium",
+          "snippet": "(1) Borrowers fail to pay any Installment within ten (10) days after the date due; (2) any Borrower breaches a"
+        },
+        {
+          "silver_clause_id": "R10",
+          "silver_category": "Default conditions",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0047"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Default conditions",
+          "pred_severity": "High",
+          "snippet": "any representation or warranty made by any Borrower as applicable herein or in any of the Loan Documents, cert"
+        },
+        {
+          "silver_clause_id": "R11",
+          "silver_category": "Termination",
+          "silver_severity": "High",
+          "matched_scan_ids": [
+            "C0048",
+            "C0049"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Termination",
+          "pred_severity": "High",
+          "snippet": "if the Charter Agreement is cancelled or terminated prior to the expiration of the term thereof or any materia"
+        },
+        {
+          "silver_clause_id": "R12",
+          "silver_category": "Termination",
+          "silver_severity": "Critical",
+          "matched_scan_ids": [
+            "C0049"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Termination",
+          "pred_severity": "High",
+          "snippet": "Upon the occurrence of an Event of Default, Lender, at its option, may declare any or all of Borrowers' Obliga"
+        },
+        {
+          "silver_clause_id": "R13",
+          "silver_category": "Collateral",
+          "silver_severity": "Critical",
+          "matched_scan_ids": [
+            "C0051"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Penalties and charges",
+          "pred_severity": "Medium",
+          "snippet": "without demand and without advertisement, notice, hearing or process of law, all of which Borrowers hereby wai"
+        },
+        {
+          "silver_clause_id": "R14",
+          "silver_category": "Covenants",
+          "silver_severity": "Low",
+          "matched_scan_ids": [
+            "C0063"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Covenants",
+          "pred_severity": "Low",
+          "snippet": "Within sixty (60) days after the end of each quarterly period (except the last) of each fiscal year, consolida"
+        },
+        {
+          "silver_clause_id": "R15",
+          "silver_category": "Covenants",
+          "silver_severity": "Low",
+          "matched_scan_ids": [
+            "C0064"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Covenants",
+          "pred_severity": "Low",
+          "snippet": "Within 120 days after the last day of each fiscal year, consolidated financial statements of Maritrans Inc., p"
+        },
+        {
+          "silver_clause_id": "R16",
+          "silver_category": "Covenants",
+          "silver_severity": "Medium",
+          "matched_scan_ids": [
+            "C0067"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Covenants",
+          "pred_severity": "Medium",
+          "snippet": "So long as any Obligations under the Loan Documents remain outstanding, Borrowers covenant and agree that Mari"
+        },
+        {
+          "silver_clause_id": "R17",
+          "silver_category": "Financial terms",
+          "silver_severity": "Low",
+          "matched_scan_ids": [
+            "C0023"
+          ],
+          "prefilter_kept": true,
+          "flagged": true,
+          "pred_category": "Financial terms",
+          "pred_severity": "Low",
+          "snippet": "Lender agrees, on the Funding Date, to fund a Loan to Borrowers in the amount of $22,000,000."
+        }
+      ]
+    }
+  ]
+}

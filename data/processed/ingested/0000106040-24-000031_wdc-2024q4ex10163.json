@@ -1,0 +1,1718 @@
+{
+  "source": "C:\\finalYear\\data\\raw\\02_sec_edgar_loans\\0000106040-24-000031_wdc-2024q4ex10163.htm",
+  "filename": "0000106040-24-000031_wdc-2024q4ex10163.htm",
+  "format": "html",
+  "total_pages": 4,
+  "processing_time_seconds": 0.046,
+  "ocr_pages_count": 0,
+  "tables_count": 23,
+  "pages": [
+    {
+      "page": 1,
+      "text": "EX-10.16(3)\n\n6\n\nwdc-2024q4ex10163.htm\n\nEX-10.16(3)",
+      "source": "text_layer",
+      "quality": "BAD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": [
+        {
+          "page": 1,
+          "table_index": 1,
+          "bbox": [],
+          "row_count": 4,
+          "col_count": 3,
+          "columns": [
+            "",
+            "WESTERN DIGITAL CORPORATION"
+          ],
+          "rows": [
+            [
+              "",
+              "WESTERN DIGITAL CORPORATION"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Grace Lin"
+            ],
+            [
+              "",
+              "",
+              "Name: Grace Lin"
+            ],
+            [
+              "",
+              "",
+              "Title:   Authorized Signatory"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 2,
+          "bbox": [],
+          "row_count": 5,
+          "col_count": 3,
+          "columns": [
+            "",
+            "JPMORGAN CHASE BANK, N.A., as"
+          ],
+          "rows": [
+            [
+              "",
+              "JPMORGAN CHASE BANK, N.A., as"
+            ],
+            [
+              "",
+              "Administrative Agent"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Timothy Lee"
+            ],
+            [
+              "",
+              "",
+              "Name: Timothy D. Lee"
+            ],
+            [
+              "",
+              "",
+              "Title:   Executive Director"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 3,
+          "bbox": [],
+          "row_count": 4,
+          "col_count": 3,
+          "columns": [
+            "",
+            "JPMORGAN CHASE BANK, N.A., as a Lender"
+          ],
+          "rows": [
+            [
+              "",
+              "JPMORGAN CHASE BANK, N.A., as a Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Timothy Lee"
+            ],
+            [
+              "",
+              "",
+              "Name: Timothy D. Lee"
+            ],
+            [
+              "",
+              "",
+              "Title:   Executive Director"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 4,
+          "bbox": [],
+          "row_count": 4,
+          "col_count": 3,
+          "columns": [
+            "",
+            "Bank of America, N.A., as a Lender"
+          ],
+          "rows": [
+            [
+              "",
+              "Bank of America, N.A., as a Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Puneet Lakhotia"
+            ],
+            [
+              "",
+              "",
+              "Name: Puneet Lakhotia"
+            ],
+            [
+              "",
+              "",
+              "Title:   Director"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 5,
+          "bbox": [],
+          "row_count": 4,
+          "col_count": 3,
+          "columns": [
+            "",
+            "MIZUHO BANK, LTD., as a Lender"
+          ],
+          "rows": [
+            [
+              "",
+              "MIZUHO BANK, LTD., as a Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Tracy Rahn"
+            ],
+            [
+              "",
+              "",
+              "Name: Tracy Rahn"
+            ],
+            [
+              "",
+              "",
+              "Title:   Managing Director"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 6,
+          "bbox": [],
+          "row_count": 4,
+          "col_count": 3,
+          "columns": [
+            "",
+            "ROYAL BANK OF CANADA, as a Lender"
+          ],
+          "rows": [
+            [
+              "",
+              "ROYAL BANK OF CANADA, as a Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Harsh Grewal"
+            ],
+            [
+              "",
+              "",
+              "Name: Harsh Grewal"
+            ],
+            [
+              "",
+              "",
+              "Title:   Authorized Signatory"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 7,
+          "bbox": [],
+          "row_count": 4,
+          "col_count": 3,
+          "columns": [
+            "",
+            "Wells Fargo Bank, National Association, as a Lender"
+          ],
+          "rows": [
+            [
+              "",
+              "Wells Fargo Bank, National Association, as a Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Gambo Audu"
+            ],
+            [
+              "",
+              "",
+              "Name: Gambo Audu"
+            ],
+            [
+              "",
+              "",
+              "Title:   Vice President"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 8,
+          "bbox": [],
+          "row_count": 4,
+          "col_count": 3,
+          "columns": [
+            "",
+            "CITIBANK, N.A., as a Lender"
+          ],
+          "rows": [
+            [
+              "",
+              "CITIBANK, N.A., as a Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Carmen-Christina Kelleher"
+            ],
+            [
+              "",
+              "",
+              "Name: Carmen-Christina Kelleher"
+            ],
+            [
+              "",
+              "",
+              "Title:   Vice President"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 9,
+          "bbox": [],
+          "row_count": 4,
+          "col_count": 3,
+          "columns": [
+            "",
+            "PNC Bank, National Association, as a Lender"
+          ],
+          "rows": [
+            [
+              "",
+              "PNC Bank, National Association, as a Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Skyler Zweifel"
+            ],
+            [
+              "",
+              "",
+              "Name: Skyler Zweifel"
+            ],
+            [
+              "",
+              "",
+              "Title:   Vice President"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 10,
+          "bbox": [],
+          "row_count": 5,
+          "col_count": 3,
+          "columns": [
+            "",
+            "The Toronto-Dominion Bank, New York Branch, as a"
+          ],
+          "rows": [
+            [
+              "",
+              "The Toronto-Dominion Bank, New York Branch, as a"
+            ],
+            [
+              "",
+              "Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ David Perlman"
+            ],
+            [
+              "",
+              "",
+              "Name: David Perlman"
+            ],
+            [
+              "",
+              "",
+              "Title:   Authorized Signatory"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 11,
+          "bbox": [],
+          "row_count": 4,
+          "col_count": 3,
+          "columns": [
+            "",
+            "Truist Bank, as a Lender"
+          ],
+          "rows": [
+            [
+              "",
+              "Truist Bank, as a Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Shae Patel"
+            ],
+            [
+              "",
+              "",
+              "Name: Shae Patel"
+            ],
+            [
+              "",
+              "",
+              "Title:   Director"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 12,
+          "bbox": [],
+          "row_count": 5,
+          "col_count": 3,
+          "columns": [
+            "",
+            "HSBC BANK USA, NATIONAL ASSOCIATION, as a"
+          ],
+          "rows": [
+            [
+              "",
+              "HSBC BANK USA, NATIONAL ASSOCIATION, as a"
+            ],
+            [
+              "",
+              "Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Aleem Shamji"
+            ],
+            [
+              "",
+              "",
+              "Name: Aleem Shamji"
+            ],
+            [
+              "",
+              "",
+              "Title:   Managing Director"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 13,
+          "bbox": [],
+          "row_count": 4,
+          "col_count": 3,
+          "columns": [
+            "",
+            "MUFG BANK, Ltd., as a Lender"
+          ],
+          "rows": [
+            [
+              "",
+              "MUFG BANK, Ltd., as a Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Colin Donnarumma"
+            ],
+            [
+              "",
+              "",
+              "Name: Colin Donnarumma"
+            ],
+            [
+              "",
+              "",
+              "Title:   Vice President"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 14,
+          "bbox": [],
+          "row_count": 5,
+          "col_count": 3,
+          "columns": [
+            "",
+            "U.S. BANK NATIONAL ASSOCIATION, Ltd., as a Lender"
+          ],
+          "rows": [
+            [
+              "",
+              "U.S. BANK NATIONAL ASSOCIATION, Ltd., as a Lender"
+            ],
+            [
+              "",
+              "Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Brian Seipke"
+            ],
+            [
+              "",
+              "",
+              "Name: BRIAN SEIPKE"
+            ],
+            [
+              "",
+              "",
+              "Title:   SENIOR VICE PRESIDENT"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 15,
+          "bbox": [],
+          "row_count": 7,
+          "col_count": 3,
+          "columns": [
+            "",
+            "BNP Paribas, as a Lender"
+          ],
+          "rows": [
+            [
+              "",
+              "BNP Paribas, as a Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Theodore Olson"
+            ],
+            [
+              "",
+              "",
+              "Name: Theodore OLSON"
+            ],
+            [
+              "",
+              "",
+              "Title:   Managing Director"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ George Ko"
+            ],
+            [
+              "",
+              "",
+              "Name: George Ko"
+            ],
+            [
+              "",
+              "",
+              "Title:   Director"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 16,
+          "bbox": [],
+          "row_count": 4,
+          "col_count": 3,
+          "columns": [
+            "",
+            "DBS BANK LTD., as a Lender"
+          ],
+          "rows": [
+            [
+              "",
+              "DBS BANK LTD., as a Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Josephine Lim"
+            ],
+            [
+              "",
+              "",
+              "Name: Josephine Lim"
+            ],
+            [
+              "",
+              "",
+              "Title:   Executive Director"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 17,
+          "bbox": [],
+          "row_count": 8,
+          "col_count": 3,
+          "columns": [
+            "",
+            "BANCO BILBAO VIZCAYA ARGENTARIA,"
+          ],
+          "rows": [
+            [
+              "",
+              "BANCO BILBAO VIZCAYA ARGENTARIA,"
+            ],
+            [
+              "",
+              "S.A. NEW YORK BRANCH, as a Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Brian Crowley"
+            ],
+            [
+              "",
+              "",
+              "Name: Brian Crowley"
+            ],
+            [
+              "",
+              "",
+              "Title:   Managing Director"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Armen Semizian"
+            ],
+            [
+              "",
+              "",
+              "Name: Armen Semizian"
+            ],
+            [
+              "",
+              "",
+              "Title:   Managing Director"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 18,
+          "bbox": [],
+          "row_count": 4,
+          "col_count": 3,
+          "columns": [
+            "",
+            "The Bank of Nova Scotia, as a Lender"
+          ],
+          "rows": [
+            [
+              "",
+              "The Bank of Nova Scotia, as a Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ David Dewar"
+            ],
+            [
+              "",
+              "",
+              "Name: David Dewar"
+            ],
+            [
+              "",
+              "",
+              "Title:   Director"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 19,
+          "bbox": [],
+          "row_count": 4,
+          "col_count": 3,
+          "columns": [
+            "",
+            "DMO Bank N.A., as a Lender"
+          ],
+          "rows": [
+            [
+              "",
+              "DMO Bank N.A., as a Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Cecile Segovia"
+            ],
+            [
+              "",
+              "",
+              "Name: Cecile Segovia"
+            ],
+            [
+              "",
+              "",
+              "Title:   Director"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 20,
+          "bbox": [],
+          "row_count": 4,
+          "col_count": 3,
+          "columns": [
+            "",
+            "Barclays Bank PLC, as a Lender"
+          ],
+          "rows": [
+            [
+              "",
+              "Barclays Bank PLC, as a Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Joseph Tauro"
+            ],
+            [
+              "",
+              "",
+              "Name: Joseph Tauro"
+            ],
+            [
+              "",
+              "",
+              "Title:   Associate Vice President"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 21,
+          "bbox": [],
+          "row_count": 8,
+          "col_count": 3,
+          "columns": [
+            "",
+            "The Bank of East Asia, Limited, New York Branch, as a"
+          ],
+          "rows": [
+            [
+              "",
+              "The Bank of East Asia, Limited, New York Branch, as a"
+            ],
+            [
+              "",
+              "Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ James Hua"
+            ],
+            [
+              "",
+              "",
+              "Name: James Hua"
+            ],
+            [
+              "",
+              "",
+              "Title:   DGM & Corporate Banking"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Chong Tan"
+            ],
+            [
+              "",
+              "",
+              "Name: Chong Tan"
+            ],
+            [
+              "",
+              "",
+              "Title:   DGM & Risk Management"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 22,
+          "bbox": [],
+          "row_count": 8,
+          "col_count": 3,
+          "columns": [
+            "",
+            "Industrial and Commercial Bank of China Limited,"
+          ],
+          "rows": [
+            [
+              "",
+              "Industrial and Commercial Bank of China Limited,"
+            ],
+            [
+              "",
+              "New York Banks, as a Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Tony Huang"
+            ],
+            [
+              "",
+              "",
+              "Name: Tony Huang"
+            ],
+            [
+              "",
+              "",
+              "Title:   Director"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Yuanyuan Peng"
+            ],
+            [
+              "",
+              "",
+              "Name: Yuanyuan Peng"
+            ],
+            [
+              "",
+              "",
+              "Title:   Executive Director"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 23,
+          "bbox": [],
+          "row_count": 5,
+          "col_count": 3,
+          "columns": [
+            "",
+            "Oversea-Chinese Banking Corporation Limited, New York"
+          ],
+          "rows": [
+            [
+              "",
+              "Oversea-Chinese Banking Corporation Limited, New York"
+            ],
+            [
+              "",
+              "Agency, as a Lender"
+            ],
+            [
+              "",
+              "By:",
+              "/s/ Grace Sun"
+            ],
+            [
+              "",
+              "",
+              "Name: Grace Sun"
+            ],
+            [
+              "",
+              "",
+              "Title:   Managing Director, Deputy General Manager"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "text": "Document\n Exhibit 10.16(3)\nExecution Version\nAMENDMENT NO. 3\nAMENDMENT NO. 3, dated as of June 11, 2024 (this “\nAmendment\n”), to the Amended and Restated Loan Agreement dated as of January 7, 2022 (as amended by that certain Amendment No. 1, dated as of December 23, 2022, as amended by that certain Amendment No. 2, dated as of June 20, 2023, and as further amended, supplemented, amended and restated or otherwise modified from time to time prior to the date hereof, the “\nLoan Agreement\n”) among WESTERN DIGITAL CORPORATION, a Delaware corporation (the “\nLead Borrower\n”), each lender from time to time party thereto (collectively, the “\nLenders\n” and individually, a “\nLender\n”), JPMORGAN CHASE BANK, N.A., as Administrative Agent (in such capacity, the “\nAdministrative Agent\n”) and the other parties thereto.  Capitalized terms used and not otherwise defined herein shall have the meanings assigned to them in the Loan Agreement.\nWHEREAS, pursuant to Section 10.11 of the Loan Agreement, the Lead Borrower has requested certain amendments to the Loan Agreement, and the Lenders party hereto constitute the Lenders required pursuant to Section 10.11 of the Loan Agreement with respect to the amendments provided for in Section 2 below;\nNOW, THEREFORE, in consideration of the premises and covenants contained herein and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties hereto, intending to be legally bound hereby, agree as follows:\nSection 1.    \nDefined Terms\n. \n        Capitalized terms used but not defined herein shall have the respective meanings assigned to such terms in the Amended Loan Agreement (as defined below).\nSection 2.    \nAmendments\n.\n  Effective as of the Amendment No. 3 Effective Date (as defined below), the Loan Agreement is hereby amended as follows (the “\nAmended Loan Agreement\n”):\n(a)    Section 1.1 (Definitions).  The definition of “Excluded Property” is hereby amended by deleting clause (g)(v) as it appears therein and inserting in lieu thereof “(v) the Great Oaks Property so long as definitive documentation has been signed in respect of the Great Oaks Sale/Leaseback Transaction within the first seven full fiscal quarters following the Amendment No. 2 Effective Date and the Great Oaks Sale/Leaseback Transaction has been consummated within the first nine full fiscal quarters following the Amendment No. 2 Effective Date,”. \n1\nSection 3.    \nRepresentations and Warranties\n.\nThe Lead Borrower represents and warrants as of the Amendment No. 3 Effective Date that:\n(a)    Immediately before and after giving effect to this Amendment, each of the representations and warranties set forth in the Amended Loan Agreement and in the other Loan Documents shall be and remain true and correct in all material respects (or, if qualified as to “materiality,” “material adverse effect” or similar language, shall be true and correct in all respects (after giving effect to any such qualification therein)) as of said time, except to the extent the same expressly relate to an earlier date.\n(b)    At the time of and after giving effect to this Amendment, no Default or Event of Default shall have occurred and be continuing.\nSection 4.    \nCondition to Effectiveness\n. \nThis Amendment shall become effective on the date on which the following condition is satisfied (the “\nAmendment No. 3 Effective Date\n”): the Administrative Agent shall have received counterparts of this Amendment, duly executed by the Lead Borrower and the Lenders who constitute the Required Lenders, which shall be originals or facsimiles or electronic copies (and, to the extent requested by the Administrative Agent, followed promptly by originals) unless otherwise specified.\nSection 5.    \nAcknowledgments\n.\nThe Lead Borrower hereby expressly acknowledges the terms of this Amendment and reaffirms, as of the date hereof, the covenants and agreements contained in each Loan Document to which it is a party, including, in each case, such covenants and agreements as in effect immediately after giving effect to this Amendment and the transactions contemplated hereby.\nSection 6.    \nEntire Agreement\n.\nThis Amendment, the Loan Agreement and the other Loan Documents constitute the entire agreement among the parties hereto with respect to the subject matter hereof and thereof and supersede all other prior agreements and understandings, both written and verbal, among the parties hereto with respect to the subject matter hereof.  Except as expressly set forth herein, this Amendment and the Loan Agreement shall not by implication or otherwise limit, impair, constitute a waiver of, or otherwise affect the rights and remedies of any party under, the Loan Agreement, nor alter, modify, amend or in any way affect any of the terms, conditions, obligations, covenants or agreements contained in the Loan Agreement, all of which are ratified and affirmed in all respects and shall continue in full force and effect.  This Amendment shall not constitute a novation of the Loan Agreement or any of the Loan Documents. Upon and after the \n2\nexecution of this Amendment by each of the parties hereto, each reference in the Loan Agreement to “this Agreement”, “hereunder”, “hereof” or words of like import referring to the Loan Agreement, and each reference in the other Loan Documents to “the Loan Agreement”, “thereunder”, “thereof” or words of like import referring to the Loan Agreement, shall mean and be a reference to the Loan Agreement as modified hereby. It is understood and agreed that this Amendment is a “Loan Document.”\nSection 7.    \nAmendment, Modification and Waiver\n.\n    This Amendment may not be amended, modified or waived except pursuant to a writing signed by each of the parties hereto.\nSection 8.    \nExpenses\n.\nThe Lead Borrower agrees to reimburse the Administrative Agent for its reasonable and documented out-of-pocket expenses incurred by them in connection with this Amendment, including the reasonable and documented fees, charges and disbursements of Cahill Gordon & Reindel llp, counsel for the Administrative Agent.\nSection 9.    \nCounterparts\n.\nThis Amendment may be executed in any number of counterparts and by different parties hereto on separate counterparts, each of which when so executed and delivered shall be deemed to be an original, but all of which when taken together shall constitute a single instrument.  Delivery of an executed counterpart of a signature page of this Amendment by facsimile transmission or electronic transmission shall be effective as delivery of a manually executed counterpart hereof. The words “execution,” “signed,” “signature,” “delivery,” and words of like import in or relating to this Amendment shall be deemed to include Electronic Signatures, deliveries or the keeping of records in electronic form, each of which shall be of the same legal effect, validity or enforceability as a manually executed signature, physical delivery thereof or the use of a paper-based recordkeeping system, as the case may be.\nSection 10.    \nGoverning Law and Waiver of Right to Trial by Jury\n.\nTHIS AMENDMENT AND ANY CLAIM, CONTROVERSY OR DISPUTE ARISING UNDER OR RELATED TO THIS AMENDMENT AND THE RIGHTS AND OBLIGATIONS OF THE PARTIES UNDER THIS AMENDMENT SHALL BE GOVERNED BY, AND CONSTRUED AND INTERPRETED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK.  SECTION 10.22 OF THE LOAN AGREEMENT IS HEREBY INCORPORATED BY REFERENCE INTO THIS AMENDMENT AND SHALL APPLY HERETO.\n3\nSection 11.    \nHeadings\n.\nThe headings of this Amendment are for purposes of reference only and shall not limit or otherwise affect the meaning hereof.\nSection 12.    \nEffect of Amendment\n.\nExcept as expressly set forth herein, this Amendment shall not by implication or otherwise limit, impair, constitute a waiver of or otherwise affect the rights and remedies of the Lenders or the Administrative Agent under the Loan Agreement or any other Loan Document, and shall not alter, modify, amend or in any way affect any of the terms, conditions, obligations, covenants or agreements contained in the Loan Agreement or any other provision of the Loan Agreement or any other Loan Document, all of which are ratified and affirmed in all respects and shall continue in full force and effect.  \n[\nSignature pages follow\n]\n4",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": []
+    },
+    {
+      "page": 3,
+      "text": "IN WITNESS WHEREOF, the parties hereto have caused this Amendment to be duly executed as of the date first above written.\nWESTERN DIGITAL CORPORATION\nBy:\n/s/ Grace Lin\n\nName: Grace Lin\n\nTitle:   Authorized Signatory\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nJPMORGAN CHASE BANK, N.A., as\nAdministrative Agent\nBy:\n/s/ Timothy Lee\n\nName: Timothy D. Lee\n\nTitle:   Executive Director\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nJPMORGAN CHASE BANK, N.A., as a Lender\nBy:\n/s/ Timothy Lee\n\nName: Timothy D. Lee\n\nTitle:   Executive Director\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\n\nBank of America, N.A., as a Lender\nBy:\n/s/ Puneet Lakhotia\n\nName: Puneet Lakhotia\n\nTitle:   Director\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nMIZUHO BANK, LTD., as a Lender\nBy:\n/s/ Tracy Rahn\n\nName: Tracy Rahn\n\nTitle:   Managing Director\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nROYAL BANK OF CANADA, as a Lender\nBy:\n/s/ Harsh Grewal\n\nName: Harsh Grewal\n\nTitle:   Authorized Signatory\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\n\nWells Fargo Bank, National Association, as a Lender\nBy:\n/s/ Gambo Audu\n\nName: Gambo Audu\n\nTitle:   Vice President\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nCITIBANK, N.A., as a Lender\nBy:\n/s/ Carmen-Christina Kelleher\n\nName: Carmen-Christina Kelleher\n\nTitle:   Vice President\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nPNC Bank, National Association, as a Lender\nBy:\n/s/ Skyler Zweifel\n\nName: Skyler Zweifel\n\nTitle:   Vice President\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nThe Toronto-Dominion Bank, New York Branch, as a\nLender\nBy:\n/s/ David Perlman\n\nName: David Perlman\n\nTitle:   Authorized Signatory\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nTruist Bank, as a Lender\nBy:\n/s/ Shae Patel\n\nName: Shae Patel\n\nTitle:   Director\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nHSBC BANK USA, NATIONAL ASSOCIATION, as a\nLender\nBy:\n/s/ Aleem Shamji\n\nName: Aleem Shamji\n\nTitle:   Managing Director\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nMUFG BANK, Ltd., as a Lender\nBy:\n/s/ Colin Donnarumma\n\nName: Colin Donnarumma\n\nTitle:   Vice President\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nU.S. BANK NATIONAL ASSOCIATION, Ltd., as a Lender\nLender\nBy:\n/s/ Brian Seipke\n\nName: BRIAN SEIPKE\n\nTitle:   SENIOR VICE PRESIDENT\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nBNP Paribas, as a Lender\nBy:\n/s/ Theodore Olson\n\nName: Theodore OLSON\n\nTitle:   Managing Director\nBy:\n/s/ George Ko\nName: George Ko\nTitle:   Director\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nDBS BANK LTD., as a Lender\nBy:\n/s/ Josephine Lim\n\nName: Josephine Lim\n\nTitle:   Executive Director\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nBANCO BILBAO VIZCAYA ARGENTARIA,\nS.A. NEW YORK BRANCH, as a Lender\nBy:\n/s/ Brian Crowley\n\nName: Brian Crowley",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": []
+    },
+    {
+      "page": 4,
+      "text": "Title:   Managing Director\nBy:\n/s/ Armen Semizian\nName: Armen Semizian\nTitle:   Managing Director\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nThe Bank of Nova Scotia, as a Lender\nBy:\n/s/ David Dewar\n\nName: David Dewar\n\nTitle:   Director\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nDMO Bank N.A., as a Lender\nBy:\n/s/ Cecile Segovia\n\nName: Cecile Segovia\n\nTitle:   Director\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nBarclays Bank PLC, as a Lender\nBy:\n/s/ Joseph Tauro\n\nName: Joseph Tauro\n\nTitle:   Associate Vice President\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nThe Bank of East Asia, Limited, New York Branch, as a\nLender\nBy:\n/s/ James Hua\n\nName: James Hua\n\nTitle:   DGM & Corporate Banking\nBy:\n/s/ Chong Tan\nName: Chong Tan\nTitle:   DGM & Risk Management\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nIndustrial and Commercial Bank of China Limited,\nNew York Banks, as a Lender\nBy:\n/s/ Tony Huang\n\nName: Tony Huang\n\nTitle:   Director\nBy:\n/s/ Yuanyuan Peng\nName: Yuanyuan Peng\nTitle:   Executive Director\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]\nOversea-Chinese Banking Corporation Limited, New York\nAgency, as a Lender\nBy:\n/s/ Grace Sun\n\nName: Grace Sun\n\nTitle:   Managing Director, Deputy General Manager\n[Signature Page to Amendment No. 3 to A&R Loan Agreement]",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": []
+    }
+  ],
+  "tables": [
+    {
+      "page": 1,
+      "table_index": 1,
+      "bbox": [],
+      "row_count": 4,
+      "col_count": 3,
+      "columns": [
+        "",
+        "WESTERN DIGITAL CORPORATION"
+      ],
+      "rows": [
+        [
+          "",
+          "WESTERN DIGITAL CORPORATION"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Grace Lin"
+        ],
+        [
+          "",
+          "",
+          "Name: Grace Lin"
+        ],
+        [
+          "",
+          "",
+          "Title:   Authorized Signatory"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 2,
+      "bbox": [],
+      "row_count": 5,
+      "col_count": 3,
+      "columns": [
+        "",
+        "JPMORGAN CHASE BANK, N.A., as"
+      ],
+      "rows": [
+        [
+          "",
+          "JPMORGAN CHASE BANK, N.A., as"
+        ],
+        [
+          "",
+          "Administrative Agent"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Timothy Lee"
+        ],
+        [
+          "",
+          "",
+          "Name: Timothy D. Lee"
+        ],
+        [
+          "",
+          "",
+          "Title:   Executive Director"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 3,
+      "bbox": [],
+      "row_count": 4,
+      "col_count": 3,
+      "columns": [
+        "",
+        "JPMORGAN CHASE BANK, N.A., as a Lender"
+      ],
+      "rows": [
+        [
+          "",
+          "JPMORGAN CHASE BANK, N.A., as a Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Timothy Lee"
+        ],
+        [
+          "",
+          "",
+          "Name: Timothy D. Lee"
+        ],
+        [
+          "",
+          "",
+          "Title:   Executive Director"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 4,
+      "bbox": [],
+      "row_count": 4,
+      "col_count": 3,
+      "columns": [
+        "",
+        "Bank of America, N.A., as a Lender"
+      ],
+      "rows": [
+        [
+          "",
+          "Bank of America, N.A., as a Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Puneet Lakhotia"
+        ],
+        [
+          "",
+          "",
+          "Name: Puneet Lakhotia"
+        ],
+        [
+          "",
+          "",
+          "Title:   Director"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 5,
+      "bbox": [],
+      "row_count": 4,
+      "col_count": 3,
+      "columns": [
+        "",
+        "MIZUHO BANK, LTD., as a Lender"
+      ],
+      "rows": [
+        [
+          "",
+          "MIZUHO BANK, LTD., as a Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Tracy Rahn"
+        ],
+        [
+          "",
+          "",
+          "Name: Tracy Rahn"
+        ],
+        [
+          "",
+          "",
+          "Title:   Managing Director"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 6,
+      "bbox": [],
+      "row_count": 4,
+      "col_count": 3,
+      "columns": [
+        "",
+        "ROYAL BANK OF CANADA, as a Lender"
+      ],
+      "rows": [
+        [
+          "",
+          "ROYAL BANK OF CANADA, as a Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Harsh Grewal"
+        ],
+        [
+          "",
+          "",
+          "Name: Harsh Grewal"
+        ],
+        [
+          "",
+          "",
+          "Title:   Authorized Signatory"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 7,
+      "bbox": [],
+      "row_count": 4,
+      "col_count": 3,
+      "columns": [
+        "",
+        "Wells Fargo Bank, National Association, as a Lender"
+      ],
+      "rows": [
+        [
+          "",
+          "Wells Fargo Bank, National Association, as a Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Gambo Audu"
+        ],
+        [
+          "",
+          "",
+          "Name: Gambo Audu"
+        ],
+        [
+          "",
+          "",
+          "Title:   Vice President"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 8,
+      "bbox": [],
+      "row_count": 4,
+      "col_count": 3,
+      "columns": [
+        "",
+        "CITIBANK, N.A., as a Lender"
+      ],
+      "rows": [
+        [
+          "",
+          "CITIBANK, N.A., as a Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Carmen-Christina Kelleher"
+        ],
+        [
+          "",
+          "",
+          "Name: Carmen-Christina Kelleher"
+        ],
+        [
+          "",
+          "",
+          "Title:   Vice President"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 9,
+      "bbox": [],
+      "row_count": 4,
+      "col_count": 3,
+      "columns": [
+        "",
+        "PNC Bank, National Association, as a Lender"
+      ],
+      "rows": [
+        [
+          "",
+          "PNC Bank, National Association, as a Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Skyler Zweifel"
+        ],
+        [
+          "",
+          "",
+          "Name: Skyler Zweifel"
+        ],
+        [
+          "",
+          "",
+          "Title:   Vice President"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 10,
+      "bbox": [],
+      "row_count": 5,
+      "col_count": 3,
+      "columns": [
+        "",
+        "The Toronto-Dominion Bank, New York Branch, as a"
+      ],
+      "rows": [
+        [
+          "",
+          "The Toronto-Dominion Bank, New York Branch, as a"
+        ],
+        [
+          "",
+          "Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ David Perlman"
+        ],
+        [
+          "",
+          "",
+          "Name: David Perlman"
+        ],
+        [
+          "",
+          "",
+          "Title:   Authorized Signatory"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 11,
+      "bbox": [],
+      "row_count": 4,
+      "col_count": 3,
+      "columns": [
+        "",
+        "Truist Bank, as a Lender"
+      ],
+      "rows": [
+        [
+          "",
+          "Truist Bank, as a Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Shae Patel"
+        ],
+        [
+          "",
+          "",
+          "Name: Shae Patel"
+        ],
+        [
+          "",
+          "",
+          "Title:   Director"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 12,
+      "bbox": [],
+      "row_count": 5,
+      "col_count": 3,
+      "columns": [
+        "",
+        "HSBC BANK USA, NATIONAL ASSOCIATION, as a"
+      ],
+      "rows": [
+        [
+          "",
+          "HSBC BANK USA, NATIONAL ASSOCIATION, as a"
+        ],
+        [
+          "",
+          "Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Aleem Shamji"
+        ],
+        [
+          "",
+          "",
+          "Name: Aleem Shamji"
+        ],
+        [
+          "",
+          "",
+          "Title:   Managing Director"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 13,
+      "bbox": [],
+      "row_count": 4,
+      "col_count": 3,
+      "columns": [
+        "",
+        "MUFG BANK, Ltd., as a Lender"
+      ],
+      "rows": [
+        [
+          "",
+          "MUFG BANK, Ltd., as a Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Colin Donnarumma"
+        ],
+        [
+          "",
+          "",
+          "Name: Colin Donnarumma"
+        ],
+        [
+          "",
+          "",
+          "Title:   Vice President"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 14,
+      "bbox": [],
+      "row_count": 5,
+      "col_count": 3,
+      "columns": [
+        "",
+        "U.S. BANK NATIONAL ASSOCIATION, Ltd., as a Lender"
+      ],
+      "rows": [
+        [
+          "",
+          "U.S. BANK NATIONAL ASSOCIATION, Ltd., as a Lender"
+        ],
+        [
+          "",
+          "Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Brian Seipke"
+        ],
+        [
+          "",
+          "",
+          "Name: BRIAN SEIPKE"
+        ],
+        [
+          "",
+          "",
+          "Title:   SENIOR VICE PRESIDENT"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 15,
+      "bbox": [],
+      "row_count": 7,
+      "col_count": 3,
+      "columns": [
+        "",
+        "BNP Paribas, as a Lender"
+      ],
+      "rows": [
+        [
+          "",
+          "BNP Paribas, as a Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Theodore Olson"
+        ],
+        [
+          "",
+          "",
+          "Name: Theodore OLSON"
+        ],
+        [
+          "",
+          "",
+          "Title:   Managing Director"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ George Ko"
+        ],
+        [
+          "",
+          "",
+          "Name: George Ko"
+        ],
+        [
+          "",
+          "",
+          "Title:   Director"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 16,
+      "bbox": [],
+      "row_count": 4,
+      "col_count": 3,
+      "columns": [
+        "",
+        "DBS BANK LTD., as a Lender"
+      ],
+      "rows": [
+        [
+          "",
+          "DBS BANK LTD., as a Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Josephine Lim"
+        ],
+        [
+          "",
+          "",
+          "Name: Josephine Lim"
+        ],
+        [
+          "",
+          "",
+          "Title:   Executive Director"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 17,
+      "bbox": [],
+      "row_count": 8,
+      "col_count": 3,
+      "columns": [
+        "",
+        "BANCO BILBAO VIZCAYA ARGENTARIA,"
+      ],
+      "rows": [
+        [
+          "",
+          "BANCO BILBAO VIZCAYA ARGENTARIA,"
+        ],
+        [
+          "",
+          "S.A. NEW YORK BRANCH, as a Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Brian Crowley"
+        ],
+        [
+          "",
+          "",
+          "Name: Brian Crowley"
+        ],
+        [
+          "",
+          "",
+          "Title:   Managing Director"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Armen Semizian"
+        ],
+        [
+          "",
+          "",
+          "Name: Armen Semizian"
+        ],
+        [
+          "",
+          "",
+          "Title:   Managing Director"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 18,
+      "bbox": [],
+      "row_count": 4,
+      "col_count": 3,
+      "columns": [
+        "",
+        "The Bank of Nova Scotia, as a Lender"
+      ],
+      "rows": [
+        [
+          "",
+          "The Bank of Nova Scotia, as a Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ David Dewar"
+        ],
+        [
+          "",
+          "",
+          "Name: David Dewar"
+        ],
+        [
+          "",
+          "",
+          "Title:   Director"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 19,
+      "bbox": [],
+      "row_count": 4,
+      "col_count": 3,
+      "columns": [
+        "",
+        "DMO Bank N.A., as a Lender"
+      ],
+      "rows": [
+        [
+          "",
+          "DMO Bank N.A., as a Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Cecile Segovia"
+        ],
+        [
+          "",
+          "",
+          "Name: Cecile Segovia"
+        ],
+        [
+          "",
+          "",
+          "Title:   Director"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 20,
+      "bbox": [],
+      "row_count": 4,
+      "col_count": 3,
+      "columns": [
+        "",
+        "Barclays Bank PLC, as a Lender"
+      ],
+      "rows": [
+        [
+          "",
+          "Barclays Bank PLC, as a Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Joseph Tauro"
+        ],
+        [
+          "",
+          "",
+          "Name: Joseph Tauro"
+        ],
+        [
+          "",
+          "",
+          "Title:   Associate Vice President"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 21,
+      "bbox": [],
+      "row_count": 8,
+      "col_count": 3,
+      "columns": [
+        "",
+        "The Bank of East Asia, Limited, New York Branch, as a"
+      ],
+      "rows": [
+        [
+          "",
+          "The Bank of East Asia, Limited, New York Branch, as a"
+        ],
+        [
+          "",
+          "Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ James Hua"
+        ],
+        [
+          "",
+          "",
+          "Name: James Hua"
+        ],
+        [
+          "",
+          "",
+          "Title:   DGM & Corporate Banking"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Chong Tan"
+        ],
+        [
+          "",
+          "",
+          "Name: Chong Tan"
+        ],
+        [
+          "",
+          "",
+          "Title:   DGM & Risk Management"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 22,
+      "bbox": [],
+      "row_count": 8,
+      "col_count": 3,
+      "columns": [
+        "",
+        "Industrial and Commercial Bank of China Limited,"
+      ],
+      "rows": [
+        [
+          "",
+          "Industrial and Commercial Bank of China Limited,"
+        ],
+        [
+          "",
+          "New York Banks, as a Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Tony Huang"
+        ],
+        [
+          "",
+          "",
+          "Name: Tony Huang"
+        ],
+        [
+          "",
+          "",
+          "Title:   Director"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Yuanyuan Peng"
+        ],
+        [
+          "",
+          "",
+          "Name: Yuanyuan Peng"
+        ],
+        [
+          "",
+          "",
+          "Title:   Executive Director"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 23,
+      "bbox": [],
+      "row_count": 5,
+      "col_count": 3,
+      "columns": [
+        "",
+        "Oversea-Chinese Banking Corporation Limited, New York"
+      ],
+      "rows": [
+        [
+          "",
+          "Oversea-Chinese Banking Corporation Limited, New York"
+        ],
+        [
+          "",
+          "Agency, as a Lender"
+        ],
+        [
+          "",
+          "By:",
+          "/s/ Grace Sun"
+        ],
+        [
+          "",
+          "",
+          "Name: Grace Sun"
+        ],
+        [
+          "",
+          "",
+          "Title:   Managing Director, Deputy General Manager"
+        ]
+      ]
+    }
+  ]
+}

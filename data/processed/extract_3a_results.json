@@ -1,0 +1,2361 @@
+{
+  "t1": {
+    "passed": true,
+    "msg": "Scanned 269 files; API key leaks = 0"
+  },
+  "t2": {
+    "passed": true,
+    "msg": "14/14 unit checks passed"
+  },
+  "t3": {
+    "passed": true,
+    "msg": "5 docs extracted; new_api_calls=0; kept_quotes_verified=83/83 (100.0%)",
+    "calls": 0,
+    "docs": [
+      {
+        "doc_id": "03_dbs_mitc",
+        "doc_chars": 10903,
+        "num_pages": 2,
+        "retrieval_used": false,
+        "model_used": "gemini-3.5-flash-lite",
+        "fields_found": 11,
+        "verified": 11,
+        "needs_review": 0,
+        "not_found": 5,
+        "unverified_dropped": 0,
+        "raw_quotes_total": 11,
+        "verified_quotes_total": 11,
+        "dropped_quotes_total": 0,
+        "raw_quote_pass_rate": 1.0,
+        "kept_quote_verified_rate": 1.0,
+        "verifier_independent": false,
+        "fields": [
+          {
+            "field": "document_title",
+            "found": true,
+            "value": "Most Important Terms and Conditions (MITC) for Gold Loans",
+            "evidence": [
+              {
+                "quote": "Most Important Terms and Conditions (MITC)",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "agreement_date",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "borrowers",
+            "found": true,
+            "value": "Individual Indian Residents availing gold loans",
+            "evidence": [
+              {
+                "quote": "Gold Loan is offered only to \nIndividual Indian Residents.",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "lenders",
+            "found": true,
+            "value": "DBS Bank",
+            "evidence": [
+              {
+                "quote": "Transaction Documents \n(the \nTransaction \nDocuments \nand \nStandard Terms shall be jointly referred to as “Loan \nAgreement”) that will be executed between the \nBorrower(s) and the DBS Bank.",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "agents",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "loan_or_commitment_amount",
+            "found": true,
+            "value": "The facility amount sanctioned is subject to the value of gold and gold ornaments provided as security and the specified security margin.",
+            "evidence": [
+              {
+                "quote": "The Facility amount sanctioned to the Borrower shall \nbe subject to the value of the gold and gold ornaments \nprovided as Security and the security margin specified \nby DBS Bank, from time to time.",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": []
+            },
+            "verifier_verdict": "unchecked",
+            "verifier_independent": false,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "interest_rate",
+            "found": true,
+            "value": "Fixed Rate of Interest as mentioned in the Loan Agreement or Floating Rate of Interest linked to the RBI Policy Repo Rate with standard reset dates on the 7th day of each quarter or subsequent month.",
+            "evidence": [
+              {
+                "quote": "Fixed Rate of Interest – The rate of interest as \nmentioned in the Loan Agreement \nFloating Rate of Interest – This is linked to the RBI \nPolicy Repo Rate which is subject to change from time \nto time.",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": []
+            },
+            "verifier_verdict": "unchecked",
+            "verifier_independent": false,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "repayment_terms",
+            "found": true,
+            "value": "Repayment of principal and interest by way of Bullet Repayment or Monthly Interest as specified in the Repayment Schedule or communicated by DBS Bank.",
+            "evidence": [
+              {
+                "quote": "The Borrower will repay the principal/Loan together \nwith the interest calculated on the principal balance by \nway of Bullet Repayment or Monthly Interest",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": []
+            },
+            "verifier_verdict": "unchecked",
+            "verifier_independent": false,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "maturity_termination_date",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "fees",
+            "found": true,
+            "value": "Fees and charges are listed in the Schedule of Charges available on the website.",
+            "evidence": [
+              {
+                "quote": "List of Fees and charges is available in the Schedule \nof Charges and also made available at <<<Link of \nwebsite to be added>>>>.",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": []
+            },
+            "verifier_verdict": "unchecked",
+            "verifier_independent": false,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "late_payment_or_default_interest",
+            "found": true,
+            "value": "Penal Charges computed from the date of Material Breach or unpaid dues till cure, over and above applicable charges and interest.",
+            "evidence": [
+              {
+                "quote": "In case any dues remain unpaid on the respective Due \nDates or in case of breach of applicable LTV ratio/ \nmargin (“Material Breach”) or any other charges and \namount as per terms of the Loan Agreement, the \nBorrower agrees to pay to the DBS Bank Penal \nCharges, which will be computed from the date of \nMaterial Breach till cure of the Material Breach.",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": []
+            },
+            "verifier_verdict": "unchecked",
+            "verifier_independent": false,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "prepayment_terms",
+            "found": true,
+            "value": "Prepayment is allowed with prior approval of DBS Bank and payment of pre-payment charges, except no prepayment/foreclosure charges apply on floating rate loans or fixed rate loans where foreclosure is made after the fixed period.",
+            "evidence": [
+              {
+                "quote": "The Borrower may, with the prior approval of DBS \nBank, prepay the Borrower's Dues, in full or in part, \nsubject to such terms as may be stipulated by DBS \nBank (including payment of pre-payment charges).",
+                "page": 2
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "collateral_security",
+            "found": true,
+            "value": "Gold, gold jewels, and gold ornaments deposited with DBS Bank.",
+            "evidence": [
+              {
+                "quote": "The Facility Amount, together with interest, charges, \ncosts, Penal Charges, additional interest, further \ninterest, expenses and other obligations of the \nBorrower under the Loan Agreement and other \nfinancing documents will be secured by the Gold/ Gold \njewels/ Gold Ornaments deposited with the DBS \nBank.",
+                "page": 2
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "guarantees",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "events_of_default",
+            "found": true,
+            "value": "Events of default include payment defaults, breach of agreement, insolvency, defective asset title, spurious assets, wilful default, market price decline of gold jewels, and defaults under other agreements with DBS Bank.",
+            "evidence": [
+              {
+                "quote": "Event(s) of Default in terms of the Loan Agreement \ninclude inter alia the following: a) Default or Breach of \nLoan Agreement: Default in payment, breach of any loan \nagreement \nprovision, \nor \nany \nfraud, \nmisrepresentation, or concealment of material facts",
+                "page": 2
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "governing_law",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          }
+        ]
+      },
+      {
+        "doc_id": "13_bajajhousingfinance_MITC-Retail__Secured_and_Unsecured_-Hindi",
+        "doc_chars": 74421,
+        "num_pages": 29,
+        "retrieval_used": false,
+        "model_used": "gemini-3.5-flash-lite",
+        "fields_found": 12,
+        "verified": 11,
+        "needs_review": 1,
+        "not_found": 3,
+        "unverified_dropped": 1,
+        "raw_quotes_total": 24,
+        "verified_quotes_total": 22,
+        "dropped_quotes_total": 2,
+        "raw_quote_pass_rate": 0.9166666666666666,
+        "kept_quote_verified_rate": 1.0,
+        "verifier_independent": null,
+        "fields": [
+          {
+            "field": "document_title",
+            "found": true,
+            "value": "Most Important Terms and Conditions (MITC)",
+            "evidence": [
+              {
+                "quote": "MOST IMPORTANT TERMS AND CONDITIONS (MITC)",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "agreement_date",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "borrowers",
+            "found": true,
+            "value": "The Borrower or the Customer as detailed in the Sanction letter, Loan Agreement, Top-Up Loan Addendum, Disbursement letter, Key Fact Statement (KFS) and/or other documents.",
+            "evidence": [
+              {
+                "quote": "and the Borrower (\"the Borrower\" or \"the Customer\") as detailed in the Sanction letter, Loan Agreement (\"Loan Agreement\"), the Top-Up Loan Addendum, Disbursement letter, Key Fact Statement (KFS) and/ or other documents",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "lenders",
+            "found": true,
+            "value": "Bajaj Housing Finance Limited (BHFL)",
+            "evidence": [
+              {
+                "quote": "BAJAJ HOUSING FINANCE LIMITED (\"BHFL\" or \"the Lender\")",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "agents",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "loan_or_commitment_amount",
+            "found": true,
+            "value": "Loan amount is as specified in the application and loan documents, with processing fees up to 4% of loan amount + GST.",
+            "evidence": [
+              {
+                "quote": "१. LOANAMOUNT / लोन राशि: _.___.__.____",
+                "page": 1
+              },
+              {
+                "quote": "Up to 4% of loan amount + GST as applicable",
+                "page": 16
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": [
+                "4%"
+              ]
+            },
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "interest_rate",
+            "found": false,
+            "value": "",
+            "evidence": [],
+            "status": "unverified",
+            "final_check": "FAIL",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": [
+              "dropped_quotes:2/2",
+              "all_quotes_failed_verification"
+            ]
+          },
+          {
+            "field": "repayment_terms",
+            "found": true,
+            "value": "Repayment is made through EMIs/Monthly Instalments comprising principal repayment and interest calculated on the basis of the interest rate within the loan tenure.",
+            "evidence": [
+              {
+                "quote": "The Borrower agrees to repay the EMIs/Monthly Instalments and the other Outstanding Dues to BHFL on or before the respective Due Dates",
+                "page": 10
+              },
+              {
+                "quote": "The EMI/Monthly Instalment amount shall be arrived at so as to comprise the repayment of the Loan Amount and payment of Interest calculated on the basis of the Interest Rate within the Loan Tenure.",
+                "page": 10
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": []
+            },
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "maturity_termination_date",
+            "found": true,
+            "value": "Loan tenure is specified in months, inclusive of Pre-EMI tenure, My EMI Period, and EMI Holiday Period if opted.",
+            "evidence": [
+              {
+                "quote": "4. LOAN TENURE/ लोन की अवधि: ____ months / महीने",
+                "page": 5
+              },
+              {
+                "quote": "Note: ‘Loan Tenure' mentioned above is inclusive of Pre-EMI tenure, My EMI Period, EMI Holiday Period, if opted.",
+                "page": 5
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": []
+            },
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "fees",
+            "found": true,
+            "value": "Processing fees up to 4% of loan amount + GST, Mortgage Origination Fees up to Rs. 10,000 + GST, Legal and Technical Fees of Rs. 5,000 + GST, and various other scheduled administrative and conversion charges.",
+            "evidence": [
+              {
+                "quote": "Up to 4% of loan amount + GST as applicable",
+                "page": 16
+              },
+              {
+                "quote": "Up to Rs. 10000 + GST as applicable",
+                "page": 17
+              },
+              {
+                "quote": "Rs 5,000 + GST as applicable",
+                "page": 17
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": [
+                "4%",
+                "rs 10000",
+                "rs 5000"
+              ]
+            },
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "late_payment_or_default_interest",
+            "found": true,
+            "value": "Late Payment Charges (LPC) calculated daily per day from 31st DPD for overdue EMIs, Bounce charges ranging from Rs. 500 to Rs. 10,000 depending on loan amount, and Covenant Perfection Charges (CPC).",
+            "evidence": [
+              {
+                "quote": "Late Payment Charges (LPC)^ (chargeable per day from 31st DPD (Days Past Due) for every partially or fully overdue EMI)",
+                "page": 22
+              },
+              {
+                "quote": "Bounce Charges ^ (for every dishonour of cheque / ECS / NACH)",
+                "page": 22
+              }
+            ],
+            "status": "needs_review",
+            "final_check": "NEEDS_REVIEW",
+            "number_check": {
+              "all_found": false,
+              "missing": [
+                "rs 10000"
+              ],
+              "extracted": [
+                "rs 500",
+                "rs 10000"
+              ]
+            },
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": [
+              "number_mismatch:['rs 10000']"
+            ]
+          },
+          {
+            "field": "prepayment_terms",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": [
+              "missing_from_llm_output"
+            ]
+          },
+          {
+            "field": "collateral_security",
+            "found": true,
+            "value": "Security includes mortgage of property offered as security in favour of BHFL, title deeds, and any other form of security deemed fit by BHFL.",
+            "evidence": [
+              {
+                "quote": "The charge created / to be created against the Property/ies offered as security in favour of BHFL and / or any other collateral / security as may be created in favour of BHFL is/are considered as the security of the loan",
+                "page": 8
+              },
+              {
+                "quote": "The Security shall mean and include mortgage, guarantee and any other form of security as deemed fit by BHFL",
+                "page": 8
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "guarantees",
+            "found": true,
+            "value": "Mortgage guarantee may be availed from India Mortgage Guarantee Company (IMGC) and includes guarantee as part of security.",
+            "evidence": [
+              {
+                "quote": "The Security shall mean and include mortgage, guarantee and any other form of security as deemed fit by BHFL",
+                "page": 8
+              },
+              {
+                "quote": "Below mentioned fee / charge is applicable for cases where Mortgage Guarantee will be availed from India Mortgage Guarantee Company (IMGC).",
+                "page": 21
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "events_of_default",
+            "found": true,
+            "value": "Upon occurrence of an event of default, all outstanding amounts become payable forthwith, and BHFL reserves rights to accelerate repayment, charge default interest, enforce security, and take possession of the property.",
+            "evidence": [
+              {
+                "quote": "On occurrence of any event of default as mentioned in the Loan Agreement and other Loan Documents (\"Event of Default\"), all outstanding amounts owed by the Borrower to BHFL shall become payable forthwith",
+                "page": 10
+              },
+              {
+                "quote": "Take possession of the Property, if any, on which Security is so created whether by itself or through any of the recovery agents or attorneys as may be appointed by the Lender.",
+                "page": 12
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "governing_law",
+            "found": true,
+            "value": "Governed by applicable laws in India, including specific regulations and circulars referenced such as RBI circulars and MSMED Act, 2006.",
+            "evidence": [
+              {
+                "quote": "wherein the definition of `Personal Loans’ is as per RBI’s circular on “XBRL Returns – Harmonization on Banking Statistics” dated January 04, 2018",
+                "page": 4
+              },
+              {
+                "quote": "Micro Enterprises & Small Enterprises (\"MSE\") shall have the same meaning as defined under the Micro, Small and Medium Enterprises Development (MSMED) Act, 2006",
+                "page": 28
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          }
+        ]
+      },
+      {
+        "doc_id": "0000027430-25-000005_aesohio10qex10120250630q2",
+        "doc_chars": 7641,
+        "num_pages": 3,
+        "retrieval_used": false,
+        "model_used": "gemini-3.5-flash-lite",
+        "fields_found": 9,
+        "verified": 9,
+        "needs_review": 0,
+        "not_found": 7,
+        "unverified_dropped": 0,
+        "raw_quotes_total": 13,
+        "verified_quotes_total": 13,
+        "dropped_quotes_total": 0,
+        "raw_quote_pass_rate": 1.0,
+        "kept_quote_verified_rate": 1.0,
+        "verifier_independent": null,
+        "fields": [
+          {
+            "field": "document_title",
+            "found": true,
+            "value": "First Amendment to Term Loan Agreement",
+            "evidence": [
+              {
+                "quote": "FIRST AMENDMENT \nTO TERM LOAN AGREEMENT",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "agreement_date",
+            "found": true,
+            "value": "July 30, 2025",
+            "evidence": [
+              {
+                "quote": "This First Amendment to Term Loan Agreement dated as of July 30, 2025 (this \n“Amendment”\n)",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "borrowers",
+            "found": true,
+            "value": "The Dayton Power & Light Company",
+            "evidence": [
+              {
+                "quote": "THE DAYTON POWER & LIGHT COMPANY, an Ohio corporation doing business as AES Ohio (the \n“Borrower”\n)",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "lenders",
+            "found": true,
+            "value": "PNC Bank, National Association, U.S. Bank, National Association, The Huntington National Bank, M&T Bank, and Regions Bank, along with other Lenders party hereto",
+            "evidence": [
+              {
+                "quote": "PNC BANK\n, \nNATIONAL ASSOCIATION\n, as a Lender",
+                "page": 3
+              },
+              {
+                "quote": "U.S. BANK\n, \nNATIONAL ASSOCIATION\n, as a Lender",
+                "page": 3
+              },
+              {
+                "quote": "THE HUNTINGTON NATIONAL BANK\n, as a Lender",
+                "page": 3
+              },
+              {
+                "quote": "M&T BANK\n, as a Lender",
+                "page": 3
+              },
+              {
+                "quote": "REGIONS BANK\n, as a Lender",
+                "page": 3
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "agents",
+            "found": true,
+            "value": "PNC Bank, National Association acts as Administrative Agent",
+            "evidence": [
+              {
+                "quote": "PNC BANK, NATIONAL ASSOCIATION, in its capacity as administrative agent for the Lenders (the \n“Administrative Agent”\n)",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "loan_or_commitment_amount",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "interest_rate",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "repayment_terms",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "maturity_termination_date",
+            "found": true,
+            "value": "October 13, 2025",
+            "evidence": [
+              {
+                "quote": "“\nTerm Loan Maturity Date\n” shall mean October 13, 2025, as such date may be extended pursuant to Section 11.1 [Modifications, Amendments or Waivers].",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": [
+                "october 13, 2025"
+              ]
+            },
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "fees",
+            "found": true,
+            "value": "The Borrower shall pay all reasonable costs and expenses of the Administrative Agent, including reasonable attorneys' fees, in connection with the preparation of the Amendment and related Loan Documents.",
+            "evidence": [
+              {
+                "quote": "the Borrower has paid to the Administrative Agent all fees and reasonable costs and expenses of the Administrative Agent in connection with the preparation of this Amendment and other related Loan Documents, including, without limitation, reasonable attorneys’ fees",
+                "page": 2
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": []
+            },
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "late_payment_or_default_interest",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "prepayment_terms",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "collateral_security",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "guarantees",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "events_of_default",
+            "found": true,
+            "value": "No Event of Default under Section 9 of the Loan Agreement or any un-cured event/condition constituting an Event of Default has occurred and is continuing.",
+            "evidence": [
+              {
+                "quote": "no Event of Default under Section 9 of the Loan Agreement has occurred and is continuing, and \n(B)\n no event or condition that, with the giving of notice or the passage of time, or both, would constitute an Event of Default, has occurred and is continuing.",
+                "page": 2
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "governing_law",
+            "found": true,
+            "value": "Laws of the State of New York",
+            "evidence": [
+              {
+                "quote": "This Amendment shall be deemed to be a contract under the Laws of the State of New York without regard to its conflict of laws principles.",
+                "page": 2
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          }
+        ]
+      },
+      {
+        "doc_id": "09_muthoothomefin_MHIL-MITC",
+        "doc_chars": 22083,
+        "num_pages": 7,
+        "retrieval_used": false,
+        "model_used": "gemini-3.5-flash-lite",
+        "fields_found": 13,
+        "verified": 12,
+        "needs_review": 1,
+        "not_found": 3,
+        "unverified_dropped": 0,
+        "raw_quotes_total": 13,
+        "verified_quotes_total": 13,
+        "dropped_quotes_total": 0,
+        "raw_quote_pass_rate": 1.0,
+        "kept_quote_verified_rate": 1.0,
+        "verifier_independent": null,
+        "fields": [
+          {
+            "field": "document_title",
+            "found": true,
+            "value": "The Most Important Terms and Conditions (MITC) of the loan.",
+            "evidence": [
+              {
+                "quote": "THE MOST IMPORTANT TERMS AND CONDITIONS (MITC)",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "agreement_date",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "borrowers",
+            "found": true,
+            "value": "Mr. / Mrs. (Borrower/s)",
+            "evidence": [
+              {
+                "quote": "The Most Important Terms and Conditions (MITC) of the loan between the Borrower/s Mr. / Mrs. and Muthoot Homefin (India) Ltd.,",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "lenders",
+            "found": true,
+            "value": "Muthoot Homefin (India) Ltd. (MHIL)",
+            "evidence": [
+              {
+                "quote": "Muthoot Homefin (India) Ltd., \nhereinafter called “MHIL”",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "agents",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "loan_or_commitment_amount",
+            "found": true,
+            "value": "Sanctioned Loan Amount not exceeding Rs. [Blank]",
+            "evidence": [
+              {
+                "quote": "Sanctioned Loan Amount Not Exceeding \nRs.__________________ (Figure)",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": []
+            },
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "interest_rate",
+            "found": true,
+            "value": "Semi-fixed (fixed for first 36 months), Floating (change in reference rate), or Fixed for entire tenure, based on MHIL Retail Prime Lending Rate (RPLR) p.a. plus/minus mark-up/mark-down.",
+            "evidence": [
+              {
+                "quote": "Present rate of interest \nMHIL Retail Prime Lending Rate (RPLR)p.a.+(mark-up)/-(mark- \ndown) %p.a. = %p.a.",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": [
+                "36"
+              ]
+            },
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "repayment_terms",
+            "found": true,
+            "value": "Repaid via Equated Monthly Instalments (EMI) calculated on outstanding principal and part principal, appropriated first towards interest, with repayment commencing the month following final disbursement.",
+            "evidence": [
+              {
+                "quote": "The loan is repaid by way of Equated Monthly Instalments (EMI). EMI comprises of interest component calculated on the outstanding principal and part of the \nprincipal amount.",
+                "page": 6
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": []
+            },
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "maturity_termination_date",
+            "found": true,
+            "value": "Loan tenure is specified in months including/excluding moratorium period.",
+            "evidence": [
+              {
+                "quote": "Loan Tenure \n __________ Months including/excluding* Moratorium period.",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": []
+            },
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "fees",
+            "found": true,
+            "value": "Includes administrative fees up to 3.5% of loan amount (or 2.5% / Rs. 6000 for top-up/home equity), CERSAI statutory charges, conversion fees of 0.50%, dishonour charges of Rs. 600, technical visit charges of Rs. 750, document retrieval charges of Rs. 500, and various legal/notice/filing charges.",
+            "evidence": [
+              {
+                "quote": "Administrative Fees upto \n3.5% of Loan amount.",
+                "page": 2
+              }
+            ],
+            "status": "needs_review",
+            "final_check": "NEEDS_REVIEW",
+            "number_check": {
+              "all_found": false,
+              "missing": [
+                "0.50%",
+                "rs 600",
+                "rs 750"
+              ],
+              "extracted": [
+                "3.5%",
+                "2.5%",
+                "rs 6000",
+                "0.50%",
+                "rs 600",
+                "rs 750",
+                "rs 500"
+              ]
+            },
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": [
+              "number_mismatch:['0.50%', 'rs 600', 'rs 750']"
+            ]
+          },
+          {
+            "field": "late_payment_or_default_interest",
+            "found": true,
+            "value": "Penal charges levied at the rate of 24.00% p.a. on the overdue or defaulted amount, calculated from the due date until actual payment.",
+            "evidence": [
+              {
+                "quote": "Penal charges shall be levied at the \nrate of 24.00% p.a. on the overdue \n/ defaulted amount, calculated for \nthe period of delay from the due \ndate until the date of actual \npayment.",
+                "page": 2
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": [
+                "24.00%"
+              ]
+            },
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "prepayment_terms",
+            "found": true,
+            "value": "Part prepayment and foreclosure charges apply as per the schedule, including charges for prepayment within 12 months of disbursement.",
+            "evidence": [
+              {
+                "quote": "1. \nForeclosure / Part \nprepayment within 12 \nmonths of disbursement",
+                "page": 3
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "collateral_security",
+            "found": true,
+            "value": "Secured by way of mortgage of the property in favor of MHIL.",
+            "evidence": [
+              {
+                "quote": "The loan will be secured by way of mortgage of the property mentioned below in favor of MHIL",
+                "page": 5
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "guarantees",
+            "found": true,
+            "value": "Guarantor details including name, residential address, age, and relationship as specified in the document.",
+            "evidence": [
+              {
+                "quote": "Name of Guarantor, Resi. Address & Age :",
+                "page": 1
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "events_of_default",
+            "found": true,
+            "value": "Triggered by non-payment of Pre-EMI/EMI, diversion of funds, or breach of contract, resulting in SMA classification, loan recall, SARFAESI action, or legal proceedings under the Negotiable Instruments Act.",
+            "evidence": [
+              {
+                "quote": "In event of continued default and declaration of the loan amount as delinquent or Non-Performing Asset (NPA), MHIL shall reserve the right to send \nLoan Recall Notice, initiate action under section 138 of the Negotiable Instruments Act, SARFAESI act",
+                "page": 6
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "governing_law",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          }
+        ]
+      },
+      {
+        "doc_id": "CITGO (000101/1011746/0000950129-03-001503_8.txt)",
+        "doc_chars": 354794,
+        "num_pages": 84,
+        "retrieval_used": true,
+        "model_used": "gemini-3.5-flash-lite",
+        "fields_found": 11,
+        "verified": 11,
+        "needs_review": 0,
+        "not_found": 5,
+        "unverified_dropped": 0,
+        "raw_quotes_total": 26,
+        "verified_quotes_total": 24,
+        "dropped_quotes_total": 2,
+        "raw_quote_pass_rate": 0.9230769230769231,
+        "kept_quote_verified_rate": 1.0,
+        "verifier_independent": null,
+        "fields": [
+          {
+            "field": "document_title",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "agreement_date",
+            "found": true,
+            "value": "February 27, 2003",
+            "evidence": [
+              {
+                "quote": "FEBRUARY 27, 2003,",
+                "page": 65
+              },
+              {
+                "quote": "February 27, 2003,",
+                "page": 68
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "borrowers",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "lenders",
+            "found": true,
+            "value": "Bank of America, N.A. (as Administrative Agent for the 364-Day Credit Agreement and Three-Year Credit Agreement) and Mizuho Corporation Bank Limited (as Administrative Agent for the CITGO Puerto Rico Credit Agreement), along with various other lenders referred to in the respective agreements.",
+            "evidence": [
+              {
+                "quote": "Bank of America, N.A. as Administrative Agent",
+                "page": 24
+              },
+              {
+                "quote": "Mizuho Corporation Bank Limited as Administrative Agent",
+                "page": 7
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "agents",
+            "found": true,
+            "value": "Credit Suisse First Boston, Cayman Islands Branch, acting as Administrative Agent",
+            "evidence": [
+              {
+                "quote": "CREDIT SUISSE FIRST BOSTON, CAYMAN ISLANDS BRANCH, as Administrative Agent.",
+                "page": 5
+              },
+              {
+                "quote": "\"Administrative Agent\" means Credit Suisse First Boston, Cayman Islands Branch, in its capacity as administrative agent under any of the Loan Documents, or any successor administrative agent.",
+                "page": 5
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "loan_or_commitment_amount",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "interest_rate",
+            "found": true,
+            "value": "Eurodollar Rate Loans bear interest at the Eurodollar Rate plus the Applicable Rate, where the Eurodollar Rate is the greater of 3.00% per annum or the offered rate; Base Rate Loans bear interest at the Base Rate plus the Applicable Rate, where the Base Rate is the highest of the Federal Funds Rate plus 1/2 of 1%, Credit Suisse First Boston's prime rate, or 4.00%. Default rates apply upon overdue amounts or Events of Default.",
+            "evidence": [
+              {
+                "quote": "each Eurodollar Rate Loan shall bear interest on the outstanding principal amount thereof for each Interest Period at a rate per annum equal to the Eurodollar Rate for such Interest Period plus the Applicable Rate; and (ii) each Base Rate Loan shall bear interest on the outstanding principal amount thereof from the applicable borrowing date at a rate per annum equal to the Base Rate plus the Applicable Rate.",
+                "page": 27
+              },
+              {
+                "quote": "\"Base Rate\" means for any day a fluctuating rate per annum equal to the highest of (a) the Federal Funds Rate plus 1/2 of 1%, (b) the rate of interest in effect for such day as publicly announced from time to time by Credit Suisse First Boston as its \"prime rate\" in effect at its principal office in New York City and (c) 4.00%.",
+                "page": 6
+              },
+              {
+                "quote": "\"Eurodollar Rate\" means for any Interest Period with respect to any Eurodollar Rate Loan:                  (a) the greater of (i) 3.00% per annum and (ii) the rate per         annum equal to the rate determined by the Administrative Agent to be         the offered rate as set forth by any service that displays an average         British Bankers Association Interest Settlement Rate for deposits in         Dollars",
+                "page": 10
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": [
+                "3.00%",
+                "1",
+                "2",
+                "1%",
+                "4.00%"
+              ]
+            },
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "repayment_terms",
+            "found": true,
+            "value": "The Borrower shall repay the aggregate principal amount of the outstanding Loans on the Maturity Date to the Administrative Agent for the account of the Lenders.",
+            "evidence": [
+              {
+                "quote": "The Borrower shall repay on the Maturity Date the aggregate principal amount of the Loans outstanding on such date. Payment shall be made to the Administrative Agent for the account of the Lenders.",
+                "page": 27
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": []
+            },
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "maturity_termination_date",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "fees",
+            "found": true,
+            "value": "The Borrower shall pay fees to the Arranger, the Administrative Agent, and the Lenders in the amounts and at the times specified in the Fee Letter and in separate written agreements, which fees are fully earned when paid and non-refundable. Additionally, assignments are subject to a processing and recordation fee, and the Borrower must reimburse the Administrative Agent and Lenders for search, filing, recording, title insurance, appraisal charges and fees, and attorney costs.",
+            "evidence": [
+              {
+                "quote": "together with a processing and recordation fee of",
+                "page": 10
+              },
+              {
+                "quote": "The foregoing costs and expenses shall include all search, filing, recording, title insurance and appraisal charges and fees and taxes",
+                "page": 56
+              },
+              {
+                "quote": ".07 FEES. (a) The Borrower shall pay to the Arranger and the\nAdministrative Agent for their own respective accounts fees in the amounts and\nat the times specified in the Fee Letter. Such fees shall be fully earned when\npaid and shall not be refundable for any reason whatsoever.\n\n         (b) The Borrower shall pay to the Lenders such fees as shall have been\nseparately agreed upon in writing in the amounts and at the times so specified.\nSuch fees shall be fully earned when paid and shall not be refundable for any\nreason whatsoever.",
+                "page": 2
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": []
+            },
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "late_payment_or_default_interest",
+            "found": true,
+            "value": "If any amount payable is not paid when due, or while any Event of Default exists, such amount or all outstanding Obligations bear interest at the Default Rate, which is equal to the Base Rate plus the Applicable Rate plus 2% per annum, or for Eurodollar Rate Loans, the rate otherwise applicable plus 2% per annum.",
+            "evidence": [
+              {
+                "quote": "If any amount payable by the Borrower under any Loan Document is not paid when due (without regard to any applicable grace periods), whether at stated maturity, by acceleration or otherwise, such amount shall thereafter bear interest at a fluctuating interest rate per annum at all times equal to the Default Rate to the fullest extent permitted by applicable Laws. In addition, while any Event of Default exists, the Borrower shall pay interest on the principal amount of all outstanding Obligations hereunder at a fluctuating interest rate per annum at all times equal to the Default Rate to the fullest extent permitted by applicable Laws.",
+                "page": 27
+              },
+              {
+                "quote": "\"Default Rate\" means an interest rate equal to (a) the Base Rate plus (b) the Applicable Rate applicable to Base Rate Loans plus (c) 2% per annum; provided, however, that with respect to a Eurodollar Rate Loan, the Default Rate shall be an interest rate equal to the interest rate (including any Applicable Rate) otherwise applicable to such Loan plus 2% per annum, in each case to the fullest extent permitted by applicable Laws.",
+                "page": 9
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": {
+              "all_found": true,
+              "missing": [],
+              "extracted": [
+                "2%",
+                "2%"
+              ]
+            },
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "prepayment_terms",
+            "found": true,
+            "value": "The Borrower may voluntarily prepay loans in whole or in part without premium or penalty (subject to certain minimum amounts and premiums if prepaid more than 90 days after the Closing Date). Mandatory prepayments or offers to prepay are required upon the receipt of Net Proceeds from Prepayment Events or if a reduction in Net Worth or an increase in secured Indebtedness would cause a default. Notice must be given to the Administrative Agent by 12:00 noon either three Business Days prior for Eurodollar Rate Loans or on the date of prepayment for Base Rate Loans.",
+            "evidence": [
+              {
+                "quote": "(a) The Borrower may, upon notice to the Administrative Agent, at any time or from time to time, voluntarily prepay Loans in whole or in part without premium (except as set forth in paragraph (d) below and in Section 3.05) or penalty.",
+                "page": 26
+              },
+              {
+                "quote": "(b) In the event and on each occasion that Net Proceeds are received by or on behalf of the Borrower or any Subsidiary in respect of any Prepayment Event, the Borrower shall, immediately after such Net Proceeds are received, offer to prepay Borrowings in an aggregate amount equal to such Net Proceeds;",
+                "page": 26
+              },
+              {
+                "quote": "The Borrower shall notify the Administrative Agent of any prepayment hereunder not later than 12:00 noon (A) three Business Days prior to any date of prepayment of Eurodollar Rate Loans and (B) on the date of prepayment of Base Rate Loans.",
+                "page": 27
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": [
+              "dropped_quotes:2/5"
+            ]
+          },
+          {
+            "field": "collateral_security",
+            "found": true,
+            "value": "The loan and obligations are secured by a first priority perfected lien and security interest in the Pledged Collateral, Pledged Interests, Pipeline Interests, and other assets of the Loan Parties as set forth in the Collateral Agreement and Guarantee and Collateral Agreement, including equity interests in the Pledged Entities.",
+            "evidence": [
+              {
+                "quote": "when any Pledged Securities are delivered to the Administrative Agent in accordance with this Agreement, the Administrative Agent will obtain a legal, valid and perfected first priority lien upon and security interest in such Pledged Securities as security for the payment and performance of the Obligations;",
+                "page": 73
+              },
+              {
+                "quote": "the Collateral Agreement will be effective to create in favor of the Administrative Agent, for the benefit of the Lenders, a legal, valid and enforceable security interest in the Collateral described therein and proceeds thereof and the Collateral Agreement shall constitute a fully perfected Lien on, and security interest in, all right, title and interest of the Loan Parties in such Collateral and the proceeds thereof, as security for the Obligations",
+                "page": 5
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "guarantees",
+            "found": true,
+            "value": "Each Guarantor unconditionally guarantees, jointly and severally, the due and punctual payment and performance of the Obligations, constituting a guarantee of payment when due and not of collection, subject to a limitation on the guaranteed principal amount based on the Existing Credit Agreements.",
+            "evidence": [
+              {
+                "quote": "Each Guarantor unconditionally guarantees, jointly with the other Guarantor and severally, as a primary obligor and not merely as a surety, the due and punctual payment and performance of the Obligations; provided that, so long as the Existing Credit Agreements shall remain in effect, the principal amount of the Indebtedness guaranteed under this Article II shall at no time exceed the greater of (a) 5% of Net Worth",
+                "page": 69
+              },
+              {
+                "quote": "Each Guarantor further agrees that its guarantee hereunder constitutes a guarantee of payment when due and not of collection",
+                "page": 70
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "events_of_default",
+            "found": true,
+            "value": "Events of Default include non-payment of principal (immediate) or interest/fees/other amounts (with a 5-day cure period); material misrepresentations or warranties; defaults under other clauses continuing for 30 days; and non-payment or other defaults relating to Material Debt allowing acceleration. Remedies include default interest rates and lender acceleration/remedies.",
+            "evidence": [
+              {
+                "quote": "ARTICLE VIII.\n                                EVENTS OF DEFAULT\n\n         8.01 EVENT OF DEFAULT. Any of the following shall constitute an \"Event\nof Default\":\n\n                  (a) Non-Payment. The Borrower fails to pay, when and as\n         required to be paid herein, any amount of principal of any Loan, or the\n         Borrower or any other Loan Party fails to pay within 5 days after the\n         same becomes due, any interest, fee or any other amount payable\n         hereunder or under any other Loan Document; or\n\n                  (b) Representation or Warranty. Any representation or warranty\n         by the Borrower or any other Loan Party made or deemed made herein or\n         in or under any other Loan Document or in any written notice, report or\n         certificate delivered pursuant hereto or thereto is incorrect in any\n         material respect on or as of the date made or deemed made or\n         reaffirmed, as the case may be;",
+                "page": 48
+              },
+              {
+                "quote": "Document, (and not\n         constituting an Event of Default under any other clause of this Section\n         8.01) and such default shall continue unremedied for a period of 30\n         days; or\n\n                  (e) Non-Payment of Other Indebtedness. The Borrower or any\n         Subsidiary (i) fails to make any payment when due (whether by scheduled\n         maturity, required prepayment, acceleration or otherwise) in respect of\n         any Material Debt (whether due by scheduled maturity, required\n         prepayment, acceleration, demand, or otherwise) and such failure\n         continues after the applicable grace or notice period, if any,\n         specified in the relevant document on the date of such failure; or (ii)\n         fails to perform or observe any other condition or covenant, or any\n         other event shall occur or condition exist, under any agreement or\n         instrument relating to any Material Debt, if, in any such event, the\n         effect of such failure, event or condition is to cause, or to permit\n         the holder or holders thereof or beneficiary or beneficiaries thereof\n         (or a trustee or agent on behalf of such holder or holders or\n         beneficiary or beneficiaries) to cause (after the expiration of any\n         applicable grace period or notice period, if any, specified in the\n         relevant document on the date of such failure) such Material Debt to\n         become due and payable or to be required to be repurchased, defeased or\n         redeemed prior to its expressed maturity;",
+                "page": 49
+              }
+            ],
+            "status": "verified",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.5-flash-lite",
+            "flags": []
+          },
+          {
+            "field": "governing_law",
+            "found": false,
+            "value": "Not found in this document",
+            "evidence": [],
+            "status": "not_found",
+            "final_check": "PASS",
+            "number_check": null,
+            "verifier_verdict": null,
+            "verifier_independent": null,
+            "model_used": "gemini-3.6-flash",
+            "flags": [
+              "missing_from_llm_output"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "t4": {
+    "passed": false,
+    "msg": "Silver (3 docs, 41 definitive rows + 7 UNCLEAR): P=60.6%, R=55.6%, F1=58.0% (TP=20, FP=13, FN=16, TN=5; new_calls=0); diagnostic token-overlap F1=89.9%",
+    "calls": 0,
+    "report": {
+      "note": "LLM-assisted silver labels (not human gold)",
+      "total_rows": 48,
+      "definitive_rows_evaluated": 41,
+      "unclear_rows": 7,
+      "tp": 20,
+      "fp": 13,
+      "fn": 16,
+      "tn": 5,
+      "precision": 0.6060606060606061,
+      "recall": 0.5555555555555556,
+      "f1": 0.5797101449275361,
+      "diagnostic_token_overlap_ge_0_5_f1": 0.8985507246376813,
+      "per_doc": [
+        {
+          "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+          "tp": 7,
+          "fp": 5,
+          "fn": 5,
+          "tn": 1,
+          "unclear_skipped": 3,
+          "ev_quote_matches": "10/12",
+          "model_used": "gemini-3.5-flash-lite",
+          "raw_quotes": 17,
+          "verified_quotes": 17
+        },
+        {
+          "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+          "tp": 7,
+          "fp": 1,
+          "fn": 3,
+          "tn": 2,
+          "unclear_skipped": 4,
+          "ev_quote_matches": "7/10",
+          "model_used": "gemini-3.5-flash-lite",
+          "raw_quotes": 14,
+          "verified_quotes": 12
+        },
+        {
+          "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+          "tp": 6,
+          "fp": 7,
+          "fn": 8,
+          "tn": 2,
+          "unclear_skipped": 0,
+          "ev_quote_matches": "13/14",
+          "model_used": "gemini-3.5-flash-lite",
+          "raw_quotes": 20,
+          "verified_quotes": 19
+        }
+      ],
+      "mismatches": [
+        {
+          "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+          "field": "loan_or_commitment_amount",
+          "silver": "Revolving commitment capped at $1,000,000 outstanding",
+          "pred": "$1,000,000.00",
+          "overlap": 0.2,
+          "type": "VALUE_MISMATCH"
+        },
+        {
+          "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+          "field": "interest_rate",
+          "silver": "Rate is set in the Revolving Note; interest is calculated on a 365/360 basis using actual days outstanding",
+          "pred": "Interest rate set in the Note, computed on a 365/360 basis.",
+          "overlap": 0.538,
+          "type": "VALUE_MISMATCH"
+        },
+        {
+          "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+          "field": "collateral_security",
+          "silver": "Amended and Restated Security Agreements executed by Borrower and Guarantors; specific assets are not stated in this agreement",
+          "pred": "Secured by Amended and Restated Security Agreements executed by Borrower and Guarantors.",
+          "overlap": 0.636,
+          "type": "VALUE_MISMATCH"
+        },
+        {
+          "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+          "field": "guarantees",
+          "silver": "Guaranties by the Guarantors in favor of the Bank; the opening identifies Taurus Numeric Tool, Inc. and WSI Rochester, Inc.",
+          "pred": "Guaranteed by Taurus Numeric Tool, Inc. and WSI Rochester, Inc.",
+          "overlap": 0.5,
+          "type": "VALUE_MISMATCH"
+        },
+        {
+          "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+          "field": "events_of_default",
+          "silver": "Payment default continuing 10 days; material misrepresentation; uncured covenant breach; insolvency; specified judgments, cross-default, and other listed events",
+          "pred": "Includes payment defaults (10-day cure), material breaches of representations, covenant breaches (10-day notice/cure), bankruptcy/insolvency events, judgments over $50,000, and cross-defaults on other indebtedness.",
+          "overlap": 0.529,
+          "type": "VALUE_MISMATCH"
+        },
+        {
+          "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+          "field": "late_payment_or_default_interest",
+          "silver": "Overdue installments bear Default Rate, defined as the lesser of the maximum permitted rate and 12% per annum",
+          "pred": "Default rate equal to the lesser of the maximum interest rate permitted by Applicable Law and 12% per annum",
+          "overlap": 0.636,
+          "type": "VALUE_MISMATCH"
+        },
+        {
+          "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+          "field": "events_of_default",
+          "silver": "Nonpayment after 10 days; other uncured obligations, insolvency, judgments, lien failures, cross-default, and additional listed events",
+          "pred": "unverified",
+          "type": "FN"
+        },
+        {
+          "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+          "field": "collateral_security",
+          "silver": "Preferred Marine Mortgage over the Vessel and related collateral, including assigned insurance and demise charters",
+          "pred": "unverified",
+          "type": "FN"
+        },
+        {
+          "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+          "field": "interest_rate",
+          "silver": "Bank's Reference Rate minus 0.50 percentage points unless an optional rate is elected; optional rate terms include LIBOR and short-term fixed rates",
+          "pred": "Bank's Reference Rate minus 0.50 percentage points, or optionally LIBOR Rate plus 0.50 percentage points or Short Term Fixed Rate",
+          "overlap": 0.647,
+          "type": "VALUE_MISMATCH"
+        },
+        {
+          "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+          "field": "repayment_terms",
+          "silver": "Monthly interest on the fifth; principal in six annual installments beginning January 5, 2000, with the final balance due January 5, 2005",
+          "pred": "Interest payable monthly on the fifth day; principal payable in annual installments starting January 5, 2000, with the first five annual installments equal to one-tenth of the principal amount outstanding on the Expiration Date, and the sixth and final installment on January 5, 2005 for the remaining balance.",
+          "overlap": 0.786,
+          "type": "VALUE_MISMATCH"
+        },
+        {
+          "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+          "field": "maturity_termination_date",
+          "silver": "Availability period ends December 31, 1999 (Expiration Date); final principal installment January 5, 2005",
+          "pred": "unverified",
+          "type": "FN"
+        },
+        {
+          "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+          "field": "fees",
+          "silver": "Loan fee of $37,500 due on the agreement date; borrower also reimburses stated expenses",
+          "pred": "$37,500 loan fee due on the date of the agreement, plus reimbursement of expenses including filing, recording, search, appraisal, documentation, and attorneys' fees.",
+          "overlap": 0.667,
+          "type": "VALUE_MISMATCH"
+        },
+        {
+          "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+          "field": "late_payment_or_default_interest",
+          "silver": "At Bank's option, default rate is 2 percentage points above the ordinary rate; unpaid interest, fees, or costs may bear Reference Rate plus 2 points",
+          "pred": "Default rate two percentage points higher than the rate otherwise provided under the agreement, and overdue interest, fees, or costs at the Bank's Reference Rate plus two percentage points.",
+          "overlap": 0.625,
+          "type": "VALUE_MISMATCH"
+        },
+        {
+          "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+          "field": "prepayment_terms",
+          "silver": "Borrower may prepay all or part at any time; amounts apply to the most remote principal installments",
+          "pred": "The borrower may prepay the loan in full or in part at any time, applied to the most remote installments of principal due; prepayments of LIBOR or Short Term Fixed Rate Portions require accrued interest and a prepayment fee.",
+          "overlap": 0.75,
+          "type": "VALUE_MISMATCH"
+        },
+        {
+          "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+          "field": "collateral_security",
+          "silver": "Standby Letter of Credit in favor of the Bank, for Heublein's account, with minimum amount $7,500,000 plus at least $112,500 interest",
+          "pred": "Standby Letter of Credit in a minimum amount of $7,500,000 plus interest of not less than $112,500 issued in favor of the Bank for the account of Heublein.",
+          "overlap": 0.933,
+          "type": "VALUE_MISMATCH"
+        },
+        {
+          "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+          "field": "events_of_default",
+          "silver": "Section 9 defaults include false information, insolvency, judgments, cross-default, and other triggers; Bank remedies may include termination, acceleration and recourse to security",
+          "pred": "Events of default include failure to pay within 7 days, false information, bankruptcy, receivers, adverse government action, default under related documents, change of ownership over 10%, failure under other bank agreements, and breach of specific covenants or other terms after a 15-day cure period.",
+          "overlap": 0.333,
+          "type": "VALUE_MISMATCH"
+        }
+      ],
+      "unclear_cases": [
+        {
+          "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+          "field": "repayment_terms",
+          "silver_quote": "Within the limits of the, the Borrower may borrow, repay pursuant to Section 2.07 and re-borrow under this Section 2.02.",
+          "pred_status": "verified",
+          "pred_value": "Revolving loan advances and accrued interest are payable in accordance with the Revolving Note, with principal re-borrowable within limits and automatic debit payments."
+        },
+        {
+          "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+          "field": "late_payment_or_default_interest",
+          "silver_quote": "The Revolving Note shall bear interest on the unpaid principal amount thereof from the date thereof until paid at the rate therein provided.",
+          "pred_status": "verified",
+          "pred_value": "Default includes failure to pay sums on the Note when due continued for 10 days, or failure to pay fees for 10 days."
+        },
+        {
+          "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+          "field": "prepayment_terms",
+          "silver_quote": "repay pursuant to Section 2.07",
+          "pred_status": "verified",
+          "pred_value": "Borrower may borrow, repay, and re-borrow under the revolving loan facility."
+        },
+        {
+          "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+          "field": "interest_rate",
+          "silver_quote": "at an interest rate equal to the Interest Rate as defined in the Note.",
+          "pred_status": "verified",
+          "pred_value": "Interest rate equal to the Interest Rate as defined in the Note"
+        },
+        {
+          "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+          "field": "repayment_terms",
+          "silver_quote": "Borrowers shall pay the principal of the Loan and interest thereon on the terms set forth in the Note.",
+          "pred_status": "verified",
+          "pred_value": "Periodic installments of principal and/or interest due to repay the Note, payable through BillPayer 2000."
+        },
+        {
+          "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+          "field": "maturity_termination_date",
+          "silver_quote": "\"Term\" shall mean the term of the Note.",
+          "pred_status": "verified",
+          "pred_value": "Term of the Note"
+        },
+        {
+          "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+          "field": "prepayment_terms",
+          "silver_quote": "\"Prepayment Premium\" shall mean, with respect to the Loan, the meaning given to it in the Note.",
+          "pred_status": "verified",
+          "pred_value": "Mandatory prepayment of principal plus accrued interest and prepayment premium upon a Vessel Event of Loss within specified timeframes."
+        }
+      ]
+    }
+  },
+  "t5": {
+    "passed": true,
+    "msg": "Gold (3 human docs, 27 cells across 9 mapped fields, 1 UNAVAILABLE_MISSING_SCHEDULE): strict containment=7/27, token-overlap>=0.40 or contain=11/27; per_doc={'Brown-Forman': 'found=9/9, match_or_ov40=3/9', 'Caterpillar': 'found=9/9, match_or_ov40=4/9', 'GATX': 'found=8/9, match_or_ov40=4/9'}; new_calls=0",
+    "calls": 0,
+    "report": {
+      "docs": 3,
+      "comparable_cells": 27,
+      "non_known_gold_cells": 1,
+      "containment_matches": 7,
+      "token_overlap_ge_0_4_or_contain": 11,
+      "per_doc_summary": {
+        "Brown-Forman": "found=9/9, match_or_ov40=3/9",
+        "Caterpillar": "found=9/9, match_or_ov40=4/9",
+        "GATX": "found=8/9, match_or_ov40=4/9"
+      },
+      "details": [
+        {
+          "doc_id": "000001/14693/0000950144-06-011821_2.txt",
+          "agreement_name": "Brown-Forman",
+          "gold_field": "document_title",
+          "mapped_field": "document_title",
+          "gold_status": "KNOWN",
+          "containment_match": true,
+          "token_overlap": 1.0,
+          "pred_status": "verified",
+          "pred_flags": [],
+          "gold_value_short": "BRIDGE CREDIT AGREEMENT",
+          "pred_value_short": "Bridge Credit Agreement",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000001/14693/0000950144-06-011821_2.txt",
+          "agreement_name": "Brown-Forman",
+          "gold_field": "borrower",
+          "mapped_field": "borrowers",
+          "gold_status": "KNOWN",
+          "containment_match": true,
+          "token_overlap": 1.0,
+          "pred_status": "verified",
+          "pred_flags": [],
+          "gold_value_short": "BROWN-FORMAN CORPORATION",
+          "pred_value_short": "Brown-Forman Corporation",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000001/14693/0000950144-06-011821_2.txt",
+          "agreement_name": "Brown-Forman",
+          "gold_field": "lender",
+          "mapped_field": "lenders",
+          "gold_status": "UNAVAILABLE_MISSING_SCHEDULE",
+          "containment_match": false,
+          "token_overlap": 0.0,
+          "pred_status": "verified",
+          "pred_flags": [
+            "page_corrected"
+          ],
+          "gold_value_short": "",
+          "pred_value_short": "Bank of America, N.A., JPMorgan Chase Bank, N.A., Citicorp North America, Inc., National City Bank, HSBC Bank USA, N.A.,",
+          "verified_quotes": 7
+        },
+        {
+          "doc_id": "000001/14693/0000950144-06-011821_2.txt",
+          "agreement_name": "Brown-Forman",
+          "gold_field": "loan_facility_amount",
+          "mapped_field": "loan_or_commitment_amount",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 0.0,
+          "pred_status": "verified",
+          "pred_flags": [],
+          "gold_value_short": "total_commitment: {currency: USD, amount: 800000000, source_label: initial aggregate Lenders' Commitments}; loan_amount:",
+          "pred_value_short": "$800,000,000",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000001/14693/0000950144-06-011821_2.txt",
+          "agreement_name": "Brown-Forman",
+          "gold_field": "interest_rate",
+          "mapped_field": "interest_rate",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 0.278,
+          "pred_status": "verified",
+          "pred_flags": [
+            "page_corrected"
+          ],
+          "gold_value_short": "Formula-based: ABR Borrowings at the Alternate Base Rate (greater of Prime Rate or Federal Funds Effective Rate plus 0.5",
+          "pred_value_short": "ABR Loans bear interest at the Alternate Base Rate; Eurodollar Loans bear interest at the Adjusted LIBO Rate plus the Ap",
+          "verified_quotes": 2
+        },
+        {
+          "doc_id": "000001/14693/0000950144-06-011821_2.txt",
+          "agreement_name": "Brown-Forman",
+          "gold_field": "repayment_terms",
+          "mapped_field": "repayment_terms",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 0.078,
+          "pred_status": "verified",
+          "pred_flags": [
+            "page_corrected"
+          ],
+          "gold_value_short": "Final unpaid principal is due on the defined Maturity Date. Preserve optional whole/partial prepayment (Eurodollar notic",
+          "pred_value_short": "The unpaid principal amount of each Loan is payable in full on the Maturity Date",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000001/14693/0000950144-06-011821_2.txt",
+          "agreement_name": "Brown-Forman",
+          "gold_field": "maturity_date",
+          "mapped_field": "maturity_termination_date",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 0.609,
+          "pred_status": "verified",
+          "pred_flags": [
+            "page_corrected"
+          ],
+          "gold_value_short": "date_type: conditional_formula; Maturity Date is the earlier of (a) 364 days after the Effective Date and (b) if a Matur",
+          "pred_value_short": "The earlier of 364 days after the Effective Date and the Permanent Facility Refinancing Date if a Maturity Date Triggeri",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000001/14693/0000950144-06-011821_2.txt",
+          "agreement_name": "Brown-Forman",
+          "gold_field": "fees_and_charges",
+          "mapped_field": "fees",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 0.278,
+          "pred_status": "verified",
+          "pred_flags": [
+            "page_corrected"
+          ],
+          "gold_value_short": "Facility fee at the rating-based Applicable Rate on each Lender's daily Commitment (used or unused), with specified cont",
+          "pred_value_short": "Facility fee accruing at the Applicable Rate on the daily amount of each Lender's Commitment (whether used or unused)",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000001/14693/0000950144-06-011821_2.txt",
+          "agreement_name": "Brown-Forman",
+          "gold_field": "default_related_clauses",
+          "mapped_field": "events_of_default",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 0.241,
+          "pred_status": "verified",
+          "pred_flags": [
+            "page_corrected"
+          ],
+          "gold_value_short": "Continuing Events of Default include principal nonpayment when due; interest/fee/other nonpayment after three Business D",
+          "pred_value_short": "Events of default include nonpayment of principal, interest, or fees, material misrepresentations, covenant breaches, cr",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000001/18230/0001104659-11-052126_5.txt",
+          "agreement_name": "Caterpillar",
+          "gold_field": "document_title",
+          "mapped_field": "document_title",
+          "gold_status": "KNOWN",
+          "containment_match": true,
+          "token_overlap": 1.0,
+          "pred_status": "verified",
+          "pred_flags": [],
+          "gold_value_short": "CREDIT AGREEMENT (Five-Year Facility)",
+          "pred_value_short": "Credit Agreement (Five-Year Facility)",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000001/18230/0001104659-11-052126_5.txt",
+          "agreement_name": "Caterpillar",
+          "gold_field": "borrower",
+          "mapped_field": "borrowers",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 1.0,
+          "pred_status": "verified",
+          "pred_flags": [],
+          "gold_value_short": "CATERPILLAR INC.; CATERPILLAR FINANCIAL SERVICES CORPORATION; CATERPILLAR INTERNATIONAL FINANCE LIMITED; CATERPILLAR FIN",
+          "pred_value_short": "Caterpillar Inc., Caterpillar Financial Services Corporation, Caterpillar International Finance Limited, and Caterpillar",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000001/18230/0001104659-11-052126_5.txt",
+          "agreement_name": "Caterpillar",
+          "gold_field": "lender",
+          "mapped_field": "lenders",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 0.831,
+          "pred_status": "verified",
+          "pred_flags": [],
+          "gold_value_short": "Initial Banks listed in Schedule I: Citibank, N.A.; JPMorgan Chase Bank, N.A.; Bank of America, N.A.; Barclays Bank PLC;",
+          "pred_value_short": "Citibank, N.A., JPMorgan Chase Bank, N.A., Bank of America, N.A., Barclays Bank PLC, Deutsche Bank AG New York Branch, S",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000001/18230/0001104659-11-052126_5.txt",
+          "agreement_name": "Caterpillar",
+          "gold_field": "loan_facility_amount",
+          "mapped_field": "loan_or_commitment_amount",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 0.108,
+          "pred_status": "verified",
+          "pred_flags": [
+            "page_corrected"
+          ],
+          "gold_value_short": "total_commitment: USD 3,861,000,000; revolving_commitment: USD 3,636,000,000; subfacility ceilings: Same Day Local Curre",
+          "pred_value_short": "$3,861,000,000 total commitment",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000001/18230/0001104659-11-052126_5.txt",
+          "agreement_name": "Caterpillar",
+          "gold_field": "interest_rate",
+          "mapped_field": "interest_rate",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 0.323,
+          "pred_status": "verified",
+          "pred_flags": [
+            "page_corrected"
+          ],
+          "gold_value_short": "Formula-based: Base Rate Advances = Base Rate + Applicable Margin; Japan Base Rate Advances = Japan Base Rate + Applicab",
+          "pred_value_short": "Base Rate or Japan Base Rate plus Applicable Margin for base rate advances, and Eurocurrency Rate or TIBO Rate plus Appl",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000001/18230/0001104659-11-052126_5.txt",
+          "agreement_name": "Caterpillar",
+          "gold_field": "repayment_terms",
+          "mapped_field": "repayment_terms",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 0.146,
+          "pred_status": "verified",
+          "pred_flags": [
+            "page_corrected"
+          ],
+          "gold_value_short": "Each Advance is repaid on the last day of its Interest Period (with Interest Period capped at the applicable Revolving C",
+          "pred_value_short": "Each borrower shall repay the principal amount of each advance on the last day of the interest period for such advance.",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000001/18230/0001104659-11-052126_5.txt",
+          "agreement_name": "Caterpillar",
+          "gold_field": "maturity_date",
+          "mapped_field": "maturity_termination_date",
+          "gold_status": "KNOWN",
+          "containment_match": true,
+          "token_overlap": 0.107,
+          "pred_status": "verified",
+          "pred_flags": [
+            "page_corrected"
+          ],
+          "gold_value_short": "date_type: scheduled_bank_termination_date; each Bank's Termination Date is September 15, 2016, subject to the agreement",
+          "pred_value_short": "September 15, 2016",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000001/18230/0001104659-11-052126_5.txt",
+          "agreement_name": "Caterpillar",
+          "gold_field": "fees_and_charges",
+          "mapped_field": "fees",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 0.214,
+          "pred_status": "verified",
+          "pred_flags": [
+            "page_corrected"
+          ],
+          "gold_value_short": "Commitment fees payable by Caterpillar and CFSC to the Agent for each Bank, calculated daily as rating-based Commitment ",
+          "pred_value_short": "Commitment fees calculated daily based on the commitment fee rate and unused allocated commitments, payable quarterly in",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000001/18230/0001104659-11-052126_5.txt",
+          "agreement_name": "Caterpillar",
+          "gold_field": "default_related_clauses",
+          "mapped_field": "events_of_default",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 0.319,
+          "pred_status": "verified",
+          "pred_flags": [
+            "page_corrected"
+          ],
+          "gold_value_short": "Continuing Events of Default include nonpayment (later of 5 Business Days after due or 2 Business Days after Agent writt",
+          "pred_value_short": "Events of default include non-payment of principal, interest, or fees; material misrepresentations; covenant breaches; c",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000004/40211/0000950123-11-048775_2.txt",
+          "agreement_name": "GATX",
+          "gold_field": "document_title",
+          "mapped_field": "document_title",
+          "gold_status": "KNOWN",
+          "containment_match": true,
+          "token_overlap": 1.0,
+          "pred_status": "verified",
+          "pred_flags": [],
+          "gold_value_short": "FOUR YEAR CREDIT AGREEMENT",
+          "pred_value_short": "FOUR YEAR CREDIT AGREEMENT",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000004/40211/0000950123-11-048775_2.txt",
+          "agreement_name": "GATX",
+          "gold_field": "borrower",
+          "mapped_field": "borrowers",
+          "gold_status": "KNOWN",
+          "containment_match": true,
+          "token_overlap": 1.0,
+          "pred_status": "verified",
+          "pred_flags": [],
+          "gold_value_short": "GATX CORPORATION",
+          "pred_value_short": "GATX CORPORATION",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000004/40211/0000950123-11-048775_2.txt",
+          "agreement_name": "GATX",
+          "gold_field": "lender",
+          "mapped_field": "lenders",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 0.893,
+          "pred_status": "verified",
+          "pred_flags": [
+            "page_corrected"
+          ],
+          "gold_value_short": "Initial Lenders in Schedule I: Bank of America, N.A.; Citibank, N.A.; PNC Bank, National Association; U.S. Bank National",
+          "pred_value_short": "Bank of America, N.A., Citibank, N.A., PNC Bank, National Association, U.S. Bank National Association, Bayerische Landes",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000004/40211/0000950123-11-048775_2.txt",
+          "agreement_name": "GATX",
+          "gold_field": "loan_facility_amount",
+          "mapped_field": "loan_or_commitment_amount",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 0.074,
+          "pred_status": "verified",
+          "pred_flags": [
+            "page_corrected"
+          ],
+          "gold_value_short": "loan_amount: NOT_PRESENT as actual funded/outstanding principal; total_commitment: NOT_PRESENT as a separately labeled a",
+          "pred_value_short": "$560,000,000",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000004/40211/0000950123-11-048775_2.txt",
+          "agreement_name": "GATX",
+          "gold_field": "interest_rate",
+          "mapped_field": "interest_rate",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 0.243,
+          "pred_status": "verified",
+          "pred_flags": [
+            "page_corrected"
+          ],
+          "gold_value_short": "Formula-based and rating-dependent: Base Rate Advance = Base Rate + Applicable Margin; Eurodollar Advance = Eurodollar R",
+          "pred_value_short": "Base Rate plus Applicable Margin or Eurodollar Rate plus Applicable Margin, with Base Rate based on Citibank's base rate",
+          "verified_quotes": 2
+        },
+        {
+          "doc_id": "000004/40211/0000950123-11-048775_2.txt",
+          "agreement_name": "GATX",
+          "gold_field": "repayment_terms",
+          "mapped_field": "repayment_terms",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 0.182,
+          "pred_status": "verified",
+          "pred_flags": [
+            "page_corrected"
+          ],
+          "gold_value_short": "Revolving Credit Advance principal is due on the Termination Date applicable to each Lender. Swing Line Advances are due",
+          "pred_value_short": "Principal of revolving credit advances payable in full on the final Termination Date",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000004/40211/0000950123-11-048775_2.txt",
+          "agreement_name": "GATX",
+          "gold_field": "maturity_date",
+          "mapped_field": "maturity_termination_date",
+          "gold_status": "KNOWN",
+          "containment_match": true,
+          "token_overlap": 0.08,
+          "pred_status": "verified",
+          "pred_flags": [
+            "page_corrected"
+          ],
+          "gold_value_short": "date_type: conditional_lender_specific_termination_date; scheduled date May 9, 2015, subject to one-year extension under",
+          "pred_value_short": "May 9, 2015",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000004/40211/0000950123-11-048775_2.txt",
+          "agreement_name": "GATX",
+          "gold_field": "fees_and_charges",
+          "mapped_field": "fees",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 0.222,
+          "pred_status": "verified",
+          "pred_flags": [
+            "page_corrected",
+            "dropped_quotes:1/2"
+          ],
+          "gold_value_short": "Facility fee: rating-based Applicable Percentage (0.125%-0.250% per annum) on each Lender's Revolving Credit Commitment;",
+          "pred_value_short": "Facility fee based on Applicable Percentage of unused commitment, letter of credit commissions equal to Applicable Margi",
+          "verified_quotes": 1
+        },
+        {
+          "doc_id": "000004/40211/0000950123-11-048775_2.txt",
+          "agreement_name": "GATX",
+          "gold_field": "default_related_clauses",
+          "mapped_field": "events_of_default",
+          "gold_status": "KNOWN",
+          "containment_match": false,
+          "token_overlap": 0.0,
+          "pred_status": "unverified",
+          "pred_flags": [
+            "dropped_quotes:1/1",
+            "all_quotes_failed_verification"
+          ],
+          "gold_value_short": "Continuing Events of Default include nonpayment of principal, interest, fees, or other amounts that remains unremedied f",
+          "pred_value_short": "",
+          "verified_quotes": 0
+        }
+      ]
+    }
+  },
+  "t6": {
+    "passed": true,
+    "msg": "total_live_calls=0 (limit <=80); cached_repeat_new_calls=0 across 5 docs (cache_hits=22)",
+    "total_live_calls": 0
+  }
+}

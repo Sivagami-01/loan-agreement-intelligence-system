@@ -1,0 +1,14 @@
+OCR smoke test: 2026-11-10T22:26:02+05:30
+Tesseract executable: C:\Program Files\Tesseract-OCR\tesseract.exe
+tesseract v5.4.0.20240606
+eng: PASS; file=03_dbs_mitc.pdf; page=1; token_count=970; mean_confidence=86.18
+hin: PASS; file=13_bajajhousingfinance_MITC-Retail__Secured_and_Unsecured_-Hindi.pdf; page=1; token_count=433; mean_confidence=88.69
+ben: PASS; file=16_bajajhousingfinance_E-MITC_-_Retail_Secured_and_Unsecured_-_Bengali_1_.pdf; page=1; token_count=387; mean_confidence=87.39
+pan: PASS; file=15_bajajhousingfinance_E-MITC_-_Retail_Secured_and_Unsecured_-_Punjabi_1_.pdf; page=1; token_count=289; mean_confidence=89.83
+mal: PASS; file=12_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Malayalam.pdf; page=1; token_count=340; mean_confidence=85.44
+OCR pack failures: 0/5
+
+Streamlit app startup smoke test: 2026-11-10T22:34:43.0932931+05:30 PID=9188
+Streamlit health endpoint: FAIL (timed out after 60s)
+Streamlit app startup smoke test (127.0.0.1): 2026-11-10T22:41:55.8845727+05:30 PID=28168; ok HTTP:200
+Streamlit health endpoint: PASS (HTTP 200)

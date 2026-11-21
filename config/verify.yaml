@@ -1,0 +1,4 @@
+model_role: "verifier"
+temperature: 0.0
+max_calls_per_run: 25
+context_chars_around_quote: 1500

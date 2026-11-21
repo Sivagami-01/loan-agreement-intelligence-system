@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Node and frontend builds
+node_modules/
+web/node_modules/
+web/dist/
+.vite/
+coverage/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local uploads and private runtime output
+data/processed/uploads/
+data/processed/cache/
+data/processed/retrieval_cache/
+data/processed/models/huggingface/
+data/processed/*.log
+data/processed_v1/**/*.log
+
+# Large downloaded datasets and local third-party clones
+data/raw/
+data/friend/
+zips/
+
+# Local databases and generated stores
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Cache and temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.cache/
+tmp/
+temp/
+
+# Logs and reports generated locally
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local tool metadata
+.python-version
+.tool-versions

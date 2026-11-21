@@ -1,0 +1,164 @@
+{
+  "key_info_llm.csv": [
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "field_name": "document_title",
+      "llm_value": "Credit Agreement",
+      "llm_evidence_quote": "CREDIT AGREEMENT",
+      "llm_location": "Page 1 (<PAGE> #8), Opening; Cover (<PAGE> #1)",
+      "llm_verified": true,
+      "note": "Cover title is 'CREDIT AGREEMENT PROVIDING FOR A U.S. $25,000,000 REVOLVING CREDIT FACILITY TO BE MADE AVAILABLE TO CHILES OFFSHORE LLC'. Schedules and Exhibits are listed in the Contents but not attached.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "field_name": "agreement_date",
+      "llm_value": "April 29, 1998",
+      "llm_evidence_quote": "THIS CREDIT AGREEMENT is made as of the 29th day of April, 1998, by and among",
+      "llm_location": "Page 1 (<PAGE> #8), Opening paragraph",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "field_name": "borrowers",
+      "llm_value": "Chiles Offshore LLC",
+      "llm_evidence_quote": "(1) CHILES OFFSHORE LLC, a limited liability company organized under the laws of the State of Delaware with offices at 11200 Westheimer, Suite 410, Houston, Texas (the \"Borrower\"),",
+      "llm_location": "Page 1 (<PAGE> #8), Opening paragraph",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "field_name": "lenders",
+      "llm_value": "Nederlandse Scheepshypotheek Bank N.V., MeesPierson Capital Corp., and lenders listed in Schedule 1 (Schedule 1 not attached)",
+      "llm_evidence_quote": "(3) the banks and financial institutions whose names and addresses are set out in Schedule 1 (together, the \"Lenders\", each a \"Lender\");",
+      "llm_location": "Page 1 (<PAGE> #8), Opening; Page 52 (<PAGE> #59), Signature blocks",
+      "llm_verified": true,
+      "note": "Schedule 1 is not attached to this filing; Page 52 signature blocks identify Nederlandse Scheepshypotheek Bank N.V. and MeesPierson Capital Corp. each as 'Lender'.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "field_name": "agents",
+      "llm_value": "Nederlandse Scheepshypotheek Bank N.V. (Co-Arranger, Documentation Agent, and Security Trustee) and MeesPierson Capital Corp. (Co-Arranger, Administrative Agent, and Paying Agent)",
+      "llm_evidence_quote": "(4) Nedship, as documentation agent (the \"Documentation Agent\") and security trustee (the \"Security Trustee\") for the Lenders, and (5) MeesPierson, as administrative and paying agent (the \"Administrative Agent\", and, together with the Documentation Agent, the \"Agents\") for the Lenders.",
+      "llm_location": "Page 1 (<PAGE> #8), Opening paragraph",
+      "llm_verified": true,
+      "note": "Clause (2) of the Opening also names Nedship and MeesPierson as Co-Arrangers.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "field_name": "loan_or_commitment_amount",
+      "llm_value": "Revolving Credit Facility up to $25,000,000 aggregate outstanding",
+      "llm_evidence_quote": "\"Credit Facility\" means the sums to be advanced by the Lenders to the Borrower pursuant to this Agreement in an aggregate amount not to exceed at any one time outstanding Twenty-Five Million Dollars ($25,000,000), as such amount shall be reduced from time to time pursuant to this Agreement;",
+      "llm_location": "Page 4 (<PAGE> #11), Section 1.1",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "field_name": "interest_rate",
+      "llm_value": "LIBOR for the relevant Interest Period (1, 3, or 6 months) plus 1.25% Margin per annum, computed on actual days elapsed and a 360-day year",
+      "llm_evidence_quote": "Each Advance shall bear interest at the Applicable Rate which shall be the rate per annum which is equal to the aggregate of (a) LIBOR for the relevant Interest Period plus (b) the Margin.",
+      "llm_location": "Page 24 (<PAGE> #31), Section 6.1; Page 10 (<PAGE> #17), Section 1.1 Margin",
+      "llm_verified": true,
+      "note": "Section 1.1 defines Margin as 1.25% per annum; Section 6.5 specifies actual/360 calculation.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "field_name": "repayment_terms",
+      "llm_value": "Accrued interest payable in arrears on last day of each 1-, 3-, or 6-month Interest Period (and every 3-month anniversary if > 3 months); all outstanding Advances repayable on Maturity Date; mandatory prepayment/facility reduction if Unit FMV < 130% of Credit Facility Balance (Section 9.3) or upon Unit Total Loss/sale ($12,500,000 reduction, Section 9.4)",
+      "llm_evidence_quote": "5.1 Repayment. The Borrower shall repay all outstanding Advances (subject to such reduction and prepayments as hereinafter set forth) on the Maturity Date.",
+      "llm_location": "Page 24 (<PAGE> #30), Section 5.1; Page 25 (<PAGE> #31), Section 6.3; Pages 37-38 (<PAGE> #45), Sections 9.3-9.4",
+      "llm_verified": true,
+      "note": "Section 6.3 sets quarterly/period-end interest payments; Sections 9.3 and 9.4 specify mandatory collateral-shortfall and rig-loss/sale reductions and prepayments.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "field_name": "maturity_termination_date",
+      "llm_value": "December 31, 2004",
+      "llm_evidence_quote": "\"Maturity Date\" means December 31, 2004;",
+      "llm_location": "Page 11 (<PAGE> #18), Section 1.1",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "field_name": "fees",
+      "llm_value": "Commitment Fee: 0.25% per annum on available undrawn Facility through initial Drawdown Date and 0.50% per annum thereafter quarterly in arrears (actual/360); Agency Fee: $10,000/year shared equally by Agents; Arrangement Fee: 0.50% of Facility at signing; additional Fee Letter fees (letter not attached) and Creditor expense reimbursement",
+      "llm_evidence_quote": "13.1 Commitment Fee. The Borrower shall pay to the Administrative Agent on behalf of the Lenders a fee in the amount of (i) .25% per annum on the available but undrawn amount of the Credit Facility from the date hereof through the initial Drawdown Date and (ii) .50% per annum thereafter, in each case quarterly in arrears from the date hereof.",
+      "llm_location": "Pages 41-42 (<PAGE> #49-50), Sections 13.1-13.5",
+      "llm_verified": true,
+      "note": "Sections 13.2-13.4 specify the $10,000 annual Agency Fee, 0.50% Arrangement Fee, and additional unattached Fee Letter fees.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "field_name": "late_payment_or_default_interest",
+      "llm_value": "Default Rate of 2% per annum over the Applicable Rate in effect at default on any overdue amount until paid",
+      "llm_evidence_quote": "interest thereafter until paid at a rate per annum of two percent (2%) over the Applicable Rate in effect with respect to such payment at the time of such default (the \"Default Rate\").",
+      "llm_location": "Pages 24-25 (<PAGE> #31-32), Section 6.1",
+      "llm_verified": true,
+      "note": "Applies to any amounts due under this Agreement not paid when due (whether by acceleration or otherwise).",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "field_name": "prepayment_terms",
+      "llm_value": "Optional prepayment on last day of an Interest Period upon 5 Banking Days' written notice, without penalty (except LIBOR funding breakage costs and accrued interest under Section 5.4), in minimums of $1,000,000 plus $1,000,000 multiples (or full Advance) with reborrowing permitted; permanent Facility reductions allowed in >= $2,500,000 multiples; mandatory prepayments under Sections 9.3/9.4",
+      "llm_evidence_quote": "5.2 Prepayment; Reborrowing. The Borrower may prepay, upon five (5) Banking Days written notice, any outstanding Advance or any portion thereof, without penalty, provided that such prepayment is made on the last day of the Interest Period of such Advance. Each prepayment shall be in a minimum amount of One Million Dollars ($1,000,000) plus any One Million Dollar ($1,000,000) multiples thereof or the full amount of the Advance.",
+      "llm_location": "Page 24 (<PAGE> #30), Sections 5.2-5.4; Pages 37-38, Sections 9.3-9.4",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "field_name": "collateral_security",
+      "llm_value": "First preferred naval Panamanian Mortgages, Earnings Assignments, and Insurances Assignments (and other Security Documents) in favor of Security Trustee over First Unit ('Chiles Columbus') and Second Unit ('Chiles Magellan') jackup rigs",
+      "llm_evidence_quote": "\"Security Documents\" means the Mortgages, the Assignments and any other documents that may be executed as security for the Credit Facility and the Borrower's obligations in connection therewith;",
+      "llm_location": "Page 12 (<PAGE> #19), Section 1.1; Page 5 (<PAGE> #12), First Unit; Page 11 (<PAGE> #18), Mortgages",
+      "llm_verified": true,
+      "note": "First Unit ('Chiles Columbus') and Second Unit ('Chiles Magellan') are defined in Section 1.1; Mortgages and Earnings/Insurances Assignments secure the Facility.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "field_name": "guarantees",
+      "llm_value": "UNCLEAR",
+      "llm_evidence_quote": "\"Guarantor(s)\" means each of the companies listed in Schedule 2 as Guarantors; \"Guaranty\" means the guaranty to be executed by each Guarantor in respect of the obligations of the Borrower under this Agreement and under the Note in favor of the Security Trustee pursuant to Section 4.l(d) substantially in the form set out in Exhibit 2;",
+      "llm_location": "Page 6 (<PAGE> #14), Section 1.1",
+      "llm_verified": true,
+      "note": "Guarantors (owners of the two jackup rigs) execute Guaranties in favor of Security Trustee, but Schedule 2 listing the Guarantor company names and Exhibit 2 are not attached in this source text.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "field_name": "events_of_default",
+      "llm_value": "Principal non-payment on Maturity Date or required reduction/prepayment; interest or other amount unpaid within 3 Banking Days of due date/demand; materially untrue representation/statement; Mortgage default; Security Document/covenant breach uncured 30 days; Indebtedness cross-default; Indenture default; equity ownership; bankruptcy; termination of operations/asset sale; judgments; inability to pay debts; Change in Control",
+      "llm_evidence_quote": "(a) Non-Payment of Principal. Any payment of principal due on the Maturity Date is not paid on the Maturity Date or is not prepaid in connection with any reduction of the Credit Facility pursuant to Sections 5.3, 9.3 or 9.4 when required thereby; or (b) Non-Payment of Interest or Other Amounts. Any interest on any Advance or any other amount becoming payable to any Creditor under this Agreement, under the Note, under the Guaranty or under any of the Security Documents is not paid within three (3) Banking Days of the due date or date of demand (as the case may be);",
+      "llm_location": "Page 27 (<PAGE> #34), Section 8.1(a)-(m)",
+      "llm_verified": true,
+      "note": "Section 8.1 lists triggers (a) through (m).",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "field_name": "governing_law",
+      "llm_value": "New York",
+      "llm_evidence_quote": "14.1 APPLICABLE LAW.  THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAWS OF THE STATE OF NEW YORK.",
+      "llm_location": "Page 43 (<PAGE> #50), Section 14.1",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    }
+  ]
+}

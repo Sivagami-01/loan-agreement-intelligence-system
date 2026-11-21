@@ -1,0 +1,33 @@
+﻿file,page,expected_script,source_status,source_script_share,private_use_count,cid_count,non_alphanumeric_share,hard_rule_flags,parser_needs_ocr
+12_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Malayalam.json,1,malayalam,BAD,0.4172,4,0,0.3786,private-use characters (4),False
+12_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Malayalam.json,2,malayalam,BAD,0.4125,8,0,0.3968,private-use characters (8),False
+12_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Malayalam.json,3,malayalam,BAD,0.4369,2,0,0.4728,private-use characters (2),False
+12_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Malayalam.json,4,malayalam,BAD,0.4509,1,0,0.4694,private-use characters (1),False
+12_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Malayalam.json,6,malayalam,BAD,0.6264,3,0,0.4211,private-use characters (3),False
+12_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Malayalam.json,9,malayalam,BAD,0.4708,8,0,0.3926,private-use characters (8),False
+13_bajajhousingfinance_MITC-Retail__Secured_and_Unsecured_-Hindi.json,1,devanagari,BAD,0.3259,7,0,0.4153,private-use characters (7),False
+13_bajajhousingfinance_MITC-Retail__Secured_and_Unsecured_-Hindi.json,2,devanagari,BAD,0.3353,6,0,0.428,private-use characters (6),False
+13_bajajhousingfinance_MITC-Retail__Secured_and_Unsecured_-Hindi.json,3,devanagari,BAD,0.2807,3,0,0.3813,private-use characters (3),False
+13_bajajhousingfinance_MITC-Retail__Secured_and_Unsecured_-Hindi.json,5,devanagari,BAD,0.3125,6,0,0.4211,private-use characters (6),False
+13_bajajhousingfinance_MITC-Retail__Secured_and_Unsecured_-Hindi.json,6,devanagari,BAD,0.3069,3,0,0.3884,private-use characters (3),False
+14_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Hindi.json,1,devanagari,BAD,0.3247,7,0,0.4149,private-use characters (7),False
+14_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Hindi.json,2,devanagari,BAD,0.3364,6,0,0.4279,private-use characters (6),False
+14_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Hindi.json,3,devanagari,BAD,0.2567,3,0,0.3677,private-use characters (3),False
+14_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Hindi.json,5,devanagari,BAD,0.2842,6,0,0.4137,private-use characters (6),False
+14_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Hindi.json,6,devanagari,BAD,0.3069,3,0,0.3889,private-use characters (3),False
+15_bajajhousingfinance_E-MITC_-_Retail_Secured_and_Unsecured_-_Punjabi_1_.json,1,gurmukhi,BAD,0.3322,6,0,0.4325,private-use characters (6),False
+15_bajajhousingfinance_E-MITC_-_Retail_Secured_and_Unsecured_-_Punjabi_1_.json,2,gurmukhi,BAD,0.2598,6,0,0.4378,private-use characters (6),False
+15_bajajhousingfinance_E-MITC_-_Retail_Secured_and_Unsecured_-_Punjabi_1_.json,3,gurmukhi,BAD,0.2391,3,0,0.4788,private-use characters (3),False
+15_bajajhousingfinance_E-MITC_-_Retail_Secured_and_Unsecured_-_Punjabi_1_.json,8,gurmukhi,BAD,0.3214,0,0,0.4366,long random-symbol run,False
+15_bajajhousingfinance_E-MITC_-_Retail_Secured_and_Unsecured_-_Punjabi_1_.json,12,gurmukhi,BAD,0.3532,0,0,0.4223,long random-symbol run,False
+15_bajajhousingfinance_E-MITC_-_Retail_Secured_and_Unsecured_-_Punjabi_1_.json,18,gurmukhi,BAD,0.2772,0,0,0.4488,long random-symbol run,False
+16_bajajhousingfinance_E-MITC_-_Retail_Secured_and_Unsecured_-_Bengali_1_.json,1,bengali,BAD,0.4017,6,0,0.3769,private-use characters (6),False
+16_bajajhousingfinance_E-MITC_-_Retail_Secured_and_Unsecured_-_Bengali_1_.json,2,bengali,BAD,0.4008,6,0,0.3812,private-use characters (6),False
+16_bajajhousingfinance_E-MITC_-_Retail_Secured_and_Unsecured_-_Bengali_1_.json,3,bengali,BAD,0.3503,3,0,0.4419,private-use characters (3),False
+17_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Bengali.json,1,bengali,BAD,0.3938,6,0,0.3688,private-use characters (6),False
+17_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Bengali.json,2,bengali,BAD,0.3859,6,0,0.3609,private-use characters (6),False
+17_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Bengali.json,3,bengali,BAD,0.3168,3,0,0.3807,private-use characters (3),False
+17_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Bengali.json,5,bengali,BAD,0.4394,3,0,0.3363,private-use characters (3),False
+17_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Bengali.json,7,bengali,BAD,0.4025,8,0,0.3813,private-use characters (8),False
+personal_business_loan_agreement.json,12,,BAD,,0,0,0.2857,,True
+personal_business_loan_agreement.json,14,,BAD,,0,0,0.2857,,True

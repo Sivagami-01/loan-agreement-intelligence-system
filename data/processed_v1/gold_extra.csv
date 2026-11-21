@@ -1,0 +1,2 @@
+﻿doc_id,location,company,contract_year,filing_index_page,primary_contract,classification_status,duplicate_flag,sha256,character_length,language_guess,has_covenant_breakpoints,split,gold_extra,clean_exclusion_reason
+000082/827156/0000950153-01-500650_2.txt,zip:000082/827156/0000950153-01-500650_2.txt,ZILA INCORPORATED,2000,edgar/data/827156/0000950153-01-500650-index.htm,0,LIKELY_LOAN_AGREEMENT,false,7100d49193be4fc4a309d03d3c266447b5910bba25585056c1d4ecc8b9e1522f,61201,English (heuristic),false,test,true,primary_contract_not_1

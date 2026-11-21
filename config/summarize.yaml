@@ -1,0 +1,18 @@
+# Stage 3b Plain-English Summary Configuration
+
+model_role: "bulk"
+temperature: 0.0
+short_max_words: 120
+max_live_calls: 30
+retry_on_invalid_json: 1
+
+detailed_sections:
+  - "Parties"
+  - "Money"
+  - "Interest and repayment"
+  - "Fees and penalties"
+  - "Prepayment"
+  - "Security and guarantees"
+  - "Default and termination"
+  - "Governing law"
+  - "Not found / defined elsewhere"

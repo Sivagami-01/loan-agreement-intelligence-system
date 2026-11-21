@@ -1,0 +1,30 @@
+# Stage 4a Clause Risk Classification Configuration
+
+model_role: "bulk"
+temperature: 0.0
+batch_size: 12
+max_calls: 40
+retry_on_invalid_json: 1
+prompt_version: "v2"   # frozen after dev v1->v2 selection
+
+# Stage 4a-2 / 4a-3 / 4a-4 whole-document scan overrides (keep v2, v3, v4 selectable)
+scan_batch_size: 20
+scan_max_calls: 60
+scan_v3_prompt_version: "v3"
+scan_v4_prompt_version: "v4"
+scan_prompt_version: "v5"
+
+categories:
+  - "Financial terms"
+  - "Repayment"
+  - "Penalties and charges"
+  - "Collateral"
+  - "Default conditions"
+  - "Termination"
+  - "Covenants"
+
+severities:
+  - "Low"
+  - "Medium"
+  - "High"
+  - "Critical"

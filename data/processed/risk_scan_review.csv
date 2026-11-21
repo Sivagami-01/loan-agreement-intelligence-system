@@ -1,0 +1,148 @@
+﻿doc_id,clause_id,page,category,severity,clause_text,rationale,reviewer_verdict
+000010/104897/0000950123-11-030926_2.txt,C0090,1,Default conditions,High,"(h) A default under any bond, debenture, note or other evidence of
+indebtedness of the Borrower or any Guarantor (other than to the Bank) or
+under any indenture or other instrument under which any such evidence of
+indebtedness has been issued or by which it is governed and the acceleration
+of payment of such indebtedness; or",This cross-default condition triggers an event of default upon a default and acceleration of other indebtedness.,
+000010/104897/0000950123-11-030926_2.txt,C0091,1,Default conditions,High,"(i) Any Reportable Event, which the Bank determines in good faith might
+constitute grounds for the termination of any Plan or for the appointment by
+the appropriate United States District Court of a trustee to administer any
+Plan, shall have occurred and be continuing 30 days after written notice to
+such effect shall have been given to the Borrower by the Bank; or any Plan
+shall have been terminated, or a trustee shall have been appointed by an
+appropriate United States District Court to administer any Plan, or the
+Pension Benefit Guaranty Corporation shall have instituted proceedings to
+terminate any Plan or to appoint a trustee to administer any Plan; or","This default condition relates to reportable pension events, plan terminations, and PBGC proceedings following notice.",
+000010/104897/0000950123-11-030926_2.txt,C0093,1,Default conditions,High,"(k) Any material event or condition of default (however defined) by Borrower
+shall occur and the applicable cure period, if any, shall have expired, in any
+promissory note or any agreement between Borrower and the Bank, including but
+not limited to that certain Promissory Note dated May 3, 2004 and that certain
+Loan Agreement dated May 3, 2004 between Borrower and the Bank.
+
+16
+
+* * *
+
+#####",This clause establishes a cross-default trigger tied to defaults under other agreements after expiration of cure periods.,
+000010/104897/0000950123-11-030926_2.txt,C0094,1,Termination,High,"Section 7.02 Rights and Remedies. Upon the occurrence of an Event of Default
+or at any time thereafter until such Event of Default is cured to the written
+satisfaction of the Bank, the Bank may exercise any or all of the following
+rights and remedies:
+
+(a) The Bank may, by notice to the Borrower and Guarantors, declare the
+Commitment to be terminated whereupon the same shall forthwith terminate;",This clause permits the lender to terminate the commitment upon notice following an event of default.,
+000081/810113/0000950116-04-002411_4.txt,C0038,1,Collateral,High,"Upon the occurrence of an Event of Default hereunder, Lender shall have with respect to the Collateral all rights and remedies available to a secured party under the Uniform Commercial Code, and the rights and remedies under the Loan Documents and under the Preferred Marine Mortgage securing the Note.
+
+       6.
+
+     Lease and Assignment.",This clause outlines lender remedies against collateral upon an event of default under the Uniform Commercial Code.,
+000081/810113/0000950116-04-002411_4.txt,C0040,1,Covenants,High,"(b)     Lender may sell, transfer, grant participations in, assign and/or grant a security interest (any such transaction, a ""Transfer""), in all or part of Lender's right, title and interest in the Note, and in the other Loan Documents as they relate to the Loan evidenced by the Note (including the security interests in favor of Lender securing such Loan). In the event of any Transfer, the relevant transferee shall have and may exercise, with respect to the Loan subject to such Transfer, all of Lender's rights hereunder, and NO BORROWER SHALL ASSERT AGAINST ANY SUCH PURCHASER, TRANSFEREE, ASSIGNEE OR SECURED PARTY ANY DEFENSE, COUNTERCLAIM OR OFFSET THAT ANY BORROWER MAY HAVE AGAINST LENDER. Each Borrower agrees that upon written notice to such Borrower of any Transfer, such Borrower shall acknowledge receipt thereof in writing and provide confirmation to the transferee that the Loan Documents remain in full force and effect and the absence of any Default thereunder, and such other information as Lender or such transferee may reasonably require.
+
+     5
+
+     * * *",This clause permits lender transfers and restricts borrowers from asserting defenses or offsets against transferees.,
+000081/810113/0000950116-04-002411_4.txt,C0043,1,Penalties and charges,High,"8.     Lender's Right to Perform for Borrower. If any Borrower fails to perform or comply with any Obligations contained in the Loan Documents, Lender may (but shall not be obligated to do so), on ten (10) days' notice (or such shorter, or no, notice, as may be reasonable under the circumstances) to Borrowers, if such failure is not cured by the last day of such period, itself perform or comply with such Obligations, and the amount of the reasonable costs and expenses of Lender incurred in connection with such performance or compliance, together with interest on such amount from the date paid by Lender until the date repaid by Borrowers to Lender, at the Default Rate, shall be payable by Borrowers to Lender upon demand. No such performance or compliance by Lender shall be deemed a waiver of the rights and remedies of Lender or any successor or assignee of Lender against Borrowers hereunder or be deemed to cure any Default of Borrowers hereunder. All such sums and amounts so expended by Lender shall be repayable by Borrowers immediately without notice or demand, shall be secured by the Vessels and related Collateral, and shall bear interest from the date said amounts are expended at the Default Rate.","This clause permits the lender to perform unperformed obligations at borrower expense, charging default rate interest and demanding immediate repayment.",
+000081/810113/0000950116-04-002411_4.txt,C0050,1,Collateral,High,"(ii)     Furthermore, upon the occurrence of an Event of Default, Lender shall have, in addition to the rights and remedies provided herein, in the other Loan Documents or by law, the rights and remedies of a secured party under the Uniform Commercial Code under the laws of the State of New York (the ""UCC"") (regardless of whether the UCC is the law of the jurisdiction where the rights and remedies are asserted and regardless of whether the UCC applies to the affected Collateral), and further Lender may do any one or more of the following as Lender in its sole discretion may elect, with or without judicial process or the aid and assistance of others: (A) enter and remain on any premises on which any of the Equipment may be located and, without resistance or interference by Borrowers, and without liability to Lender by reason of such entry or taking possession, take possession of the Equipment; (B) prepare for sale and sell or otherwise dispose of any Equipment at its location; (C) require Borrowers to assemble and make available to Lender, at Borrowers' expense, any Equipment at any place and time designated by Lender; (D) remove any Equipment from any such premises for the purpose of effecting sale or other disposition thereof;",Grants the lender broad self-help and enforcement remedies against equipment collateral upon default.,
+000081/810113/0000950116-04-002411_4.txt,C0054,1,Collateral,High,"(c)     Borrowers hereby authorize Lender, upon the occurrence and during the continuation of any Event of Default hereunder, at Lender's option to adjust, compromise and settle any losses under any insurance afforded under the Loan Documents, and Borrowers do hereby irrevocably constitute Lender and each of its designees, as its attorneys-in-fact, with full power and authority, upon the occurrence and during the continuation of any Event of Default hereunder, to effect such adjustment, compromise and/or settlement and to endorse any drafts drawn by an insurer of the Equipment or any part thereof and to do everything necessary to carry out such purposes and to receive and receipt for any unearned premiums due under policies of such insurance; but unless Lender elects to adjust, compromise or settle losses as aforesaid, such insurance proceeds shall be subject to the Lien and security interest of Lender hereunder.",Appoints the lender as attorney-in-fact to settle insurance claims and control proceeds upon default.,
+000081/810113/0000950116-04-002411_4.txt,C0055,1,Collateral,High,"(d)     Upon the occurrence, and during the continuation, of an Event of Default hereunder, (i) any proceeds of any Collateral shall be applied in accordance with the Note and/or Preferred Marine Mortgages, and (ii) any other amounts received by Lender in respect of the Loan may be applied first to costs of collection and thereafter, in reduction of Borrowers' Obligations in respect of the Loan, in such order and manner as Lender may direct in its sole discretion, and Borrowers irrevocably waive the right to direct the application of such amounts and agrees that Lender shall have the continuing and exclusive right to apply any and all such amounts in Lender's sole discretion, notwithstanding any entry to the contrary upon any of its books and records. Borrowers shall remain liable to Lender with respect to any deficiency remaining with respect to the Loan after application of such proceeds and other amounts in accordance with the Loan Documents, and any surplus remaining after such application shall be paid over to Borrowers or to whomsoever may be entitled thereto.",Provides the lender sole discretion in applying collateral proceeds and holds the borrower liable for deficiencies.,
+000081/810113/0000950116-04-002411_4.txt,C0056,1,Collateral,High,"(e)     To the extent that any of the Loan is now or hereafter secured by property other than the Collateral, or by a guarantee, endorsement or property of any other Person, then Lender also shall have the right to proceed against such other property, guarantee or endorsement upon the occurrence of an Event of Default hereunder, and Lender shall have the right, in its sole discretion, to determine which rights, Liens, security interests or remedies Lender shall at any time pursue, relinquish, subordinate or modify, without in any way affecting the Loan or any of Lender's rights under this Agreement.","Grants the lender sole discretion to pursue alternative collateral, guarantees, or remedies upon default.",
+000081/810113/0000950116-04-002411_4.txt,C0060,1,Penalties and charges,High,"13.     General Indemnification. Borrowers shall pay, and shall indemnify and hold Lender harmless from and against, any and all liabilities, causes of action, claims, suits, penalties, damages, losses, costs or expenses (including reasonable attorneys' fees), Obligations, liabilities, demands and judgments, and Liens, of any nature whatsoever (collectively, a ""Liability"") arising out of or in any way related to: (a) the Loan Documents or any other written agreement entered into by Borrowers in connection with the transactions contemplated hereby and thereby or any amendment, waiver or modification of any of the foregoing or the enforcement of any of the terms hereof or thereof; (b) a failure by Borrowers, or by any charterer from or other user authorized by Borrowers, to comply fully with any Environmental Law with respect to the Equipment or its operation or use; and (c) any Borrower's failure to perform any covenant, or breach of any representation or warranty under the Loan Documents; provided, that the foregoing indemnity shall not extend to the Liabilities to the extent resulting from the gross negligence or willful misconduct of Lender.","Requires the borrower to indemnify the lender against a broad range of liabilities, costs, and legal expenses.",
+000081/810113/0000950116-04-002411_4.txt,C0074,1,Covenants,High,"and (l) none of the proceeds of the Loan will be used, directly or indirectly, by Borrower for the purpose of purchasing or carrying, or for the purpose of reducing or retiring any indebtedness which was originally incurred to purchase or carry, any ""margin security"" within the meaning of Regulation G (12 C.F.R. Part 207), or ""margin stock"" within the meaning of Regulation U (12 C.F.R. Part 221), of the Board of Governors of the Federal Reserve System (herein called ""margin security"" and ""margin stock"") or for any other purpose which might make the transactions contemplated herein a ""purpose credit"" within the meaning of Regulation G or Regulation U, or cause this Agreement to violate any other regulation of the Board of Governors of the Federal Reserve System or the Securities Exchange Act of 1934 or the Small Business Investment Act of 1958, as amended, or any rules or regulations promulgated under any of such statutes; (m) Maritrans 196 Co. is, and during the Term of the Loan, shall be a citizen of the United States under Section 2 of the Shipping Act, 1916, as amended; and (n) Maritrans Inc. does not have rights or interests in the Collateral.",This clause imposes broad negative covenants restricting the use of loan proceeds and asset status.,
+000081/810113/0000950116-04-002411_4.txt,C0075,1,Collateral,High,"18.     Perfection. Maritrans 196 Co., agrees to execute and deliver to Lender such further agreements and assignments or other instruments, and to do all such other things as Lender may reasonably deem necessary or appropriate to assure to Lender the perfection and priority of its security interests under the Loan Documents. MARITRANS 196 CO., HEREBY AUTHORIZES LENDER TO AUTHENTICATE AND FILE UCC FINANCING STATEMENTS AND AMENDMENTS DESCRIBING THE COLLATERAL. MARITRANS 196 CO., FURTHER APPOINTS LENDER OR ITS ASSIGNEE AS ITS TRUE AND LAWFUL ATTORNEY IN FACT, IRREVOCABLY AND COUPLED WITH AN INTEREST, TO EXECUTE AND FILE ON BEHALF OF MARITRANS 196 CO., ALL UCC FINANCING STATEMENTS WHICH IN LENDER'S SOLE BUT REASONABLE DISCRETION ARE NECESSARY OR PROPER TO SECURE LENDER'S INTEREST IN THE EQUIPMENT IN ALL APPLICABLE JURISDICTIONS. Each Borrower further covenants and agrees that it will not change its legal name or be a party to a merger, consolidation or other change in structure without at least ten (10) days' prior written notice to Lender; and shall execute and deliver to Lender (to be recorded at Borrower's expense) all UCC statements as may be required by Lender in connection with such event.",This clause grants broad collateral perfection rights and power of attorney to the lender.,
+000081/810113/0000950116-04-002411_4.txt,C0076,1,Collateral,High,"19.     More than One Borrower. The obligations of Maritrans Inc. (""Maritrans""), and Maritrans 196 Co. (""196 Co."") are joint and several. Each reference to the term ""Borrower"" shall be deemed to refer to each of Maritrans, and 196 Co.; each representation and warranty made by Borrower shall be deemed to have been made by each such party; each covenant and undertaking on the part of Borrower shall be determined individually and applied with respect to each such party; and each event constituting a Default under this Agreement shall be determined with respect to each such party. A separate action or actions may be brought and prosecuted against any such party whether an action is brought against any other party or whether any other party is joined in any such action or actions. Each such party waives any right to require Lender to: (a) proceed against any other party; (b) proceed against or exhaust any security held from any other party; or (c) pursue any other remedy in Lender's power whatsoever. Notices hereunder required to be provided to Borrower shall be effective if provided to Maritrans.
+
+     11
+
+     * * *",This clause creates joint and several guarantees and security exposures across multiple borrowers.,
+000081/810113/0000950116-04-002411_4.txt,C0077,1,Collateral,High,"In the event any obligation of Borrower under this Agreement is deemed to be an agreement by any individual Borrower to answer for the debt or default of another individual Borrower (including each other) or as an accommodation or as an hypothecation of property as security therefor, each Borrower represents and warrants that: (x) no representation has been made to it as to the creditworthiness of any other obligor, and (y) it has established adequate means of obtaining from each other obligor on a continuing basis, financial or other information pertaining to each other obligor's financial condition. Each Borrower expressly waives diligence, demand, presentment, protest and notice of every kind and nature whatsoever, or the alteration or release in any manner of any security now or hereafter held in connection with any obligations now or hereafter secured by this Agreement. Should any default by made in the payment of any such obligations or in the terms or conditions of any security held, Lender is hereby expressly given the right, at its option, to proceed in the enforcement of this Agreement independently of any other remedy or security it may at any time hold in connection with such obligations secured and it shall not be necessary for Lender to proceed upon or against and/or exhaust any other security or remedy before proceeding to enforce its rights against any Borrower.",This clause establishes surety and guarantee obligations with broad lender enforcement discretion.,
+03_dbs_mitc,C0007,2,Default conditions,High,"1. Event(s) of Default in terms of the Loan Agreement 
+include inter alia the following: a) Default or Breach of 
+Loan Agreement: Default in payment, breach of any 
+loan 
+agreement 
+provision, 
+or 
+any 
+fraud, 
+misrepresentation, or concealment of material facts b) 
+Borrower's Financial Distress: Death, business failure, 
+insolvency 
+of 
+the 
+borrower, 
+or 
+reasonable 
+apprehension of insolvency/bankruptcy proceedings.","This clause defines standard events of default including breach of agreement, fraud, and financial distress.",
+000010/104897/0000950123-11-030926_2.txt,C0009,1,Covenants,Low,"""Debt"" means (i) all items of indebtedness or liability which in accordance
+with generally accepted accounting principles would be included in determining
+total liabilities as shown on the liabilities side of a balance sheet as at
+the date as of which Debt is to be determined and (ii) indebtedness secured by
+any mortgage, pledge, lien or security interest existing on property owned by
+the Person whose Debt is being determined, whether or not the indebtedness
+secured thereby shall have been assumed, and (iii) guaranties, endorsements
+(other than for purposes of collection in the ordinary course of business) and
+other contingent obligations in respect of, or to purchase or otherwise
+acquire indebtedness of others.
+
+""Event of Default"" has the meaning specified in Section 7.01.",Defines accounting and reporting terms for liabilities and debt calculations.,
+000010/104897/0000950123-11-030926_2.txt,C0033,1,Default conditions,Medium,"(b) no event has occurred and is continuing, or would result from such
+Advance, which constitutes an Event of Default or would constitute an Event of
+Default but for the requirement that notice be given or time elapse or both.
+
+6
+
+* * *
+
+#####
+
+ARTICLE IV
+
+REPRESENTATIONS AND WARRANTIES
+
+The Borrower and Guarantors represent and warrant to the Bank as follows:",This clause sets conditions regarding default status for drawing loan advances.,
+000010/104897/0000950123-11-030926_2.txt,C0034,1,Covenants,Medium,"Section 4.01 Corporate Existence and Power. The Borrower and Guarantors are
+corporations duly incorporated, validly existing and in good standing under
+the laws of Minnesota, its jurisdiction of incorporation, and each is duly
+licensed or qualified to transact business in all jurisdictions where the
+character of the property owned or leased or the nature of the business
+transacted by it makes such licensing or qualification necessary. The Borrower
+and Guarantors have all requisite power and authority, corporate or otherwise,
+to conduct its business, to own its properties and to execute and deliver, and
+to perform all of its obligations under this Agreement, the Note and the other
+Loan Documents. Bank has been advised that Taurus Numeric Tool, Inc. may be
+changing its name following the execution of this Agreement, and Borrower and
+Guarantors agree to notify Bank of such name change within five (5) days
+following such name change.",This clause contains corporate status representations and a notice covenant regarding name changes.,
+000010/104897/0000950123-11-030926_2.txt,C0038,1,Covenants,Medium,"Section 4.05 Financial Condition. The Borrower and Guarantors have heretofore
+furnished to the Bank their financial statements for the fiscal year ended
+August 29, 2010 and the quarterly financial statements for the quarter ended
+November 28, 2010. Said balance sheets and said statements of income and
+surplus fairly present the financial condition of the Borrower on the dates
+thereof and the results of their operations for the periods then ended, and
+were prepared in accordance with generally accepted accounting principles.
+
+7
+
+* * *
+
+#####",This clause sets representations regarding historical financial condition and accounting standards.,
+000010/104897/0000950123-11-030926_2.txt,C0049,1,Covenants,Low,"(d) as promptly as practicable (but in any event not later than five (5)
+business days) after an officer of the Borrower or any Guarantor obtains
+knowledge of the occurrence of any event which constitutes an Event of Default
+or would constitute an Event of Default with the passage of time or the giving
+of notice, or both, notice of such occurrence, together with a detailed
+statement by a responsible officer of the Borrower or such Guarantor of the
+steps being taken by the Borrower or such Guarantor to cure the effect of such
+event;",This clause requires prompt notice of any default or potential default within five (5) business days.,
+000010/104897/0000950123-11-030926_2.txt,C0052,1,Covenants,Low,"(g) such other information respecting the financial condition and results of
+operations of the Borrower or any Guarantor as the Bank may from time to time
+reasonably request.",Obligates the borrower to furnish routine operational and financial information upon reasonable request.,
+000010/104897/0000950123-11-030926_2.txt,C0057,1,Covenants,Medium,"Section 5.06 Insurance. The Borrower and Guarantors will obtain and maintain
+insurance with insurers believed by the Borrower and Guarantors to be
+responsible and reputable, in such amounts and against such risks as is
+usually carried by companies engaged in similar business and owning similar
+properties in the same general areas in which the Borrower and Guarantors
+operate.",Standard insurance maintenance covenant requiring customary coverage for similar businesses.,
+000081/810113/0000950116-04-002411_4.txt,C0010,1,Covenants,Low,"(l)     ""Environmental Law"" shall mean any Federal, state, or local statute, law, ordinance, code, rule, regulation, or order or decree regulating, relating to or imposing liability upon a Person in connection with the use, release or disposal of any hazardous, toxic or dangerous substance, waste, or material as same may relate to the Equipment or its operation.",Defines environmental law compliance terms.,
+000081/810113/0000950116-04-002411_4.txt,C0016,1,Financial terms,Low,"(z)     ""Obligations"" includes, without limitation, all debts, liabilities, and obligations now or hereafter owing from Borrowers to Lender under or in connection with this Agreement, the Note and other Loan Documents, and performance by Borrowers of all agreements, covenants and provisions contained herein and therein.",Defines the scope of obligations owing under the agreement.,
+000081/810113/0000950116-04-002411_4.txt,C0026,1,Collateral,Medium,"(j)     Lender shall have filed UCC Financing Statements naming Maritrans 196 Co., as debtor, and describing the Collateral, and such other documents reasonably requested by Lender in order to assure the perfection and priority of its security interests in the Collateral;",Requires filing of UCC financing statements to perfect security interests.,

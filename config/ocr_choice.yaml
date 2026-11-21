@@ -1,0 +1,20 @@
+rule: use Gemini only for pages Tesseract marks BAD or SUSPICIOUS to save quota
+description: Recommended OCR engine per language based on empirical CER evaluation.
+  To conserve free-tier API quota and maximize speed, use Tesseract for normal GOOD
+  pages, routing only pages flagged BAD or SUSPICIOUS to Gemini.
+engines:
+  hindi: tesseract
+  bengali: tesseract
+  punjabi: tesseract
+  malayalam: tesseract
+  english: gemini
+  hin: tesseract
+  ben: tesseract
+  pan: tesseract
+  mal: tesseract
+  eng: gemini
+default_engine: tesseract
+fallback_engine: gemini
+thresholds:
+  tesseract_min_confidence: 60.0
+  max_symbol_share: 0.4

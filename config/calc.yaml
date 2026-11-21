@@ -1,0 +1,5 @@
+model_role: "bulk"
+temperature: 0.0
+max_live_calls: 15
+rounding_decimals: 2
+default_day_count: 365

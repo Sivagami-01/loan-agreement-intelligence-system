@@ -1,0 +1,306 @@
+[[PAGE 1]]
+EX-10.16(3)
+
+6
+
+wdc-2024q4ex10163.htm
+
+EX-10.16(3)
+
+[[PAGE 2]]
+Document
+ Exhibit 10.16(3)
+Execution Version
+AMENDMENT NO. 3
+AMENDMENT NO. 3, dated as of June 11, 2024 (this “
+Amendment
+”), to the Amended and Restated Loan Agreement dated as of January 7, 2022 (as amended by that certain Amendment No. 1, dated as of December 23, 2022, as amended by that certain Amendment No. 2, dated as of June 20, 2023, and as further amended, supplemented, amended and restated or otherwise modified from time to time prior to the date hereof, the “
+Loan Agreement
+”) among WESTERN DIGITAL CORPORATION, a Delaware corporation (the “
+Lead Borrower
+”), each lender from time to time party thereto (collectively, the “
+Lenders
+” and individually, a “
+Lender
+”), JPMORGAN CHASE BANK, N.A., as Administrative Agent (in such capacity, the “
+Administrative Agent
+”) and the other parties thereto.  Capitalized terms used and not otherwise defined herein shall have the meanings assigned to them in the Loan Agreement.
+WHEREAS, pursuant to Section 10.11 of the Loan Agreement, the Lead Borrower has requested certain amendments to the Loan Agreement, and the Lenders party hereto constitute the Lenders required pursuant to Section 10.11 of the Loan Agreement with respect to the amendments provided for in Section 2 below;
+NOW, THEREFORE, in consideration of the premises and covenants contained herein and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties hereto, intending to be legally bound hereby, agree as follows:
+Section 1.    
+Defined Terms
+. 
+        Capitalized terms used but not defined herein shall have the respective meanings assigned to such terms in the Amended Loan Agreement (as defined below).
+Section 2.    
+Amendments
+.
+  Effective as of the Amendment No. 3 Effective Date (as defined below), the Loan Agreement is hereby amended as follows (the “
+Amended Loan Agreement
+”):
+(a)    Section 1.1 (Definitions).  The definition of “Excluded Property” is hereby amended by deleting clause (g)(v) as it appears therein and inserting in lieu thereof “(v) the Great Oaks Property so long as definitive documentation has been signed in respect of the Great Oaks Sale/Leaseback Transaction within the first seven full fiscal quarters following the Amendment No. 2 Effective Date and the Great Oaks Sale/Leaseback Transaction has been consummated within the first nine full fiscal quarters following the Amendment No. 2 Effective Date,”. 
+1
+Section 3.    
+Representations and Warranties
+.
+The Lead Borrower represents and warrants as of the Amendment No. 3 Effective Date that:
+(a)    Immediately before and after giving effect to this Amendment, each of the representations and warranties set forth in the Amended Loan Agreement and in the other Loan Documents shall be and remain true and correct in all material respects (or, if qualified as to “materiality,” “material adverse effect” or similar language, shall be true and correct in all respects (after giving effect to any such qualification therein)) as of said time, except to the extent the same expressly relate to an earlier date.
+(b)    At the time of and after giving effect to this Amendment, no Default or Event of Default shall have occurred and be continuing.
+Section 4.    
+Condition to Effectiveness
+. 
+This Amendment shall become effective on the date on which the following condition is satisfied (the “
+Amendment No. 3 Effective Date
+”): the Administrative Agent shall have received counterparts of this Amendment, duly executed by the Lead Borrower and the Lenders who constitute the Required Lenders, which shall be originals or facsimiles or electronic copies (and, to the extent requested by the Administrative Agent, followed promptly by originals) unless otherwise specified.
+Section 5.    
+Acknowledgments
+.
+The Lead Borrower hereby expressly acknowledges the terms of this Amendment and reaffirms, as of the date hereof, the covenants and agreements contained in each Loan Document to which it is a party, including, in each case, such covenants and agreements as in effect immediately after giving effect to this Amendment and the transactions contemplated hereby.
+Section 6.    
+Entire Agreement
+.
+This Amendment, the Loan Agreement and the other Loan Documents constitute the entire agreement among the parties hereto with respect to the subject matter hereof and thereof and supersede all other prior agreements and understandings, both written and verbal, among the parties hereto with respect to the subject matter hereof.  Except as expressly set forth herein, this Amendment and the Loan Agreement shall not by implication or otherwise limit, impair, constitute a waiver of, or otherwise affect the rights and remedies of any party under, the Loan Agreement, nor alter, modify, amend or in any way affect any of the terms, conditions, obligations, covenants or agreements contained in the Loan Agreement, all of which are ratified and affirmed in all respects and shall continue in full force and effect.  This Amendment shall not constitute a novation of the Loan Agreement or any of the Loan Documents. Upon and after the 
+2
+execution of this Amendment by each of the parties hereto, each reference in the Loan Agreement to “this Agreement”, “hereunder”, “hereof” or words of like import referring to the Loan Agreement, and each reference in the other Loan Documents to “the Loan Agreement”, “thereunder”, “thereof” or words of like import referring to the Loan Agreement, shall mean and be a reference to the Loan Agreement as modified hereby. It is understood and agreed that this Amendment is a “Loan Document.”
+Section 7.    
+Amendment, Modification and Waiver
+.
+    This Amendment may not be amended, modified or waived except pursuant to a writing signed by each of the parties hereto.
+Section 8.    
+Expenses
+.
+The Lead Borrower agrees to reimburse the Administrative Agent for its reasonable and documented out-of-pocket expenses incurred by them in connection with this Amendment, including the reasonable and documented fees, charges and disbursements of Cahill Gordon & Reindel llp, counsel for the Administrative Agent.
+Section 9.    
+Counterparts
+.
+This Amendment may be executed in any number of counterparts and by different parties hereto on separate counterparts, each of which when so executed and delivered shall be deemed to be an original, but all of which when taken together shall constitute a single instrument.  Delivery of an executed counterpart of a signature page of this Amendment by facsimile transmission or electronic transmission shall be effective as delivery of a manually executed counterpart hereof. The words “execution,” “signed,” “signature,” “delivery,” and words of like import in or relating to this Amendment shall be deemed to include Electronic Signatures, deliveries or the keeping of records in electronic form, each of which shall be of the same legal effect, validity or enforceability as a manually executed signature, physical delivery thereof or the use of a paper-based recordkeeping system, as the case may be.
+Section 10.    
+Governing Law and Waiver of Right to Trial by Jury
+.
+THIS AMENDMENT AND ANY CLAIM, CONTROVERSY OR DISPUTE ARISING UNDER OR RELATED TO THIS AMENDMENT AND THE RIGHTS AND OBLIGATIONS OF THE PARTIES UNDER THIS AMENDMENT SHALL BE GOVERNED BY, AND CONSTRUED AND INTERPRETED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK.  SECTION 10.22 OF THE LOAN AGREEMENT IS HEREBY INCORPORATED BY REFERENCE INTO THIS AMENDMENT AND SHALL APPLY HERETO.
+3
+Section 11.    
+Headings
+.
+The headings of this Amendment are for purposes of reference only and shall not limit or otherwise affect the meaning hereof.
+Section 12.    
+Effect of Amendment
+.
+Except as expressly set forth herein, this Amendment shall not by implication or otherwise limit, impair, constitute a waiver of or otherwise affect the rights and remedies of the Lenders or the Administrative Agent under the Loan Agreement or any other Loan Document, and shall not alter, modify, amend or in any way affect any of the terms, conditions, obligations, covenants or agreements contained in the Loan Agreement or any other provision of the Loan Agreement or any other Loan Document, all of which are ratified and affirmed in all respects and shall continue in full force and effect.  
+[
+Signature pages follow
+]
+4
+
+[[PAGE 3]]
+IN WITNESS WHEREOF, the parties hereto have caused this Amendment to be duly executed as of the date first above written.
+WESTERN DIGITAL CORPORATION
+By:
+/s/ Grace Lin
+
+Name: Grace Lin
+
+Title:   Authorized Signatory
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+JPMORGAN CHASE BANK, N.A., as
+Administrative Agent
+By:
+/s/ Timothy Lee
+
+Name: Timothy D. Lee
+
+Title:   Executive Director
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+JPMORGAN CHASE BANK, N.A., as a Lender
+By:
+/s/ Timothy Lee
+
+Name: Timothy D. Lee
+
+Title:   Executive Director
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+
+Bank of America, N.A., as a Lender
+By:
+/s/ Puneet Lakhotia
+
+Name: Puneet Lakhotia
+
+Title:   Director
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+MIZUHO BANK, LTD., as a Lender
+By:
+/s/ Tracy Rahn
+
+Name: Tracy Rahn
+
+Title:   Managing Director
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+ROYAL BANK OF CANADA, as a Lender
+By:
+/s/ Harsh Grewal
+
+Name: Harsh Grewal
+
+Title:   Authorized Signatory
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+
+Wells Fargo Bank, National Association, as a Lender
+By:
+/s/ Gambo Audu
+
+Name: Gambo Audu
+
+Title:   Vice President
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+CITIBANK, N.A., as a Lender
+By:
+/s/ Carmen-Christina Kelleher
+
+Name: Carmen-Christina Kelleher
+
+Title:   Vice President
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+PNC Bank, National Association, as a Lender
+By:
+/s/ Skyler Zweifel
+
+Name: Skyler Zweifel
+
+Title:   Vice President
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+The Toronto-Dominion Bank, New York Branch, as a
+Lender
+By:
+/s/ David Perlman
+
+Name: David Perlman
+
+Title:   Authorized Signatory
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+Truist Bank, as a Lender
+By:
+/s/ Shae Patel
+
+Name: Shae Patel
+
+Title:   Director
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+HSBC BANK USA, NATIONAL ASSOCIATION, as a
+Lender
+By:
+/s/ Aleem Shamji
+
+Name: Aleem Shamji
+
+Title:   Managing Director
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+MUFG BANK, Ltd., as a Lender
+By:
+/s/ Colin Donnarumma
+
+Name: Colin Donnarumma
+
+Title:   Vice President
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+U.S. BANK NATIONAL ASSOCIATION, Ltd., as a Lender
+Lender
+By:
+/s/ Brian Seipke
+
+Name: BRIAN SEIPKE
+
+Title:   SENIOR VICE PRESIDENT
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+BNP Paribas, as a Lender
+By:
+/s/ Theodore Olson
+
+Name: Theodore OLSON
+
+Title:   Managing Director
+By:
+/s/ George Ko
+Name: George Ko
+Title:   Director
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+DBS BANK LTD., as a Lender
+By:
+/s/ Josephine Lim
+
+Name: Josephine Lim
+
+Title:   Executive Director
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+BANCO BILBAO VIZCAYA ARGENTARIA,
+S.A. NEW YORK BRANCH, as a Lender
+By:
+/s/ Brian Crowley
+
+Name: Brian Crowley
+
+[[PAGE 4]]
+Title:   Managing Director
+By:
+/s/ Armen Semizian
+Name: Armen Semizian
+Title:   Managing Director
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+The Bank of Nova Scotia, as a Lender
+By:
+/s/ David Dewar
+
+Name: David Dewar
+
+Title:   Director
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+DMO Bank N.A., as a Lender
+By:
+/s/ Cecile Segovia
+
+Name: Cecile Segovia
+
+Title:   Director
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+Barclays Bank PLC, as a Lender
+By:
+/s/ Joseph Tauro
+
+Name: Joseph Tauro
+
+Title:   Associate Vice President
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+The Bank of East Asia, Limited, New York Branch, as a
+Lender
+By:
+/s/ James Hua
+
+Name: James Hua
+
+Title:   DGM & Corporate Banking
+By:
+/s/ Chong Tan
+Name: Chong Tan
+Title:   DGM & Risk Management
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+Industrial and Commercial Bank of China Limited,
+New York Banks, as a Lender
+By:
+/s/ Tony Huang
+
+Name: Tony Huang
+
+Title:   Director
+By:
+/s/ Yuanyuan Peng
+Name: Yuanyuan Peng
+Title:   Executive Director
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]
+Oversea-Chinese Banking Corporation Limited, New York
+Agency, as a Lender
+By:
+/s/ Grace Sun
+
+Name: Grace Sun
+
+Title:   Managing Director, Deputy General Manager
+[Signature Page to Amendment No. 3 to A&R Loan Agreement]

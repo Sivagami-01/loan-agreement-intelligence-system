@@ -1,0 +1,32 @@
+# Stage 4b Deterministic Document Risk Scoring Configuration
+
+method: "padded_top3"
+supported_methods:
+  - "mean_top3"
+  - "padded_top3"
+top_n: 3
+padding_points: 1
+floor_rule: true
+floor_min_level: "High"
+
+points:
+  Low: 1
+  Medium: 2
+  High: 3
+  Critical: 4
+
+# Weights must sum to exactly 1.00
+weights:
+  Default conditions: 0.25
+  Penalties and charges: 0.20
+  Financial terms: 0.15
+  Repayment: 0.15
+  Collateral: 0.10
+  Termination: 0.10
+  Covenants: 0.05
+
+# Level bands: Low < 25; Moderate 25 to <50; High 50 to <75; Critical >= 75
+thresholds:
+  low_max: 25.0
+  moderate_max: 50.0
+  high_max: 75.0

@@ -1,0 +1,7 @@
+chunk_chars: 2000
+chunk_overlap: 200
+top_k: 8
+bm25_k1: 1.5
+bm25_b: 0.75
+max_prompt_chars: 60000
+force_retrieval: false

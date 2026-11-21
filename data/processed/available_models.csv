@@ -1,0 +1,49 @@
+model_name,full_name,display_name,supported_methods
+gemini-2.5-flash,models/gemini-2.5-flash,Gemini 2.5 Flash,generateContent;countTokens;createCachedContent;batchGenerateContent
+gemini-2.5-pro,models/gemini-2.5-pro,Gemini 2.5 Pro,generateContent;countTokens;createCachedContent;batchGenerateContent
+gemini-2.5-flash-preview-tts,models/gemini-2.5-flash-preview-tts,Gemini 2.5 Flash Preview TTS,countTokens;generateContent
+gemini-2.5-pro-preview-tts,models/gemini-2.5-pro-preview-tts,Gemini 2.5 Pro Preview TTS,countTokens;generateContent;batchGenerateContent
+gemma-4-26b-a4b-it,models/gemma-4-26b-a4b-it,Gemma 4 26B A4B IT,generateContent;countTokens
+gemma-4-31b-it,models/gemma-4-31b-it,Gemma 4 31B IT,generateContent;countTokens
+gemini-flash-latest,models/gemini-flash-latest,Gemini Flash Latest,generateContent;countTokens;createCachedContent;batchGenerateContent
+gemini-flash-lite-latest,models/gemini-flash-lite-latest,Gemini Flash-Lite Latest,generateContent;countTokens;createCachedContent;batchGenerateContent
+gemini-pro-latest,models/gemini-pro-latest,Gemini Pro Latest,generateContent;countTokens;createCachedContent;batchGenerateContent
+gemini-2.5-flash-lite,models/gemini-2.5-flash-lite,Gemini 2.5 Flash-Lite,generateContent;countTokens;createCachedContent;batchGenerateContent
+gemini-2.5-flash-image,models/gemini-2.5-flash-image,Nano Banana,generateContent;countTokens;batchGenerateContent
+gemini-3-flash-preview,models/gemini-3-flash-preview,Gemini 3 Flash Preview,generateContent;countTokens;createCachedContent;batchGenerateContent
+gemini-3.1-pro-preview,models/gemini-3.1-pro-preview,Gemini 3.1 Pro Preview,generateContent;countTokens;createCachedContent;batchGenerateContent
+gemini-3.1-pro-preview-customtools,models/gemini-3.1-pro-preview-customtools,Gemini 3.1 Pro Preview Custom Tools,generateContent;countTokens;createCachedContent;batchGenerateContent
+gemini-3.1-flash-lite-preview,models/gemini-3.1-flash-lite-preview,Gemini 3.1 Flash Lite Preview,generateContent;countTokens;createCachedContent;batchGenerateContent
+gemini-3.1-flash-lite,models/gemini-3.1-flash-lite,Gemini 3.1 Flash Lite,generateContent;countTokens;createCachedContent;batchGenerateContent
+gemini-3-pro-image-preview,models/gemini-3-pro-image-preview,Nano Banana Pro,generateContent;countTokens;batchGenerateContent
+gemini-3-pro-image,models/gemini-3-pro-image,Nano Banana Pro,generateContent;countTokens;batchGenerateContent
+nano-banana-pro-preview,models/nano-banana-pro-preview,Nano Banana Pro,generateContent;countTokens;batchGenerateContent
+gemini-3.1-flash-image-preview,models/gemini-3.1-flash-image-preview,Nano Banana 2,generateContent;countTokens;batchGenerateContent
+gemini-3.1-flash-image,models/gemini-3.1-flash-image,Nano Banana 2,generateContent;countTokens;batchGenerateContent
+gemini-3.1-flash-lite-image,models/gemini-3.1-flash-lite-image,Nano Banana 2 Lite,generateContent;countTokens;batchGenerateContent
+gemini-nano-banana-2.1,models/gemini-nano-banana-2.1,Nano Banana 2.1,generateContent;countTokens;batchGenerateContent
+gemini-3.5-flash,models/gemini-3.5-flash,Gemini 3.5 Flash,generateContent;countTokens;createCachedContent;batchGenerateContent
+gemini-3.5-flash-lite,models/gemini-3.5-flash-lite,Gemini 3.5 Flash Lite,generateContent;countTokens;createCachedContent;batchGenerateContent
+gemini-omni-flash-preview,models/gemini-omni-flash-preview,Gemini Omni Flash Preview,generateContent;countTokens
+gemini-omni-1.1-flash,models/gemini-omni-1.1-flash,Gemini Omni 1.1 Flash,generateContent;countTokens
+gemini-omni-1.2-flash,models/gemini-omni-1.2-flash,Gemini Omni 1.2 Flash,generateContent;countTokens
+gemini-3.5-transcribe,models/gemini-3.5-transcribe,Gemini 3.5 Transcribe,generateContent;countTokens
+gemini-3.6-flash,models/gemini-3.6-flash,Gemini 3.6 Flash,generateContent;countTokens;createCachedContent;batchGenerateContent
+gemini-3.7-flash,models/gemini-3.7-flash,Gemini 3.7 Flash,generateContent;countTokens;createCachedContent;batchGenerateContent
+gemini-3.8-flash,models/gemini-3.8-flash,Gemini 3.8 Flash,generateContent;countTokens;createCachedContent;batchGenerateContent
+gemini-4-argon,models/gemini-4-argon,Gemini 4 Argon,generateContent;countTokens;batchGenerateContent
+gemini-4-carbon,models/gemini-4-carbon,Gemini 4 Carbon,generateContent;countTokens;batchGenerateContent
+lyria-3-clip-preview,models/lyria-3-clip-preview,Lyria 3 Clip Preview,generateContent;countTokens
+lyria-3-pro-preview,models/lyria-3-pro-preview,Lyria 3 Pro Preview,generateContent;countTokens
+lyria-3.5,models/lyria-3.5,Lyria 3.5,generateContent;countTokens
+gemini-3.1-flash-tts-preview,models/gemini-3.1-flash-tts-preview,Gemini 3.1 Flash TTS Preview,generateContent;countTokens;batchGenerateContent
+gemini-3.8-flash-tts,models/gemini-3.8-flash-tts,Gemini 3.8 Flash TTS,generateContent;countTokens;batchGenerateContent
+gemini-3.8-flash-lite-tts,models/gemini-3.8-flash-lite-tts,Gemini 3.8 Flash Lite TTS,generateContent;countTokens;batchGenerateContent
+gemini-robotics-er-2-preview,models/gemini-robotics-er-2-preview,Gemini Robotics-ER 2 Preview,generateContent;countTokens;createCachedContent;batchGenerateContent
+gemini-2.5-computer-use-preview-10-2025,models/gemini-2.5-computer-use-preview-10-2025,Gemini 2.5 Computer Use Preview 10-2025,generateContent;countTokens
+antigravity-preview-05-2026,models/antigravity-preview-05-2026,Antigravity Agent Preview,generateContent;countTokens
+antigravity-preview-09-2026,models/antigravity-preview-09-2026,Antigravity Agent Preview,generateContent;countTokens
+antigravity-preview-latest,models/antigravity-preview-latest,Antigravity Agent Preview Latest,generateContent;countTokens
+deep-research-max-preview-04-2026,models/deep-research-max-preview-04-2026,Deep Research Max Preview (Apr-21-2026),generateContent;countTokens
+deep-research-preview-04-2026,models/deep-research-preview-04-2026,Deep Research Preview (Apr-21-2026),generateContent;countTokens
+deep-research-pro-preview-12-2025,models/deep-research-pro-preview-12-2025,Deep Research Pro Preview (Dec-12-2025) [Rerouted],generateContent;countTokens

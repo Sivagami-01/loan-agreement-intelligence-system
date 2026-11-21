@@ -1,0 +1,1011 @@
+﻿doc_id,clause_id,continuation_of,page,clause_text,prefilter_passed,matched_keywords,category,severity,clause_type,features,severity_rule,severity_explanation,rationale,number_flag,flagged_numbers,model_used,parse_error,prompt_version
+000103/1039213/0000912057-97-018811_19.txt,C0001,,1,"BUSINESS LOAN AGREEMENT
+
+
+          This Agreement dated as of March 28, 1997, is between Bank of America
+National Trust and Savings Association (the ""Bank"") and Scheid Vineyards and
+Management Co., a California corporation (the ""Borrower"").
+
+
+1.   LINE OF CREDIT AMOUNT AND TERMS
+
+          1.1. LINE OF CREDIT AMOUNT.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0002,,1,"(a)  During the availability period described below, the Bank
+     will provide a line of credit to the Borrower.  The amount of the line of
+     credit (the ""Development Loan Commitment"") is Seven Million Five Hundred
+     Thousand Dollars ($7,500,000).",True,principal_amount,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,Specifies the maximum principal commitment amount for the line of credit.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0003,,1,"(b)  This is a non-revolving line of credit with a term repayment
+     option.  Any amount borrowed, even if repaid before the end of the
+     availability period, permanently reduces the remaining available line of
+     credit.",True,repayment_terms,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,Establishes that the line of credit is non-revolving and permanently reduces available capacity upon borrowing.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0004,,1,"(c)  Each advance must be for at least Ten Thousand Dollars
+     ($10,000), or for the amount of the remaining available line of credit, if
+     less.
+
+               (d)  The Borrower agrees not to permit the outstanding principal
+     balance of the line of credit to exceed the Development Loan Commitment.",True,principal_amount; covenant_undertaking,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,Sets advance limits and restricts the outstanding principal balance from exceeding the commitment amount.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0005,,1,"1.2. AVAILABILITY PERIOD.  The line of credit is available between the
+date of this Agreement and December 31, 1999 (the ""Expiration Date"") unless a
+default under Section 9 has occurred, whether or not such default has ripened
+into an event of default giving the Bank the remedies set forth in Section 9.
+
+          1.3. INTEREST RATE.",True,interest; default_triggers; lender_powers_remedies,Termination,High,acceleration_or_termination_right,{},R_ACCEL_HIGH,Severity High because: acceleration_or_termination_right; acceleration or termination right by notice,Defines the availability period and expiration date subject to potential default conditions.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0006,,1,"(a)  Unless an optional interest rate is elected as described
+     below, the interest rate is the Bank's Reference Rate minus 0.50 percentage
+     points.",True,interest,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,Establishes the floating interest rate as a margin relative to the bank's reference rate.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0007,,1,"(b)  The Reference Rate is the rate of interest publicly
+     announced from time to time by the Bank in San Francisco, California, as
+     its Reference Rate.  The Reference Rate is set by the Bank based on various
+     factors, including the Bank's costs and desired return, general economic
+     conditions and other factors, and is used as a reference point for pricing
+     some loans.  The Bank may price loans to its customers at, above, or below
+     the Reference Rate.  Any change in the Reference Rate shall take effect at
+     the opening of business on the day specified in the public announcement of
+     a change in the Bank's Reference Rate.",True,interest; rate_of_interest,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,Defines the reference rate and explains how changes are publicly announced and implemented by the bank.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0008,,2,"1.4. REPAYMENT TERMS.
+
+               (a)  The Borrower will pay interest on the fifth day of each
+     month, commencing on the fifth day of the month after the month in which
+     the first advance is made, until payment in full of any principal
+     outstanding under this line of credit.",True,interest; principal_amount; repayment_terms,Repayment,High,payment_default_trigger,{},R_TRIG_HIGH,Severity High because: payment_default_trigger; core default trigger with short or no >=10d cure window,Sets the scheduled monthly interest payment dates and obligations.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0009,,2,"(b)  The Borrower will repay the principal amount outstanding on
+     the Expiration Date in annual installments starting January 5, 2000.  The
+     first five of such annual installments shall be equal to one-tenth of the
+     principal amount outstanding on the Expiration Date, and the sixth and last
+     annual installment shall be payable on January 5, 2005 and shall pay the
+     remaining principal balance in full.",True,principal_amount; repayment_terms; payable_due,Repayment,High,payment_default_trigger,{},R_TRIG_HIGH,Severity High because: payment_default_trigger; core default trigger with short or no >=10d cure window,Outlines the annual principal repayment schedule starting on a specified date.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0010,,2,"(c)  The Borrower may prepay the loan in full or in part at any
+     time.  The prepayment will be applied to the most remote installment(s) of
+     principal due under this Agreement.",True,principal_amount; repayment_terms,Repayment,Low,prepayment_term,"{""borrower_protective"": true}",R_BORROWER_PROTECTIVE_FEAT,Severity Low because: prepayment_term; borrower_protective,[borrower-protective] Allows voluntary prepayment of the loan at any time with specific application to remote principal installments.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0011,,2,"1.5. OPTIONAL INTEREST RATE.  Instead of the interest rate based on
+the Bank's Reference Rate, Heublein, Inc.(""Heublein"") on behalf of the Borrower,
+may elect the optional interest rates listed below during interest periods
+agreed to by the Bank and the Borrower.  The optional interest rates shall be
+subject to the terms and conditions described later in this Agreement.  Any
+principal amount bearing interest at an optional rate under this Agreement is
+referred to as a ""Portion.""  The following optional interest rates are
+available:
+
+               (a)  LIBOR Rates.
+
+               (b)  Short Term Fixed Rates.
+
+
+2.  OPTIONAL INTEREST RATES",True,interest; rate_of_interest; principal_amount,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,Permits an alternative optional interest rate election subject to subsequent terms and conditions.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0012,,2,"2.1. OPTIONAL RATES.  Each optional interest rate is a rate per year.
+Interest will be paid on the last day of each interest period, and, if the
+interest period is longer than one month, then on the fifth day of each month
+during the interest period.  No Portion will be converted to a different
+interest rate during the applicable interest period.  Upon the occurrence of a
+default under Section 9 of this Agreement whether or not such default has
+ripened into an event of default, the Bank may terminate the availability of
+optional interest rates for interest periods commencing after the default
+occurs.",True,interest; default_triggers; termination_accel,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,Details optional interest rate payment timing and allows the bank to terminate optional rates upon a default.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0013,,2,"2.2. LIBOR RATE.  Heublein, on behalf of the Borrower, may elect to
+have all or Portions of the principal balance bear interest at the LIBOR Rate
+plus 0.50 percentage points.  Designation of a LIBOR Rate Portion is subject to
+the following requirements:
+
+
+                                          2 (a)  The interest period during which the LIBOR Rate will be in
+     effect will be one, two, three, four, five, six, seven, eight, nine, ten,
+     eleven, or twelve months.  The first day of the interest period must be a
+     day other than a Saturday or a Sunday on which the Bank is open for
+     business in California, New York and London and dealing in offshore dollars
+     (a ""LIBOR Banking Day"").  The last day of the interest period and the
+     actual number of days during the interest period will be determined by the
+     Bank using the practices of the London inter-bank market.  At the end of
+     any interest period, the interest rate will revert to the rate based on the
+     Reference Rate, unless the Borrower has designated another optional
+     interest rate for the Portion.",True,interest; rate_of_interest; principal_amount,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,Permits election of a LIBOR rate plus a spread with specific business day and interest period requirements.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0014,,3,"(b)  Each LIBOR Rate Portion will be for an amount not less than
+     Five Hundred Thousand Dollars ($500,000).",True,rate_of_interest,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,Establishes the minimum dollar amount required for each LIBOR rate portion.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0015,,3,"(c)  The ""LIBOR Rate"" means the interest rate determined by the
+     following formula, rounded upward to the nearest 1/100 of one percent.
+     (All amounts in the calculation will be determined by the Bank as of the
+     first day of the interest period.)
+
+          LIBOR Rate =   LONDON INTER-BANK OFFERED RATE
+                         (1.00   Reserve Percentage)
+
+     Where,",True,interest; rate_of_interest,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,Defines the formula for calculating the LIBOR rate including reserve percentages and rounding rules.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0016,,3,"(i)  ""London Inter-Bank Rate"" means the interest rate
+          at which the Bank's London Branch, London, Great Britain, would offer
+          U.S. dollar deposits for the applicable interest period to other major
+          banks in the London inter-bank market at approximately 11:00 a.m.
+          London time two (2) London Banking Days before the commencement of the
+          interest period.  A ""London Banking Day"" is a day on which the Bank's
+          London Branch is open for business and dealing in offshore dollars.",True,interest,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,Defines the London Inter-Bank Rate and associated banking days for offshore U.S. dollar deposits.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0017,,3,"(ii)  ""Reserve Percentage"" means the total of the maximum
+          reserve percentages for determining the reserves to be maintained by
+          member banks of the Federal Reserve System for Eurocurrency
+          Liabilities, as defined in Federal Reserve Board Regulation D,
+          rounded upward to the nearest 1/100 of one percent.  The percentage
+          will be expressed as a decimal, and will include, but not be limited
+          to, marginal, emergency, supplemental, special, and other reserve
+          percentages.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0018,,3,"(d)  Requests for a LIBOR Rate Portion shall be irrevocable and
+     shall be made no later than 12:00 noon San Francisco time on the LIBOR
+     Banking Day preceding the day on which the London Inter-Bank Offered Rate
+     will be set, as specified above.
+
+
+                                          3 (e)  A LIBOR Rate may not be elected with respect to any Portion
+     of the principal balance which is scheduled to be repaid before the last
+     day of the applicable interest period.",True,interest; rate_of_interest; principal_amount,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,Requires irrevocable requests for LIBOR rate portions by a specific daily deadline.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0019,,4,"(f)  Any Portion of the principal balance already bearing
+     interest at the LIBOR Rate will not be converted to a different rate during
+     its interest period.",True,interest; rate_of_interest; principal_amount,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,Prohibits converting existing LIBOR rate portions to a different interest rate during their active interest period.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0020,,4,"(g)  Each prepayment of a LIBOR Rate Portion, whether voluntary,
+     by reason of acceleration or otherwise, will be accompanied by the amount
+     of accrued interest on the amount prepaid and a prepayment fee as described
+     below.  A ""prepayment"" is a payment of an amount on a date earlier than the
+     scheduled payment date for such amount as required by this Agreement.  The
+     prepayment fee shall be equal to the amount (if any) by which",True,interest; rate_of_interest; repayment_terms; payable_due; charges_expenses; termination_accel,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Requires prepayments of a LIBOR rate portion to include accrued interest and a prepayment fee.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0021,,4,"(i)  the additional interest which would have been payable
+          during the interest period on the amount prepaid had it not been
+          prepaid until the last day of the interest period, exceeds",True,interest,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Calculates the first component of the prepayment fee based on foregone interest through the end of the interest period.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0022,,4,"(ii) the interest which would have been recoverable by the
+          Bank by placing the amount prepaid on deposit in the domestic
+          certificate of deposit market, the eurodollar deposit market, or other
+          appropriate money market selected by the Bank, for a period starting
+          on the date on which it was prepaid and ending on the last day of the
+          interest period for such portion (or the scheduled payment date for
+          the amount prepaid, if earlier).",True,interest; payable_due; lender_powers_remedies,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Calculates the offsetting recovery interest amount for reinvesting prepaid funds in appropriate money markets.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0023,,4,"(h)  The Bank will have no obligation to accept an election for a
+     LIBOR Rate Portion if any of the following described events has occurred
+     and is continuing:",True,rate_of_interest,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,Specifies conditions under which the bank has no obligation to accept a LIBOR rate portion election.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0024,,4,"(i)  Dollar deposits in the principal amount, and for
+          periods equal to the interest period, of a LIBOR Rate portion are not
+          available in the London inter bank market; or
+
+                    (ii)  the LIBOR Rate does not accurately reflect the
+          cost of a LIBOR Rate portion.",True,interest; rate_of_interest; principal_amount,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,Outlines market availability and cost accuracy criteria for LIBOR rate portions.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0025,,4,"2.3. SHORT TERM FIXED RATE.  Heublein, on behalf of the Borrower, may
+elect to have all or Portions of the principal balance bear interest at the
+Short Term Fixed Rate, subject to the following requirements:
+
+               (a)  The ""Short Term Fixed Rate"" means the Short Term Base Rate
+     plus 0.50 percentage points.
+
+               (b)  The ""Short Term Base Rate"" means the fixed
+
+
+                                          4 interest rate per annum, determined solely by the Bank on the first day of
+     the applicable interest period for the Short Term Fixed Rate Portion, as
+     the rate at which the Bank would be able to borrow funds in the Money
+     Market in the amount of the Short Term Fixed Rate Portion and with an
+     interest and principal payment schedule equal to the Short Term Fixed Rate
+     Portion and for a term equal to the applicable interest period.",True,interest; rate_of_interest; margin_spread_reset; principal_amount,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,Defines the short term fixed rate terms and the short term base rate calculation methodology.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0026,,5,"The Short
+     Term Base Rate shall include adjustments for reserve requirements, federal
+     deposit insurance, and any other similar adjustment which the Bank deems
+     appropriate.  The Short Term Base Rate is the Bank's estimate only and the
+     Bank is under no obligation to actually purchase or match funds for any
+     transaction.",True,rate_of_interest; enforcement_asset,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,Details adjustments included in the short term base rate and clarifies the bank's estimation rights.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0027,,5,"(c)  ""Money Market"" means one or more wholesale
+     funding markets available to the Bank, including domestic negotiable
+     certificates of deposit, eurodollar deposits, bank deposit notes or other
+     appropriate money market instruments selected by the Bank.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0028,,5,"(d)  The interest period during which the Short
+     Term Fixed Rate will be in effect will be no shorter than 30 days and no
+     longer than one year.
+
+               (e)  Each Short Term Fixed Rate Portion will be
+     for an amount not less than Five Hundred Thousand Dollars ($500,000).",True,interest; rate_of_interest,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,Sets duration limits and minimum principal amount requirements for short term fixed rate portions.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0029,,5,"(f)  Any Portion of the principal balance already bearing
+interest at the Short Term Fixed Rate will not be converted to a different rate
+during its interest period.",True,interest; rate_of_interest; principal_amount,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,Prohibits rate conversion for principal balances currently bearing interest at the short term fixed rate.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0030,,5,"(g)  Each prepayment of a Short Term Fixed Rate portion, whether
+voluntary, by reason of acceleration or otherwise, will be accompanied by the
+amount of accrued interest on the amount prepaid, and a prepayment fee as
+described below.  A ""prepayment"" is a payment of an amount on a date earlier
+than the scheduled payment date for such amount as required by this Agreement.
+The prepayment fee shall be equal to the amount (if any) by which",True,interest; rate_of_interest; repayment_terms; payable_due; charges_expenses; termination_accel,Penalties and charges,Medium,fee_or_cost,{},R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Mandates accrued interest and a prepayment fee for any voluntary or accelerated prepayment.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0031,,5,"(i)  the additional interest which would have been payable
+          during the interest period on the amount prepaid had it not been
+          prepaid until the last day of the interest period, exceeds",True,interest,Penalties and charges,Medium,fee_or_cost,{},R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Calculates the first component of the prepayment fee based on additional interest through the interest period.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0032,,5,"(ii)  the interest which would have been recoverable by the
+          Bank by placing the amount prepaid on deposit in the Money Market
+          for a period starting on the date on which it was prepaid and ending
+          on the last day of the interest period for such Portion (or the
+          scheduled payment date for the amount prepaid, if earlier).
+
+
+                                          5 3.   FEES AND EXPENSES",True,interest; payable_due; charges_expenses; lender_powers_remedies,Penalties and charges,Medium,fee_or_cost,{},R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Determines the second component of the prepayment fee based on money market reinvestment recovery amounts.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0033,,6,"3.1. LOAN FEE.  The Borrower agrees to pay a Thirty Seven Thousand
+Five Hundred Dollar ($37,500) fee due on the date of this Agreement.",True,charges_expenses,Penalties and charges,Medium,fee_or_cost,{},R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Requires the borrower to pay a specific loan fee on the agreement date.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0034,,6,"3.2. EXPENSES.  The Borrower agrees to immediately repay the Bank for
+expenses that include, but are not limited to, filing, recording and search
+fees, appraisal fees, and documentation fees.",True,repayment_terms; charges_expenses,Penalties and charges,Medium,fee_or_cost,{},R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees","Obligates the borrower to immediately repay the bank for filing, recording, search, appraisal, and documentation expenses.",False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0035,,6,"3.3. REIMBURSEMENT COSTS.  The Borrower agrees to reimburse the Bank
+for any expenses it incurs in the preparation of this Agreement and any
+agreement or instrument required by this Agreement.  Expenses include, but are
+not limited to, reasonable attorneys' fees, including any allocated costs of the
+Bank's in-house counsel.
+
+
+4.   DISBURSEMENTS, PAYMENTS AND COSTS",True,principal_amount; charges_expenses,Penalties and charges,Medium,fee_or_cost,{},R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Requires the borrower to reimburse preparation expenses including reasonable attorneys' fees and in-house counsel costs.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0036,,6,"4.1. REQUESTS FOR CREDIT.  Each request for an extension of credit
+will be made by delivering a written Request for Credit in substantially the
+form attached to this Agreement as Exhibit A (a ""Request for Credit""), executed
+by the Borrower and approved in writing by Heublein.  The Request for Credit may
+be delivered to the Bank by telefax, provided that the copy of the Request for
+Credit which contains an original signature of Heublein is delivered to the Bank
+within 10 days of such telefax.
+
+          4.2. DISBURSEMENTS AND PAYMENTS.  Each disbursement by the Bank and
+each payment by the Borrower will be:
+
+               (a)  made at the Bank's branch (or other location) selected by
+     the Bank from time to time;
+
+               (b)  made for the account of the Bank's branch selected by the
+     Bank from time to time;
+
+               (c)  made in immediately available funds, or such other type of
+     funds selected by the Bank; and",True,principal_amount,Financial terms,Low,other,{},R_OTHER_LOW,Severity Low because: other; general or residual term,Establishes procedural requirements for submitting credit requests and loan disbursements.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0037,,6,"(d)  evidenced by records kept by the Bank.  In addition, the
+     Bank may, at its discretion, require the Borrower to sign one or more
+     promissory notes.
+
+          4.3. AUTHORIZATIONS.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0038,,6,"(a)  The Bank may honor telephone or telefax instructions for
+     repayments given by any one of the individuals authorized to sign loan
+     agreements on behalf of the Borrower, or any other individual designated by
+     any one of such authorized signers.  The Borrower will provide written
+     confirmation to the Bank of any telephone or telefax instructions relating
+     to repayment within 10 days.
+
+
+                                          6 (b)  The Borrower irrevocably authorizes the Bank to honor
+     telephone or telefax instructions for the designation of optional interest
+     rates given by any one of the individuals authorized to sign agreements
+     relating to this transaction on behalf of Heublein, or any other individual
+     designated by any one of such authorized signers.",True,interest; repayment_terms,Repayment,Low,other,{},R_OTHER_LOW,Severity Low because: other; general or residual term,Permits the bank to honor telephone or telefax instructions for repayments and optional interest rate designations.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0039,,7,"The Borrower agrees that
+     it shall be bound by such instructions provided by Heublein whether or not
+     the Borrower receives notice of such instructions or of any confirmation
+     provided by the Bank pursuant to Section 4.3(c).",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0040,,7,"(c)  The Bank may, but shall not be required to, provide
+     confirmation of the telephone or telefax instructions for the designations
+     of optional interest rates received from the Borrower or Heublein.  If
+     there is a discrepancy between the telephone or telefax instructions and
+     the written confirmation, the written confirmation will prevail.",True,interest; covenant_undertaking,Repayment,Low,other,{},R_OTHER_LOW,Severity Low because: other; general or residual term,Provides that written confirmation prevails over telephone or telefax instructions in the event of any discrepancy.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0041,,7,"(d)  The Borrower indemnifies and excuses the Bank (including its
+     officers, employees, and agents) from all liability, loss, and costs in
+     connection with any act resulting from telephone or telefax instructions it
+     reasonably believes are made by any individual authorized by the Borrower
+     to give such instructions, or, in the case of instructions authorized to be
+     given by Heublein, by an individual authorized by Heublein to give such
+     instructions.  This indemnity and excuse will survive this Agreement's
+     termination.
+
+               (e)  Advances will be deposited in and repayments will be
+     withdrawn from the Borrower's account number 14989-00792.
+
+          4.4. DIRECT DEBIT (PRE-BILLING).",True,repayment_terms; charges_expenses; termination_accel,Covenants,High,indemnity,"{""broad_or_uncapped"": true, ""survives_repayment"": true}",R_IND_HIGH,"Severity High because: indemnity; broad_or_uncapped, survives_repayment","Indemnifies the bank against liabilities and losses arising from telephone or telefax instructions, surviving agreement termination.",False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0042,,7,"(a)  The Borrower agrees that the Bank will debit the Borrower's
+     deposit account number 14989-00792 (the ""Designated Account"") on the date
+     each payment of principal and interest from the Borrower becomes due (the
+     ""Due Date"").  If the Due Date is not a banking day, the Designated Account
+     will be debited on the next banking day.",True,interest; principal_amount,unclassified,unclassified,unclassified,{},UNKNOWN_TYPE,Severity unclassified because: unknown clause_type 'repayment'; none,Authorizes direct debit of the designated account on each due date or the next banking day.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0043,,7,"(b)  Approximately 10 days prior to each Due Date, the Bank will
+     mail to the Borrower (with a copy to Heublein) a statement of the amounts
+     that will be due on that Due Date (the ""Billed Amount"").  The calculation
+     will be made on the assumption that no new extensions of credit or payments
+     will be made between the date of the billing statement and the Due Date,
+     and that there will be no changes in the applicable interest rate.
+
+               (c)  The Bank will debit the Designated Account for the Billed
+     Amount, regardless of the actual amount due
+
+
+                                          7 on that date (the ""Accrued Amount"").",True,interest,unclassified,unclassified,unclassified,"{""cure_or_grace_10_days_or_more"": true}",UNKNOWN_TYPE,Severity unclassified because: unknown clause_type 'repayment'; none,Requires the bank to mail a billing statement approximately ten days prior to each due date.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0044,,8,"If the Billed Amount debited to such
+     Designated Account differs from the Accrued Amount, the discrepancy will be
+     treated as follows:",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0045,,8,"(i)  If the Billed Amount is less than the Accrued Amount,
+          the Billed Amount for the following Due Date will be increased by the
+          amount of the discrepancy.  The Borrower will not be in default by
+          reason of any such discrepancy.",True,default_triggers,Repayment,Low,borrower_protective,"{""borrower_protective"": true}",R_BORROWER_PROTECTIVE_TYPE,Severity Low because: borrower_protective; borrower_protective type,[borrower-protective] Protects the borrower from default when a billed amount discrepancy occurs by adjusting the following billed amount.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0046,,8,"(ii)   If the Billed Amount is more than the Accrued Amount,
+          the Billed Amount for the following Due Date will be decreased by the
+          amount of the discrepancy.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0047,,8,"Regardless of any such discrepancy, interest will continue to accrue based
+     on the actual amount of principal outstanding without compounding.  The
+     Bank will not pay the Borrower interest on any overpayment.",True,interest; principal_amount,unclassified,unclassified,unclassified,{},UNKNOWN_TYPE,Severity unclassified because: unknown clause_type 'repayment'; none,Specifies that interest continues to accrue on outstanding principal without compounding and overpayments earn no interest.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0048,,8,"(d)  The Borrower will maintain sufficient funds in the
+     Designated Account to cover each debit.  If there are insufficient funds in
+     the Designated Account on the date the Bank enters any debit authorized by
+     this Agreement, the debit will be reversed.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0049,,8,"4.5. BANKING DAYS.  Unless otherwise provided in this Agreement, a
+banking day is a day other than a Saturday or a Sunday on which the Bank is open
+for business in California.  All payments and disbursements which would be due
+on a day which is not a banking day will be due on the next banking day.  All
+payments received on a day which is not a banking day will be applied to the
+credit on the next banking day.
+
+          4.6. TAXES.",True,principal_amount,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,Defines banking days and routine payment timing mechanics without stating rates or fees.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0050,,8,"(a)  If any payments to the Bank under this Agreement are made
+     from outside the United States, the Borrower will not deduct any foreign
+     taxes from any payments it makes to the Bank.  If any such taxes are
+     imposed on any payments made by the Borrower (including payments under this
+     paragraph), the Borrower will pay the taxes and will also pay to the Bank,
+     at the time interest is paid, any additional amount which the Bank
+     specifies as necessary to preserve the after-tax yield the Bank would have
+     received if such taxes had not been imposed.  The Borrower will confirm
+     that it has paid the taxes by giving the Bank official tax receipts (or
+     notarized copies) within 30 days after the due date.",True,interest,Penalties and charges,Medium,fee_or_cost,"{""broad_or_uncapped"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Requires the borrower to pay additional amounts and taxes to preserve the bank's after-tax yield.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0051,,8,"(b)  Payments made by the Borrower to the Bank will be made
+     without deduction of United States withholding or similar taxes.  If the
+     Borrower is required to pay U.S. withholding taxes, the Borrower will pay
+     such taxes in addition to the amounts due to the Bank under this
+
+
+                                          8 Agreement.  If the Borrower fails to make such tax payments when due, the
+     Borrower indemnifies the Bank against any liability for such taxes, as well
+     as for any related interest, expenses, additions to tax, or penalties
+     asserted against or suffered by the Bank with respect to such taxes.",True,interest; penalties_fees; charges_expenses; lender_powers_remedies,Penalties and charges,High,indemnity,"{""broad_or_uncapped"": true, ""survives_repayment"": true}",R_IND_HIGH,"Severity High because: indemnity; broad_or_uncapped, survives_repayment","Requires the borrower to indemnify the bank against withholding taxes and associated interest, expenses, and penalties.",False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0052,,9,4.7. ADDITIONAL COSTS.,False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0053,,9,"(a)  The Borrower will pay the Bank, on demand, for the Bank's
+     costs or losses arising from any statute or regulation, or any request or
+     requirement of a regulatory agency which is applicable to all national
+     banks or a class of all national banks.  The costs and losses will be
+     allocated to the loan in a manner determined by the Bank, using any
+     reasonable method.  The costs include the following:
+
+                    (i)  any reserve or deposit requirements; and
+
+                    (ii) any capital requirements relating to the Bank's assets
+          and commitments for credit.",True,principal_amount,Penalties and charges,Medium,fee_or_cost,"{""broad_or_uncapped"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Requires the borrower to pay on demand for the bank's increased costs or losses arising from regulatory changes.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0054,,9,"(b)  The Borrower's obligations under Section 4.7(a) are limited
+     to the Bank's costs or losses arising on or after the date which is 60 days
+     after the date on which the Bank sends written notice to the Borrower
+     confirming the Borrower's obligations under Section 4.7(a) and describing
+     in reasonable detail such costs or losses.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0055,,9,"4.8. INTEREST CALCULATION.  Except as otherwise stated in this
+Agreement, all interest and fees, if any, will be computed on the basis of a
+360-day year and the actual number of days elapsed.  This results in more
+interest or a higher fee than if a 365-day year is used.",True,interest; charges_expenses,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,Specifies that interest and fees are computed on the basis of a 360-day year.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0056,,9,"4.9. DEFAULT RATE.  Upon the occurrence and during the continuation of
+any default under this Agreement, principal amounts outstanding under this
+Agreement will at the option of the Bank bear interest at a rate which is two
+percentage point(s) higher than the rate of interest otherwise provided under
+this Agreement.  This will not constitute a waiver of any default.  Installments
+of principal which are not paid when due under this Agreement shall continue to
+bear interest until paid.  Any interest, fees or costs which are not paid when
+due will, at the option of the Bank, bear interest at the Bank's Reference Rate
+plus two percentage points.  This may result in compounding of interest.
+
+
+5.   CONDITIONS",True,interest; rate_of_interest; principal_amount; repayment_terms; charges_expenses; default_triggers; lender_powers_remedies,Penalties and charges,High,fee_or_cost,"{""penal_rate_or_default_charge"": true}",R_FEE_HIGH,Severity High because: fee_or_cost; penal_rate_or_default_charge,Imposes a higher default interest rate upon the occurrence and during the continuation of any default.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0057,,9,"The Bank must receive the following items, in form and content
+acceptable to the Bank, before it is required to extend any credit to the
+Borrower under this Agreement:
+
+
+                                          9 5.1.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0058,,10,"AUTHORIZATIONS.  Evidence that the execution, delivery and
+performance by the Borrower of this Agreement and any instrument or agreement
+required under this Agreement have been duly authorized and evidence that the
+execution, delivery and performance by Heublein of any instrument or agreement
+required under this Agreement on the part of Heublein have been duly authorized.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0059,,10,"5.2. GOVERNING DOCUMENTS.  Copies of the articles of incorporation,
+bylaws and any necessary authorizing resolutions of both the Borrower and
+Heublein.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0060,,10,"5.3. STANDBY LETTER OF CREDIT.  A Standby Letter of Credit (together
+with any substituted letter of credit delivered after the date of this
+agreement, the ""Letter of Credit"") acceptable to the Bank issued by a financial
+institution acceptable to the Bank in favor of the Bank for the account of
+Heublein in a minimum amount of $7,500,000 plus interest in the amount of not
+less than $112,500 with an expiration date of not earlier than July 31, 1997.",True,interest,Collateral,Medium,security_or_guarantee,{},R_SEC_MED,Severity Medium because: security_or_guarantee; standard security interest or guarantee,"Establishes a requirement for a standby letter of credit in a minimum amount of $7,500,000.",False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0061,,10,"5.4. PLANS AND BUDGETS.  The Borrower's written plan and budget for
+the 1997 Farming Year (""Farming Year"" being defined as in the Vineyard
+Development and Management Agreement, effective as of December 1, 1995, between
+the Borrower and Heublein, as amended by Amendment No.1 thereto (the
+""Development Agreement"")), delivered to Heublein pursuant to Section 4.6 of the
+Development Agreement, and any plans and budgets for Farming Years following
+1997 relating to the Development Agreement prepared by the Borrower, all of
+which shall be acceptable to the Bank (the ""Plan and Budget"").",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0062,,10,"5.5. REPORT.  The Borrower's written report for the 1996 Farming Year
+delivered to Heublein pursuant to Section 4.10 of the Development Agreement
+(each such annual report, a ""Report""), which Report shall be acceptable to the
+Bank.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0063,,10,"5.6. OTHER AGREEMENTS.  A copy of the Development Agreement, which
+shall be satisfactory to the Bank and which shall be binding obligations of each
+party thereto.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0064,,10,"5.7. ACKNOWLEDGEMENT AGREEMENT.  An Acknowledgement Agreement
+acceptable to the Bank and executed by Heublein  (the ""Heublein Acknowledgement
+Agreement"").
+
+          5.8. PAYMENT OF FEES.  Payment of all accrued and unpaid expenses
+incurred by the Bank as required by the paragraph entitled ""Reimbursement
+Costs.""",True,charges_expenses,Penalties and charges,Medium,fee_or_cost,{},R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Requires the payment of all accrued and unpaid expenses incurred by the bank.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0065,,10,"5.9. TERMINATION OF SANWA CREDIT AGREEMENT.  Evidence satisfactory to
+the Bank that, upon payment to Sanwa Bank California (""Sanwa"") of a principal of
+$2,800,211 and interest accrued thereon under the Credit Agreement (Crops),
+dated March 26, 1996, between Sanwa and Borrower (the ""Sanwa Credit Agreement""),
+the Sanwa Credit Agreement shall be terminated.
+
+
+                                          10 5.10.",True,interest; principal_amount; termination_accel,Termination,High,acceleration_or_termination_right,{},R_ACCEL_HIGH,Severity High because: acceleration_or_termination_right; acceleration or termination right by notice,Conditions the termination of the Sanwa Credit Agreement upon payment of specific principal and interest amounts.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0066,,11,"FINANCIAL STATEMENTS OF HEUBLEIN.  Financial statements of
+Heublein as of the end of the most recent fiscal year for which financial
+statements are available, which financial statements shall be acceptable to the
+Bank.",True,reporting_inspection,none,none,closing_condition,{},R_N1_NON_RISK,Severity none because: closing_condition; N1 non-risk type,Outlines routine closing conditions regarding the financial statements of Heublein.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0067,,11,"5.11. CONDITIONS TO EACH ADVANCE.  Before each extension of credit,
+including the first, the Bank shall be satisfied that each representation of
+Heublein set forth in the Heublein Acknowledgement Agreement shall be true and
+correct on and as of the date of such extension of credit as if made on and as
+of such date and Heublein shall not be in default of any of its obligations
+under the Heublein Acknowledgement Agreement.
+
+          5.12. OTHER ITEMS.  Any other items that the Bank reasonably requires.
+
+
+6.   REPRESENTATIONS AND WARRANTIES",True,default_triggers; covenant_undertaking,none,none,closing_condition,{},R_N1_NON_RISK,Severity none because: closing_condition; N1 non-risk type,Sets forth standard conditions to each advance requiring representations to be true and correct.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0068,,11,"When the Borrower signs this Agreement, and until the Bank is repaid
+in full, the Borrower makes the following representations and warranties.  Each
+request for an extension of credit constitutes a renewed representation:
+
+          6.1. ORGANIZATION OF BORROWER.  The Borrower is a corporation duly
+formed and existing under the laws of the State of California.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0069,,11,"6.2. AUTHORIZATION.  This Agreement, and any instrument or agreement
+required hereunder, are within the Borrower's powers, have been duly authorized,
+and do not conflict with the Borrower's articles of incorporation, bylaws, or
+any other governing documents of the Borrower.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0070,,11,"6.3. ENFORCEABLE AGREEMENT.  This Agreement is a legal, valid and
+binding agreement of the Borrower, enforceable against the Borrower in
+accordance with its terms, and any instrument or agreement required hereunder,
+when executed and delivered, will be similarly legal, valid, binding and
+enforceable.",True,termination_accel,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Contains standard legal representations regarding the enforceability of the agreement.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0071,,11,"6.4. GOOD STANDING.  In each state in which the Borrower does
+business, it is properly licensed, in good standing, and, where required, in
+compliance with fictitious name statutes.
+
+          6.5. NO CONFLICTS.  This Agreement does not conflict with any law,
+agreement, or obligation by which the Borrower is bound.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0072,,11,"6.6. FINANCIAL INFORMATION.  All financial statements that have been
+or will be supplied to the Bank, including the Borrower's financial statement
+dated as of December 31, 1996, are complete, have been prepared in accordance
+with generally accepted accounting principles and fairly present the financial
+condition and results of operations of the Borrower as of such
+
+
+                                          11 date and for the period then ended.",True,reporting_inspection,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Provides standard representations regarding financial information and accounting practices.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0073,,12,"Since December 31, 1996, there has been no
+material adverse change in the business, condition (financial or otherwise),
+operations, properties or prospects of the Borrower.",True,insolvency_cure,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Represents that there has been no material adverse change in the business or financial condition since a specified date.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0074,,12,"6.7. LAWSUITS.  There is no lawsuit, tax claim or other dispute
+pending or threatened against the Borrower which, if lost, would impair the
+Borrower's financial condition or ability to repay the loan, except as have been
+disclosed in writing to the Bank.",True,repayment_terms; reporting_inspection,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Represents the absence of pending or threatened lawsuits that would impair the borrower's financial condition.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0075,,12,"6.8. PERMITS, FRANCHISES.  The Borrower possesses all permits,
+memberships, franchises, contracts and licenses required and all trademark
+rights, trade name rights, patent rights and fictitious name rights necessary to
+enable it to conduct the business in which it is now engaged.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0076,,12,"6.9. OTHER OBLIGATIONS.  The Borrower is not in default on any
+obligation for borrowed money, any purchase money obligation or any other
+material lease, commitment, contract, instrument or obligation.
+
+          6.10. INCOME TAX RETURNS.  The Borrower has no knowledge of any
+pending assessments or adjustments of its income tax for any year.
+
+          6.11. NO EVENT OF DEFAULT.  There is no event which is, or with notice
+or lapse of time or both would be, a default under this Agreement.
+
+
+7.  COVENANTS
+
+          The Borrower agrees, so long as credit is available under this
+Agreement and until the Bank is repaid in full:",True,principal_amount; default_triggers; covenant_undertaking,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Represents that the borrower is not in default on other obligations and no event of default has occurred.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0077,,12,"7.1. USE OF PROCEEDS.  To use the proceeds of the Development Loan
+Commitment only to pay the obligations of the Borrower under the Sanwa Credit
+Agreement as specified in Section 5.9 and for the operations and activities
+conducted pursuant to the Development Agreement.",True,principal_amount,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,Restricts the borrower to use loan proceeds solely for specified obligations and approved activities.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0078,,12,"7.2. FINANCIAL INFORMATION.  To provide the following financial
+information and statements in form and content acceptable to the Bank, and such
+additional information as requested by the Bank from time to time:",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0079,,12,"(a)  Within 120 days of the Borrower's fiscal year end, the
+     Borrower's annual financial statements.  These financial statements shall
+     be audited by a firm of independent accountants reasonably satisfactory to
+     the Bank and shall be prepared consistently with the financial statements
+     delivered to the Bank pursuant to Section 6.6.
+
+
+                                          12 (b)  On or before March 1 of each year, a Report, satisfactory to
+     the Bank, for the immediately preceding Farming Year.",True,reporting_inspection,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Requires the borrower to deliver annual audited financial statements within 120 days of the fiscal year end.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0080,,13,"(c)  On or before March 1 of each year, a Plan and Budget for the
+     current Farming Year approved by Heublein.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0081,,13,"7.3. OTHER LIENS.  Not to create, assume, or allow any security
+interest or lien (including judicial liens) on all or any portion of the
+Development Agreement.
+
+          7.4. NOTICES TO BANK.  To promptly notify the Bank in writing of:
+
+               (a)  any lawsuit over $250,000 against the Borrower.
+
+               (b)  any substantial dispute between the Borrower and any
+     government authority or between the Borrower and Heublein.
+
+               (c)  any failure to comply with this Agreement.",True,interest; collateral_security; reporting_inspection,Collateral,Medium,security_or_guarantee,{},R_SEC_MED,Severity Medium because: security_or_guarantee; standard security interest or guarantee,Prohibits the borrower from creating or allowing any liens or security interests on the Development Agreement.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0082,,13,"(d)  any material adverse change in the Borrower's business
+     condition (financial or otherwise), operations, properties or prospects, or
+     ability to repay the credit.",True,repayment_terms; insolvency_cure,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Requires the borrower to promptly notify the bank of any material adverse change in business conditions.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0083,,13,"(e)  any change in the Borrower's name, legal structure, place of
+     business, or chief executive office if the Borrower has more than one place
+     of business; or
+
+               (f)  any material change in any Plan and Budget.
+
+          7.5. BOOKS AND RECORDS.  To maintain adequate books and records.",True,reporting_inspection,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Requires the borrower to maintain adequate books and records.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0084,,13,"7.6. AUDITS.  To allow the Bank and its agents to inspect the
+Borrower's properties and examine, audit and make copies of books and records at
+any reasonable time.  If any of the Borrower's properties, books or records are
+in the possession of a third party, the Borrower authorizes that third party to
+permit the Bank or its agents to have access to perform inspections or audits
+and to respond to the Bank's requests for information concerning such
+properties, books and records.",True,enforcement_asset; reporting_inspection,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),"Grants the bank inspection rights over the borrower's properties, books, and records.",False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0085,,13,"7.7. COMPLIANCE WITH LAWS.  To comply with the laws (including any
+fictitious name statute), regulations, and orders of any government body with
+authority over the Borrower's business.
+
+          7.8. PRESERVATION OF RIGHTS.  To maintain and preserve all rights,
+privileges, and franchises the Borrower now has.
+
+          7.9. MAINTENANCE OF PROPERTIES.  To make repairs, renewals or
+replacements to the Managed Properties and the
+
+
+                                          13 Development Properties in accordance with the Development Agreement and the
+Plans and Budget.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0086,,14,"7.10. COOPERATION.  To take any action reasonably requested by the
+Bank to carry out the intent of this Agreement.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0087,,14,"7.11. INSURANCE.  To maintain insurance as is usual for the business
+it is in and upon the request of the Bank, to deliver to the Bank a copy of each
+insurance policy, or, if permitted by the Bank, a certificate of insurance
+listing all insurance in force.
+
+          7.12. ADDITIONAL NEGATIVE COVENANTS.  Not to, without the Bank's
+written consent:
+
+               (a)  liquidate or dissolve the Borrower's business.
+
+               (b)  sell, assign, lease, transfer or otherwise dispose of all or
+     a substantial part of the Borrower's business or the Borrower's assets.",True,enforcement_asset; insolvency_cure; covenant_undertaking; restrictions_transfers,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,Imposes negative covenants restricting asset dispositions and business dissolution.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0088,,14,"(c) sell, assign, lease, transfer or otherwise dispose of any
+     material asset or group of assets for less than fair market value, or enter
+     into any agreement to do so.
+
+               (d)  sell, assign, lease, transfer or otherwise dispose of any
+     portion of the Borrower's interest in the Development Agreement.
+
+               (e)  voluntarily suspend its business for more than ten days in
+     any year.
+
+               (f)  change the character of the Borrower's business.
+
+               (g)  convert to a limited liability company.
+
+               (h)  amend, modify or waive any provision of Section 3.1, 3.2 or
+     3.3 of the Development Agreement.
+
+
+8.  HAZARDOUS WASTE INDEMNIFICATION",True,interest; charges_expenses; termination_accel; restrictions_transfers,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,"Restricts asset transfers, business suspensions, and amendments to the Development Agreement.",False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0089,,14,"The Borrower will indemnify and hold harmless the Bank from any loss
+or liability directly or indirectly arising out of the use, generation,
+manufacture, production, storage, release, threatened release, discharge,
+disposal or presence of a hazardous substance.  This indemnity will apply
+whether the hazardous substance is on, under or about the Borrower's property or
+operations or property leased to or operated by the Borrower.  The indemnity
+includes but is not limited to attorneys' fees (including the reasonable
+estimate of the allocated cost of in-house counsel and staff).  The indemnity
+extends to the Bank, its parent, subsidiaries and all of their directors,
+officers, employees, agents, successors, attorneys and assigns.
+
+
+                                          14 ""Hazardous substance"" means any substance, material or waste that is or becomes
+designated or regulated as ""toxic,"" ""hazardous,"" ""pollutant,"" or ""contaminant""
+or a similar designation or regulation under any federal, state or local law
+(whether under common law, statute, regulation or otherwise) or judicial or
+administrative interpretation of such, including, without limitation, petroleum
+or natural gas.  This indemnity will survive repayment of the Borrower's
+obligations to the Bank.",True,repayment_terms; charges_expenses; collateral_security; restrictions_transfers,Covenants,High,indemnity,"{""broad_or_uncapped"": true, ""survives_repayment"": true}",R_IND_HIGH,"Severity High because: indemnity; broad_or_uncapped, survives_repayment","Requires the borrower to indemnify the bank for hazardous substance liabilities, surviving repayment.",False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0090,,15,9.  DEFAULT,True,default_triggers,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,Serves as a section heading for default provisions.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0091,,15,"If any of the following events occurs, the Bank may do one or more of
+the following:  declare the Borrower in default, stop making any additional
+credit available to the Borrower, cause the entire debt of the Borrower
+hereunder to become due immediately and without prior notice, or, subject to the
+third sentence of this paragraph of Section 9, draw on the Letter of Credit.  If
+an event of default occurs under Section 9.3 with respect to the Borrower or
+Heublein, then the entire debt outstanding under this Agreement will
+automatically be due immediately and the Bank may draw on the Letter of Credit.
+Prior to asserting any rights or remedies against the Borrower as a result of an
+event of default under this Section 9, the Bank shall first draw on the Letter
+of Credit by presenting to the Letter of Credit Bank the documents required to
+draw on the Letter of Credit; provided however, that (i) the Bank shall not be
+required to draw on the Letter of Credit prior to asserting any such rights or
+remedies against the Borrower if at the time the Bank asserts any such rights or
+remedies against the Borrower, the Bank is not legally permitted to draw upon
+the Letter of Credit or, as the result of any applicable statutory, regulatory
+or judicial restriction, the Letter of Credit is not then available for drawing
+or for payment;",True,default_triggers; covenant_undertaking; lender_powers_remedies,Termination,Critical,acceleration_or_termination_right,"{""automatic"": true, ""no_notice"": true}",R_ACCEL_CRIT,"Severity Critical because: acceleration_or_termination_right; automatic, no_notice",Outlines default remedies including immediate acceleration and automatic acceleration upon bankruptcy.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0092,,15,"and (ii) the Bank shall be entitled to assert any or all of its
+rights and remedies under Sections 4.6, 4.7, 4.9, 8, 10.7, 10.9 and the first
+two sentences of this paragraph of Section 9 (other than drawing under the
+Letter of Credit) prior to any such draw under the Letter of Credit.  Except
+upon payment in full of the indebtedness of the Borrower owed to the Bank
+hereunder, the Bank covenants and agrees that by its affirmative act it will not
+release or otherwise return to Heublein, or make any changes to (other than
+extensions of its expiry date), the Letter of Credit without the prior written
+consent of the Borrower.  Breach by the Bank of its obligations under this
+paragraph of Section 9 shall not affect Borrower's obligations under this
+Agreement, provided that the Bank shall be liable to the Borrower for direct
+damages incurred by the Borrower as a result of such breach.",True,default_triggers; covenant_undertaking; restrictions_transfers; lender_powers_remedies,Default conditions,Medium,remedy_on_default,{},R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),Governs letter of credit restrictions and lender liability for breach.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0093,,15,"9.1. FAILURE TO PAY.  The Borrower fails to make a payment under this
+Agreement when due and such failure shall continue for seven days after such due
+date.
+
+          9.2. FALSE INFORMATION.  The Borrower (or Heublein) has given the Bank
+false or misleading information or representations.
+
+          9.3. BANKRUPTCY.  The Borrower, Heublein or the financial institution
+issuing the Letter of Credit (the ""Letter of Credit Bank"")
+
+
+                                          15 files a bankruptcy petition, a bankruptcy petition is filed against the
+Borrower, Heublein or the Letter of Credit Bank or the Borrower, Heublein or the
+Letter of Credit Bank makes a general assignment for the benefit of creditors.",True,default_triggers; insolvency_cure; restrictions_transfers,Default conditions,High,payment_default_trigger,{},R_TRIG_HIGH,Severity High because: payment_default_trigger; core default trigger with short or no >=10d cure window,"Defines events of default including payment failure, false information, and bankruptcy.",False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0094,,16,"The default will be deemed cured if any bankruptcy petition filed against the
+Borrower or Heublein is dismissed within a period of 45 days after the filing;
+provided, however, that the Bank will not be obligated to extend any additional
+credit to the Borrower during that period.",True,default_triggers; insolvency_cure,Default conditions,Medium,other_default_trigger,"{""cure_or_grace_10_days_or_more"": true}",R_ODEF_MED,Severity Medium because: other_default_trigger; other default trigger,Provides a cure period if a bankruptcy petition is dismissed within a specified timeframe.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0095,,16,"9.4. RECEIVERS.  A receiver or similar official is appointed for the
+business of the Borrower, Heublein or the Letter of Credit Bank or the business
+of any of them is terminated.",True,termination_accel,Default conditions,High,insolvency_default_trigger,{},R_TRIG_HIGH,Severity High because: insolvency_default_trigger; core default trigger with short or no >=10d cure window,Triggers a default upon the appointment of a receiver or termination of business.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0096,,16,"9.5. GOVERNMENT ACTION.  Any government authority takes action that
+the Bank reasonably believes, in its good faith business judgment, materially
+adversely affects the Borrower's financial condition or ability to repay.",True,repayment_terms,Default conditions,Medium,other_default_trigger,{},R_ODEF_MED,Severity Medium because: other_default_trigger; other default trigger,Triggers a default due to government action affecting financial condition or repayment ability.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0097,,16,"9.6. DEFAULT UNDER RELATED DOCUMENTS.  Any provisions of any guaranty,
+security agreement, indemnity agreement, acknowledgement or other document
+required by this Agreement, including without limitation, the Heublein
+Acknowledgement Agreement, is violated (and any notice or cure period provided
+in such document has expired) or no longer in effect, or an event described in
+Section 10.3 of the Development Agreement has occurred and is continuing and any
+cure period provided therein has expired.
+
+          9.7. CHANGE OF OWNERSHIP.  A direct or indirect change in the
+Borrower's capital ownership in excess of 10% shall occur.",True,collateral_security; default_triggers; insolvency_cure,Default conditions,High,change_of_control_trigger,{},R_TRIG_HIGH,Severity High because: change_of_control_trigger; core default trigger with short or no >=10d cure window,Triggers a default upon a specified change in the borrower's capital ownership.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0098,,16,"9.8. OTHER BANK AGREEMENTS.  The Borrower fails to meet the conditions
+of, or fails to perform any obligation under, any other agreement the Borrower
+has with the Bank or any affiliate of the Bank and such failure continues for 15
+days after the date on which the Bank gives written notice of the breach to the
+Borrower; provided that in the event such breach is not curable during such
+15-day period, such 15-day period shall be extended (but not beyond a total of
+45 days) so long as the Borrower has commenced and is diligently pursuing such
+cure; and provided further, however, that the Bank will not be obligated to
+extend any additional credit to the Borrower during any cure period provided
+hereunder.",True,default_triggers; insolvency_cure,Default conditions,Medium,cross_default,"{""cure_or_grace_10_days_or_more"": true}",R_XDEF_MED,Severity Medium because: cross_default; cross-default requiring acceleration or cure expiration,Establishes a cross-default for breaches under other agreements with a cure period.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0099,,16,"9.9. OTHER BREACH UNDER AGREEMENT.  The Borrower (i) breaches or fails
+to perform any obligation under Section 7.3 or 7.12 of this Agreement or
+(ii) fails to meet the conditions or breaches, or fails to perform any
+obligations under, any term of this Agreement not specifically referred to in
+this Article and such failure or breach continues for 15 days after the date on
+which the Bank gives written notice of the breach to the Borrower; provided that
+in the event such breach is not curable during such 15-day period, such 15-day
+period shall be extended (but not beyond a total of 45 days) so long as the
+Borrower has commenced and is diligently pursuing such cure; and provided
+further, however, that the Bank will not be obligated to extend
+
+
+                                          16 any additional credit to the Borrower during any cure period provided hereunder.",True,default_triggers; insolvency_cure,Default conditions,Medium,other_default_trigger,"{""cure_or_grace_10_days_or_more"": true}",R_ODEF_MED,Severity Medium because: other_default_trigger; other default trigger,Specifies default triggers for breaches of specific agreement sections with cure periods.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0100,,17,"9.10. LETTER OF CREDIT.   The rating of the long-term debt of the
+Letter of Credit Bank is reduced below A- or A3 by Standard & Poor's Rating
+Services, a division of the McGraw-Hill Companies, Inc. (""S&P"") or Moody's
+Investors Service, Inc. (""Moody's""), respectively, and within 30 days after the
+date on which the Bank gives written notice of such reduction to the Borrower,
+the Bank has not received a letter of credit (i) with an expiration date not
+earlier than the expiration date set forth in the then existing Letter of
+Credit, (ii) from a financial institution whose long-term debt rating is not
+less than A3 by Moody's and A- by S&P, and (iii) otherwise meeting the
+requirements of Section 5.3; or the Bank has received notice from the Letter of
+Credit Bank with respect to the Letter of Credit then in effect that the Letter
+of Credit Bank will not extend the Letter of Credit and within 60 days of the
+expiration date of such Letter of Credit, the Bank has not received a letter of
+credit with an expiration date not earlier than one year after the expiration
+date set forth in the then existing Letter of Credit and which meets the
+requirements set forth in clauses (ii) and (iii) of this Section.
+
+
+10.  ENFORCING THIS AGREEMENT; MISCELLANEOUS
+
+          10.1. BORROWER ACKNOWLEDGEMENTS.  Borrower acknowledges and agrees as
+follows:",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0101,,17,"(a)  Borrower shall send copies of all notices certificates and
+     other documents delivered to the Bank under or pursuant to this Agreement
+     or any document or agreement contemplated hereby to Heublein at the same
+     time that Borrower delivers such notices certificates or documents to the
+     Bank.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0102,,17,"(b)  Borrower authorizes the Bank to release to Heublein any
+     financial or other information or documents provided to the Bank by or on
+     behalf of the Borrower and authorizes the Bank to provide to Heublein
+     copies of all notices and other communications delivered by the Bank to the
+     Borrower hereunder.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0103,,17,"(c)  Borrower has decided to enter into this Agreement and the
+     other agreements contemplated hereby based solely on its own evaluation of
+     the merits and risks of such transactions and on such information and
+     documents as the Borrower deems appropriate and without reliance on any
+     information provided by the Bank or on the Bank's decision to enter into
+     this Agreement.  The Borrower is fully aware of the merits and risks of
+     such transactions, and the Bank's decision to enter into this Agreement
+     does not constitute any evaluation of the merits or risks of the
+     transactions to the Borrower.
+
+
+                                          17 (d)  The Bank has made no commitment to extend any additional
+     credit to the Borrower or to continue the credit provided hereunder after
+     this Agreement expires or is terminated as provided herein.",True,principal_amount; termination_accel,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Contains borrower representations regarding independent evaluation and lack of credit commitments.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0104,,18,"(e)  The Bank shall have no duty to review or investigate the
+     purpose of any advances made hereunder or the compliance by the Borrower or
+     Heublein with the Development Agreement or any term thereof prior to making
+     any advance hereunder.
+
+          10.2. CALIFORNIA LAW.  This Agreement is governed by California law.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0105,,18,"10.3. SUCCESSORS AND ASSIGNS.  This Agreement is binding on the
+Borrower's and the Bank's successors and assignees.  The Borrower agrees that it
+may not assign this Agreement without the Bank's prior consent.  The Bank may
+sell participations in or assign this loan, and may exchange financial
+information about the Borrower with actual or potential participants or
+assignees.  If a participation is sold or the loan is assigned, the purchaser
+will have the right of set-off against the Borrower.
+
+          10.4. ARBITRATION.",True,restrictions_transfers; lender_powers_remedies,Collateral,Low,other,{},R_OTHER_LOW,Severity Low because: other; general or residual term,"Addresses successors, assignment restrictions, loan participations, and set-off rights.",False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0106,,18,"(a)  This paragraph concerns the resolution of any controversies
+     or claims between the Borrower and the Bank, including but not limited to
+     those that arise from:
+
+                    (i)  This Agreement (including any renewals, extensions or
+          modifications of this Agreement);
+
+                  (ii)   Any document, agreement or procedure related to or
+          delivered in connection with this Agreement;
+
+                 (iii)   Any violation of this Agreement; or",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0107,,18,"(iv)   Any claims for damages resulting from any business
+          conducted between the Borrower and the Bank, including claims for
+          injury to persons, property or business interests (torts).",True,collateral_security,none,none,indemnity,"{""broad_or_uncapped"": true}",R_IND_MED,Severity none because: indemnity; category marked none,Covers claims for damages resulting from business conducted between the borrower and the bank.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0108,,18,"(b)  At the request of the Borrower or the Bank, any such
+     controversies or claims will be settled by arbitration in accordance with
+     the United States Arbitration Act.  The United States Arbitration Act will
+     apply even though this Agreement provides that it is governed by California
+     law.",True,lender_powers_remedies,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,Provides boilerplate terms requiring arbitration in accordance with the United States Arbitration Act.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0109,,18,"(c)  Arbitration proceedings will be administered by the American
+     Arbitration Association and will be subject to its commercial rules of
+     arbitration.
+
+
+                                          18 (d)  For purposes of the application of the statute of
+     limitations, the filing of an arbitration pursuant to this paragraph is the
+     equivalent of the filing of a lawsuit, and any claim or controversy which
+     may be arbitrated under this paragraph is subject to any applicable statute
+     of limitations.  The arbitrators will have the authority to decide whether
+     any such claim or controversy is barred by the statute of limitations and,
+     if so, to dismiss the arbitration on that basis.",True,lender_powers_remedies,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,Outlines administrative and procedural rules for arbitration proceedings.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0110,,19,"(e)  If there is a dispute as to whether an issue is arbitrable,
+     the arbitrators will have the authority to resolve any such dispute.
+
+               (f)  The decision that results from an arbitration proceeding may
+     be submitted to any authorized court of law to be confirmed and enforced.",True,termination_accel; lender_powers_remedies,Collateral,Medium,remedy_on_default,{},R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),Outlines arbitrator authority over arbitrable disputes and enforcement mechanisms.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0111,,19,"(g)  The procedure described above will not apply if the
+     controversy or claim, at the time of the proposed submission to
+     arbitration, arises from or relates to an obligation to the Bank secured by
+     real property located in California.  In this case, both the Borrower and
+     the Bank must consent to submission of the claim or controversy to
+     arbitration.  If both parties do not consent to arbitration, the
+     controversy or claim will be settled as follows:",True,collateral_security; lender_powers_remedies,Collateral,Medium,remedy_on_default,{},R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),Specifies exceptions to arbitration procedures for California real property-secured obligations.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0112,,19,"(i)  The Borrower and the Bank will designate a referee (or
+          a panel of referees) selected under the auspices of the American
+          Arbitration Association in the same manner as arbitrators are selected
+          in Association-sponsored proceedings;",True,lender_powers_remedies,Collateral,Medium,remedy_on_default,{},R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),Details referee selection procedures under American Arbitration Association auspices.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0113,,19,"(ii)   The designated referee (or the panel of referees) will
+          be appointed by a court as provided in California Code of Civil
+          Procedure Section 638 and the following related sections;
+
+                 (iii)   The referee (or the presiding referee of the panel)
+          will be an active attorney or a retired judge; and",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0114,,19,"(iv)   The award that results from the decision of the referee
+          (or the panel) will be entered as a judgment in the court that
+          appointed the referee, in accordance with the provisions of California
+          Code of Civil Procedure Sections 644 and 645.
+
+               (h)  This provision does not limit the right of the Borrower or
+     the Bank to:
+
+                    (i)  exercise self-help remedies such as setoff;
+
+
+                                          19 (ii)   foreclose against or sell any real or personal property
+          collateral; or",True,repayment_terms; collateral_security; restrictions_transfers; lender_powers_remedies,Collateral,Medium,remedy_on_default,{},R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),Governs referee award entry as judgment and preserves self-help and foreclosure remedies.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0115,,20,"(iii)   act in a court of law, before, during or after the
+          arbitration proceeding to obtain:
+
+                         (A)  an interim remedy; and/or
+
+                         (B)  additional or supplementary remedies.",True,lender_powers_remedies,Collateral,Medium,remedy_on_default,{},R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),"Permits court actions for interim or supplementary remedies before, during, or after arbitration.",False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0116,,20,"(i)  The pursuit of or a successful action for interim,
+     additional or supplementary remedies, or the filing of a court action, does
+     not constitute a waiver of the right of the Borrower or the Bank, including
+     the suing party, to submit the controversy or claim to arbitration if the
+     other party contests the lawsuit.  However, if the controversy or claim
+     arises from or relates to an obligation to the Bank which is secured by
+     real property located in California at the time of the proposed submission
+     to arbitration, this right is limited according to the provision above
+     requiring the consent of both the Borrower and the Bank to seek resolution
+     through arbitration.",True,collateral_security; lender_powers_remedies,Collateral,Medium,remedy_on_default,{},R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),Clarifies that pursuing interim remedies does not waive the right to demand arbitration.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0117,,20,"(j)  If the Bank forecloses against any real property securing
+     this Agreement, the Bank has the option to exercise the power of sale under
+     the deed of trust or mortgage, or to proceed by judicial foreclosure.",True,repayment_terms; collateral_security,Collateral,Medium,remedy_on_default,{},R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),Grants the Bank options for exercising power of sale or judicial foreclosure upon real property.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0118,,20,"10.5. SEVERABILITY; WAIVERS.  If any part of this Agreement is not
+enforceable, the rest of the Agreement may be enforced.  The Bank retains all
+rights, even if it makes a loan after default.  If the Bank waives a default, it
+may enforce a later default.  Any consent or waiver under this Agreement must be
+in writing.",True,default_triggers; termination_accel; lender_powers_remedies,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,Provides boilerplate severability and waiver rules for the agreement.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0119,,20,"10.6. ADMINISTRATION COSTS.  The Borrower shall pay the Bank for all
+reasonable costs incurred by the Bank in connection with administering this
+Agreement.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0120,,20,"10.7. ATTORNEYS' FEES.  The Borrower shall reimburse the Bank for any
+reasonable costs and attorneys' fees incurred by the Bank in connection with the
+enforcement or preservation of any rights or remedies under this Agreement, the
+Letter of Credit and any other documents executed in connection with this
+Agreement, and including any amendment, waiver, ""workout"" or restructuring under
+this Agreement.  In the event of a lawsuit or arbitration proceeding, the
+prevailing party is entitled to recover costs and reasonable attorneys' fees
+incurred in connection with the lawsuit or arbitration proceeding, as determined
+by the court or arbitrator.  In the event that any case is commenced by or
+against the Borrower under the Bankruptcy Code (Title 11, United States Code) or
+any similar or successor statute, the Bank is entitled to recover costs and
+reasonable attorneys' fees incurred by the Bank related to the preservation,
+
+
+                                          20 protection, or enforcement of any rights of the Bank in such a case.  As used in
+this paragraph, ""attorneys' fees"" includes the allocated costs of the Bank's
+in-house counsel.",True,charges_expenses; insolvency_cure; termination_accel; lender_powers_remedies,Penalties and charges,Medium,fee_or_cost,{},R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Requires the Borrower to reimburse the Bank for reasonable enforcement costs and attorneys' fees.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0121,,21,"10.8. ONE AGREEMENT.  This Agreement, dated the date hereof:
+
+               (a)  represents the sum of the understandings and agreements
+     between the Bank and the Borrower concerning this credit;
+
+               (b)  replaces any prior oral or written agreements between the
+     Bank and the Borrower concerning this credit; and",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0122,,21,"(c)  is intended by the Bank and the Borrower as the final,
+     complete and exclusive statement of the terms agreed to by them, and shall
+     not be affected by any other agreement, including without limitation any
+     agreement between the Borrower and Heublein.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0123,,21,"10.9. INDEMNIFICATION.  The Borrower will indemnify and hold the Bank
+harmless from any loss, liability, damages, judgments, and costs of any kind
+relating to or arising directly or indirectly out of (a) this Agreement, any
+document required hereunder or the transactions contemplated hereby or thereby,
+(b) any credit extended or committed by the Bank to the Borrower hereunder, and
+(c) any litigation or proceeding related to or arising out of this Agreement,
+any such document, or any such credit.  This indemnity includes but is not
+limited to reasonable attorneys' fees (including the allocated cost of in-house
+counsel).  This indemnity extends to the Bank, its parent, subsidiaries and all
+of their directors, officers, employees, agents, successors, attorneys, and
+assigns.  This indemnity will survive repayment of the Borrower's obligations to
+the Bank.  All sums due to the Bank hereunder shall be obligations of the
+Borrower, due and payable immediately without demand.",True,principal_amount; repayment_terms; payable_due; charges_expenses; restrictions_transfers,Covenants,High,indemnity,"{""broad_or_uncapped"": true, ""reaches_affiliates_or_third_parties"": true, ""survives_repayment"": true}",R_IND_HIGH,"Severity High because: indemnity; broad_or_uncapped, survives_repayment",Requires the Borrower to indemnify the Bank and its affiliates broadly against all losses and liabilities.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0124,,21,"10.10. NOTICES.  All notices required under this Agreement shall be
+personally delivered or sent by first class mail, postage prepaid, to the
+addresses on Schedule 1 to this Agreement, or to such other addresses as the
+Bank and the Borrower may specify from time to time in writing.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0125,,21,"10.11. HEADINGS.  Article and paragraph headings are for reference
+only and shall not affect the interpretation or meaning of any provisions of
+this Agreement.",True,covenant_undertaking,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,States that article and paragraph headings are for reference only.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0126,,21,"10.12. COUNTERPARTS.  This Agreement may be executed in as many
+counterparts as necessary or convenient, and by the different parties on
+separate counterparts each of which, when so executed, shall be deemed an
+original but all such counterparts shall constitute but one and the same
+agreement.
+
+
+                                          21 10.13. COMMITMENT EXPIRATION.  The Bank's commitment to extend credit
+under this Agreement will expire on March 31, 1997, unless this Agreement and
+any documents required by this Agreement have been signed and returned to the
+Bank on or before that date.",True,principal_amount,Termination,High,acceleration_or_termination_right,{},R_ACCEL_HIGH,Severity High because: acceleration_or_termination_right; acceleration or termination right by notice,Specifies execution counterparts and sets the commitment expiration date.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0127,,22,"22 IN WITNESS WHEREOF, the parties hereto have executed this Agreement as
+of the date stated at the top of the first page.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0128,,23,"Bank of America National           Scheid Vineyards and
+Trust and Savings Association      Management Co.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0129,,23,"By /s/ Robert E. Anderson          By /s/ Alfred G. Scheid
+  ---------------------------        ---------------------------
+    Robert E. Anderson
+    Vice President                 Title Chair & CEO
+                                        ------------------------ Schedule 1
+                                Addresses for Notices",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0130,,24,"If to the Bank:
+
+Robert E. Anderson
+Bank of America NT & SA
+10 Santa Rosa Avenue
+Santa Rosa, CA 95404
+Telephone:  707-525-2477
+Fax:  707-525-2287
+
+
+If to the Borrower:",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0131,,24,"Scheid Vineyards and Management Co.
+13470 Washington Blvd. Suite 300
+Marina del Rey, CA 90292
+Attn:  Heidi M. Scheid
+Telephone:  310-301-1555
+Fax:  310-301-1569
+
+
+If to Heublein:
+
+Heublein, Inc.
+1825 South Grant Street, Suite 200
+San Mateo, California  94402
+Attn:  Robert B. Fowles
+Telephone:  415-286-6308
+Fax:  415-572-9599
+
+With a copy to:
+
+Heublein, Inc.
+450 Columbus Blvd.
+P.O. Box 778
+Hartford, Conn. 06142-0778
+Attn:  General Counsel
+Telephone:  860-702-4000
+Fax:  860-702-4032 Exhibit A",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0132,,25,"REQUEST FOR CREDIT
+
+                                                  Date: __________, _____
+
+Bank of America
+National Trust and Savings Association
+Santa Rosa Commercial Banking Office",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0133,,25,"1.   Reference is made to the Business Loan Agreement, dated as of March
+28, 1997 (the ""Credit Agreement""), between Scheid Vineyards and Management Co.
+(""Borrower"") and Bank of America National Trust and Savings Association (the
+""Bank"").  Unless otherwise indicated, all terms defined in the Credit Agreement
+have the same respective meanings when used herein.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0134,,25,"2.   Pursuant to Section 4.1 of the Credit Agreement, Borrower hereby
+irrevocably requests an advance in the amount of $_____________________, such
+advance to be made on ________________, ____ and to be deposited into account
+no. 14989-00792.  The Borrower directs the Bank to transfer such amount by wire
+transfer to Sanwa Bank California, Fresno Agribusiness Office No. 2480, ABA No.
+122003516, for credit to the account of Scheid Vineyards and Management Co.,
+account no. 080612311.",True,restrictions_transfers,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,"Details advance request terms, disbursement amounts, and wire transfer instructions.",False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0135,,25,"3.   The Borrower hereby certifies to the Bank that, on the date of this
+Request for Credit and after giving effect to the advance:  (a) the
+representations and warranties of the Borrower set forth in Article 6 of the
+Credit Agreement are true and correct in all material respects as if made on
+such date; and (b) no default or event of default has occurred and is
+continuing.
+
+          IN WITNESS WHEREOF, Borrower has executed this Request for Credit on
+the date set forth above.
+
+                              SCHEID VINEYARDS AND MANAGEMENT CO.
+
+                              By:  __________________________________
+
+                    HEUBLEIN ACKNOWLEDGEMENT TO REQUEST FOR CREDIT",True,default_triggers,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Provides borrower certification regarding ongoing representations and absence of default.,False,,gemini-3.5-flash-lite,False,v5
+000103/1039213/0000912057-97-018811_19.txt,C0136,,25,"Heublein, Inc. (""Heublein"") hereby acknowledges receipt of and
+approves the foregoing Request for Credit and certifies to the Bank that, on the
+date of this Request for Credit and after giving effect to the advance:  (a) the
+representations and warranties of Heublein set forth in Article 2 of the
+Acknowledgement Agreement dated as of March 28, 1997 (the ""Heublein
+Acknowledgement Agreement"") between Heublein and the Bank are true and correct
+in all material respects as if made on such date; and (b) Heublein is not in
+default of any of its obligations under the Heublein Acknowledgement Agreement.
+
+          IN WITNESS WHEREOF, Heublein has executed this Heublein
+Acknowledgement to Request for Credit on the date set forth above.
+
+                              HEUBLEIN INC.
+
+                              By:  ___________________________________",True,default_triggers,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Contains third-party acknowledgment and representations regarding credit requests.,False,,gemini-3.5-flash-lite,False,v5

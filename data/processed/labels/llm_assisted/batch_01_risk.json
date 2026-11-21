@@ -1,0 +1,414 @@
+{
+  "risk_llm.csv": [
+    {
+      "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+      "clause_id": "R01",
+      "clause_text": "The Bank agrees, on the terms and subject to the conditions hereinafter set forth, to make Advances to the Borrower from time to time during the period from the date hereof to February 1, 2012 or the earlier date of termination in whole of the Commitment pursuant Section 7.02, in an aggregate amount not to exceed at any time outstanding One Million and 00/100 ($1,000,000.00) Dollars.",
+      "risk_category": "Termination",
+      "severity": "Low",
+      "rationale": "[Page 4, Section 2.01] Defines the $1,000,000 revolving line availability window ending February 1, 2012 unless terminated earlier under Section 7.02."
+    },
+    {
+      "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+      "clause_id": "R02",
+      "clause_text": "Within the limits of the, the Borrower may borrow, repay pursuant to Section 2.07 and re-borrow under this Section 2.02. The Advances made by the Bank shall be evidenced by and repayable with interest in accordance with a single promissory note of the Borrower of even date herewith (the \"Revolving Note\") payable to the order of the Bank, substantially in a form acceptable to the Bank, dated the date of this Agreement.",
+      "risk_category": "Repayment",
+      "severity": "Medium",
+      "rationale": "[Page 4, Section 2.01] Repayment obligations depend on an unattached Revolving Note and a missing Section 2.07 text [confidence: low - Section 2.07 and the Note are absent from this text]."
+    },
+    {
+      "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+      "clause_id": "R03",
+      "clause_text": "Section 2.03 Commitment Fees. There are no commitment fees payable by the Borrower hereunder.",
+      "risk_category": "Penalties and charges",
+      "severity": "Low",
+      "rationale": "[Page 4, Section 2.03] Expressly states that the borrower owes no commitment fee for unused revolving credit."
+    },
+    {
+      "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+      "clause_id": "R04",
+      "clause_text": "Interest on the Note is computed on a 365/360 basis; that is, by applying the ratio of the interest rate over a year of 360 days, multiplied by the outstanding principal balance, multiplied by the actual number of days the principal balance is outstanding. All interest payable under the Note shall be computed using this method. This calculation method results in a higher effective interest rate than the numeric interest rate stated in the Note.",
+      "risk_category": "Financial terms",
+      "severity": "Medium",
+      "rationale": "[Page 4, Section 2.04] Uses 365/360 day-count interest math, raising the effective annual cost above the nominal rate in the Note."
+    },
+    {
+      "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+      "clause_id": "R05",
+      "clause_text": "The Borrower hereby authorizes the Bank, if and to the extent payment is not promptly made pursuant hereto, to charge against the Borrower's account with the Bank an amount equal to the accrued interest and fees from time to time due and payable to the Bank under the Note or hereunder.",
+      "risk_category": "Repayment",
+      "severity": "Medium",
+      "rationale": "[Page 4, Section 2.04] Authorizes the bank to debit the borrower's bank account directly if accrued interest or fees are not promptly paid."
+    },
+    {
+      "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+      "clause_id": "R06",
+      "clause_text": "Whenever any payment to be made hereunder or under a Note shall be stated to be due on a Saturday, Sunday or a holiday for banks under the laws of the State of Minnesota, such payment may be made on the next succeeding bank business day, and such extension of time shall in such case be included in the computation of payment of interest on the Note or the fees hereunder, as the case may be.",
+      "risk_category": "Repayment",
+      "severity": "Low",
+      "rationale": "[Page 4, Section 2.05] Routine business-day convention rolling weekend or holiday due dates to the next Minnesota bank business day with accrued interest."
+    },
+    {
+      "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+      "clause_id": "R07",
+      "clause_text": "The Borrower and Guarantors will keep accurate books of record and account for itself in which true and complete entries will be made in accordance with generally accepted accounting principles consistently applied and, upon request of the Bank, will give any representative of the Bank access to, and permit such representative to examine, copy or make extracts from, any and all books, records and documents in its possession, to inspect any of its properties and to discuss its affairs, finances and accounts with any of its principal officers, all at such times during normal business hours and as often as the Bank may reasonably request.",
+      "risk_category": "Covenants",
+      "severity": "Low",
+      "rationale": "[Page 10, Section 5.02] Standard GAAP recordkeeping and normal-business-hours inspection covenant on reasonable bank request."
+    },
+    {
+      "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+      "clause_id": "R08",
+      "clause_text": "Section 5.08 Minimum Net Worth. So long as the Note shall remain unpaid or the Bank shall have any Commitment hereunder, the Borrower will maintain, during and at the end of each fiscal quarter end, Net Worth at an amount not less than Seven Million Five Hundred Thousand and no/100 Dollars ($7,500,000.00).",
+      "risk_category": "Financial terms",
+      "severity": "Medium",
+      "rationale": "[Page 11, Section 5.08] Requires maintaining at least $7,500,000 Net Worth every fiscal quarter, creating default exposure if losses shrink equity."
+    },
+    {
+      "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+      "clause_id": "R09",
+      "clause_text": "Section 5.09 Ratio of Debt to Tangible Net Worth. So long as the Note shall remain unpaid or the Bank shall have any Commitment hereunder, the ratio of the Borrower's Debt to Tangible Net Worth shall not exceed 2.25 to 1 measured at the end of each fiscal quarter end basis.",
+      "risk_category": "Financial terms",
+      "severity": "Medium",
+      "rationale": "[Page 11, Section 5.09] Caps Debt-to-Tangible-Net-Worth at 2.25:1 each quarter, restricting additional leverage."
+    },
+    {
+      "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+      "clause_id": "R10",
+      "clause_text": "Section 6.02 Indebtedness. The Borrower and Guarantors will not incur, create, assume or permit to exist any indebtedness or liability on account of deposits or advances or any indebtedness for borrowed money, or any other indebtedness or liability evidenced by notes, bonds, debentures or similar obligations, except:",
+      "risk_category": "Covenants",
+      "severity": "High",
+      "rationale": "[Page 13, Section 6.02] Bars borrower and guarantors from taking on new borrowed debt outside specific exceptions and bank-approved subordinated debt."
+    },
+    {
+      "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+      "clause_id": "R11",
+      "clause_text": "Section 6.04 Sale of Assets. The Borrower and Guarantors will not sell, lease, assign, transfer or otherwise dispose of assets exceeding 10% or more of the book value of its assets as of the date of such transaction to any other Person other than in the ordinary course of business or in the event such assets are obsolete or worn-out assets, without the prior written consent of the Bank.",
+      "risk_category": "Covenants",
+      "severity": "High",
+      "rationale": "[Page 13, Section 6.04] Blocks out-of-ordinary asset sales reaching 10% of book value without prior written lender consent."
+    },
+    {
+      "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+      "clause_id": "R12",
+      "clause_text": "(a) Default in the payment of any sums payable on the Note when it becomes due and payable and continuance of such default for a period of 10 days;",
+      "risk_category": "Default conditions",
+      "severity": "High",
+      "rationale": "[Page 14, Section 7.01(a)] Makes nonpayment on the Note continuing 10 days past due an Event of Default with no notice required."
+    },
+    {
+      "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+      "clause_id": "R13",
+      "clause_text": "(e) The Borrower or any Guarantor shall be adjudicated a bankrupt or insolvent, or admit in writing its inability to pay its debts as they mature, or make an assignment for the benefit of creditors; or the Borrower or any Guarantor shall apply for or consent to the appointment of any receiver, trustee, or similar officer for it or for all or any substantial part of its property; or such receiver, trustee or similar officer shall be appointed without the application or consent of the Borrower or any Guarantor and such appointment shall continue undischarged for a period of 30 days;",
+      "risk_category": "Default conditions",
+      "severity": "Critical",
+      "rationale": "[Page 15, Section 7.01(e)] Voluntary or un-discharged (30-day) insolvency or receivership of borrower or any guarantor triggers immediate default."
+    },
+    {
+      "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+      "clause_id": "R14",
+      "clause_text": "(j) Adverse conditions develop at any time affecting Borrower's or any Guarantor's affairs, financial or otherwise, and the Bank in good faith determines that such adverse conditions impair the due and punctual payment of the Note;",
+      "risk_category": "Default conditions",
+      "severity": "High",
+      "rationale": "[Page 16, Section 7.01(j)] Broad subjective insecurity clause letting the bank call default whenever it determines adverse conditions impair repayment."
+    },
+    {
+      "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+      "clause_id": "R15",
+      "clause_text": "(a) The Bank may, by notice to the Borrower and Guarantors, declare the Commitment to be terminated whereupon the same shall forthwith terminate; (b) The Bank may, by notice to the Borrower and Guarantors, declare the entire unpaid principal amount of the Note then outstanding, all interest accrued and unpaid thereon, and all other amounts payable under this Agreement to be forthwith due and payable, whereupon such Note, all such accrued interest and all such amounts shall become and be forthwith due and payable, without presentment, demand, protest or further notice of any kind, all of which are hereby expressly waived by the Borrower.",
+      "risk_category": "Termination",
+      "severity": "Critical",
+      "rationale": "[Page 16, Section 7.02(a)-(b)] Upon any default, bank may immediately cancel the credit commitment and accelerate full principal and interest without further notice."
+    },
+    {
+      "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+      "clause_id": "R16",
+      "clause_text": "(c) The Bank may, without notice to the Borrower and Guarantors and without further action, apply any and all money owing by the Bank to the Borrower or any Guarantor to the payment of the Note then outstanding, including interest accrued thereon, and of all other sums then owing by the Borrower or any Guarantor hereunder; (d) The Bank may exercise and enforce its rights and remedies under the Security Agreement and/or the Guaranties or any other Loan Document;",
+      "risk_category": "Collateral",
+      "severity": "Critical",
+      "rationale": "[Page 16-17, Section 7.02(c)-(d)] Grants summary bank setoff without notice against borrower/guarantor balances plus full enforcement under Security Agreements and Guaranties."
+    },
+    {
+      "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+      "clause_id": "R17",
+      "clause_text": "The Borrower and Guarantors agree to pay on demand all costs and expenses of the Bank in connection with the preparation of this Agreement, the Note, the Security Agreement, the Guaranties and the other Loan Documents and the other instruments and documents to be delivered hereunder and thereunder, including the reasonable fees and out-of-pocket expenses of counsel for the Bank with respect thereto,",
+      "risk_category": "Penalties and charges",
+      "severity": "Medium",
+      "rationale": "[Page 17, Section 8.04] Shifts all bank documentation and enforcement legal fees onto the borrower and guarantors on demand."
+    },
+
+    {
+      "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+      "clause_id": "R01",
+      "clause_text": "(j)     \"Default Rate\" shall mean an annual interest rate equal to the lesser of the maximum interest rate permitted by Applicable Law and twelve percent (12%) per annum.",
+      "risk_category": "Penalties and charges",
+      "severity": "Medium",
+      "rationale": "[Section 1(j)] Sets overdue default interest at up to 12% per annum, bounded by applicable legal caps."
+    },
+    {
+      "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+      "clause_id": "R02",
+      "clause_text": "(k)     \"Documentation Fee\" shall mean a documentation fee payable to Lender in the amount of $500.00.",
+      "risk_category": "Penalties and charges",
+      "severity": "Low",
+      "rationale": "[Section 1(k)] Fixed one-time $500 documentation fee payable to the lender."
+    },
+    {
+      "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+      "clause_id": "R03",
+      "clause_text": "Borrowers shall pay the principal of the Loan and interest thereon on the terms set forth in the Note. All Installments shall be payable when due whether or not Borrowers have received any additional notice that such Installments are due. Payment of all Installments shall be initiated by Lender in accordance with the terms of this Agreement from Borrowers' account through BillPayer 2000",
+      "risk_category": "Repayment",
+      "severity": "Low",
+      "rationale": "[Section 4(a), Page 4] Requires automatic BillPayer auto-debit from the designated Citizens Bank account without prior invoice notice [confidence: low - exact Note payment schedule is omitted]."
+    },
+    {
+      "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+      "clause_id": "R04",
+      "clause_text": "In the event that a Vessel shall suffer an Event of Loss, Borrowers shall prepay the principal of the Note plus (x) accrued interest on such amount to the date of prepayment plus (y) the Prepayment Premium applicable to such amount:",
+      "risk_category": "Repayment",
+      "severity": "High",
+      "rationale": "[Section 4(b), Page 4] Forces full principal prepayment plus any Prepayment Premium if a mortgaged vessel suffers a total loss or requisition."
+    },
+    {
+      "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+      "clause_id": "R05",
+      "clause_text": "Maritrans 196 Co., does hereby grant to Lender a first priority security interest in, and acknowledge and agree that Lender has and shall continue to have a continuing security interest in, any and all right, title and interest of such Borrower in and to the property consisting of: (i) the Vessel and all Equipment used in connection with or located on board the Vessel not a part of the Vessel for purposes of the Shipping Act, 46 U.S. Code but customarily sold or transferred with the Vessel; (ii) all related inventory, supplies, parts and spares; (iii) all freights, hire, charters, chattel paper, general intangibles and accounts with respect to the Vessel;",
+      "risk_category": "Collateral",
+      "severity": "High",
+      "rationale": "[Section 5] Pledges a first-priority lien over the vessel equipment, spares, freights, charters, accounts, and insurance proceeds."
+    },
+    {
+      "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+      "clause_id": "R06",
+      "clause_text": "WITHOUT LENDER'S PRIOR WRITTEN CONSENT, NO BORROWER SHALL (EXCEPT AS EXPRESSLY PERMITTED UNDER THE PREFERRED MARINE MORTGAGE) (i) ASSIGN, TRANSFER, PLEDGE, HYPOTHECATE OR OTHERWISE DISPOSE OF, THE EQUIPMENT OR ANY INTEREST THEREIN, OR ASSIGN OR DELEGATE ITS RIGHTS OR OBLIGATIONS UNDER THE LOAN DOCUMENTS, OR (ii) LEASE OR LEND THE EQUIPMENT TO, OR PERMIT THE EQUIPMENT TO BE USED BY, ANYONE OTHER THAN A BORROWER OR A BORROWER'S QUALIFIED EMPLOYEES, PROVIDED, HOWEVER, THAT LENDER CONSENTS TO USE OF THE VESSEL BY CHARTERER SUBJECT IN EACH CASE TO LENDER'S SECURITY INTEREST UNDER THE LOAN DOCUMENTS.",
+      "risk_category": "Covenants",
+      "severity": "High",
+      "rationale": "[Section 6(a)] Strictly prohibits selling, pledging, or subleasing the vessel or equipment without lender written consent."
+    },
+    {
+      "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+      "clause_id": "R07",
+      "clause_text": "If Borrowers fail to pay any of the Installments within ten (10) days after receipt of notice from Lender that the same were not paid when due, Borrowers shall pay to Lender interest on such overdue Installment, from the date it became due until paid, at the Default Rate.",
+      "risk_category": "Penalties and charges",
+      "severity": "Medium",
+      "rationale": "[Section 9] Triggers 12% default interest retroactively from due date if an installment remains unpaid 10 days after lender notice."
+    },
+    {
+      "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+      "clause_id": "R08",
+      "clause_text": "the Collateral is not subject to, and Borrowers will not grant or permit to exist, any Liens or claims on or against the Collateral, whether senior, superior, junior, subordinate or equal to the security interest granted to Lender under the Loan Documents, or otherwise.",
+      "risk_category": "Collateral",
+      "severity": "High",
+      "rationale": "[Section 10] Absolute negative pledge forbidding even junior liens on the collateral outside Permitted Maritime Liens."
+    },
+    {
+      "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+      "clause_id": "R09",
+      "clause_text": "(1) Borrowers fail to pay any Installment within ten (10) days after the date due; (2) any Borrower breaches any of its other Obligations under any of the Loan Documents and fails to cure the same within thirty (30) days after written notice thereof (except a Default under Article 1 of the Preferred Marine Mortgage to which the thirty (30) day notice shall not apply);",
+      "risk_category": "Default conditions",
+      "severity": "Medium",
+      "rationale": "[Section 11(a)(1)-(2)] Grants a 10-day payment grace period and 30-day cure period for most breaches, except immediate default under Preferred Marine Mortgage Article 1."
+    },
+    {
+      "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+      "clause_id": "R10",
+      "clause_text": "any representation or warranty made by any Borrower as applicable herein or in any of the Loan Documents, certificates, financial statements or other statements furnished to Lender in connection with the Loan shall prove to be false or misleading in any material respect as of the date on which the same was made; (7) any Borrower, as applicable, shall fail to satisfy within sixty (60) days after the later of (i) entry thereof or (ii) the termination of the most recent stay, any final judgment rendered against such Borrower as applicable, by any court of competent jurisdiction where the judgment is in excess of $500,000;",
+      "risk_category": "Default conditions",
+      "severity": "High",
+      "rationale": "[Section 11(a)(6)-(7)] Materially false statements or any unstayed final judgment over $500,000 unpaid for 60 days triggers an Event of Default."
+    },
+    {
+      "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+      "clause_id": "R11",
+      "clause_text": "if the Charter Agreement is cancelled or terminated prior to the expiration of the term thereof or any material event of default shall occur and be continuing after applicable notice and cure period under the Charter Agreement; (12) the Charter Agreement shall expire and not be replaced by a renewal or replacement charter acceptable to Lender; or (13) an event of default occurs under the Loan and Security Agreement between Maritrans Inc. and Maritrans Honour Co., as borrowers, and Lender dated June 22, 2004.",
+      "risk_category": "Termination",
+      "severity": "Critical",
+      "rationale": "[Section 11(a)(11)-(13)] Cross-defaults this $22M loan to cancellation/expiration of the vessel charter or any default under the affiliate Maritrans Honour Co. facility."
+    },
+    {
+      "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+      "clause_id": "R12",
+      "clause_text": "Upon the occurrence of an Event of Default, Lender, at its option, may declare any or all of Borrowers' Obligations under the Loan Documents, including, without limitation, the Note, to be immediately due and payable, without demand or notice to Borrowers and Lender shall have the immediate right to enforce its security interests in the Collateral, and under the Preferred Marine Mortgage; provided, however, that if the Event of Default results from the arrest or attachment of the Vessel and Borrowers pay the Note in full within ten (10) days of Lender's demand for payment, such Event of Default shall be deemed cured.",
+      "risk_category": "Termination",
+      "severity": "Critical",
+      "rationale": "[Section 11(b)(i)] Allows immediate acceleration without notice and vessel mortgage foreclosure upon default, with only a 10-day full-payoff cure for vessel arrest."
+    },
+    {
+      "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+      "clause_id": "R13",
+      "clause_text": "without demand and without advertisement, notice, hearing or process of law, all of which Borrowers hereby waive, at any place and time or times, sell and deliver any or all Collateral held by or for it at public or private sale, by one or more contracts, in one or more parcels, for cash, upon credit or otherwise, at such prices and upon such terms as Lender deems advisable, in its reasonable discretion;",
+      "risk_category": "Collateral",
+      "severity": "Critical",
+      "rationale": "[Section 11(b)(ii)(E)] Waives demand, notice, and judicial hearing so the lender can seize and sell collateral privately upon default."
+    },
+    {
+      "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+      "clause_id": "R14",
+      "clause_text": "Within sixty (60) days after the end of each quarterly period (except the last) of each fiscal year, consolidated financial statements of Maritrans Inc. internally prepared in accordance with GAAP.",
+      "risk_category": "Covenants",
+      "severity": "Low",
+      "rationale": "[Section 15(a)] Routine quarterly GAAP financial reporting within 60 days."
+    },
+    {
+      "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+      "clause_id": "R15",
+      "clause_text": "Within 120 days after the last day of each fiscal year, consolidated financial statements of Maritrans Inc., prepared in accordance with GAAP and, audited by an independent public accountant and reported on without qualification or exception arising out of the scope of the audit.",
+      "risk_category": "Covenants",
+      "severity": "Low",
+      "rationale": "[Section 15(b)] Standard annual unqualified audited financial statement delivery within 120 days."
+    },
+    {
+      "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+      "clause_id": "R16",
+      "clause_text": "So long as any Obligations under the Loan Documents remain outstanding, Borrowers covenant and agree that Maritrans Inc. shall comply with the financial covenants set forth in Section 6.2(j) (collectively, the \"Financial Covenants\") of that certain Credit and Security Agreement dated as of November 20, 2001 currently in effect between the Borrower,",
+      "risk_category": "Financial terms",
+      "severity": "High",
+      "rationale": "[Section 16] Incorporates external financial ratio covenants by reference whose breach triggers Event of Default [confidence: low - incorporated 2001 ratios are outside this text]."
+    },
+    {
+      "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+      "clause_id": "R17",
+      "clause_text": "Lender agrees, on the Funding Date, to fund a Loan to Borrowers in the amount of $22,000,000.",
+      "risk_category": "Financial terms",
+      "severity": "Low",
+      "rationale": "[Section 2] Establishes the $22,000,000 principal commitment funded on the Funding Date [confidence: low - actual interest rate is deferred to unattached Note]."
+    },
+
+    {
+      "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+      "clause_id": "R01",
+      "clause_text": "1.2. AVAILABILITY PERIOD. The line of credit is available between the date of this Agreement and December 31, 1999 (the \"Expiration Date\") unless a default under Section 9 has occurred, whether or not such default has ripened into an event of default giving the Bank the remedies set forth in Section 9.",
+      "risk_category": "Termination",
+      "severity": "Medium",
+      "rationale": "[Page 1, Section 1.2] Lets the bank cut off draws immediately upon an incipient default even before notice or cure periods expire."
+    },
+    {
+      "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+      "clause_id": "R02",
+      "clause_text": "(a) Unless an optional interest rate is elected as described below, the interest rate is the Bank's Reference Rate minus 0.50 percentage points.",
+      "risk_category": "Financial terms",
+      "severity": "Low",
+      "rationale": "[Page 1, Section 1.3(a)] Sets floating base interest at the Bank's Reference Rate minus 0.50% unless an optional LIBOR/fixed rate is chosen."
+    },
+    {
+      "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+      "clause_text": "(b) The Borrower will repay the principal amount outstanding on the Expiration Date in annual installments starting January 5, 2000. The first five of such annual installments shall be equal to one-tenth of the principal amount outstanding on the Expiration Date, and the sixth and last annual installment shall be payable on January 5, 2005 and shall pay the remaining principal balance in full.",
+      "clause_id": "R03",
+      "risk_category": "Repayment",
+      "severity": "Medium",
+      "rationale": "[Page 1-2, Section 1.4(b)] Amortizes only 50% of principal over 5 annual 10% installments, leaving a 50% balloon payment due January 5, 2005."
+    },
+    {
+      "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+      "clause_id": "R04",
+      "clause_text": "(c) The Borrower may prepay the loan in full or in part at any time. The prepayment will be applied to the most remote installment(s) of principal due under this Agreement.",
+      "risk_category": "Repayment",
+      "severity": "Low",
+      "rationale": "[Page 2, Section 1.4(c)] Borrower-friendly right to prepay Reference-Rate balances anytime without penalty, applied to the final installments first."
+    },
+    {
+      "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+      "clause_id": "R05",
+      "clause_text": "3.1. LOAN FEE. The Borrower agrees to pay a Thirty Seven Thousand Five Hundred Dollar ($37,500) fee due on the date of this Agreement.",
+      "risk_category": "Financial terms",
+      "severity": "Low",
+      "rationale": "[Page 6, Section 3.1] Upfront $37,500 loan origination fee equal to 0.50% of the $7.5M commitment."
+    },
+    {
+      "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+      "clause_id": "R06",
+      "clause_text": "4.8. INTEREST CALCULATION. Except as otherwise stated in this Agreement, all interest and fees, if any, will be computed on the basis of a 360-day year and the actual number of days elapsed. This results in more interest or a higher fee than if a 365-day year is used.",
+      "risk_category": "Financial terms",
+      "severity": "Low",
+      "rationale": "[Page 9, Section 4.8] Discloses 365/360 interest accrual convention that slightly increases effective cost over a 365-day basis."
+    },
+    {
+      "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+      "clause_id": "R07",
+      "clause_text": "4.9. DEFAULT RATE. Upon the occurrence and during the continuation of any default under this Agreement, principal amounts outstanding under this Agreement will at the option of the Bank bear interest at a rate which is two percentage point(s) higher than the rate of interest otherwise provided under this Agreement. This will not constitute a waiver of any default. Installments of principal which are not paid when due under this Agreement shall continue to bear interest until paid. Any interest, fees or costs which are not paid when due will, at the option of the Bank, bear interest at the Bank's Reference Rate plus two percentage points. This may result in compounding of interest.",
+      "risk_category": "Penalties and charges",
+      "severity": "Medium",
+      "rationale": "[Page 9, Section 4.9] Raises interest by +2.0 percentage points on default and lets unpaid interest/fees compound at Reference Rate + 2.0 points."
+    },
+    {
+      "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+      "clause_id": "R08",
+      "clause_text": "5.3. STANDBY LETTER OF CREDIT. A Standby Letter of Credit (together with any substituted letter of credit delivered after the date of this agreement, the \"Letter of Credit\") acceptable to the Bank issued by a financial institution acceptable to the Bank in favor of the Bank for the account of Heublein in a minimum amount of $7,500,000 plus interest in the amount of not less than $112,500 with an expiration date of not earlier than July 31, 1997.",
+      "risk_category": "Collateral",
+      "severity": "High",
+      "rationale": "[Page 10, Section 5.3] Requires full principal-plus-interest credit support via a $7,612,500+ standby letter of credit from Heublein's bank."
+    },
+    {
+      "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+      "clause_id": "R09",
+      "clause_text": "Within 120 days of the Borrower's fiscal year end, the Borrower's annual financial statements. These financial statements shall be audited by a firm of independent accountants reasonably satisfactory to the Bank and shall be prepared consistently with the financial statements delivered to the Bank pursuant to Section 6.6.",
+      "risk_category": "Covenants",
+      "severity": "Low",
+      "rationale": "[Page 12, Section 7.2(a)] Routine annual delivery of audited financial statements within 120 days after fiscal year-end."
+    },
+    {
+      "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+      "clause_id": "R10",
+      "clause_text": "7.3. OTHER LIENS. Not to create, assume, or allow any security interest or lien (including judicial liens) on all or any portion of the Development Agreement.",
+      "risk_category": "Collateral",
+      "severity": "Medium",
+      "rationale": "[Page 12, Section 7.3] Negative pledge prohibiting voluntary or judicial liens on the borrower's Development Agreement."
+    },
+    {
+      "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+      "clause_id": "R11",
+      "clause_text": "7.12. ADDITIONAL NEGATIVE COVENANTS. Not to, without the Bank's written consent: (a) liquidate or dissolve the Borrower's business. (b) sell, assign, lease, transfer or otherwise dispose of all or a substantial part of the Borrower's business or the Borrower's assets.",
+      "risk_category": "Covenants",
+      "severity": "High",
+      "rationale": "[Page 13, Section 7.12(a)-(b)] Bars liquidation, business shutdown, or selling substantial assets without prior written bank approval."
+    },
+    {
+      "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+      "clause_id": "R12",
+      "clause_text": "If any of the following events occurs, the Bank may do one or more of the following: declare the Borrower in default, stop making any additional credit available to the Borrower, cause the entire debt of the Borrower hereunder to become due immediately and without prior notice, or, subject to the third sentence of this paragraph of Section 9, draw on the Letter of Credit.",
+      "risk_category": "Termination",
+      "severity": "Critical",
+      "rationale": "[Page 14, Section 9] Allows immediate credit freeze, full acceleration without notice, and drawing on the Heublein Letter of Credit upon default."
+    },
+    {
+      "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+      "clause_id": "R13",
+      "clause_text": "9.1. FAILURE TO PAY. The Borrower fails to make a payment under this Agreement when due and such failure shall continue for seven days after such due date.",
+      "risk_category": "Default conditions",
+      "severity": "High",
+      "rationale": "[Page 15, Section 9.1] Any missed payment unremedied for 7 days becomes a full Event of Default."
+    },
+    {
+      "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+      "clause_id": "R14",
+      "clause_text": "The default will be deemed cured if any bankruptcy petition filed against the Borrower or Heublein is dismissed within a period of 45 days after the filing; provided, however, that the Bank will not be obligated to extend any additional credit to the Borrower during that period.",
+      "risk_category": "Default conditions",
+      "severity": "Critical",
+      "rationale": "[Page 15, Section 9.3] Extends bankruptcy default even to an involuntary petition against the third-party credit-support provider Heublein unless dismissed in 45 days."
+    },
+    {
+      "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+      "clause_id": "R15",
+      "clause_text": "9.5. GOVERNMENT ACTION. Any government authority takes action that the Bank reasonably believes, in its good faith business judgment, materially adversely affects the Borrower's financial condition or ability to repay.",
+      "risk_category": "Default conditions",
+      "severity": "High",
+      "rationale": "[Page 16, Section 9.5] Lets the bank declare default based on its good-faith assessment that regulatory/government action hurts repayment capacity."
+    },
+    {
+      "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+      "clause_id": "R16",
+      "clause_text": "9.7. CHANGE OF OWNERSHIP. A direct or indirect change in the Borrower's capital ownership in excess of 10% shall occur.",
+      "risk_category": "Termination",
+      "severity": "High",
+      "rationale": "[Page 16, Section 9.7] Triggering an immediate Event of Default if more than 10% ownership changes hands severely restricts equity transfers."
+    },
+    {
+      "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+      "clause_id": "R17",
+      "clause_text": "If the Bank forecloses against any real property securing this Agreement, the Bank has the option to exercise the power of sale under the deed of trust or mortgage, or to proceed by judicial foreclosure.",
+      "risk_category": "Collateral",
+      "severity": "Medium",
+      "rationale": "[Page 19, Section 10.4(j)] Preserves both non-judicial power-of-sale and judicial foreclosure options for the bank if real estate security exists."
+    }
+  ]
+}

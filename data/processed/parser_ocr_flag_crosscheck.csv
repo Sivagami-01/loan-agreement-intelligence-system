@@ -1,0 +1,8 @@
+﻿file,page,source_status,ocr_status,candidate_for_ocr,machine_verdict
+12_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Malayalam.json,32,GOOD,GOOD,True,EXTRACTION_AND_OCR_OVERLAP
+13_bajajhousingfinance_MITC-Retail__Secured_and_Unsecured_-Hindi.json,22,SUSPICIOUS,SUSPICIOUS,True,OCR_REMAINS_SUSPICIOUS
+15_bajajhousingfinance_E-MITC_-_Retail_Secured_and_Unsecured_-_Punjabi_1_.json,23,GOOD,SUSPICIOUS,True,EXTRACTION_AND_OCR_OVERLAP
+16_bajajhousingfinance_E-MITC_-_Retail_Secured_and_Unsecured_-_Bengali_1_.json,23,SUSPICIOUS,SUSPICIOUS,True,OCR_REMAINS_SUSPICIOUS
+17_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Bengali.json,25,GOOD,SUSPICIOUS,True,TEXTS_DIFFER; MANUAL_REVIEW
+personal_business_loan_agreement.json,12,BAD,BAD,True,OCR_REMAINS_SUSPICIOUS
+personal_business_loan_agreement.json,14,BAD,BAD,True,OCR_REMAINS_SUSPICIOUS

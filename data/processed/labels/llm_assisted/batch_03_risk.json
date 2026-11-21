@@ -1,0 +1,414 @@
+{
+  "risk_llm.csv": [
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "clause_id": "R01",
+      "clause_text": "\"Applicable Margin\" means with respect to any Unpaid Advance or Applied Provider Advance, 2.0%.",
+      "risk_category": "Financial terms",
+      "severity": "Medium",
+      "rationale": "[Page 1, Section 1.01] Sets a +2.0% interest spread over LIBOR or Base Rate whenever liquidity advances remain unpaid or are drawn."
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "clause_id": "R02",
+      "clause_text": "\"Maximum Commitment\" means, for any day, the lesser of (x) $12,720,316.32 and (y) the Required Amount on such day.",
+      "risk_category": "Financial terms",
+      "severity": "Low",
+      "rationale": "[Page 5, Section 1.01] Caps the liquidity facility at $12,720,316.32 or three semiannual Class C certificate interest payments, whichever is lower."
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "clause_id": "R03",
+      "clause_text": "The Borrower agrees to pay to the Liquidity Provider on the effective date a non-refundable fee equal to $226,880.91 in aggregate with respect to this Agreement, the Revolving Credit Agreement (1999-2B) dated as of June 25, 1999, by and between State Street Bank and Trust Company and Citibank, N.A., and the Revolving Credit Agreement (1999-2C) dated as of June 25, 1999, by and between State Street Bank and Trust Company and Citibank, N.A.",
+      "risk_category": "Penalties and charges",
+      "severity": "Medium",
+      "rationale": "[Page 8, Section 2.03(a)] Upfront non-refundable facility fee totaling $226,880.91 across the related 1999-2 series agreements [confidence: low - source clause repeats 1999-2C instead of 1999-2A]."
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "clause_id": "R04",
+      "clause_text": "The Borrower shall pay, or shall cause to be paid, to the Liquidity Provider, a fee equal to 0.35% per annum on the average Maximum Available Commitment from the Effective Date to the earlier of the date on which a Downgrade Advance or Non-Extension Advance is made and the date on which the Maximum Commitment terminates. Such fee shall be payable in arrears on each Regular Distribution Date.",
+      "risk_category": "Penalties and charges",
+      "severity": "Low",
+      "rationale": "[Page 8-9, Section 2.03(b)] Modest 0.35% annual commitment fee payable in arrears only from available funds under the Intercreditor Agreement."
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "clause_id": "R05",
+      "clause_text": "Upon the making of any Provider Advance or Final Advance hereunder or the occurrence of the Termination Date, the obligation of the Liquidity Provider to make further Advances hereunder shall automatically and irrevocably terminate, and the Borrower shall not be entitled to request any further Borrowing hereunder.",
+      "risk_category": "Termination",
+      "severity": "High",
+      "rationale": "[Page 9, Section 2.04(b)] Permanently terminates future borrowing ability as soon as a Downgrade, Non-Extension, or Final Advance is drawn."
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "clause_id": "R06",
+      "clause_text": "the Borrower hereby agrees, without notice of an Advance or demand for repayment from the Liquidity Provider (which notice and demand are hereby waived by the Borrower), to pay, or to cause to be paid, to the Liquidity Provider on each date on which the Liquidity Provider shall make an Interest Advance or the Final Advance, an amount equal to (a) the amount of such Advance (any such Advance, until repaid, is referred to herein as an \"Unpaid Advance\"), plus (b) interest on the amount of each such Unpaid Advance as provided in Section 3.07 hereof;",
+      "risk_category": "Repayment",
+      "severity": "Medium",
+      "rationale": "[Page 9, Section 2.05] Makes Interest and Final Advances immediately repayable when made (subject to Intercreditor waterfall cash availability)."
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "clause_id": "R07",
+      "clause_text": "Upon the provision of a Replacement Liquidity Facility in replacement of this Agreement in accordance with Section 3.6(e) of the Intercreditor Agreement, amounts remaining on deposit in the Class C Cash Collateral Account after giving effect to any Applied Provider Advance on the date of such replacement shall be reimbursed to the Liquidity Provider, but only to the extent such amounts are necessary to repay in full to the Liquidity Provider all amounts owing to it hereunder.",
+      "risk_category": "Collateral",
+      "severity": "Medium",
+      "rationale": "[Page 10-11, Section 2.06(c)] Directs leftover Class C Cash Collateral Account cash to reimburse Citibank first when replaced."
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "clause_id": "R08",
+      "clause_text": "All payments to be made by the Borrower under this Agreement shall be made only from the amounts that constitute Scheduled Payments, Special Payments or payments under Section 7(c) of the Participation Agreements and Section 7 of the Note Purchase Agreement and only to the extent that the Borrower shall have sufficient income or proceeds therefrom to enable the Borrower to make payments in accordance with the terms hereof after giving effect to the priority of payments provisions set forth in the Intercreditor Agreement. The Liquidity Provider agrees that it will look solely to such amounts to the extent available for distribution to it as provided in the Intercreditor Agreement and this Agreement and that the Borrower, in its individual capacity, is not personally liable to it for any amounts payable or liability under this Agreement except as expressly provided in this Agreement,",
+      "risk_category": "Repayment",
+      "severity": "Low",
+      "rationale": "[Page 12, Section 2.09] Limits Citibank's recourse strictly to trust waterfall distributions with zero personal liability on State Street Bank [confidence: low - waterfall priority sits in separate Intercreditor Agreement]."
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "clause_id": "R09",
+      "clause_text": "Each amount not paid when due hereunder (whether fees, commissions, expenses or other amounts or, to the extent permitted by applicable law, installments of interest on Advances but excluding Advances) shall bear interest at a rate per annum equal to the Base Rate plus 2.0% until paid.",
+      "risk_category": "Penalties and charges",
+      "severity": "Medium",
+      "rationale": "[Page 16, Section 3.07(f)] Charges overdue fees, expenses, and overdue interest at the Fed Funds Base Rate + 2.0% until paid."
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "clause_id": "R10",
+      "clause_text": "The Borrower shall pay to the Liquidity Provider, upon the request of the Liquidity Provider, such amount or amounts as shall be sufficient (in the reasonable opinion of the Liquidity Provider) to compensate it for any loss, cost, or expense incurred as a result of: (1) Any repayment of a LIBOR Advance on a date other than the last day of the Interest Period for such Advance;",
+      "risk_category": "Repayment",
+      "severity": "Medium",
+      "rationale": "[Page 17, Section 3.09] Imposes LIBOR breakage/funding-loss costs if an Advance is repaid mid-Interest Period."
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "clause_id": "R11",
+      "clause_text": "to establish, perfect, protect and preserve the right, title and interest, remedies, powers, privileges, liens and security interests of, or for the benefit of, the Trustees, the Borrower and the Liquidity Provider created by the Operative Agreements executed and delivered on or prior to the Closing Date;",
+      "risk_category": "Collateral",
+      "severity": "Low",
+      "rationale": "[Page 18, Section 4.01(a)(vi)] Conditions facility effectiveness on valid perfection of liens created under the broader Operative Agreements [confidence: low - actual lien grants reside in separate Operative Agreements]."
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "clause_id": "R12",
+      "clause_text": "Furnish to the Liquidity Provider with reasonable promptness, such other information and data with respect to the transactions contemplated by the Operative Agreements as from time to time may be reasonably requested by the Liquidity Provider; and permit the Liquidity Provider, upon reasonable notice, to inspect the Borrower's books and records with respect to such transactions and to meet with officers and employees of the Borrower to discuss such transactions.",
+      "risk_category": "Covenants",
+      "severity": "Low",
+      "rationale": "[Page 19, Section 5.01(b)] Routine transaction reporting and inspection covenant upon reasonable notice."
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "clause_id": "R13",
+      "clause_text": "the Borrower will not appoint or permit or suffer to be appointed any successor Borrower without the prior written consent of the Liquidity Provider, which consent shall not be unreasonably withheld or delayed.",
+      "risk_category": "Covenants",
+      "severity": "Low",
+      "rationale": "[Page 20, Section 5.02] Prevents replacing the Subordination Agent borrower without Citibank's consent (cannot be unreasonably withheld)."
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "clause_id": "R14",
+      "clause_text": "If (a) any Liquidity Event of Default has occurred and is continuing and (b) there is a Performing Note Deficiency, the Liquidity Provider may, in its discretion, deliver to the Borrower a Termination Notice, the effect of which shall be to cause (i) this Agreement to expire on the fifth Business Day after the date on which such Termination Notice is received by the Borrower, (ii) the Borrower to promptly request, and the Liquidity Provider to promptly make, a Final Advance in accordance with Section 2.02(d) hereof and Section 3.6(i) of the Intercreditor Agreement, (iii) all other outstanding Advances to be automatically converted into Final Advances for purposes of determining the Applicable Liquidity Rate for interest payable thereon, and (iv) subject to Sections 2.07 and 2.09 hereof, all Advances (including, without limitation, any Provider Advance and Applied Provider Advance), any accrued interest thereon and any other amounts outstanding hereunder to become immediately due and payable to the Liquidity Provider.",
+      "risk_category": "Default conditions",
+      "severity": "Critical",
+      "rationale": "[Page 20, Section 6.01] Combined Equipment Note default (<65% performing) lets Citibank terminate the facility in 5 days and accelerate all advances."
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "clause_id": "R15",
+      "clause_text": "\"Liquidity Event of Default\" means the occurrence of the following: (i) all of the Equipment Notes shall have been either declared to be immediately due and payable or shall not have been paid at their final maturity;",
+      "risk_category": "Default conditions",
+      "severity": "Critical",
+      "rationale": "[Page 3-4, Section 1.01] Defines severe systemic default triggers—Northwest Airlines bankruptcy or full acceleration/nonpayment of the underlying Equipment Notes."
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "clause_id": "R16",
+      "clause_text": "the Liquidity Provider may assign and pledge all or any portion of the Advances owing to it to any Federal Reserve Bank or the United States Treasury as collateral security pursuant to Regulation A of the Board of Governors of the Federal Reserve System",
+      "risk_category": "Collateral",
+      "severity": "Low",
+      "rationale": "[Page 24, Section 7.08(c)] Routine lender right to pledge funded advances to a Federal Reserve Bank without impairing borrower payment discharges."
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "clause_id": "R17",
+      "clause_text": "The Borrower agrees to pay, or cause to be paid (A) on the Effective Date and on such later date or dates on which the Liquidity Provider shall make demand, all reasonable out-of-pocket costs and expenses (including, without limitation, the reasonable fees and expenses of outside counsel for the Liquidity Provider) of the Liquidity Provider in connection with the preparation, negotiation, execution, delivery, filing and recording of this Agreement,",
+      "risk_category": "Financial terms",
+      "severity": "Medium",
+      "rationale": "[Page 22, Section 7.07] Obligates trust funds to reimburse all lender closing, outside counsel, modification, and enforcement expenses on demand."
+    },
+
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "clause_id": "R01",
+      "clause_text": "\"Applicable Margin\" shall mean as to each LIBO Rate Loan, one and three-fourths percent (1-3/4%).",
+      "risk_category": "Financial terms",
+      "severity": "Medium",
+      "rationale": "[Page 2, Section I.2] Fixes LIBOR loan borrowing margin at 1.75% per annum on the $50M facility."
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "clause_id": "R02",
+      "clause_text": "\"Default Rate\" shall mean a per annum interest rate equal to the Base Rate plus five percent (5%), but in no event exceeding the Highest Lawful Rate.",
+      "risk_category": "Penalties and charges",
+      "severity": "High",
+      "rationale": "[Page 4, Section I.2] Steep +5.0% per annum default surcharge above Prime/Base Rate on past-due principal and interest."
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "clause_id": "R03",
+      "clause_text": "\"Commitment Termination Date\" shall mean the date which is three years following the Closing Date.",
+      "risk_category": "Termination",
+      "severity": "Low",
+      "rationale": "[Page 3, Section I.2] Standard 3-year maturity and commitment expiration date from May 18, 2001."
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "clause_id": "R04",
+      "clause_text": "Accrued and unpaid interest on each outstanding LIBO Rate Loan shall be due and payable on the last day of the Interest Period for such LIBO Rate Loan and, in the case of any Interest Period in excess of three months, on the day of the third calendar month following the commencement of such Interest Period corresponding to the day of the calendar month on which such Interest Period commenced, the payment in each instance to be the amount of interest which has accrued and remains unpaid in respect of the relevant Loan. The Loan Balance, together with all accrued and unpaid interest thereon, shall be due and payable at Final Maturity.",
+      "risk_category": "Repayment",
+      "severity": "Low",
+      "rationale": "[Page 13-14, Section II.4] Standard revolving interest schedule with principal balloon repaid on the 3-year Final Maturity date."
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "clause_id": "R05",
+      "clause_text": "the Borrower shall have the right at any time or from time to time to prepay Loans and to convert Loans of one type or with one Interest Period into Loans of another type or with a different Interest Period; provided, however, that (a) the Borrower shall give the Lender notice of each such prepayment or conversion of all or any portion of a LIBO Rate Loan no less than  two Business Days prior to prepayment or conversion, (b) any LIBO Rate Loan may be prepaid or converted only on the last day of an Interest Period for such Loan, (c) the Borrower shall pay all accrued and unpaid interest on the amounts prepaid or converted, and (d) no such prepayment or conversion shall serve to postpone the repayment when due of any Obligation.",
+      "risk_category": "Repayment",
+      "severity": "Low",
+      "rationale": "[Page 14, Section II.7] Allows penalty-free prepayment (min $100,000), restricting LIBOR prepayments to Interest Period end dates on 2 Business Days' notice."
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "clause_id": "R06",
+      "clause_text": "amount of 0.375% per annum, calculated on the basis of a year of 365 or 366 days, as the case may be, and actual days elapsed (including the first day but excluding the last day), on the average daily amount of the Available Commitment during the preceding quarterly period.",
+      "risk_category": "Penalties and charges",
+      "severity": "Low",
+      "rationale": "[Page 14-15, Section II.8] Market-standard 0.375% annual unused commitment fee billed quarterly."
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "clause_id": "R07",
+      "clause_text": "the Borrower shall pay to the Lender on the Closing Date, in immediately available funds, a facility fee in the amount of $25,000.",
+      "risk_category": "Financial terms",
+      "severity": "Low",
+      "rationale": "[Page 15, Section II.9] Small upfront $25,000 closing facility fee (0.05% of the $50M credit line)."
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "clause_id": "R08",
+      "clause_text": "Create, incur, assume, or suffer to exist any Indebtedness, whether by way of loan or otherwise; provided, however, the foregoing restriction shall not apply to (a) the Obligations, (b) unsecured accounts payable incurred in the ordinary course of business, which are not unpaid in excess of 180 days beyond invoice date or are being contested in good faith and as to which such reserve as is required by GAAP has been made, and (c) Permitted Indebtedness.",
+      "risk_category": "Covenants",
+      "severity": "Medium",
+      "rationale": "[Page 26, Section VI.1] Restricts new debt outside the loan, ordinary trade payables <= 180 days, and Permitted Indebtedness."
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "clause_id": "R09",
+      "clause_text": "VI.2 Liens. Create, incur, assume, or suffer to exist any Lien on any of its Property, whether now owned or hereafter acquired; provided, however, the foregoing restrictions shall not apply to Permitted Liens.",
+      "risk_category": "Collateral",
+      "severity": "Medium",
+      "rationale": "[Page 26, Section VI.2] Negative pledge barring borrower from encumbering its assets beyond narrow Permitted Liens despite this facility being unsecured."
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "clause_id": "R10",
+      "clause_text": "VI.3 Changes in Corporate Structure. Enter into any transaction of consolidation, merger, or amalgamation in which Borrower is not the surviving entity; liquidate, wind up, or dissolve (or suffer any liquidation or dissolution).",
+      "risk_category": "Covenants",
+      "severity": "High",
+      "rationale": "[Page 26, Section VI.3] Bars mergers where borrower does not survive or any corporate liquidation/dissolution."
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "clause_id": "R11",
+      "clause_text": "VI.9 EBIT to Interest Expense. Permit the ratio of EBIT to Interest Expense, at the close of any fiscal quarter, beginning with the March 31, 2001 Financial Statements for the previous four quarters to be less than 2.50 to 1.00. This ratio shall be calculated on a rolling four quarter basis.",
+      "risk_category": "Financial terms",
+      "severity": "High",
+      "rationale": "[Page 28, Section VI.9] Enforces a minimum 2.50x rolling 4-quarter EBIT-to-interest coverage ratio alongside the 2.75x/3.00x Debt/EBITDA and $145M+ Net Worth covenants."
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "clause_id": "R12",
+      "clause_text": "(a) default shall be made in the payment when due of any installment of principal or interest under this Agreement or the Note or in the payment when due of any fee or other sum payable under any Loan Document and such default as to interest or fees only shall have continued for three days after notice has been given by Lender to Borrower;",
+      "risk_category": "Default conditions",
+      "severity": "High",
+      "rationale": "[Page 29, Section VII.1(a)] Zero grace period for principal due and only 3 days after notice to cure missed interest or fee payments."
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "clause_id": "R13",
+      "clause_text": "default shall be made by the Borrower (as principal or guarantor or other surety) in the payment or performance of any bond, debenture, note, or other Indebtedness or under any credit agreement, loan agreement, indenture, promissory note, or similar agreement or instrument executed in connection with any of the foregoing, and such default shall remain unremedied for in excess of the period of grace, if any, with respect thereto;",
+      "risk_category": "Default conditions",
+      "severity": "Critical",
+      "rationale": "[Page 29, Section VII.1(d)] Cross-default with no dollar threshold—any uncured default under any other borrower debt or guaranty triggers default here."
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "clause_id": "R14",
+      "clause_text": "(l) any change in two-thirds (2/3) of the Senior Management without the prior written consent of the Lender and if Lender does not consent, the Borrower shall have 180 days from written notice by the Lender of its lack of consent to elect new Senior Management acceptable to the Lender.",
+      "risk_category": "Default conditions",
+      "severity": "High",
+      "rationale": "[Page 30, Section VII.1(l)] Turnover of 2/3 of Senior Management without lender consent causes default unless lender approves replacements within 180 days."
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "clause_id": "R15",
+      "clause_text": "Upon the occurrence of an Event of Default specified in Sections 7.1(f) or 7.1(g), immediately and without notice, (i) all Obligations shall automatically become immediately due and payable, without presentment, demand, protest, notice of protest, default, or dishonor, notice of intent to accelerate maturity, notice of acceleration of maturity, or other notice of any kind, except as may be provided to the contrary elsewhere herein, all of which are hereby expressly waived by the Borrower; (ii) the Commitment shall immediately cease and terminate unless and until reinstated by the Lender in writing; and (iii) the Lender is hereby authorized at any time and from time to time, without notice to the Borrower (any such notice being expressly waived by the Borrower), to set-off and apply any and all deposits",
+      "risk_category": "Termination",
+      "severity": "Critical",
+      "rationale": "[Page 31, Section VII.2(a)] Upon insolvency defaults, automatically terminates the $50M commitment, accelerates all debt, and authorizes summary bank deposit setoff."
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "clause_id": "R16",
+      "clause_text": "forfeiture or transfer of any material Property of the Borrower subject to a Lien in favor of the Lender without (i) satisfaction or provision for satisfaction of such Lien, or (ii) such forfeiture or transfer of such Property being expressly made subject to such Lien;",
+      "risk_category": "Collateral",
+      "severity": "Medium",
+      "rationale": "[Page 30, Section VII.1(i)] Defaults borrower upon unauthorized transfer or forfeiture of any material liened property."
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "clause_id": "R17",
+      "clause_text": "Declare, pay, or make, whether in cash or Property of the Borrower, any dividend or distribution on, or purchase, redeem, or otherwise acquire for value, any share of any class of its capital stock at any time that a Default or Event of Default exists;",
+      "risk_category": "Covenants",
+      "severity": "Medium",
+      "rationale": "[Page 26, Section VI.4] Blocks cash dividends or share buybacks whenever a Default or Event of Default exists."
+    },
+
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "clause_id": "R01",
+      "clause_text": "\"Revolving Credit Committed Amount\" shall mean $30,000,000.",
+      "risk_category": "Financial terms",
+      "severity": "Low",
+      "rationale": "[Annex A, Page -vii-] Sets the maximum revolving credit limit at $30,000,000."
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "clause_id": "R02",
+      "clause_text": "\"Revolving Credit Maturity Date\" shall mean the earlier to occur of (x) termination of the commitment under either of the Existing Revolvers or (y) February 15, 2000.",
+      "risk_category": "Termination",
+      "severity": "High",
+      "rationale": "[Annex A, Page -vii-] Very short ~6-week maturity expiring February 15, 2000, or even sooner if either existing revolving facility terminates."
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "clause_id": "R03",
+      "clause_text": "To the extent not due and payable earlier, the Revolving Credit Loans shall be due and payable on the Revolving Credit Maturity Date and, to the extent that the aggregate Revolving Credit Loans at any time outstanding is in excess of the Revolving Credit Committed Amount at such time (whether as a result of the reduction of the Revolving Credit Committed Amount or otherwise), a portion of the Revolving Credit Loans in an amount equal to such excess shall be immediately due and payable.",
+      "risk_category": "Repayment",
+      "severity": "Medium",
+      "rationale": "[Page 2, Section 2.01(d)] Requires full repayment at the short maturity date and immediate repayment of any balance exceeding the committed limit."
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "clause_id": "R04",
+      "clause_text": "The unpaid principal amount of the Loans shall bear interest for each day until due at a rate per annum (computed on the basis of a year of 360 days and actual days elapsed) for each day equal to the Prime Rate for such day.",
+      "risk_category": "Financial terms",
+      "severity": "Low",
+      "rationale": "[Page 3, Section 2.03] Floating interest at Mellon Bank's flat Prime Rate with no added spread, calculated on a 360-day year."
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "clause_id": "R05",
+      "clause_text": "The Borrower shall have the right at its option at any time and from time to time to prepay the Loans in whole or part without premium or penalty. Any such prepayment shall be made in accordance with Section 2.04 hereof.",
+      "risk_category": "Repayment",
+      "severity": "Low",
+      "rationale": "[Page 3, Section 2.05] Borrower-favorable term allowing voluntary prepayment anytime in full or part with zero penalty upon 1 Business Day notice."
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "clause_id": "R06",
+      "clause_text": "Interest shall be due and payable on the first (1st) Business Day of each calendar month. After maturity (by acceleration or otherwise), interest shall be due and payable on demand.",
+      "risk_category": "Repayment",
+      "severity": "Low",
+      "rationale": "[Page 3, Section 2.06] Standard monthly interest schedule payable on the 1st Business Day of each month."
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "clause_id": "R07",
+      "clause_text": "after there shall have become due (by acceleration or otherwise) principal, interest, fees, indemnity, expenses or any other amounts due from the Borrower hereunder or under any other Loan Document, such amounts shall bear interest for each day until paid (before and after judgment), payable on demand, at a rate per annum (in each case based on a year of 360 days and actual days elapsed) which for each day shall be equal to two percent (2%) above the then-current Prime Rate.",
+      "risk_category": "Penalties and charges",
+      "severity": "High",
+      "rationale": "[Page 3, Section 2.07(b)] Charges overdue sums at Prime + 2% and compounds accrued overdue interest daily on a day-by-day basis."
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "clause_id": "R08",
+      "clause_text": "The obligations of the Guarantor hereunder constitute an agreement of suretyship as well as of guaranty, are a guarantee of payment and performance and not merely of collectability, and are in no way conditioned upon any attempt to collect from or proceed against the Borrower or any other Person or any other event or circumstance.",
+      "risk_category": "Collateral",
+      "severity": "High",
+      "rationale": "[Page 6, Section 3.01] Binds Black Box Corporation as unconditional payment guarantor and surety, allowing direct collection without pursuing borrower first."
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "clause_id": "R09",
+      "clause_text": "The Borrower shall have paid all out-of-pocket costs and expenses incurred by the Lender in connection with the preparation, execution and delivery of this Agreement and the other Loan Documents and in connection with the transactions contemplated hereby and thereby, including without limitation attorney's fees and costs, lien search fees, filing fees and appraisal costs.",
+      "risk_category": "Penalties and charges",
+      "severity": "Low",
+      "rationale": "[Page 17, Section 5.01(d)] Standard borrower reimbursement of lender legal, filing, lien-search, and appraisal closing expenses."
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "clause_id": "R10",
+      "clause_text": "The Loan Parties shall have executed and delivered to the Lender an engagement agreement, in form and substance acceptable to the Lender, pursuant to which the Lender shall be granted the exclusive authority to furnish senior credit facilities in the aggregate principal amount of not less than $110,000,000 to the Loan Parties on either a fully underwritten basis or a best efforts syndication basis.",
+      "risk_category": "Covenants",
+      "severity": "High",
+      "rationale": "[Page 17, Section 5.01(e)] Ties this bridge facility to an exclusive mandate granting Mellon Bank authority to arrange >= $110M in permanent senior facilities."
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "clause_id": "R11",
+      "clause_text": "6.01. Notice of Events of Default or Potential Default . Promptly after a Responsible Officer's knowledge of any Event of Default or Potential Default, a Loan Party shall give the Lender notice thereof, together with a written statement of a Responsible Officer of such Loan Party setting forth the details thereof and any action with respect thereto taken or proposed to be taken by such Loan Party.",
+      "risk_category": "Covenants",
+      "severity": "Low",
+      "rationale": "[Page 18, Section 6.01] Routine administrative obligation to notify lender promptly if an Event of Default or Potential Default arises."
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "clause_id": "R12",
+      "clause_text": "(a) Any Loan Party shall fail to pay when due principal of or interest on any Loan, any fees, indemnity or expenses, or any other amount due hereunder or under any other Loan Document.",
+      "risk_category": "Default conditions",
+      "severity": "Critical",
+      "rationale": "[Page 18, Section 7.01(a)] Zero-day payment grace period: failing to pay principal, interest, fees, or expenses exactly on due date triggers immediate default."
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "clause_id": "R13",
+      "clause_text": "(e) Any Loan Party or any Subsidiary of any Loan Party shall default beyond any applicable cure period in the payment of principal or interest on any obligation for borrowed money in excess of $500,000 or in the performance of any provision contained in any instrument under which any such obligation for borrowed money is created or secured (including the breach of any covenant thereunder) if an effect of such default is to cause, or permit any Person to cause such obligation to become due prior to its stated maturity,",
+      "risk_category": "Default conditions",
+      "severity": "High",
+      "rationale": "[Page 19, Section 7.01(e)] Cross-defaults this loan if borrower, guarantor, or any subsidiary suffers an uncured acceleration-eligible default on > $500,000 debt."
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "clause_id": "R14",
+      "clause_text": "(l) Any provision of Article III hereof shall cease to be in full force and effect, or the Guarantor shall deny or disaffirm its obligations thereunder. (m) The Guarantor shall cease to own, directly or indirectly, one hundred percent (100%) of the outstanding capital stock of the Borrower. (n) A Change of Control Event shall occur.",
+      "risk_category": "Default conditions",
+      "severity": "High",
+      "rationale": "[Page 20, Section 7.01(l)-(n)] Any parent ownership drop below 100%, change of control, or disaffirmation of the parent guaranty triggers Event of Default."
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "clause_id": "R15",
+      "clause_text": "(i) Declare the Revolving Credit Commitment terminated, whereupon the Revolving Credit Commitment will terminate and any fees hereunder shall be immediately due and payable without presentment, demand, protest or further notice of any kind, all of which are hereby waived, and an action therefor shall immediately accrue.",
+      "risk_category": "Termination",
+      "severity": "Critical",
+      "rationale": "[Page 20-21, Section 7.02(a)(i)] Terminates the $30M revolving commitment immediately upon default and waives demand, presentment, and notice."
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "clause_id": "R16",
+      "clause_text": "If an Event of Default specified in subsection (i) or (j) of Section 7.01 hereof shall occur or exist, then, in addition to all other rights and remedies which the Lender may have hereunder or under any other Loan Document, at law, in equity or otherwise, the Revolving Credit Commitment shall automatically terminate and the Lender shall be under no further obligation to make Revolving Credit Loans, and the unpaid principal amount of the Revolving Credit Loans, interest accrued thereon and all other Obligations shall become immediately due and payable without presentment, demand, protest or notice of any kind,",
+      "risk_category": "Termination",
+      "severity": "Critical",
+      "rationale": "[Page 21, Section 7.02(b)] Automatic commitment termination and debt acceleration with no notice required upon bankruptcy or insolvency default."
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "clause_id": "R17",
+      "clause_text": "The Borrower shall use the proceeds of the Revolving Credit Loans for general corporate purposes and shall not use any such proceeds directly or indirectly for any unlawful purpose, in any manner inconsistent with Section 4.10 hereof, or inconsistent with any other provision of any Loan Document.",
+      "risk_category": "Covenants",
+      "severity": "Low",
+      "rationale": "[Page 18, Section 6.02] Routine use-of-proceeds restriction limiting draws to lawful general corporate purposes."
+    }
+  ]
+}

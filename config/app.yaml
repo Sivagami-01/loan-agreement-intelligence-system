@@ -1,0 +1,20 @@
+# Stage 7a-2a / 7a-2b / 7a-2d Application Settings, Task Budgets, and Storage
+# Google Gemini API free-tier RPD quotas reset at midnight Pacific time:
+# Source: https://ai.google.dev/gemini-api/docs/rate-limits
+daily_soft_limit: 60
+quota_timezone: "America/Los_Angeles"
+results_dir_name: "results"
+allowed_types:
+  - "pdf"
+  - "html"
+  - "txt"
+
+task_budgets:
+  summary: 10
+  keyinfo: 20
+  risk: 15
+  chat: 6
+
+notices:
+  task_output: "Automated output. Check each quote against the cited page. Information, not legal or financial advice."
+  quota_blocked: "Today's free AI allowance is used up. Try again tomorrow or use a cached document."

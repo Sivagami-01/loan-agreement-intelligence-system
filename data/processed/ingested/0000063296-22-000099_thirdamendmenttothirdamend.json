@@ -1,0 +1,256 @@
+{
+  "source": "C:\\finalYear\\data\\raw\\02_sec_edgar_loans\\0000063296-22-000099_thirdamendmenttothirdamend.htm",
+  "filename": "0000063296-22-000099_thirdamendmenttothirdamend.htm",
+  "format": "html",
+  "total_pages": 4,
+  "processing_time_seconds": 0.098,
+  "ocr_pages_count": 0,
+  "tables_count": 5,
+  "pages": [
+    {
+      "page": 1,
+      "text": "EX-10.20\n\n2\n\nthirdamendmenttothirdamend.htm\n\nEX-10.20 THIRD AMENDMENT TO THE THIRD AMENDED AND RESTATED LOAN AGREEMENT\n\nDocument\nEXHIBIT 10.20\nTHIRD AMENDMENT TO\nTHIRD AMENDED AND RESTATED LOAN AGREEMENT\nThis Third Amendment to Third Amended and Restated Loan Agreement, dated the 1\nst\n day of July, 2022, by and among Matthews International Corporation, a Pennsylvania corporation (the \"US Borrower\"), Schawk UK Limited, a limited liability company incorporated under the laws of England and Wales (the \"UK Borrower\"), Matthews Europe GmbH, a limited liability company organized under the laws of Germany (the \"German Borrower\"), and SGK Netherlands B.V (f/k/a MATW Netherlands Holding B.V.), a private company with limited liability (\nbesloten vennootschap met beperkte aansprakelijkheid\n) duly incorporated and existing under the laws of The Netherlands (the \"Dutch Borrower\") (the UK Borrower, the German Borrower and the Dutch Borrower are each a \"Foreign Borrower\" and collectively, the \"Foreign Borrowers\") (the US Borrower and the Foreign Borrowers are each a \"Borrower\" and, collectively, the \"Borrowers\"), the Banks (as defined in the Loan Agreement (as hereinafter defined)), Citizens Bank, N.A., a national banking association, in its capacity as administrative agent for the Banks (in such capacity, the \"Agent\"), PNC Bank, National Association, a national banking association, Truist Bank, a North Carolina banking corporation, JPMorgan Chase Bank, N.A., a national banking association and Wells Fargo Bank, N.A., a national banking association, each in its capacity as syndication agent for the Banks (in such capacity, individually and collectively, the \"Syndication Agent\") and Bank of America, N.A., a national banking association, in its capacity as a documentation agent for the Banks (in such capacity, the \"Documentation Agent\") (this \"Amendment\").\nW\n\nI\n\nT\n\nN\n\nE\n\nS\n\nS\n\nE\n\nT",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": [
+        {
+          "page": 1,
+          "table_index": 1,
+          "bbox": [],
+          "row_count": 6,
+          "col_count": 2,
+          "columns": [
+            "Issuing Bank",
+            "Specified L/C Sublimit"
+          ],
+          "rows": [
+            [
+              "Issuing Bank",
+              "Specified L/C Sublimit"
+            ],
+            [
+              "Citizens",
+              "$35,000,000.00"
+            ],
+            [
+              "PNC Bank, National Association",
+              "$5,000,000.00"
+            ],
+            [
+              "Truist Bank",
+              "$5,000,000.00"
+            ],
+            [
+              "JPMorgan Chase Bank, N.A.",
+              "$5,000,000.00"
+            ],
+            [
+              "Wells Fargo Bank, N.A.",
+              "$5,000,000.00"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 2,
+          "bbox": [],
+          "row_count": 1,
+          "col_count": 1,
+          "columns": [
+            "Fifth Third Bank, National Association, as a BankBy: /s/ Sam SchuesslerSam SchuesslerAssociate"
+          ],
+          "rows": [
+            [
+              "Fifth Third Bank, National Association, as a BankBy: /s/ Sam SchuesslerSam SchuesslerAssociate"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 3,
+          "bbox": [],
+          "row_count": 1,
+          "col_count": 1,
+          "columns": [
+            "PNC Bank, National Association, as a BankBy: /s/ Scott ColcombeScott ColcombeSenior Vice President"
+          ],
+          "rows": [
+            [
+              "PNC Bank, National Association, as a BankBy: /s/ Scott ColcombeScott ColcombeSenior Vice President"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 4,
+          "bbox": [],
+          "row_count": 1,
+          "col_count": 1,
+          "columns": [
+            "Bank of America, N.A., as a BankBy: /s/ Brandon BouchardBrandon BouchardVice President"
+          ],
+          "rows": [
+            [
+              "Bank of America, N.A., as a BankBy: /s/ Brandon BouchardBrandon BouchardVice President"
+            ]
+          ]
+        },
+        {
+          "page": 1,
+          "table_index": 5,
+          "bbox": [],
+          "row_count": 1,
+          "col_count": 1,
+          "columns": [
+            "Northwest Bank, as a BankBy: /s/ Stephen J. OrbanStephen J. OrbanSenior Vice President"
+          ],
+          "rows": [
+            [
+              "Northwest Bank, as a BankBy: /s/ Stephen J. OrbanStephen J. OrbanSenior Vice President"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "text": "H\n:\nWHEREAS, pursuant to that certain Third Amended and Restated Loan Agreement, dated March 27, 2020, by and among the US Borrower, the Banks party thereto, the Agent, the Syndication Agent and the Documentation Agent, as amended by that certain:  (i) First Amendment to Third Amended and Restated Loan Agreement, dated March 30, 2021, by and among the Borrowers, the Banks party thereto, the Agent, the Syndication Agent and the Documentation Agent; and (ii) Second Amendment to Third Amended and Restated Loan Agreement, dated December 27, 2021, by and among the Borrowers, the Banks party thereto, the Agent, the Syndication Agent and the Documentation Agent (as may be further amended, modified, supplemented or restated from time to time, the \"Loan Agreement\"), the Banks agreed, among other things, to extend a revolving credit facility to the Borrower in an aggregate principal amount not to exceed Seven Hundred Fifty Million and 00/100 Dollars ($750,000,000.00); and\nWHEREAS, the Borrowers desire to amend certain provisions of the Loan Agreement and the Agent shall permit such amendments pursuant to the terms and conditions set forth herein.\nNOW, THEREFORE, in consideration of the premises contained herein and other valuable consideration, the receipt and sufficiency of which are hereby acknowledged, and intending to be legally bound hereby, the parties hereto agree as follows:\n1.\nAll capitalized terms used herein which are defined in the Loan Agreement shall have the same meanings herein as in the Loan Agreement unless the context clearly indicates otherwise.\n267593141\n2.\nSection 1.01 of the Loan Agreement is hereby amended by inserting therein as new defined terms in their proper alphabetical order, the following:\n\"Specified L/C Sublimit\" means, with respect to any Issuing Bank, the amount set forth opposite its name in the table below under the heading \"Specified L/C Sublimit\":\nIssuing Bank\nSpecified L/C Sublimit\nCitizens\n$35,000,000.00\nPNC Bank, National Association\n$5,000,000.00\nTruist Bank\n$5,000,000.00\nJPMorgan Chase Bank, N.A.\n$5,000,000.00\nWells Fargo Bank, N.A.\n$5,000,000.00\n\"Third Amendment Closing Date\" means July 1, 2022.\n3.\nSection 1.01 of the Loan Agreement is hereby amended to delete therefrom the following defined term and insert in its stead the following:\n\"Issuing Bank\" shall mean Citizens, PNC Bank, National Association, a national banking association, Truist Bank, a North Carolina banking corporation, JPMorgan Chase Bank, N.A., a national banking association, Wells Fargo Bank, N.A., in each case, in its individual capacity as issuer of Letters of Credit hereunder, and any other Bank that Borrower, the Agent and such other Bank may agree from time to time may issue Letters of Credit hereunder.\n4.\nThe first complete paragraph of Section 2.06 of the Loan Agreement is hereby deleted in its entirety and in its stead is inserted the following:\n2.06    \nAgreement to Issuer Letters of Credit\n.\nFrom time to time during the period from the Third Amendment Closing Date to the fifteenth (15\nth\n) day preceding the Expiry Date, subject to the further terms and conditions hereof, including those required in connection with the making of Revolving Credit Loans, the applicable Issuing Bank(s) shall issue Standby Letters of Credit or Commercial Letters of Credit (collectively the \"Letters of Credit\") for the account of the Borrower in a Dollar Equivalent amount not to exceed Fifty-Five Million and 00/100 Dollars ($55,000,000.00) in the aggregate as a \n- 2 -\n267593141\nsubfacility of the Revolving Credit Facility Commitment; \nprovided\n, \nhowever,\n that the outstanding amount of Letters of Credit of any Issuing Bank shall not exceed its Specified L/C Sublimit; \nprovided",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": []
+    },
+    {
+      "page": 3,
+      "text": "further\n, \nhowever\n, that on any date on which the Borrower requests a Letter of Credit, and after giving effect to the Letter of Credit Face Amount of such Letter of Credit, the sum of (i) the Dollar Equivalent amount of all Revolving Credit Loans outstanding, plus (ii) all Swing Line Loans outstanding, plus (iii) the Dollar Equivalent amount of all Letters of Credit Outstanding shall not exceed the Revolving Credit Facility Commitment.  As of the date hereof, those Letters of Credit set forth on \nSchedule 2.06\n hereof (collectively, the \"Existing Letters of Credit\"), which were issued under the Existing Loan Agreement and are outstanding on the date hereof, will be deemed to be Letters of Credit issued and outstanding hereunder.\n5.\nClause (A)(i) of Section 8.17 of the Loan Agreement is hereby deleted in its entirety and in its stead is inserted:\n(i)    \nPrior Consent of Agent\n.  No transfer may be consummated pursuant to this Section 8.17(A) without the prior written consent of the Agent and the Issuing Banks, which consent of the Agent and the Issuing Banks shall not be unreasonably withheld, delayed or conditioned.\n6.\nSection 9.02 of the Loan Agreement is hereby deleted in its entirety and in its stead is inserted:\n9.02    \nAmendments and Waivers\n.\nExcept as provided for in Section 2.03(d) hereof, no amendment, modification, termination, or waiver of any provision of this Agreement or any Loan Document, nor consent to any variance therefrom, shall be effective unless the same shall be in writing and signed by the Majority Banks and the Borrower and then such waiver or consent shall be effective only in the specific instance and for the specific purpose given; \nprovided\n, \nfurther\n, that no such agreement shall amend, modify, extend or otherwise affect the rights or obligations of the Agent or any Issuing Bank without the prior written consent of the Agent or such Issuing Bank, as the case may be.  Notwithstanding anything contained herein to the contrary, consent of each Bank affected thereby shall be required with respect to (a) any increase in such Bank's Commitments hereunder (other than pursuant to Section 2.21 hereof), (b) the extension of the Expiry Date, the Term Loan Maturity Date, the payment date of interest or principal hereunder, or the payment of commitment or other fees or amounts payable hereunder, (c) any reduction in the rate of interest on the Notes, or in any amount of principal or interest due on any Note, or the payment of commitment or other fees hereunder or any change in the manner of pro rata application of any payments made by the Borrower to the Banks hereunder, (d) any change in any percentage voting requirement, voting rights or the definition of Majority Banks in this Agreement, (e) any release of any Guarantor representing \n- 3 -\n267593141\nmore than fifteen percent (15%) of the fair market value of all the Loan Parties' assets immediately prior to such sale or disposition; provided, that, no Event of Default shall exist immediately prior to and after giving effect to such release from its obligations under the Guaranty Agreement to which it is a party, (f) any amendment to this Section 9.02, 9.11 or Section 7.04 hereof or (g) any amendment to the definitions of \"Impacted Bank\" and \"Defaulting Bank\" herein.  Notice of amendments or consents ratified by the Banks hereunder shall be immediately forwarded by the Agent to all Banks.  Each Bank or other holder of a Note shall be bound by any amendment, waiver or consent obtained as authorized by this Section, regardless of its failure to agree thereto.  In the case of any such waiver or consent relating to any provision of this Agreement, any Event of Default or Potential Default so waived or consented to will be deemed to be cured and not continuing, but no such waiver or consent will extend to any other or subsequent Event of Default or Potential Default or impair any right consequent to any other or subsequent Event of Default or Potential Default or impair any right consequent thereto.  Notwithstanding anything to the contrary herein, no Impacted Bank shall have any right to approve or disapprove any amendment, waiver or consent hereunder, except that (i) the Commitment of such Impacted Bank may not be increased or extended without the consent of such Impacted Bank, (ii) any reduction in the rate of interest on the Notes, or in any amount of principal or interest due on any Note, or the payment of commitment or other fees hereunder or any adverse change in the manner of pro rata application of any payments made by the Borrower to the Banks hereunder shall require the consent of such Impacted Bank and (iii) any amendment, modification, termination or waiver requiring the consent of all Banks or each affected Bank that by its terms affects any Impacted Bank more adversely than other Banks shall require the consent of such Impacted Bank.\n7.\nThe provisions of Sections 2 through 6 of this Amendment shall not become effective until the Agent has received the following, each in form and substance acceptable to the Agent: \n(a)    this Amendment, duly executed by the Borrowers and the Majority Banks;\n(b)    payment of all fees and expenses owed to the Agent and its counsel in connection with this Amendment and the Loan Agreement; and\n(c)     such other documents, deliverables and/or evidence reasonably required by the Agent in connection with the transactions contemplated hereby.\n- 4 -\n267593141\n8.\nThe US Borrower acknowledges and agrees that each and every document, instrument or agreement which secures payment of the US Borrower's Indebtedness under the Loan Agreement including, but not limited to, (i) the Loan Agreement and (ii) the Guaranty Agreements continue to secure prompt payment when due of each Borrower's Indebtedness under the Loan Agreement\n9.\nEach Borrower hereby reconfirms and reaffirms, as of the date hereof, all representations and warranties, agreements and covenants made by it pursuant to the terms and conditions of the Loan Agreement and the other Loan Documents, except as such representations and warranties, agreements and covenants may have heretofore been amended, modified or waived in writing in accordance with the Loan Agreement.\n10.\nEach Borrower hereby represents and warrants to the Agent as of the date hereof that (i) such Borrower has the legal power and authority to execute and deliver this Amendment, (ii) the officers of such Borrower executing this Amendment have been duly authorized to execute and deliver the same and bind such Borrower with respect to the provisions hereof, (iii) the execution and delivery hereof by such Borrower and the performance and observance by such Borrower of the provisions hereof and of the Loan Agreement and all documents executed or to be executed herewith or therewith, do not violate or conflict with the organizational documents of such Borrower or any Law applicable to such Borrower or result in a breach of any provision of or constitute a default which would have a Material Adverse Effect under any other agreement, instrument or document binding upon or enforceable against such Borrower, and (iv) this Amendment, the Loan Agreement and the documents executed or to be executed by such Borrower in connection herewith or therewith constitute valid and binding obligations of such Borrower in every respect, enforceable in accordance with their respective terms.\n11.\nEach Borrower represents and warrants that as of the date hereof, after giving effect to the amendments set forth in this Amendment no Event of Default exists under the Loan Agreement, nor will any occur as a result of the execution and delivery of this Amendment or the performance or observance of any provision hereof.\n12.\nThis Amendment shall not constitute a novation of the Loan Agreement or any of the Loan Documents.  Except as expressly set forth herein, this Amendment (i) shall not by implication or otherwise limit, impair, constitute a waiver of or otherwise affect the rights and remedies of the Banks or the Agent under the Loan Agreement or any other Loan Document, and (ii) shall not alter, modify, amend or in any way affect any of the terms, conditions, obligations, covenants or agreements contained in the Loan Agreement or any other Loan Document.  Except as modified by this Amendment and each Annex (if any) attached hereto, each and every term, condition, obligation, covenant and agreement contained in the Loan Agreement or any other Loan Document is hereby ratified and re-affirmed in all respects and shall continue in full force and effect.  Each Borrower reaffirms its Obligations, including obligations (whether direct, as a guarantor or otherwise), liabilities and indebtedness, under the Loan Documents to which it is party and its grant and the validity of the Liens granted by it in the Collateral under the applicable Loan Documents, and all financing statements and all other recordings and filings previously made, recorded or filed are intended to and do secure all of its Obligations and perfect all Liens granted by it in the Collateral, in each case to the extent provided in such Loan Documents, with all such Liens continuing in full force and effect after giving effect to this Amendment.  This Amendment shall constitute a Loan Document for purposes of the Loan Agreement, and from and after the date hereof, all references to the Loan Agreement in any Loan Document and all references in the Loan Agreement to \"this Agreement\", \"hereunder\", \"hereof\" or words of like import referring to the Loan Agreement shall, unless expressly provided otherwise, refer to the Loan Agreement as amended by this Amendment.  \n- 5 -\n267593141\n13.\nThis Amendment may be executed in any number of counterparts and by the different parties hereto on separate counterparts each of which, when so executed, shall be deemed to be an original, but all such counterparts shall constitute but one and the same instrument.  Delivery of an executed signature page counterpart hereof by telecopy, emailed .pdf or any other electronic means that reproduces an image of the actual executed signature page shall be effective as delivery of a manually executed counterpart hereof. The words “execution,” “signed,” “signature,” “delivery,” and words of like import in or relating to any document to be signed in connection with this Amendment and the transactions contemplated hereby shall be deemed to include electronic signatures, the electronic association of signatures and records on electronic platforms,  deliveries or the keeping of records in electronic form, each of which shall be of the same legal effect, validity or enforceability as a manually executed signature, physical delivery thereof or the use of a paper-based recordkeeping system, as the case may be, to the extent and as provided for in any applicable law, including the Federal Electronic Signatures in Global and National Commerce Act, the New York State Electronic Signatures and Records Act, any other similar state laws based on the Uniform Electronic Transactions Act or the Uniform Commercial Code, each as amended, and the parties hereto hereby waive any objection to the contrary, provided that (x) nothing herein shall require Agent to accept electronic signature counterparts in any form or format and (y) Agent reserves the right to require, at any time and at its sole discretion, the delivery of manually executed counterpart signature pages to this Amendment or any document signed in connection with this Amendment and the parties hereto agree to promptly deliver such manually executed counterpart signature pages.\n14.\nThis Amendment shall be governed by, and shall be construed and enforced in accordance with, the Laws of the Commonwealth of Pennsylvania without regard to any conflict of law principles thereof.  Each Borrower hereby consents to the jurisdiction and venue of the Court of Common Pleas of Allegheny County, Pennsylvania and the United States District Court for the Western District of Pennsylvania with respect to any suit arising out of or mentioning this Amendment.\n[INTENTIONALLY LEFT BLANK]\n- 6 -\n267593141\nIN WITNESS WHEREOF, and intending to be legally bound, the parties hereto, have caused this Amendment to be duly executed, as a document under seal, by their duly authorized officers on the day and year first above written.",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": []
+    },
+    {
+      "page": 4,
+      "text": "BORROWERS:\n    Matthews International Corporation\n    By: /s/ Richard Beard \n\n(SEAL)\n    Name: Richard Beard\n\n    Title: SVP, Tax and Treasurer\n\nSGK Netherlands B.V.\n    By: /s/ Joseph C. Bartolacci\n\n(SEAL)\n    Name: Joseph C. Bartolacci\n\n    Title: Director\n\n    By: /s/ A.R. Brandenburg van den Gronden\n\n(SEAL)\n    Name: A.R. Brandenburg van den Gronden\n\n    Title: Director\n\nMatthews Europe GmbH\n    By: /s/ Richard Beard \n\n(SEAL)\n    Name: Richard Beard\n\n    Title: Prokurist\n\nSchawk UK Ltd.\n\n    By: /s/ Steven F. Nicola\n\n(SEAL)\n    Name: Steven F. Nicola\n\n    Title: Director\n\n [\nBank Signature Pages Follow\n]\n267593141\n[SIGNATURE PAGE TO THIRD AMENDMENT TO\nTHIRD AMENDED AND RESTATED LOAN AGREEMENT]\n    Citizens Bank, N.A., as Agent and\nfor itself as a Bank\nBy:/s/ Carl S. Tabacjar\n\nName:\n\nCarl S. Tabacjar\nTitle:     Senior Vice President \n267593141\n[SIGNATURE PAGE TO THIRD AMENDMENT TO\nTHIRD AMENDED AND RESTATED LOAN AGREEMENT]\n    Bank of the West, as a Bank\nBy:/s/ Philip R. Medsger\n\nName: Philip R. Medsger\nTitle: Director\n267593141\n[SIGNATURE PAGE TO THIRD AMENDMENT TO\nTHIRD AMENDED AND RESTATED LOAN AGREEMENT]\nJPMorgan Chase Bank, N.A., as a Bank\nBy: /s/ Bam Fakorede\n\nName: Bam Fakorede\nTitle: Vice President    \n267593141\n[SIGNATURE PAGE TO THIRD AMENDMENT TO\nTHIRD AMENDED AND RESTATED LOAN AGREEMENT]\nHSBC Bank USA, National Association, as a Bank\nBy: /s/ Kyle Patterson\n\nName: Kyle Patterson\nTitle: Senior Vice President\n267593141\n[SIGNATURE PAGE TO THIRD AMENDMENT TO\nTHIRD AMENDED AND RESTATED LOAN AGREEMENT]\nTD Bank, N.A., as a Bank\nBy: /s/ Matthew Bacigalupo\n\nName: Matthew Bacigalupo\nTitle: Senior Vice President\n267593141\n[SIGNATURE PAGE TO THIRD AMENDMENT TO\nTHIRD AMENDED AND RESTATED LOAN AGREEMENT]\nFirst National Bank of Pennsylvania, as a Bank\nBy: /s/ Michael D. Pearce\n\nName: Michael D. Pearce\nTitle: Vice President\n267593141\n[SIGNATURE PAGE TO THIRD AMENDMENT TO\nTHIRD AMENDED AND RESTATED LOAN AGREEMENT]\nTruist Bank, as a Bank\nBy: /s/ David Miller\n\nName: David Miller\nTitle: Director\n267593141\n[SIGNATURE PAGE TO THIRD AMENDMENT TO\nTHIRD AMENDED AND RESTATED LOAN AGREEMENT]\nWells Fargo Bank, N.A., as a Bank\nBy: /s/ Kevin Valenta\n\nName: Kevin Valenta\nTitle: Director\n267593141\n[SIGNATURE PAGE TO THIRD AMENDMENT TO\nTHIRD AMENDED AND RESTATED LOAN AGREEMENT]\nFifth Third Bank, National Association, as a Bank\nBy: /s/ Sam Schuessler\n\n    Sam Schuessler\n    Associate\n267593141\n[SIGNATURE PAGE TO THIRD AMENDMENT TO\nTHIRD AMENDED AND RESTATED LOAN AGREEMENT]\nPNC Bank, National Association, as a Bank\nBy: /s/ Scott Colcombe\n\n    Scott Colcombe\n    Senior Vice President\n\n267593141\n[SIGNATURE PAGE TO THIRD AMENDMENT TO\nTHIRD AMENDED AND RESTATED LOAN AGREEMENT]\nBank of America, N.A., as a Bank\nBy: /s/ Brandon Bouchard\n\n    Brandon Bouchard\n    Vice President\n267593141\n[SIGNATURE PAGE TO THIRD AMENDMENT TO\nTHIRD AMENDED AND RESTATED LOAN AGREEMENT]\nNorthwest Bank, as a Bank\nBy: /s/ Stephen J. Orban\n\n    Stephen J. Orban\n    Senior Vice President\n267593141",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": []
+    }
+  ],
+  "tables": [
+    {
+      "page": 1,
+      "table_index": 1,
+      "bbox": [],
+      "row_count": 6,
+      "col_count": 2,
+      "columns": [
+        "Issuing Bank",
+        "Specified L/C Sublimit"
+      ],
+      "rows": [
+        [
+          "Issuing Bank",
+          "Specified L/C Sublimit"
+        ],
+        [
+          "Citizens",
+          "$35,000,000.00"
+        ],
+        [
+          "PNC Bank, National Association",
+          "$5,000,000.00"
+        ],
+        [
+          "Truist Bank",
+          "$5,000,000.00"
+        ],
+        [
+          "JPMorgan Chase Bank, N.A.",
+          "$5,000,000.00"
+        ],
+        [
+          "Wells Fargo Bank, N.A.",
+          "$5,000,000.00"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 2,
+      "bbox": [],
+      "row_count": 1,
+      "col_count": 1,
+      "columns": [
+        "Fifth Third Bank, National Association, as a BankBy: /s/ Sam SchuesslerSam SchuesslerAssociate"
+      ],
+      "rows": [
+        [
+          "Fifth Third Bank, National Association, as a BankBy: /s/ Sam SchuesslerSam SchuesslerAssociate"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 3,
+      "bbox": [],
+      "row_count": 1,
+      "col_count": 1,
+      "columns": [
+        "PNC Bank, National Association, as a BankBy: /s/ Scott ColcombeScott ColcombeSenior Vice President"
+      ],
+      "rows": [
+        [
+          "PNC Bank, National Association, as a BankBy: /s/ Scott ColcombeScott ColcombeSenior Vice President"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 4,
+      "bbox": [],
+      "row_count": 1,
+      "col_count": 1,
+      "columns": [
+        "Bank of America, N.A., as a BankBy: /s/ Brandon BouchardBrandon BouchardVice President"
+      ],
+      "rows": [
+        [
+          "Bank of America, N.A., as a BankBy: /s/ Brandon BouchardBrandon BouchardVice President"
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "table_index": 5,
+      "bbox": [],
+      "row_count": 1,
+      "col_count": 1,
+      "columns": [
+        "Northwest Bank, as a BankBy: /s/ Stephen J. OrbanStephen J. OrbanSenior Vice President"
+      ],
+      "rows": [
+        [
+          "Northwest Bank, as a BankBy: /s/ Stephen J. OrbanStephen J. OrbanSenior Vice President"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "key_info_llm.csv": [
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "field_name": "document_title",
+      "llm_value": "Revolving Credit Agreement (1999-2C)",
+      "llm_evidence_quote": "REVOLVING CREDIT AGREEMENT",
+      "llm_location": "Cover; Body Page 1 (<PAGE> #3)",
+      "llm_verified": true,
+      "note": "EETC Liquidity Facility (1999-2C) relating to Northwest Airlines Pass Through Trust 1999-2C.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "field_name": "agreement_date",
+      "llm_value": "June 25, 1999",
+      "llm_evidence_quote": "This REVOLVING CREDIT AGREEMENT dated as of June 25, 1999, between",
+      "llm_location": "Page 1 (<PAGE> #3), Opening paragraph",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "field_name": "borrowers",
+      "llm_value": "State Street Bank and Trust Company, solely as Subordination Agent under the Intercreditor Agreement",
+      "llm_evidence_quote": "STATE STREET BANK AND TRUST COMPANY, a Massachusetts trust company, not in its individual capacity but solely as Subordination Agent under the Intercreditor Agreement (each as defined below), (the \"Borrower\"),",
+      "llm_location": "Page 1 (<PAGE> #3), Opening paragraph",
+      "llm_verified": true,
+      "note": "Borrower has no personal liability in its individual capacity (Section 2.09).",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "field_name": "lenders",
+      "llm_value": "Citibank, N.A.",
+      "llm_evidence_quote": "CITIBANK, N.A, a national banking association organized under the laws of the United States (the \"Liquidity Provider\").",
+      "llm_location": "Page 1 (<PAGE> #3), Opening paragraph",
+      "llm_verified": true,
+      "note": "Defined as Liquidity Provider; cover page spells 'CITIBANK, N.A.'.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "field_name": "agents",
+      "llm_value": "NOT_PRESENT",
+      "llm_evidence_quote": "",
+      "llm_location": "",
+      "llm_verified": true,
+      "note": "No administrative, collateral, or paying agent is appointed by this agreement; State Street Bank and Trust Company enters as Borrower in its capacity as Subordination Agent under the separate Intercreditor Agreement.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "field_name": "loan_or_commitment_amount",
+      "llm_value": "Maximum Commitment on any day is the lesser of $12,720,316.32 and the Required Amount (3 semiannual Class C interest payments)",
+      "llm_evidence_quote": "\"Maximum Commitment\" means, for any day, the lesser of (x) $12,720,316.32 and (y) the Required Amount on such day.",
+      "llm_location": "Page 5 (<PAGE> #8), Section 1.01",
+      "llm_verified": true,
+      "note": "Maximum Commitment automatically reduces when Required Amount drops following Class C Pool Balance reductions (Section 2.04(a)).",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "field_name": "interest_rate",
+      "llm_value": "LIBOR Advances: LIBOR Rate + Applicable Margin (2.0% on Unpaid Advance or Applied Provider Advance); Base Rate Advances: Base Rate (NY Fed funds rate + 0.25%) + Applicable Margin (2.0%); Unapplied Provider Advances: Investment Earnings on Class C Cash Collateral Account",
+      "llm_evidence_quote": "Each LIBOR Advance shall bear interest during each Interest Period at a rate per annum equal to the LIBOR Rate for such Interest Period plus the Applicable Margin for such LIBOR Advance,",
+      "llm_location": "Page 16 (<PAGE> #19), Section 3.07(c)-(e); Page 1-4, Section 1.01",
+      "llm_verified": true,
+      "note": "Section 1.01 defines Applicable Margin as 2.0% for Unpaid Advances or Applied Provider Advances, and Base Rate as Fed funds + 0.25%.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "field_name": "repayment_terms",
+      "llm_value": "Borrower agrees to repay each Interest Advance and Final Advance with interest on the date made (payable solely from Intercreditor Agreement distributions and Available Funds under Section 2.09); LIBOR interest due end of Interest Period, Base Rate/Unapplied Provider interest due on Regular Distribution Dates",
+      "llm_evidence_quote": "the Borrower hereby agrees, without notice of an Advance or demand for repayment from the Liquidity Provider (which notice and demand are hereby waived by the Borrower), to pay, or to cause to be paid, to the Liquidity Provider on each date on which the Liquidity Provider shall make an Interest Advance or the Final Advance, an amount equal to (a) the amount of such Advance (any such Advance, until repaid, is referred to herein as an \"Unpaid Advance\"), plus (b) interest on the amount of each such Unpaid Advance as provided in Section 3.07 hereof;",
+      "llm_location": "Page 10 (<PAGE> #12), Section 2.05; Pages 10-12 (<PAGE> #12-14), Sections 2.06-2.09",
+      "llm_verified": true,
+      "note": "Section 2.06 covers Provider Advances and replenishments from the Class C Cash Collateral Account.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "field_name": "maturity_termination_date",
+      "llm_value": "Initial Expiry Date is June 14, 2000 (extendable under Section 2.10); terminates earlier on the Termination Date (payment in full of Class C Certificates, Replacement Liquidity Facility, 5th Business Day after Section 6.01 Termination Notice, or when no Advance can be available)",
+      "llm_evidence_quote": "\"Expiry Date\" means June 14, 2000, initially, or any date to which the Expiry Date is extended pursuant to Section 2.10.",
+      "llm_location": "Page 3 (<PAGE> #6), Section 1.01; Page 6 (<PAGE> #9), Termination Date",
+      "llm_verified": true,
+      "note": "Termination Date is defined in Section 1.01 on Page 6.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "field_name": "fees",
+      "llm_value": "$226,880.91 non-refundable effective-date fee (in aggregate across 1999-2A/2B/2C agreements), plus 0.35% per annum commitment fee on average Maximum Available Commitment and 0.35% per annum on unpaid unapplied Downgrade/Non-Extension Advances (payable on Regular Distribution Dates), plus Liquidity Provider closing/enforcement costs and counsel fees",
+      "llm_evidence_quote": "Section 2.03 Fees. (a) The Borrower agrees to pay to the Liquidity Provider on the effective date a non-refundable fee equal to $226,880.91 in aggregate with respect to this Agreement, the Revolving Credit Agreement (1999-2B) dated as of June 25, 1999, by and between State Street Bank and Trust Company and Citibank, N.A., and the Revolving Credit Agreement (1999-2C) dated as of June 25, 1999, by and between State Street Bank and Trust Company and Citibank, N.A. (b) The Borrower shall pay, or shall cause to be paid, to the Liquidity Provider, a fee equal to 0.35% per annum on the average Maximum Available Commitment from the Effective Date to the earlier of the date on which a Downgrade Advance or Non-Extension Advance is made and the date on which the Maximum Commitment terminates.",
+      "llm_location": "Pages 8-9 (<PAGE> #12), Section 2.03; Page 23 (<PAGE> #26), Section 7.07",
+      "llm_verified": true,
+      "note": "Source text Section 2.03(a) contains a typographical repetition of 'Revolving Credit Agreement (1999-2C)'; copied verbatim.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "field_name": "late_payment_or_default_interest",
+      "llm_value": "Past-due amounts other than Advances (fees, commissions, expenses, overdue interest) bear Base Rate + 2.0% per annum until paid; Unpaid Advances and Applied Provider Advances bear LIBOR Rate or Base Rate + 2.0% Applicable Margin",
+      "llm_evidence_quote": "(f) Each amount not paid when due hereunder (whether fees, commissions, expenses or other amounts or, to the extent permitted by applicable law, installments of interest on Advances but excluding Advances) shall bear interest at a rate per annum equal to the Base Rate plus 2.0% until paid.",
+      "llm_location": "Page 16 (<PAGE> #19), Section 3.07(f); Page 1 (<PAGE> #4), Applicable Margin",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "field_name": "prepayment_terms",
+      "llm_value": "NOT_PRESENT",
+      "llm_evidence_quote": "",
+      "llm_location": "",
+      "llm_verified": true,
+      "note": "No optional prepayment clause or prepayment fee is stated; Interest Advances and Final Advances are repayable when made (Section 2.05) and Section 3.09 imposes LIBOR funding-loss indemnification if repaid off an Interest Period end date.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "field_name": "collateral_security",
+      "llm_value": "UNCLEAR",
+      "llm_evidence_quote": "to establish, perfect, protect and preserve the right, title and interest, remedies, powers, privileges, liens and security interests of, or for the benefit of, the Trustees, the Borrower and the Liquidity Provider created by the Operative Agreements executed and delivered on or prior to the Closing Date;",
+      "llm_location": "Page 18 (<PAGE> #21), Section 4.01(a)(vi); Page 12 (<PAGE> #14), Section 2.09",
+      "llm_verified": true,
+      "note": "This Liquidity Facility does not itself grant a lien over collateral; Section 2.09 restricts recourse to Intercreditor Agreement cashflows and Section 4.01(a)(vi) refers to liens created under separate Operative Agreements not included here.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "field_name": "guarantees",
+      "llm_value": "NOT_PRESENT",
+      "llm_evidence_quote": "",
+      "llm_location": "",
+      "llm_verified": true,
+      "note": "No guarantor or guaranty undertaking appears in this agreement.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "field_name": "events_of_default",
+      "llm_value": "Liquidity Event of Default (Equipment Notes accelerated or unpaid at final maturity [>$300M during Delivery Period] or Northwest Bankruptcy Event) plus Performing Note Deficiency (<65% Equipment Notes performing) permits Liquidity Provider Termination Notice causing expiration on 5th Business Day, Final Advance, and acceleration of all Advances and interest",
+      "llm_evidence_quote": "If (a) any Liquidity Event of Default has occurred and is continuing and (b) there is a Performing Note Deficiency, the Liquidity Provider may, in its discretion, deliver to the Borrower a Termination Notice, the effect of which shall be to cause (i) this Agreement to expire on the fifth Business Day after the date on which such Termination Notice is received by the Borrower, (ii) the Borrower to promptly request, and the Liquidity Provider to promptly make, a Final Advance in accordance with Section 2.02(d) hereof and Section 3.6(i) of the Intercreditor Agreement,",
+      "llm_location": "Page 20 (<PAGE> #23), Section 6.01; Pages 4-5 (<PAGE> #7-8), Section 1.01",
+      "llm_verified": true,
+      "note": "Liquidity Event of Default and Performing Note Deficiency are defined in Section 1.01.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000105/1058033/0001005477-99-003520_9.txt",
+      "field_name": "governing_law",
+      "llm_value": "New York",
+      "llm_evidence_quote": "THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK.",
+      "llm_location": "Page 25 (<PAGE> #28), Section 7.10",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "field_name": "document_title",
+      "llm_value": "Credit Agreement",
+      "llm_evidence_quote": "CREDIT AGREEMENT",
+      "llm_location": "Cover (<PAGE> #1); Page 1 (<PAGE> #5), Opening",
+      "llm_verified": true,
+      "note": "Includes Exhibit I Form of Promissory Note and Exhibits II-IV.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "field_name": "agreement_date",
+      "llm_value": "May 18, 2001",
+      "llm_evidence_quote": "THIS CREDIT AGREEMENT is made and entered into this 18th day of May, 2001, by and between",
+      "llm_location": "Page 1 (<PAGE> #5), Opening paragraph",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "field_name": "borrowers",
+      "llm_value": "Dril-Quip, Inc.",
+      "llm_evidence_quote": "DRIL-QUIP, INC., a Delaware corporation (the \"Borrower\"),",
+      "llm_location": "Page 1 (<PAGE> #5), Opening paragraph",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "field_name": "lenders",
+      "llm_value": "Guaranty Bank, FSB",
+      "llm_evidence_quote": "GUARANTY BANK, FSB, a federal savings bank (the \"Lender\").",
+      "llm_location": "Page 1 (<PAGE> #5), Opening paragraph",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "field_name": "agents",
+      "llm_value": "NOT_PRESENT",
+      "llm_evidence_quote": "",
+      "llm_location": "",
+      "llm_verified": true,
+      "note": "Bilateral facility with Guaranty Bank, FSB as sole lender; no administrative, collateral, or paying agent is appointed.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "field_name": "loan_or_commitment_amount",
+      "llm_value": "Revolving line of credit up to $50,000,000",
+      "llm_evidence_quote": "\"Available Commitment\" shall mean, at any time, an amount equal to the remainder, if any, of (a) $50,000,000 minus (b) the Loan Balance at such time.",
+      "llm_location": "Cover (<PAGE> #1); Section I.2 (<PAGE> #7); Exhibit I Note (<PAGE> #41)",
+      "llm_verified": true,
+      "note": "Cover states 'REVOLVING LINE OF CREDIT OF UP TO $50,000,000' and Exhibit I Promissory Note states $50,000,000.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "field_name": "interest_rate",
+      "llm_value": "Floating Rate Loans: Base Rate (Wall Street Journal prime rate or Lender's base rate, at Borrower's option); LIBO Rate Loans: Adjusted LIBO Rate (LIBO Rate + 1-3/4% Applicable Margin), each capped at Highest Lawful Rate and computed on a 365/366-day year",
+      "llm_evidence_quote": "interest on the Loans shall accrue and be payable at a rate per annum equal to the Floating Rate for each Floating Rate Loan and the Adjusted LIBO Rate for each LIBO Rate Loan.",
+      "llm_location": "Page 13 (<PAGE> #17), Section II.3; Section I.2 (<PAGE> #6-11)",
+      "llm_verified": true,
+      "note": "Section I.2 defines Floating Rate = Base Rate (WSJ prime or Lender base rate), Adjusted LIBO Rate = LIBO Rate + Applicable Margin, and Applicable Margin = 1-3/4%.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "field_name": "repayment_terms",
+      "llm_value": "Floating Rate Loan interest payable quarterly starting July 1, 2001 (every 3rd calendar month); LIBO Rate Loan interest payable on last day of Interest Period (and every 3rd month if Interest Period > 3 months); entire Loan Balance and accrued interest due at Final Maturity",
+      "llm_evidence_quote": "Accrued and unpaid interest on each outstanding LIBO Rate Loan shall be due and payable on the last day of the Interest Period for such LIBO Rate Loan and, in the case of any Interest Period in excess of three months, on the day of the third calendar month following the commencement of such Interest Period corresponding to the day of the calendar month on which such Interest Period commenced, the payment in each instance to be the amount of interest which has accrued and remains unpaid in respect of the relevant Loan. The Loan Balance, together with all accrued and unpaid interest thereon, shall be due and payable at Final Maturity.",
+      "llm_location": "Pages 13-14 (<PAGE> #18), Section II.4",
+      "llm_verified": true,
+      "note": "Section II.4 also states: 'The Loan Balance, together with all accrued and unpaid interest thereon, shall be due and payable at Final Maturity.'",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "field_name": "maturity_termination_date",
+      "llm_value": "Three years following the Closing Date (May 18, 2001)",
+      "llm_evidence_quote": "\"Commitment Termination Date\" shall mean the date which is three years following the Closing Date.",
+      "llm_location": "Section I.2 (<PAGE> #8 and #10), Commitment Termination Date & Final Maturity",
+      "llm_verified": true,
+      "note": "Section I.2 likewise defines Final Maturity as 'the date which is three years following the Closing Date.'",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "field_name": "fees",
+      "llm_value": "Commitment Fee of 0.375% per annum on average daily Available Commitment payable quarterly starting July 1, 2001 (365/366-day basis); Facility Fee of $25,000 payable on the Closing Date",
+      "llm_evidence_quote": "amount of 0.375% per annum, calculated on the basis of a year of 365 or 366 days, as the case may be, and actual days elapsed (including the first day but excluding the last day), on the average daily amount of the Available Commitment during the preceding quarterly period. II.9 Facility Fee. In addition to interest on the Note as provided herein and all other fees payable hereunder and to compensate the Lender for the costs of the extension of credit hereunder, the Borrower shall pay to the Lender on the Closing Date, in immediately available funds, a facility fee in the amount of $25,000.",
+      "llm_location": "Pages 14-15 (<PAGE> #19), Sections II.8 and II.9",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "field_name": "late_payment_or_default_interest",
+      "llm_value": "Past-due principal and (to extent permitted by law) past-due interest bear Default Rate equal to Base Rate + 5% per annum (capped at Highest Lawful Rate, 365/366-day year), payable on demand",
+      "llm_evidence_quote": "\"Default Rate\" shall mean a per annum interest rate equal to the Base Rate plus five percent (5%), but in no event exceeding the Highest Lawful Rate.",
+      "llm_location": "Section I.2 (<PAGE> #9); Page 13 (<PAGE> #18), Section II.3",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "field_name": "prepayment_terms",
+      "llm_value": "Voluntary prepayment permitted at any time in minimum $100,000 increments, subject for LIBO Rate Loans to >= 2 Business Days' prior notice and prepayment only on the last day of an Interest Period, plus all accrued unpaid interest on prepaid amounts",
+      "llm_evidence_quote": "the Borrower shall have the right at any time or from time to time to prepay Loans and to convert Loans of one type or with one Interest Period into Loans of another type or with a different Interest Period; provided, however, that (a) the Borrower shall give the Lender notice of each such prepayment or conversion of all or any portion of a LIBO Rate Loan no less than  two Business Days prior to prepayment or conversion, (b) any LIBO Rate Loan may be prepaid or converted only on the last day of an Interest Period for such Loan, (c) the Borrower shall pay all accrued and unpaid interest on the amounts prepaid or converted, and (d) no such prepayment or conversion shall serve to postpone the repayment when due of any Obligation.",
+      "llm_location": "Page 14 (<PAGE> #19), Section II.7; Page 12 (<PAGE> #17), Section II.1(b)",
+      "llm_verified": true,
+      "note": "Section II.1(b) sets a $100,000 minimum per borrowing, conversion, or prepayment.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "field_name": "collateral_security",
+      "llm_value": "NOT_PRESENT",
+      "llm_evidence_quote": "",
+      "llm_location": "",
+      "llm_verified": true,
+      "note": "Unsecured credit facility; no collateral or security interest is granted to Guaranty Bank, FSB.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "field_name": "guarantees",
+      "llm_value": "NOT_PRESENT",
+      "llm_evidence_quote": "",
+      "llm_location": "",
+      "llm_verified": true,
+      "note": "No guarantor or guaranty undertaking supporting Borrower's obligations is identified under this Credit Agreement.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "field_name": "events_of_default",
+      "llm_value": "Default in principal when due, or interest/fees continuing 3 days after notice; obligation/covenant breach continuing 30 days after notice; materially untrue representation/data; cross-default on other Indebtedness beyond grace period; insolvency/bankruptcy; plus remaining Section VII.1 events",
+      "llm_evidence_quote": "(a) default shall be made in the payment when due of any installment of principal or interest under this Agreement or the Note or in the payment when due of any fee or other sum payable under any Loan Document and such default as to interest or fees only shall have continued for three days after notice has been given by Lender to Borrower; (b) default shall be made by the Borrower in the due observance or performance of any of its obligations under the Loan Documents, and such default shall continue for 30 days after notice thereof to the Borrower by the Lender;",
+      "llm_location": "Page 29 (<PAGE> #34), Section VII.1",
+      "llm_verified": true,
+      "note": "Section VII.1 continues with false representations (c), cross-default (d), and insolvency/judgment defaults (e)-(f)+.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000104/1042893/0000899243-01-501236_3.txt",
+      "field_name": "governing_law",
+      "llm_value": "Texas",
+      "llm_evidence_quote": "THIS AGREEMENT AND THE NOTE SHALL BE DEEMED TO BE CONTRACTS MADE UNDER AND SHALL BE CONSTRUED IN ACCORDANCE WITH AND GOVERNED BY THE LAWS OF THE STATE OF TEXAS WITHOUT GIVING EFFECT TO PRINCIPLES THEREOF RELATING TO CONFLICTS OF LAW;",
+      "llm_location": "Page 34 (<PAGE> #39), Section VIII.11",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "field_name": "document_title",
+      "llm_value": "Credit Agreement",
+      "llm_evidence_quote": "CREDIT AGREEMENT",
+      "llm_location": "Cover (<PAGE> 1); Page 1 (<PAGE> 6), Opening",
+      "llm_verified": true,
+      "note": "Short-term revolving credit facility among Black Box Corporation of Pennsylvania, Black Box Corporation, and Mellon Bank, N.A.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "field_name": "agreement_date",
+      "llm_value": "January 4, 2000",
+      "llm_evidence_quote": "THIS CREDIT AGREEMENT (this \"Agreement\"), dated as of January 4, 2000, by and among",
+      "llm_location": "Page 1 (<PAGE> 6), Opening paragraph",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "field_name": "borrowers",
+      "llm_value": "Black Box Corporation of Pennsylvania",
+      "llm_evidence_quote": "BLACK BOX CORPORATION OF PENNSYLVANIA, a Delaware corporation (the \"Borrower\"),",
+      "llm_location": "Page 1 (<PAGE> 6), Opening paragraph",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "field_name": "lenders",
+      "llm_value": "Mellon Bank, N.A.",
+      "llm_evidence_quote": "MELLON BANK, N.A., a national banking association (the \"Lender\").",
+      "llm_location": "Page 1 (<PAGE> 6), Opening paragraph",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "field_name": "agents",
+      "llm_value": "NOT_PRESENT",
+      "llm_evidence_quote": "",
+      "llm_location": "",
+      "llm_verified": true,
+      "note": "Bilateral facility with Mellon Bank, N.A. as sole lender; no administrative, collateral, or paying agent is appointed.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "field_name": "loan_or_commitment_amount",
+      "llm_value": "$30,000,000 Revolving Credit Committed Amount",
+      "llm_evidence_quote": "\"Revolving Credit Committed Amount\" shall mean $30,000,000.",
+      "llm_location": "Annex A, Page -vii- (<PAGE> 42 / #71)",
+      "llm_verified": true,
+      "note": "Section 5.01(e) also conditions initial loans on an engagement agreement granting Mellon Bank exclusive authority to arrange >= $110,000,000 senior credit facilities.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "field_name": "interest_rate",
+      "llm_value": "Mellon Bank, N.A. Prime Rate per annum (computed on a 360-day year and actual days elapsed)",
+      "llm_evidence_quote": "The unpaid principal amount of the Loans shall bear interest for each day until due at a rate per annum (computed on the basis of a year of 360 days and actual days elapsed) for each day equal to the Prime Rate for such day.",
+      "llm_location": "Page 3 (<PAGE> 9 / #12), Section 2.03; Annex A, Page -vii- (<PAGE> 42)",
+      "llm_verified": true,
+      "note": "Annex A defines Prime Rate as the interest rate per annum announced from time to time by Mellon Bank, N.A. as its prime rate.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "field_name": "repayment_terms",
+      "llm_value": "Interest is due and payable monthly on the 1st Business Day of each calendar month (on demand after maturity); Revolving Credit Loans may be borrowed, repaid, and reborrowed, with all principal due on the Revolving Credit Maturity Date (excess over Committed Amount due immediately)",
+      "llm_evidence_quote": "To the extent not due and payable earlier, the Revolving Credit Loans shall be due and payable on the Revolving Credit Maturity Date and, to the extent that the aggregate Revolving Credit Loans at any time outstanding is in excess of the Revolving Credit Committed Amount at such time (whether as a result of the reduction of the Revolving Credit Committed Amount or otherwise), a portion of the Revolving Credit Loans in an amount equal to such excess shall be immediately due and payable.",
+      "llm_location": "Page 2 (<PAGE> 8 / #10), Section 2.01(d); Page 3 (<PAGE> 9), Section 2.06",
+      "llm_verified": true,
+      "note": "Section 2.06 states: 'Interest shall be due and payable on the first (1st) Business Day of each calendar month.'",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "field_name": "maturity_termination_date",
+      "llm_value": "Earlier of (x) termination of commitment under either Existing Revolver (dated February 12, 1999 or August 27, 1999) or (y) February 15, 2000",
+      "llm_evidence_quote": "\"Revolving Credit Maturity Date\" shall mean the earlier to occur of (x) termination of the commitment under either of the Existing Revolvers or (y) February 15, 2000.",
+      "llm_location": "Annex A, Page -vii- (<PAGE> 42 / #71)",
+      "llm_verified": true,
+      "note": "Annex A defines Existing Revolvers as the Feb 12, 1999 Omnibus Credit Facility Agreement and Aug 27, 1999 Credit Agreement.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "field_name": "fees",
+      "llm_value": "Borrower pays Lender's out-of-pocket transaction costs and expenses (attorneys' fees, lien search fees, filing fees, appraisal costs); no origination or commitment fee rate is specified",
+      "llm_evidence_quote": "The Borrower shall have paid all out-of-pocket costs and expenses incurred by the Lender in connection with the preparation, execution and delivery of this Agreement and the other Loan Documents and in connection with the transactions contemplated hereby and thereby, including without limitation attorney's fees and costs, lien search fees, filing fees and appraisal costs.",
+      "llm_location": "Page 17 (<PAGE> 23 / #40), Section 5.01(d)",
+      "llm_verified": true,
+      "note": "Section 2.08(a) contains generic tax-gross-up mention of 'commitment fee', but no commitment fee or facility fee amount/rate is specified in the Agreement.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "field_name": "late_payment_or_default_interest",
+      "llm_value": "Overdue principal, interest, fees, indemnity, expenses, or other amounts bear interest (before and after judgment, payable on demand) at 2% above then-current Prime Rate (360-day year, actual days), compounding daily",
+      "llm_evidence_quote": "after there shall have become due (by acceleration or otherwise) principal, interest, fees, indemnity, expenses or any other amounts due from the Borrower hereunder or under any other Loan Document, such amounts shall bear interest for each day until paid (before and after judgment), payable on demand, at a rate per annum (in each case based on a year of 360 days and actual days elapsed) which for each day shall be equal to two percent (2%) above the then-current Prime Rate.",
+      "llm_location": "Page 3 (<PAGE> 9 / #12), Section 2.07(b)",
+      "llm_verified": true,
+      "note": "Next paragraph specifies day-by-day compounding.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "field_name": "prepayment_terms",
+      "llm_value": "Optional prepayment in whole or part at any time without premium or penalty upon Standard Notice (irrevocable notice >= 1 Business Day in advance by 10:00 a.m. Pittsburgh time)",
+      "llm_evidence_quote": "The Borrower shall have the right at its option at any time and from time to time to prepay the Loans in whole or part without premium or penalty. Any such prepayment shall be made in accordance with Section 2.04 hereof.",
+      "llm_location": "Page 3 (<PAGE> 9 / #12), Section 2.05; Annex A Standard Notice (<PAGE> 42)",
+      "llm_verified": true,
+      "note": "Section 2.04 requires Standard Notice specifying prepayment date and total principal amount, payable with accrued interest to such date.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "field_name": "collateral_security",
+      "llm_value": "NOT_PRESENT",
+      "llm_evidence_quote": "",
+      "llm_location": "",
+      "llm_verified": true,
+      "note": "Unsecured credit agreement; Annex A defines Loan Documents as only this Agreement and the Revolving Credit Note, with no security agreement or granted lien.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "field_name": "guarantees",
+      "llm_value": "Black Box Corporation unconditionally and irrevocably guarantees and becomes surety for full and punctual payment and performance of all Guaranteed Obligations under Article III",
+      "llm_evidence_quote": "The obligations of the Guarantor hereunder constitute an agreement of suretyship as well as of guaranty, are a guarantee of payment and performance and not merely of collectability, and are in no way conditioned upon any attempt to collect from or proceed against the Borrower or any other Person or any other event or circumstance.",
+      "llm_location": "Page 6 (<PAGE> 12 / #16), Section 3.01; Opening (<PAGE> 6)",
+      "llm_verified": true,
+      "note": "Opening paragraph identifies Black Box Corporation, a Delaware corporation, as the Guarantor.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "field_name": "events_of_default",
+      "llm_value": "Any Loan Party fails to pay principal, interest, fees, or other Loan Document sums when due; materially false representation/warranty; breach of Section 6.01; other material covenant breach continuing 10 Business Days; cross-default beyond grace period on >$500,000 debt; plus remaining Section 7.01 defaults",
+      "llm_evidence_quote": "An Event of Default shall mean the occurrence or existence of one or more of the following events or conditions (for any reason, whether voluntary, involuntary or effected or required by Law): (a) Any Loan Party shall fail to pay when due principal of or interest on any Loan, any fees, indemnity or expenses, or any other amount due hereunder or under any other Loan Document.",
+      "llm_location": "Page 18 (<PAGE> 24 / #42), Section 7.01",
+      "llm_verified": true,
+      "note": "Section 7.01 lists subsections (a)-(e)+ on Pages 18-19.",
+      "pass_id": "pass1"
+    },
+    {
+      "doc_id": "000084/849547/0000950128-00-000940_5.txt",
+      "field_name": "governing_law",
+      "llm_value": "Commonwealth of Pennsylvania",
+      "llm_evidence_quote": "SHALL BE GOVERNED BY, CONSTRUED AND ENFORCED IN ACCORDANCE WITH THE LAWS OF THE COMMONWEALTH OF PENNSYLVANIA, WITHOUT REGARD TO CHOICE OF LAW PRINCIPLES.",
+      "llm_location": "Page 26 (<PAGE> 32 / #57), Section 8.14(a)",
+      "llm_verified": true,
+      "note": "",
+      "pass_id": "pass1"
+    }
+  ]
+}

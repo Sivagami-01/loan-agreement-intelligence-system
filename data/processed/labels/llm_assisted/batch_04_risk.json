@@ -1,0 +1,148 @@
+{
+  "risk_llm.csv": [
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "clause_id": "R01",
+      "clause_text": "\"Credit Facility\" means the sums to be advanced by the Lenders to the Borrower pursuant to this Agreement in an aggregate amount not to exceed at any one time outstanding Twenty-Five Million Dollars ($25,000,000), as such amount shall be reduced from time to time pursuant to this Agreement;",
+      "risk_category": "Financial terms",
+      "severity": "Low",
+      "rationale": "[Page 4, Section 1.1] Establishes the $25,000,000 aggregate revolving credit limit subject to scheduled or collateral reductions."
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "clause_id": "R02",
+      "clause_text": "\"Maturity Date\" means December 31, 2004;",
+      "risk_category": "Termination",
+      "severity": "Low",
+      "rationale": "[Page 11, Section 1.1] Scheduled final maturity date of December 31, 2004."
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "clause_id": "R03",
+      "clause_text": "\"Security Documents\" means the Mortgages, the Assignments and any other documents that may be executed as security for the Credit Facility and the Borrower's obligations in connection therewith;",
+      "risk_category": "Collateral",
+      "severity": "High",
+      "rationale": "[Page 12, Section 1.1] Secures the facility with first preferred Panamanian ship mortgages plus earnings and insurance assignments on two jackup rigs."
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "clause_id": "R04",
+      "clause_text": "\"Guarantor(s)\" means each of the companies listed in Schedule 2 as Guarantors; \"Guaranty\" means the guaranty to be executed by each Guarantor in respect of the obligations of the Borrower under this Agreement and under the Note in favor of the Security Trustee pursuant to Section 4.l(d) substantially in the form set out in Exhibit 2;",
+      "risk_category": "Collateral",
+      "severity": "Medium",
+      "rationale": "[Page 6, Section 1.1] Requires full payment guarantees from rig-owning Guarantors [confidence: low - Schedule 2 and Exhibit 2 naming Guarantors are omitted]."
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "clause_id": "R05",
+      "clause_text": "5.2 Prepayment; Reborrowing. The Borrower may prepay, upon five (5) Banking Days written notice, any outstanding Advance or any portion thereof, without penalty, provided that such prepayment is made on the last day of the Interest Period of such Advance. Each prepayment shall be in a minimum amount of One Million Dollars ($1,000,000) plus any One Million Dollar ($1,000,000) multiples thereof or the full amount of the Advance.",
+      "risk_category": "Repayment",
+      "severity": "Low",
+      "rationale": "[Page 24, Section 5.2] Allows penalty-free prepayment ($1M minimum) and reborrowing at Interest Period end on 5 Banking Days' notice."
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "clause_id": "R06",
+      "clause_text": "Any prepayment of the Advances made hereunder shall be subject to the condition that on the date of prepayment all accrued interest to the date of such prepayment shall be paid in full with respect to the Advances or portions thereof being prepaid, together with any and all actual costs or expenses incurred by any Lender in connection with any breaking of funding",
+      "risk_category": "Repayment",
+      "severity": "Medium",
+      "rationale": "[Page 24, Section 5.4] Passes lender LIBOR funding-breakage costs onto borrower for off-schedule or mandatory prepayments."
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "clause_id": "R07",
+      "clause_text": "Each Advance shall bear interest at the Applicable Rate which shall be the rate per annum which is equal to the aggregate of (a) LIBOR for the relevant Interest Period plus (b) the Margin.",
+      "risk_category": "Financial terms",
+      "severity": "Low",
+      "rationale": "[Page 24, Section 6.1] Prices floating borrowing at LIBOR plus a competitive 1.25% per annum Margin on actual/360-day basis."
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "clause_id": "R08",
+      "clause_text": "interest thereafter until paid at a rate per annum of two percent (2%) over the Applicable Rate in effect with respect to such payment at the time of such default (the \"Default Rate\").",
+      "risk_category": "Penalties and charges",
+      "severity": "Medium",
+      "rationale": "[Page 24-25, Section 6.1] Adds a 2.0% annual default interest premium over the contract rate on any overdue sums."
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "clause_id": "R09",
+      "clause_text": "Accrued interest on each Advance shall be payable in arrears on the last day of each Interest Period, except that if the Borrower shall select an Interest Period in excess of three (3) months, accrued interest shall be payable during such Interest Period on each three (3) month anniversary of the commencement of such Interest Period and upon the end of such Interest Period.",
+      "risk_category": "Repayment",
+      "severity": "Low",
+      "rationale": "[Page 25, Section 6.3] Routine quarterly or Interest-Period-end interest payment dates."
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "clause_id": "R10",
+      "clause_text": "(a) Non-Payment of Principal. Any payment of principal due on the Maturity Date is not paid on the Maturity Date or is not prepaid in connection with any reduction of the Credit Facility pursuant to Sections 5.3, 9.3 or 9.4 when required thereby; or (b) Non-Payment of Interest or Other Amounts. Any interest on any Advance or any other amount becoming payable to any Creditor under this Agreement, under the Note, under the Guaranty or under any of the Security Documents is not paid within three (3) Banking Days of the due date or date of demand (as the case may be);",
+      "risk_category": "Default conditions",
+      "severity": "High",
+      "rationale": "[Page 27, Section 8.1(a)-(b)] Zero grace for principal on Maturity Date and a short 3-Banking-Day grace window for interest or fees."
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "clause_id": "R11",
+      "clause_text": "(g) Indenture Default. An event of default under the Indenture shall have occurred and be continuing; (h) Equity Ownership. The Borrower shall cease to own (except as otherwise expressly permitted by this Agreement), directly or indirectly, one hundred percent (100%) of any of the other Security Parties, and in any such case the Majority Lenders have not prior thereto consented in writing to such change;",
+      "risk_category": "Default conditions",
+      "severity": "Critical",
+      "rationale": "[Page 28, Section 8.1(g)-(h)] Automatically puts the revolving facility in default upon any Indenture default or unapproved dilution below 100% ownership of a rig-owning guarantor."
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "clause_id": "R12",
+      "clause_text": "(i) Bankruptcy. The Borrower or any Affiliate commences any proceeding under any reorganization, arrangement or readjustment of debt, dissolution, winding up, adjustment, composition, bankruptcy or liquidation law or statute of any jurisdiction, whether now or hereafter in effect (\"Proceeding\"), or there is commenced against any thereof any Proceeding and such Proceeding remains undismissed or unstayed for a period of sixty (60) days",
+      "risk_category": "Default conditions",
+      "severity": "Critical",
+      "rationale": "[Page 28, Section 8.1(i)] Broad insolvency default covering not only Borrower but any Affiliate, with 60 days to dismiss involuntary filings."
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "clause_id": "R13",
+      "clause_text": "the Lenders (or the Security Trustee acting at the direction of the Lenders) may proceed to protect and enforce their rights by action at law, suit in equity or in admiralty or other appropriate proceeding, whether for specific performance of any covenant contained in this Agreement, in the Note, in the Guaranty or in any Security Document,",
+      "risk_category": "Termination",
+      "severity": "High",
+      "rationale": "[Page 29, Section 8.1] Empowers lenders and Security Trustee to pursue maritime foreclosure, setoff deposits, and enforce mortgages after expiration of cure windows."
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "clause_id": "R14",
+      "clause_text": "(ii) Notice of Default, Etc. Promptly upon obtaining knowledge thereof, inform the Administrative Agent of the occurrence of (a) any Event of Default or of any event which, with the giving of notice or lapse of time, or both, would constitute an Event of Default, (b) any litigation or governmental proceeding pending or threatened against it or against any of the Subsidiaries which could reasonably be expected to have a Material Adverse Effect,",
+      "risk_category": "Covenants",
+      "severity": "Low",
+      "rationale": "[Page 31, Section 9.1(A)(ii)] Standard notice covenant requiring prompt reporting to the Administrative Agent of defaults or material litigation."
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "clause_id": "R15",
+      "clause_text": "If at any time following the Drawdown Date of the initial Advance, the aggregate FMV of the Units then mortgaged to the Security Trustee (based upon the valuations obtained pursuant to Section 9.2) (together with the value of any additional collateral theretofore provided under this Section) is less than one hundred thirty percent (130%) of the Credit Facility Balance (such percentage herein called the \"Required Percentage\"), the Borrower shall, within a period of thirty (30) days following receipt by the Borrower of written notice from the Administrative Agent notifying the Borrower of such shortfall and specifying the amount thereof (which amount shall, in the absence of manifest error, be deemed to be conclusive and binding on the Borrower), either (a) deliver to the Security Trustee, upon the Administrative Agent's request, such additional collateral as may be satisfactory to the Lenders in their sole discretion of sufficient value to restore compliance with the Required Percentage or (b) the Lenders shall reduce their Commitments hereunder and the Borrower shall, if necessary, prepay such Advances or part thereof",
+      "risk_category": "Collateral",
+      "severity": "High",
+      "rationale": "[Page 38, Section 9.3] Loan-to-value margin call: if jackup rig appraisals fall below 130% of debt, borrower must post more collateral or prepay within 30 days."
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "clause_id": "R16",
+      "clause_text": "In the event of the Total Loss of a Unit or the sale by a Guarantor of its Unit, upon such Total Loss or prior to or simultaneously with such sale the Credit Facility shall, on the date of the Total Loss or sale, be reduced by $12,500,000, provided, however, that, if the FMV of the remaining Unit then mortgaged to the Security Trustee is less than 200% of the maximum amount then available under the Credit Facility, after giving effect to the reduction as aforesaid, the Credit Facility shall be reduced by the amount of such shortfall divided by two (2),",
+      "risk_category": "Termination",
+      "severity": "High",
+      "rationale": "[Page 38, Section 9.4(a)] Permanently slashes facility availability by $12.5M+ on sale or total loss of either rig, potentially forcing immediate prepayment."
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "clause_id": "R17",
+      "clause_text": "13.1 Commitment Fee. The Borrower shall pay to the Administrative Agent on behalf of the Lenders a fee in the amount of (i) .25% per annum on the available but undrawn amount of the Credit Facility from the date hereof through the initial Drawdown Date and (ii) .50% per annum thereafter, in each case quarterly in arrears from the date hereof.",
+      "risk_category": "Penalties and charges",
+      "severity": "Low",
+      "rationale": "[Page 41, Section 13.1] Standard undrawn commitment fee of 0.25% rising to 0.50% per annum after initial drawdown."
+    },
+    {
+      "doc_id": "000105/1052667/0000912057-00-028795_20.txt",
+      "clause_id": "R18",
+      "clause_text": "13.4 Other Fees. The Borrower shall pay such other fees to the Agents as the parties have agreed pursuant to the Fee Letter.",
+      "risk_category": "Penalties and charges",
+      "severity": "Low",
+      "rationale": "[Page 42, Section 13.4] References undisclosed fees in a separate unattached Fee Letter [confidence: low - Fee Letter amounts are absent from this text]."
+    }
+  ]
+}

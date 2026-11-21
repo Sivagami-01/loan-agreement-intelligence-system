@@ -1,0 +1,32 @@
+# Question Router Configuration (Stage 2d)
+# Note: "not in document" is NOT a router category. Whether a factual question
+# can be answered from the document is decided later by answer_question() (found=false).
+
+model_role: "bulk"
+temperature: 0.0
+confidence_threshold: 0.75
+
+categories:
+  - fact
+  - explain_term
+  - calculation
+  - advice
+  - off_topic
+
+explain_label: "General explanation, not from your document"
+
+calculation_note: "Calculators arrive in step 3c"
+calculation_message: >-
+  Calculator tools are not enabled yet (calculators arrive in step 3c).
+  No calculations were performed by the language model.
+
+advice_message: >-
+  This system provides document information, not legal or financial advice,
+  and cannot recommend whether you should sign or accept a loan agreement.
+  Please consult a qualified financial advisor or lawyer for personal decisions.
+  If helpful, I can show you the specific risks, fees, penalties, or foreclosure
+  clauses stated in your document.
+
+off_topic_message: >-
+  I can only help answer questions, explain loan terms, or inspect clauses
+  related to loan agreements and financial contracts. Please ask a loan-related question.

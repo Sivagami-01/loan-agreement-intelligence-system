@@ -1,0 +1,3010 @@
+{
+  "source": "C:\\finalYear\\data\\raw\\08_indian_bank_loans\\personal_business_loan_agreement.pdf",
+  "filename": "personal_business_loan_agreement.pdf",
+  "format": "pdf",
+  "total_pages": 16,
+  "processing_time_seconds": 5.476,
+  "ocr_pages_count": 2,
+  "tables_count": 19,
+  "pages": [
+    {
+      "page": 1,
+      "text": "Terms and Conditions\nBUSINESS LOANS\nLOAN ACCOUNT NO. :\nxxxxxxxx/18.02.2015\n",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": []
+    },
+    {
+      "page": 2,
+      "text": "INSTRUCTIONS FOR FILLING LOAN TERMS AND CONDITIONS\n1) \t All applications to be filled in English in CAPITAL LETTERS using a Black Ball point pen only.\n2) \t There should not be any amendments / overwriting / erasures / cutting on the Loan Terms and Conditions and \nany amendments / ove erasures / cutting should be undersigned.\n3) \t The Signature of Borrower and Co-Borrower should be the same on the Loan Terms and Conditions document.\n4) \t The full Signature of the Borrower and Co-Borrower is to be done in all places marked in Grey color box in Loan \nTerms and Conditions booklet using a Black Ball Point Pen only.\n5) \t There are maximum 7 signatures to be done which has been marked from S1 to S7.\n6) \t Optional Documents / Signatures :-\n\t\nECS Mandate (S4-S7) - Only to be signed if customer giving Payment instructions from bank account other than \nHDFC Bank.\nParticular\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n       Signature\nLoanTerms and Conditions/ Schedule\t\n\t\n\t\n\t\n\t\n\t\nS1\nPost Dated Cheque (PDC)Acknowledgement Letter\t\n\t\n\t\n\t\nS2\nCustomer SI Debit Authorization Form\t\n\t\n\t\n\t\n\t\n\t\nS3\nElectronic Clearing Service (ECS) Mandate Forms\t\n\t\n\t\n          S4-S7\nINDEX\n",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": [
+        {
+          "page": 2,
+          "table_index": 1,
+          "bbox": [
+            64.94,
+            136.19,
+            567.78,
+            283.3
+          ],
+          "row_count": 5,
+          "col_count": 2,
+          "columns": [
+            "Particular",
+            "Signature"
+          ],
+          "rows": [
+            [
+              "Particular",
+              "Signature"
+            ],
+            [
+              "LoanTerms and Conditions/ Schedule",
+              "S1"
+            ],
+            [
+              "Post Dated Cheque (PDC)Acknowledgement Letter",
+              "S2"
+            ],
+            [
+              "Customer SI Debit Authorization Form",
+              "S3"
+            ],
+            [
+              "Electronic Clearing Service (ECS) Mandate Forms",
+              "S4-S7"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "text": "Page 1 of 14\n1/12\n1/12\nTC9 2 5 9 4 0 0 0 1\nTerms and Conditions applicable to Business Loan\nThe person(s) named in the Schedule-cum-Key Fact Statement hereto (hereinafter referred to as the \n“Schedule”) being borrowers and co-borrowers, hereinafter collectively referred to as “Borrower” which \nexpression shall, unless it be repugnant to the context or meaning thereof, be deemed to mean and \ninclude his/her heirs, administrators and executors.\nIn favour of:\nHDFC BANK LIMITED, a banking company incorporated under the provisions of the Companies Act, \n1956 having its registered office at HDFC Bank House, Senapati Bapat Marg, Lower Parel (West), \nMumbai 400 013 and a branch office at the place mentioned in the Schedule hereto (hereinafter referred \nto as the “Bank” which expression shall, unless it be repugnant to the context or meaning thereof, be \ndeemed to mean and include its successors, transferees and assign). In case of there being more than \none Borrowers (i.e. there being co-borrowers), the reference to the term “Borrower” shall be deemed to \nbe as if it were plural and this document shall be read accordingly as if made and liabilities undertaken \nby each of them jointly and severally. Reference to the masculine gender includes reference to the \nfeminine and neuter genders and vice versa. The expression ”Borrower”, unless it be repugnant to the \ncontext or meaning thereof, shall mean and include: in the event that the Borrower is a Company within \nthe meaning of the Companies Act, 2013 or a Limited Liability Partnership, incorporated under the Lim-\nited Liability Partnership Act, 2008, its successors; in the event that the Borrower is a partnership firm for \nthe purposes of the Indian Partnership Act, 1932, the partners for the time being and from time to time \nand their respective legal heirs, executors and administrators; in the event that the Borrower is a sole \nproprietorship, the sole proprietor and his/ her legal heirs, administrators and executors; in the event \nthat the Borrower is a joint Hindu Undivided Family, the Karta and any or each of the adult members of \nthe HUF and their survivor(s) and his / her / their respective heirs, executors, administrators; in the event \nthat the Borrower is a Society, the members of the governing body of the Society and any new members \nelected, appointed or co-opted thereon; in the event that the Borrower is a Trust, the Trustee or Trustees \nfor the time being hereof and their respective heirs, executors, administrators and successors; in the \nevent that the Borrower is an individual, his/her heirs, administrators and executors.\nThe Borrower hereby irrevocably and unconditionally agrees to abide by the following terms \nand conditions:\n1.\t Pursuant to the application made by the Borrower in the Loan Application Form (“Application”), the \nBank has sanctioned the non-revolving loan not exceeding the amount mentioned in the Schedule \nhereto (hereinafter referred to as “Loan”), and the Borrower agrees to borrow the same, subject to \nand upon the terms and conditions contained  in the Application and/or this document. The Bank \nmay disburse the Loan or any part thereof (“Disbursement”) at its own discretion. Notwithstand-\ning anything contained herein: (i) the Bank may at its sole discretion, suspend or cancel the Loan if \nthe same is not utilized within 15 days of the issuance of instrument/instruction for Disbursement; \nor (ii) the Borrower may cancel the Loan within 15 days of Disbursement; provided that in case of \neach (i) and (ii) the cancellation shall take effect only when the Borrower has paid to the Bank in full \nthe total Outstanding Balance (defined hereinafter) including all the interest, and all other charges. \nThe Borrower shall use the Loan only for the purpose stated in the Application and not for any other \npurpose including making investment in the capital market or any speculative or illegal or anti-social \npurpose. Without being obligated to do so, the Bank shall be entitled to monitor the use/end use of \nthe Loan including through any auditor(s) or consultant(s) with necessary certification from them, \nas appointed by the Bank at its sole discretion at the cost of the Borrower. The Bank shall have no \nobligation to meet any further requirements of the Borrower on account of growth in its business, etc.\n2.\t The Loan, interest, compound interest, default interest, any other charges, dues and monies pay-\nable, costs and expenses reimbursable, as outstanding from time to time and whether any of them \ndue or not, are hereinafter collectively referred to as “Outstanding Balance”. The Borrower shall \npay interest on the Loan, the unpaid due interest and all other outstanding charges and monies (ex-\ncept the default interest), at the rate of interest specified in the Schedule hereto, on the outstanding \ndaily balance from the date of Disbursement, compoundable at monthly rests. The Bank in its sole \ndiscretion would be entitled to change the said rate of interest from time to time including on account \nof changes made by the Reserve Bank of India, which would be intimated to the Borrower(s) and \nwould be binding upon the Borrower(s). The Borrower shall also pay and bear all interest tax, if any, \nas applicable from time to time. The Borrower(s) shall repay the Loan and pay the interest that is \ndue from time to time by way of equated monthly installments (EMIs) as specified in the Schedule \nor as may be specified by the Bank from time to time (time being the essence of the contract). The \nBorrower has perused, understood and agreed to Bank’s method of calculating EMIs as also the \n",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": []
+    },
+    {
+      "page": 4,
+      "text": "Page 2 of 14\n2/12\n2/12\nTC9 2 5 9 4 0 0 0 2\nappropriation thereof into principal and interest. The payment of all the monies by the Borrower including EMIs shall \nbe made on or before the respective due dates, at such place as the Bank may require, without any set-off or coun-\nterclaim or withholding or deduction (save as required by law in which case the amount payable by the Borrower to \nthe Bank shall be increased to the amount which after making such deduction or withholding equals the original due \namount as if no withholding or deduction were required), by way of one or more modes and instruments including \npost-dated cheques (“PDCs”), Standing Instructions (SI)/ Electronic Clearing System (ECS) instructions/ other mode/\ninstrument, as acceptable to the Bank from time to time. If any due date falls on a non-business day of the Bank, the \npayment shall be made by the Borrower on the immediately preceding business day of the Bank. In case of cheques/\nother instrument, the payment shall be deemed to have been made by the Borrower only at the point of time the sum \nis credited and realized fully in Bank’s account irrespective of the date of instrument or time of receipt or presentation \nof instrument. In case of any default,  the Borrower shall without prejudice to Bank’s other rights and remedies, pay \nadditional /default interest at the rate mentioned in the Schedule hereto/ Application or as may be prescribed by the \nBank, over and above the then applicable rate of interest till full payment is made/default is cured. This liability shall \nnot act as justification for any default.\n3.\t The Borrower(s) shall pay to Bank, the charges, fees, commissions, etc, specified in the Schedule hereto/ Application \nor as specified by the Bank from time to time, within such time or upon occurrence of such events as specified and if \nnot specified then forthwith upon demanded by the Bank. All other present and future costs and expenses, taxes (as \napplicable from time to time), any related levy, stamp duty, in all jurisdictions, in relation to this document/other docu-\nments/any transaction pursuant thereto, irrespective of who the beneficiary is, shall be borne and payable solely by \nthe Borrower, including for creation, enforcement, preservation of security, recovery, initiating/defending/pursuing any \nlegal proceedings/ actions by Bank. In case of any such sums if paid or incurred by the Bank, the Borrower shall be \nliable to reimburse the same to the Bank in full forthwith.  \n4.\t Any payments made by/on behalf/ for the Borrower or any realisations in relation to the Loan, security, shall be ap-\npropriated towards the Outstanding Balance and/ or Liabilities (as defined hereinafter) in the following order: (a) Firstly, \ntowards costs and expenses incurred by the Bank; (b) Secondly, towards any charges, commissions, fees, taxes, \nlevies (wherever applicable); (c) Thirdly, towards additional/ default interest; (d) Fourthly, towards interest; (e) Fifthly, \ntowards principal amount(s). Any statement of account furnished by the Bank shall be accepted by and be binding \non the Borrower(s) and shall be conclusive proof of the correctness of the amounts mentioned therein except for any \nmanifest error therein.\n5.\t Notwithstanding anything stated in any document, the continuation of the Loan shall be at sole and absolute discre-\ntion of the Bank and the Bank may at any time in its sole discretion and without assigning any reason call upon the \nBorrower to pay the Outstanding Balance and upon such demand by the Bank, the Borrower shall, within 48 hours of \nbeing so called upon, pay the whole of the Outstanding Balance to the Bank without any delay or demur.\n6.\t The Borrower shall be entitled to prepay the Loan: (i) only if Bank permits the same upon at least 15 days’ written \nnotice from Borrower communicating intention to prepay at Bank’s lending branch; and (ii) only after expiry of 6 EMIs \nfrom Disbursement date; and (iii) subject to such conditions as the Bank may prescribe including payment of the \nprepayment charges as mentioned in the Schedule hereto/ Application or as specified from time to time by the Bank. \nSuch prepayment shall take effect only when entire Outstanding Balance has been paid to and realized by the Bank. \n7.\t The Bank may at its own discretion and upon Borrower’s request, also finance the Borrower for the insurance premium \nof  insurance policy taken by Borrower as per Borrower’s own wish from any insurance company of Borrower’s choice, \nwhich sum(s) shall be added to the principal amount under the Loan and all the terms and conditions shall be addition-\nally applicable thereto  All expenses, charges, fees, taxes etc.as applicable on any such insurance shall be incurred \nand paid by the Borrower, however in case paid by the Bank on Borrower’s behalf, the Borrower shall reimburse the \nsame to the Bank within 24 hours of the Bank’s demand. The Borrower shall instruct the insurance company to add \nthe Bank as loss payee in any such insurance policy.\n8.\t The Borrower shall furnish and create such security from time to time in favour of or for the benefit of the Bank, of such \nvalue, in such form and in such manner, as may be deemed fit by the Bank, forthwith upon so required by the Bank. \nThe Bank shall also have the right to stipulate any other and further terms and conditions that it may deem fit at any \ntime prior to or after the grant of the Loan, which shall be binding on the Borrower.\n9.\t Each of the Borrowers represent(s) and warrant(s) that (which shall be deemed to have been repeated to the Bank \non the date of the Disbursement and on each date thereafter till entire repayment): (a) The Borrower (if an individual) \nor each of the partners (in case the Borrower is a partnership firm), is a citizen of India. The Borrower (in case an \nindividual)  or each of the partners (in case the Borrower is a partnership firm) is a major (in terms of age) and is of \nsound mind and is competent to contract and enter into and perform his/her obligations contemplated under this docu-\nment/ other document/in respect of the Loan;  (b) There is no impediment or restriction, whether under law, judgment, \norder, award, contract or otherwise, for any of the Borrowers entering into and/or performing any of the transactions \ncontemplated by this document/other documents/ in respect of the Loan and all approvals and consents, wherever \nnecessary have been duly obtained and are and will continue to be in full force; (c) The execution hereof constitutes \n",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": []
+    },
+    {
+      "page": 5,
+      "text": "Page 3 of 14\n3/12\n3/12\nTC9 2 5 9 4 0 0 0 3\nlegal, valid and binding obligations of the Borrower. The Borrower is duly empowered and authorised to borrow the \nLoan, enter into and/or performing any of the transactions contemplated by this document/other documents/ in respect \nof the Loan, including in terms of its constitutional documents where applicable and all due corporate/other action and \ndue corporate/other authorisations, therefor, where applicable have been completed and are in place and in force; (d) \nThat there is no Event of Default existing; (e)  All declarations made by Borrower are true and complete and no material \ninformation has been suppressed / withheld.\n10.\tNegative Covenants: The Borrower covenants and agrees that, save and except with the prior, specific and express \nwritten consent of the Bank, the Borrower shall not: (a) create, assume or incur any further indebtedness to any per-\nson; or lend or advance any amounts to any person; or undertake any guarantee or security obligation; (b) except in \nfavour of the Bank, sell, license, let, lease, transfer, alienate, dispose of in any manner whatsoever, surrender or oth-\nerwise encumber any of its assets, rights, title or interest, receivables, or any part thereof; or create, facilitate or permit \nto exist any charge, encumbrance or lien of any kind whatsoever over any of its property or grant any option or other \nright to purchase, lease or otherwise acquire, any such assets or part thereof; (c) (in case the Borrower is company) \ndeclare any dividend; or change its capital structure or shareholding pattern in any manner; or make any amendments \nto its constitutional documents; or issue any new shares or securities; or purchase, redeem, buyback or reduce any or \nall of its share capital or otherwise make any payment in respect thereof; or enter into any compromise arrangement \nwith its shareholders or creditors, or pass a resolution of voluntary winding up or implement any scheme for restructur-\ning, reconstruction, consolidation, amalgamation, merger or other similar purposes; (d) permit or effect any direct or \nindirect change in the legal or beneficial ownership or control; (e) change business, or enter into any new business \nor line of business or effect any material change in the management; (f) Change/ cease/ retire from/ terminate/ resign \nfrom the present employment/ profession/business  disclosed in the Application; or change, terminate or open any \nbank account. Further, in case the Borrower is a company, it shall not induct on its board of directors, a person whose \nname appears in the list of wilful defaulters and in case, such a person is found to be on its board, it would take expedi-\ntious and effective steps for removal of the person from its board of directors.\n11.\tThe following events shall constitute events of default (each an “Event of Default”), and upon the occurrence of \nany of them the entire Outstanding Balance shall become immediately due and payable by the Borrower and further \nenable the Bank inter alia to recall the entire Outstanding Balance and/or enforce any security and transfer/sell the \nsame and/or take, initiate and pursue any actions/proceedings as deemed necessary by the Bank for recovery of the \ndues: (a) Failure on Borrower’s part to perform any of the obligations or terms or conditions or covenants applicable \nin relation to the Loan including under this document/other documents including non-payment in full of any part of the \nOutstanding Balance when due or when demanded by Bank; (b) any misrepresentations or misstatement by the Bor-\nrower; or (c) occurrence of any circumstance or event which adversely affects Borrower’s ability/capacity to pay/repay \nthe Outstanding Balance or any part thereof or perform any of the obligations; (d) If any attachment, distress, execu-\ntion or other process against the Borrower/its assets or any of the security is threatened, enforced or levied upon by \nany person; or (e) fall, reduction or decrease, in the opinion of the Bank, in value of any security lower than the value \nrequired by the Bank; (f) the event of death, insolvency, failure in business, commission of an act of bankruptcy of the \nBorrower, or change or termination of employment/profession/business for any reason whatsoever.\n12.\tNotwithstanding anything to the contrary in this document or any other document/arrangement: (i) in respect of all \nand any of Borrower’s present and future liabilities to the Bank, its affiliates, group entities, associate entities, par-\nent, subsidiaries, any of their branches (collectively “Relevant Entities”), whether under this document or under any \nother obligation/loan/facilities/borrowings/document, whether such liabilities are/be crystallised, actual or contingent, \nprimary or collateral or several or jointly with others, whether in same currency or different currencies, whether as \nprincipal debtor and/or as guarantor and/or otherwise howsoever (collectively “Liabilities”), each of the Bank and the \nRelevant Entities shall in addition to any general lien or similar right to which any of them as bankers may be entitled \nby law, practice, custom or otherwise, have a specific and special lien on all the Borrower’s present and future stocks, \nshares, securities, property, book debts, all moneys in all accounts whether current, savings, overdraft, fixed or other \ndeposits, held with or in custody, legal or constructive, with the Bank and/or any Relevant Entities, now or in future, \nwhether in same or different capacity of the Borrower, and whether severally or jointly with others, whether for any \nbanking relationship, safe custody, collection, or otherwise, whether in same currency or different currencies; and (ii) \nseparately, each of the Bank and the Relevant Entities shall have the specific and express right to, without notice to \nand without consent of the Borrower, set-off, transfer, sell, realize, adjust, appropriate all such amounts in all accounts \n(whether prematurely or upon maturity as per the Bank’s discretion), securities, amounts and property as aforesaid for \nthe purpose of realizing or against any of dues in respect of any of the Liabilities whether ear-marked for any particular \nLiability or not, combine or consolidate all or any of accounts of the Borrower and set-off any monies, whether of same \ntype or nature or not and whether held in same capacity or not including upon happening of any of the events of default \nmentioned in any of the documents pertaining to the respective Liabilities or upon any default in payment of any part of \nany of the Liabilities. (iii) The Bank and the Relevant Entities shall be deemed to have and hold and continue to have \nfirst charge on any assets including any deposit on which security has been/will be created in respect of the Loan, as \nsecurity also for any of the other Liabilities and all the rights and powers vested in the Bank in terms of any security or \ncharge created for the Loan shall be available to the Bank and/or the Relevant Entities also in respect of such other \nLiabilities, irrespective of the fact whether the Loan is at any time outstanding, repaid or satisfied or not and even after \n",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": []
+    },
+    {
+      "page": 6,
+      "text": "Page 4 of 14\nTC9 2 5 9 4 0 0 0 4\n4/12\n4/12\nthe Loan has been repaid or prepaid.\n13.\tBorrower shall make good to, and save, defend and hold harmless Bank, its directors, employees, shareholders, \nagents, consultants, representatives from or against all, direct or indirect, claims, damages, losses, costs and ex-\npenses, including attorneys’ fees arising out of/ in relation to any act, omission, breach, misrepresentation, fraud, \nmisstatement or default by the Borrower and/or otherwise incurred by Bank as a result of any suit, investigation, etc, \nany other matter for any reason.\n14.\t\tThe Bank shall at any time, without any consent of or notice to the Borrower(s) be entitled to securitise, sell, assign, \ndiscount or transfer all or any part of the Bank’s rights and obligations under the Loan, this  document or any other \ndocument, to any person(s) and in such manner and on such terms as the Bank may decide. Borrower shall not be \nentitled to directly or indirectly assign or in any manner transfer, whether in whole or part, any rights, the benefit or \nobligation under the Loan, this document/other document.\n15.\tBank shall be entitled at its discretion to engage/ avail of, at the risk and cost of the Borrower, services of any person/\nthird party service provider/agent/agency, for anything required to be done for/ in relation to/ pursuant to the Loan, \nincluding collections, recovery of dues, enforcement of security, getting or verifying any information of the Borrower/ \nassets, and any necessary or incidental lawful acts/ deeds/ matters and things connected thereto, as the Bank may \ndeem fit.\n16.\tThe Bank shall have the right to not return the Application, the photographs, information and documents submitted \nby the Borrower. The Bank shall, without notice to or without any consent of the Borrower, be absolutely entitled and \nhave full right, power and authority to make disclosure of any information relating to Borrower including personal in-\nformation, details in relation to documents, Loan, defaults, security, obligations of Borrower, to the Credit Information \nBureau of India (CIBIL) and/or any other governmental/regulatory/statutory or private agency/entity, credit bureau, \nRBI, the Bank’s other branches/ subsidiaries / affiliates / rating agencies, service providers,  other banks / financial \ninstitutions,  any third parties, any assignees/potential assignees or transferees, who may need the information and \nmay process the information, publish in such manner and through such medium as may be deemed necessary by the \npublisher/ Bank/ RBI, including publishing the name as part of willful defaulter’s list from time to time, as also use for \nKYC information verification,  credit risk analysis,  or for other related purposes.  The Borrower waives the privilege \nof privacy and privity of contract. The Bank shall have the right, without notice to or without any consent of the Bor-\nrower, to approach, make enquiries, obtain information, from any person including other banks/finance entities/credit \nbureaus, Borrower’s employer/family members, any other person related to the Borrower, to obtain any information \nfor assessing track record, credit risk, or for establishing contact with the Borrower or for the purpose of recovery of \ndues from the Borrower. \n17.\tAny notice, approvals, instructions, demand and other communications given or made by the Bank shall be deemed to \nbe duly given and served if sent by courier, normal post, Registered Post, facsimile, electronic mail, personal delivery, \nsms or by pre-paid registered mail addressed to the Borrower’s address, phone/ mobile number, fax number or email \nas given in the Application (or at the address changed on which Bank’s acknowledgement is duly obtained as here-\ninafter mentioned) and such notice and service shall be deemed to take effect on the third working day following the \ndate of the posting thereof in case of courier, normal post, registered post, at the time of delivery if given by personal \ndelivery, upon receipt of a transmission report if given by facsimile, upon sending the electronic mail or sms if given \nby electronic mail or sms. The Borrower undertakes to keep the Bank informed at all times in writing of any change in \nthe mailing address, email id, phone and mobile number(s) as provided in the Application and to obtain Bank’s written \nacknowledgement on the intimation given to Bank for any such change.\n18.\tThe Loan, this document/other documents, shall be governed by the laws of India. The parties hereto expressly agree \nthat all disputes arising out of and/or relating to the Loan, this document or any other relevant document shall be sub-\nject to the exclusive jurisdiction of the court/tribunal of the city/place in which the branch of the Bank from where the \nDisbursement has been made is situate,  provided that the exclusivity aforesaid shall bind the Borrower and the Bank \nshall be entitled to pursue the same in any other court of competent jurisdiction at any other place; and provided further \nthat if any dispute is below the pecuniary jurisdiction limit of the Debts Recovery Tribunals established under the Re-\ncovery of Debts Due to Banks and Financial Institutions Act, 1993, then such dispute shall be referred to arbitration in \naccordance with the provisions of the Arbitration and Conciliation Act, 1996 as may be amended, or its re-enactment, \nby a sole arbitrator, appointed by the Bank. The costs of such arbitration shall be borne by the losing Party or otherwise \nas determined in the arbitration award If a party is required to enforce an arbitral award by legal action of any kind, the \nparty against whom such legal action is taken shall pay all reasonable costs and expenses and attorney’s fees, includ-\ning any cost of additional litigation or arbitration taken by the party seeking to enforce the award.\n19.\tThis document, Application and other documents have been explained to the Borrower in the language known to the \nBorrower and the Borrower has read and understood the same.\n",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": []
+    },
+    {
+      "page": 7,
+      "text": "Page 5 of 14\nThe Borrower(s) have affixed their signatures after verifying and understanding the contents of this document, at \nthe end of the Schedule.\nSCHEDULE-CUM-KEY FACT STATEMENT\nLoan Account No\nDate of Signing\n(DD / MM /YYYY)\nName of the Borrower : \nName of the  Co-Borrower : \nPlace of signing\nBank Branch\nLOAN DETAILS\nLoan Amount\nInterest Rate \n(monthly reducing)\n(Fixed Rate)\nInstallment \nFrequency\nAdvance EMI (No's)\nLoan Tenor\nMonths\nEMI Scheme\n(Advance / Arrears)\nEMI Start Date\nEMI End Date\nAdvance EMI Amount\nEMI (No's)\n EMI Amount\nCHARGES (All charges are non-refundable & applicable post disbursement of loan)\nProcessing \nCharges (Amount)\nCheque / ECS / SI Return Charges: Rs \n550/- (+) Service tax. (without prejudice \nto Bank’s civil and criminal rights and \nremedies)\nTaxes: At actuals, applicable presently \nor in future\nDefault Interest/ Late Payment charges \n(for the over- due period on EMI / \nPrincipal overdue)  :-  2% per month \nLoan Cancellation Charges: NIL\nNote: Interest would be charged for the \ninterim period between date of \ndisbursement & date of loan cancellation\nCIBIL Report Copy Charges : - Rs.50/-\nOther Charges, commissions, fees:- As \nper Application or as may be specified \nby the Bank\nDetails of Security/ \nCollateral\nAccepted by HDFC Bank Limited (signed by Authorized Signatory)\nService Tax on Processing Charges :- \nAs specified by Government of India\nCheque/ECS/ SI \nSwapping Charges\nDate on which annual outstanding \nbalance statement will be issued :- \n31st May\nLegal Collection & Incidental Charges : \nAt Actuals\nStamp Duty & Other Statutory Charges :- \nAs per applicable laws of the State\nDuplicate Amortization / Repayment \nSchedule charges : Rs. 200/-\nRs.\nRs.\nRs.\nRs.\nRs. 500/-\nMonthly\n% Per Annum\nLoan Prepayment Charges: (Mentioned as percentage of Outstanding Balance)\n7-24 Months of EMI repayment: 4%; 25 - 36 Months of EMI repayment: 3%\n> 36 Months of EMI repayment : 2%\nNote: Prepayment not allowed prior to payment of  6 EMI. Part Prepayment not \nallowed.Service tax as applicable, would be charged additionally\n_________________________________________                                                       ______________________________________________ \nBorrower/ Authorised Signatory of the Borrower                                                              Co-Borrower(s)/ Aithorised Signatory of the Co-Borrower \nName and Designation                                                \nName and Designation \nSigned and Delivered by/ for and on behalf of the Borrower & Co-Borrower(s) in token of and in witness of them having read (and/or being explained), verified, understood, irrevocably \nagreed to, accepted, confirmed and declared all the clauses viz. 1 to 19 on all the page no’s 1 to4 of the ‘Terms and Conditions of Business Loan’ document, the Schedule, all \ncontents thereof including all the terms and conditions contained therein, and authenticated accuracy and correctness of the same. \n5/12\n5/12\nTC9 2 5 9 4 0 0 0 5\nS 1\n",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": [
+        {
+          "page": 7,
+          "table_index": 1,
+          "bbox": [
+            55.25,
+            129.32,
+            492.76,
+            775.76
+          ],
+          "row_count": 39,
+          "col_count": 14,
+          "columns": [
+            "",
+            "",
+            "SCHEDULE-CUM-KEY FACT STATEMENT",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "SCHEDULE-CUM-KEY FACT STATEMENT",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Lo",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "an Account No",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "Plac",
+              "",
+              "e of signing",
+              "",
+              "",
+              ""
+            ],
+            [
+              "D\n(D",
+              "ate of Signing",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "D / MM /YYYY)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "Bank Branch",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "N",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "ame of the Borrower :",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "N",
+              "ame of the Co-Borrowe",
+              "",
+              "",
+              "",
+              "r :",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "LOAN DETAIL",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "S",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Lo",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "an Amount",
+              "",
+              "Rs.",
+              "",
+              "",
+              "",
+              "",
+              "L",
+              "oan Tenor",
+              "",
+              "Months",
+              "",
+              ""
+            ],
+            [
+              "In\nFr",
+              "stallment\nequency",
+              "",
+              "Monthly",
+              "",
+              "",
+              "",
+              "",
+              "E\n(",
+              "MI Scheme\nAdvance / Arrears)",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "In\n(m\n(F",
+              "terest Rate\nonthly reducing)\nixed Rate)",
+              "",
+              "% Per Annum",
+              "",
+              "",
+              "",
+              "",
+              "E",
+              "MI Start Date",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "E",
+              "MI End Date",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Ad",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "vance EMI (No's)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "A",
+              "dvance EMI Amoun",
+              "",
+              "t Rs.",
+              "",
+              ""
+            ],
+            [
+              "E",
+              "MI (No's)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "E",
+              "MI Amount",
+              "",
+              "Rs.",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "C",
+              "HARGES",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "(All charges are non-refundable & applicable post disbursement of loan)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Pr\nC",
+              "ocessing",
+              "",
+              "Rs.",
+              "",
+              "",
+              "",
+              "Service Tax on Processing Charges :-",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "harges (Amount)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "As specified by Government of India",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "C\n55\nto\nre",
+              "heque / ECS / SI Return Charges: Rs",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "0/- (+) Service tax. (without prejudice\nBank’s civil and criminal rights and\nmedies)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "Cheque/ECS/ SI\nSwapping Charges",
+              "",
+              "",
+              "",
+              "Rs. 500/-",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Ta\nor",
+              "xes: At actuals, applicable presently",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "Date on which annual outstanding\nbalance statement will be issued :-\n31st May",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "in future",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "D\n(fo\nPr",
+              "efault Interest/ Late Payment charges\nr the over- due period on EMI /",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "Loan Cancellation Charges: NIL\nNote: Interest would be charged for the\ninterim period between date of\ndisbursement & date of loan cancellation",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "incipal overdue) :- 2% per month",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Lo\n7-\n>\nN\nall",
+              "an Prepayment Charges: (Mentioned as p",
+              "",
+              "",
+              "",
+              "",
+              "ercentage of Outstanding Balance)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "24 Months of EMI repayment: 4%; 25 - 36\n36 Months of EMI repayment : 2%\note: Prepayment not allowed prior to\nowed.Service tax as applicable, would be",
+              "",
+              "",
+              "",
+              "",
+              "Months of EMI repayment: 3%\npayment of 6 EMI. Part Prepayment not\ncharged additionally",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "CI",
+              "BIL Report Copy Charges : - Rs.50/-",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "Legal Collection & Incidental Charges :\nAt Actuals",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "O\npe\nby",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "ther Charges, commissions, fees:- As\nr Application or as may be specified",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "Stamp Duty & Other Statutory Charges :-\nAs per applicable laws of the State",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "the Bank",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "D\nC",
+              "etails of Security/\nollateral",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "page": 7,
+          "table_index": 2,
+          "bbox": [
+            508.43,
+            129.32,
+            588.27,
+            775.76
+          ],
+          "row_count": 1,
+          "col_count": 2,
+          "columns": [
+            "_________________________________________ ______________________________________________ Borrower/ Authorised Signatory of the Borrower Co-Borrower(s)/ Aithorised Signatory of the Co-Borrower Name and Designation Name and Designation Signed and Delivered by/ for and on behalf of the Borrower & Co-Borrower(s) in token of and in witness of them having read (and/or being explained), verified, understood, irrevocably agreed to, accepted, confirmed and declared all the clauses viz. 1 to 19 on all the page no’s 1 to4 of the ‘Terms and Conditions of Business Loan’ document, the Schedule, all contents thereof including all the terms and conditions contained therein, and authenticated accuracy and correctness of the same.",
+            ""
+          ],
+          "rows": [
+            [
+              "_________________________________________ ______________________________________________ Borrower/ Authorised Signatory of the Borrower Co-Borrower(s)/ Aithorised Signatory of the Co-Borrower Name and Designation Name and Designation Signed and Delivered by/ for and on behalf of the Borrower & Co-Borrower(s) in token of and in witness of them having read (and/or being explained), verified, understood, irrevocably agreed to, accepted, confirmed and declared all the clauses viz. 1 to 19 on all the page no’s 1 to4 of the ‘Terms and Conditions of Business Loan’ document, the Schedule, all contents thereof including all the terms and conditions contained therein, and authenticated accuracy and correctness of the same.",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "text": "Page 6 of 14\nTC9 2 5 9 4 0 0 0 6\n6/12\n6/12\nWITNESS DECLARATION BORROWER (S) SIGNS IN VERNACULAR LANGUAGE: \nThe contents of the Loan Application Form, Terms and Conditions, have been explained by me to the Borrower  in ______\n___________________________________ (name of language in which Borrower have signed) and the same have been \nunderstood by the Borrower\nName of Witness\nAddress of Witness\nSignature of Witness\n",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": [
+        {
+          "page": 8,
+          "table_index": 1,
+          "bbox": [
+            64.59,
+            225.9,
+            568.09,
+            292.25
+          ],
+          "row_count": 3,
+          "col_count": 3,
+          "columns": [
+            "Name of Witness",
+            "Address of Witness",
+            "Signature of Witness"
+          ],
+          "rows": [
+            [
+              "Name of Witness",
+              "Address of Witness",
+              "Signature of Witness"
+            ],
+            [
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "text": "Page 7 of 14\n \n \nPOST DATED CHEQUE ACKNOWLEDGEMENT LETTER\nMention the count of cheque received\nDrawee Bank \n \nBank Account No. \n \nMICR code \n \nCheque \nBranch \n \nCheque \nCity \n \nCheque No. \n \nCheque Date \n \nCheque \nAmount \n \nFrom \nTo \nFrom \nTo \n \n \n \n \n \n \nCheque Received \n(A)Cheques Dated \n \n(B)Cheques Undated  \n \n(A)Filled \n   (B) Blank:  \n \n \nAccountType \no\nSavings Bank Account   /  o\nCurrent or Cash Credit \nCheques Handed over to Mr /Mrs.  \n \n \n \n \nEMI Repayment Mode (Circle the correct\nMode)\n \nNormal PDC / ECS* / Standing Instructions / Non PDC\nRepayment Instructions provided by (Circle \nthe Correct Option)\n \nApplicant / Co-applicant\nCo-borrower Name (For Repayment\nInstructions provided by co-borrower)\n \nI  \n hereby confirm that I have handed over  \n cheques detailed\nLoan’’ and have also recorded my name on the reverse side ofthe cheques. \nAbove towards repayment of EMI for the loan already taken / to be taken from HDFC Bank Limited \nAnd that all cheques were drawn in favour of ‘‘HDFC BANK LIMITED AIC. \nDate: \nFOR OFFICE USE ONLY \nThis is to confirm that physical cheques were cross tallied with the above schedule and found correct. \n \n \nSales Executive of DSA/DDSA \n \nCPU Staff \n \nSignature \n \n \nName \n \n \n \n \n \n \n \nCustomer Name\n \n \n \n \n \n \nCustomer Signature \nS\n____________________________________________________________________________________________________\nBank Staff \n8\n \n \nLoan Account  Number \nName of Borrower \n \n \n \n \n \n \n \n \nSourcing Channel Name \n7/12\n7/12\nSC9 2 5 9 4 0 0 0 1\nS 2\n(C) Cancelled ____________ (*Applicable for ECS mode)\n",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": [
+        {
+          "page": 9,
+          "table_index": 1,
+          "bbox": [
+            71.27,
+            142.33,
+            558.98,
+            262.69
+          ],
+          "row_count": 5,
+          "col_count": 2,
+          "columns": [
+            "POST DATED",
+            "CHEQUE ACKNOWLEDGEMENT LETTER"
+          ],
+          "rows": [
+            [
+              "Loan Account Number",
+              ""
+            ],
+            [
+              "Name of Borrower",
+              ""
+            ],
+            [
+              "EMI Repayment Mode (Circle the correct\nMode)",
+              "Normal PDC / ECS* / Standing Instructions / Non PDC"
+            ],
+            [
+              "Repayment Instructions provided by (Circle\nthe Correct Option)",
+              "Applicant / Co-applicant"
+            ],
+            [
+              "Co-borrower Name (For Repayment\nInstructions provided by co-borrower)",
+              ""
+            ]
+          ]
+        },
+        {
+          "page": 9,
+          "table_index": 2,
+          "bbox": [
+            71.27,
+            286.9,
+            558.98,
+            394.6
+          ],
+          "row_count": 5,
+          "col_count": 2,
+          "columns": [
+            "",
+            "Mention the count of cheque received"
+          ],
+          "rows": [
+            [
+              "Cheque Received",
+              "(A)Cheques Dated (B)Cheques Undated\n(C) Cancelled (*Applicable for ECS mode)\n____________"
+            ],
+            [
+              "",
+              "(A)Filled (B) Blank:"
+            ],
+            [
+              "AccountType",
+              "o o\nSavings Bank Account / Current or Cash Credit"
+            ],
+            [
+              "Cheques Handed over to Mr /Mrs.",
+              ""
+            ],
+            [
+              "Sourcing Channel Name",
+              ""
+            ]
+          ]
+        },
+        {
+          "page": 9,
+          "table_index": 3,
+          "bbox": [
+            71.27,
+            404.73,
+            558.98,
+            534.35
+          ],
+          "row_count": 7,
+          "col_count": 10,
+          "columns": [
+            "Drawee Bank",
+            "Bank Account No.",
+            "MICR code",
+            "Cheque\nBranch",
+            "Cheque\nCity",
+            "Cheque No.",
+            "",
+            "Cheque Date",
+            "",
+            "Cheque\nAmount"
+          ],
+          "rows": [
+            [
+              "Drawee Bank",
+              "Bank Account No.",
+              "MICR code",
+              "Cheque\nBranch",
+              "Cheque\nCity",
+              "Cheque No.",
+              "",
+              "Cheque Date",
+              "",
+              "Cheque\nAmount"
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "From",
+              "To",
+              "From",
+              "To",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "page": 9,
+          "table_index": 4,
+          "bbox": [
+            192.83,
+            619.14,
+            558.98,
+            695.41
+          ],
+          "row_count": 2,
+          "col_count": 3,
+          "columns": [
+            "Customer Name",
+            "Customer Signature SS",
+            ""
+          ],
+          "rows": [
+            [
+              "Customer Name",
+              "Customer Signature SS",
+              ""
+            ],
+            [
+              "",
+              "",
+              "SS"
+            ]
+          ]
+        },
+        {
+          "page": 9,
+          "table_index": 5,
+          "bbox": [
+            71.27,
+            737.03,
+            558.98,
+            823.13
+          ],
+          "row_count": 3,
+          "col_count": 4,
+          "columns": [
+            "",
+            "Sales Executive of DSA/DDSA",
+            "Bank Staff",
+            "CPU Staff"
+          ],
+          "rows": [
+            [
+              "",
+              "Sales Executive of DSA/DDSA",
+              "Bank Staff",
+              "CPU Staff"
+            ],
+            [
+              "Signature",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Name",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "text": "Page 8 of 14\nCustomer SI Debit Authorisation Form \nDate:   \n \n \nTo, \nThe Branch Manager, \nHDFC BANK Limited,\nDear Sir / Madam, \n \nI have taken a  \n loan from HDFC Bank and would like to avail of the Standing Instruction facility offered by your bank\nto make repayments towards my loan. \n \nI, therefore, request you to accept this mandate to debit my HDFC BankAccount Number\ntowards recovery of EMI, Outstanding Balance and repayment dues of my loan account as per due dates & terms and conditions \nmentioned in the Terms and Conditions of Business Loan document, schedule or as per revised instructions basis requirements as \ncommunicated from my end in line with the Bank’s policy. \n \nI undertake to maintain sufficient balances to cover the EMI, Outstanding Balance andLoan repayment dues (and charges, if any) on the\nstipulated due dates. I also understand that the failure to repay the Loan, Outstanding Balance and all dues through this standing\ninstruction shall be treated as a default in repayment of dues and all charges / fees/ levies as covered by the agreement will hold good\ntowards the non payment of obligations. \n \nPlease treat this as an irrevocable communication as an authorization to debit my account every month with the required amounts towards \nthe repayment of my loan. \n \nIn the event of the above account getting closed/transferred for any reason, I / We will intimate to the Bank of the new account opened \nwith the bank to debit the EMI, Outstanding Balance andLoan repayment dues as per the agreement. Further, I /We undertake the \nresponsibility to provide fresh set of Mandate and PDCs for such new account, as per terms of the agreement in lieu of existing \ninstructions. \n \nI also understand and accept that the Bank will have the right to set-off, without prior intimation to me, the available balances in the \ndesignated account for recovery of overdue instalments (EMIs) and/or charges/ fees/ commissions/ levies (if any) in the loan account. \n \nThanking you, \n \nYours truly, \n(*Please affix a rubber stamp in case of companies, proprietorships, partnerships etc.) \nVERIFIED \nCustomerAccount Number \nCustomer Signature \nCustomerAccount StatusisActive \nMode of Operation Verified \n(Name, EMP Code and Signature of HDFC Bank Official)\n \n \n \n \n \n \n \n \nCustomer /Account Holder Name \n \n \n \n \n \n \n \n \nCustomer  /Account Holder Signature \n \n10/11\nLoan Account Number\n \n \n \n \n8/12\n8/12\nTC9 2 5 9 4 0 0 0 6\nS 3\n",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": [
+        {
+          "page": 10,
+          "table_index": 1,
+          "bbox": [
+            82.48,
+            591.99,
+            436.09,
+            683.13
+          ],
+          "row_count": 1,
+          "col_count": 2,
+          "columns": [
+            "stomer /Account Holder Name",
+            "Customer /Account Holder Signature"
+          ],
+          "rows": [
+            [
+              "stomer /Account Holder Name",
+              "Customer /Account Holder Signature"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "text": "Page 9 of 14\n9/12\n9/12\nSC9 2 5 9 4 0 0 0 1\nMANDATE FORM\nUSER CODE :\nBenef Ref No :\nELECTRONIC CLEARING SERVICE (DEBIT CLEARING)\nThe Manager\n(Bank Name) \n(Branch Name) \n(Address)\nTelephone No\nI hereby authorize you to debit my account for making payment to HDFC BANK LIMITED through ECS (Debit) clearing as per \nthe details given as under :\nName of the Account holder \n(as appearing in the Bank \nState- ment)\nA\nB\n9-Digit Code Number of Bank & \nBranch (Appearing on the MICR \ncheque issued by the bank)\nC\nAccount Type\nD\nAccount No\nSavings Bank Account   /  Current or Cash Credit\n(Please attach the photocopy of a cheque or a blank cancelled  cheque issued by your bank for verifying the accuracy of the \nMICR Code, Transaction Code, A/C No and Signature.)\nName of the Scheme\n(PRODUCT)\nDate of Effect\nPeriodicity\n(M / Bim / Qly / etc.)\nAmount of Install- \nment/ Amount of Bill \nwith upper limit\nNumber of Installments \n/ valid up to ( In case of \nutility bills)\nFrom \nTo\nE. Date of Effect : _____________________\nI hereby declare that the Bank Account particulars given above are correct and complete. If the transaction is delayed or not \neffected at all for reasons of incomplete or incorrect information, I would not hold the user institution responsible. I have read the \noption invitation letter and agree to discharge the responsibility expected of me as a participant under the scheme\nDate : _____________________\n(*Please affix a rubber stamp in case of companies, proprietorships, partnerships etc.)\nCertified that the Bank Account particulars furnished above are correct as per our records & we have updated our records.\n(Bank's Stamp)\nSignature of the Authorized Official from the Bank\nNote :- Mandate to be obtained in 3 Copies, Original for Bank, One for User Co and other for customer)\nS 4\nCustomer Signature\n",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": [
+        {
+          "page": 11,
+          "table_index": 1,
+          "bbox": [
+            306.37,
+            58.89,
+            512.61,
+            92.07
+          ],
+          "row_count": 1,
+          "col_count": 4,
+          "columns": [
+            "SC9 2 5 9 4 0 0 0 1",
+            "",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "SC9 2 5 9 4 0 0 0 1",
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "page": 11,
+          "table_index": 2,
+          "bbox": [
+            541.21,
+            58.89,
+            581.01,
+            68.34
+          ],
+          "row_count": 1,
+          "col_count": 3,
+          "columns": [
+            "",
+            "",
+            "9/"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "9/"
+            ]
+          ]
+        },
+        {
+          "page": 11,
+          "table_index": 3,
+          "bbox": [
+            49.28,
+            320.21,
+            581.01,
+            479.93
+          ],
+          "row_count": 4,
+          "col_count": 3,
+          "columns": [
+            "A",
+            "Name of the Account holder\n(as appearing in the Bank\nState- ment)",
+            ""
+          ],
+          "rows": [
+            [
+              "A",
+              "Name of the Account holder\n(as appearing in the Bank\nState- ment)",
+              ""
+            ],
+            [
+              "B",
+              "9-Digit Code Number of Bank &\nBranch (Appearing on the MICR\ncheque issued by the bank)",
+              ""
+            ],
+            [
+              "C",
+              "Account Type",
+              "Savings Bank Account / Current or Cash Credit"
+            ],
+            [
+              "D",
+              "Account No",
+              ""
+            ]
+          ]
+        },
+        {
+          "page": 11,
+          "table_index": 4,
+          "bbox": [
+            49.28,
+            516.79,
+            581.01,
+            627.37
+          ],
+          "row_count": 5,
+          "col_count": 6,
+          "columns": [
+            "Name of the Scheme\n(PRODUCT)",
+            "Date of Effect",
+            "",
+            "Periodicity\n(M / Bim / Qly / etc.)",
+            "Amount of Install-\nment/ Amount of Bill\nwith upper limit",
+            "Number of Installments\n/ valid up to ( In case of\nutility bills)"
+          ],
+          "rows": [
+            [
+              "Name of the Scheme\n(PRODUCT)",
+              "Date of Effect",
+              "",
+              "Periodicity\n(M / Bim / Qly / etc.)",
+              "Amount of Install-\nment/ Amount of Bill\nwith upper limit",
+              "Number of Installments\n/ valid up to ( In case of\nutility bills)"
+            ],
+            [
+              "",
+              "From",
+              "To",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "text": "e\\\"’&\n",
+      "source": "ocr",
+      "quality": "BAD",
+      "ocr_used": true,
+      "ocr_confidence": 29.0,
+      "ocr_language": "eng",
+      "detected_script": null,
+      "is_empty": false,
+      "tables": []
+    },
+    {
+      "page": 13,
+      "text": "Page 11 of 14\nMANDATE FORM\nUSER CODE :\nBenef Ref No :\nELECTRONIC CLEARING SERVICE (DEBIT CLEARING)\nThe Manager\n(Bank Name) \n(Branch Name) \n(Address)\nTelephone No\nI hereby authorize you to debit my account for making payment to HDFC BANK LIMITED through ECS (Debit) clearing as per \nthe details given as under :\nName of the Account holder \n(as appearing in the Bank \nStatement)\nA\nB\n9-Digit Code Number of Bank & \nBranch (Appearing on the MICR \ncheque issued by the bank)\nC\nAccount Type\nD\nAccount No\nSavings Bank Account   /  Current or Cash Credit\n(Please attach the photocopy of a cheque or a blank cancelled  cheque issued by your bank for verifying the accuracy of the \nMICR Code, Transaction Code, A/C No and Signature.)\nName of the Scheme\n(PRODUCT)\nDate of Effect\nPeriodicity\n(M / Bim / Qly / etc.)\nAmount of Install- \nment/ Amount of Bill \nwith upper limit\nNumber of Installment / \nvalid up to ( In case of \nutility bills)\nFrom \nTo\nE. Date of Effect : _____________________\nI hereby declare that the Bank Account particulars given above are correct and complete. If the transaction is delayed or not ef - \nfected at all for reasons of incomplete or incorrect information, I would not hold the user institution responsible. I have read the \noption invitation letter and agree to discharge the responsibility expected of me as a participant under the scheme\nDate : _____________________\n(*Please affix a rubber stamp in case of companies, proprietorships, partnerships etc.)\nCertified that the Bank Account particulars furnished above are correct as per our records & we have updated our records.\n(Bank's Stamp)\nSignature of the Authorized Official from the Bank\nNote :- Mandate to be obtained in 3 Copies, Original for Bank, One for User Co and other for customer)\nS 5\nCustomer Signature\n",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": [
+        {
+          "page": 13,
+          "table_index": 1,
+          "bbox": [
+            56.87,
+            292.06,
+            572.04,
+            446.23
+          ],
+          "row_count": 4,
+          "col_count": 3,
+          "columns": [
+            "A",
+            "Name of the Account holder\n(as appearing in the Bank\nStatement)",
+            ""
+          ],
+          "rows": [
+            [
+              "A",
+              "Name of the Account holder\n(as appearing in the Bank\nStatement)",
+              ""
+            ],
+            [
+              "B",
+              "9-Digit Code Number of Bank &\nBranch (Appearing on the MICR\ncheque issued by the bank)",
+              ""
+            ],
+            [
+              "C",
+              "Account Type",
+              "Savings Bank Account / Current or Cash Credit"
+            ],
+            [
+              "D",
+              "Account No",
+              ""
+            ]
+          ]
+        },
+        {
+          "page": 13,
+          "table_index": 2,
+          "bbox": [
+            56.87,
+            475.88,
+            572.04,
+            582.62
+          ],
+          "row_count": 5,
+          "col_count": 6,
+          "columns": [
+            "Name of the Scheme\n(PRODUCT)",
+            "Date of Effect",
+            "",
+            "Periodicity\n(M / Bim / Qly / etc.)",
+            "Amount of Install-\nment/ Amount of Bill\nwith upper limit",
+            "Number of Installment /\nvalid up to ( In case of\nutility bills)"
+          ],
+          "rows": [
+            [
+              "Name of the Scheme\n(PRODUCT)",
+              "Date of Effect",
+              "",
+              "Periodicity\n(M / Bim / Qly / etc.)",
+              "Amount of Install-\nment/ Amount of Bill\nwith upper limit",
+              "Number of Installment /\nvalid up to ( In case of\nutility bills)"
+            ],
+            [
+              "",
+              "From",
+              "To",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "text": "e\\\"’&\n",
+      "source": "ocr",
+      "quality": "BAD",
+      "ocr_used": true,
+      "ocr_confidence": 29.0,
+      "ocr_language": "eng",
+      "detected_script": null,
+      "is_empty": false,
+      "tables": []
+    },
+    {
+      "page": 15,
+      "text": "Page 13 of 14\nMANDATE FORM\nUSER CODE :\nBenef Ref No :\nELECTRONIC CLEARING SERVICE (DEBIT CLEARING)\nThe Manager\n(Bank Name) \n(Branch Name) \n(Address)\nTelephone No\nI hereby authorize you to debit my account for making payment to HDFC BANK LIMITED through ECS (Debit) clearing as per \nthe details given as under :\nName of the Account holder \n(as appearing in the Bank \nStatement)\nA\nB\n9-Digit Code Number of Bank & \nBranch (Appearing on the MICR \ncheque issued by the bank)\nC\nAccount Type\nD\nAccount No\nSavings Bank Account   /  Current or Cash Credit\n(Please attach the photocopy of a cheque or a blank cancelled  cheque issued by your bank for verifying the accuracy of the \nMICR Code, Transaction Code, A/C No and Signature.)\nName of the Scheme\n(PRODUCT)\nDate of Effect\nPeriodicity\n(M / Bim / Qly / etc.)\nAmount of Install- \nment/ Amount of Bill \nwith upper limit\nNumber of installment / \nvalid up to ( In case of \nutility bills)\nFrom \nTo\nE. Date of Effect : _____________________\nI hereby declare that the Bank Account particulars given above are correct and complete. If the transaction is delayed or not ef - \nfected at all for reasons of incomplete or incorrect information, I would not hold the user institution responsible. I have read the \noption invitation letter and agree to discharge the responsibility expected of me as a participant under the scheme\nDate : _____________________\n(*Please affix a rubber stamp in case of companies, proprietorships, partnerships etc.)\nCertified that the Bank Account particulars furnished above are correct as per our records & we have updated our records.\n(Bank's Stamp)\nSignature of the Authorized Official from the Bank\nNote :- Mandate to be obtained in 3 Copies, Original for Bank, One for User Co and other for customer)\nS 6\nCustomer Signature\n",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": [
+        {
+          "page": 15,
+          "table_index": 1,
+          "bbox": [
+            59.42,
+            314.21,
+            574.16,
+            467.79
+          ],
+          "row_count": 4,
+          "col_count": 3,
+          "columns": [
+            "A",
+            "Name of the Account holder\n(as appearing in the Bank\nStatement)",
+            ""
+          ],
+          "rows": [
+            [
+              "A",
+              "Name of the Account holder\n(as appearing in the Bank\nStatement)",
+              ""
+            ],
+            [
+              "B",
+              "9-Digit Code Number of Bank &\nBranch (Appearing on the MICR\ncheque issued by the bank)",
+              ""
+            ],
+            [
+              "C",
+              "Account Type",
+              "Savings Bank Account / Current or Cash Credit"
+            ],
+            [
+              "D",
+              "Account No",
+              ""
+            ]
+          ]
+        },
+        {
+          "page": 15,
+          "table_index": 2,
+          "bbox": [
+            59.42,
+            497.32,
+            574.16,
+            603.64
+          ],
+          "row_count": 5,
+          "col_count": 6,
+          "columns": [
+            "Name of the Scheme\n(PRODUCT)",
+            "Date of Effect",
+            "",
+            "Periodicity\n(M / Bim / Qly / etc.)",
+            "Amount of Install-\nment/ Amount of Bill\nwith upper limit",
+            "Number of installment /\nvalid up to ( In case of\nutility bills)"
+          ],
+          "rows": [
+            [
+              "Name of the Scheme\n(PRODUCT)",
+              "Date of Effect",
+              "",
+              "Periodicity\n(M / Bim / Qly / etc.)",
+              "Amount of Install-\nment/ Amount of Bill\nwith upper limit",
+              "Number of installment /\nvalid up to ( In case of\nutility bills)"
+            ],
+            [
+              "",
+              "From",
+              "To",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page": 16,
+      "text": "Page 14 of 14\nDate : _____________________\nTo,\nThe Bank Manager.\nBank Name\nBranch Name\nAddress\nCity\nPincode\nSub : Authorization letter for verification of account  details\ntowards  submission of ECS Mandate form\nSir,\nI / We hereby authorize bearer of this letter to validate the credentials ( Name of Account Holder, Account No., Account \ntype, Signature etc., ) furnished to HDFC Bank Limited regarding my/our account in your branch.\nI / We hereby authorize the bank to debit my Bank Account No. ___________________________________towards\ncharges for ECS Mandate verification if any applicable.\nThanking you,\nYours truly,\nName of Account Holder(s)\nSignature of Account Holder(s)\nAddress :\nCity\nPincode\nLanmark\nTel No.(Res)\n(Off)\nS 7\n",
+      "source": "text_layer",
+      "quality": "GOOD",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "ocr_language": null,
+      "detected_script": null,
+      "is_empty": false,
+      "tables": [
+        {
+          "page": 16,
+          "table_index": 1,
+          "bbox": [
+            83.88,
+            485.58,
+            557.88,
+            575.58
+          ],
+          "row_count": 1,
+          "col_count": 2,
+          "columns": [
+            "7\nName of Account Holder(s)",
+            "Signature of Account Holder(s)"
+          ],
+          "rows": [
+            [
+              "7\nName of Account Holder(s)",
+              "Signature of Account Holder(s)"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "page": 2,
+      "table_index": 1,
+      "bbox": [
+        64.94,
+        136.19,
+        567.78,
+        283.3
+      ],
+      "row_count": 5,
+      "col_count": 2,
+      "columns": [
+        "Particular",
+        "Signature"
+      ],
+      "rows": [
+        [
+          "Particular",
+          "Signature"
+        ],
+        [
+          "LoanTerms and Conditions/ Schedule",
+          "S1"
+        ],
+        [
+          "Post Dated Cheque (PDC)Acknowledgement Letter",
+          "S2"
+        ],
+        [
+          "Customer SI Debit Authorization Form",
+          "S3"
+        ],
+        [
+          "Electronic Clearing Service (ECS) Mandate Forms",
+          "S4-S7"
+        ]
+      ]
+    },
+    {
+      "page": 7,
+      "table_index": 1,
+      "bbox": [
+        55.25,
+        129.32,
+        492.76,
+        775.76
+      ],
+      "row_count": 39,
+      "col_count": 14,
+      "columns": [
+        "",
+        "",
+        "SCHEDULE-CUM-KEY FACT STATEMENT",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "SCHEDULE-CUM-KEY FACT STATEMENT",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Lo",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "an Account No",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Plac",
+          "",
+          "e of signing",
+          "",
+          "",
+          ""
+        ],
+        [
+          "D\n(D",
+          "ate of Signing",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "D / MM /YYYY)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Bank Branch",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "N",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "ame of the Borrower :",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "N",
+          "ame of the Co-Borrowe",
+          "",
+          "",
+          "",
+          "r :",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "LOAN DETAIL",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Lo",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "an Amount",
+          "",
+          "Rs.",
+          "",
+          "",
+          "",
+          "",
+          "L",
+          "oan Tenor",
+          "",
+          "Months",
+          "",
+          ""
+        ],
+        [
+          "In\nFr",
+          "stallment\nequency",
+          "",
+          "Monthly",
+          "",
+          "",
+          "",
+          "",
+          "E\n(",
+          "MI Scheme\nAdvance / Arrears)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "In\n(m\n(F",
+          "terest Rate\nonthly reducing)\nixed Rate)",
+          "",
+          "% Per Annum",
+          "",
+          "",
+          "",
+          "",
+          "E",
+          "MI Start Date",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "E",
+          "MI End Date",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Ad",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "vance EMI (No's)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "A",
+          "dvance EMI Amoun",
+          "",
+          "t Rs.",
+          "",
+          ""
+        ],
+        [
+          "E",
+          "MI (No's)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "E",
+          "MI Amount",
+          "",
+          "Rs.",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "C",
+          "HARGES",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "(All charges are non-refundable & applicable post disbursement of loan)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Pr\nC",
+          "ocessing",
+          "",
+          "Rs.",
+          "",
+          "",
+          "",
+          "Service Tax on Processing Charges :-",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "harges (Amount)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "As specified by Government of India",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "C\n55\nto\nre",
+          "heque / ECS / SI Return Charges: Rs",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "0/- (+) Service tax. (without prejudice\nBank’s civil and criminal rights and\nmedies)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Cheque/ECS/ SI\nSwapping Charges",
+          "",
+          "",
+          "",
+          "Rs. 500/-",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Ta\nor",
+          "xes: At actuals, applicable presently",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Date on which annual outstanding\nbalance statement will be issued :-\n31st May",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "in future",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "D\n(fo\nPr",
+          "efault Interest/ Late Payment charges\nr the over- due period on EMI /",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Loan Cancellation Charges: NIL\nNote: Interest would be charged for the\ninterim period between date of\ndisbursement & date of loan cancellation",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "incipal overdue) :- 2% per month",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Lo\n7-\n>\nN\nall",
+          "an Prepayment Charges: (Mentioned as p",
+          "",
+          "",
+          "",
+          "",
+          "ercentage of Outstanding Balance)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "24 Months of EMI repayment: 4%; 25 - 36\n36 Months of EMI repayment : 2%\note: Prepayment not allowed prior to\nowed.Service tax as applicable, would be",
+          "",
+          "",
+          "",
+          "",
+          "Months of EMI repayment: 3%\npayment of 6 EMI. Part Prepayment not\ncharged additionally",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "CI",
+          "BIL Report Copy Charges : - Rs.50/-",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Legal Collection & Incidental Charges :\nAt Actuals",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "O\npe\nby",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "ther Charges, commissions, fees:- As\nr Application or as may be specified",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Stamp Duty & Other Statutory Charges :-\nAs per applicable laws of the State",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "the Bank",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "D\nC",
+          "etails of Security/\nollateral",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 7,
+      "table_index": 2,
+      "bbox": [
+        508.43,
+        129.32,
+        588.27,
+        775.76
+      ],
+      "row_count": 1,
+      "col_count": 2,
+      "columns": [
+        "_________________________________________ ______________________________________________ Borrower/ Authorised Signatory of the Borrower Co-Borrower(s)/ Aithorised Signatory of the Co-Borrower Name and Designation Name and Designation Signed and Delivered by/ for and on behalf of the Borrower & Co-Borrower(s) in token of and in witness of them having read (and/or being explained), verified, understood, irrevocably agreed to, accepted, confirmed and declared all the clauses viz. 1 to 19 on all the page no’s 1 to4 of the ‘Terms and Conditions of Business Loan’ document, the Schedule, all contents thereof including all the terms and conditions contained therein, and authenticated accuracy and correctness of the same.",
+        ""
+      ],
+      "rows": [
+        [
+          "_________________________________________ ______________________________________________ Borrower/ Authorised Signatory of the Borrower Co-Borrower(s)/ Aithorised Signatory of the Co-Borrower Name and Designation Name and Designation Signed and Delivered by/ for and on behalf of the Borrower & Co-Borrower(s) in token of and in witness of them having read (and/or being explained), verified, understood, irrevocably agreed to, accepted, confirmed and declared all the clauses viz. 1 to 19 on all the page no’s 1 to4 of the ‘Terms and Conditions of Business Loan’ document, the Schedule, all contents thereof including all the terms and conditions contained therein, and authenticated accuracy and correctness of the same.",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 8,
+      "table_index": 1,
+      "bbox": [
+        64.59,
+        225.9,
+        568.09,
+        292.25
+      ],
+      "row_count": 3,
+      "col_count": 3,
+      "columns": [
+        "Name of Witness",
+        "Address of Witness",
+        "Signature of Witness"
+      ],
+      "rows": [
+        [
+          "Name of Witness",
+          "Address of Witness",
+          "Signature of Witness"
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 9,
+      "table_index": 1,
+      "bbox": [
+        71.27,
+        142.33,
+        558.98,
+        262.69
+      ],
+      "row_count": 5,
+      "col_count": 2,
+      "columns": [
+        "POST DATED",
+        "CHEQUE ACKNOWLEDGEMENT LETTER"
+      ],
+      "rows": [
+        [
+          "Loan Account Number",
+          ""
+        ],
+        [
+          "Name of Borrower",
+          ""
+        ],
+        [
+          "EMI Repayment Mode (Circle the correct\nMode)",
+          "Normal PDC / ECS* / Standing Instructions / Non PDC"
+        ],
+        [
+          "Repayment Instructions provided by (Circle\nthe Correct Option)",
+          "Applicant / Co-applicant"
+        ],
+        [
+          "Co-borrower Name (For Repayment\nInstructions provided by co-borrower)",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 9,
+      "table_index": 2,
+      "bbox": [
+        71.27,
+        286.9,
+        558.98,
+        394.6
+      ],
+      "row_count": 5,
+      "col_count": 2,
+      "columns": [
+        "",
+        "Mention the count of cheque received"
+      ],
+      "rows": [
+        [
+          "Cheque Received",
+          "(A)Cheques Dated (B)Cheques Undated\n(C) Cancelled (*Applicable for ECS mode)\n____________"
+        ],
+        [
+          "",
+          "(A)Filled (B) Blank:"
+        ],
+        [
+          "AccountType",
+          "o o\nSavings Bank Account / Current or Cash Credit"
+        ],
+        [
+          "Cheques Handed over to Mr /Mrs.",
+          ""
+        ],
+        [
+          "Sourcing Channel Name",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 9,
+      "table_index": 3,
+      "bbox": [
+        71.27,
+        404.73,
+        558.98,
+        534.35
+      ],
+      "row_count": 7,
+      "col_count": 10,
+      "columns": [
+        "Drawee Bank",
+        "Bank Account No.",
+        "MICR code",
+        "Cheque\nBranch",
+        "Cheque\nCity",
+        "Cheque No.",
+        "",
+        "Cheque Date",
+        "",
+        "Cheque\nAmount"
+      ],
+      "rows": [
+        [
+          "Drawee Bank",
+          "Bank Account No.",
+          "MICR code",
+          "Cheque\nBranch",
+          "Cheque\nCity",
+          "Cheque No.",
+          "",
+          "Cheque Date",
+          "",
+          "Cheque\nAmount"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "From",
+          "To",
+          "From",
+          "To",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 9,
+      "table_index": 4,
+      "bbox": [
+        192.83,
+        619.14,
+        558.98,
+        695.41
+      ],
+      "row_count": 2,
+      "col_count": 3,
+      "columns": [
+        "Customer Name",
+        "Customer Signature SS",
+        ""
+      ],
+      "rows": [
+        [
+          "Customer Name",
+          "Customer Signature SS",
+          ""
+        ],
+        [
+          "",
+          "",
+          "SS"
+        ]
+      ]
+    },
+    {
+      "page": 9,
+      "table_index": 5,
+      "bbox": [
+        71.27,
+        737.03,
+        558.98,
+        823.13
+      ],
+      "row_count": 3,
+      "col_count": 4,
+      "columns": [
+        "",
+        "Sales Executive of DSA/DDSA",
+        "Bank Staff",
+        "CPU Staff"
+      ],
+      "rows": [
+        [
+          "",
+          "Sales Executive of DSA/DDSA",
+          "Bank Staff",
+          "CPU Staff"
+        ],
+        [
+          "Signature",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Name",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 10,
+      "table_index": 1,
+      "bbox": [
+        82.48,
+        591.99,
+        436.09,
+        683.13
+      ],
+      "row_count": 1,
+      "col_count": 2,
+      "columns": [
+        "stomer /Account Holder Name",
+        "Customer /Account Holder Signature"
+      ],
+      "rows": [
+        [
+          "stomer /Account Holder Name",
+          "Customer /Account Holder Signature"
+        ]
+      ]
+    },
+    {
+      "page": 11,
+      "table_index": 1,
+      "bbox": [
+        306.37,
+        58.89,
+        512.61,
+        92.07
+      ],
+      "row_count": 1,
+      "col_count": 4,
+      "columns": [
+        "SC9 2 5 9 4 0 0 0 1",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "SC9 2 5 9 4 0 0 0 1",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 11,
+      "table_index": 2,
+      "bbox": [
+        541.21,
+        58.89,
+        581.01,
+        68.34
+      ],
+      "row_count": 1,
+      "col_count": 3,
+      "columns": [
+        "",
+        "",
+        "9/"
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "9/"
+        ]
+      ]
+    },
+    {
+      "page": 11,
+      "table_index": 3,
+      "bbox": [
+        49.28,
+        320.21,
+        581.01,
+        479.93
+      ],
+      "row_count": 4,
+      "col_count": 3,
+      "columns": [
+        "A",
+        "Name of the Account holder\n(as appearing in the Bank\nState- ment)",
+        ""
+      ],
+      "rows": [
+        [
+          "A",
+          "Name of the Account holder\n(as appearing in the Bank\nState- ment)",
+          ""
+        ],
+        [
+          "B",
+          "9-Digit Code Number of Bank &\nBranch (Appearing on the MICR\ncheque issued by the bank)",
+          ""
+        ],
+        [
+          "C",
+          "Account Type",
+          "Savings Bank Account / Current or Cash Credit"
+        ],
+        [
+          "D",
+          "Account No",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 11,
+      "table_index": 4,
+      "bbox": [
+        49.28,
+        516.79,
+        581.01,
+        627.37
+      ],
+      "row_count": 5,
+      "col_count": 6,
+      "columns": [
+        "Name of the Scheme\n(PRODUCT)",
+        "Date of Effect",
+        "",
+        "Periodicity\n(M / Bim / Qly / etc.)",
+        "Amount of Install-\nment/ Amount of Bill\nwith upper limit",
+        "Number of Installments\n/ valid up to ( In case of\nutility bills)"
+      ],
+      "rows": [
+        [
+          "Name of the Scheme\n(PRODUCT)",
+          "Date of Effect",
+          "",
+          "Periodicity\n(M / Bim / Qly / etc.)",
+          "Amount of Install-\nment/ Amount of Bill\nwith upper limit",
+          "Number of Installments\n/ valid up to ( In case of\nutility bills)"
+        ],
+        [
+          "",
+          "From",
+          "To",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 13,
+      "table_index": 1,
+      "bbox": [
+        56.87,
+        292.06,
+        572.04,
+        446.23
+      ],
+      "row_count": 4,
+      "col_count": 3,
+      "columns": [
+        "A",
+        "Name of the Account holder\n(as appearing in the Bank\nStatement)",
+        ""
+      ],
+      "rows": [
+        [
+          "A",
+          "Name of the Account holder\n(as appearing in the Bank\nStatement)",
+          ""
+        ],
+        [
+          "B",
+          "9-Digit Code Number of Bank &\nBranch (Appearing on the MICR\ncheque issued by the bank)",
+          ""
+        ],
+        [
+          "C",
+          "Account Type",
+          "Savings Bank Account / Current or Cash Credit"
+        ],
+        [
+          "D",
+          "Account No",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 13,
+      "table_index": 2,
+      "bbox": [
+        56.87,
+        475.88,
+        572.04,
+        582.62
+      ],
+      "row_count": 5,
+      "col_count": 6,
+      "columns": [
+        "Name of the Scheme\n(PRODUCT)",
+        "Date of Effect",
+        "",
+        "Periodicity\n(M / Bim / Qly / etc.)",
+        "Amount of Install-\nment/ Amount of Bill\nwith upper limit",
+        "Number of Installment /\nvalid up to ( In case of\nutility bills)"
+      ],
+      "rows": [
+        [
+          "Name of the Scheme\n(PRODUCT)",
+          "Date of Effect",
+          "",
+          "Periodicity\n(M / Bim / Qly / etc.)",
+          "Amount of Install-\nment/ Amount of Bill\nwith upper limit",
+          "Number of Installment /\nvalid up to ( In case of\nutility bills)"
+        ],
+        [
+          "",
+          "From",
+          "To",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 15,
+      "table_index": 1,
+      "bbox": [
+        59.42,
+        314.21,
+        574.16,
+        467.79
+      ],
+      "row_count": 4,
+      "col_count": 3,
+      "columns": [
+        "A",
+        "Name of the Account holder\n(as appearing in the Bank\nStatement)",
+        ""
+      ],
+      "rows": [
+        [
+          "A",
+          "Name of the Account holder\n(as appearing in the Bank\nStatement)",
+          ""
+        ],
+        [
+          "B",
+          "9-Digit Code Number of Bank &\nBranch (Appearing on the MICR\ncheque issued by the bank)",
+          ""
+        ],
+        [
+          "C",
+          "Account Type",
+          "Savings Bank Account / Current or Cash Credit"
+        ],
+        [
+          "D",
+          "Account No",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 15,
+      "table_index": 2,
+      "bbox": [
+        59.42,
+        497.32,
+        574.16,
+        603.64
+      ],
+      "row_count": 5,
+      "col_count": 6,
+      "columns": [
+        "Name of the Scheme\n(PRODUCT)",
+        "Date of Effect",
+        "",
+        "Periodicity\n(M / Bim / Qly / etc.)",
+        "Amount of Install-\nment/ Amount of Bill\nwith upper limit",
+        "Number of installment /\nvalid up to ( In case of\nutility bills)"
+      ],
+      "rows": [
+        [
+          "Name of the Scheme\n(PRODUCT)",
+          "Date of Effect",
+          "",
+          "Periodicity\n(M / Bim / Qly / etc.)",
+          "Amount of Install-\nment/ Amount of Bill\nwith upper limit",
+          "Number of installment /\nvalid up to ( In case of\nutility bills)"
+        ],
+        [
+          "",
+          "From",
+          "To",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 16,
+      "table_index": 1,
+      "bbox": [
+        83.88,
+        485.58,
+        557.88,
+        575.58
+      ],
+      "row_count": 1,
+      "col_count": 2,
+      "columns": [
+        "7\nName of Account Holder(s)",
+        "Signature of Account Holder(s)"
+      ],
+      "rows": [
+        [
+          "7\nName of Account Holder(s)",
+          "Signature of Account Holder(s)"
+        ]
+      ]
+    }
+  ]
+}

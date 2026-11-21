@@ -1,0 +1,73 @@
+# Stage 3a Key-Information Extraction Configuration
+# Schema follows docs/labeling_guideline.md (16 Key Fields).
+
+model_role: "main"
+temperature: 0.0
+max_doc_chars_for_whole_doc: 300000
+max_calls_per_doc: 16
+retry_on_invalid_json: 1
+retrieval_top_k_per_field: 6
+
+# Stage 3a-fix2 quote repair settings
+quote_repair_enabled: true
+quote_repair_min_similarity: 95.0
+quote_repair_max_chars: 400
+
+# Fields where numeric values (amounts, rates, fees, dates/schedules) are checked with check_numbers
+numeric_fields:
+  - loan_or_commitment_amount
+  - interest_rate
+  - repayment_terms
+  - maturity_termination_date
+  - fees
+  - late_payment_or_default_interest
+
+fields:
+  - name: document_title
+    description: "Official title or heading of the loan agreement, credit agreement, or MITC document."
+    query_hint: "title agreement MITC credit loan facility"
+  - name: agreement_date
+    description: "Execution, effective, or publication/revision date of this document (not historical recitals)."
+    query_hint: "dated as of effective date agreement made execution date"
+  - name: borrowers
+    description: "Named borrower entity or entities obligated to repay the facility."
+    query_hint: "borrower borrowers obligor applicant customer"
+  - name: lenders
+    description: "Named lender, bank, housing finance company, or lending institution providing the loan."
+    query_hint: "lender lenders bank financial institution Schedule I"
+  - name: agents
+    description: "Administrative, collateral, or facility agent named in the agreement (if any; otherwise not found)."
+    query_hint: "administrative agent collateral agent facility agent agent"
+  - name: loan_or_commitment_amount
+    description: "Total principal loan amount, credit limit, or commitment amount with currency and caps if stated."
+    query_hint: "commitment amount principal loan limit dollars rupees INR USD"
+  - name: interest_rate
+    description: "Stated fixed/floating interest rate, benchmark plus spread/margin, reset frequency, or rate deferral."
+    query_hint: "interest rate fixed floating benchmark spread margin repo EBLR ROI per annum"
+  - name: repayment_terms
+    description: "Scheduled repayment structure, EMI/installment schedule, amortization, or maturity payment terms."
+    query_hint: "repayment EMI installment principal interest payment schedule amortize"
+  - name: maturity_termination_date
+    description: "Explicit scheduled maturity date, expiration date, commitment termination date, or numeric loan tenure (not vague 'term of the Note' alone)."
+    query_hint: "maturity date termination date expiration date tenure years months"
+  - name: fees
+    description: "Processing, commitment, facility, documentation, legal, valuation, or administrative fees and charges."
+    query_hint: "fee fees processing commitment facility documentation charges stamp duty"
+  - name: late_payment_or_default_interest
+    description: "Explicit default interest rate, penal interest, or late/overdue payment charge/fee (not general payment-default Events of Default clauses)."
+    query_hint: "default rate overdue late payment penal interest bounce cheque ECS penalty"
+  - name: prepayment_terms
+    description: "Explicit optional/mandatory prepayment rights, early foreclosure rules, notice requirements, and prepayment penalties (not ordinary revolving borrow/repay clauses)."
+    query_hint: "prepayment foreclosure prepay part payment early closure lock-in charges"
+  - name: collateral_security
+    description: "Pledged assets, mortgage, lien, hypothecation, security agreement, or credit support securing the loan."
+    query_hint: "collateral security mortgage pledge lien hypothecation security interest"
+  - name: guarantees
+    description: "Named guarantors or guarantee obligations supporting the borrower's repayment."
+    query_hint: "guarantor guarantee guaranty surety guaranteed obligations"
+  - name: events_of_default
+    description: "Events triggering default, cure periods, cross-default thresholds, and lender acceleration/remedies."
+    query_hint: "events of default failure to pay cure period insolvency acceleration remedies"
+  - name: governing_law
+    description: "State, country, or jurisdiction laws governing the interpretation and enforcement of the document."
+    query_hint: "governing law jurisdiction construed laws of state India court"

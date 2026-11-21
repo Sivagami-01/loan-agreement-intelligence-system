@@ -1,0 +1,422 @@
+﻿doc_id,clause_id,page,category,severity,clause_text,rationale,reviewer_verdict
+000105/1052667/0000912057-00-028795_20.txt,C0164,36,Termination,Critical,"then the Lenders' obligation to make any Advance available shall cease and the
+Administrative Agent on the instructions of the Majority Lenders may, by notice
+to the Borrower, declare the entire unpaid balance of the then outstanding
+Advances, accrued interest and any other sums payable by the Borrower hereunder
+or under the Note due and payable, whereupon the same shall forthwith be due and
+payable without presentment, demand, protest or notice of any kind, all of which
+are hereby expressly waived; provided that upon the happening of an event
+specified in subsections (i) or (l) of this Section 8.1 with respect to the
+Borrower, the Note shall be immediately due and payable without declaration or
+other notice to the Borrower.",Grants lenders the right to terminate commitments and automatically accelerates all outstanding debt immediately upon bankruptcy events without notice.,
+000103/1039213/0000912057-97-018811_19.txt,C0041,7,Covenants,High,"(d)  The Borrower indemnifies and excuses the Bank (including its
+     officers, employees, and agents) from all liability, loss, and costs in
+     connection with any act resulting from telephone or telefax instructions it
+     reasonably believes are made by any individual authorized by the Borrower
+     to give such instructions, or, in the case of instructions authorized to be
+     given by Heublein, by an individual authorized by Heublein to give such
+     instructions.  This indemnity and excuse will survive this Agreement's
+     termination.
+
+               (e)  Advances will be deposited in and repayments will be
+     withdrawn from the Borrower's account number 14989-00792.
+
+          4.4. DIRECT DEBIT (PRE-BILLING).",The clause imposes a broad survivor indemnification obligation on the borrower.,
+000103/1039213/0000912057-97-018811_19.txt,C0089,14,Covenants,High,"The Borrower will indemnify and hold harmless the Bank from any loss
+or liability directly or indirectly arising out of the use, generation,
+manufacture, production, storage, release, threatened release, discharge,
+disposal or presence of a hazardous substance.  This indemnity will apply
+whether the hazardous substance is on, under or about the Borrower's property or
+operations or property leased to or operated by the Borrower.  The indemnity
+includes but is not limited to attorneys' fees (including the reasonable
+estimate of the allocated cost of in-house counsel and staff).  The indemnity
+extends to the Bank, its parent, subsidiaries and all of their directors,
+officers, employees, agents, successors, attorneys and assigns.
+
+
+                                          14 ""Hazardous substance"" means any substance, material or waste that is or becomes
+designated or regulated as ""toxic,"" ""hazardous,"" ""pollutant,"" or ""contaminant""
+or a similar designation or regulation under any federal, state or local law
+(whether under common law, statute, regulation or otherwise) or judicial or
+administrative interpretation of such, including, without limitation, petroleum
+or natural gas.  This indemnity will survive repayment of the Borrower's
+obligations to the Bank.",Imposes a broad borrower indemnification obligation covering hazardous substances and surviving repayment.,
+000103/1039213/0000912057-97-018811_19.txt,C0120,20,Penalties and charges,High,"10.7. ATTORNEYS' FEES.  The Borrower shall reimburse the Bank for any
+reasonable costs and attorneys' fees incurred by the Bank in connection with the
+enforcement or preservation of any rights or remedies under this Agreement, the
+Letter of Credit and any other documents executed in connection with this
+Agreement, and including any amendment, waiver, ""workout"" or restructuring under
+this Agreement.  In the event of a lawsuit or arbitration proceeding, the
+prevailing party is entitled to recover costs and reasonable attorneys' fees
+incurred in connection with the lawsuit or arbitration proceeding, as determined
+by the court or arbitrator.  In the event that any case is commenced by or
+against the Borrower under the Bankruptcy Code (Title 11, United States Code) or
+any similar or successor statute, the Bank is entitled to recover costs and
+reasonable attorneys' fees incurred by the Bank related to the preservation,
+
+
+                                          20 protection, or enforcement of any rights of the Bank in such a case.  As used in
+this paragraph, ""attorneys' fees"" includes the allocated costs of the Bank's
+in-house counsel.","Requires the borrower to reimburse the bank for broad enforcement, restructuring, and legal costs.",
+000103/1039213/0000912057-97-018811_19.txt,C0123,21,Covenants,High,"10.9. INDEMNIFICATION.  The Borrower will indemnify and hold the Bank
+harmless from any loss, liability, damages, judgments, and costs of any kind
+relating to or arising directly or indirectly out of (a) this Agreement, any
+document required hereunder or the transactions contemplated hereby or thereby,
+(b) any credit extended or committed by the Bank to the Borrower hereunder, and
+(c) any litigation or proceeding related to or arising out of this Agreement,
+any such document, or any such credit.  This indemnity includes but is not
+limited to reasonable attorneys' fees (including the allocated cost of in-house
+counsel).  This indemnity extends to the Bank, its parent, subsidiaries and all
+of their directors, officers, employees, agents, successors, attorneys, and
+assigns.  This indemnity will survive repayment of the Borrower's obligations to
+the Bank.  All sums due to the Bank hereunder shall be obligations of the
+Borrower, due and payable immediately without demand.",Imposes a broad borrower indemnification obligation that survives repayment of the obligations.,
+000105/1052667/0000912057-00-028795_20.txt,C0041,9,Default conditions,High,"""Banking Day(s)""                                means day(s) on which banks are open for the
+                                                transaction of business in London, England, New York, New
+                                                York and Rotterdam, The Netherlands;
+
+""Builder""                                       AMFELS, Inc., a Texas corporation;
+</TABLE>
+
+
+
+                                       2 <TABLE>
+<S>                                             <C>
+""Change of Control""                             means (a) any ""person"" (as such term is used in Sections 13(d)
+                                                and 14(d) of the Exchange Act) (other than SEACOR Offshore Rigs
+                                                Inc. or its Affiliates) becomes the beneficial owner (as defined
+                                                in Rules 13d-3 and 13d-5 under the Exchange Act), directly or
+                                                indirectly, of more than 45% of the total voting power of the
+                                                Borrower or (b) the Management Committee of the Borrower ceases
+                                                to consist of a majority of the existing managers as of the date
+                                                of this Agreement or managers elected by such existing managers;",This clause defines Change of Control default triggers involving voting power thresholds and management changes.,
+000105/1052667/0000912057-00-028795_20.txt,C0125,28,Collateral,High,"(iv)       the First Unit is insured in accordance
+                                       with the provisions of the Mortgage on it
+                                       and the requirements thereof in respect
+                                       of such insurances have been complied
+                                       with;
+
+                  (c) the Borrower shall have duly executed and delivered this
+Agreement and the Note;
+
+                  (d) the Guarantor owning the First Unit shall have duly
+executed and delivered:
+
+                             (i)       its Guaranty;
+
+                            (ii)       the Mortgage over its Unit;
+
+                           (iii)       an Insurances Assignment with respect to
+                                       its Unit;
+
+                            (iv)       an Earnings Assignment with respect to
+                                       its Unit;","Conditions precedent requiring multiple security documents, mortgages, and assignments.",
+000105/1052667/0000912057-00-028795_20.txt,C0132,29,Collateral,High,"(j) the Administrative Agent shall have received evidence
+satisfactory to the Arrangers and to their legal advisor that, save for the
+liens created by the Mortgages and the Assignments, there are no liens, charges
+or encumbrances of any kind whatsoever on any of the Units or on their
+respective earnings except as permitted hereby or by any of the Security
+Documents;",Condition requiring evidence that collateral units are free of unauthorized liens or encumbrances.,
+000105/1052667/0000912057-00-028795_20.txt,C0138,30,Penalties and charges,High,"4.3 Breakfunding Costs. In the event that, on any date specified for the making
+of an Advance in any Drawdown Notice, the Lenders shall not be obliged under
+this Agreement to make such Advance available under this Agreement, the Borrower
+shall indemnify and hold the Lenders fully harmless against any losses which the
+Lenders (or any thereof) may sustain as a result of borrowing or agreeing to
+borrow funds to meet the drawdown requirement of such Drawdown Notice and the
+certificate of the relevant Lender or Lenders shall, absent manifest error, be
+conclusive and binding on the Borrower as to the extent of any such losses.",Indemnification requirement for breakfunding losses sustained by lenders.,
+000105/1052667/0000912057-00-028795_20.txt,C0161,35,Default conditions,High,"(j) Termination of Operations; Sale of Assets. Except as
+expressly permitted under this Agreement, any Security Party ceases its
+operations or sells or otherwise disposes of all or substantially all of its
+assets or all or substantially all of the assets of any Security Party are
+seized or otherwise appropriated (subject to the provisions hereof and of the
+Security Documents respecting in rem proceedings); or",Sets a default condition for cessation of operations or sale or seizure of all or substantially all assets.,
+000105/1052667/0000912057-00-028795_20.txt,C0162,35,Default conditions,High,"(k) Judgments. Any judgment or order is made the effect
+whereof would be to render ineffective or invalid this Agreement, the Note, the
+Guaranty or any of the Security Documents; or
+
+
+                                       28 (l) Inability to Pay Debts. Any Security Party is unable to
+pay or admits its inability to pay its debts as they fall due or a moratorium
+shall be declared in respect of any material indebtedness of any Security Party;
+or",Triggers a default if judgments invalidate loan documents or if a security party is unable to pay debts.,
+000105/1052667/0000912057-00-028795_20.txt,C0163,36,Default conditions,High,"(m) Change in Control. A Change of Control shall occur with
+respect to the Borrower;",Triggers an event of default upon the occurrence of a Change in Control with respect to the borrower.,
+000105/1052667/0000912057-00-028795_20.txt,C0166,36,Default conditions,High,"Notwithstanding anything herein to the contrary, upon the
+occurrence of an event which with the giving of notice or the passage of time or
+both would constitute an Event of Default, the Lenders will grant the note
+holders under the Indenture and/or the Borrower a one time only opportunity to
+cure such default expiring on the earlier of (i) the date which is 60 days from
+and after the date on which the Administrative Agent shall give the Trustee and
+the Borrower written notice of such default, and (ii) the Administrative Agent's
+receipt of written notice from the Trustee indicating that such note holders do
+not wish to exercise such cure right; provided, however, that such cure period
+shall not be applicable if (i) the Borrower defaults under any other
+Indebtedness and the holder thereof takes steps to enforce same, (ii) any party
+seeks to enforce any in rem claim against either Unit which is not released
+within five (5) days by posting of
+
+
+                                       29 appropriate security or otherwise, or (iii) the Borrower or either Guarantor
+becomes the subject of a bankruptcy proceeding.",This clause establishes a default cure period along with specific exceptions where the cure right does not apply.,
+000105/1052667/0000912057-00-028795_20.txt,C0167,37,Penalties and charges,High,"8.2 Indemnification. The Borrower agrees to, and shall, indemnify and hold the
+Creditors harmless against any loss, as well as against any costs or expenses
+(including legal fees and expenses), which any of the Creditors sustains or
+incurs as a consequence of any default in payment of the principal amount of the
+Advances, interest accrued thereon or any other amount payable hereunder, under
+the Note, under the Guaranty or under any Security Documents including, but not
+limited to, all actual losses incurred in liquidating or re-employing fixed
+deposits made by third parties or funds acquired to effect or maintain the
+Advances or any portion thereof. Any Lenders' certification of such costs and
+expenses shall, absent any manifest error, be conclusive and binding on the
+Borrower.",This clause requires the borrower to indemnify creditors for losses and expenses resulting from payment defaults.,
+000105/1052667/0000912057-00-028795_20.txt,C0189,41,Collateral,High,"(xii) Delivery of Second Unit.  Contemporaneous
+with the delivery of the Second Unit by the Builder, cause the owner thereof to
+register the same under Panamanian flag in its name and cause such owner, as a
+Guarantor, to execute and deliver:
+
+                           (a) its Guaranty;
+
+                           (b) the Mortgage over its Unit;
+
+                           (c) an Insurances Assignment with respect to its
+                               Unit;
+
+                           (d) an Earnings Assignment with respect to its
+                               Unit;
+
+                           (e) its Assignment Notices; and","Requires the delivery of mortgages, guarantees, and assignments over collateral assets.",
+000105/1052667/0000912057-00-028795_20.txt,C0194,42,Collateral,High,"(i)  Liens.  Create, assume or permit to exist,
+any mortgage, pledge, lien, charge, encumbrance or any security interest
+whatsoever upon any Collateral except:
+
+                             (a)     liens for taxes not yet payable for
+                             which adequate reserves have been
+                             maintained;
+
+                             (b)     the Mortgages, the Assignments and
+                             other liens in favor of the Security
+                             Trustee;",Restricts the creation of liens and encumbrances on collateral assets.,
+000105/1052667/0000912057-00-028795_20.txt,C0199,43,Covenants,High,"(iii)  Sale or Pledge of Membership Interests.
+Sell, assign, transfer, pledge or otherwise convey or dispose of any of the
+direct or indirect membership interests (including by way of spin-off,
+installment sale or otherwise) of any Guarantor;",Restricts the sale or pledge of membership interests in any Guarantor.,
+000105/1052667/0000912057-00-028795_20.txt,C0200,43,Covenants,High,"(iv)  Sale of Assets. Sell, or otherwise dispose
+of, any Unit or any other asset (including way of spin-off, installment sale or
+otherwise) which is substantial in relation to its assets taken as a whole
+including without limitation, any material foreign Subsidiary or foreign assets
+or interest in an Affiliate;","Prohibits the sale or disposal of any substantial unit, asset, or subsidiary.",
+000105/1052667/0000912057-00-028795_20.txt,C0202,43,Covenants,High,"(vi)  Consolidation and Merger.  Consolidate with,
+or merge into, any corporation or other entity, or merge any corporation or
+other entity into it; and",Restricts corporate consolidations and mergers.,
+000105/1052667/0000912057-00-028795_20.txt,C0208,44,Collateral,High,"9.2 Unit Valuation. In the event that the Arrangers shall have determined in
+their sole discretion that the value of the Units shall have materially
+decreased, the Borrower shall obtain, at the Borrower's cost, a valuation of the
+Units, charter-free, in Dollars from an independent shipbroker selected by the
+Arrangers. In the event the
+
+
+                                       37 Borrower fails or refuses to obtain the valuation requested pursuant to this
+Section 9.2 within ten (10) days of the Arrangers' request therefor, the
+Arrangers shall be authorized to obtain such valuation, at the Borrower's cost,
+from an independent shipbroker selected by the Arrangers, which valuation shall
+be deemed the equivalent of valuation duly obtained by the Borrower pursuant to
+this Section 9.2, but the Arrangers' actions in doing so shall not excuse any
+default of the Borrower under this Section 9.2.",Grants the lender authority to obtain a broker valuation at borrower cost if unit value decreases.,
+000105/1052667/0000912057-00-028795_20.txt,C0213,46,Termination,High,"11.1 Illegality. In the event that by reason of any change in any applicable
+law, regulation or regulatory requirement or in the interpretation thereof, a
+Lender has a reasonable basis to conclude that it has become unlawful for any
+Lender to maintain or give effect to its obligations as contemplated by this
+Agreement, such Lender shall inform the Administrative Agent and the Borrower to
+that effect, whereafter the liability of such Lender to make its Commitment
+available shall forthwith cease and the Borrower shall be required either to
+repay to such Lender that portion of the Advances advanced by such Lender
+immediately or, if such Lender so agrees, to repay such portion of the Advances
+to the Lender on the last day of any then current Interest Period in accordance
+with and subject to the provisions of Section 11.5. In any such event, but
+without prejudice to the aforesaid obligations of the Borrower to repay such
+portion of the Advances, the Borrower and the relevant Lender shall negotiate in
+good faith with a view to agreeing on terms for making such portion of the
+Advances available from another jurisdiction or
+
+
+                                       39 otherwise restructuring such portion of the Credit Facility on a basis which is
+not unlawful.",Requires immediate repayment of advances or commitment termination if maintaining the facility becomes unlawful.,
+000105/1052667/0000912057-00-028795_20.txt,C0219,47,Penalties and charges,High,"(b)      the Borrower agrees forthwith upon demand to pay to
+                           such Lender such amount as such Lender certifies to
+                           be necessary to compensate such Lender for such
+                           additional cost or such reduction, provided,
+
+
+                                       40 however, that the foregoing provisions shall not be
+                           applicable in the event that increased costs to the
+                           Lender result from the exercise by the Lender of its
+                           right to assign its rights or obligations under
+                           Section 10.",Requires the borrower to pay compensation demanded by the lender for increased costs or reduced returns.,
+000105/1052667/0000912057-00-028795_20.txt,C0222,48,Penalties and charges,High,"11.5 Compensation for Losses. Where any Advance or a portion thereof is to be
+repaid by the Borrower pursuant to this Section 11, the Borrower agrees
+simultaneously with such repayment to pay to the relevant Lender all accrued
+interest to the date of actual payment on the amount repaid and all other sums
+then payable by the Borrower to the relevant Lender pursuant to this Agreement,
+together with such amounts as may be certified by the relevant Lender to be
+necessary to compensate such Lender for any actual loss, premium or penalties
+incurred or to be incurred thereby on account of funds borrowed to make, fund or
+maintain its Commitment or such portion thereof for the remainder (if any) of
+the then current Interest Period or Periods, if any, but otherwise without
+penalty or premium.
+
+
+                                       41 12.       CURRENCY INDEMNITY",Requires the borrower to pay breakage costs and funding losses upon prepayment.,
+000105/1052667/0000912057-00-028795_20.txt,C0230,50,Penalties and charges,High,"The Borrower agrees, whether or not the transactions hereby
+contemplated are consummated, on demand to pay, or reimburse the Creditors for
+their payment of, the reasonable expenses of the Agents, the Security Trustee,
+the Arrangers and (after the occurrence and during the continuance of an Event
+of Default) the Lenders incident to said transactions (and in connection with
+any supplements, amendments, waivers or consents relating thereto or incurred in
+connection with the enforcement or defense of any of the Agents' (the Security
+Trustee's, the Arrangers' and the Lenders' rights or remedies with respect
+thereto or in the preservation of the Agents', the Security Trustee's, the
+Arrangers' and the Lenders' priorities under the documentation executed and
+delivered in connection therewith), including, without limitation, all
+reasonable costs and expenses of preparation, negotiation, execution and
+administration of this Agreement and the documents referred to herein, the
+reasonable fees and disbursements of the Agent's counsel in connection
+therewith, as well as the reasonable fees and expenses of any independent
+appraisers, surveyors, engineers and other consultants retained by the Agents,
+the Security Trustee or the Arrangers in connection with this transaction, all
+reasonable costs and expenses, if any, in connection with the enforcement of
+this Agreement, the Note, the Guaranty and the Security Documents and stamp and",Obligates the borrower to reimburse broad transaction and enforcement expenses incurred by agents and lenders.,
+000105/1052667/0000912057-00-028795_20.txt,C0231,50,Penalties and charges,High,"other similar taxes, if any, incident to the execution and delivery of the
+documents (including, without limitation, the Note) herein contemplated and to
+hold the Agents, the Security Trustee, the Arrangers and the Lenders free and
+harmless in connection with any liability arising from the nonpayment of any
+such stamp or other similar taxes. Such taxes and, if any, interest and
+penalties related thereto as may become payable after the date hereof shall be
+paid immediately by the Borrower to the Agents, the Security Trustee, the
+Arrangers or the Lenders, as the case may be, when liability therefor is no
+longer contested by such party or parties or reimbursed immediately by the
+Borrower to such party or parties after payment thereof (if the Agents, the
+Security Trustee, the Arrangers or the Lenders, at their sole discretion,
+chooses to make such payment).
+
+
+                                       43 14        APPLICABLE LAW, JURISDICTION AND WAIVER","Requires immediate borrower payment of taxes, penalties, and indemnified liabilities.",
+000105/1052667/0000912057-00-028795_20.txt,C0266,58,Covenants,High,"The Borrower and, by its execution and delivery of the
+Consent and Agreement set forth below, each of the other Security Parties
+jointly and severally agree to indemnify each Creditor, their respective
+successors and assigns, and their respective officers, directors, employees,
+representatives and agents (each an ""Indemnitee"") from, and hold each of them
+harmless against, any and all losses, liabilities, claims, damages, expenses,
+obligations, penalties, actions, judgments, suits, costs or disbursements of any
+kind or nature whatsoever (including, without limitation, the fees and
+disbursements of counsel for such Indemnitee in connection with any
+investigative, administrative or judicial proceeding commenced or threatened,
+whether or not such Indemnitee shall be designated a party thereto) that may at
+any time (including, without limitation, at any time following the payment of
+the obligations of the Borrower hereunder) be imposed on, asserted against or
+incurred by, any Indemnitee as a result of, or arising out of or in any way
+related to or by reason of, (a) any violation by any Security Party (or any
+charterer or other operator of any Unit) of any applicable Environmental Law,
+(b) any Environmental Claim arising out of the management, use, control,
+ownership or operation of property or assets by any Security Party (or, after
+foreclosure, by any Creditor or any of their respective successors or assigns)",Broad borrower indemnification obligation covering potential environmental claims and losses.,
+000105/1052667/0000912057-00-028795_20.txt,C0267,58,Covenants,High,"and (3) the breach of any representation, warranty or covenant set forth in
+Sections 2.1 (o) or 9.1A.(x). The foregoing indemnity shall not apply to any
+claim, including, without limitation, Environmental Claims, arising out of the
+operation of the Unit by any Creditor or any agent or contractor thereof. If and
+to the extent that the obligations of the Security Parties under this Section
+are unenforceable for any reason, the Borrower and, by its execution and
+delivery of the Consent and Agreement set forth below, each of the other
+Security Parties jointly and severally agree to make the maximum contribution to
+the payment and satisfaction of such obligations which is permissible under
+applicable law. The obligations of the Security Parties under this Section 17.7
+shall survive the termination of this Agreement and the repayment to the
+Creditors of all amounts owing thereto under or in connection herewith.",Continuation of broad borrower indemnification and contribution obligations surviving agreement termination.,
+11_gichfindia_MOST-IMPORTANT-TERMS-1,C0020,2,Penalties and charges,High,"2.11. Custody / Handling Charges for security documents: Rs._____ /- (Plus applicable 
+taxes). 
+2.12. Recovery Charges Default installments:  
+2.12.1. For 1 -  2 months 
+ 
+- Rs.____/- 
+2.12.2. For 3 - 12 months 
+ 
+- Rs. ____/- (4 % of Total Due including Penal 
+Interest). 
+2.12.3. For 13 – 24 months 
+- Rs. ____/- (6 % of Total Due including Penal Interest).",Imposes progressive recovery charges and percentage-based fees for delayed installments.,
+000103/1039213/0000912057-97-018811_19.txt,C0013,2,Financial terms,Low,"2.2. LIBOR RATE.  Heublein, on behalf of the Borrower, may elect to
+have all or Portions of the principal balance bear interest at the LIBOR Rate
+plus 0.50 percentage points.  Designation of a LIBOR Rate Portion is subject to
+the following requirements:
+
+
+                                          2 (a)  The interest period during which the LIBOR Rate will be in
+     effect will be one, two, three, four, five, six, seven, eight, nine, ten,
+     eleven, or twelve months.  The first day of the interest period must be a
+     day other than a Saturday or a Sunday on which the Bank is open for
+     business in California, New York and London and dealing in offshore dollars
+     (a ""LIBOR Banking Day"").  The last day of the interest period and the
+     actual number of days during the interest period will be determined by the
+     Bank using the practices of the London inter-bank market.  At the end of
+     any interest period, the interest rate will revert to the rate based on the
+     Reference Rate, unless the Borrower has designated another optional
+     interest rate for the Portion.",Specifies the LIBOR Rate spread of 0.50 percentage points and associated interest period business day rules.,
+000103/1039213/0000912057-97-018811_19.txt,C0038,6,Covenants,Low,"(a)  The Bank may honor telephone or telefax instructions for
+     repayments given by any one of the individuals authorized to sign loan
+     agreements on behalf of the Borrower, or any other individual designated by
+     any one of such authorized signers.  The Borrower will provide written
+     confirmation to the Bank of any telephone or telefax instructions relating
+     to repayment within 10 days.
+
+
+                                          6 (b)  The Borrower irrevocably authorizes the Bank to honor
+     telephone or telefax instructions for the designation of optional interest
+     rates given by any one of the individuals authorized to sign agreements
+     relating to this transaction on behalf of Heublein, or any other individual
+     designated by any one of such authorized signers.",The clause permits telephone or telefax instructions subject to written confirmation.,
+000103/1039213/0000912057-97-018811_19.txt,C0042,7,Repayment,Low,"(a)  The Borrower agrees that the Bank will debit the Borrower's
+     deposit account number 14989-00792 (the ""Designated Account"") on the date
+     each payment of principal and interest from the Borrower becomes due (the
+     ""Due Date"").  If the Due Date is not a banking day, the Designated Account
+     will be debited on the next banking day.",The clause establishes automatic direct debit mechanics for scheduled payments.,
+000103/1039213/0000912057-97-018811_19.txt,C0064,10,Penalties and charges,Low,"5.7. ACKNOWLEDGEMENT AGREEMENT.  An Acknowledgement Agreement
+acceptable to the Bank and executed by Heublein  (the ""Heublein Acknowledgement
+Agreement"").
+
+          5.8. PAYMENT OF FEES.  Payment of all accrued and unpaid expenses
+incurred by the Bank as required by the paragraph entitled ""Reimbursement
+Costs.""",Requires payment of accrued and unpaid expenses incurred by the bank.,
+000103/1039213/0000912057-97-018811_19.txt,C0126,21,Termination,Medium,"10.12. COUNTERPARTS.  This Agreement may be executed in as many
+counterparts as necessary or convenient, and by the different parties on
+separate counterparts each of which, when so executed, shall be deemed an
+original but all such counterparts shall constitute but one and the same
+agreement.
+
+
+                                          21 10.13. COMMITMENT EXPIRATION.  The Bank's commitment to extend credit
+under this Agreement will expire on March 31, 1997, unless this Agreement and
+any documents required by this Agreement have been signed and returned to the
+Bank on or before that date.",Sets standard counterpart execution mechanics and a specific commitment expiration date.,
+000105/1052667/0000912057-00-028795_20.txt,C0037,9,Financial terms,Low,"""Applicable Rate""                               means any rate of interest on the Advances from time to time
+                                                applicable pursuant to Section 6.1;",This clause defines the applicable interest rate reference for advances.,
+000105/1052667/0000912057-00-028795_20.txt,C0053,12,Collateral,Medium,"""Earnings Assignments""                          means assignments in respect of the earnings of
+                                                each Unit from any and all sources to be executed by the
+                                                relevant Guarantor in favor of the Security Trustee pursuant to
+                                                Section 4.1(d) substantially in the form set out in Exhibit 4;",This clause defines earnings assignments executed by guarantors as security.,
+000105/1052667/0000912057-00-028795_20.txt,C0204,44,Covenants,Medium,"(viii)  Limitation on Call of Notes. Exercise its
+right to call the notes issued pursuant to the Indenture.
+
+                       (ix)  Amendment of Indenture.  Make or consent to
+any material amendment, change or modification of the Indenture.
+
+                  C. The Borrower will procure that no Guarantor will:",Restricts calling notes and amending the indenture without permission.,
+11_gichfindia_MOST-IMPORTANT-TERMS-1,C0007,1,Repayment,Low,"2.5. Foreclosure charges : Pre-mature closure of the loan account before the expiry of the 
+term contracted will be permitted as per National Housing Bank (NHB) guideline as follows: 
+2.5.1. Floating (Variable) Rate of Interest Housing  Loan (VRHL):",Introduces statutory prepayment framework guidelines.,
+11_gichfindia_MOST-IMPORTANT-TERMS-1,C0026,3,Collateral,Low,"4.1. Free Property Insurance from any of General Insurance Company (cover is limited to 
+Outstanding Liability of loan). Free Personal Accident Cover from any of General 
+Insurance Company (cover is limited to outstanding liability of loan). Optional loan linked 
+Personal Life Insurance and Accident Cover with any Life Insurance Company. Cover is 
+limited to Outstanding Loan Amount. 
+ 
+5. Conditions for Disbursement of the Loan:",Outlines standard property and personal insurance requirements for the loan.,

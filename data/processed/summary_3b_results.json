@@ -1,0 +1,147 @@
+{
+  "t1": {
+    "passed": true,
+    "msg": "Scanned 451 files; leaks=0"
+  },
+  "t2": {
+    "passed": true,
+    "msg": "9/9 unit checks passed"
+  },
+  "t3": {
+    "passed": true,
+    "msg": "5 docs summarized; all_docs_ok=True; new_calls=0; review_sentences=72",
+    "docs": [
+      {
+        "doc_id": "03_dbs_mitc",
+        "model_used": "gemini-3.5-flash-lite",
+        "short_words": 74,
+        "kept_sentences": 13,
+        "dropped_sentences": 0,
+        "kept_with_cite_share": 1.0,
+        "kept_numbers_total": 0,
+        "kept_numbers_found": 0,
+        "kept_numbers_share": 1.0,
+        "not_found_fields": [
+          "agreement_date",
+          "agents",
+          "loan_or_commitment_amount",
+          "maturity_termination_date",
+          "guarantees",
+          "governing_law"
+        ],
+        "deferred_fields": [
+          "fees"
+        ],
+        "flags": [],
+        "short": "DBS Bank lends to Individual Indian Residents [p. 1]. The loan is secured by gold, gold jewels, and gold ornaments deposited with the bank [p. 1, p. 2]. The interest rate can be a fixed rate or a floating rate linked to the RBI Policy Repo Rate [p. 1]. Repayment is made through bullet repayment or monthly interest [p. 1]. Borrowers agree to pay penal charges for unpaid dues or material breaches [p. 1].",
+        "detailed": "## Parties\nGold Loan is offered only to Individual Indian Residents [p. 1]. The loan agreement is executed between the borrower and DBS Bank [p. 1].\n\n## Money\nNone verified in this document.\n\n## Interest and repayment\nThe interest rate may be a fixed rate of interest as per the loan agreement or a floating rate of interest linked to the RBI Policy Repo Rate which is subject to change from time to time [p. 1]. The borrower will repay the principal and loan together with interest calculated on the principal balance by way of bullet repayment or monthly interest [p. 1].\n\n## Fees and penalties\nIn case any dues remain unpaid on the respective due dates or in case of breach of applicable LTV ratio or margin or any other charges and amount as per terms of the loan agreement, the borrower agrees to pay to DBS Bank penal charges, which will be computed from the date of material breach till cure of the material breach [p. 1].\n\n## Prepayment\nThe borrower may, with the prior approval of DBS Bank, prepay the borrower's dues, in full or in part, subject to such terms as may be stipulated by DBS Bank including payment of pre-payment charges [p. 2].\n\n## Security and guarantees\nThe facility amount, together with interest, charges, costs, penal charges, additional interest, further interest, expenses and other obligations of the borrower under the loan agreement and other financing documents will be secured by the gold, gold jewels, and gold ornaments deposited with DBS Bank [p. 2].\n\n## Default and termination\nEvents of default in terms of the loan agreement include default or breach of loan agreement, default in payment, breach of any loan agreement provision, or any fraud, misrepresentation, or concealment of material facts [p. 2].\n\n## Governing law\nNone verified in this document.\n\n## Not found / defined elsewhere\n- Fees: Defined in another document (not provided; refers to Schedule of Charges) [p.1].\n- Agreement date: Not found in this document.\n- Agents: Not found in this document.\n- Loan or commitment amount: Not found in this document.\n- Maturity termination date: Not found in this document.\n- Guarantees: Not found in this document.\n- Governing law: Not found in this document."
+      },
+      {
+        "doc_id": "13_bajajhousingfinance_MITC-Retail__Secured_and_Unsecured_-Hindi",
+        "model_used": "gemini-3.5-flash-lite",
+        "short_words": 61,
+        "kept_sentences": 13,
+        "dropped_sentences": 0,
+        "kept_with_cite_share": 1.0,
+        "kept_numbers_total": 2,
+        "kept_numbers_found": 2,
+        "kept_numbers_share": 1.0,
+        "not_found_fields": [
+          "agreement_date",
+          "agents",
+          "loan_or_commitment_amount",
+          "maturity_termination_date",
+          "governing_law"
+        ],
+        "deferred_fields": [],
+        "flags": [],
+        "short": "The document is the Most Important Terms and Conditions (MITC) [p.1]. The lender is Bajaj Housing Finance Limited [p.1]. The borrower is the customer detailed in the Sanction Letter and Loan Agreement [p.1]. Borrowers repay the loan through Equated Monthly Instalments (EMIs) within the loan tenure [p.10]. Processing fees are up to 4% of the loan amount plus applicable GST [p.16].",
+        "detailed": "## Parties\nThe lender is Bajaj Housing Finance Limited [p.1]. The borrower or customer is detailed in the Sanction Letter and Loan Agreement [p.1].\n\n## Money\nNone verified in this document.\n\n## Interest and repayment\nThe EMI or Monthly Instalment amount comprises the repayment of the Loan Amount and payment of Interest calculated on the basis of the Interest Rate within the Loan Tenure [p.10].\n\n## Fees and penalties\nProcessing Fees or Commitment Fees are up to 4% of loan amount plus GST as applicable, payable at application once [p.16]. Late Payment Charges (LPC) are calculated daily for each EMI starting from the date of Unpaid or Partially paid EMI till full due EMI amount has been received [p.21].\n\n## Prepayment\nNone verified in this document.\n\n## Security and guarantees\nThe charge created or to be created against the Property or properties offered as security in favour of BHFL and or any other collateral or security is considered as the security of the loan [p.8]. The Security means and includes mortgage, guarantee and any other form of security as deemed fit by BHFL for securing the loan and submitted by the Borrower accordingly [p.8].\n\n## Default and termination\nOn occurrence of any event of default as mentioned in the Loan Agreement and other Loan Documents, all outstanding amounts owed by the Borrower to BHFL shall become payable forthwith [p.10].\n\n## Governing law\nNone verified in this document.\n\n## Not found / defined elsewhere\n- Agreement date: Not found in this document.\n- Agents: Not found in this document.\n- Loan or commitment amount: Not found in this document.\n- Maturity termination date: Not found in this document.\n- Governing law: Not found in this document."
+      },
+      {
+        "doc_id": "0000027430-25-000005_aesohio10qex10120250630q2",
+        "model_used": "gemini-3.5-flash-lite",
+        "short_words": 42,
+        "kept_sentences": 9,
+        "dropped_sentences": 0,
+        "kept_with_cite_share": 1.0,
+        "kept_numbers_total": 4,
+        "kept_numbers_found": 4,
+        "kept_numbers_share": 1.0,
+        "not_found_fields": [
+          "loan_or_commitment_amount",
+          "interest_rate",
+          "repayment_terms",
+          "late_payment_or_default_interest",
+          "prepayment_terms",
+          "collateral_security",
+          "guarantees",
+          "events_of_default"
+        ],
+        "deferred_fields": [],
+        "flags": [],
+        "short": "This First Amendment to Term Loan Agreement is between the borrower and lenders [p.1]. The agreement is dated July 30, 2025 [p.1]. PNC Bank, National Association acts as the administrative agent [p.1]. The term loan maturity date is October 13, 2025 [p.1].",
+        "detailed": "## Parties\nThe parties to the agreement include THE DAYTON POWER & LIGHT COMPANY, doing business as AES Ohio as the Borrower [p.1]. PNC BANK, NATIONAL ASSOCIATION acts as the administrative agent and as a Lender [p.1, p.3].\n\n## Money\nNone verified in this document.\n\n## Interest and repayment\nNone verified in this document.\n\n## Fees and penalties\nThe borrower paid the administrative agent all fees and reasonable costs and expenses for preparing the amendment and related loan documents, including reasonable attorneys' fees [p.2].\n\n## Prepayment\nNone verified in this document.\n\n## Security and guarantees\nNone verified in this document.\n\n## Default and termination\nThe Term Loan Maturity Date is October 13, 2025, subject to potential extension under Section 11.1 [p.1].\n\n## Governing law\nThe amendment is treated as a contract under the laws of the State of New York, ignoring conflict of laws principles [p.2].\n\n## Not found / defined elsewhere\n- Loan or commitment amount: Not found in this document.\n- Interest rate: Not found in this document.\n- Repayment terms: Not found in this document.\n- Late payment or default interest: Not found in this document.\n- Prepayment terms: Not found in this document.\n- Collateral security: Not found in this document.\n- Guarantees: Not found in this document.\n- Events of default: Not found in this document."
+      },
+      {
+        "doc_id": "09_muthoothomefin_MHIL-MITC",
+        "model_used": "gemini-3.5-flash-lite",
+        "short_words": 102,
+        "kept_sentences": 14,
+        "dropped_sentences": 0,
+        "kept_with_cite_share": 1.0,
+        "kept_numbers_total": 5,
+        "kept_numbers_found": 5,
+        "kept_numbers_share": 1.0,
+        "not_found_fields": [
+          "agreement_date",
+          "borrowers",
+          "agents",
+          "loan_or_commitment_amount",
+          "maturity_termination_date",
+          "prepayment_terms",
+          "governing_law"
+        ],
+        "deferred_fields": [],
+        "flags": [],
+        "short": "Muthoot Homefin (India) Ltd. is the lender [p.1]. The interest rate uses the MHIL Retail Prime Lending Rate (RPLR) p.a. plus/minus mark-up/mark-down percentage, calculated on daily reducing balance at monthly rests, with semi-fixed, floating, or fixed rate options [p.1]. Administrative fees are up to 3.5% of the loan amount [p.2]. Penal charges are levied at the rate of 24.00% p.a. on the overdue / defaulted amount, calculated for The period of delay from the due date until the date of actual payment [p.2]. The loan will be secured by way of mortgage of the property mentioned below in favor of MHIL [p.5].",
+        "detailed": "## Parties\nThe lender is Muthoot Homefin (India) Ltd., also called MHIL [p.1].\n\n## Money\nNone verified in this document.\n\n## Interest and repayment\nPresent rate of interest is MHIL Retail Prime Lending Rate (RPLR)p.a.+(mark-up)/-(mark-down) %p.a. = %p.a. [p.1]. The loan is repaid by way of Equated Monthly Instalments (EMI) [p.6]. EMI comprises of interest component calculated on the outstanding principal and part of the principal amount [p.6].\n\n## Fees and penalties\nAdministrative Fees upto 3.5% of Loan amount [p.2]. Penal charges shall be levied at the rate of 24.00% p.a. on the overdue / defaulted amount, calculated for The period of delay from the due date until the date of actual payment [p.2].\n\n## Prepayment\nNone verified in this document.\n\n## Security and guarantees\nThe loan will be secured by way of mortgage of the property mentioned below in favor of MHIL [p.5]. Name of Guarantor, Resi. Address & Age : [p.1].\n\n## Default and termination\nIn event of continued default and declaration of the loan amount as delinquent or Non-Performing Asset (NPA), MHIL shall reserve the right to send Loan Recall Notice, initiate action under section 138 of the Negotiable Instruments Act, SARFAESI act or any other provision of the law for recovery of dues from the borrower(s)/Guarantor(s) [p.6].\n\n## Governing law\nNone verified in this document.\n\n## Not found / defined elsewhere\n- Agreement date: Not found in this document.\n- Borrowers: Not found in this document.\n- Agents: Not found in this document.\n- Loan or commitment amount: Not found in this document.\n- Maturity termination date: Not found in this document.\n- Prepayment terms: Not found in this document.\n- Governing law: Not found in this document."
+      },
+      {
+        "doc_id": "CITGO (000101/1011746/0000950129-03-001503_8.txt)",
+        "model_used": "gemini-3.5-flash-lite",
+        "short_words": 96,
+        "kept_sentences": 22,
+        "dropped_sentences": 1,
+        "kept_with_cite_share": 1.0,
+        "kept_numbers_total": 8,
+        "kept_numbers_found": 8,
+        "kept_numbers_share": 1.0,
+        "not_found_fields": [
+          "document_title",
+          "borrowers",
+          "lenders",
+          "loan_or_commitment_amount",
+          "maturity_termination_date"
+        ],
+        "deferred_fields": [
+          "fees"
+        ],
+        "flags": [
+          "short:dropped_unverified_number:['3.00%']"
+        ],
+        "short": "Credit Suisse First Boston acts as the Administrative Agent [p. 10]. The Borrower is required to repay the aggregate principal amount of all outstanding Loans on the Maturity Date to the Administrative Agent for the account of the Lenders [p. 3]. The Borrower may voluntarily prepay loans in whole or in part without premium or penalty, subject to specific exceptions [p. 2]. The obligations are secured by a legal, valid, and perfected first priority lien and security interest in the Pledged Collateral, Pledged Securities, and pipeline interests granted in favor of the Administrative Agent [p. 5].",
+        "detailed": "## Parties\nCredit Suisse First Boston is identified as the Administrative Agent [p. 10].\n\n## Money\nNone verified in this document.\n\n## Interest and repayment\nEach Eurodollar Rate Loan bears interest on the outstanding principal amount for each Interest Period at a rate per annum equal to the Eurodollar Rate for such Interest Period plus the Applicable Rate [p. 3]. Each Base Rate Loan bears interest on the outstanding principal amount from the applicable borrowing date at a rate per annum equal to the Base Rate plus the Applicable Rate [p. 3]. Base Rate means for any day a fluctuating rate per annum equal to the highest of the Federal Funds Rate plus 1/2 of 1%, the rate of interest in effect as publicly announced by Credit Suisse First Boston as its prime rate in New York City, and 4.00% [p. 6]. Eurodollar Rate means for any Interest Period the greater of 3.00% per annum and the rate determined by the Administrative Agent [p. 10]. The Borrower shall repay on the Maturity Date the aggregate principal amount of the Loans outstanding on such date to the Administrative Agent for the account of the Lenders [p. 3].\n\n## Fees and penalties\nNone verified in this document.\n\n## Prepayment\nThe Borrower may, upon notice to the Administrative Agent, at any time or from time to time, voluntarily prepay Loans in whole or in part without premium or penalty [p. 2].\n\n## Security and guarantees\nThe Collateral Agreement will be effective to create in favor of the Administrative Agent, for the benefit of the Lenders, a legal, valid and enforceable security interest in the Collateral and its proceeds [p. 5]. The Collateral Agreement constitutes a fully perfected Lien on and security interest in all right, title and interest of the Loan Parties in such Collateral prior and superior in right to any other Person [p. 5]. Each Guarantor unconditionally guarantees, jointly with the other Guarantor and severally, as a primary obligor and not merely as a surety, the due and punctual payment and performance of the Obligations [p. 18]. So long as the Existing Credit Agreements remain in effect, the principal amount of the Indebtedness guaranteed shall at no time exceed the greater of a specified limit [p. 18].\n\n## Default and termination\nIf any amount payable by the Borrower is not paid when due, such amount shall thereafter bear interest at a fluctuating interest rate per annum equal to the Default Rate [p. 3]. Default Rate means an interest rate equal to the Base Rate plus the Applicable Rate for Base Rate Loans plus 2% per annum [p. 9]. With respect to a Eurodollar Rate Loan, the Default Rate shall be an interest rate equal to the interest rate otherwise applicable to such Loan plus 2% per annum [p. 9]. An Event of Default occurs if the Borrower fails to pay any principal when required, or fails to pay any interest, fee, or other amount within 5 days after becoming due [p. 16]. An Event of Default occurs if any representation or warranty by the Borrower or any other Loan Party is incorrect in any material respect [p. 16].\n\n## Governing law\nThis Agreement shall be governed by, and construed in accordance with, the law of the State of New York applicable to agreements made and to be performed entirely within such State [p. 10]. The Administrative Agent and each Lender shall retain all rights arising under federal law [p. 10].\n\n## Not found / defined elsewhere\n- Fees: Defined in another document (not provided; refers to Fee Letter) [p.2].\n- Document title: Not found in this document.\n- Borrowers: Not found in this document.\n- Lenders: Not found in this document.\n- Loan or commitment amount: Not found in this document.\n- Maturity termination date: Not found in this document."
+      }
+    ]
+  },
+  "t4": {
+    "passed": true,
+    "msg": "Wrote 72 rows with exact columns ['doc', 'section', 'sentence', 'pages', 'status'] to summary_review.csv"
+  },
+  "t5": {
+    "passed": true,
+    "msg": "total_live_calls=0 (limit <=30); cached_repeat_new_calls=0 (cache_hits=26)",
+    "total_live_calls": 0
+  }
+}

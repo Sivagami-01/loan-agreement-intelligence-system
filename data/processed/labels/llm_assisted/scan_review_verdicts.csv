@@ -1,0 +1,66 @@
+﻿doc_id,clause_id,reviewer_category,reviewer_severity,verdict,note,source,round
+000010/104897/0000950123-11-030926_2.txt,C0090,Default conditions,Medium,disagree,Cross-default requires acceleration of other debt (S2).,"Claude finance review (single reviewer, partly judgment)",1
+000010/104897/0000950123-11-030926_2.txt,C0091,Default conditions,Medium,disagree,ERISA/pension reportable-event default with 30-day notice period (S3).,"Claude finance review (single reviewer, partly judgment)",1
+000010/104897/0000950123-11-030926_2.txt,C0093,Default conditions,Medium,disagree,Cross-default tied to expiration of applicable cure period (S2).,"Claude finance review (single reviewer, partly judgment)",1
+000010/104897/0000950123-11-030926_2.txt,C0094,Termination,High,agree,,"Claude finance review (single reviewer, partly judgment)",1
+000010/104897/0000950123-11-030926_2.txt,C0009,none,none,disagree,Pure definitions of Debt and Event of Default without operative trigger (N1).,"Claude finance review (single reviewer, partly judgment)",1
+000010/104897/0000950123-11-030926_2.txt,C0033,none,none,disagree,Closing condition / representation lead-in (N1).,"Claude finance review (single reviewer, partly judgment)",1
+000010/104897/0000950123-11-030926_2.txt,C0034,none,none,disagree,Corporate existence and qualification representation (N1).,"Claude finance review (single reviewer, partly judgment)",1
+000010/104897/0000950123-11-030926_2.txt,C0038,none,none,disagree,Historical financial statement representation (N1).,"Claude finance review (single reviewer, partly judgment)",1
+000010/104897/0000950123-11-030926_2.txt,C0049,Covenants,Low,agree,,"Claude finance review (single reviewer, partly judgment)",1
+000010/104897/0000950123-11-030926_2.txt,C0052,Covenants,Low,agree,,"Claude finance review (single reviewer, partly judgment)",1
+000010/104897/0000950123-11-030926_2.txt,C0057,Covenants,Low,disagree,Standard insurance maintenance covenant (S5).,"Claude finance review (single reviewer, partly judgment)",1
+000081/810113/0000950116-04-002411_4.txt,C0038,Collateral,Medium,disagree,Standard UCC secured-party and mortgage remedies upon default (S1).,"Claude finance review (single reviewer, partly judgment)",1
+000081/810113/0000950116-04-002411_4.txt,C0040,Covenants,Medium,disagree,Lender loan assignment/transfer and assignee defense waiver (S1).,"Claude finance review (single reviewer, partly judgment)",1
+000081/810113/0000950116-04-002411_4.txt,C0043,Penalties and charges,Medium,disagree,Lender right to perform unperformed obligations on notice and charge costs (S1).,"Claude finance review (single reviewer, partly judgment)",1
+000081/810113/0000950116-04-002411_4.txt,C0050,Collateral,unclear,unclear,print full text; if it allows taking possession without notice it is Critical else High,"Claude finance review (single reviewer, partly judgment)",1
+000081/810113/0000950116-04-002411_4.txt,C0054,Collateral,Medium,disagree,Attorney-in-fact authorization for insurance claim settlement after default (S1).,"Claude finance review (single reviewer, partly judgment)",1
+000081/810113/0000950116-04-002411_4.txt,C0055,Collateral,Medium,disagree,Standard post-default proceeds application and deficiency liability (S1).,"Claude finance review (single reviewer, partly judgment)",1
+000081/810113/0000950116-04-002411_4.txt,C0056,Collateral,High,agree,,"Claude finance review (single reviewer, partly judgment)",1
+000081/810113/0000950116-04-002411_4.txt,C0060,Covenants,High,disagree,"category changed, indemnity precedent 000087 R10","Claude finance review (single reviewer, partly judgment)",1
+000081/810113/0000950116-04-002411_4.txt,C0074,none,none,disagree,Regulatory compliance and margin-stock representation (N1).,"Claude finance review (single reviewer, partly judgment)",1
+000081/810113/0000950116-04-002411_4.txt,C0075,Collateral,Low,disagree,Routine collateral perfection and further-assurance mechanics.,"Claude finance review (single reviewer, partly judgment)",1
+000081/810113/0000950116-04-002411_4.txt,C0076,Collateral,High,agree,,"Claude finance review (single reviewer, partly judgment)",1
+000081/810113/0000950116-04-002411_4.txt,C0077,Collateral,Medium,disagree,Co-borrower accommodation and suretyship enforcement terms (S1).,"Claude finance review (single reviewer, partly judgment)",1
+000081/810113/0000950116-04-002411_4.txt,C0010,none,none,disagree,Pure definition of Environmental Law (N1).,"Claude finance review (single reviewer, partly judgment)",1
+000081/810113/0000950116-04-002411_4.txt,C0016,none,none,disagree,Pure definition of Obligations (N1).,"Claude finance review (single reviewer, partly judgment)",1
+000081/810113/0000950116-04-002411_4.txt,C0026,none,none,disagree,Closing condition UCC financing statement perfection check (N1).,"Claude finance review (single reviewer, partly judgment)",1
+03_dbs_mitc,C0007,Default conditions,High,agree,,"Claude finance review (single reviewer, partly judgment)",1
+000105/1052667/0000912057-00-028795_20.txt,C0164,Termination,High,disagree,Bankruptcy clause says Lenders may declare by notice / not automatic without notice except proviso.,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0041,none,none,disagree,Definition of Banking Day / Builder / Change of Control without operative trigger.,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0125,none,none,disagree,Closing condition requiring security documents (N1).,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0132,none,none,disagree,Closing condition on lien-free evidence (N1).,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0138,Penalties and charges,Medium,disagree,Standard breakfunding cost reimbursement on unfulfilled drawdown.,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0161,Default conditions,High,agree,,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0162,Default conditions,High,agree,,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0163,Default conditions,High,agree,,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0166,Default conditions,Low,disagree,borrower-protective one-time cure right,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0167,Penalties and charges,Medium,disagree,Default payment indemnification / breakage loss cost.,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0189,none,none,disagree,Delivery condition for Second Unit security documents (N1).,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0194,Collateral,Medium,disagree,Standard negative pledge / lien restriction over Collateral.,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0199,Covenants,Medium,disagree,Standard negative covenant restricting Guarantor equity transfer (R2).,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0200,Covenants,Medium,disagree,Standard negative covenant restricting substantial asset sale (R2).,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0202,Covenants,Medium,disagree,Standard negative covenant restricting mergers/consolidation (R2).,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0208,Collateral,unclear,unclear,print full text,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0213,Termination,Medium,disagree,Standard illegality/regulatory termination and repayment clause.,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0219,Penalties and charges,Medium,disagree,Standard increased-costs compensation clause.,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0222,Penalties and charges,Medium,disagree,Standard breakage / funding loss compensation on repayment.,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0230,Penalties and charges,Medium,disagree,Standard transaction/legal fee and enforcement reimbursement.,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0231,Penalties and charges,Low,disagree,Routine stamp/tax payment and reimbursement.,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0266,Covenants,High,agree,,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0267,Covenants,High,agree,"continuation of C0266, count once","Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0037,none,none,disagree,Pure definition of Applicable Rate without stating rate value (N1).,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0053,none,none,disagree,Pure definition of Earnings Assignments (N1).,"Claude finance review (single reviewer, partly judgment)",2
+000105/1052667/0000912057-00-028795_20.txt,C0204,Covenants,Medium,agree,,"Claude finance review (single reviewer, partly judgment)",2
+000103/1039213/0000912057-97-018811_19.txt,C0041,Covenants,Medium,disagree,Narrow telephone/telefax instruction indemnity (Medium).,"Claude finance review (single reviewer, partly judgment)",2
+000103/1039213/0000912057-97-018811_19.txt,C0089,Covenants,High,agree,,"Claude finance review (single reviewer, partly judgment)",2
+000103/1039213/0000912057-97-018811_19.txt,C0120,Penalties and charges,Medium,disagree,Standard enforcement/workout attorneys' fees reimbursement.,"Claude finance review (single reviewer, partly judgment)",2
+000103/1039213/0000912057-97-018811_19.txt,C0123,Covenants,High,agree,,"Claude finance review (single reviewer, partly judgment)",2
+000103/1039213/0000912057-97-018811_19.txt,C0013,Financial terms,Medium,disagree,Floating LIBOR + 0.50% optional rate mechanics.,"Claude finance review (single reviewer, partly judgment)",2
+000103/1039213/0000912057-97-018811_19.txt,C0038,Covenants,Low,agree,,"Claude finance review (single reviewer, partly judgment)",2
+000103/1039213/0000912057-97-018811_19.txt,C0042,Repayment,Low,agree,,"Claude finance review (single reviewer, partly judgment)",2
+000103/1039213/0000912057-97-018811_19.txt,C0064,none,none,disagree,Closing condition fee acknowledgement/payment condition (N1).,"Claude finance review (single reviewer, partly judgment)",2
+000103/1039213/0000912057-97-018811_19.txt,C0126,none,none,disagree,Counterpart boilerplate and commitment signing cutoff (N1).,"Claude finance review (single reviewer, partly judgment)",2
+11_gichfindia_MOST-IMPORTANT-TERMS-1,C0020,Penalties and charges,High,agree,matches silver IM05,"Claude finance review (single reviewer, partly judgment)",2
+11_gichfindia_MOST-IMPORTANT-TERMS-1,C0007,none,none,disagree,Introductory heading/regulatory preamble for foreclosure charges (N1).,"Claude finance review (single reviewer, partly judgment)",2
+11_gichfindia_MOST-IMPORTANT-TERMS-1,C0026,none,none,disagree,Free insurance coverage disclosure / closing condition heading (N1).,"Claude finance review (single reviewer, partly judgment)",2

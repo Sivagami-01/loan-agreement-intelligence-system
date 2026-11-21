@@ -1,0 +1,414 @@
+{
+  "risk_llm.csv": [
+    {
+      "doc_id": "000104/1041426/0000950144-99-003055_2.txt",
+      "clause_id": "R01",
+      "clause_text": "Each Equipment Schedule shall constitute a separate, distinct and independent Loan Agreement and contractual obligation of Customer.",
+      "risk_category": "Financial terms",
+      "severity": "Low",
+      "rationale": "[Page 2, Section 2] Treats each equipment funding schedule as a separate loan contract under the master agreement."
+    },
+    {
+      "doc_id": "000104/1041426/0000950144-99-003055_2.txt",
+      "clause_id": "R02",
+      "clause_text": "Customer hereby grants to Lender with respect to each Loan Agreement and for the full amount of all Obligations, a security interest in all of the Collateral and all collateral securing any other lease or security agreement between Customer and Lender, whether now in existence or hereafter entered into.",
+      "risk_category": "Collateral",
+      "severity": "High",
+      "rationale": "[Page 2, Section 2] Cross-collateralizes all equipment across every loan or lease between the borrower and lender."
+    },
+    {
+      "doc_id": "000104/1041426/0000950144-99-003055_2.txt",
+      "clause_id": "R03",
+      "clause_text": "Principal and interest payments shall be in the amounts and shall be due and payable as set forth in the applicable Equipment Schedule.",
+      "risk_category": "Repayment",
+      "severity": "Low",
+      "rationale": "[Page 2, Section 4] Defers exact dollar installment amounts to separate unattached Equipment Schedules [confidence: low - Equipment Schedules are not attached]."
+    },
+    {
+      "doc_id": "000104/1041426/0000950144-99-003055_2.txt",
+      "clause_id": "R04",
+      "clause_text": "No Loan Agreement is prepayable by Customer, in whole or in part, without the express written consent of Lender in its sole discretion.",
+      "risk_category": "Repayment",
+      "severity": "High",
+      "rationale": "[Page 2, Section 4] Master agreement locks the borrower out of prepayment unless modified by the side letter requiring 12 payments and step-down premiums."
+    },
+    {
+      "doc_id": "000104/1041426/0000950144-99-003055_2.txt",
+      "clause_id": "R05",
+      "clause_text": "If any payment of principal or interest or other amount payable hereunder shall not be paid within 5 days of the date when due, Customer shall pay as an administrative and late charge an amount equal to 5% of the amount of any such overdue payment. In addition, Customer shall pay overdue interest on any delinquent payment or other amounts due under any Loan Agreement (by reason of acceleration or otherwise) from the due date until paid at the rate of one and one-half percent (1.5%) per month or the maximum amount permitted by applicable law, whichever is lower.",
+      "risk_category": "Penalties and charges",
+      "severity": "High",
+      "rationale": "[Page 2, Section 4] Imposes both a 5% late fee after 5 days overdue and 1.5% monthly (18% annualized) default interest."
+    },
+    {
+      "doc_id": "000104/1041426/0000950144-99-003055_2.txt",
+      "clause_id": "R06",
+      "clause_text": "Customer shall permit Lender, through its authorized attorneys, accountants and representatives, to inspect and examine the Equipment and the books, accounts, records, ledgers and assets of every kind and description of Customer with respect thereto at all reasonable times upon reasonable notice;",
+      "risk_category": "Covenants",
+      "severity": "Low",
+      "rationale": "[Page 3, Section 5(m)] Standard right for lender to inspect financed equipment and related books on reasonable notice during normal hours."
+    },
+    {
+      "doc_id": "000104/1041426/0000950144-99-003055_2.txt",
+      "clause_id": "R07",
+      "clause_text": "Customer shall not sell, offer to sell, lease, rent, hire or in any other manner dispose, transfer or surrender use and possession of any Equipment;",
+      "risk_category": "Covenants",
+      "severity": "Medium",
+      "rationale": "[Page 4, Section 5(s)] Prohibits transferring or leasing out financed equipment without consent (later eased by semi-annual replacement Rider)."
+    },
+    {
+      "doc_id": "000104/1041426/0000950144-99-003055_2.txt",
+      "clause_id": "R08",
+      "clause_text": "Customer will not, directly or indirectly, create, incur or permit to exist any lien, encumbrance, mortgage, pledge, attachment or security interest on or with respect to the Equipment other than in connection with the execution and delivery of the Loan Agreement;",
+      "risk_category": "Collateral",
+      "severity": "Medium",
+      "rationale": "[Page 4, Section 5(t)] Negative pledge barring any competing liens on the financed equipment."
+    },
+    {
+      "doc_id": "000104/1041426/0000950144-99-003055_2.txt",
+      "clause_id": "R09",
+      "clause_text": "(a) Customer shall fail to make any payment due under any Note or as required under the Loan Agreement within 5 days of its due date; or (b) Customer shall fail to obtain or maintain any of the insurance required under the Loan Agreement; or (c) Customer shall remove, sell, transfer, encumber, or part with possession of any Equipment; (d) Customer shall fail to perform or observe any other covenant, condition or agreement under the Loan Agreement, and such failure shall continue for 20 days after notice thereof to Customer;",
+      "risk_category": "Default conditions",
+      "severity": "High",
+      "rationale": "[Page 6, Section 8(a)-(d)] Tight 5-day payment cure and zero cure period for insurance lapses or unauthorized equipment transfers."
+    },
+    {
+      "doc_id": "000104/1041426/0000950144-99-003055_2.txt",
+      "clause_id": "R10",
+      "clause_text": "(h) the commencement of any bankruptcy, insolvency, arrangement, reorganization, receivership, liquidation or other similar proceeding by or against Customer or any of its properties or businesses, or the appointment of a trustee, receiver, liquidator or custodian for Customer or any of its properties or businesses, or if Customer suffers the entry of an order for relief under Title 11 of the United States Code;",
+      "risk_category": "Default conditions",
+      "severity": "Critical",
+      "rationale": "[Page 6, Section 8(h)] Immediate Event of Default upon any bankruptcy or receivership filing by or against the customer without an involuntary dismissal grace window."
+    },
+    {
+      "doc_id": "000104/1041426/0000950144-99-003055_2.txt",
+      "clause_id": "R11",
+      "clause_text": "by written notice to Customer, terminate any or all Loan Agreements as such notice shall specify, and, with respect to such terminated Loan Agreements, declare immediately due and payable and recover from Customer, as liquidated damages for loss of Lender's bargain and not as a penalty, an amount equal to the aggregate of all unpaid periodic installment payments and other sums due under Loan Agreements to the date of default plus the charges set forth in Section 4 hereof, if any, plus an amount equal to the outstanding principal balances of and accrued and unpaid interest on any of the Notes with respect to the Loan Agreements,",
+      "risk_category": "Termination",
+      "severity": "Critical",
+      "rationale": "[Page 6-7, Section 9(a)(i)-(ii)] Allows termination of schedules, immediate acceleration of unpaid principal/interest, and waiver of all acceleration notices."
+    },
+    {
+      "doc_id": "000104/1041426/0000950144-99-003055_2.txt",
+      "clause_id": "R12",
+      "clause_text": "sell any or all Collateral at public or private sale or otherwise dispose of, hold, use, operate, lease to others or keep idle the Equipment, all as Lender in its sole discretion may determine and all free and clear of any rights of Customer;",
+      "risk_category": "Collateral",
+      "severity": "High",
+      "rationale": "[Page 7, Section 9(a)(iv)] Gives lender broad power to repossess, ship at borrower expense, or dispose of financed equipment free of customer rights."
+    },
+    {
+      "doc_id": "000104/1041426/0000950144-99-003055_2.txt",
+      "clause_id": "R13",
+      "clause_text": "The effective Loan Rate will remain fixed for the duration of each Term. Prior to Schedule funding, Lender will adjust the Loan Rate in order to maintain its originally anticipated rate of return if there is a change in the yield on the U.S. Treasury Bills, as quoted in the Federal Reserve statistical release H.15 (519), from the Index Basis specified in this proposal letter, by the amount of such change.",
+      "risk_category": "Financial terms",
+      "severity": "Medium",
+      "rationale": "[Page 16-17, Commitment Letter] Fixes the payment rate per schedule for 48 months, though pre-funding rate adjusts with 4-year Treasury yields [confidence: low - standalone annual APR is not stated separately from the 2.5902% monthly payment factor]."
+    },
+    {
+      "doc_id": "000104/1041426/0000950144-99-003055_2.txt",
+      "clause_id": "R14",
+      "clause_text": "Borrower has provided a $20,000 Commitment Fee to Lender. The Commitment Fee will be applied to any transaction Costs, if any, as defined herein, with the remainder applied to the first payments under the loan schedules. Should the Borrower decline to utilize the financing, Lender shall retain the Commitment Fee as compensation for the costs of its due diligence.",
+      "risk_category": "Penalties and charges",
+      "severity": "Low",
+      "rationale": "[Page 16, Commitment Letter] $20,000 fee credits toward transaction costs and early payments if drawn, or covers diligence if declined."
+    },
+    {
+      "doc_id": "000104/1041426/0000950144-99-003055_2.txt",
+      "clause_id": "R15",
+      "clause_text": "Any fundings under this loan facility prior to the Product FDA Approval, as defined above, will contain additional equipment collateral (\"Additional Collateral\") with a fair market value of not less than 50% of the schedule funding.",
+      "risk_category": "Collateral",
+      "severity": "High",
+      "rationale": "[Page 16, Commitment Letter] Demands extra 50% equipment collateral on all draws before FDA product approval."
+    },
+    {
+      "doc_id": "000104/1041426/0000950144-99-003055_2.txt",
+      "clause_id": "R16",
+      "clause_text": "Following Borrower's acceptance, Lender's commitment hereunder and obligation to fund the Loan shall expire on December 31, 1999.",
+      "risk_category": "Termination",
+      "severity": "Low",
+      "rationale": "[Page 18, Commitment Letter Expiration] Normal commitment availability cutoff date of December 31, 1999 (and Material Changes clause lets lender cancel prior to funding)."
+    },
+    {
+      "doc_id": "000104/1041426/0000950144-99-003055_2.txt",
+      "clause_id": "R17",
+      "clause_text": "has timely paid at least the first twelve (12) monthly payments due under the Schedule Borrower shall have the right, upon at least thirty (30) days prior written notice to the Lender, to prepay the Schedule on the periodic installment due date designated in such notice by paying to the Lender the sum of (i) the then outstanding principal balance of the Schedule (calculated on a simple interest basis) plus (ii) a premium of 6.0% during Year 2, a premium of 5.0% during Year 3 and a premium of 4.0% during Year 4.",
+      "risk_category": "Repayment",
+      "severity": "High",
+      "rationale": "[Page 20, Prepayment Instruction Letter] Requires waiting 12 months, 30 days' notice, and paying steep prepayment penalties of 6%, 5%, or 4% in Years 2–4."
+    },
+
+    {
+      "doc_id": "000002/27566/0000945836-96-000035_3.txt",
+      "clause_id": "R01",
+      "clause_text": "\"Interest Rate\" means the Index Rate plus four and one-half percent (4-1/2%). The \"Index Rate\" shall be the highest yield, as published in The Wall Street Journal, on the first (1st) Business Day preceding the Disbursement Date, for Treasury Notes having a maturity date on or closest to the Maturity Date.",
+      "risk_category": "Financial terms",
+      "severity": "Medium",
+      "rationale": "[Section 1.1] Prices the 8-year loan at Treasury Notes plus a substantial 4.5% spread fixed at disbursement."
+    },
+    {
+      "doc_id": "000002/27566/0000945836-96-000035_3.txt",
+      "clause_id": "R02",
+      "clause_text": "Commencing with the day after the principal amount of any part of the Loan shall have become due and payable (by acceleration or otherwise), such part of the Loan or the entire Loan (as the case may be) shall bear interest at the daily rate of four percent (4%) per annum above the Interest Rate (the \"Default Rate\").",
+      "risk_category": "Penalties and charges",
+      "severity": "Medium",
+      "rationale": "[Section 2.6.2] Adds a 4% annual surcharge above the contract rate on unpaid principal after maturity or acceleration."
+    },
+    {
+      "doc_id": "000002/27566/0000945836-96-000035_3.txt",
+      "clause_id": "R03",
+      "clause_text": "The Loan, together with interest thereon at the Interest Rate, shall be repaid in ninety-six (96) equal consecutive monthly payments consisting of (a) principal and interest calculated at the Interest Rate each in an amount which will fully amortize sixty-five percent (65%) of the Loan at the Interest Rate over the Term plus (b) interest on thirty-five percent (35%) of the Loan calculated at the Interest Rate. The remaining unpaid principal balance of the Loan, plus all accrued and unpaid interest on the Loan calculated at the Interest Rate shall be payable with the ninety-sixth (96th) payment on the Maturity Date.",
+      "risk_category": "Repayment",
+      "severity": "Medium",
+      "rationale": "[Section 2.7.2] Partial amortization structure leaves a 35% principal balloon ($1.4M on the $4M loan) due with the 96th monthly payment."
+    },
+    {
+      "doc_id": "000002/27566/0000945836-96-000035_3.txt",
+      "clause_id": "R04",
+      "clause_text": "So long as there is no Default or Event of Default hereunder or under any of the other Loan Documents, Borrower shall have the right, upon not less than ten (10) days prior written notice to Lender, on any regularly scheduled payment date, to prepay the outstanding principal balance of the Loan in whole, but not in part, provided that Borrower shall pay to Lender, together with the principal balance of the Loan, (i) all accrued and unpaid interest on the amount prepaid through the date of prepayment, (ii) all outstanding fees, charges and other amounts then due under the Loan Documents, and (iii) a prepayment fee in an amount equal to the product of (A) the outstanding principal balance of the Loan at the time of prepayment, times (B) the applicable percentage set forth opposite the year of the Term in which the prepayment is made,",
+      "risk_category": "Repayment",
+      "severity": "High",
+      "rationale": "[Section 2.8] Bars partial prepayments and charges 3% (Years 1–2), 2% (Years 3–4), or 1% (Year 5) prepayment fee—including on default acceleration."
+    },
+    {
+      "doc_id": "000002/27566/0000945836-96-000035_3.txt",
+      "clause_id": "R05",
+      "clause_text": "Any acceleration of the Loan as a consequence of the occurrence of an Event of Default shall be presumed to be a mechanism to avoid the requirements of this provision and shall be deemed a prepayment and subject to the appropriate prepayment premium set forth above,",
+      "risk_category": "Penalties and charges",
+      "severity": "High",
+      "rationale": "[Section 2.8] Automatically treats default acceleration as a voluntary prepayment so borrower owes the 1%–3% prepayment penalty on top of default."
+    },
+    {
+      "doc_id": "000002/27566/0000945836-96-000035_3.txt",
+      "clause_id": "R06",
+      "clause_text": "If Borrower shall fail to make any payment of principal or interest within twelve (12) days after the same is due, Borrower shall pay a late charge of five percent (5%) of the unpaid amounts, but in no event greater than the maximum rate permitted by law, and such amount shall be payable upon demand.",
+      "risk_category": "Penalties and charges",
+      "severity": "Medium",
+      "rationale": "[Section 2.9] Charges a 5% late fee on overdue principal or interest after a 12-day grace period (though Exhibit A Promissory Note states 10 days) [confidence: low - grace period conflicts between Section 2.9 (12 days) and Exhibit A Note (10 days)]."
+    },
+    {
+      "doc_id": "000002/27566/0000945836-96-000035_3.txt",
+      "clause_id": "R07",
+      "clause_text": "Within fifty (50) days after the end of each of the first three fiscal quarters of each fiscal year, Borrower and Parent Guarantor shall furnish to Lender, a copy of their respective interim financial statements of the type described in Section 5.1.1 above, certified by the Chief Financial Officer of Borrower",
+      "risk_category": "Covenants",
+      "severity": "Low",
+      "rationale": "[Section 5.1.3] Routine CFO-certified quarterly financial statement delivery within 50 days."
+    },
+    {
+      "doc_id": "000002/27566/0000945836-96-000035_3.txt",
+      "clause_id": "R08",
+      "clause_text": "Promptly upon becoming aware of any Default or Event of Default, Borrower shall give Lender notice thereof, together with a written statement of a Chief Executive Officer of Borrower setting forth the details thereof and any action with respect thereto taken or contemplated to be taken by Borrower.",
+      "risk_category": "Covenants",
+      "severity": "Low",
+      "rationale": "[Section 5.1.6] Standard administrative duty to notify the lender promptly if a Default or Event of Default occurs."
+    },
+    {
+      "doc_id": "000002/27566/0000945836-96-000035_3.txt",
+      "clause_id": "R09",
+      "clause_text": "Borrower shall not declare, make or pay any dividends, distributions or other payments of any kind to Parent Guarantor or any affiliates of Borrower, if there is a Default or there would be a Default after giving effect to any such proposed dividend, distribution or other payment.",
+      "risk_category": "Covenants",
+      "severity": "Medium",
+      "rationale": "[Section 5.12] Freezes cash dividends or distributions to parent and affiliates whenever a Default exists or would result."
+    },
+    {
+      "doc_id": "000002/27566/0000945836-96-000035_3.txt",
+      "clause_id": "R10",
+      "clause_text": "Borrower shall not create, incur, permit to exist or have outstanding any indebtedness (including all indebtedness guaranteed by Borrower or otherwise with respect of which Borrower shall have liability), except (a) indebtedness of Borrower to Lender under this Agreement and the other Loan Documents, (b) indebtedness of Borrower for trade account payables incurred in the ordinary course of Borrower's business,",
+      "risk_category": "Financial terms",
+      "severity": "High",
+      "rationale": "[Section 5.13] Tightly limits new borrowing or guarantees beyond trade payables and a $100,000/year exception."
+    },
+    {
+      "doc_id": "000002/27566/0000945836-96-000035_3.txt",
+      "clause_id": "R11",
+      "clause_text": "Borrower hereby assigns, pledges, transfers and sets over to Lender, and hereby agrees that Lender shall have, and hereby grants to and creates in favor of Lender, a first security interest under the UCC subject to no other Liens (other than Liens covering two vending machines), in and to the following, in each case whether now existing or hereafter arising, now owned or hereafter acquired, located at the Premises or used in connection with the operation of Borrower's business at the Premises (\"Collateral\"):",
+      "risk_category": "Collateral",
+      "severity": "High",
+      "rationale": "[Section 6.1] Blanket first-priority security interest over virtually all airport business personal/real assets, IP, contracts, and lease rights."
+    },
+    {
+      "doc_id": "000002/27566/0000945836-96-000035_3.txt",
+      "clause_id": "R12",
+      "clause_text": "7.1.1 Borrower fails to make any payment of principal of or interest on the Note, within ten (10) days after such payment is or shall become due; or 7.1.2 Borrower fails to perform or observe any of its covenants or agreements contained herein or in any other Loan Documents which cannot be cured; or 7.1.3 Borrower fails to perform or observe any other covenant or agreement to be performed or observed by it hereunder or under the other Loan Documents and such failure continues unremedied for a period of twenty (20) days after such failure;",
+      "risk_category": "Default conditions",
+      "severity": "Medium",
+      "rationale": "[Section 7.1.1-7.1.3] Sets 10-day grace for principal/interest payments and 20-day cure for curable covenants, with zero cure for non-curable defaults."
+    },
+    {
+      "doc_id": "000002/27566/0000945836-96-000035_3.txt",
+      "clause_id": "R13",
+      "clause_text": "7.1.14 Borrower or any Guarantor or Lynton Properties voluntarily suspends transaction of its business, commences a voluntary case under any applicable bankruptcy, insolvency or other similar law now or hereafter in effect, consents to the entry of an order for relief in an involuntary case under any such law or consents to the appointment of or taking possession by a receiver, liquidator, assignee, trustee, custodian, sequestrator (or other similar official) of Borrower or any Guarantor or Lynton Properties for any substantial part of any of its properties, or makes a general assignment for the benefit of creditors,",
+      "risk_category": "Default conditions",
+      "severity": "Critical",
+      "rationale": "[Section 7.1.14] Insolvency, voluntary bankruptcy, or business suspension by borrower, guarantors, or Lynton Properties puts the whole loan in default."
+    },
+    {
+      "doc_id": "000002/27566/0000945836-96-000035_3.txt",
+      "clause_id": "R14",
+      "clause_text": "there shall be a judgment or judgments against Borrower or any Guarantor or Lynton Properties for any amount in excess of $150,000 in the aggregate, which shall remain unpaid, unstayed on appeal, undischarged, unbonded or undismissed for a period of thirty (30) days or more;",
+      "risk_category": "Default conditions",
+      "severity": "High",
+      "rationale": "[Section 7.1.15] Relatively low $150,000 judgment threshold unpaid/unbonded for 30 days triggers an Event of Default across borrower or guarantors."
+    },
+    {
+      "doc_id": "000002/27566/0000945836-96-000035_3.txt",
+      "clause_id": "R15",
+      "clause_text": "7.2.1 If an Event of Default occurs, Lender may, by notice to Borrower, declare the unpaid principal amount of the Note and interest accrued thereon and all other Obligations and liabilities of Borrower hereunder or under the Note or the Loan Documents to be immediately due and payable and the same shall thereupon become and be immediately due and payable without presentment, demand, protest or other notice of any kind, all of which are hereby expressly waived, and an action therefor shall immediately accrue.",
+      "risk_category": "Termination",
+      "severity": "Critical",
+      "rationale": "[Section 7.2.1] Immediate full acceleration of the $4M loan and all obligations upon Event of Default."
+    },
+    {
+      "doc_id": "000002/27566/0000945836-96-000035_3.txt",
+      "clause_id": "R16",
+      "clause_text": "Lender may, with or without notice and without legal process, enter upon any property owned, leased or otherwise under the real or apparent control of Borrower or any agent thereof or any other location where",
+      "risk_category": "Collateral",
+      "severity": "Critical",
+      "rationale": "[Section 7.2.3] Authorizes self-help collateral repossession without court process or prior notice after default."
+    },
+    {
+      "doc_id": "000002/27566/0000945836-96-000035_3.txt",
+      "clause_id": "R17",
+      "clause_text": "The Maturity Date shall be the date that the ninety-sixth (96th) consecutive monthly installment is scheduled to be due.",
+      "risk_category": "Termination",
+      "severity": "Low",
+      "rationale": "[Section 2.7.2] Standard 8-year scheduled maturity aligned with the 96th monthly installment."
+    },
+
+    {
+      "doc_id": "000087/876645/0000891618-03-004250_9.txt",
+      "clause_id": "R01",
+      "clause_text": "Borrower shall immediately pay the amount of the excess to Silicon, without notice or demand. Without limiting Borrower's obligation to repay to Silicon the amount of any Overadvance, Borrower agrees to pay Silicon interest on the outstanding amount of any Overadvance, on demand, at the Default Rate.",
+      "risk_category": "Repayment",
+      "severity": "High",
+      "rationale": "[Page 1, Section 1.3] Requires immediate repayment of any borrowing-base overadvance without notice plus demand default interest."
+    },
+    {
+      "doc_id": "000087/876645/0000891618-03-004250_9.txt",
+      "clause_id": "R02",
+      "clause_text": "Borrower shall pay Silicon the fees shown on the Schedule, which are in addition to all interest and other sums payable to Silicon and are not refundable.",
+      "risk_category": "Financial terms",
+      "severity": "Low",
+      "rationale": "[Page 1, Section 1.4] Confirms all scheduled closing and monitoring fees are non-refundable once earned."
+    },
+    {
+      "doc_id": "000087/876645/0000891618-03-004250_9.txt",
+      "clause_id": "R03",
+      "clause_text": "To secure the payment and performance of all of the Obligations when due, Borrower hereby grants to Silicon a security interest in all of the following (collectively, the \"Collateral\"): all right, title and interest of Borrower in and to all of the following, whether now owned or hereafter arising or acquired and wherever located: all Accounts; all Inventory; all Equipment; all Deposit Accounts; all General Intangibles (including without limitation all Intellectual Property); all Investment Property; all Other Property;",
+      "risk_category": "Collateral",
+      "severity": "High",
+      "rationale": "[Page 2, Section 2] Blanket all-asset lien covering receivables, inventory, equipment, cash deposit accounts, investments, and intellectual property."
+    },
+    {
+      "doc_id": "000087/876645/0000891618-03-004250_9.txt",
+      "clause_id": "R04",
+      "clause_text": "The foregoing inspections and audits shall be at Borrower's expense and the charge therefor shall be $700 per person per day (or such higher amount as shall represent Silicon's then current standard charge for the same), plus reasonable out of pocket expenses.",
+      "risk_category": "Penalties and charges",
+      "severity": "Low",
+      "rationale": "[Page 5, Section 5.4] Routine audit inspection term charging $700/person-day plus out-of-pocket expenses (5 business days' notice unless in default)."
+    },
+    {
+      "doc_id": "000087/876645/0000891618-03-004250_9.txt",
+      "clause_id": "R05",
+      "clause_text": "Borrower shall not, without Silicon's prior written consent (which shall be a matter of its good faith business judgment), do any of the following: (i) merge or consolidate with another corporation or entity; (ii) acquire any assets, except in the ordinary course of business; (iii) enter into any other transaction outside the ordinary course of business; (iv) sell or transfer any Collateral, except for the sale of finished Inventory in the ordinary course of Borrower's business, and except for the sale of obsolete or unneeded Equipment in the ordinary course of business;",
+      "risk_category": "Covenants",
+      "severity": "High",
+      "rationale": "[Page 5, Section 5.5] Broad negative covenant blocking mergers, acquisitions, outside-ordinary transactions, guarantees, or dividends without bank consent."
+    },
+    {
+      "doc_id": "000087/876645/0000891618-03-004250_9.txt",
+      "clause_id": "R06",
+      "clause_text": "This Agreement may be terminated prior to the Maturity Date as follows: (i) by Borrower, effective three Business Days after written notice of termination is given to Silicon; or (ii) by Silicon at any time after the occurrence and during the continuance of an Event of Default, without notice, effective immediately. If this Agreement is terminated by Borrower or by Silicon under this Section 6.2, Borrower shall pay to Silicon a termination fee in an amount equal to one percent (1.0%) of the Revolving Credit Limit, provided that no termination fee shall be charged if the credit facility hereunder is replaced with a new facility from another division of Silicon Valley Bank.",
+      "risk_category": "Termination",
+      "severity": "High",
+      "rationale": "[Page 6, Section 6.2] Charges a $35,000 (1%) early-termination fee even if the bank itself terminates after default unless refinanced internally with SVB."
+    },
+    {
+      "doc_id": "000087/876645/0000891618-03-004250_9.txt",
+      "clause_id": "R07",
+      "clause_text": "The occurrence of any of the following events shall constitute an \"Event of Default\" under this Agreement, and Borrower shall give Silicon immediate written notice thereof: (a) Any warranty, representation, statement, report or certificate made or delivered to Silicon by Borrower or any of Borrower's officers, employees or agents, now or in the future, shall be untrue or misleading in a material respect when made or deemed to be made; or (b) Borrower shall fail to pay when due any Loan or any interest thereon or any other monetary Obligation; or (c) the total Loans and other Obligations outstanding at any time shall exceed the Credit Limit;",
+      "risk_category": "Default conditions",
+      "severity": "Critical",
+      "rationale": "[Page 12, Section 7.1(a)-(c)] Zero-day payment grace period: missing any payment when due or exceeding the credit limit is an immediate Event of Default."
+    },
+    {
+      "doc_id": "000087/876645/0000891618-03-004250_9.txt",
+      "clause_id": "R08",
+      "clause_text": "any proceeding against Borrower or any guarantor of any of the Obligations under any reorganization, bankruptcy, insolvency, arrangement, readjustment of debt, dissolution or liquidation law or statute of any jurisdiction, now or in the future in effect, which is not cured by the dismissal thereof within 30 days after the date",
+      "risk_category": "Default conditions",
+      "severity": "Critical",
+      "rationale": "[Page 12, Section 7.1(j)] Involuntary bankruptcy/insolvency proceeding becomes default unless dismissed within 30 days."
+    },
+    {
+      "doc_id": "000087/876645/0000891618-03-004250_9.txt",
+      "clause_id": "R09",
+      "clause_text": "Without limiting any of Silicon's rights and remedies, from and after the occurrence and during the continuance of any Event of Default, the interest rate applicable to the Obligations shall be increased by an additional three percent per annum (the \"Default Rate\").",
+      "risk_category": "Penalties and charges",
+      "severity": "Medium",
+      "rationale": "[Page 14, Section 7.2] Increases interest on all obligations by +3.0% per annum throughout any Event of Default."
+    },
+    {
+      "doc_id": "000087/876645/0000891618-03-004250_9.txt",
+      "clause_id": "R10",
+      "clause_text": "Borrower hereby agrees to indemnify Silicon and its affiliates, subsidiaries, parent, directors, officers, employees, agents, and attorneys, and to hold them harmless from and against any and all claims, debts, liabilities, demands, obligations, actions, causes of action, penalties, costs and expenses (including reasonable attorneys\" fees), of every kind, which they may sustain or incur based upon or arising out of any of the Obligations, or any relationship or agreement between Silicon and Borrower, or any other matter, relating to Borrower or the Obligations; provided that this indemnity shall not extend to damages proximately caused by the indemnitee's own gross negligence or willful misconduct.",
+      "risk_category": "Covenants",
+      "severity": "High",
+      "rationale": "[Page 13, Section 9.8] Very broad surviving borrower indemnity covering bank and agents for almost everything short of gross negligence or willful misconduct."
+    },
+    {
+      "doc_id": "000087/876645/0000891618-03-004250_9.txt",
+      "clause_id": "R11",
+      "clause_text": "Any claim or cause of action by Borrower against Silicon, its directors, officers, employees, agents, accountants or attorneys, based upon, arising from, or relating to this Loan Agreement, or any other Loan Document, or any other transaction contemplated hereby or thereby or relating hereto or thereto, or any other matter, cause or thing whatsoever, occurred, done, omitted or suffered to be done by Silicon, its directors, officers, employees, agents, accountants or attorneys, shall be barred unless asserted by Borrower by the commencement of an action or proceeding in a court of competent jurisdiction by the filing of a complaint within one year after the first act, occurrence or omission upon which such claim or cause of action, or any part thereof, is based,",
+      "risk_category": "Termination",
+      "severity": "High",
+      "rationale": "[Page 14, Section 9.15] Cuts borrower's statute of limitations to file any lawsuit against Silicon Valley Bank down to strictly 1 year."
+    },
+    {
+      "doc_id": "000087/876645/0000891618-03-004250_9.txt",
+      "clause_id": "R12",
+      "clause_text": "Silicon may, from time to time, modify the Advance Rate, in its good faith business judgment, upon notice to the Borrower, based on changes in collection experience with respect to Accounts or other issues or factors relating to the Accounts or other Collateral.",
+      "risk_category": "Financial terms",
+      "severity": "High",
+      "rationale": "[Schedule Section 1, Page 17] Lets the lender unilaterally cut the 80% receivables advance rate on notice, shrinking available borrowing liquidity."
+    },
+    {
+      "doc_id": "000087/876645/0000891618-03-004250_9.txt",
+      "clause_id": "R13",
+      "clause_text": "During the period from the date hereof until and including October 31, 2003, a rate equal to the \"Prime Rate\" in effect from time to time, plus 1.0% per annum, and thereafter, BUT ONLY IF THE MINIMUM DEBT SERVICE COVERAGE RATIO FOR THE TWO IMMEDIATELY PRECEDING FISCAL QUARTERS HAS BEEN NOT LESS THAN 1.5 TO 1.0, a rate equal to the \"Prime Rate\" in effect from time to time plus 0.5% per annum;",
+      "risk_category": "Financial terms",
+      "severity": "Medium",
+      "rationale": "[Schedule Section 2, Page 18] Revolving pricing steps down from Prime+1.0% to Prime+0.5% only if DSCR >= 1.5:1.0 is met."
+    },
+    {
+      "doc_id": "000087/876645/0000891618-03-004250_9.txt",
+      "clause_id": "R14",
+      "clause_text": "COLLATERAL MONITORING FEE: $1,000, per month, payable in arrears (prorated for any partial month at the beginning and at termination of this Agreement).",
+      "risk_category": "Penalties and charges",
+      "severity": "Medium",
+      "rationale": "[Schedule Section 3, Page 20] Fixed $1,000 monthly collateral monitoring fee regardless of how little credit is drawn (alongside 0.50% unused line fee and $25,000 closing fees)."
+    },
+    {
+      "doc_id": "000087/876645/0000891618-03-004250_9.txt",
+      "clause_id": "R15",
+      "clause_text": "TERM LOAN: Three years from the date of funding the Term Loan with principal installments of $41,667.00 payable on the last day of each month.",
+      "risk_category": "Repayment",
+      "severity": "Low",
+      "rationale": "[Schedule Section 4, Page 20] Straightforward 36-month amortization of the $1.5M term loan in $41,667.00 monthly principal installments (plus no Term Loan prepayment fee)."
+    },
+    {
+      "doc_id": "000087/876645/0000891618-03-004250_9.txt",
+      "clause_id": "R16",
+      "clause_text": "The minimum Tangible Net Worth amounts for each calendar year, beginning with 2004, shall be established by Silicon, in its sole and absolute discretion, based upon Borrower's annual operating budget and projections for such year delivered to Silicon pursuant to subsection 8 of Section 6 of this Schedule.",
+      "risk_category": "Covenants",
+      "severity": "High",
+      "rationale": "[Schedule Section 5, Page 20] Gives the bank unilateral discretion starting in 2004 to set Borrower's monthly Minimum Tangible Net Worth covenant levels."
+    },
+    {
+      "doc_id": "000087/876645/0000891618-03-004250_9.txt",
+      "clause_id": "R17",
+      "clause_text": "Borrower shall at all times maintain its primary banking relationship with Silicon. Without limiting the generality of the foregoing, Borrower shall, at all times, maintain a majority of its total cash and investments on deposit with Silicon. As to any Deposit Accounts and investment accounts maintained with another institution, Borrower shall cause such institution, within 30 days after the date of this Agreement, to enter into a control agreement in form acceptable to Silicon in its good faith business judgment in order to perfect Silicon's first-priority security interest in said Deposit Accounts and investment accounts.",
+      "risk_category": "Collateral",
+      "severity": "Medium",
+      "rationale": "[Schedule Section 8(1), Page 23-24] Locks majority of cash and investments inside SVB accounts and demands deposit account control agreements for outside accounts within 30 days."
+    }
+  ]
+}

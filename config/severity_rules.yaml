@@ -1,0 +1,220 @@
+# Stage 4a-4 deterministic severity rule table (evaluated top-to-bottom, FIRST match wins)
+# Models output clause_type + boolean features ONLY; severity is derived here deterministically.
+
+clause_types:
+  - definition
+  - representation
+  - closing_condition
+  - heading_or_boilerplate
+  - acceleration_or_termination_right
+  - payment_default_trigger
+  - insolvency_default_trigger
+  - change_of_control_trigger
+  - cross_default
+  - other_default_trigger
+  - remedy_on_default
+  - negative_covenant
+  - financial_ratio_covenant
+  - reporting_or_insurance_covenant
+  - indemnity
+  - fee_or_cost
+  - rate_term
+  - prepayment_term
+  - security_or_guarantee
+  - borrower_protective
+  - other
+
+features:
+  - automatic
+  - no_notice
+  - no_cure_or_grace
+  - cure_or_grace_10_days_or_more
+  - sole_discretion
+  - broad_or_uncapped
+  - survives_repayment
+  - reaches_affiliates_or_third_parties
+  - beyond_pledged_asset
+  - self_help_without_notice
+  - joint_and_several
+  - penal_rate_or_default_charge
+  - floating_or_reset_rate
+  - charges_apply
+  - borrower_protective
+
+rules:
+  # 1. N1 non-risk clause types -> category none (no severity)
+  - id: R_N1_NON_RISK
+    types: [definition, representation, closing_condition, heading_or_boilerplate]
+    severity: none
+    force_category: none
+    reason: N1 non-risk type
+
+  # 2. Borrower-protective override (R3): always Low with [borrower-protective] rationale prefix
+  - id: R_BORROWER_PROTECTIVE_TYPE
+    types: [borrower_protective]
+    severity: Low
+    rationale_prefix: "[borrower-protective] "
+    reason: borrower_protective type
+
+  - id: R_BORROWER_PROTECTIVE_FEAT
+    any_types: true
+    all_features: [borrower_protective]
+    severity: Low
+    rationale_prefix: "[borrower-protective] "
+    reason: borrower_protective feature
+
+  # 3. Acceleration or termination right
+  - id: R_ACCEL_CRIT
+    types: [acceleration_or_termination_right]
+    all_features: [automatic, no_notice]
+    severity: Critical
+    reason: immediate automatic acceleration/termination without notice
+
+  - id: R_ACCEL_ILLEGALITY
+    types: [acceleration_or_termination_right]
+    all_features: [caused_by_illegality]
+    severity: Medium
+    reason: termination/prepayment caused by illegality or regulatory change
+
+  - id: R_ACCEL_HIGH
+    types: [acceleration_or_termination_right]
+    severity: High
+    reason: acceleration or termination right by notice
+
+  # 4. Payment / insolvency / change-of-control default triggers
+  - id: R_TRIG_MED
+    types: [payment_default_trigger, insolvency_default_trigger, change_of_control_trigger]
+    all_features: [cure_or_grace_10_days_or_more]
+    severity: Medium
+    reason: cure or grace period >= 10 days
+
+  - id: R_TRIG_HIGH
+    types: [payment_default_trigger, insolvency_default_trigger, change_of_control_trigger]
+    severity: High
+    reason: core default trigger with short or no >=10d cure window
+
+  # 5. Cross-default
+  - id: R_XDEF_HIGH
+    types: [cross_default]
+    any_features: [no_cure_or_grace, reaches_affiliates_or_third_parties]
+    severity: High
+    reason: cross-default without cure or reaching affiliates/third parties
+
+  - id: R_XDEF_MED
+    types: [cross_default]
+    severity: Medium
+    reason: cross-default requiring acceleration or cure expiration
+
+  # 6. Other default triggers
+  - id: R_ODEF_HIGH
+    types: [other_default_trigger]
+    all_features: [sole_discretion]
+    severity: High
+    reason: lender sole-discretion subjective default determination
+
+  - id: R_ODEF_MED
+    types: [other_default_trigger]
+    severity: Medium
+    reason: other default trigger
+
+  # 7. Remedies on default (S1)
+  - id: R_REM_CRIT
+    types: [remedy_on_default]
+    all_features: [automatic, no_notice]
+    severity: Critical
+    reason: automatic remedy/seizure without notice
+
+  - id: R_REM_HIGH
+    types: [remedy_on_default]
+    any_features: [beyond_pledged_asset, self_help_without_notice, joint_and_several]
+    severity: High
+    reason: remedy reaches beyond pledged asset, allows self-help without notice, or joint and several
+
+  - id: R_REM_MED
+    types: [remedy_on_default]
+    severity: Medium
+    reason: standard post-default secured-party remedy (S1)
+
+  # 8. Negative & financial ratio covenants (R2 cap: never High)
+  - id: R_COV_CAP
+    types: [negative_covenant, financial_ratio_covenant]
+    severity: Medium
+    reason: R2 covenant cap at Medium
+
+  # 9. Reporting or insurance covenant (S5)
+  - id: R_COV_REP
+    types: [reporting_or_insurance_covenant]
+    severity: Low
+    reason: routine reporting or standard insurance covenant (S5)
+
+  # 10. Indemnity (S4)
+  - id: R_IND_HIGH
+    types: [indemnity]
+    all_features: [broad_or_uncapped, survives_repayment]
+    severity: High
+    reason: broad/uncapped indemnity surviving repayment (S4)
+
+  - id: R_IND_MED
+    types: [indemnity]
+    severity: Medium
+    reason: standard or narrow indemnity
+
+  # 11. Fee or cost
+  - id: R_FEE_HIGH
+    types: [fee_or_cost]
+    all_features: [penal_rate_or_default_charge]
+    severity: High
+    reason: penal interest or default surcharge
+
+  - id: R_FEE_LOW
+    types: [fee_or_cost]
+    all_features: [taxes_or_routine_small_charge]
+    severity: Low
+    reason: taxes or routine small/zero fee
+
+  - id: R_FEE_MED
+    types: [fee_or_cost]
+    severity: Medium
+    reason: standard reimbursement, breakage, increased costs, or legal fees
+
+  # 12. Rate term
+  - id: R_RATE_MED
+    types: [rate_term]
+    all_features: [floating_or_reset_rate]
+    severity: Medium
+    reason: floating or reset interest rate term
+
+  - id: R_RATE_LOW
+    types: [rate_term]
+    severity: Low
+    reason: fixed or standard baseline rate term
+
+  # 13. Prepayment term
+  - id: R_PREPAY_MED
+    types: [prepayment_term]
+    all_features: [charges_apply]
+    severity: Medium
+    reason: prepayment restrictions or charges apply
+
+  - id: R_PREPAY_LOW
+    types: [prepayment_term]
+    severity: Low
+    reason: routine prepayment without extra charges
+
+  # 14. Security or guarantee
+  - id: R_SEC_HIGH
+    types: [security_or_guarantee]
+    any_features: [joint_and_several, reaches_affiliates_or_third_parties]
+    severity: High
+    reason: joint and several or third-party/affiliate guarantee exposure
+
+  - id: R_SEC_MED
+    types: [security_or_guarantee]
+    severity: Medium
+    reason: standard security interest or guarantee
+
+  # 15. Other fallback
+  - id: R_OTHER_LOW
+    types: [other]
+    severity: Low
+    reason: general or residual term

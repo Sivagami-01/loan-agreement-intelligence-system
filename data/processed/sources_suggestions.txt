@@ -1,0 +1,85 @@
+Suggestions are extracted from PDF metadata and first-page text only. Any identified URL, lender, or date is a machine-proposed suggestion and must be verified; no URL is inferred from filenames.
+
+03_dbs_mitc.pdf
+  lender names found in document: DBS Bank: DBS Bank
+  URLs found in document: none
+  dates found in document/metadata: 09082022 (date-like text in PDF metadata title; format not inferred); 2024-12-23 (PDF metadata creationDate); 2024-12-23 (PDF metadata modDate)
+  metadata title/subject: MOST IMPORTANT TERMS AND CONDITIONS (MITC)_09082022_FINAL
+  size_bytes: 161204; sha256: 893857f8b7e3e8257e283ed37d8d691a85fbd9c80760814d1bab5d700dc52225
+
+04_dbs_mitc-ahl.pdf
+  lender names found in document: DBS Bank: DBS Bank India
+  URLs found in document: none
+  dates found in document/metadata: Apr24 (date-like text in PDF metadata title; format not inferred)
+  metadata title/subject: MOST IMPORTANT TERMS AND CONDITIONS (MITC)_AHL Apr24_V3
+  size_bytes: 76931; sha256: 87b5f84e96c17978546a25dfb767a82093c7c961da4da2404f0f9f92a42013e5
+
+06_clix_10.-CHFL_Policy-on-Interest-Rate-MITC-27May2025.pdf
+  lender names found in document: none
+  URLs found in document: none
+  dates found in document/metadata: February 15, 2018; 2025-06-23 (PDF metadata creationDate); 2025-06-23 (PDF metadata modDate)
+  metadata title/subject: Microsoft Word - MITC-CLIX-HOUSING VF (1)
+  size_bytes: 262945; sha256: 4795e509ef1d57a7e91f60f101a8c5f4713d2123f28f02a12a97f702627ec85d
+
+09_muthoothomefin_MHIL-MITC.pdf
+  lender names found in document: Muthoot Homefin: Muthoot Homefin (India)
+  URLs found in document: www.muthoothomefin.com
+  dates found in document/metadata: 1st Jun'26 (date-like text in PDF metadata title; format not inferred); 2026-06-01 (PDF metadata creationDate); 2026-06-01 (PDF metadata modDate)
+  metadata title/subject: Microsoft Word - MHIL - MITC effective 1st Jun'26
+  size_bytes: 997535; sha256: 50f40c7486d4c20a11fe3a3e9fd95fb82c6751a9bb3208508a68614d2641615c
+
+11_gichfindia_MOST-IMPORTANT-TERMS-1.pdf
+  lender names found in document: GIC Housing Finance: GIC HOUSING FINANCE
+  URLs found in document: none
+  dates found in document/metadata: 2019-04-23 (PDF metadata creationDate); 2019-04-23 (PDF metadata modDate)
+  metadata title/subject: GIC HOUSING FINANCE LTD
+  size_bytes: 716006; sha256: b37899e4272307f573813eaacf856506ac274815da4b3e0f3782e07970d3855c
+
+12_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Malayalam.pdf
+  lender names found in document: Bajaj Housing Finance: BAJAJ HOUSING FINANCE LIMITED
+  URLs found in document: none
+  dates found in document/metadata: 2026-06-03 (PDF metadata creationDate); 2026-06-03 (PDF metadata modDate)
+  metadata title/subject: none
+  size_bytes: 790069; sha256: 11ed76337f990f997f57e4cd55fb9484a075e6782b322c5c0a371ec8c7b43c36
+
+13_bajajhousingfinance_MITC-Retail__Secured_and_Unsecured_-Hindi.pdf
+  lender names found in document: Bajaj Housing Finance: BAJAJ HOUSING FINANCE LIMITED
+  URLs found in document: none
+  dates found in document/metadata: 2026-06-23 (PDF metadata creationDate); 2026-06-24 (PDF metadata modDate)
+  metadata title/subject: none
+  size_bytes: 756188; sha256: 71acab13de7cc245c09c6f6499ab386d7af3386d9219fc46577267d36ae1c776
+
+14_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Hindi.pdf
+  lender names found in document: Bajaj Housing Finance: BAJAJ HOUSING FINANCE LIMITED
+  URLs found in document: none
+  dates found in document/metadata: 2026-02-09 (PDF metadata creationDate); 2026-02-11 (PDF metadata modDate)
+  metadata title/subject: none
+  size_bytes: 738940; sha256: cfcdd47a9dd210b38c94d6482db4ccebf01768d70f8f2610d4ce5812ea2f6424
+
+15_bajajhousingfinance_E-MITC_-_Retail_Secured_and_Unsecured_-_Punjabi_1_.pdf
+  lender names found in document: Bajaj Housing Finance: BAJAJ HOUSING FINANCE LIMITED
+  URLs found in document: none
+  dates found in document/metadata: 2026-04-28 (PDF metadata creationDate); 2026-04-28 (PDF metadata modDate)
+  metadata title/subject: none
+  size_bytes: 672991; sha256: adfb89b824074f2f948df7688014279b82c39a3105619ebb79bc4abe2841e0ea
+
+16_bajajhousingfinance_E-MITC_-_Retail_Secured_and_Unsecured_-_Bengali_1_.pdf
+  lender names found in document: Bajaj Housing Finance: BAJAJ HOUSING FINANCE LIMITED
+  URLs found in document: none
+  dates found in document/metadata: 2026-04-28 (PDF metadata creationDate); 2026-04-28 (PDF metadata modDate)
+  metadata title/subject: none
+  size_bytes: 759173; sha256: 0c8b4d408da548761e9ae4e73697d37b2d0ca7b246f43dae8c89874d8dc09336
+
+17_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Bengali.pdf
+  lender names found in document: Bajaj Housing Finance: BAJAJ HOUSING FINANCE LIMITED
+  URLs found in document: none
+  dates found in document/metadata: 2026-06-03 (PDF metadata creationDate); 2026-06-03 (PDF metadata modDate)
+  metadata title/subject: none
+  size_bytes: 906247; sha256: 5c773ff70665dbbe76388cd841857f7754d978109eb388768a7077f189ae5ff5
+
+personal_business_loan_agreement.pdf
+  lender names found in document: none
+  URLs found in document: none
+  dates found in document/metadata: 2015-02-24 (PDF metadata creationDate); 2015-02-25 (PDF metadata modDate)
+  metadata title/subject: Business Loan Agreement.indd
+  size_bytes: 1061057; sha256: 280c3739ea6a97dadecd73d2c705bedf70d3b5b0932f45ba3aafb2ee1a5d6615

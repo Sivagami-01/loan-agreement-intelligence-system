@@ -1,0 +1,423 @@
+{
+  "total_files": 46,
+  "successful": 46,
+  "crashes": 0,
+  "total_duration_seconds": 276.03,
+  "manifest": [
+    {
+      "group": "indian",
+      "file": "03_dbs_mitc.pdf",
+      "pages": 2,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 2.554,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "indian",
+      "file": "04_dbs_mitc-ahl.pdf",
+      "pages": 4,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 1.899,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "indian",
+      "file": "06_clix_10.-CHFL_Policy-on-Interest-Rate-MITC-27May2025.pdf",
+      "pages": 11,
+      "ocr_pages": 0,
+      "tables": 3,
+      "duration": 3.215,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "indian",
+      "file": "09_muthoothomefin_MHIL-MITC.pdf",
+      "pages": 7,
+      "ocr_pages": 0,
+      "tables": 8,
+      "duration": 5.441,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "indian",
+      "file": "11_gichfindia_MOST-IMPORTANT-TERMS-1.pdf",
+      "pages": 5,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 1.674,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "indian",
+      "file": "12_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Malayalam.pdf",
+      "pages": 42,
+      "ocr_pages": 6,
+      "tables": 32,
+      "duration": 14.21,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "indian",
+      "file": "13_bajajhousingfinance_MITC-Retail__Secured_and_Unsecured_-Hindi.pdf",
+      "pages": 29,
+      "ocr_pages": 5,
+      "tables": 22,
+      "duration": 11.829,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "indian",
+      "file": "14_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Hindi.pdf",
+      "pages": 29,
+      "ocr_pages": 5,
+      "tables": 24,
+      "duration": 14.492,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "indian",
+      "file": "15_bajajhousingfinance_E-MITC_-_Retail_Secured_and_Unsecured_-_Punjabi_1_.pdf",
+      "pages": 31,
+      "ocr_pages": 6,
+      "tables": 30,
+      "duration": 14.406,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "indian",
+      "file": "16_bajajhousingfinance_E-MITC_-_Retail_Secured_and_Unsecured_-_Bengali_1_.pdf",
+      "pages": 31,
+      "ocr_pages": 3,
+      "tables": 30,
+      "duration": 15.044,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "indian",
+      "file": "17_bajajhousingfinance_MITC_-_Retail_Secured_and_Unsecured_-_Bengali.pdf",
+      "pages": 33,
+      "ocr_pages": 5,
+      "tables": 26,
+      "duration": 11.747,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "indian",
+      "file": "28_tata_capital_digital_quick_cash.pdf",
+      "pages": 7,
+      "ocr_pages": 0,
+      "tables": 15,
+      "duration": 5.449,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "indian",
+      "file": "29_piramal_finance_mitc_final_english_2.pdf",
+      "pages": 24,
+      "ocr_pages": 0,
+      "tables": 28,
+      "duration": 8.234,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "indian",
+      "file": "30_piramal_finance_mortgage_mitc_latest_10042024.pdf",
+      "pages": 7,
+      "ocr_pages": 7,
+      "tables": 0,
+      "duration": 32.689,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "indian",
+      "file": "31_piramal_finance_mitc_final_english_r2_ev.pdf",
+      "pages": 26,
+      "ocr_pages": 0,
+      "tables": 29,
+      "duration": 8.655,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "indian",
+      "file": "personal_business_loan_agreement.pdf",
+      "pages": 16,
+      "ocr_pages": 2,
+      "tables": 19,
+      "duration": 5.476,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement.pdf",
+      "pages": 12,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 1.481,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "CybergyHoldingsInc_20140520_10-Q_EX-10.27_8605784_EX-10.27_Affiliate Agreement.pdf",
+      "pages": 16,
+      "ocr_pages": 0,
+      "tables": 1,
+      "duration": 2.515,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "DigitalCinemaDestinationsCorp_20111220_S-1_EX-10.10_7346719_EX-10.10_Affiliate A.pdf",
+      "pages": 37,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 7.154,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "DigitalCinemaDestinationsCorp_20111220_S-1_EX-10.10_7346719_EX-10.10_Affiliate Agreement.pdf",
+      "pages": 37,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 8.187,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "LinkPlusCorp_20050802_8-K_EX-10_3240252_EX-10_Affiliate Agreement.pdf",
+      "pages": 7,
+      "ocr_pages": 1,
+      "tables": 0,
+      "duration": 4.936,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement.pdf",
+      "pages": 8,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 1.158,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "SteelVaultCorp_20081224_10-K_EX-10.16_3074935_EX-10.16_Affiliate Agreement.pdf",
+      "pages": 4,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 1.571,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "TubeMediaCorp_20060310_8-K_EX-10.1_513921_EX-10.1_Affiliate Agreement.pdf",
+      "pages": 24,
+      "ocr_pages": 0,
+      "tables": 2,
+      "duration": 5.01,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "UnionDentalHoldingsInc_20050204_8-KA_EX-10_3345577_EX-10_Affiliate Agreement.pdf",
+      "pages": 3,
+      "ocr_pages": 1,
+      "tables": 0,
+      "duration": 2.616,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "UsioInc_20040428_SB-2_EX-10.11_1723988_EX-10.11_Affiliate Agreement 2.pdf",
+      "pages": 6,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 2.287,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ .pdf",
+      "pages": 9,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 1.733,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement.pdf",
+      "pages": 9,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 2.323,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "DeltathreeInc_19991102_S-1A_EX-10.19_6227850_EX-10.19_Co-Branding Agreement_ Ser.pdf",
+      "pages": 6,
+      "ocr_pages": 1,
+      "tables": 0,
+      "duration": 6.974,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "DeltathreeInc_19991102_S-1A_EX-10.19_6227850_EX-10.19_Co-Branding Agreement_ Service Agreement.pdf",
+      "pages": 6,
+      "ocr_pages": 1,
+      "tables": 0,
+      "duration": 5.902,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "EbixInc_20010515_10-Q_EX-10.3_4049767_EX-10.3_Co-Branding Agreement.pdf",
+      "pages": 8,
+      "ocr_pages": 1,
+      "tables": 0,
+      "duration": 6.482,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "EdietsComInc_20001030_10QSB_EX-10.4_2606646_EX-10.4_Co-Branding Agreement.pdf",
+      "pages": 13,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 6.236,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "EmbarkComInc_19991008_S-1A_EX-10.10_6487661_EX-10.10_Co-Branding Agreement.pdf",
+      "pages": 9,
+      "ocr_pages": 1,
+      "tables": 0,
+      "duration": 5.876,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "HealthcentralCom_19991108_S-1A_EX-10.27_6623292_EX-10.27_Co-Branding Agreement.pdf",
+      "pages": 13,
+      "ocr_pages": 2,
+      "tables": 0,
+      "duration": 11.632,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "ImpresseCorp_20000322_S-1A_EX-10.11_5199234_EX-10.11_Co-Branding Agreement.pdf",
+      "pages": 8,
+      "ocr_pages": 1,
+      "tables": 0,
+      "duration": 10.285,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "cuad",
+      "file": "IntegrityMediaInc_20010329_10-K405_EX-10.17_2373875_EX-10.17_Co-Branding Agreeme.pdf",
+      "pages": 6,
+      "ocr_pages": 4,
+      "tables": 0,
+      "duration": 23.06,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "edgar",
+      "file": "0000027430-25-000005_aesohio10qex10120250630q2.htm",
+      "pages": 3,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 0.072,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "edgar",
+      "file": "0000037785-18-000058_citifmcamendmentno1to201.htm",
+      "pages": 11,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 0.056,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "edgar",
+      "file": "0000037785-18-000058_citifmcamendmentno4to201.htm",
+      "pages": 13,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 0.038,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "edgar",
+      "file": "0000037785-21-000050_ex102amendmentno3.htm",
+      "pages": 10,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 0.056,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "edgar",
+      "file": "0000063296-22-000099_thirdamendmenttothirdamend.htm",
+      "pages": 4,
+      "ocr_pages": 0,
+      "tables": 5,
+      "duration": 0.098,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "edgar",
+      "file": "0000080035-25-000013_plpc-10qxex101x2025q2.htm",
+      "pages": 2,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 0.026,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "edgar",
+      "file": "0000099780-23-000013_exhibit10102-csxtrlwtsecon.htm",
+      "pages": 5,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 0.016,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "edgar",
+      "file": "0000099780-23-000044_exhibit102-thirdamendmentt.htm",
+      "pages": 6,
+      "ocr_pages": 0,
+      "tables": 0,
+      "duration": 0.023,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "edgar",
+      "file": "0000106040-24-000031_wdc-2024q4ex10163.htm",
+      "pages": 4,
+      "ocr_pages": 0,
+      "tables": 23,
+      "duration": 0.046,
+      "status": "SUCCESS"
+    },
+    {
+      "group": "edgar",
+      "file": "0000106040-25-000038_exhibit1015westerndigital-.htm",
+      "pages": 4,
+      "ocr_pages": 0,
+      "tables": 23,
+      "duration": 0.038,
+      "status": "SUCCESS"
+    }
+  ],
+  "crash_details": []
+}

@@ -1,0 +1,8 @@
+true\pred,Financial terms,Repayment,Penalties and charges,Collateral,Default conditions,Termination,Covenants,unclassified
+Financial terms,7,0,0,0,0,0,0,0
+Repayment,0,8,1,0,0,0,0,0
+Penalties and charges,2,0,8,1,0,0,0,0
+Collateral,0,0,0,11,0,0,0,0
+Default conditions,0,0,0,0,9,0,0,0
+Termination,0,1,1,0,2,6,0,0
+Covenants,0,0,0,0,0,0,9,0

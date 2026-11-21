@@ -1,0 +1,317 @@
+{
+  "t1": {
+    "passed": true,
+    "msg": "Scanned 299 files; leaks=0"
+  },
+  "t2": {
+    "passed": true,
+    "msg": "11/11 unit checks passed"
+  },
+  "t3": {
+    "passed": true,
+    "msg": "5 docs; kept_quotes_verified=58/58 (100.0%); dropped_quotes=3 (prev 4; repaired=1); new_calls=0",
+    "calls": 0,
+    "docs": [
+      {
+        "doc_id": "03_dbs_mitc",
+        "doc_chars": 10903,
+        "num_pages": 2,
+        "retrieval_used": false,
+        "model_used": "gemini-3.5-flash-lite",
+        "verified": 8,
+        "needs_review": 0,
+        "deferred_to_other_document": 1,
+        "not_found": 6,
+        "unverified": 1,
+        "raw_quotes_total": 10,
+        "verified_quotes_total": 9,
+        "quotes_repaired_total": 0,
+        "dropped_quotes_total": 1,
+        "kept_quote_verified_rate": 1.0
+      },
+      {
+        "doc_id": "13_bajajhousingfinance_MITC-Retail__Secured_and_Unsecured_-Hindi",
+        "doc_chars": 74421,
+        "num_pages": 29,
+        "retrieval_used": false,
+        "model_used": "gemini-3.5-flash-lite",
+        "verified": 9,
+        "needs_review": 0,
+        "deferred_to_other_document": 0,
+        "not_found": 5,
+        "unverified": 2,
+        "raw_quotes_total": 11,
+        "verified_quotes_total": 9,
+        "quotes_repaired_total": 1,
+        "dropped_quotes_total": 2,
+        "kept_quote_verified_rate": 1.0
+      },
+      {
+        "doc_id": "0000027430-25-000005_aesohio10qex10120250630q2",
+        "doc_chars": 7641,
+        "num_pages": 3,
+        "retrieval_used": false,
+        "model_used": "gemini-3.5-flash-lite",
+        "verified": 9,
+        "needs_review": 0,
+        "deferred_to_other_document": 0,
+        "not_found": 7,
+        "unverified": 0,
+        "raw_quotes_total": 15,
+        "verified_quotes_total": 15,
+        "quotes_repaired_total": 0,
+        "dropped_quotes_total": 0,
+        "kept_quote_verified_rate": 1.0
+      },
+      {
+        "doc_id": "09_muthoothomefin_MHIL-MITC",
+        "doc_chars": 22083,
+        "num_pages": 7,
+        "retrieval_used": false,
+        "model_used": "gemini-3.5-flash-lite",
+        "verified": 11,
+        "needs_review": 0,
+        "deferred_to_other_document": 0,
+        "not_found": 5,
+        "unverified": 0,
+        "raw_quotes_total": 11,
+        "verified_quotes_total": 11,
+        "quotes_repaired_total": 0,
+        "dropped_quotes_total": 0,
+        "kept_quote_verified_rate": 1.0
+      },
+      {
+        "doc_id": "CITGO (000101/1011746/0000950129-03-001503_8.txt)",
+        "doc_chars": 354131,
+        "num_pages": 33,
+        "retrieval_used": true,
+        "model_used": "gemini-3.5-flash-lite",
+        "verified": 9,
+        "needs_review": 1,
+        "deferred_to_other_document": 1,
+        "not_found": 5,
+        "unverified": 0,
+        "raw_quotes_total": 14,
+        "verified_quotes_total": 14,
+        "quotes_repaired_total": 0,
+        "dropped_quotes_total": 0,
+        "kept_quote_verified_rate": 1.0
+      }
+    ]
+  },
+  "t4": {
+    "passed": true,
+    "msg": "6/6 target label-right rows resolved correctly",
+    "details": [
+      {
+        "row": 7,
+        "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+        "field": "late_payment_or_default_interest",
+        "expect": "not_found_or_deferred",
+        "new_status": "not_found",
+        "defers_to": "",
+        "quote_repaired": false,
+        "new_value": "Not found in this document",
+        "quotes_kept": 0,
+        "fixed_ok": true
+      },
+      {
+        "row": 8,
+        "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+        "field": "prepayment_terms",
+        "expect": "not_found_or_deferred",
+        "new_status": "not_found",
+        "defers_to": "",
+        "quote_repaired": false,
+        "new_value": "Not found in this document",
+        "quotes_kept": 0,
+        "fixed_ok": true
+      },
+      {
+        "row": 16,
+        "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+        "field": "maturity_termination_date",
+        "expect": "not_found_or_deferred",
+        "new_status": "not_found",
+        "defers_to": "",
+        "quote_repaired": false,
+        "new_value": "Not found in this document",
+        "quotes_kept": 0,
+        "fixed_ok": true
+      },
+      {
+        "row": 20,
+        "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+        "field": "events_of_default",
+        "expect": "verified_with_quote",
+        "new_status": "verified",
+        "defers_to": "",
+        "quote_repaired": true,
+        "new_value": "Includes failure to pay installments within 10 days, breach of obligations with 30 days cure, bankruptcy/insolvency events, judgments over $500,000, and failure to comply with financial covenants",
+        "quotes_kept": 1,
+        "fixed_ok": true
+      },
+      {
+        "row": 32,
+        "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+        "field": "collateral_security",
+        "expect": "verified_with_quote",
+        "new_status": "verified",
+        "defers_to": "",
+        "quote_repaired": true,
+        "new_value": "First priority security interest in the tug vessel M 214, related equipment, inventory, freights, charters, chattel paper, accounts, and insurance proceeds",
+        "quotes_kept": 1,
+        "fixed_ok": true
+      },
+      {
+        "row": 54,
+        "doc_id": "000004/40211/0000950123-11-048775_2.txt",
+        "field": "events_of_default",
+        "expect": "verified_with_quote",
+        "new_status": "verified",
+        "defers_to": "",
+        "quote_repaired": true,
+        "new_value": "Includes non-payment of principal, interest, or fees for two business days, material misrepresentations, covenant breaches, cross-defaults on material indebtedness exceeding $50,000,000, bankruptcy or insolvency events, and change in control.",
+        "quotes_kept": 1,
+        "fixed_ok": true
+      }
+    ]
+  },
+  "t5": {
+    "passed": true,
+    "metric_a_silver": {
+      "disclaimer": "LLM-assisted silver labels (not independent human gold)",
+      "total_rows": 48,
+      "definitive_rows": 41,
+      "positive_rows": 36,
+      "negative_not_present_rows": 5,
+      "unclear_rows": 7,
+      "counts": {
+        "exact": 10,
+        "normalized": 0,
+        "partial": 10,
+        "no": 16
+      },
+      "tn": 5,
+      "strict": {
+        "tp": 10,
+        "fp": 25,
+        "fn": 26,
+        "precision": 0.2857142857142857,
+        "recall": 0.2777777777777778,
+        "f1": 0.28169014084507044
+      },
+      "lenient": {
+        "tp": 20,
+        "fp": 15,
+        "fn": 16,
+        "precision": 0.5714285714285714,
+        "recall": 0.5555555555555556,
+        "f1": 0.5633802816901409
+      },
+      "per_doc": {
+        "000010/104897/0000950123-11-030926_2.txt": {
+          "exact": 4,
+          "normalized": 0,
+          "partial": 2,
+          "no": 6,
+          "tn": 1,
+          "fp": 0,
+          "fn": 1,
+          "unclear": 3
+        },
+        "000081/810113/0000950116-04-002411_4.txt": {
+          "exact": 3,
+          "normalized": 0,
+          "partial": 4,
+          "no": 3,
+          "tn": 2,
+          "fp": 0,
+          "fn": 0,
+          "unclear": 4
+        },
+        "000103/1039213/0000912057-97-018811_19.txt": {
+          "exact": 3,
+          "normalized": 0,
+          "partial": 4,
+          "no": 7,
+          "tn": 2,
+          "fp": 0,
+          "fn": 0,
+          "unclear": 0
+        }
+      }
+    },
+    "metric_a_gold": {
+      "total_cells": 27,
+      "counts": {
+        "exact": 5,
+        "normalized": 0,
+        "partial": 3,
+        "no": 19
+      },
+      "strict_matches": 5,
+      "strict_rate": 0.18518518518518517,
+      "lenient_matches": 8,
+      "lenient_rate": 0.2962962962962963,
+      "per_doc": {
+        "Brown-Forman": {
+          "doc_id": "000001/14693/0000950144-06-011821_2.txt",
+          "total": 9,
+          "exact": 2,
+          "normalized": 0,
+          "partial": 0,
+          "no": 7,
+          "strict_rate": 0.2222222222222222,
+          "lenient_rate": 0.2222222222222222
+        },
+        "Caterpillar": {
+          "doc_id": "000001/18230/0001104659-11-052126_5.txt",
+          "total": 9,
+          "exact": 1,
+          "normalized": 0,
+          "partial": 2,
+          "no": 6,
+          "strict_rate": 0.1111111111111111,
+          "lenient_rate": 0.3333333333333333
+        },
+        "GATX": {
+          "doc_id": "000004/40211/0000950123-11-048775_2.txt",
+          "total": 9,
+          "exact": 2,
+          "normalized": 0,
+          "partial": 1,
+          "no": 6,
+          "strict_rate": 0.2222222222222222,
+          "lenient_rate": 0.3333333333333333
+        }
+      }
+    },
+    "metric_b": {
+      "label": "post-hoc, judge-based, not pre-registered",
+      "calibration": {
+        "label": "post-hoc, judge-based, not pre-registered",
+        "verifier_model": "gemini-3.5-flash",
+        "extractor_models": [
+          "gemini-3.5-flash-lite"
+        ],
+        "total_verdicts": 54,
+        "completed": 0,
+        "agreed": 0,
+        "agreement": 0.0,
+        "trusted": false,
+        "stopped_gracefully": true,
+        "stop_reason": "HTTP 429 quota exhausted for gemini-3.5-flash: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current "
+      },
+      "metric_b_reported": false,
+      "reason": "Judge NOT trusted / NOT scored: stopped_gracefully=True, calibrated=0/54, agreement=0.0% (requires >=85%). HTTP 429 quota exhausted for gemini-3.5-flash: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current",
+      "new_judge_calls": 0,
+      "cache_hits": 0
+    }
+  },
+  "t6": {
+    "passed": true,
+    "total_live_calls": 0,
+    "repeat_new_calls": 0
+  }
+}

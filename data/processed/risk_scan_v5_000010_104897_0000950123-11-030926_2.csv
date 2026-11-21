@@ -1,0 +1,884 @@
+﻿doc_id,clause_id,continuation_of,page,clause_text,prefilter_passed,matched_keywords,category,severity,clause_type,features,severity_rule,severity_explanation,rationale,number_flag,flagged_numbers,model_used,parse_error,prompt_version
+000010/104897/0000950123-11-030926_2.txt,C0001,,1,"EXHIBIT 10.1
+
+LOAN AGREEMENT
+
+This Loan Agreement (""Agreement"") is made as of the 1st day of February, 2011,
+(""Effective Date"") by and among WSI Industries, Inc., a Minnesota corporation,
+having an address of 213 Chelsea Road, Monticello, MN 55362 (""Borrower""),
+Taurus Numeric Tool, Inc., having an address of 213 Chelsea Road, Monticello,
+MN 55362 and WSI Rochester, Inc., having an address of 213 Chelsea Road,
+Monticello, MN 55362 (jointly ""Guarantor"") and M&I Marshall & Ilsley Bank,
+having an address of 11455 Viking Drive, Eden Prairie, Minnesota 55344
+(""Bank"").
+
+RECITALS",True,collateral_security,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,This introductory clause identifies the parties and basic preamble details of the agreement.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0002,,1,"WHEREAS, on or about December 4, 2002, (the ""Loan Date"") Borrower executed a
+Revolving Line of Credit Promissory Note in favor of Excel Bank Minnesota
+(""Excel"") in the original principal amount of One Million and no/100 Dollars
+($1,000,000.00) (""Note"") pursuant to a Loan Agreement (""Loan Agreement"") and
+secured by a Security Agreement executed by Borrower (""Security Agreement);
+and",True,principal_amount; collateral_security,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,This recital clause describes the background of the prior promissory note and security agreement.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0003,,1,"WHEREAS, to further secure the sums due and payable to Excel pursuant to the
+Note and the Loan Agreement, each Guarantor executed a Guaranty and a Security
+Agreement dated as of December 4, 2002 ; and
+
+WHEREAS, the Note, the Loan Agreement and the related documents Security
+Agreement were previously amended on numerous occasions; and
+
+WHEREAS, effective on August 1, 2007, Excel was acquired by merger with the
+Bank; and",True,payable_due; collateral_security; restrictions_transfers,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,"This recital clause recounts historical guaranties, amendments, and the bank merger.",False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0004,,1,"WHEREAS, the Borrower and Guarantors have requested that the Bank again amend
+and extend the maturity date of the Note and modify the terms of the Loan
+Agreement and Bank is agreeable thereto.",True,repayment_terms; collateral_security,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,This recital clause notes the request to amend and extend the maturity date.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0005,,1,"NOW, THEREFORE, in consideration of the above recitals, and in consideration
+of credit given or to be given by the Bank to the Borrower and for other good
+and valuable consideration, all of which consideration is hereby acknowledged,
+the parties hereto agree that the Loan Agreement is amended and restated in
+its entirety as follows:
+
+ARTICLE I
+
+DEFINITIONS
+
+Section 1.01 Definitions. For all purposes of this Agreement, except as
+otherwise expressly provided or unless the context otherwise requires:
+
+(a) the terms defined in this Article have the meanings assigned to them in
+this Article, and include the plural as well as the singular; and #####",True,restrictions_transfers,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,This clause contains administrative preamble text and article headings.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0006,,2,"(b) all accounting terms not otherwise defined herein have the meanings
+assigned to them in accordance with generally accepted accounting principles.",True,restrictions_transfers,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This interpretive clause establishes that undefined accounting terms follow generally accepted accounting principles.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0007,,2,"""Accounts"" means, as to any Person, the aggregate unpaid obligations of
+customers and other account debtors to such Person arising out of the sale or
+lease of goods or rendition of services by such Person on an open account or
+deferred payment basis.
+
+""Advance"" means an advance by the Bank to the Borrower pursuant to Article II.
+
+""Commitment"" means One Million and 00/100 ($1,000,000.00) Dollars under the
+Revolving Loan as evidenced by the Revolving Note.",True,principal_amount,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,"This definition clause sets forth the facility commitment amount of One Million and 00/100 ($1,000,000.00) Dollars.",False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0008,,2,"""Current Assets"" of any Person means the aggregate amount of assets of such
+Person which in accordance with generally accepted accounting principles may
+be properly classified as current assets, after deducting adequate reserves
+where proper, but in no event including any real estate.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0009,,2,"""Current Liabilities"" of any Person means (i) all Debt of such Person due on
+demand or within one year from the date of determination thereof, and (ii) all
+other items (including taxes accrued as estimated) which, in accordance with
+generally accepted accounting principles, may be properly classified as
+current liabilities.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0010,,2,"""Debt"" means (i) all items of indebtedness or liability which in accordance
+with generally accepted accounting principles would be included in determining
+total liabilities as shown on the liabilities side of a balance sheet as at
+the date as of which Debt is to be determined and (ii) indebtedness secured by
+any mortgage, pledge, lien or security interest existing on property owned by
+the Person whose Debt is being determined, whether or not the indebtedness
+secured thereby shall have been assumed, and (iii) guaranties, endorsements
+(other than for purposes of collection in the ordinary course of business) and
+other contingent obligations in respect of, or to purchase or otherwise
+acquire indebtedness of others.
+
+""Event of Default"" has the meaning specified in Section 7.01.",True,interest; collateral_security; default_triggers; restrictions_transfers,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This definition clause defines debt liabilities and references an event of default.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0011,,2,"""Funded Debt"", with respect to any Person, means all Debt of such Person
+maturing by its terms more than one year after, or which is renewable or
+extendable at the option of such Person for a period ending one year or more
+after, the date of determination, and shall include Debt of such maturity
+created, assumed or guaranteed by such Person either directly or indirectly,
+including obligations of such maturity secured by liens upon property of such
+Person and upon which such entity customarily pays the interest, and all
+rental payments under capitalized leases of such maturity.
+
+2 #####",True,interest; repayment_terms; collateral_security,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This definition clause establishes the technical meaning of funded debt.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0012,,3,"""Guaranty"" or ""Guaranties"" mean the Guaranty agreements executed by Guarantors
+of even date herewith in favor of the Bank.
+
+""Letters of Credit"" means documentary and standby letters of credit issued and
+to be issued by the Bank at the request of the Borrower from time to time.
+
+""Loan"" means the sums advanced under the Revolving Note pursuant to Article II
+hereof.
+
+""Net Worth"" means the aggregate of capital and surplus of the Borrower, all
+determined in accordance with generally accepted accounting principles.
+
+""Note"" means the Amended and Restated Revolving Credit Note executed by
+Borrower of even date herewith.",True,collateral_security; financial_ratios,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,"This definition clause defines terms such as guaranty, letters of credit, loan, net worth, and note.",False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0013,,3,"""Person"" means any individual, corporation, partnership, joint venture,
+association, joint-stock company, trust, unincorporated organization or
+government or any agency or political subdivision thereof.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0014,,3,"""Plan"" means an employee benefit plan or other plan maintained for employees
+of the Borrower and covered by Title IV of the Employee Retirement Income
+Security Act of 1974, as amended.
+
+""Reportable Event"" shall have the meaning assigned to that term in Title IV of
+the Employee Retirement Income Security Act of 1974, as amended.
+
+""Revolving Note"" has the meaning specified in Section 2.02.",True,collateral_security; restrictions_transfers,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This definition clause defines ERISA-related employee benefit plan terms.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0015,,3,"""Security Agreement"" or ""Security Agreements"" mean the Amended and Restated
+Security Agreements executed by Borrower and Guarantors of even date herewith.",True,collateral_security,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This definition clause establishes the meaning of security agreements.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0016,,3,"""Subordinated Debt"" means the Debt of the Borrower that is subordinated in
+right of payment, in terms satisfactory to the Bank, to all indebtedness of
+the Borrower to the Bank.",True,covenant_undertaking; restrictions_transfers,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This definition clause defines subordinated debt in relation to bank indebtedness.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0017,,3,"""Subsidiary"" means any corporation of which more than 50% of the outstanding
+shares of capital stock have general voting power under ordinary circumstances
+to elect a majority of the board of directors of such corporation,
+irrespective of whether or not at the time stock of any other class or classes
+shall have or might have voting power by reason of the happening of any
+contingency, is at the time directly or indirectly owned by the Borrower, by
+the Borrower and one or more other Subsidiaries, or by one or more other
+Subsidiaries:
+
+3 #####",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0018,,4,"""Tangible Net Worth"" of any Person means the excess of:
+
+(a) the tangible assets of such Person, which, in accordance with generally
+accepted accounting principles, are tangible assets, after deducting adequate
+reserves in each case where, in accordance with generally accepted accounting
+principles, a reserve is proper, less
+
+(b) all Debt of such Person;",True,financial_ratios,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This definition clause defines tangible net worth based on tangible assets minus debt.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0019,,4,"provided, however, that (i) inventory shall be taken into account on the basis
+of the cost or current market value, whichever is lower, (ii) in no event
+shall there be included as such tangible assets patents, trademarks, trade
+names, copyrights, licenses, good will, deferred taxes, prepaid expenses,
+deferred charges or treasury stock or any securities or Debt of such Person or
+any other securities unless the same are readily marketable in the United
+States of America or entitled to be used as a credit against Federal income
+tax liabilities, (iii) securities included as such tangible assets shall be
+taken into account at their current market price or cost, whichever is lower,
+and (iv) any write-up in the book value of any assets shall not be taken into
+account.",True,charges_expenses; collateral_security; covenant_undertaking,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This definition clause outlines specific calculation exclusions and inclusions for tangible assets.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0020,,4,"""Working Capital"" of any Person means the excess of the Current Assets over
+the Current Liabilities of such Person, as determined in accordance with
+generally accepted accounting principles.
+
+ARTICLE II
+
+AMOUNT AND TERMS OF THE REVOLVING LOAN",True,financial_ratios,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This definition clause establishes the working capital calculation formula.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0021,,4,"Section 2.01 Revolving Loan and Revolving Note. The Bank agrees, on the terms
+and subject to the conditions hereinafter set forth, to make Advances to the
+Borrower from time to time during the period from the date hereof to February
+1, 2012 or the earlier date of termination in whole of the Commitment pursuant",True,principal_amount; termination_accel,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,"This clause sets out the revolving loan terms and final availability date of February 1, 2012.",False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0022,,4,"Section 7.02, in an aggregate amount not to exceed at any time outstanding One
+Million and 00/100 ($1,000,000.00) Dollars. Each Advance shall be in the
+amount of $10,000.00 or an integral multiple thereof. Within the limits of
+the, the Borrower may borrow, repay pursuant to Section 2.07 and re-borrow
+under this Section 2.02. The Advances made by the Bank shall be evidenced by
+and repayable with interest in accordance with a single promissory note of the
+Borrower of even date herewith (the ""Revolving Note"") payable to the order of
+the Bank, substantially in a form acceptable to the Bank, dated the date of
+this Agreement. The Revolving Note shall bear interest on the unpaid principal
+amount thereof from the date thereof until paid at the rate therein provided.
+
+4 #####",True,interest; principal_amount; repayment_terms,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,"This clause establishes the aggregate advance limit of One Million and 00/100 ($1,000,000.00) Dollars and interest mechanics.",False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0023,,5,"Section 2.02 Making the Revolving Loans. Each Advance shall be made on at
+least one bank business days' prior written notice from the Borrower to the
+Bank or telephonic request from any person authorized to request Advances on
+behalf of the Borrower, which notice or request shall specify the date of the
+requested Advance and the amount thereof. The persons authorized to make such
+requests for Advances are described in the Resolution of Borrower delivered to
+the Bank herewith, and such persons are subject to change by the Borrower upon
+delivery of new Resolutions of the Borrower in writing to the Bank. Upon
+fulfillment of the applicable conditions set forth in Article III, or as
+otherwise described in the Loan Sweep Agreement, the Bank may disburse the
+amount of the requested Advance by crediting the same to the Borrower's demand
+deposit account maintained with the Bank or in such other manner as the Bank
+and the Borrower may from time to time agree. The Borrower shall promptly
+confirm each telephonic request for an Advance by executing and delivering an
+appropriate confirmation certificate to the Bank. Any request for an Advance
+by the Borrower, whether written or telephonic, shall be deemed to be a
+representation that the statements set forth in Section 3.02 are correct.
+
+Section 2.03 Commitment Fees. There are no commitment fees payable by the
+Borrower hereunder.",True,principal_amount; charges_expenses,Penalties and charges,Low,fee_or_cost,"{""borrower_protective"": true}",R_BORROWER_PROTECTIVE_FEAT,Severity Low because: fee_or_cost; borrower_protective,[borrower-protective] This fee provision explicitly states that there are no commitment fees payable by the borrower.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0024,,5,"Section 2.04 Interest; Payment. Interest on the Note is computed on a 365/360
+basis; that is, by applying the ratio of the interest rate over a year of 360
+days, multiplied by the outstanding principal balance, multiplied by the
+actual number of days the principal balance is outstanding. All interest
+payable under the Note shall be computed using this method. This calculation
+method results in a higher effective interest rate than the numeric interest
+rate stated in the Note. All payments of principal and interest under the Note
+and of the fees hereunder shall be made to the Bank in immediately available
+funds. Borrower agrees that the amount shown on the books and records of the
+Bank, as being the aggregate amount of Advances outstanding shall be prima
+facie evidence of the principal amount of the Revolving Note then outstanding.
+The Borrower hereby authorizes the Bank, if and to the extent payment is not
+promptly made pursuant hereto, to charge against the Borrower's account with
+the Bank an amount equal to the accrued interest and fees from time to time
+due and payable to the Bank under the Note or hereunder.",True,interest; principal_amount; payable_due; charges_expenses; reporting_inspection,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,This clause establishes interest computation using a 365/360 basis and authorizes automatic account charges for overdue interest and fees.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0025,,5,"Section 2.05 Payment on Non-Business Days. Whenever any payment to be made
+hereunder or under a Note shall be stated to be due on a Saturday, Sunday or a
+holiday for banks under the laws of the State of Minnesota, such payment may
+be made on the next succeeding bank business day, and such extension of time
+shall in such case be included in the computation of payment of interest on
+the Note or the fees hereunder, as the case may be.",True,interest; charges_expenses,Repayment,Low,prepayment_term,{},R_PREPAY_LOW,Severity Low because: prepayment_term; routine prepayment without extra charges,Permits payments due on non-business days to be made on the next succeeding business day.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0026,,5,"Section 2.06 Use of Proceeds. The proceeds of the Revolving Note shall be used
+by the Borrower for general corporate working capital purposes of the
+Borrower.
+
+5 #####",True,financial_ratios,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,Specifies that revolving loan proceeds must be used for general corporate working capital purposes.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0027,,6,"ARTICLE III
+
+CONDITIONS OF LENDING
+
+Section 3.01 Conditions Precedent to the Initial Advance. The obligation of
+the Bank to make its initial Advance, whether pursuant to the Revolving Note,
+is subject to the condition precedent that the Bank shall have received on or
+before the day of such Advance all of the following, each dated (unless
+otherwise indicated) such day, in form and substance satisfactory to the Bank:
+
+(a) The Revolving Note, properly executed on behalf of the Borrower.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0028,,6,"(b) The original resolutions of the Board of Directors of the Borrower and the
+Guarantors evidencing approval of this Agreement, the Note, the Security
+Agreement, the Guaranties, and all other matters contemplated hereby (the
+""Loan Documents"").",True,collateral_security,none,none,closing_condition,{},R_N1_NON_RISK,Severity none because: closing_condition; N1 non-risk type,Requires delivery of original board resolutions approving the loan documents as a closing condition.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0029,,6,"(c) Copies of the Articles of Incorporation and Bylaws of the Borrower and
+Guarantors, certified by the Secretary or Assistant Secretary of the Borrower
+and Guarantors as being true and correct copies thereof.",True,collateral_security,none,none,closing_condition,{},R_N1_NON_RISK,Severity none because: closing_condition; N1 non-risk type,Requires certified copies of articles of incorporation and bylaws as closing deliverables.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0030,,6,"(d) A signed copy of a certificate of the Secretary or an Assistant Secretary
+of the Borrower and Guarantors which shall certify the names of the officers
+of the Borrower authorized to sign this Agreement, the Note, the Security
+Agreement, the Guaranties and the other documents or certificates to be
+delivered pursuant to this Agreement by the Borrower and Guarantors or any of
+its or their officers, together with the true signatures of such officers. The
+Bank may conclusively rely on such certificate until it shall receive a
+further certificate of the Secretary or Assistant Secretary of the Borrower or
+Guarantors canceling or amending the prior certificate and submitting the
+signatures of the officers named in such further certificate.",True,collateral_security,none,none,closing_condition,{},R_N1_NON_RISK,Severity none because: closing_condition; N1 non-risk type,Requires an officer's certificate verifying authorized signatures and titles for closing purposes.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0031,,6,"(e) In addition to the foregoing, the obligation of the Bank to make its
+initial Advance pursuant to the Note shall be conditioned upon the Bank
+receiving such other documents as the Bank or its legal counsel may reasonably
+deem necessary to document the Loans.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0032,,6,"Section 3.02 Conditions Precedent to All Advances. The obligation of the Bank
+to make any Advance shall be subject to the further conditions precedent that
+on the date of such Advance:",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0033,,6,"(a) the representations and warranties contained in Article IV are correct on
+and as of the date of such Advance as though made on and as of such date,
+except to the extent that such representations and warranties relate solely to
+an earlier date; and",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0034,,6,"(b) no event has occurred and is continuing, or would result from such
+Advance, which constitutes an Event of Default or would constitute an Event of
+Default but for the requirement that notice be given or time elapse or both.
+
+6 #####",True,default_triggers,Default conditions,Medium,other_default_trigger,{},R_ODEF_MED,Severity Medium because: other_default_trigger; other default trigger,Conditions advances on the absence of any ongoing event of default.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0035,,7,"ARTICLE IV
+
+REPRESENTATIONS AND WARRANTIES
+
+The Borrower and Guarantors represent and warrant to the Bank as follows:
+
+Section 4.01 Corporate Existence and Power. The Borrower and Guarantors are
+corporations duly incorporated, validly existing and in good standing under
+the laws of Minnesota, its jurisdiction of incorporation, and each is duly
+licensed or qualified to transact business in all jurisdictions where the
+character of the property owned or leased or the nature of the business
+transacted by it makes such licensing or qualification necessary. The Borrower
+and Guarantors have all requisite power and authority, corporate or otherwise,
+to conduct its business, to own its properties and to execute and deliver, and
+to perform all of its obligations under this Agreement, the Note and the other
+Loan Documents. Bank has been advised that Taurus Numeric Tool, Inc. may be
+changing its name following the execution of this Agreement, and Borrower and
+Guarantors agree to notify Bank of such name change within five (5) days
+following such name change.",True,collateral_security; reporting_inspection; lender_powers_remedies,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,"Represents corporate existence, good standing, and power to conduct business.",False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0036,,7,"Section 4.02 Authorization of Borrowing; No Conflict as to Law of Agreements.
+The execution, delivery and performance by the Borrower and Guarantors of this
+Agreement, the Note and the other Loan Documents and the borrowings from time
+to time hereunder have been duly authorized by all necessary corporate action
+and do and will not (i) require any consent or approval of the stockholders of
+the Borrower or Guarantors, or any authorization, consent or approval by any
+governmental department, commission, board, bureau, agency or instrumentality,
+domestic or foreign, (ii) violate any provision of any law, rule or regulation
+(including, without limitation, Regulation X of the Board of Governors of the
+Federal Reserve System) or of any order, writ, injunction or decree presently
+in effect having applicability to the Borrower or Guarantors or to the
+Articles of Incorporation or Bylaws of the Borrower or Guarantors, (iii)
+result in a breach of or constitute a default under any indenture or loan or
+credit agreement or any other agreement, lease or instrument to which the
+Borrower or any Guarantor is a party or by which it or its properties may be
+bound or affected, or (iv) result in, or require, the creation or imposition
+of any mortgage, deed of trust, pledge, lien, security interest or other
+charge or encumbrance of any nature (other than the Security Agreement) upon
+or with respect to any of the properties now owned or hereafter acquired by
+the Borrower.",True,interest; charges_expenses; collateral_security; default_triggers,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Represents that borrowing and executing loan documents will not violate laws or existing agreements.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0037,,7,"Section 4.03 Legal Agreements. This Agreement, the Note and the other Loan
+Documents constitute, and when delivered by the Borrower and Guarantors
+hereunder, will constitute the legal, valid and binding obligations of the
+Borrower enforceable against the Borrower and Guarantors in accordance with
+their respective terms.",True,collateral_security; termination_accel,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,"Represents that the loan documents constitute legal, valid, and binding obligations.",False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0038,,7,"Section 4.04 Subsidiaries. The Borrower has the following Subsidiaries Taurus
+Numeric Tool, Inc., a Minnesota corporation and WSI Rochester, Inc. a
+Minnesota corporation.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0039,,7,"Section 4.05 Financial Condition. The Borrower and Guarantors have heretofore
+furnished to the Bank their financial statements for the fiscal year ended
+August 29, 2010 and the quarterly financial statements for the quarter ended
+November 28, 2010. Said balance sheets and said statements of income and
+surplus fairly present the financial condition of the Borrower on the dates
+thereof and the results of their operations for the periods then ended, and
+were prepared in accordance with generally accepted accounting principles.
+
+7 #####",True,collateral_security; reporting_inspection,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Represents the fairness and accuracy of historical financial statements prepared according to GAAP.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0040,,8,"Section 4.06 Adverse Change. There has been no material adverse change in the
+business, properties or condition (financial or otherwise) of the Borrower or
+Guarantors since the date of the latest financial statement referred to in
+Section 4.05.",True,collateral_security; insolvency_cure; reporting_inspection,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Represents that no material adverse change has occurred since the latest financial statement date.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0041,,8,"Section 4.07 Litigation. There are no actions, suits or proceedings pending
+or, to the knowledge of the Borrower or Guarantors, threatened against or
+affecting the Borrower or Guarantors or the properties of the Borrower or
+Guarantors before any court or governmental department, commission, board,
+bureau, agency or instrumentality, domestic or foreign, which, if determined
+adversely to the Borrower or Guarantors, would have a material adverse effect
+on the financial condition, properties, or operations of the Borrower or
+Guarantors.",True,collateral_security; insolvency_cure,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Represents the absence of material pending or threatened litigation against the borrower.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0042,,8,"Section 4.08 Regulation U. The Borrower is not engaged in the business of
+extending credit for the purpose of purchasing or carrying margin stock
+(within the meaning of Regulation U of the Board of Governors of the Federal
+Reserve System), and no part of the proceeds of any Advance will be used to
+purchase or carry any margin stock or to extend credit to others for the
+purpose of purchasing or carrying any margin stock.",True,margin_spread_reset,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Represents compliance with margin stock lending restrictions under Regulation U.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0043,,8,"Section 4.09. Taxes. The Borrower and Guarantors have filed all federal, state
+and local tax returns which to the knowledge of the officers of the Borrower
+and Guarantors are required to be filed, and the Borrower and Guarantors have
+paid or caused to be paid to the respective taxing authorities all taxes as
+shown on said returns or on any assessment received by them to the extent such
+taxes have become due.",True,collateral_security,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Represents that all required tax returns have been filed and due taxes paid.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0044,,8,"Section 4.10 Title and Liens. The Borrower and Guarantors have good title to
+each of the properties and assets reflected in the latest balance sheet
+referred to in Section 4.05, free and clear of all mortgages, security
+interests, liens and encumbrances, except for mortgages, security interests
+and liens permitted by Section 6.01 and covenants, restrictions, rights,
+easements and minor irregularities in title which do not materially interfere
+with the business or operations of the Borrower and Guarantors as presently
+conducted.
+
+Section 4.11 Retirement Programs. No Reportable Event has occurred and is
+continuing with respect to any Plan.
+
+8 #####",True,collateral_security; covenant_undertaking,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Represents good title to properties free of liens except those permitted under the agreement.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0045,,9,"ARTICLE V
+
+AFFIRMATIVE COVENANTS OF THE BORROWER AND GUARANTORS
+
+So long as the Note shall remain unpaid or the Commitment shall be
+outstanding, the Borrower and Guarantors will comply with the following
+requirements, unless the Bank shall otherwise consent in writing:
+
+Section 5.01 Financial Statements. The Borrower and Guarantors will deliver to
+the Bank:",True,principal_amount; collateral_security; covenant_undertaking; reporting_inspection,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Sets forth affirmative reporting covenants regarding financial statements.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0046,,9,"(a) as soon as available, and in any event within ninety (90) days after the
+end of each fiscal year of the Borrower and Guarantors, a copy of the
+financial statements of the Borrower and Guarantors audited by independent
+certified public accountants selected by the Borrower and Guarantors and
+acceptable to the Bank, which shall include the balance sheet of the Borrower
+and Guarantors as at the end of such fiscal year and the related statements of
+income, retained earnings and changes in financial position of the Borrower
+and Guarantors for the fiscal year then ended, all in reasonable detail and
+all prepared in accordance with generally accepted accounting principles
+applied on a consistent basis and accompanied by a certificate of said officer
+stating (i) that such financial statements have been prepared in accordance
+with generally accepted accounting principles applied on a basis consistent
+with the accounting practices reflected in the annual financial statements
+referred to in Section 4.05, and (ii) whether or not he has knowledge of the
+occurrence of any Event of Default hereunder or of any event not theretofore
+reported and remedies which with notice or lapse of time or both would
+constitute such an Event of Default and, if so, stating in reasonable detail
+the facts with respect thereto and (iii) all relevant facts in reasonable
+detail to evidence, and the computations as to, whether or not the Borrower is",True,collateral_security; default_triggers; reporting_inspection; lender_powers_remedies,Covenants,Low,reporting_or_insurance_covenant,"{""cure_or_grace_10_days_or_more"": true}",R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Requires delivery of audited annual financial statements within ninety days after fiscal year end.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0047,C0046,9,"in compliance with requirements set forth in Sections 5.09 through 5.13
+hereof;
+
+(b) as soon as available and in any event within forty-five (45) days after
+the end of each quarter, balance sheets of the Borrower and Guarantors as at
+the end of such quarter and related statements of earnings and retained
+earnings of the Borrower and Guarantors for such quarterly period and for the
+year to date, in reasonable detail and stating in comparative form the figures
+for the corresponding date and period in the previous year, all prepared in
+accordance with generally accepted accounting principles applied on a basis
+consistent with the account practices reflected in the annual financial
+statements referred to in Section 4.05 and certified by the chief financial
+officer of the Borrower and Guarantors;",True,collateral_security,Covenants,Low,reporting_or_insurance_covenant,"{""cure_or_grace_10_days_or_more"": true}",R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Requires delivery of quarterly financial statements within forty-five days after quarter end.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0048,,9,"subject, however, to year-end audit
+adjustments, and accompanied by a certificate of said officer stating (i) that
+such financial statements have been prepared in accordance with generally
+accepted accounting principles applied on a basis consistent with the
+accounting practices reflected in the annual financial statements referred to
+in Section 4.05, and (ii) whether or not he has knowledge of the occurrence of
+any Event of Default hereunder or of any event not theretofore reported and
+remedies which with notice or lapse of time or both would constitute such an
+Event of Default and, if so, stating in reasonable detail the facts with
+respect thereto and (iii) all relevant facts in reasonable detail to evidence,
+and the computations as to, whether or not the Borrower and Guarantors are in
+compliance with requirements set forth in Sections 5.08 through 5.12 hereof;",True,collateral_security; default_triggers; reporting_inspection; lender_powers_remedies,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Requires quarterly financial officer compliance certificates alongside interim statements.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0049,,9,"(c) immediately after the commencement thereof, notice in writing of all
+litigation and of all proceedings before any governmental or regulatory agency
+affecting the Borrower or any Guarantor of the type described in Section 4.07
+or which seek a monetary recovery against the Borrower in excess of
+$50,000.00;
+
+9 #####",True,collateral_security; lender_powers_remedies,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),"Requires immediate written notice of litigation or proceedings seeking monetary recovery exceeding $50,000.00.",False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0050,,10,"(d) as promptly as practicable (but in any event not later than five (5)
+business days) after an officer of the Borrower or any Guarantor obtains
+knowledge of the occurrence of any event which constitutes an Event of Default
+or would constitute an Event of Default with the passage of time or the giving
+of notice, or both, notice of such occurrence, together with a detailed
+statement by a responsible officer of the Borrower or such Guarantor of the
+steps being taken by the Borrower or such Guarantor to cure the effect of such
+event;",True,collateral_security; default_triggers,Covenants,Low,reporting_or_insurance_covenant,"{""cure_or_grace_10_days_or_more"": true}",R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),This clause requires the borrower to provide prompt notice to the bank upon the occurrence of any event of default.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0051,,10,"(e) as soon as possible and in any event within thirty (30) days after the
+Borrower or any Guarantor knows or has reason to know that any Reportable
+Event with respect to any Plan has occurred, the statement of the chief
+financial officer of the Borrower or such Guarantor setting forth details as
+to such Reportable Event and the action which the Borrower or such Guarantor
+proposes to take with respect thereto, together with a copy of the notice of
+such Reportable Event to the Pension Benefit Guaranty Corporation;",True,collateral_security,Covenants,Low,reporting_or_insurance_covenant,"{""cure_or_grace_10_days_or_more"": true}",R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),This clause requires notice and details regarding any reportable event with respect to a plan.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0052,,10,"(f) as soon as possible after such occurrence, Borrower and Guarantors shall
+provide the Bank with notice of any amendment of their Articles of
+Incorporation or of any material change in the Borrower or Guarantor or its or
+their operations; and",True,collateral_security,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),This clause mandates notice of any articles of incorporation amendment or material change in operations.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0053,,10,"(g) such other information respecting the financial condition and results of
+operations of the Borrower or any Guarantor as the Bank may from time to time
+reasonably request.",True,collateral_security,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),This clause requires the borrower to provide other requested financial information to the bank.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0054,,10,"Section 5.02 Books and Records; Inspection and Examination. The Borrower and
+Guarantors will keep accurate books of record and account for itself in which
+true and complete entries will be made in accordance with generally accepted
+accounting principles consistently applied and, upon request of the Bank, will
+give any representative of the Bank access to, and permit such representative
+to examine, copy or make extracts from, any and all books, records and
+documents in its possession, to inspect any of its properties and to discuss
+its affairs, finances and accounts with any of its principal officers, all at
+such times during normal business hours and as often as the Bank may
+reasonably request.",True,principal_amount; collateral_security; enforcement_asset; reporting_inspection,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),This clause establishes record-keeping and bank inspection rights.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0055,,10,"Section 5.03 Compliance with Laws. The Borrower and Guarantors will comply
+with the requirements of applicable laws and regulations, the non-compliance
+with which would materially and adversely affect its business or its financial
+condition.",True,collateral_security,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,This clause requires the borrower to comply with applicable laws where non-compliance would materially affect its business.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0056,,10,"Section 5.04 Payment of Taxes and Other Claims. The Borrower and Guarantors
+will pay or discharge all taxes, assessments and governmental charges levied
+or imposed upon it or upon its income or profits, or upon any properties
+belonging to it, prior to the date on which penalties attach thereto and all
+lawful claims for labor, materials and supplies which, if unpaid, might by law
+become a lien or charge upon any properties of the Borrower and Guarantors;
+provided, that except as may be provided in any Mortgage executed in
+conjunction herewith the Borrower shall not be required to pay any such tax,
+assessment, charge or claim whose amount, applicability or validity is being
+contested in good faith by appropriate proceedings.
+
+10 #####",True,penalties_fees; charges_expenses; collateral_security; covenant_undertaking,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,"This clause requires the payment of taxes and claims, subject to good faith contests.",False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0057,,11,"Section 5.05 Maintenance of Properties. The Borrower and Guarantors will keep
+and maintain all of its properties necessary or useful in its business in good
+condition, repair and working order; provided, however, that except as may be
+provided in any Mortgage executed in conjunction herewith nothing in this
+Section shall prevent the Borrower and Guarantors from discontinuing the
+operation and maintenance of any of its properties if such discontinuance is,
+in the judgment of the Borrower and Guarantors, desirable in the conduct of
+its business and not disadvantageous in any material respect to the Bank as
+holder of a Note.",True,collateral_security,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,This clause obligates the borrower to maintain its properties in good working order.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0058,,11,"Section 5.06 Insurance. The Borrower and Guarantors will obtain and maintain
+insurance with insurers believed by the Borrower and Guarantors to be
+responsible and reputable, in such amounts and against such risks as is
+usually carried by companies engaged in similar business and owning similar
+properties in the same general areas in which the Borrower and Guarantors
+operate.",True,collateral_security; enforcement_asset,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),This clause requires the borrower to maintain appropriate insurance coverage.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0059,,11,"Section 5.07 Preservation of Corporate Existence. The Borrower and Guarantors
+will preserve and maintain their corporate existence and all of their rights,
+privileges and franchises; provided, however, that the Borrower and Guarantors
+shall not be required to preserve any of its rights, privileges and franchises
+if the Board of Directors shall determine that the preservation thereof is no
+longer desirable in the conduct of the business of the Borrower or any
+Guarantor and that the loss thereof is not disadvantageous in any material
+respect to the Bank as a holder of a Note.",True,collateral_security; covenant_undertaking,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,This clause requires the borrower to preserve and maintain its corporate existence and franchises.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0060,,11,"Section 5.08 Minimum Net Worth. So long as the Note shall remain unpaid or the
+Bank shall have any Commitment hereunder, the Borrower will maintain, during
+and at the end of each fiscal quarter end, Net Worth at an amount not less
+than Seven Million Five Hundred Thousand and no/100 Dollars ($7,500,000.00).",True,principal_amount; financial_ratios,Covenants,Medium,financial_ratio_covenant,{},R_COV_CAP,Severity Medium because: financial_ratio_covenant; R2 covenant cap at Medium,This clause sets a minimum net worth financial covenant threshold.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0061,,11,"Section 5.09 Ratio of Debt to Tangible Net Worth. So long as the Note shall
+remain unpaid or the Bank shall have any Commitment hereunder, the ratio of
+the Borrower's Debt to Tangible Net Worth shall not exceed 2.25 to 1 measured
+at the end of each fiscal quarter end basis.",True,principal_amount; covenant_undertaking; financial_ratios,Covenants,Medium,financial_ratio_covenant,{},R_COV_CAP,Severity Medium because: financial_ratio_covenant; R2 covenant cap at Medium,This clause establishes a maximum ratio of debt to tangible net worth.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0062,,11,"Section 5.10 Ratio of Current Assets to Current Liabilities. The Borrower
+shall maintain, for each fiscal quarter end that the Note remains outstanding
+or the Bank shall have any Commitment hereunder, the ratio of its Current
+Assets to its Current Liabilities added to its outstanding debt under the Note
+at not less than 1.5 to 1.",True,principal_amount,Covenants,Medium,financial_ratio_covenant,{},R_COV_CAP,Severity Medium because: financial_ratio_covenant; R2 covenant cap at Medium,This clause sets a minimum current ratio covenant threshold.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0063,,11,"Section 5.11 Debt Service Coverage Ratio. So long as the Note shall remain
+unpaid or the Bank shall have any Commitment hereunder, the Borrower will
+maintain an annual ratio of earnings before interest, taxes, depreciation and
+amortization, less distributions to shareholders, all for the same specified
+period to annual principal and interest payments due on all Debt of the
+Borrower of not less than 1.25 to 1 as of the end of each of Borrower's fiscal
+year ending on the last Sunday of August of each calendar year, beginning on
+the last Sunday of August, 2011, as determined in accordance with generally
+recognized accounting principles consistently applied; notwithstanding the
+foregoing, however, that in making this computation at any time for the period
+ending on the last Sunday of August, 2011 only, the principal balance of the
+loan payable to the MEDA in the current principal amount of approximately
+$274,000 as of the date hereof, and due and payable in full on or about May 1,
+2011, shall be excluded from the definition of ""Debt"".
+
+11 #####",True,interest; principal_amount; repayment_terms; payable_due; financial_ratios; restrictions_transfers,Covenants,Medium,financial_ratio_covenant,{},R_COV_CAP,Severity Medium because: financial_ratio_covenant; R2 covenant cap at Medium,This clause establishes a debt service coverage ratio covenant.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0064,,12,"Section 5.12 Bank Account; Automatic Payment. So long as amounts are
+outstanding on the Loan, Borrower shall maintain an account with Lender, and
+all payments on the Loan shall be paid by automatic debit to such account.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0065,,12,"Section 5.13 USA Patriot Act. Bank hereby notifies Borrower that pursuant to
+the requirements of the USA Patriot Act (Title III of Pub. L. 107-56 (signed
+into law October 26, 2001)) (the ""Patriot Act""), Bank is required to obtain,
+verify and record information that identifies Borrower and its affiliated
+entities, if any, which information includes the name and address of Borrower
+and its affiliated entities, if any, and other information that will allow
+Bank to identify Borrower and its affiliated entities in accordance with the
+Patriot Act. Borrower hereby agrees to provide such information promptly upon
+request by Bank. In connection therewith, Borrower shall: (a) ensure that no
+person who owns a controlling interest in or otherwise controls Borrower or
+any affiliated entity is or shall be listed on the ""Specially Designated
+Nationals and Blocked Person List"" or other similar lists maintained by the
+Office of Foreign Assets Control (""OFAC""), the Department of the Treasury, or
+included in any Executive Orders; (b) not use or permit the use of the
+proceeds of the Loan to violate any of the foreign asset control regulations
+of OFAC or any enabling statute or Executive Order relating thereto; and (c)
+comply, and cause each affiliated entity to comply, with all applicable Bank
+Secrecy Act laws and regulations, as amended.",True,interest,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,This clause outlines compliance obligations regarding the USA Patriot Act and OFAC regulations.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0066,,12,"Section 5.14 Anti-Terrorism Laws. In addition to all other representations and
+warranties contained herein, Borrower hereby represents and warrants that:",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0067,,12,"(a) Borrower is not in violation of any laws relating to terrorism or money
+laundering including, without limitation, Executive Order No. 13224 on
+Terrorist Financing effective September 23, 2001, and the Currency and Foreign
+Transactions Reporting Act of 1970, each as amended from time to time
+(collectively, "" Anti-Terrorism Laws""). No action, proceeding, investigation,
+charge, claim, report or notice has been filed, commenced or threatened
+against Borrower alleging any violation of any Anti-Terrorism Law.",True,charges_expenses,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,This clause represents that the borrower is not in violation of anti-terrorism laws.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0068,,12,"(b) Borrower has no knowledge or notice of any fact, event, circumstance,
+situation, or condition which could reasonably be expected to result in: (A)
+any action, proceeding, investigation, charge, claim, report, or notice being
+filed, commenced, or threatened against it alleging any violation of, or
+failure to comply with, any Anti-Terrorism Law; or (B) the imposition of any
+civil or criminal penalty against Borrower for any failure to so comply.)
+
+12 #####",True,penalties_fees; charges_expenses,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,This clause represents the absence of knowledge regarding potential anti-terrorism law violations or penalties.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0069,,13,"(c) Borrower has provided Bank with sufficient information (including names,
+addresses and, where applicable, jurisdiction of formation or organization) to
+reasonably permit Bank to verify the foregoing representation.",True,lender_powers_remedies,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,This clause represents that sufficient verification information has been provided to the bank.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0070,,13,"(d) Borrower does not: (A) conduct any business or engage in making or
+receiving any contribution of funds, goods or services to or for the benefit
+of any person who is in violation of any Anti-Terrorism Law; (B) deal in, or
+otherwise engage in any transactions relating to any property or interests in
+property blocked under any Anti-Terrorism Law; or (C) engage in or conspire to
+engage in any transaction that evades or avoids, or has the purpose of evading
+or avoiding, or attempts to violate, any prohibition set forth in any Anti-
+Terrorism Law.",True,collateral_security; covenant_undertaking,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,This clause restricts the borrower from engaging in transactions with persons violating anti-terrorism laws.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0071,,13,"Section 5.15 Hedging Instruments. The obligations and indebtedness under the
+Loan shall include, without limitation, all obligations, indebtedness and
+liabilities of Borrower to Bank arising pursuant to or in connection with any
+swap, collar, cap, future, forward or derivative transaction, including any
+involving, or settled by reference to, one or more interest rates, currencies,
+commodities, equity or debt instruments, any economic, financial or pricing
+index or basis, or any similar transaction, including any option with respect
+to any of these transactions and any combination of these transactions.
+
+ARTICLE VI
+
+NEGATIVE COVENANTS",True,interest; covenant_undertaking; restrictions_transfers,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This clause defines the scope of loan obligations to include hedging and derivative transactions.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0072,,13,"So long as the Note shall remain unpaid or the Bank shall have any Commitment
+hereunder, the Borrower and Guarantors agree that, without the prior written
+consent of the Bank:",True,principal_amount; collateral_security,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,This clause establishes general negative covenants restricting the borrower and guarantors from taking certain actions without prior written consent.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0073,,13,"Section 6.01 Liens. The Borrower and Guarantors will not create, incur or
+suffer to exist any mortgage, deed of trust, pledge, lien, security interest,
+assignment or transfer upon or of any of its assets, now owned or hereafter
+acquired, to secure any indebtedness for borrowed money; excluding, however,
+from the operation of the foregoing:",True,interest; collateral_security; restrictions_transfers,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,This negative covenant restricts the borrower and guarantors from creating or permitting liens or encumbrances on their assets except for permitted exceptions.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0074,,13,"(a) mortgages, deeds of trust, pledges, liens, security interests and
+assignments securing any indebtedness incurred in the ordinary course of
+business of the Borrower; however notwithstanding anything to the contrary
+herein Borrower shall allow no such encumbrances in connection with the
+borrowing of money or the acceptance of an advance of credit; and
+
+(b) the security interest granted to the Bank under the Security Agreement.
+
+13 #####",True,interest; collateral_security; restrictions_transfers,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,This clause outlines permitted encumbrances while strictly prohibiting encumbrances in connection with borrowing money or receiving credit advances.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0075,,14,"Section 6.02 Indebtedness. The Borrower and Guarantors will not incur, create,
+assume or permit to exist any indebtedness or liability on account of deposits
+or advances or any indebtedness for borrowed money, or any other indebtedness
+or liability evidenced by notes, bonds, debentures or similar obligations,
+except:
+
+(a) indebtedness evidenced by the Note;
+
+(b) Trade credit and short term leases;
+
+(c) Capital leases;",True,collateral_security; restrictions_transfers,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,"This negative covenant restricts the borrower and guarantors from incurring debt, subject to specific permitted exceptions.",False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0076,,14,"(d) Indebtedness of the Borrower in existence on the date hereof and set forth
+in the quarterly financial statements for the quarter ended November 28, 2010,
+but not including any extensions or renewals thereof; and",True,reporting_inspection; restrictions_transfers,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,"This clause permits existing indebtedness set forth in the financial statements for the quarter ended November 28, 2010, excluding extensions or renewals.",False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0077,,14,"(e) Subordinated Debt, provided it is subordinated to the prior payment of
+principal of and interest on the Note on terms and conditions approved in
+writing and in advance by the Bank.",True,interest; principal_amount; covenant_undertaking,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,This clause permits subordinated debt provided it is properly subordinated and approved in writing by the bank.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0078,,14,"Section 6.03 Guaranties. The Borrower and Guarantors will not assume,
+guarantee, endorse or otherwise become directly or contingently liable in
+connection with any obligations of any other Person, except the endorsement of
+negotiable instruments by the Borrower for deposit or collection or similar
+transactions in the ordinary course of business.",True,collateral_security,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,"This negative covenant restricts the borrower and guarantors from assuming or guaranteeing external obligations, with limited ordinary course exceptions.",False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0079,,14,"Section 6.04 Sale of Assets. The Borrower and Guarantors will not sell, lease,
+assign, transfer or otherwise dispose of assets exceeding 10% or more of the
+book value of its assets as of the date of such transaction to any other
+Person other than in the ordinary course of business or in the event such
+assets are obsolete or worn-out assets, without the prior written consent of
+the Bank.",True,collateral_security; covenant_undertaking; restrictions_transfers,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,This negative covenant restricts asset sales exceeding 10% or more of book value without prior written consent.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0080,,14,"Section 6.05 Consolidation and Merger. The Borrower and Guarantors will not
+consolidate with or merge into any Person, or permit any other Person to merge
+into it, or acquire (in a transaction analogous in purpose or effect to a
+consolidation or merger) all or substantially all the assets of any other
+Person.",True,collateral_security; restrictions_transfers,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,"This negative covenant restricts the borrower and guarantors from consolidating, merging, or acquiring substantially all assets of another person.",False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0081,,14,"Section 6.06 Sale and Leaseback. The Borrower and Guarantors will not enter
+into any arrangement, directly or indirectly, with any other Person whereby
+the Borrower and Guarantors shall sell or transfer any real or personal
+property, whether now owned or hereafter acquired, and then or thereafter rent
+or lease as lessee such property or any part thereof or any other property
+which the Borrower and Guarantors intend to use for substantially the same
+purpose or purposes as the property being sold or transferred.
+
+14 #####",True,collateral_security; restrictions_transfers,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,This negative covenant restricts the borrower and guarantors from entering into sale and leaseback arrangements.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0082,,15,"Section 6.07 Subordinated Debt. The Borrower will not (i) make any payment of,
+or acquire, any Subordinated Debt permitted by Section 6.02 except as
+expressly permitted by the subordination provision of any document
+subordinating such debt to the Loan, (ii) give security for all or any part of
+such Subordinated Debt, except as has been granted; (iii) amend or cancel the
+subordination provisions of such Subordinated Debt; (iv) take or omit to take
+any action whereby the subordination of such Subordinated Debt or any part
+thereof to the Note might be terminated, impaired or adversely affected; or
+(v) omit to give the Bank prompt written notice of any default under any
+agreement or instrument relating to such Subordinated Debt by reason whereof
+such Subordinated Debt might become or be declared to be immediately due and
+payable. Notwithstanding anything in this Section 6.07 to the contrary,
+Borrower may make the payment to MEDA referenced in Section 5.11 without any
+further consent of Bank.",True,collateral_security; default_triggers; termination_accel; covenant_undertaking,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,This negative covenant places restrictions on the payment and amendment of subordinated debt while allowing a specific payment referenced in Section 5.11.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0083,,15,"Section 6.08 Restrictions on Nature of Business. The Borrower and Guarantors
+will not engage in any line of business materially different from that
+presently engaged in by the Borrower.",True,collateral_security,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,This negative covenant restricts the borrower and guarantors from engaging in a line of business materially different from their current operations.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0084,,15,"Section 6.09 Letters of Credit. No Letters of Credit issued hereunder shall
+create a liability for payment thereof by the Bank on a date that is more than
+two (2) calendar years after the initial Advance under the Revolving Note.
+
+ARTICLE VII
+
+EVENTS OF DEFAULT, RIGHTS AND REMEDIES
+
+Section 7.01 Events of Default. ""Events of Default"", wherever used herein,
+means any one of the following events:",True,default_triggers; lender_powers_remedies,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,This clause limits letter of credit liabilities and introduces the events of default section.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0085,,15,"(a) Default in the payment of any sums payable on the Note when it becomes due
+and payable and continuance of such default for a period of 10 days; or",True,payable_due; default_triggers,Default conditions,Medium,payment_default_trigger,"{""cure_or_grace_10_days_or_more"": true}",R_TRIG_MED,Severity Medium because: payment_default_trigger; cure_or_grace_10_days_or_more,This clause establishes a payment default trigger subject to a 10 days grace period.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0086,,15,"(b) Default in the payment of fees, if any required under Section 2.05 when
+the same become due and payable and the continuance of such default for a
+period of 10 days; or",True,payable_due; charges_expenses; default_triggers,Default conditions,Medium,other_default_trigger,"{""cure_or_grace_10_days_or_more"": true}",R_ODEF_MED,Severity Medium because: other_default_trigger; other default trigger,This clause triggers a default upon failure to pay fees required under Section 2.05 after 10 days.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0087,,15,"(c) Any representation or warranty made by the Borrower or any Guarantor in
+this Agreement or by the Borrower or any Guarantor (or any of their officers)
+in any certificate, instrument, or statement contemplated by or made or
+delivered pursuant to or in connection with this Agreement, shall prove to
+have been incorrect in any material respect when made; or",True,collateral_security,Default conditions,Medium,other_default_trigger,{},R_ODEF_MED,Severity Medium because: other_default_trigger; other default trigger,This clause triggers a default if any representation or warranty proves incorrect in any material respect when made.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0088,,15,"(d) Default in the performance, or breach, of any covenant or agreement of the
+Borrower or any Guarantor in this Agreement (other than a covenant or
+agreement a default in whose performance or whose breach is elsewhere in this
+Section specifically dealt with), any security agreement or any other
+instrument or agreement signed by the Borrower or any Guarantor in favor of
+the Bank, and the continuance of such default or breach for a period of 10
+days after there has been given, by certified mail to the Borrower or any
+Guarantor by the Bank, a written notice specifying such default or breach and
+requiring it to be remedied; or
+
+15 #####",True,collateral_security; default_triggers; covenant_undertaking,Default conditions,Medium,other_default_trigger,"{""cure_or_grace_10_days_or_more"": true}",R_ODEF_MED,Severity Medium because: other_default_trigger; other default trigger,This clause triggers a covenant breach default subject to a 10 days notice and cure period.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0089,,16,"(e) The Borrower or any Guarantor shall be adjudicated a bankrupt or
+insolvent, or admit in writing its inability to pay its debts as they mature,
+or make an assignment for the benefit of creditors; or the Borrower or any
+Guarantor shall apply for or consent to the appointment of any receiver,
+trustee, or similar officer for it or for all or any substantial part of its
+property; or such receiver, trustee or similar officer shall be appointed
+without the application or consent of the Borrower or any Guarantor and such
+appointment shall continue undischarged for a period of 30 days; or the
+Borrower or any Guarantor shall institute (by petition, application, answer,
+consent or otherwise) any bankruptcy, insolvency, reorganization, arrangement,
+readjustment of debt, dissolution, liquidation or similar proceeding relating
+to it under the laws of any jurisdiction; or any such proceeding shall be
+instituted (by petition, application or otherwise) against the Borrower or any
+Guarantor and shall remain undismissed for a period of 30 days; or any
+judgment, writ, warrant of attachment or execution or similar process shall be
+issued or levied against a substantial part of the property of the Borrower or
+any Guarantor and such judgment, writ, or similar process shall not be
+released, vacated or fully bonded within 30 days after its issue or levy; or",True,repayment_terms; collateral_security; insolvency_cure; covenant_undertaking; restrictions_transfers; lender_powers_remedies,Default conditions,High,insolvency_default_trigger,{},R_TRIG_HIGH,Severity High because: insolvency_default_trigger; core default trigger with short or no >=10d cure window,"This clause outlines bankruptcy, insolvency, and receivership events of default triggers.",False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0090,,16,"(f) Default in the performance, or breach, of any covenant or agreement on the
+part of the Borrower or any Guarantor in excess of $50,000.00; or
+
+(g) The rendering against the Borrower or any Guarantor of a final judgment,
+decree or order for the payment of money in excess of $50,000.00 and the
+continuance of such judgment, decree or order unsatisfied and in effect for
+any period of 60 consecutive days without a stay of execution; or",True,collateral_security; default_triggers; covenant_undertaking,Default conditions,Medium,other_default_trigger,{},R_ODEF_MED,Severity Medium because: other_default_trigger; other default trigger,"This clause triggers a default upon a covenant breach or final judgment exceeding $50,000.00.",False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0091,,16,"(h) A default under any bond, debenture, note or other evidence of
+indebtedness of the Borrower or any Guarantor (other than to the Bank) or
+under any indenture or other instrument under which any such evidence of
+indebtedness has been issued or by which it is governed and the acceleration
+of payment of such indebtedness; or",True,collateral_security; default_triggers; termination_accel; restrictions_transfers,Default conditions,Medium,cross_default,{},R_XDEF_MED,Severity Medium because: cross_default; cross-default requiring acceleration or cure expiration,This clause establishes a cross-default trigger upon default and acceleration of other external indebtedness.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0092,,16,"(i) Any Reportable Event, which the Bank determines in good faith might
+constitute grounds for the termination of any Plan or for the appointment by
+the appropriate United States District Court of a trustee to administer any
+Plan, shall have occurred and be continuing 30 days after written notice to
+such effect shall have been given to the Borrower by the Bank; or any Plan
+shall have been terminated, or a trustee shall have been appointed by an
+appropriate United States District Court to administer any Plan, or the
+Pension Benefit Guaranty Corporation shall have instituted proceedings to
+terminate any Plan or to appoint a trustee to administer any Plan; or",True,collateral_security; termination_accel,Default conditions,Medium,other_default_trigger,"{""cure_or_grace_10_days_or_more"": true}",R_ODEF_MED,Severity Medium because: other_default_trigger; other default trigger,Specifies a pension-related reportable event default trigger conditioned upon continuing after written notice.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0093,,16,"(j) Adverse conditions develop at any time affecting Borrower's or any
+Guarantor's affairs, financial or otherwise, and the Bank in good faith
+determines that such adverse conditions impair the due and punctual payment of
+the Note; or",True,collateral_security,Default conditions,High,other_default_trigger,"{""sole_discretion"": true}",R_ODEF_HIGH,Severity High because: other_default_trigger; sole_discretion,Triggers an event of default based on subjective adverse conditions determined in good faith by the bank.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0094,,16,"(k) Any material event or condition of default (however defined) by Borrower
+shall occur and the applicable cure period, if any, shall have expired, in any
+promissory note or any agreement between Borrower and the Bank, including but
+not limited to that certain Promissory Note dated May 3, 2004 and that certain
+Loan Agreement dated May 3, 2004 between Borrower and the Bank.
+
+16 #####",True,default_triggers; insolvency_cure,Default conditions,Medium,cross_default,{},R_XDEF_MED,Severity Medium because: cross_default; cross-default requiring acceleration or cure expiration,Establishes a cross-default trigger incorporating material defaults across other agreements and promissory notes.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0095,,17,"Section 7.02 Rights and Remedies. Upon the occurrence of an Event of Default
+or at any time thereafter until such Event of Default is cured to the written
+satisfaction of the Bank, the Bank may exercise any or all of the following
+rights and remedies:
+
+(a) The Bank may, by notice to the Borrower and Guarantors, declare the
+Commitment to be terminated whereupon the same shall forthwith terminate;",True,principal_amount; collateral_security; default_triggers; termination_accel; lender_powers_remedies,Termination,High,acceleration_or_termination_right,{},R_ACCEL_HIGH,Severity High because: acceleration_or_termination_right; acceleration or termination right by notice,Grants the bank the right to terminate commitments upon an event of default.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0096,,17,"(b) The Bank may, by notice to the Borrower and Guarantors, declare the entire
+unpaid principal amount of the Note then outstanding, all interest accrued and
+unpaid thereon, and all other amounts payable under this Agreement to be
+forthwith due and payable, whereupon such Note, all such accrued interest and
+all such amounts shall become and be forthwith due and payable, without
+presentment, demand, protest or further notice of any kind, all of which are
+hereby expressly waived by the Borrower.",True,interest; principal_amount; payable_due; collateral_security,Termination,High,acceleration_or_termination_right,"{""no_notice"": true}",R_ACCEL_HIGH,Severity High because: acceleration_or_termination_right; acceleration or termination right by notice,Allows the bank to accelerate all unpaid principal and interest immediately without presentment or demand.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0097,,17,"(c) The Bank may, without notice to the Borrower and Guarantors and without
+further action, apply any and all money owing by the Bank to the Borrower or
+any Guarantor to the payment of the Note then outstanding, including interest
+accrued thereon, and of all other sums then owing by the Borrower or any
+Guarantor hereunder;
+
+(d) The Bank may exercise and enforce its rights and remedies under the
+Security Agreement and/or the Guaranties or any other Loan Document; and
+
+(e) The Bank may exercise such other remedies as may be available to it under
+law.
+
+ARTICLE VIII
+
+MISCELLANEOUS",True,interest; collateral_security; enforcement_asset; termination_accel; lender_powers_remedies,Collateral,Medium,remedy_on_default,"{""no_notice"": true}",R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),Permits the bank to offset funds and exercise various collateral remedies without notice following default.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0098,,17,"Section 8.01 No Waiver; Cumulative Remedies. No failure or delay on the part
+of the Bank in exercising any right, power or remedy hereunder or under the
+Security Agreement shall operate as a waiver thereof; nor shall any single or
+partial exercise of any such right, power or remedy preclude any other or
+further exercise thereof or the exercise of any other right, power or remedy
+hereunder or under the Security Agreement. The remedies herein and in the
+Security Agreement provided are cumulative and not exclusive of any remedies
+provided by law.",True,collateral_security; lender_powers_remedies,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,Standard boilerplate clause clarifying that failure to exercise remedies does not constitute a waiver.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0099,,17,"Section 8.02 Amendments, etc. No amendment, modification, termination or
+waiver of any provision of this Agreement, the Security Agreement or the Note
+or consent by the Borrower or any Guarantor to any departure there from shall
+be effective unless the same shall be in writing and signed by the Bank and
+then such waiver or consent shall be effective only in the specific instance
+and for the specific purpose for which given. No notice to or demand on the
+Borrower or any Guarantor in any case shall entitle the Borrower or any
+Guarantor to any other or further notice or demand in similar or other
+circumstances.
+
+17 #####",True,collateral_security; termination_accel; lender_powers_remedies,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,"Boilerplate clause establishing requirements for agreement amendments, modifications, and waivers.",False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0100,,18,"Section 8.03 Addresses for Notices, etc. Except as otherwise expressly
+provided herein, all notices, requests, demand and other communications
+provided for hereunder and under the Security Agreement shall be in writing
+and mailed or delivered to the applicable party at its address indicated
+below:
+
+If to the Borrower and Guarantors:
+
+WSI Industries, Inc.  
+WSI Rochester, Inc.  
+Taurus Numeric Tool, Inc.  
+213 Chelsea Road  
+Monticello, MN 55362
+
+If to the Bank:
+
+M&I Marshall & Ilsley Bank  
+11455 Viking Drive  
+Eden Prairie, MN 55344  
+Attention: David Orlady",True,collateral_security,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,Boilerplate administrative provision specifying physical addresses for formal notices and communications.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0101,,18,"or, as to each party, at such other address as shall be designated by such
+party in a written notice to the other party complying as to delivery with the
+terms of this Section. All such notices, requests, demands and other
+communications shall, when mailed, be effective when deposited in the mails,
+addressed as aforesaid, except that notices or requests to the Bank pursuant
+to any of the provisions of Article II shall not be effective until received
+by the Bank.",True,covenant_undertaking,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,Administrative boilerplate detailing the effective delivery timing for mailed notices and requests.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0102,,18,"Section 8.04 Costs and Expenses. The Borrower and Guarantors agree to pay on
+demand all costs and expenses of the Bank in connection with the preparation
+of this Agreement, the Note, the Security Agreement, the Guaranties and the
+other Loan Documents and the other instruments and documents to be delivered
+hereunder and thereunder, including the reasonable fees and out-of-pocket
+expenses of counsel for the Bank with respect thereto, as well as all out-of-
+pocket expenses of legal counsel retained by the Bank in connection with the
+enforcement of this Agreement, the Note, the Security Agreement, the
+Guaranties and the other Loan Documents and the other instruments and
+documents to be delivered hereunder and thereunder.",True,charges_expenses; collateral_security; termination_accel,Penalties and charges,Medium,fee_or_cost,{},R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Requires the borrower to pay all transaction expenses and enforcement legal costs incurred by the bank.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0103,,18,"Section 8.05 Execution in Counterparts. This Agreement and the Security
+Agreement may be executed in any number of counterparts, each of which when so
+executed and delivered shall be deemed to be an original and all of which
+counterparts of this Agreement or the Security Agreement, as the case may be,
+taken together, shall constitute but one and the same instrument.
+
+18 #####",True,collateral_security,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,Standard boilerplate clause allowing counterpart execution of the agreement.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0104,,19,"Section 8.06 Binding Effect, Assignment. This Agreement and the Security
+Agreement shall be binding upon and inure to the benefit of the Borrower,
+Guarantors and the Bank and their respective successors and assigns, except
+that the Borrower shall not have the right to assign its rights hereunder or
+thereunder or any interest herein or therein without the prior written consent
+of the Bank.",True,interest; collateral_security; covenant_undertaking; restrictions_transfers,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,Boilerplate provision outlining binding effect rules and restrictions on borrower assignment.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0105,,19,"Section 8.07 Governing Law. This Agreement, the Note and the Security
+Agreement shall be governed by, and construed in accordance with, the laws of
+the State of Minnesota.",True,collateral_security,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,Boilerplate governing law clause establishing state statutory interpretation.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0106,,19,"Section 8.08 Severability of Provisions. Any provision of this Agreement that
+is prohibited or unenforceable shall be ineffective to the extent of such
+prohibition or unenforceability without invalidating the remaining provisions
+hereof.",True,covenant_undertaking,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,Standard severability boilerplate preserving remaining provisions if any clause is found unenforceable.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0107,,19,"Section 8.09 Headings. Article and Section headings in this Agreement are
+included herein for convenience of reference only and shall not constitute a
+part of this Agreement for any other purpose.
+
+19 #####",True,covenant_undertaking,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,Boilerplate statement clarifying that section headings are for convenience reference only.,False,,gemini-3.5-flash-lite,False,v5
+000010/104897/0000950123-11-030926_2.txt,C0108,,20,"IN WITNESS WHEREOF, the parties have executed this Agreement on the day and
+year first above written.
+
+    BORROWER:
+
+    WSI INDUSTRIES, INC., a Minnesota  
+corporation
+
+  By    Paul D. Sheely
+
+  Its:    VP/CFO
+
+    GUARANTORS:
+
+    Taurus Numeric Tool, Inc., a Minnesota corporation
+
+  By    Paul D. Sheely
+
+  Its:    VP/CFO
+
+    WSI ROCHESTER, INC., a Minnesota  
+Minnesota corporation
+
+  By    Paul D. Sheely
+
+  Its:    VP/CFO
+
+    BANK:
+
+    M&I MARSHALL & ILSLEY BANK, a Wisconsin state banking corporation,
+
+  By    David Orlady
+
+  Its:    Senior VP
+
+  By
+
+  Its:
+
+20",True,collateral_security,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,Execution block boilerplate bearing the formal signatures of the corporate borrowers and bank.,False,,gemini-3.5-flash-lite,False,v5

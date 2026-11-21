@@ -1,0 +1,114 @@
+{
+  "prior_3a_results_present": true,
+  "new_live_calls": 0,
+  "silver": {
+    "disclaimer": "LLM-assisted silver labels (not independent human gold)",
+    "total_rows": 48,
+    "definitive_rows": 41,
+    "positive_rows": 36,
+    "negative_not_present_rows": 5,
+    "unclear_rows": 7,
+    "counts": {
+      "exact": 11,
+      "normalized": 0,
+      "partial": 10,
+      "no": 15
+    },
+    "tn": 5,
+    "strict": {
+      "tp": 11,
+      "fp": 23,
+      "fn": 25,
+      "precision": 0.3235294117647059,
+      "recall": 0.3055555555555556,
+      "f1": 0.31428571428571433
+    },
+    "lenient": {
+      "tp": 21,
+      "fp": 13,
+      "fn": 15,
+      "precision": 0.6176470588235294,
+      "recall": 0.5833333333333334,
+      "f1": 0.6
+    },
+    "per_doc": {
+      "000010/104897/0000950123-11-030926_2.txt": {
+        "exact": 4,
+        "normalized": 0,
+        "partial": 4,
+        "no": 4,
+        "tn": 1,
+        "fp": 0,
+        "fn": 0,
+        "unclear": 3
+      },
+      "000081/810113/0000950116-04-002411_4.txt": {
+        "exact": 3,
+        "normalized": 0,
+        "partial": 3,
+        "no": 4,
+        "tn": 2,
+        "fp": 0,
+        "fn": 2,
+        "unclear": 4
+      },
+      "000103/1039213/0000912057-97-018811_19.txt": {
+        "exact": 4,
+        "normalized": 0,
+        "partial": 3,
+        "no": 7,
+        "tn": 2,
+        "fp": 0,
+        "fn": 0,
+        "unclear": 0
+      }
+    }
+  },
+  "gold": {
+    "total_cells": 27,
+    "counts": {
+      "exact": 5,
+      "normalized": 0,
+      "partial": 4,
+      "no": 18
+    },
+    "strict_matches": 5,
+    "strict_rate": 0.18518518518518517,
+    "lenient_matches": 9,
+    "lenient_rate": 0.3333333333333333,
+    "per_doc": {
+      "Brown-Forman": {
+        "doc_id": "000001/14693/0000950144-06-011821_2.txt",
+        "total": 9,
+        "exact": 2,
+        "normalized": 0,
+        "partial": 1,
+        "no": 6,
+        "strict_rate": 0.2222222222222222,
+        "lenient_rate": 0.3333333333333333
+      },
+      "Caterpillar": {
+        "doc_id": "000001/18230/0001104659-11-052126_5.txt",
+        "total": 9,
+        "exact": 1,
+        "normalized": 0,
+        "partial": 2,
+        "no": 6,
+        "strict_rate": 0.1111111111111111,
+        "lenient_rate": 0.3333333333333333
+      },
+      "GATX": {
+        "doc_id": "000004/40211/0000950123-11-048775_2.txt",
+        "total": 9,
+        "exact": 2,
+        "normalized": 0,
+        "partial": 1,
+        "no": 6,
+        "strict_rate": 0.2222222222222222,
+        "lenient_rate": 0.3333333333333333
+      }
+    }
+  },
+  "mismatch_csv_rows": 54,
+  "mismatch_csv_path": "C:\\finalYear\\data\\processed\\extract_3a_mismatch_review.csv"
+}

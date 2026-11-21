@@ -1,0 +1,56 @@
+[
+  {
+    "split": "dev",
+    "prompt_version": "v1",
+    "calls_made": 12,
+    "live_calls_made": 12,
+    "model_used_counts": {
+      "gemini-3.5-flash-lite": 12
+    },
+    "fallback_calls": 0,
+    "category_accuracy": 0.8671,
+    "category_macro_f1": 0.86,
+    "severity_exact_accuracy": 0.6014,
+    "severity_macro_f1": 0.6186,
+    "within_one_rate": 0.993,
+    "critical_tp": 4,
+    "critical_support": 5,
+    "flagged_numbers": 0
+  },
+  {
+    "split": "dev",
+    "prompt_version": "v2",
+    "calls_made": 12,
+    "live_calls_made": 12,
+    "model_used_counts": {
+      "gemini-3.5-flash-lite": 12
+    },
+    "fallback_calls": 0,
+    "category_accuracy": 0.8741,
+    "category_macro_f1": 0.871,
+    "severity_exact_accuracy": 0.7063,
+    "severity_macro_f1": 0.7006,
+    "within_one_rate": 0.993,
+    "critical_tp": 4,
+    "critical_support": 5,
+    "flagged_numbers": 0
+  },
+  {
+    "split": "test",
+    "prompt_version": "v2",
+    "calls_made": 7,
+    "live_calls_made": 7,
+    "model_used_counts": {
+      "gemini-3.5-flash-lite": 7
+    },
+    "fallback_calls": 0,
+    "category_accuracy": 0.8788,
+    "category_macro_f1": 0.8744,
+    "severity_exact_accuracy": 0.6818,
+    "severity_macro_f1": 0.7149,
+    "within_one_rate": 1.0,
+    "critical_tp": 3,
+    "critical_support": 4,
+    "flagged_numbers": 0
+  }
+]

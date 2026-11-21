@@ -1,0 +1,4224 @@
+{
+  "000010/104897/0000950123-11-030926_2.txt": {
+    "doc_id": "000010/104897/0000950123-11-030926_2.txt",
+    "fields": [
+      {
+        "field": "document_title",
+        "found": true,
+        "value": "Loan Agreement",
+        "evidence": [
+          {
+            "quote": "LOAN AGREEMENT",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "agreement_date",
+        "found": true,
+        "value": "February 1, 2011",
+        "evidence": [
+          {
+            "quote": "This Loan Agreement (\"Agreement\") is made as of the 1st day of February, 2011,",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "borrowers",
+        "found": true,
+        "value": "WSI Industries, Inc.",
+        "evidence": [
+          {
+            "quote": "WSI Industries, Inc., a Minnesota corporation, having an address of 213 Chelsea Road, Monticello, MN 55362 (\"Borrower\")",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "lenders",
+        "found": true,
+        "value": "M&I Marshall & Ilsley Bank",
+        "evidence": [
+          {
+            "quote": "M&I Marshall & Ilsley Bank, having an address of 11455 Viking Drive, Eden Prairie, Minnesota 55344 (\"Bank\").",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "agents",
+        "found": false,
+        "value": "Not found in this document",
+        "evidence": [],
+        "status": "not_found",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "loan_or_commitment_amount",
+        "found": true,
+        "value": "$1,000,000.00",
+        "evidence": [
+          {
+            "quote": "\"Commitment\" means One Million and 00/100 ($1,000,000.00) Dollars under the Revolving Loan as evidenced by the Revolving Note.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "$1000000.00"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "interest_rate",
+        "found": true,
+        "value": "Interest rate set in the Note, computed on a 365/360 basis.",
+        "evidence": [
+          {
+            "quote": "The Revolving Note shall bear interest on the unpaid principal amount thereof from the date thereof until paid at the rate therein provided.",
+            "page": 1
+          },
+          {
+            "quote": "Interest on the Note is computed on a 365/360 basis; that is, by applying the ratio of the interest rate over a year of 360 days, multiplied by the outstanding principal balance, multiplied by the actual number of days the principal balance is outstanding.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "365",
+            "360"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "repayment_terms",
+        "found": true,
+        "value": "Revolving loan advances and accrued interest are payable in accordance with the Revolving Note, with principal re-borrowable within limits and automatic debit payments.",
+        "evidence": [
+          {
+            "quote": "Within the limits of the, the Borrower may borrow, repay pursuant to Section 2.07 and re-borrow under this Section 2.02. The Advances made by the Bank shall be evidenced by and repayable with interest in accordance with a single promissory note of the Borrower of even date herewith",
+            "page": 1
+          },
+          {
+            "quote": "all payments on the Loan shall be paid by automatic debit to such account.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "maturity_termination_date",
+        "found": true,
+        "value": "February 1, 2012",
+        "evidence": [
+          {
+            "quote": "The Bank agrees, on the terms and subject to the conditions hereinafter set forth, to make Advances to the Borrower from time to time during the period from the date hereof to February 1, 2012 or the earlier date of termination in whole of the Commitment pursuant Section 7.02",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "february 1, 2012"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "fees",
+        "found": true,
+        "value": "No commitment fees are payable by the borrower.",
+        "evidence": [
+          {
+            "quote": "Section 2.03 Commitment Fees. There are no commitment fees payable by the Borrower hereunder.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "late_payment_or_default_interest",
+        "found": true,
+        "value": "Default includes failure to pay sums on the Note when due continued for 10 days, or failure to pay fees for 10 days.",
+        "evidence": [
+          {
+            "quote": "(a) Default in the payment of any sums payable on the Note when it becomes due and payable and continuance of such default for a period of 10 days; or\n(b) Default in the payment of fees, if any required under Section 2.05 when the same become due and payable and the continuance of such default for a period of 10 days;",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "10",
+            "10"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "prepayment_terms",
+        "found": true,
+        "value": "Borrower may borrow, repay, and re-borrow under the revolving loan facility.",
+        "evidence": [
+          {
+            "quote": "Within the limits of the, the Borrower may borrow, repay pursuant to Section 2.07 and re-borrow under this Section 2.02.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "collateral_security",
+        "found": true,
+        "value": "Secured by Amended and Restated Security Agreements executed by Borrower and Guarantors.",
+        "evidence": [
+          {
+            "quote": "\"Security Agreement\" or \"Security Agreements\" mean the Amended and Restated Security Agreements executed by Borrower and Guarantors of even date herewith.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "guarantees",
+        "found": true,
+        "value": "Guaranteed by Taurus Numeric Tool, Inc. and WSI Rochester, Inc.",
+        "evidence": [
+          {
+            "quote": "Taurus Numeric Tool, Inc., having an address of 213 Chelsea Road, Monticello, MN 55362 and WSI Rochester, Inc., having an address of 213 Chelsea Road, Monticello, MN 55362 (jointly \"Guarantor\")",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "events_of_default",
+        "found": true,
+        "value": "Includes payment defaults (10-day cure), material breaches of representations, covenant breaches (10-day notice/cure), bankruptcy/insolvency events, judgments over $50,000, and cross-defaults on other indebtedness.",
+        "evidence": [
+          {
+            "quote": "Section 7.01 Events of Default. \"Events of Default\", wherever used herein, means any one of the following events:",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "governing_law",
+        "found": true,
+        "value": "Minnesota",
+        "evidence": [
+          {
+            "quote": "Section 8.07 Governing Law. This Agreement, the Note and the Security Agreement shall be governed by, and construed in accordance with, the laws of the State of Minnesota.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      }
+    ],
+    "by_field": {
+      "document_title": {
+        "field": "document_title",
+        "found": true,
+        "value": "Loan Agreement",
+        "evidence": [
+          {
+            "quote": "LOAN AGREEMENT",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "agreement_date": {
+        "field": "agreement_date",
+        "found": true,
+        "value": "February 1, 2011",
+        "evidence": [
+          {
+            "quote": "This Loan Agreement (\"Agreement\") is made as of the 1st day of February, 2011,",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "borrowers": {
+        "field": "borrowers",
+        "found": true,
+        "value": "WSI Industries, Inc.",
+        "evidence": [
+          {
+            "quote": "WSI Industries, Inc., a Minnesota corporation, having an address of 213 Chelsea Road, Monticello, MN 55362 (\"Borrower\")",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "lenders": {
+        "field": "lenders",
+        "found": true,
+        "value": "M&I Marshall & Ilsley Bank",
+        "evidence": [
+          {
+            "quote": "M&I Marshall & Ilsley Bank, having an address of 11455 Viking Drive, Eden Prairie, Minnesota 55344 (\"Bank\").",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "agents": {
+        "field": "agents",
+        "found": false,
+        "value": "Not found in this document",
+        "evidence": [],
+        "status": "not_found",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "loan_or_commitment_amount": {
+        "field": "loan_or_commitment_amount",
+        "found": true,
+        "value": "$1,000,000.00",
+        "evidence": [
+          {
+            "quote": "\"Commitment\" means One Million and 00/100 ($1,000,000.00) Dollars under the Revolving Loan as evidenced by the Revolving Note.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "$1000000.00"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "interest_rate": {
+        "field": "interest_rate",
+        "found": true,
+        "value": "Interest rate set in the Note, computed on a 365/360 basis.",
+        "evidence": [
+          {
+            "quote": "The Revolving Note shall bear interest on the unpaid principal amount thereof from the date thereof until paid at the rate therein provided.",
+            "page": 1
+          },
+          {
+            "quote": "Interest on the Note is computed on a 365/360 basis; that is, by applying the ratio of the interest rate over a year of 360 days, multiplied by the outstanding principal balance, multiplied by the actual number of days the principal balance is outstanding.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "365",
+            "360"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "repayment_terms": {
+        "field": "repayment_terms",
+        "found": true,
+        "value": "Revolving loan advances and accrued interest are payable in accordance with the Revolving Note, with principal re-borrowable within limits and automatic debit payments.",
+        "evidence": [
+          {
+            "quote": "Within the limits of the, the Borrower may borrow, repay pursuant to Section 2.07 and re-borrow under this Section 2.02. The Advances made by the Bank shall be evidenced by and repayable with interest in accordance with a single promissory note of the Borrower of even date herewith",
+            "page": 1
+          },
+          {
+            "quote": "all payments on the Loan shall be paid by automatic debit to such account.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "maturity_termination_date": {
+        "field": "maturity_termination_date",
+        "found": true,
+        "value": "February 1, 2012",
+        "evidence": [
+          {
+            "quote": "The Bank agrees, on the terms and subject to the conditions hereinafter set forth, to make Advances to the Borrower from time to time during the period from the date hereof to February 1, 2012 or the earlier date of termination in whole of the Commitment pursuant Section 7.02",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "february 1, 2012"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "fees": {
+        "field": "fees",
+        "found": true,
+        "value": "No commitment fees are payable by the borrower.",
+        "evidence": [
+          {
+            "quote": "Section 2.03 Commitment Fees. There are no commitment fees payable by the Borrower hereunder.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "late_payment_or_default_interest": {
+        "field": "late_payment_or_default_interest",
+        "found": true,
+        "value": "Default includes failure to pay sums on the Note when due continued for 10 days, or failure to pay fees for 10 days.",
+        "evidence": [
+          {
+            "quote": "(a) Default in the payment of any sums payable on the Note when it becomes due and payable and continuance of such default for a period of 10 days; or\n(b) Default in the payment of fees, if any required under Section 2.05 when the same become due and payable and the continuance of such default for a period of 10 days;",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "10",
+            "10"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "prepayment_terms": {
+        "field": "prepayment_terms",
+        "found": true,
+        "value": "Borrower may borrow, repay, and re-borrow under the revolving loan facility.",
+        "evidence": [
+          {
+            "quote": "Within the limits of the, the Borrower may borrow, repay pursuant to Section 2.07 and re-borrow under this Section 2.02.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "collateral_security": {
+        "field": "collateral_security",
+        "found": true,
+        "value": "Secured by Amended and Restated Security Agreements executed by Borrower and Guarantors.",
+        "evidence": [
+          {
+            "quote": "\"Security Agreement\" or \"Security Agreements\" mean the Amended and Restated Security Agreements executed by Borrower and Guarantors of even date herewith.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "guarantees": {
+        "field": "guarantees",
+        "found": true,
+        "value": "Guaranteed by Taurus Numeric Tool, Inc. and WSI Rochester, Inc.",
+        "evidence": [
+          {
+            "quote": "Taurus Numeric Tool, Inc., having an address of 213 Chelsea Road, Monticello, MN 55362 and WSI Rochester, Inc., having an address of 213 Chelsea Road, Monticello, MN 55362 (jointly \"Guarantor\")",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "events_of_default": {
+        "field": "events_of_default",
+        "found": true,
+        "value": "Includes payment defaults (10-day cure), material breaches of representations, covenant breaches (10-day notice/cure), bankruptcy/insolvency events, judgments over $50,000, and cross-defaults on other indebtedness.",
+        "evidence": [
+          {
+            "quote": "Section 7.01 Events of Default. \"Events of Default\", wherever used herein, means any one of the following events:",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "governing_law": {
+        "field": "governing_law",
+        "found": true,
+        "value": "Minnesota",
+        "evidence": [
+          {
+            "quote": "Section 8.07 Governing Law. This Agreement, the Note and the Security Agreement shall be governed by, and construed in accordance with, the laws of the State of Minnesota.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      }
+    },
+    "model_used": "gemini-3.5-flash-lite",
+    "retrieval_used": false,
+    "calls_made": 1,
+    "extraction_calls": 1,
+    "verifier_calls": 0,
+    "doc_chars": 51934,
+    "num_pages": 1,
+    "raw_quotes_total": 17,
+    "verified_quotes_total": 17,
+    "dropped_quotes_total": 0,
+    "raw_quote_pass_rate": 1.0,
+    "quote_verified_rate": 1.0,
+    "counts": {
+      "verified": 15,
+      "not_found": 1,
+      "unverified": 0,
+      "needs_review": 0
+    },
+    "verifier_independent": null
+  },
+  "000081/810113/0000950116-04-002411_4.txt": {
+    "doc_id": "000081/810113/0000950116-04-002411_4.txt",
+    "fields": [
+      {
+        "field": "document_title",
+        "found": true,
+        "value": "Loan and Security Agreement",
+        "evidence": [
+          {
+            "quote": "LOAN AND SECURITY AGREEMENT",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "agreement_date",
+        "found": true,
+        "value": "June 22, 2004",
+        "evidence": [
+          {
+            "quote": "dated as of June 22, 2004",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "borrowers",
+        "found": true,
+        "value": "Maritrans Inc. and Maritrans 196 Co.",
+        "evidence": [
+          {
+            "quote": "MARITRANS INC., a Delaware corporation, and MARITRANS 196 CO., a Nevada corporation",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "lenders",
+        "found": true,
+        "value": "Fifth Third Bank",
+        "evidence": [
+          {
+            "quote": "FIFTH THIRD BANK, an Ohio banking corporation",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "agents",
+        "found": false,
+        "value": "Not found in this document",
+        "evidence": [],
+        "status": "not_found",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "loan_or_commitment_amount",
+        "found": true,
+        "value": "$22,000,000",
+        "evidence": [
+          {
+            "quote": "principal amount of $22,000,000",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "$22000000"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "interest_rate",
+        "found": true,
+        "value": "Interest rate equal to the Interest Rate as defined in the Note",
+        "evidence": [
+          {
+            "quote": "at an interest rate equal to the Interest Rate as defined in the Note.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "repayment_terms",
+        "found": true,
+        "value": "Periodic installments of principal and/or interest due to repay the Note, payable through BillPayer 2000.",
+        "evidence": [
+          {
+            "quote": "Borrowers shall pay the principal of the Loan and interest thereon on the terms set forth in the Note. All Installments shall be payable when due",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "2000"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "maturity_termination_date",
+        "found": true,
+        "value": "Term of the Note",
+        "evidence": [
+          {
+            "quote": "\"Term\" shall mean the term of the Note.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "fees",
+        "found": true,
+        "value": "Documentation fee of $500.00 payable to Lender",
+        "evidence": [
+          {
+            "quote": "\"Documentation Fee\" shall mean a documentation fee payable to Lender in the amount of $500.00.",
+            "page": 1
+          }
+        ],
+        "status": "needs_review",
+        "final_check": "NEEDS_REVIEW",
+        "number_check": {
+          "all_found": false,
+          "missing": [
+            "$500.00"
+          ],
+          "extracted": [
+            "$500.00"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "number_mismatch:['$500.00']"
+        ]
+      },
+      {
+        "field": "late_payment_or_default_interest",
+        "found": true,
+        "value": "Default rate equal to the lesser of the maximum interest rate permitted by Applicable Law and 12% per annum",
+        "evidence": [
+          {
+            "quote": "\"Default Rate\" shall mean an annual interest rate equal to the lesser of the maximum interest rate permitted by Applicable Law and twelve percent (12%) per annum.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "12%"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "prepayment_terms",
+        "found": true,
+        "value": "Mandatory prepayment of principal plus accrued interest and prepayment premium upon a Vessel Event of Loss within specified timeframes.",
+        "evidence": [
+          {
+            "quote": "In the event that a Vessel shall suffer an Event of Loss, Borrowers shall prepay the principal of the Note plus (x) accrued interest on such amount to the date of prepayment plus (y) the Prepayment Premium applicable to such amount",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "collateral_security",
+        "found": false,
+        "value": "",
+        "evidence": [],
+        "status": "unverified",
+        "final_check": "FAIL",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "dropped_quotes:1/1",
+          "all_quotes_failed_verification"
+        ]
+      },
+      {
+        "field": "guarantees",
+        "found": false,
+        "value": "Not found in this document",
+        "evidence": [],
+        "status": "not_found",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "events_of_default",
+        "found": false,
+        "value": "",
+        "evidence": [],
+        "status": "unverified",
+        "final_check": "FAIL",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "dropped_quotes:1/1",
+          "all_quotes_failed_verification"
+        ]
+      },
+      {
+        "field": "governing_law",
+        "found": true,
+        "value": "Internal laws of the State of New York",
+        "evidence": [
+          {
+            "quote": "The Loan Documents shall be governed by, and construed in accordance with, the internal laws of the State of New York",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      }
+    ],
+    "by_field": {
+      "document_title": {
+        "field": "document_title",
+        "found": true,
+        "value": "Loan and Security Agreement",
+        "evidence": [
+          {
+            "quote": "LOAN AND SECURITY AGREEMENT",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "agreement_date": {
+        "field": "agreement_date",
+        "found": true,
+        "value": "June 22, 2004",
+        "evidence": [
+          {
+            "quote": "dated as of June 22, 2004",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "borrowers": {
+        "field": "borrowers",
+        "found": true,
+        "value": "Maritrans Inc. and Maritrans 196 Co.",
+        "evidence": [
+          {
+            "quote": "MARITRANS INC., a Delaware corporation, and MARITRANS 196 CO., a Nevada corporation",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "lenders": {
+        "field": "lenders",
+        "found": true,
+        "value": "Fifth Third Bank",
+        "evidence": [
+          {
+            "quote": "FIFTH THIRD BANK, an Ohio banking corporation",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "agents": {
+        "field": "agents",
+        "found": false,
+        "value": "Not found in this document",
+        "evidence": [],
+        "status": "not_found",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "loan_or_commitment_amount": {
+        "field": "loan_or_commitment_amount",
+        "found": true,
+        "value": "$22,000,000",
+        "evidence": [
+          {
+            "quote": "principal amount of $22,000,000",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "$22000000"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "interest_rate": {
+        "field": "interest_rate",
+        "found": true,
+        "value": "Interest rate equal to the Interest Rate as defined in the Note",
+        "evidence": [
+          {
+            "quote": "at an interest rate equal to the Interest Rate as defined in the Note.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "repayment_terms": {
+        "field": "repayment_terms",
+        "found": true,
+        "value": "Periodic installments of principal and/or interest due to repay the Note, payable through BillPayer 2000.",
+        "evidence": [
+          {
+            "quote": "Borrowers shall pay the principal of the Loan and interest thereon on the terms set forth in the Note. All Installments shall be payable when due",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "2000"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "maturity_termination_date": {
+        "field": "maturity_termination_date",
+        "found": true,
+        "value": "Term of the Note",
+        "evidence": [
+          {
+            "quote": "\"Term\" shall mean the term of the Note.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "fees": {
+        "field": "fees",
+        "found": true,
+        "value": "Documentation fee of $500.00 payable to Lender",
+        "evidence": [
+          {
+            "quote": "\"Documentation Fee\" shall mean a documentation fee payable to Lender in the amount of $500.00.",
+            "page": 1
+          }
+        ],
+        "status": "needs_review",
+        "final_check": "NEEDS_REVIEW",
+        "number_check": {
+          "all_found": false,
+          "missing": [
+            "$500.00"
+          ],
+          "extracted": [
+            "$500.00"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "number_mismatch:['$500.00']"
+        ]
+      },
+      "late_payment_or_default_interest": {
+        "field": "late_payment_or_default_interest",
+        "found": true,
+        "value": "Default rate equal to the lesser of the maximum interest rate permitted by Applicable Law and 12% per annum",
+        "evidence": [
+          {
+            "quote": "\"Default Rate\" shall mean an annual interest rate equal to the lesser of the maximum interest rate permitted by Applicable Law and twelve percent (12%) per annum.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "12%"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "prepayment_terms": {
+        "field": "prepayment_terms",
+        "found": true,
+        "value": "Mandatory prepayment of principal plus accrued interest and prepayment premium upon a Vessel Event of Loss within specified timeframes.",
+        "evidence": [
+          {
+            "quote": "In the event that a Vessel shall suffer an Event of Loss, Borrowers shall prepay the principal of the Note plus (x) accrued interest on such amount to the date of prepayment plus (y) the Prepayment Premium applicable to such amount",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "collateral_security": {
+        "field": "collateral_security",
+        "found": false,
+        "value": "",
+        "evidence": [],
+        "status": "unverified",
+        "final_check": "FAIL",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "dropped_quotes:1/1",
+          "all_quotes_failed_verification"
+        ]
+      },
+      "guarantees": {
+        "field": "guarantees",
+        "found": false,
+        "value": "Not found in this document",
+        "evidence": [],
+        "status": "not_found",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "events_of_default": {
+        "field": "events_of_default",
+        "found": false,
+        "value": "",
+        "evidence": [],
+        "status": "unverified",
+        "final_check": "FAIL",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "dropped_quotes:1/1",
+          "all_quotes_failed_verification"
+        ]
+      },
+      "governing_law": {
+        "field": "governing_law",
+        "found": true,
+        "value": "Internal laws of the State of New York",
+        "evidence": [
+          {
+            "quote": "The Loan Documents shall be governed by, and construed in accordance with, the internal laws of the State of New York",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      }
+    },
+    "model_used": "gemini-3.5-flash-lite",
+    "retrieval_used": false,
+    "calls_made": 1,
+    "extraction_calls": 1,
+    "verifier_calls": 0,
+    "doc_chars": 55303,
+    "num_pages": 1,
+    "raw_quotes_total": 14,
+    "verified_quotes_total": 12,
+    "dropped_quotes_total": 2,
+    "raw_quote_pass_rate": 0.8571428571428571,
+    "quote_verified_rate": 1.0,
+    "counts": {
+      "verified": 11,
+      "not_found": 2,
+      "unverified": 2,
+      "needs_review": 1
+    },
+    "verifier_independent": null
+  },
+  "000103/1039213/0000912057-97-018811_19.txt": {
+    "doc_id": "000103/1039213/0000912057-97-018811_19.txt",
+    "fields": [
+      {
+        "field": "document_title",
+        "found": true,
+        "value": "Business Loan Agreement",
+        "evidence": [
+          {
+            "quote": "BUSINESS LOAN AGREEMENT",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "agreement_date",
+        "found": true,
+        "value": "March 28, 1997",
+        "evidence": [
+          {
+            "quote": "This Agreement dated as of March 28, 1997",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "borrowers",
+        "found": true,
+        "value": "Scheid Vineyards and Management Co.",
+        "evidence": [
+          {
+            "quote": "Scheid Vineyards and Management Co., a California corporation (the \"Borrower\").",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "lenders",
+        "found": true,
+        "value": "Bank of America National Trust and Savings Association",
+        "evidence": [
+          {
+            "quote": "Bank of America\nNational Trust and Savings Association (the \"Bank\")",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "agents",
+        "found": false,
+        "value": "Not found in this document",
+        "evidence": [],
+        "status": "not_found",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "loan_or_commitment_amount",
+        "found": true,
+        "value": "$7,500,000",
+        "evidence": [
+          {
+            "quote": "The amount of the line of\ncredit (the \"Development Loan Commitment\") is Seven Million Five Hundred\nThousand Dollars ($7,500,000).",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "$7500000"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "interest_rate",
+        "found": true,
+        "value": "Bank's Reference Rate minus 0.50 percentage points, or optionally LIBOR Rate plus 0.50 percentage points or Short Term Fixed Rate, computed on a 360-day year basis",
+        "evidence": [
+          {
+            "quote": "the interest rate is the Bank's Reference Rate minus 0.50 percentage\npoints.",
+            "page": 1
+          },
+          {
+            "quote": "Except as otherwise stated in this\nAgreement, all interest and fees, if any, will be computed on the basis of a\n360-day year and the actual number of days elapsed.",
+            "page": 6
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "0.50 percent",
+            "0.50 percent",
+            "360"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "repayment_terms",
+        "found": true,
+        "value": "Monthly interest payments starting the fifth day of the month after the first advance, with principal repaid in annual installments starting January 5, 2000 (first five equal to one-tenth of principal outstanding on Expiration Date, sixth and last paying remaining balance in full on January 5, 2005)",
+        "evidence": [
+          {
+            "quote": "The Borrower will pay interest on the fifth day of each\nmonth, commencing on the fifth day of the month after the month in which\nthe first advance is made, until payment in full of any principal\noutstanding under this line of credit.",
+            "page": 1
+          },
+          {
+            "quote": "The Borrower will repay the principal amount outstanding on\nthe Expiration Date in annual installments starting January 5, 2000.  The\nfirst five of such annual installments shall be equal to one-tenth of the\nprincipal amount outstanding on the Expiration Date, and the sixth and last\nannual installment shall be payable on January 5, 2005 and shall pay the\nremaining principal balance in full.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "january 5, 2000",
+            "january 5, 2005"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "maturity_termination_date",
+        "found": true,
+        "value": "December 31, 1999",
+        "evidence": [
+          {
+            "quote": "The line of credit is available between the\ndate of this Agreement and December 31, 1999 (the \"Expiration Date\")",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "december 31, 1999"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "fees",
+        "found": true,
+        "value": "Loan fee of $37,500 due on the date of the agreement, plus reimbursement of filing, recording, search, appraisal, documentation, and attorneys' fees",
+        "evidence": [
+          {
+            "quote": "The Borrower agrees to pay a Thirty Seven Thousand\nFive Hundred Dollar ($37,500) fee due on the date of this Agreement.",
+            "page": 3
+          },
+          {
+            "quote": "The Borrower agrees to immediately repay the Bank for\nexpenses that include, but are not limited to, filing, recording and search\nfees, appraisal fees, and documentation fees.",
+            "page": 3
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "$37500"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "late_payment_or_default_interest",
+        "found": true,
+        "value": "Default rate equal to two percentage points higher than the rate otherwise provided, and overdue interest, fees, or costs bearing interest at the Bank's Reference Rate plus two percentage points",
+        "evidence": [
+          {
+            "quote": "Upon the occurrence and during the continuation of\nany default under this Agreement, principal amounts outstanding under this\nAgreement will at the option of the Bank bear interest at a rate which is two\npercentage point(s) higher than the rate of interest otherwise provided under\nthis Agreement.",
+            "page": 6
+          },
+          {
+            "quote": "Any interest, fees or costs which are not paid when\ndue will, at the option of the Bank, bear interest at the Bank's Reference Rate\nplus two percentage points.",
+            "page": 6
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "prepayment_terms",
+        "found": true,
+        "value": "Optional prepayment in full or in part at any time, applied to the most remote installments of principal, subject to prepayment fees for LIBOR or Short Term Fixed Rate Portions",
+        "evidence": [
+          {
+            "quote": "The Borrower may prepay the loan in full or in part at any\ntime.  The prepayment will be applied to the most remote installment(s) of\nprincipal due under this Agreement.",
+            "page": 1
+          },
+          {
+            "quote": "Each prepayment of a LIBOR Rate Portion, whether voluntary,\nby reason of acceleration or otherwise, will be accompanied by the amount\nof accrued interest on the amount prepaid and a prepayment fee as described\nbelow.",
+            "page": 3
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "collateral_security",
+        "found": true,
+        "value": "A Standby Letter of Credit in a minimum amount of $7,500,000 plus interest of not less than $112,500 issued in favor of the Bank for the account of Heublein",
+        "evidence": [
+          {
+            "quote": "A Standby Letter of Credit (together\nwith any substituted letter of credit delivered after the date of this\nagreement, the \"Letter of Credit\") acceptable to the Bank issued by a financial\ninstitution acceptable to the Bank in favor of the Bank for the account of\nHeublein in a minimum amount of $7,500,000 plus interest in the amount of not\nless than $112,500 with an expiration date of not earlier than July 31, 1997.",
+            "page": 5
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "guarantees",
+        "found": false,
+        "value": "Not found in this document",
+        "evidence": [],
+        "status": "not_found",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "events_of_default",
+        "found": true,
+        "value": "Events of default include failure to pay within seven days, false information, bankruptcy, receivers, adverse government action, default under related documents, capital ownership change over 10%, breach of other bank agreements, and breach of covenants with applicable cure periods",
+        "evidence": [
+          {
+            "quote": "The Borrower fails to make a payment under this\nAgreement when due and such failure shall continue for seven days after such due\ndate.",
+            "page": 9
+          },
+          {
+            "quote": "If any of the following events occurs, the Bank may do one or more of\nthe following:  declare the Borrower in default, stop making any additional\ncredit available to the Borrower, cause the entire debt of the Borrower\nhereunder to become due immediately and without prior notice, or, subject to the\nthird sentence of this paragraph of Section 9, draw on the Letter of Credit.",
+            "page": 9
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "governing_law",
+        "found": true,
+        "value": "California law",
+        "evidence": [
+          {
+            "quote": "This Agreement is governed by California law.",
+            "page": 12
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      }
+    ],
+    "by_field": {
+      "document_title": {
+        "field": "document_title",
+        "found": true,
+        "value": "Business Loan Agreement",
+        "evidence": [
+          {
+            "quote": "BUSINESS LOAN AGREEMENT",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "agreement_date": {
+        "field": "agreement_date",
+        "found": true,
+        "value": "March 28, 1997",
+        "evidence": [
+          {
+            "quote": "This Agreement dated as of March 28, 1997",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "borrowers": {
+        "field": "borrowers",
+        "found": true,
+        "value": "Scheid Vineyards and Management Co.",
+        "evidence": [
+          {
+            "quote": "Scheid Vineyards and Management Co., a California corporation (the \"Borrower\").",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "lenders": {
+        "field": "lenders",
+        "found": true,
+        "value": "Bank of America National Trust and Savings Association",
+        "evidence": [
+          {
+            "quote": "Bank of America\nNational Trust and Savings Association (the \"Bank\")",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "agents": {
+        "field": "agents",
+        "found": false,
+        "value": "Not found in this document",
+        "evidence": [],
+        "status": "not_found",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "loan_or_commitment_amount": {
+        "field": "loan_or_commitment_amount",
+        "found": true,
+        "value": "$7,500,000",
+        "evidence": [
+          {
+            "quote": "The amount of the line of\ncredit (the \"Development Loan Commitment\") is Seven Million Five Hundred\nThousand Dollars ($7,500,000).",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "$7500000"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "interest_rate": {
+        "field": "interest_rate",
+        "found": true,
+        "value": "Bank's Reference Rate minus 0.50 percentage points, or optionally LIBOR Rate plus 0.50 percentage points or Short Term Fixed Rate, computed on a 360-day year basis",
+        "evidence": [
+          {
+            "quote": "the interest rate is the Bank's Reference Rate minus 0.50 percentage\npoints.",
+            "page": 1
+          },
+          {
+            "quote": "Except as otherwise stated in this\nAgreement, all interest and fees, if any, will be computed on the basis of a\n360-day year and the actual number of days elapsed.",
+            "page": 6
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "0.50 percent",
+            "0.50 percent",
+            "360"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "repayment_terms": {
+        "field": "repayment_terms",
+        "found": true,
+        "value": "Monthly interest payments starting the fifth day of the month after the first advance, with principal repaid in annual installments starting January 5, 2000 (first five equal to one-tenth of principal outstanding on Expiration Date, sixth and last paying remaining balance in full on January 5, 2005)",
+        "evidence": [
+          {
+            "quote": "The Borrower will pay interest on the fifth day of each\nmonth, commencing on the fifth day of the month after the month in which\nthe first advance is made, until payment in full of any principal\noutstanding under this line of credit.",
+            "page": 1
+          },
+          {
+            "quote": "The Borrower will repay the principal amount outstanding on\nthe Expiration Date in annual installments starting January 5, 2000.  The\nfirst five of such annual installments shall be equal to one-tenth of the\nprincipal amount outstanding on the Expiration Date, and the sixth and last\nannual installment shall be payable on January 5, 2005 and shall pay the\nremaining principal balance in full.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "january 5, 2000",
+            "january 5, 2005"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "maturity_termination_date": {
+        "field": "maturity_termination_date",
+        "found": true,
+        "value": "December 31, 1999",
+        "evidence": [
+          {
+            "quote": "The line of credit is available between the\ndate of this Agreement and December 31, 1999 (the \"Expiration Date\")",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "december 31, 1999"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "fees": {
+        "field": "fees",
+        "found": true,
+        "value": "Loan fee of $37,500 due on the date of the agreement, plus reimbursement of filing, recording, search, appraisal, documentation, and attorneys' fees",
+        "evidence": [
+          {
+            "quote": "The Borrower agrees to pay a Thirty Seven Thousand\nFive Hundred Dollar ($37,500) fee due on the date of this Agreement.",
+            "page": 3
+          },
+          {
+            "quote": "The Borrower agrees to immediately repay the Bank for\nexpenses that include, but are not limited to, filing, recording and search\nfees, appraisal fees, and documentation fees.",
+            "page": 3
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "$37500"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "late_payment_or_default_interest": {
+        "field": "late_payment_or_default_interest",
+        "found": true,
+        "value": "Default rate equal to two percentage points higher than the rate otherwise provided, and overdue interest, fees, or costs bearing interest at the Bank's Reference Rate plus two percentage points",
+        "evidence": [
+          {
+            "quote": "Upon the occurrence and during the continuation of\nany default under this Agreement, principal amounts outstanding under this\nAgreement will at the option of the Bank bear interest at a rate which is two\npercentage point(s) higher than the rate of interest otherwise provided under\nthis Agreement.",
+            "page": 6
+          },
+          {
+            "quote": "Any interest, fees or costs which are not paid when\ndue will, at the option of the Bank, bear interest at the Bank's Reference Rate\nplus two percentage points.",
+            "page": 6
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "prepayment_terms": {
+        "field": "prepayment_terms",
+        "found": true,
+        "value": "Optional prepayment in full or in part at any time, applied to the most remote installments of principal, subject to prepayment fees for LIBOR or Short Term Fixed Rate Portions",
+        "evidence": [
+          {
+            "quote": "The Borrower may prepay the loan in full or in part at any\ntime.  The prepayment will be applied to the most remote installment(s) of\nprincipal due under this Agreement.",
+            "page": 1
+          },
+          {
+            "quote": "Each prepayment of a LIBOR Rate Portion, whether voluntary,\nby reason of acceleration or otherwise, will be accompanied by the amount\nof accrued interest on the amount prepaid and a prepayment fee as described\nbelow.",
+            "page": 3
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "collateral_security": {
+        "field": "collateral_security",
+        "found": true,
+        "value": "A Standby Letter of Credit in a minimum amount of $7,500,000 plus interest of not less than $112,500 issued in favor of the Bank for the account of Heublein",
+        "evidence": [
+          {
+            "quote": "A Standby Letter of Credit (together\nwith any substituted letter of credit delivered after the date of this\nagreement, the \"Letter of Credit\") acceptable to the Bank issued by a financial\ninstitution acceptable to the Bank in favor of the Bank for the account of\nHeublein in a minimum amount of $7,500,000 plus interest in the amount of not\nless than $112,500 with an expiration date of not earlier than July 31, 1997.",
+            "page": 5
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "guarantees": {
+        "field": "guarantees",
+        "found": false,
+        "value": "Not found in this document",
+        "evidence": [],
+        "status": "not_found",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "events_of_default": {
+        "field": "events_of_default",
+        "found": true,
+        "value": "Events of default include failure to pay within seven days, false information, bankruptcy, receivers, adverse government action, default under related documents, capital ownership change over 10%, breach of other bank agreements, and breach of covenants with applicable cure periods",
+        "evidence": [
+          {
+            "quote": "The Borrower fails to make a payment under this\nAgreement when due and such failure shall continue for seven days after such due\ndate.",
+            "page": 9
+          },
+          {
+            "quote": "If any of the following events occurs, the Bank may do one or more of\nthe following:  declare the Borrower in default, stop making any additional\ncredit available to the Borrower, cause the entire debt of the Borrower\nhereunder to become due immediately and without prior notice, or, subject to the\nthird sentence of this paragraph of Section 9, draw on the Letter of Credit.",
+            "page": 9
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "governing_law": {
+        "field": "governing_law",
+        "found": true,
+        "value": "California law",
+        "evidence": [
+          {
+            "quote": "This Agreement is governed by California law.",
+            "page": 12
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      }
+    },
+    "model_used": "gemini-3.5-flash-lite",
+    "retrieval_used": false,
+    "calls_made": 1,
+    "extraction_calls": 1,
+    "verifier_calls": 0,
+    "doc_chars": 59192,
+    "num_pages": 15,
+    "raw_quotes_total": 20,
+    "verified_quotes_total": 20,
+    "dropped_quotes_total": 0,
+    "raw_quote_pass_rate": 1.0,
+    "quote_verified_rate": 1.0,
+    "counts": {
+      "verified": 14,
+      "not_found": 2,
+      "unverified": 0,
+      "needs_review": 0
+    },
+    "verifier_independent": null
+  },
+  "000001/14693/0000950144-06-011821_2.txt": {
+    "doc_id": "000001/14693/0000950144-06-011821_2.txt",
+    "fields": [
+      {
+        "field": "document_title",
+        "found": true,
+        "value": "Bridge Credit Agreement",
+        "evidence": [
+          {
+            "quote": "BRIDGE CREDIT AGREEMENT",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "agreement_date",
+        "found": true,
+        "value": "December 21, 2006",
+        "evidence": [
+          {
+            "quote": "BRIDGE CREDIT AGREEMENT dated as of December 21, 2006",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "borrowers",
+        "found": true,
+        "value": "Brown-Forman Corporation",
+        "evidence": [
+          {
+            "quote": "BROWN-FORMAN CORPORATION, a Delaware corporation (the \"Borrower\")",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "lenders",
+        "found": true,
+        "value": "Bank of America, N.A., JPMorgan Chase Bank, N.A., Citicorp North America, Inc., National City Bank, HSBC Bank USA, N.A., SunTrust Bank, and each other Lender party hereto",
+        "evidence": [
+          {
+            "quote": "THE LENDERS PARTY HERETO",
+            "page": 1
+          },
+          {
+            "quote": "BANK OF AMERICA, N.A., as Administrative Agent and a Lender",
+            "page": 1
+          },
+          {
+            "quote": "JPMORGAN CHASE BANK, N.A., as Syndication Agent and a Lender",
+            "page": 1
+          },
+          {
+            "quote": "CITICORP NORTH AMERICA, INC., as Documentation Agent and a Lender",
+            "page": 1
+          },
+          {
+            "quote": "NATIONAL CITY BANK, as a Lender",
+            "page": 1
+          },
+          {
+            "quote": "HSBC BANK USA, N.A., as a Lender",
+            "page": 1
+          },
+          {
+            "quote": "SUNTRUST BANK, as a Lender",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "agents",
+        "found": true,
+        "value": "Bank of America, N.A. as Administrative Agent, JPMorgan Chase Bank, N.A. as Syndication Agent, and Citicorp North America, Inc. as Documentation Agent",
+        "evidence": [
+          {
+            "quote": "JPMORGAN CHASE BANK, N.A.,\n\nas Syndication Agent\n\nCITICORP NORTH AMERICA, INC.,\n\nas Documentation Agent\n\nand\n\nBANK OF AMERICA, N.A.,\n\nas Administrative Agent",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "loan_or_commitment_amount",
+        "found": true,
+        "value": "$800,000,000",
+        "evidence": [
+          {
+            "quote": "aggregate principal amount of up to $800,000,000",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "$800000000"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "interest_rate",
+        "found": true,
+        "value": "ABR Loans bear interest at the Alternate Base Rate; Eurodollar Loans bear interest at the Adjusted LIBO Rate plus the Applicable Rate",
+        "evidence": [
+          {
+            "quote": "The Loans comprising each ABR Borrowing shall bear interest at the Alternate Base Rate.",
+            "page": 1
+          },
+          {
+            "quote": "The Loans comprising each Eurodollar Borrowing shall bear interest at the Adjusted LIBO Rate for the Interest Period in effect for such Borrowing plus the Applicable Rate.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "repayment_terms",
+        "found": true,
+        "value": "The unpaid principal amount of each Loan is payable in full on the Maturity Date",
+        "evidence": [
+          {
+            "quote": "The Borrower hereby unconditionally promises to pay to the Administrative Agent for the account of each Lender the then unpaid principal amount of each Loan made to the Borrower on the Maturity Date.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "maturity_termination_date",
+        "found": true,
+        "value": "The earlier of 364 days after the Effective Date and the Permanent Facility Refinancing Date if a Maturity Date Triggering Transaction occurs",
+        "evidence": [
+          {
+            "quote": "\"Maturity Date\" means the earlier of (a) the date that is 364 days after the Effective Date and (b) if a Maturity Date Triggering Transaction shall occur after the date of this Agreement but prior to the Permanent Facility Refinancing Date, the Permanent Facility Refinancing Date.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "364"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "fees",
+        "found": true,
+        "value": "Facility fee accruing at the Applicable Rate on the daily amount of each Lender's Commitment (whether used or unused)",
+        "evidence": [
+          {
+            "quote": "The Borrower agrees to pay to the Administrative Agent for the account of each Lender a facility fee, which shall accrue at the Applicable Rate on the daily amount of the Commitment of such Lender (whether used or unused)",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "late_payment_or_default_interest",
+        "found": false,
+        "value": "",
+        "evidence": [],
+        "status": "unverified",
+        "final_check": "FAIL",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "dropped_quotes:1/1",
+          "all_quotes_failed_verification"
+        ]
+      },
+      {
+        "field": "prepayment_terms",
+        "found": true,
+        "value": "Borrower may prepay borrowings in whole or in part at any time subject to notice and mandatory prepayments from certain net proceeds and commitment reductions",
+        "evidence": [
+          {
+            "quote": "The Borrower shall have the right at any time and from time to time to prepay any Borrowing in whole or in part, subject to prior notice in accordance with paragraph (d) of this Section.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "collateral_security",
+        "found": false,
+        "value": "Not found in this document",
+        "evidence": [],
+        "status": "not_found",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "guarantees",
+        "found": false,
+        "value": "Not found in this document",
+        "evidence": [],
+        "status": "not_found",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "events_of_default",
+        "found": true,
+        "value": "Events of default include nonpayment of principal, interest, or fees, material misrepresentations, covenant breaches, cross-defaults on material indebtedness, bankruptcy/insolvency proceedings, monetary judgments exceeding $25,000,000, certain ERISA events, and a Change in Control",
+        "evidence": [
+          {
+            "quote": "If any of the following events (\"Events of Default\") shall occur:",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "governing_law",
+        "found": true,
+        "value": "New York law",
+        "evidence": [
+          {
+            "quote": "This Agreement shall be construed in accordance with and governed by the law of the State of New York.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      }
+    ],
+    "by_field": {
+      "document_title": {
+        "field": "document_title",
+        "found": true,
+        "value": "Bridge Credit Agreement",
+        "evidence": [
+          {
+            "quote": "BRIDGE CREDIT AGREEMENT",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "agreement_date": {
+        "field": "agreement_date",
+        "found": true,
+        "value": "December 21, 2006",
+        "evidence": [
+          {
+            "quote": "BRIDGE CREDIT AGREEMENT dated as of December 21, 2006",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "borrowers": {
+        "field": "borrowers",
+        "found": true,
+        "value": "Brown-Forman Corporation",
+        "evidence": [
+          {
+            "quote": "BROWN-FORMAN CORPORATION, a Delaware corporation (the \"Borrower\")",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "lenders": {
+        "field": "lenders",
+        "found": true,
+        "value": "Bank of America, N.A., JPMorgan Chase Bank, N.A., Citicorp North America, Inc., National City Bank, HSBC Bank USA, N.A., SunTrust Bank, and each other Lender party hereto",
+        "evidence": [
+          {
+            "quote": "THE LENDERS PARTY HERETO",
+            "page": 1
+          },
+          {
+            "quote": "BANK OF AMERICA, N.A., as Administrative Agent and a Lender",
+            "page": 1
+          },
+          {
+            "quote": "JPMORGAN CHASE BANK, N.A., as Syndication Agent and a Lender",
+            "page": 1
+          },
+          {
+            "quote": "CITICORP NORTH AMERICA, INC., as Documentation Agent and a Lender",
+            "page": 1
+          },
+          {
+            "quote": "NATIONAL CITY BANK, as a Lender",
+            "page": 1
+          },
+          {
+            "quote": "HSBC BANK USA, N.A., as a Lender",
+            "page": 1
+          },
+          {
+            "quote": "SUNTRUST BANK, as a Lender",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "agents": {
+        "field": "agents",
+        "found": true,
+        "value": "Bank of America, N.A. as Administrative Agent, JPMorgan Chase Bank, N.A. as Syndication Agent, and Citicorp North America, Inc. as Documentation Agent",
+        "evidence": [
+          {
+            "quote": "JPMORGAN CHASE BANK, N.A.,\n\nas Syndication Agent\n\nCITICORP NORTH AMERICA, INC.,\n\nas Documentation Agent\n\nand\n\nBANK OF AMERICA, N.A.,\n\nas Administrative Agent",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "loan_or_commitment_amount": {
+        "field": "loan_or_commitment_amount",
+        "found": true,
+        "value": "$800,000,000",
+        "evidence": [
+          {
+            "quote": "aggregate principal amount of up to $800,000,000",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "$800000000"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "interest_rate": {
+        "field": "interest_rate",
+        "found": true,
+        "value": "ABR Loans bear interest at the Alternate Base Rate; Eurodollar Loans bear interest at the Adjusted LIBO Rate plus the Applicable Rate",
+        "evidence": [
+          {
+            "quote": "The Loans comprising each ABR Borrowing shall bear interest at the Alternate Base Rate.",
+            "page": 1
+          },
+          {
+            "quote": "The Loans comprising each Eurodollar Borrowing shall bear interest at the Adjusted LIBO Rate for the Interest Period in effect for such Borrowing plus the Applicable Rate.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "repayment_terms": {
+        "field": "repayment_terms",
+        "found": true,
+        "value": "The unpaid principal amount of each Loan is payable in full on the Maturity Date",
+        "evidence": [
+          {
+            "quote": "The Borrower hereby unconditionally promises to pay to the Administrative Agent for the account of each Lender the then unpaid principal amount of each Loan made to the Borrower on the Maturity Date.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "maturity_termination_date": {
+        "field": "maturity_termination_date",
+        "found": true,
+        "value": "The earlier of 364 days after the Effective Date and the Permanent Facility Refinancing Date if a Maturity Date Triggering Transaction occurs",
+        "evidence": [
+          {
+            "quote": "\"Maturity Date\" means the earlier of (a) the date that is 364 days after the Effective Date and (b) if a Maturity Date Triggering Transaction shall occur after the date of this Agreement but prior to the Permanent Facility Refinancing Date, the Permanent Facility Refinancing Date.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "364"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "fees": {
+        "field": "fees",
+        "found": true,
+        "value": "Facility fee accruing at the Applicable Rate on the daily amount of each Lender's Commitment (whether used or unused)",
+        "evidence": [
+          {
+            "quote": "The Borrower agrees to pay to the Administrative Agent for the account of each Lender a facility fee, which shall accrue at the Applicable Rate on the daily amount of the Commitment of such Lender (whether used or unused)",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "late_payment_or_default_interest": {
+        "field": "late_payment_or_default_interest",
+        "found": false,
+        "value": "",
+        "evidence": [],
+        "status": "unverified",
+        "final_check": "FAIL",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "dropped_quotes:1/1",
+          "all_quotes_failed_verification"
+        ]
+      },
+      "prepayment_terms": {
+        "field": "prepayment_terms",
+        "found": true,
+        "value": "Borrower may prepay borrowings in whole or in part at any time subject to notice and mandatory prepayments from certain net proceeds and commitment reductions",
+        "evidence": [
+          {
+            "quote": "The Borrower shall have the right at any time and from time to time to prepay any Borrowing in whole or in part, subject to prior notice in accordance with paragraph (d) of this Section.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "collateral_security": {
+        "field": "collateral_security",
+        "found": false,
+        "value": "Not found in this document",
+        "evidence": [],
+        "status": "not_found",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "guarantees": {
+        "field": "guarantees",
+        "found": false,
+        "value": "Not found in this document",
+        "evidence": [],
+        "status": "not_found",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "events_of_default": {
+        "field": "events_of_default",
+        "found": true,
+        "value": "Events of default include nonpayment of principal, interest, or fees, material misrepresentations, covenant breaches, cross-defaults on material indebtedness, bankruptcy/insolvency proceedings, monetary judgments exceeding $25,000,000, certain ERISA events, and a Change in Control",
+        "evidence": [
+          {
+            "quote": "If any of the following events (\"Events of Default\") shall occur:",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "governing_law": {
+        "field": "governing_law",
+        "found": true,
+        "value": "New York law",
+        "evidence": [
+          {
+            "quote": "This Agreement shall be construed in accordance with and governed by the law of the State of New York.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      }
+    },
+    "model_used": "gemini-3.5-flash-lite",
+    "retrieval_used": false,
+    "calls_made": 2,
+    "extraction_calls": 2,
+    "verifier_calls": 0,
+    "doc_chars": 170047,
+    "num_pages": 1,
+    "raw_quotes_total": 21,
+    "verified_quotes_total": 20,
+    "dropped_quotes_total": 1,
+    "raw_quote_pass_rate": 0.9523809523809523,
+    "quote_verified_rate": 1.0,
+    "counts": {
+      "verified": 13,
+      "not_found": 2,
+      "unverified": 1,
+      "needs_review": 0
+    },
+    "verifier_independent": null
+  },
+  "000001/18230/0001104659-11-052126_5.txt": {
+    "doc_id": "000001/18230/0001104659-11-052126_5.txt",
+    "fields": [
+      {
+        "field": "document_title",
+        "found": true,
+        "value": "Credit Agreement (Five-Year Facility)",
+        "evidence": [
+          {
+            "quote": "CREDIT AGREEMENT\n\n(Five-Year Facility)",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "agreement_date",
+        "found": true,
+        "value": "September 15, 2011",
+        "evidence": [
+          {
+            "quote": "Dated as of September 15, 2011",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "borrowers",
+        "found": true,
+        "value": "Caterpillar Inc., Caterpillar Financial Services Corporation, Caterpillar International Finance Limited, and Caterpillar Finance Corporation",
+        "evidence": [
+          {
+            "quote": "CATERPILLAR INC.,\n\nCATERPILLAR FINANCIAL SERVICES CORPORATION,\n\nCATERPILLAR INTERNATIONAL FINANCE LIMITED\n\nand\n\nCATERPILLAR FINANCE CORPORATION,\n\nas Borrowers",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "lenders",
+        "found": true,
+        "value": "Citibank, N.A., JPMorgan Chase Bank, N.A., Bank of America, N.A., Barclays Bank PLC, Deutsche Bank AG New York Branch, Societe Generale, The Royal Bank of Scotland plc, Toronto Dominion (Texas) LLC, Goldman Sachs Bank USA, Royal Bank of Canada, The Bank of Tokyo -- Mitsubishi UFJ, Ltd., U.S. Bank National Association, Lloyds TSB Bank plc, Standard Chartered Bank, The Northern Trust Company, Commerzbank AG, New York and Grand Cayman Branches, ING Bank N.V., Dublin Branch, Banco Bilbao Vizcaya Argentaria, S.A., New York Branch, HSBC Bank USA, National Association, Industrial and Commercial Bank of China Limited, New York Branch, BNP Paribas, Australia and New Zealand Banking Group Limited, KBC Bank NV, New York Branch, WestLB AG, New York Branch, The Bank of New York Mellon, and Westpac Banking Corporation",
+        "evidence": [
+          {
+            "quote": "THE FINANCIAL INSTITUTIONS NAMED HEREIN,\n\nas Banks",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "agents",
+        "found": true,
+        "value": "Citibank, N.A. serves as Agent, Citibank International plc serves as Local Currency Agent, and The Bank of Tokyo-Mitsubishi UFJ, Ltd. serves as Japan Local Currency Agent.",
+        "evidence": [
+          {
+            "quote": "CITIBANK, N.A.,\n\nas Agent,\n\nCITIBANK INTERNATIONAL PLC,\n\nas Local Currency Agent\n\nTHE BANK OF TOKYO-MITSUBISHI UFJ, LTD.,\n\nas Japan Local Currency Agent",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "loan_or_commitment_amount",
+        "found": true,
+        "value": "$3,861,000,000 total commitment",
+        "evidence": [
+          {
+            "quote": "TOTAL\n\n$\n\n3,861,000,000",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "$3861000000"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "interest_rate",
+        "found": true,
+        "value": "Base Rate or Japan Base Rate plus Applicable Margin for base rate advances, and Eurocurrency Rate or TIBO Rate plus Applicable Margin for eurocurrency and tibo rate advances, with a post-default interest rate increase of 2% per annum.",
+        "evidence": [
+          {
+            "quote": "(a) Base Rate Advances. If such Advance is a Base Rate Advance, a rate per annum equal at all times during the Interest Period for such Advance to the sum of the Base Rate in effect from time to time plus the Applicable Margin in effect from time to time",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "2%"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "repayment_terms",
+        "found": true,
+        "value": "Each borrower shall repay the principal amount of each advance on the last day of the interest period for such advance.",
+        "evidence": [
+          {
+            "quote": "SECTION 2.06. Repayment of Advances. Each Borrower shall repay the principal amount (or the portion thereof remaining after giving effect to any earlier partial prepayments thereof) of each Advance made to such Borrower by each Bank on the last day of the Interest Period for such Advance.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "maturity_termination_date",
+        "found": true,
+        "value": "September 15, 2016",
+        "evidence": [
+          {
+            "quote": "\"Termination Date\" means, with respect to any Bank at any time, September 15, 2016.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "september 15, 2016"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "fees",
+        "found": true,
+        "value": "Commitment fees calculated daily based on the commitment fee rate and unused allocated commitments, payable quarterly in arrears.",
+        "evidence": [
+          {
+            "quote": "SECTION 2.04. Fees. (a) Each of Caterpillar and CFSC shall pay to the Agent, for the account of each Bank, a fee (each a \"Commitment Fee\" and collectively, the \"Commitment Fees\") calculated on a daily basis by multiplying the Commitment Fee Rate in effect on each day by the amount of such Bank's unused Allocated Commitment for such Borrower as in effect on such day.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "late_payment_or_default_interest",
+        "found": true,
+        "value": "2% per annum above the otherwise required rate upon an event of default, or on overdue principal the greater of 2% above the base rate and 2% above the advance rate.",
+        "evidence": [
+          {
+            "quote": "Upon the occurrence, and during the continuance, of any Event of Default, the unpaid principal amount of each Advance shall bear interest at a rate per annum equal at all times to 2% per annum above the rate per annum otherwise required to be paid on such Advance in accordance with subsection (a), (b) or (c) above",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "2%",
+            "2%",
+            "2%"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "prepayment_terms",
+        "found": true,
+        "value": "Borrowers may prepay advances upon at least 2 business days' notice, with minimum partial prepayments of $10,000,000 and integral multiples of $1,000,000.",
+        "evidence": [
+          {
+            "quote": "SECTION 2.09. Prepayments of Advances. (a) Any Borrower may, upon at least two (2) Business Days' notice to the Agent stating (i) the proposed date and aggregate principal amount of the prepayment and (ii) the Advances (which shall be part of the same Borrowing) to which such prepayment is to be applied, and if such notice is given such Borrower shall, prepay the outstanding principal amounts of the Advances comprising part of the same Borrowing in whole or ratably in part, together with accrued interest to the date of such prepayment on the principal amount prepaid",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "collateral_security",
+        "found": false,
+        "value": "Not found in this document",
+        "evidence": [],
+        "status": "not_found",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "guarantees",
+        "found": true,
+        "value": "CFSC unconditionally and irrevocably guarantees obligations of CIF and CFC under the agreement, local currency addendum, and japan local currency addendum.",
+        "evidence": [
+          {
+            "quote": "SECTION 9.01. The Guaranty. CFSC hereby unconditionally and irrevocably guarantees to the Agent, each Bank and each other holder of any obligations owing by CIF and CFC under this Agreement, the Local Currency Addendum and the Japan Local Currency Addendum, the due and punctual payment (whether at stated maturity, upon acceleration or otherwise) of the principal of and interest on each Advance to each of CIF and CFC, and the due and punctual payment of all other amounts payable by CIF and CFC under this Agreement, the Local Currency Addendum and the Japan Local Currency Addendum.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "events_of_default",
+        "found": true,
+        "value": "Events of default include non-payment of principal, interest, or fees; material misrepresentations; covenant breaches; cross-defaults on debt exceeding $100,000,000 for Caterpillar or $50,000,000 for CFSC/CIF/CFC; bankruptcy or insolvency events; unsatisfied judgments exceeding specified thresholds; and support agreement failures.",
+        "evidence": [
+          {
+            "quote": "SECTION 6.01. Events of Default. If any of the following events (\"Events of Default\") shall occur and be continuing with respect to any Borrower:",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "governing_law",
+        "found": true,
+        "value": "Law of the State of New York",
+        "evidence": [
+          {
+            "quote": "SECTION 8.08. Governing Law; Submission to Jurisdiction; Service of Process.\n\n(a) This Agreement and the Notes shall be governed by, and construed in accordance with, the law of the State of New York",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      }
+    ],
+    "by_field": {
+      "document_title": {
+        "field": "document_title",
+        "found": true,
+        "value": "Credit Agreement (Five-Year Facility)",
+        "evidence": [
+          {
+            "quote": "CREDIT AGREEMENT\n\n(Five-Year Facility)",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "agreement_date": {
+        "field": "agreement_date",
+        "found": true,
+        "value": "September 15, 2011",
+        "evidence": [
+          {
+            "quote": "Dated as of September 15, 2011",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "borrowers": {
+        "field": "borrowers",
+        "found": true,
+        "value": "Caterpillar Inc., Caterpillar Financial Services Corporation, Caterpillar International Finance Limited, and Caterpillar Finance Corporation",
+        "evidence": [
+          {
+            "quote": "CATERPILLAR INC.,\n\nCATERPILLAR FINANCIAL SERVICES CORPORATION,\n\nCATERPILLAR INTERNATIONAL FINANCE LIMITED\n\nand\n\nCATERPILLAR FINANCE CORPORATION,\n\nas Borrowers",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "lenders": {
+        "field": "lenders",
+        "found": true,
+        "value": "Citibank, N.A., JPMorgan Chase Bank, N.A., Bank of America, N.A., Barclays Bank PLC, Deutsche Bank AG New York Branch, Societe Generale, The Royal Bank of Scotland plc, Toronto Dominion (Texas) LLC, Goldman Sachs Bank USA, Royal Bank of Canada, The Bank of Tokyo -- Mitsubishi UFJ, Ltd., U.S. Bank National Association, Lloyds TSB Bank plc, Standard Chartered Bank, The Northern Trust Company, Commerzbank AG, New York and Grand Cayman Branches, ING Bank N.V., Dublin Branch, Banco Bilbao Vizcaya Argentaria, S.A., New York Branch, HSBC Bank USA, National Association, Industrial and Commercial Bank of China Limited, New York Branch, BNP Paribas, Australia and New Zealand Banking Group Limited, KBC Bank NV, New York Branch, WestLB AG, New York Branch, The Bank of New York Mellon, and Westpac Banking Corporation",
+        "evidence": [
+          {
+            "quote": "THE FINANCIAL INSTITUTIONS NAMED HEREIN,\n\nas Banks",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "agents": {
+        "field": "agents",
+        "found": true,
+        "value": "Citibank, N.A. serves as Agent, Citibank International plc serves as Local Currency Agent, and The Bank of Tokyo-Mitsubishi UFJ, Ltd. serves as Japan Local Currency Agent.",
+        "evidence": [
+          {
+            "quote": "CITIBANK, N.A.,\n\nas Agent,\n\nCITIBANK INTERNATIONAL PLC,\n\nas Local Currency Agent\n\nTHE BANK OF TOKYO-MITSUBISHI UFJ, LTD.,\n\nas Japan Local Currency Agent",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "loan_or_commitment_amount": {
+        "field": "loan_or_commitment_amount",
+        "found": true,
+        "value": "$3,861,000,000 total commitment",
+        "evidence": [
+          {
+            "quote": "TOTAL\n\n$\n\n3,861,000,000",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "$3861000000"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "interest_rate": {
+        "field": "interest_rate",
+        "found": true,
+        "value": "Base Rate or Japan Base Rate plus Applicable Margin for base rate advances, and Eurocurrency Rate or TIBO Rate plus Applicable Margin for eurocurrency and tibo rate advances, with a post-default interest rate increase of 2% per annum.",
+        "evidence": [
+          {
+            "quote": "(a) Base Rate Advances. If such Advance is a Base Rate Advance, a rate per annum equal at all times during the Interest Period for such Advance to the sum of the Base Rate in effect from time to time plus the Applicable Margin in effect from time to time",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "2%"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "repayment_terms": {
+        "field": "repayment_terms",
+        "found": true,
+        "value": "Each borrower shall repay the principal amount of each advance on the last day of the interest period for such advance.",
+        "evidence": [
+          {
+            "quote": "SECTION 2.06. Repayment of Advances. Each Borrower shall repay the principal amount (or the portion thereof remaining after giving effect to any earlier partial prepayments thereof) of each Advance made to such Borrower by each Bank on the last day of the Interest Period for such Advance.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "maturity_termination_date": {
+        "field": "maturity_termination_date",
+        "found": true,
+        "value": "September 15, 2016",
+        "evidence": [
+          {
+            "quote": "\"Termination Date\" means, with respect to any Bank at any time, September 15, 2016.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "september 15, 2016"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "fees": {
+        "field": "fees",
+        "found": true,
+        "value": "Commitment fees calculated daily based on the commitment fee rate and unused allocated commitments, payable quarterly in arrears.",
+        "evidence": [
+          {
+            "quote": "SECTION 2.04. Fees. (a) Each of Caterpillar and CFSC shall pay to the Agent, for the account of each Bank, a fee (each a \"Commitment Fee\" and collectively, the \"Commitment Fees\") calculated on a daily basis by multiplying the Commitment Fee Rate in effect on each day by the amount of such Bank's unused Allocated Commitment for such Borrower as in effect on such day.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "late_payment_or_default_interest": {
+        "field": "late_payment_or_default_interest",
+        "found": true,
+        "value": "2% per annum above the otherwise required rate upon an event of default, or on overdue principal the greater of 2% above the base rate and 2% above the advance rate.",
+        "evidence": [
+          {
+            "quote": "Upon the occurrence, and during the continuance, of any Event of Default, the unpaid principal amount of each Advance shall bear interest at a rate per annum equal at all times to 2% per annum above the rate per annum otherwise required to be paid on such Advance in accordance with subsection (a), (b) or (c) above",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "2%",
+            "2%",
+            "2%"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "prepayment_terms": {
+        "field": "prepayment_terms",
+        "found": true,
+        "value": "Borrowers may prepay advances upon at least 2 business days' notice, with minimum partial prepayments of $10,000,000 and integral multiples of $1,000,000.",
+        "evidence": [
+          {
+            "quote": "SECTION 2.09. Prepayments of Advances. (a) Any Borrower may, upon at least two (2) Business Days' notice to the Agent stating (i) the proposed date and aggregate principal amount of the prepayment and (ii) the Advances (which shall be part of the same Borrowing) to which such prepayment is to be applied, and if such notice is given such Borrower shall, prepay the outstanding principal amounts of the Advances comprising part of the same Borrowing in whole or ratably in part, together with accrued interest to the date of such prepayment on the principal amount prepaid",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "collateral_security": {
+        "field": "collateral_security",
+        "found": false,
+        "value": "Not found in this document",
+        "evidence": [],
+        "status": "not_found",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "guarantees": {
+        "field": "guarantees",
+        "found": true,
+        "value": "CFSC unconditionally and irrevocably guarantees obligations of CIF and CFC under the agreement, local currency addendum, and japan local currency addendum.",
+        "evidence": [
+          {
+            "quote": "SECTION 9.01. The Guaranty. CFSC hereby unconditionally and irrevocably guarantees to the Agent, each Bank and each other holder of any obligations owing by CIF and CFC under this Agreement, the Local Currency Addendum and the Japan Local Currency Addendum, the due and punctual payment (whether at stated maturity, upon acceleration or otherwise) of the principal of and interest on each Advance to each of CIF and CFC, and the due and punctual payment of all other amounts payable by CIF and CFC under this Agreement, the Local Currency Addendum and the Japan Local Currency Addendum.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "events_of_default": {
+        "field": "events_of_default",
+        "found": true,
+        "value": "Events of default include non-payment of principal, interest, or fees; material misrepresentations; covenant breaches; cross-defaults on debt exceeding $100,000,000 for Caterpillar or $50,000,000 for CFSC/CIF/CFC; bankruptcy or insolvency events; unsatisfied judgments exceeding specified thresholds; and support agreement failures.",
+        "evidence": [
+          {
+            "quote": "SECTION 6.01. Events of Default. If any of the following events (\"Events of Default\") shall occur and be continuing with respect to any Borrower:",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "governing_law": {
+        "field": "governing_law",
+        "found": true,
+        "value": "Law of the State of New York",
+        "evidence": [
+          {
+            "quote": "SECTION 8.08. Governing Law; Submission to Jurisdiction; Service of Process.\n\n(a) This Agreement and the Notes shall be governed by, and construed in accordance with, the law of the State of New York",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      }
+    },
+    "model_used": "gemini-3.5-flash-lite",
+    "retrieval_used": false,
+    "calls_made": 1,
+    "extraction_calls": 1,
+    "verifier_calls": 0,
+    "doc_chars": 296832,
+    "num_pages": 1,
+    "raw_quotes_total": 15,
+    "verified_quotes_total": 15,
+    "dropped_quotes_total": 0,
+    "raw_quote_pass_rate": 1.0,
+    "quote_verified_rate": 1.0,
+    "counts": {
+      "verified": 15,
+      "not_found": 1,
+      "unverified": 0,
+      "needs_review": 0
+    },
+    "verifier_independent": null
+  },
+  "000004/40211/0000950123-11-048775_2.txt": {
+    "doc_id": "000004/40211/0000950123-11-048775_2.txt",
+    "fields": [
+      {
+        "field": "document_title",
+        "found": true,
+        "value": "FOUR YEAR CREDIT AGREEMENT",
+        "evidence": [
+          {
+            "quote": "FOUR YEAR CREDIT AGREEMENT",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "agreement_date",
+        "found": true,
+        "value": "May 9, 2011",
+        "evidence": [
+          {
+            "quote": "Dated as of May 9, 2011",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "borrowers",
+        "found": true,
+        "value": "GATX CORPORATION",
+        "evidence": [
+          {
+            "quote": "GATX CORPORATION, a New York corporation (the \"Borrower\")",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "lenders",
+        "found": true,
+        "value": "Bank of America, N.A., Citibank, N.A., PNC Bank, National Association, U.S. Bank National Association, Bayerische Landesbank, New York Branch, Morgan Stanley Bank, N.A., BMO Harris Financing, Inc., KeyBank National Association, Mizuho Corporate Bank, Ltd., The Northern Trust Company, and The Bank of New York Mellon",
+        "evidence": [
+          {
+            "quote": "Bank of America, N.A.\n\n  $ 110,000,000     $ 0     $ 0\n\nCitibank, N.A.\n\n  $ 110,000,000     $ 30,000,000     $ 0\n\nPNC Bank, National Association\n\n  $ 60,000,000     $ 0     $ 15,000,000\n\nU.S. Bank National Association\n\n  $ 50,000,000     $ 0     $ 0\n\nBayerische Landesbank, New York Branch\n\n  $ 45,000,000     $ 0     $ 0\n\nMorgan Stanley Bank, N.A.\n\n  $ 50,000,000     $ 0     $ 0\n\nBMO Harris Financing, Inc.\n\n  $ 30,000,000     $ 0     $ 0\n\nKeyBank National Association\n\n  $ 30,000,000     $ 0     $ 0\n\nMizuho Corporate Bank, Ltd.\n\n  $ 30,000,000     $ 0     $ 0\n\nThe Northern Trust Company\n\n  $ 30,000,000     $ 0     $ 0\n\nThe Bank of New York Mellon\n\n  $ 15,000,000     $ 0     $ 35,000,000",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "agents",
+        "found": true,
+        "value": "CITIBANK, N.A. as administrative agent",
+        "evidence": [
+          {
+            "quote": "CITIBANK, N.A. (\"Citibank\"), as administrative agent (the \"Agent\")",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "loan_or_commitment_amount",
+        "found": true,
+        "value": "$560,000,000",
+        "evidence": [
+          {
+            "quote": "Total:\n\n  $ 560,000,000",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "$560000000"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "interest_rate",
+        "found": true,
+        "value": "Base Rate plus Applicable Margin or Eurodollar Rate plus Applicable Margin, with Base Rate based on Citibank's base rate, Federal Funds Rate, or One Month LIBOR plus 1.00%",
+        "evidence": [
+          {
+            "quote": "Base Rate Advances. During such periods as such Revolving Credit Advance is a Base Rate Advance, a rate per annum equal at all times to the sum of (x) the Base Rate in effect from time to time plus (y) the Applicable Margin in effect from time to time",
+            "page": 1
+          },
+          {
+            "quote": "Eurodollar Rate Advances. During such periods as such Revolving Credit Advance is a Eurodollar Rate Advance, a rate per annum equal at all times during each Interest Period for such Advance to the sum of (x) the Eurodollar Rate for such Interest Period for such Advance plus (y) the Applicable Margin in effect from time to time",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "1.00%"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "repayment_terms",
+        "found": true,
+        "value": "Principal of revolving credit advances payable in full on the final Termination Date",
+        "evidence": [
+          {
+            "quote": "The Borrower shall repay to the Agent for the ratable account of each Lender on the Termination Date applicable to such Lender the aggregate principal amount of the Revolving Credit Advances made by such Lender and then outstanding.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "maturity_termination_date",
+        "found": true,
+        "value": "May 9, 2015",
+        "evidence": [
+          {
+            "quote": "Termination Date\" means the earlier of (a) May 9, 2015, subject to the extension thereof pursuant to Section 2.19 and (b) the date of termination in whole of the Commitments pursuant to Section 2.05 or 6.01",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "may 9, 2015"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "fees",
+        "found": true,
+        "value": "Facility fee based on Applicable Percentage of unused commitment, letter of credit commissions equal to Applicable Margin for Eurodollar Rate Advances, and fronting/issuance fees",
+        "evidence": [
+          {
+            "quote": "The Borrower shall pay to the Agent for the account of each Lender a commission on such Lender's Ratable Share of the average daily aggregate Available Amount of all Letters of Credit outstanding from time to time at a rate per annum equal to the Applicable Margin for Eurodollar Rate Advances",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected",
+          "dropped_quotes:1/2"
+        ]
+      },
+      {
+        "field": "late_payment_or_default_interest",
+        "found": true,
+        "value": "Default interest rate equal to 2% per annum above the rate otherwise required",
+        "evidence": [
+          {
+            "quote": "at a rate per annum equal at all times to 2% per annum above the rate per annum required to be paid on such Advance pursuant to clause (a) above",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "2%"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "prepayment_terms",
+        "found": false,
+        "value": "",
+        "evidence": [],
+        "status": "unverified",
+        "final_check": "FAIL",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "dropped_quotes:1/1",
+          "all_quotes_failed_verification"
+        ]
+      },
+      {
+        "field": "collateral_security",
+        "found": true,
+        "value": "Cash collateralization required for letters of credit and swing line advances under certain default or defaulting lender circumstances",
+        "evidence": [
+          {
+            "quote": "Cash Collateralize\" means, in respect of an obligation, provide and pledge (as a first priority perfected security interest) cash collateral in U.S. dollars",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      {
+        "field": "guarantees",
+        "found": false,
+        "value": "Not found in this document",
+        "evidence": [],
+        "status": "not_found",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      {
+        "field": "events_of_default",
+        "found": false,
+        "value": "",
+        "evidence": [],
+        "status": "unverified",
+        "final_check": "FAIL",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "dropped_quotes:1/1",
+          "all_quotes_failed_verification"
+        ]
+      },
+      {
+        "field": "governing_law",
+        "found": true,
+        "value": "New York",
+        "evidence": [
+          {
+            "quote": "This Agreement and the Notes shall be governed by, and construed in accordance with, the laws of the State of New York.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      }
+    ],
+    "by_field": {
+      "document_title": {
+        "field": "document_title",
+        "found": true,
+        "value": "FOUR YEAR CREDIT AGREEMENT",
+        "evidence": [
+          {
+            "quote": "FOUR YEAR CREDIT AGREEMENT",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "agreement_date": {
+        "field": "agreement_date",
+        "found": true,
+        "value": "May 9, 2011",
+        "evidence": [
+          {
+            "quote": "Dated as of May 9, 2011",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "borrowers": {
+        "field": "borrowers",
+        "found": true,
+        "value": "GATX CORPORATION",
+        "evidence": [
+          {
+            "quote": "GATX CORPORATION, a New York corporation (the \"Borrower\")",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "lenders": {
+        "field": "lenders",
+        "found": true,
+        "value": "Bank of America, N.A., Citibank, N.A., PNC Bank, National Association, U.S. Bank National Association, Bayerische Landesbank, New York Branch, Morgan Stanley Bank, N.A., BMO Harris Financing, Inc., KeyBank National Association, Mizuho Corporate Bank, Ltd., The Northern Trust Company, and The Bank of New York Mellon",
+        "evidence": [
+          {
+            "quote": "Bank of America, N.A.\n\n  $ 110,000,000     $ 0     $ 0\n\nCitibank, N.A.\n\n  $ 110,000,000     $ 30,000,000     $ 0\n\nPNC Bank, National Association\n\n  $ 60,000,000     $ 0     $ 15,000,000\n\nU.S. Bank National Association\n\n  $ 50,000,000     $ 0     $ 0\n\nBayerische Landesbank, New York Branch\n\n  $ 45,000,000     $ 0     $ 0\n\nMorgan Stanley Bank, N.A.\n\n  $ 50,000,000     $ 0     $ 0\n\nBMO Harris Financing, Inc.\n\n  $ 30,000,000     $ 0     $ 0\n\nKeyBank National Association\n\n  $ 30,000,000     $ 0     $ 0\n\nMizuho Corporate Bank, Ltd.\n\n  $ 30,000,000     $ 0     $ 0\n\nThe Northern Trust Company\n\n  $ 30,000,000     $ 0     $ 0\n\nThe Bank of New York Mellon\n\n  $ 15,000,000     $ 0     $ 35,000,000",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "agents": {
+        "field": "agents",
+        "found": true,
+        "value": "CITIBANK, N.A. as administrative agent",
+        "evidence": [
+          {
+            "quote": "CITIBANK, N.A. (\"Citibank\"), as administrative agent (the \"Agent\")",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "loan_or_commitment_amount": {
+        "field": "loan_or_commitment_amount",
+        "found": true,
+        "value": "$560,000,000",
+        "evidence": [
+          {
+            "quote": "Total:\n\n  $ 560,000,000",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "$560000000"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "interest_rate": {
+        "field": "interest_rate",
+        "found": true,
+        "value": "Base Rate plus Applicable Margin or Eurodollar Rate plus Applicable Margin, with Base Rate based on Citibank's base rate, Federal Funds Rate, or One Month LIBOR plus 1.00%",
+        "evidence": [
+          {
+            "quote": "Base Rate Advances. During such periods as such Revolving Credit Advance is a Base Rate Advance, a rate per annum equal at all times to the sum of (x) the Base Rate in effect from time to time plus (y) the Applicable Margin in effect from time to time",
+            "page": 1
+          },
+          {
+            "quote": "Eurodollar Rate Advances. During such periods as such Revolving Credit Advance is a Eurodollar Rate Advance, a rate per annum equal at all times during each Interest Period for such Advance to the sum of (x) the Eurodollar Rate for such Interest Period for such Advance plus (y) the Applicable Margin in effect from time to time",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "1.00%"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "repayment_terms": {
+        "field": "repayment_terms",
+        "found": true,
+        "value": "Principal of revolving credit advances payable in full on the final Termination Date",
+        "evidence": [
+          {
+            "quote": "The Borrower shall repay to the Agent for the ratable account of each Lender on the Termination Date applicable to such Lender the aggregate principal amount of the Revolving Credit Advances made by such Lender and then outstanding.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "maturity_termination_date": {
+        "field": "maturity_termination_date",
+        "found": true,
+        "value": "May 9, 2015",
+        "evidence": [
+          {
+            "quote": "Termination Date\" means the earlier of (a) May 9, 2015, subject to the extension thereof pursuant to Section 2.19 and (b) the date of termination in whole of the Commitments pursuant to Section 2.05 or 6.01",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "may 9, 2015"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "fees": {
+        "field": "fees",
+        "found": true,
+        "value": "Facility fee based on Applicable Percentage of unused commitment, letter of credit commissions equal to Applicable Margin for Eurodollar Rate Advances, and fronting/issuance fees",
+        "evidence": [
+          {
+            "quote": "The Borrower shall pay to the Agent for the account of each Lender a commission on such Lender's Ratable Share of the average daily aggregate Available Amount of all Letters of Credit outstanding from time to time at a rate per annum equal to the Applicable Margin for Eurodollar Rate Advances",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": []
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected",
+          "dropped_quotes:1/2"
+        ]
+      },
+      "late_payment_or_default_interest": {
+        "field": "late_payment_or_default_interest",
+        "found": true,
+        "value": "Default interest rate equal to 2% per annum above the rate otherwise required",
+        "evidence": [
+          {
+            "quote": "at a rate per annum equal at all times to 2% per annum above the rate per annum required to be paid on such Advance pursuant to clause (a) above",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": {
+          "all_found": true,
+          "missing": [],
+          "extracted": [
+            "2%"
+          ]
+        },
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "prepayment_terms": {
+        "field": "prepayment_terms",
+        "found": false,
+        "value": "",
+        "evidence": [],
+        "status": "unverified",
+        "final_check": "FAIL",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "dropped_quotes:1/1",
+          "all_quotes_failed_verification"
+        ]
+      },
+      "collateral_security": {
+        "field": "collateral_security",
+        "found": true,
+        "value": "Cash collateralization required for letters of credit and swing line advances under certain default or defaulting lender circumstances",
+        "evidence": [
+          {
+            "quote": "Cash Collateralize\" means, in respect of an obligation, provide and pledge (as a first priority perfected security interest) cash collateral in U.S. dollars",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      },
+      "guarantees": {
+        "field": "guarantees",
+        "found": false,
+        "value": "Not found in this document",
+        "evidence": [],
+        "status": "not_found",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": []
+      },
+      "events_of_default": {
+        "field": "events_of_default",
+        "found": false,
+        "value": "",
+        "evidence": [],
+        "status": "unverified",
+        "final_check": "FAIL",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "dropped_quotes:1/1",
+          "all_quotes_failed_verification"
+        ]
+      },
+      "governing_law": {
+        "field": "governing_law",
+        "found": true,
+        "value": "New York",
+        "evidence": [
+          {
+            "quote": "This Agreement and the Notes shall be governed by, and construed in accordance with, the laws of the State of New York.",
+            "page": 1
+          }
+        ],
+        "status": "verified",
+        "final_check": "PASS",
+        "number_check": null,
+        "verifier_verdict": null,
+        "verifier_independent": null,
+        "model_used": "gemini-3.5-flash-lite",
+        "flags": [
+          "page_corrected"
+        ]
+      }
+    },
+    "model_used": "gemini-3.5-flash-lite",
+    "retrieval_used": false,
+    "calls_made": 2,
+    "extraction_calls": 2,
+    "verifier_calls": 0,
+    "doc_chars": 255971,
+    "num_pages": 1,
+    "raw_quotes_total": 17,
+    "verified_quotes_total": 14,
+    "dropped_quotes_total": 3,
+    "raw_quote_pass_rate": 0.8235294117647058,
+    "quote_verified_rate": 1.0,
+    "counts": {
+      "verified": 13,
+      "not_found": 1,
+      "unverified": 2,
+      "needs_review": 0
+    },
+    "verifier_independent": null
+  }
+}

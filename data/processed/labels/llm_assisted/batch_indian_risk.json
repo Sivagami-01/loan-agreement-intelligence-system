@@ -1,0 +1,308 @@
+[
+  {
+    "doc_id": "03_dbs_mitc",
+    "clause_id": "IM01",
+    "clause_text": "Floating Rate of Interest – This is linked to the RBI Policy Repo Rate which is subject to change from time to time. Any change in the RBI Policy Repo Rate will result in a change in the Rate of Interest applicable to the Loan. Such changes will be notified to the Borrower and will apply from the date of change. The standard reset date for the Floating Rate of Interest (unless otherwise informed by the DBS Bank to the Borrower) is the 7th day of each quarter (i.e. 7th January 7th April 7th July, 7th October) or 7th day of the subsequent month in which the RBI Policy Repo Rate is changed.",
+    "risk_category": "Financial terms",
+    "severity": "Medium",
+    "rationale": "[Page 1, Section III] Exposes the borrower to quarterly or post-change interest resets tied to movements in the RBI Policy Repo Rate [confidence: low - actual spread and numeric ROI sit in the unattached Loan Agreement]."
+  },
+  {
+    "doc_id": "03_dbs_mitc",
+    "clause_id": "IM02",
+    "clause_text": "List of Fees and charges is available in the Schedule of Charges and also made available at <<<Link of website to be added>>>>. Changes will be updated from time to time. The borrower has to indemnify DBS Bank against all claims and losses resulting from Borrower’s actions or defaults under the Loan Agreement.",
+    "risk_category": "Penalties and charges",
+    "severity": "Medium",
+    "rationale": "[Page 1, Section IV] Requires borrower indemnity for all losses/claims from defaults while leaving exact fee figures to a missing Schedule of Charges and placeholder URL [confidence: low - Schedule of Charges and website link are missing/unfilled]."
+  },
+  {
+    "doc_id": "03_dbs_mitc",
+    "clause_id": "IM03",
+    "clause_text": "In case any dues remain unpaid on the respective Due Dates or in case of breach of applicable LTV ratio/ margin (“Material Breach”) or any other charges and amount as per terms of the Loan Agreement, the Borrower agrees to pay to the DBS Bank Penal Charges, which will be computed from the date of Material Breach till cure of the Material Breach. Such Penal Charges shall be over and above the applicable charges, interest mentioned in the Loan Agreement.",
+    "risk_category": "Penalties and charges",
+    "severity": "High",
+    "rationale": "[Page 1, Section V] Imposes extra Penal Charges not only on late dues but whenever gold-price drops cause an LTV margin breach [confidence: low - numeric penal charge rate is not stated in this MITC]."
+  },
+  {
+    "doc_id": "03_dbs_mitc",
+    "clause_id": "IM04",
+    "clause_text": "The Borrower must have saving account in DBS Bank and loan sanctioned will be credited to the DBS bank saving account.",
+    "risk_category": "Covenants",
+    "severity": "Low",
+    "rationale": "[Page 1, Section VI] Routine operational condition requiring an active DBS Bank savings account for loan disbursement."
+  },
+  {
+    "doc_id": "03_dbs_mitc",
+    "clause_id": "IM05",
+    "clause_text": "Repayment must be made via standing instructions, ECS/NACH mandate, or post-dated checks as acceptable to DBS Bank. Failure to maintain sufficient funds, cancel payments, or alter payment instructions without prior written consent from DBS Bank constitutes a default, triggering consequences outlined in the Loan Agreement and potentially criminal remedies.",
+    "risk_category": "Repayment",
+    "severity": "High",
+    "rationale": "[Page 1, Section VII] Warns that insufficient funds, mandate cancellation, or altering repayment instructions triggers default and potential criminal proceedings (e.g., check/mandate dishonor)."
+  },
+  {
+    "doc_id": "03_dbs_mitc",
+    "clause_id": "IM06",
+    "clause_text": "The Borrower may, with the prior approval of DBS Bank, prepay the Borrower's Dues, in full or in part, subject to such terms as may be stipulated by DBS Bank (including payment of pre-payment charges). However, no prepayment/foreclosure charges will be charged on loans where the interest rate is floating/ fixed, and foreclosure is made after the fixed period (during which the fixed interest rate applies), where after the floating/Fixed interest rate becomes applicable.",
+    "risk_category": "Repayment",
+    "severity": "Medium",
+    "rationale": "[Page 2, Section VIII] Conditions prepayment on prior DBS Bank approval and potential prepayment charges unless made on floating terms or after a fixed-rate period."
+  },
+  {
+    "doc_id": "03_dbs_mitc",
+    "clause_id": "IM07",
+    "clause_text": "The Facility Amount, together with interest, charges, costs, Penal Charges, additional interest, further interest, expenses and other obligations of the Borrower under the Loan Agreement and other financing documents will be secured by the Gold/ Gold jewels/ Gold Ornaments deposited with the DBS Bank.",
+    "risk_category": "Collateral",
+    "severity": "Medium",
+    "rationale": "[Page 2, Section IX] Physical pledge of gold jewels/ornaments held in DBS Bank custody covering principal, interest, penal charges, and expenses."
+  },
+  {
+    "doc_id": "03_dbs_mitc",
+    "clause_id": "IM08",
+    "clause_text": "g) Market Price Decline of Gold Jewels: Reduction in the value of the gold jewels due to market price changes.",
+    "risk_category": "Default conditions",
+    "severity": "High",
+    "rationale": "[Page 2, Section X.1(g)] Treats a fall in gold market prices alone as an Event of Default even if the borrower has never missed a payment."
+  },
+  {
+    "doc_id": "03_dbs_mitc",
+    "clause_id": "IM09",
+    "clause_text": "The Borrower shall promptly notify DBS Bank in writing upon becoming aware of any Event of default and the steps, if any, being taken to remedy it. The decision of DBS Bank as to whether or not an Event of Default has occurred shall be final and binding upon the Borrower.",
+    "risk_category": "Default conditions",
+    "severity": "High",
+    "rationale": "[Page 2, Section X.2] Gives DBS Bank unilateral, final, and binding discretion to declare whether an Event of Default has occurred."
+  },
+  {
+    "doc_id": "03_dbs_mitc",
+    "clause_id": "IM10",
+    "clause_text": "If the Borrower(s) defaults on any other credit/ facility agreement or arrangement with DBS Bank and/or its successors-in-interest or with any of the affiliates or DBS Group companies (collectively “DBS Group”), the same shall be deemed to be an Event of Default in terms of the Loan Agreement and the consequences thereof as set out in the Loan Agreement and other financing documents will follow.",
+    "risk_category": "Termination",
+    "severity": "Critical",
+    "rationale": "[Page 2, Section XI] Broad cross-default and cross-collateralization linking this gold loan to any other facility across all DBS Group affiliates."
+  },
+  {
+    "doc_id": "03_dbs_mitc",
+    "clause_id": "IM11",
+    "clause_text": "The Borrower must notify the DBS Bank regarding any change in residential address, or any other information supplied to the DBS Bank in relation to the Loan. The DBS Bank must be immediately intimated of such changes.",
+    "risk_category": "Covenants",
+    "severity": "Low",
+    "rationale": "[Page 2, Section XIII] Standard KYC obligation to notify the bank when residential address or submitted details change."
+  },
+  {
+    "doc_id": "03_dbs_mitc",
+    "clause_id": "IM12",
+    "clause_text": "The Borrower must carefully read and understand the full Loan Agreement before signing, as it is legally binding and takes precedence over this MITC.",
+    "risk_category": "Termination",
+    "severity": "Low",
+    "rationale": "[Page 2, Section XVII] Standard disclaimer stating the full Loan Agreement legally overrides this abridged MITC."
+  },
+
+  {
+    "doc_id": "09_muthoothomefin_MHIL-MITC",
+    "clause_id": "IM01",
+    "clause_text": "Under Semi Fixed, the interest rate is fixed for the first 36 months of the loan tenure. The rate type for the subsequent period will be determined based on confirmation received from the borrower. If no written confirmation is received from the borrower, then the loan will remain on Semi-Fixed rate for the subsequent 36-month period, at the prevailing ROI at the time of reset.",
+    "risk_category": "Financial terms",
+    "severity": "Medium",
+    "rationale": "[Page 1, Section 1(f)] Automatically rolls over to another 36-month rate lock at the prevailing reset ROI unless borrower sends written confirmation otherwise."
+  },
+  {
+    "doc_id": "09_muthoothomefin_MHIL-MITC",
+    "clause_id": "IM02",
+    "clause_text": "Interest shall be calculated on the principal outstanding as per the loan account / repayment schedule on a daily reducing balance basis at monthly rests. Unpaid charges / penal charges shall not be capitalized or added to principal for charging further interest, except to the extent.",
+    "risk_category": "Financial terms",
+    "severity": "Low",
+    "rationale": "[Page 1, Section 1(j)] Borrower-protective daily reducing balance calculation and ban on capitalizing unpaid penal charges into principal."
+  },
+  {
+    "doc_id": "09_muthoothomefin_MHIL-MITC",
+    "clause_id": "IM03",
+    "clause_text": "The loan amount should be used by the borrower exclusively for the purpose mentioned above. Use of funds for purposes other than above would be treated as a case of diversion of funds and would attract penalty and the penal action including reporting to The National Housing Bank / Credit Bureau / RBI.",
+    "risk_category": "Covenants",
+    "severity": "High",
+    "rationale": "[Page 2, Section 2] Treats off-purpose spending as fund diversion triggering penalties and regulatory reporting to NHB, RBI, and credit bureaus."
+  },
+  {
+    "doc_id": "09_muthoothomefin_MHIL-MITC",
+    "clause_id": "IM04",
+    "clause_text": "Administrative Fees towards Housing & Non-Housing Loans. Administrative Fees upto 3.5% of Loan amount. At the time of Loan Application Rs.5000 +GST Balance fees at the time of IPD booking from borrower or to be deducted from Disbursement.",
+    "risk_category": "Financial terms",
+    "severity": "Medium",
+    "rationale": "[Page 2, Section 3 Table 1(1)] Non-refundable upfront administrative fee up to 3.5% of the loan amount plus GST (Rs. 5,000 + GST at application)."
+  },
+  {
+    "doc_id": "09_muthoothomefin_MHIL-MITC",
+    "clause_id": "IM05",
+    "clause_text": "Penal charges shall be levied at the rate of 24.00% p.a. on the overdue / defaulted amount, calculated for the period of delay from the due date until the date of actual payment.",
+    "risk_category": "Penalties and charges",
+    "severity": "High",
+    "rationale": "[Page 2, Section 3 Table 1(3)] Heavy 24.00% per annum delay penal charge applied directly to overdue or defaulted amounts."
+  },
+  {
+    "doc_id": "09_muthoothomefin_MHIL-MITC",
+    "clause_id": "IM06",
+    "clause_text": "In case of delay in releasing of original movable / immovable property documents or failing to file charge satisfaction form with relevant registry beyond 30 days after full repayment/ settlement of loan, the RE shall communicate to the borrower reasons for such delay. In case where the delay is attributable to the RE, it shall compensate the borrower at the rate of ₹5,000/- for each day of delay.",
+    "risk_category": "Collateral",
+    "severity": "Low",
+    "rationale": "[Page 4, Section 3 Table 1(21)] Consumer protection per RBI rules: lender pays borrower Rs. 5,000/day if it delays returning original property deeds beyond 30 days after full payoff."
+  },
+  {
+    "doc_id": "09_muthoothomefin_MHIL-MITC",
+    "clause_id": "IM07",
+    "clause_text": "Execution of CMM/DM order Order Execution Charges To take possession of property Per order execution Rs.50,000/- Or Actual whichever is higher",
+    "risk_category": "Penalties and charges",
+    "severity": "High",
+    "rationale": "[Page 4, Section 3 Table 1(16)] Charges borrower at least Rs. 50,000 (or higher actual expenses) per possession-order execution alongside Section 138 / SARFAESI legal fees."
+  },
+  {
+    "doc_id": "09_muthoothomefin_MHIL-MITC",
+    "clause_id": "IM08",
+    "clause_text": "In case of loan cancellation, at any stage before the loan is disbursed, the borrower will have to bear the expenses incurred towards Personal Discussion, Field Investigation report, extracting of Bureau reports, Risk Containment Unit reports, Technical reports, Legal reports, execution of documentation cost, conveyance cost, etc.",
+    "risk_category": "Termination",
+    "severity": "Medium",
+    "rationale": "[Page 4, Section 3 Table 1(22)] Passes all processing, legal, technical, and field verification costs onto the borrower if the loan is cancelled before disbursement."
+  },
+  {
+    "doc_id": "09_muthoothomefin_MHIL-MITC",
+    "clause_id": "IM09",
+    "clause_text": "The loan will be secured by way of mortgage of the property mentioned below in favor of MHIL",
+    "risk_category": "Collateral",
+    "severity": "Medium",
+    "rationale": "[Page 5, Section 4] Grants a real estate mortgage over the financed property in favor of MHIL [confidence: low - property schedule and guarantor fields are blank in this form]."
+  },
+  {
+    "doc_id": "09_muthoothomefin_MHIL-MITC",
+    "clause_id": "IM10",
+    "clause_text": "On event of expiry of moratorium, if the loan remains undisbursed (partly/fully), MHIL will have right to downsize the loan.",
+    "risk_category": "Termination",
+    "severity": "Medium",
+    "rationale": "[Page 5, Section 6(i)] Allows the lender to cut/cancel undisbursed sanctioned loan limits once the moratorium period expires."
+  },
+  {
+    "doc_id": "09_muthoothomefin_MHIL-MITC",
+    "clause_id": "IM11",
+    "clause_text": "EMI is appropriated first towards recovery of interest due and the remaining amount is used for recovery of principal amount. The recovery of principal amount may get impacted due to increase in the amount of interest due to change in ROI on higher side.",
+    "risk_category": "Repayment",
+    "severity": "Medium",
+    "rationale": "[Page 6, Section 7] Applies EMI to interest first, meaning rising interest rates slow principal paydown and may extend tenure or raise EMIs."
+  },
+  {
+    "doc_id": "09_muthoothomefin_MHIL-MITC",
+    "clause_id": "IM12",
+    "clause_text": "MHI L shall not be obliged to serve notice, reminder or intimation to the borrower(s) regarding his/her/their obligation to pay the EMI or PEMI regularly on due date.",
+    "risk_category": "Repayment",
+    "severity": "Low",
+    "rationale": "[Page 6, Section 8] Confirms payment due dates apply automatically without a reminder requirement from MHIL."
+  },
+  {
+    "doc_id": "09_muthoothomefin_MHIL-MITC",
+    "clause_id": "IM13",
+    "clause_text": "Borrowers agree to give unconditional permission to the authorized representatives of MHIL to visit the property funded through this loan and/or the borrower’s residence in the event of default for collection of dues and/or inspection of the property. The Costs of such calls /communication /visits shall be payable by the borrower(s).",
+    "risk_category": "Covenants",
+    "severity": "High",
+    "rationale": "[Page 6, Section 8(b)] Grants unconditional permission for collection and inspection visits to borrower's residence on default at borrower's cost."
+  },
+  {
+    "doc_id": "09_muthoothomefin_MHIL-MITC",
+    "clause_text": "In event of continued default and declaration of the loan amount as delinquent or Non-Performing Asset (NPA), MHIL shall reserve the right to send Loan Recall Notice, initiate action under section 138 of the Negotiable Instruments Act, SARFAESI act or any other provision of the law for recovery of dues from the borrower(s)/Guarantor(s).",
+    "clause_id": "IM14",
+    "risk_category": "Default conditions",
+    "severity": "Critical",
+    "rationale": "[Page 6, Section 8(d)] Enables full loan recall, criminal Section 138 check-bounce prosecution, and SARFAESI property seizure/sale if overdue >90 days becomes NPA."
+  },
+
+  {
+    "doc_id": "11_gichfindia_MOST-IMPORTANT-TERMS-1",
+    "clause_id": "IM01",
+    "clause_text": "1.7. Reset Date of Interest Rate : First reset will be after ____ Months from first date of disbursement there after every quarter. (However, during the pendency of loan, the EMI/Tenure may get changed depending on increase/decrease in interest rate in case of Loan under floating rate of interest).",
+    "risk_category": "Financial terms",
+    "severity": "Medium",
+    "rationale": "[Page 1, Section 1.7] Quarterly floating-rate resets can increase the EMI or extend the loan tenure [confidence: low - reset start months and ROI blank are unfilled]."
+  },
+  {
+    "doc_id": "11_gichfindia_MOST-IMPORTANT-TERMS-1",
+    "clause_id": "IM02",
+    "clause_text": "2.5.1.1. For all loans sanctioned only to individual borrowers, No prepayment charges shall be payable on account of Part or Full prepayments.",
+    "risk_category": "Repayment",
+    "severity": "Low",
+    "rationale": "[Page 1, Section 2.5.1.1] Protects individual floating-rate housing loan borrowers with zero part or full prepayment penalties."
+  },
+  {
+    "doc_id": "11_gichfindia_MOST-IMPORTANT-TERMS-1",
+    "clause_id": "IM03",
+    "clause_text": "The Prepayment charges shall be payable at the applicable rate, taxes, statutory levies and charges, as may be applicable from time to time, of the outstanding amounts being so prepaid through refinance from any Bank/HFC/NBFC or Financial Institution (such amounts shall include all amounts prepaid during the given financial year) and shall be applicable to all Partial or Full Prepayments.",
+    "risk_category": "Repayment",
+    "severity": "High",
+    "rationale": "[Page 1, Section 2.5.2.1 & 2.5.3.1] Imposes prepayment charges (2% + taxes for combination fixed-period refinance) when balance-transferring fixed-rate housing loans."
+  },
+  {
+    "doc_id": "11_gichfindia_MOST-IMPORTANT-TERMS-1",
+    "clause_id": "IM04",
+    "clause_text": "The Prepayment charges as mentioned above are as on date of execution of this loan agreement, however they are subject to change as per prevailing policies of GICHF and accordingly may vary from time to time. Customers are requested to refer to www.gichfindia.com for the latest charges applicable on Prepayments.",
+    "risk_category": "Penalties and charges",
+    "severity": "Medium",
+    "rationale": "[Page 2, Section 2.5] Allows GICHF to change prepayment charges over time per company policy instead of locking them at signing."
+  },
+  {
+    "doc_id": "11_gichfindia_MOST-IMPORTANT-TERMS-1",
+    "clause_id": "IM05",
+    "clause_text": "2.12.2. For 3 - 12 months - Rs. ____/- (4 % of Total Due including Penal Interest). 2.12.3. For 13 – 24 months - Rs. ____/- (6 % of Total Due including Penal Interest). 2.12.4. For 25 months & above - Rs. ____/- (7 % of Total Due including Penal Interest).",
+    "risk_category": "Penalties and charges",
+    "severity": "High",
+    "rationale": "[Page 2, Section 2.12] Escalating 4%, 6%, and 7% recovery fees computed on total overdue amounts including penal interest [confidence: low - flat Rs. amounts and 2.7 delay interest % are blank]."
+  },
+  {
+    "doc_id": "11_gichfindia_MOST-IMPORTANT-TERMS-1",
+    "clause_id": "IM06",
+    "clause_text": "5.1. Submission of all relevant documents as required by GICHFL and mentioned in the Loan Offer Letter /Loan Agreement for creation of “Equitable Mortgage” on the Property.",
+    "risk_category": "Collateral",
+    "severity": "Medium",
+    "rationale": "[Page 3, Section 5.1] Secures the housing loan by Equitable Mortgage over the borrower's financed property."
+  },
+  {
+    "doc_id": "11_gichfindia_MOST-IMPORTANT-TERMS-1",
+    "clause_id": "IM07",
+    "clause_text": "If such change is to the disadvantage of the customer, he/she may within 60 days and without notice close his / her account or switch it without having to pay any extra charges or interest.",
+    "risk_category": "Termination",
+    "severity": "Low",
+    "rationale": "[Page 3, Section 6] Borrower-protective rule allowing fee-free closure or switch within 60 days if GICHF changes terms disadvantageously."
+  },
+  {
+    "doc_id": "11_gichfindia_MOST-IMPORTANT-TERMS-1",
+    "clause_id": "IM08",
+    "clause_text": "EMI will be due on 1st day of the every month and 30 days grace period will be given for payment.",
+    "risk_category": "Repayment",
+    "severity": "Low",
+    "rationale": "[Page 3, Section 6] Routine monthly EMI schedule due on the 1st of each month with an unusually generous 30-day grace period."
+  },
+  {
+    "doc_id": "11_gichfindia_MOST-IMPORTANT-TERMS-1",
+    "clause_id": "IM09",
+    "clause_text": "If there is no payment from Borrowers and/or Guarantor, after expiry of 60 (sixty) days from the date of issuing of notice u/s 13(2) or publication of the said notice, whichever is later, Branch Office through its Authorised Officer can take action under Sec.13(4) at any time and enforce the security. After sending of the aforesaid 30 (thirty) days’ Notice to the borrower, Branch Office in consultation with its Authorised Officer, shall publish Auction Sale Notice containing schedule of Auction Sale.",
+    "risk_category": "Default conditions",
+    "severity": "Critical",
+    "rationale": "[Page 4, Section 7] Statutory SARFAESI enforcement allowing non-judicial property possession after 60-day Section 13(2) demand notice and auction after 30-day sale notice."
+  },
+  {
+    "doc_id": "11_gichfindia_MOST-IMPORTANT-TERMS-1",
+    "clause_id": "IM10",
+    "clause_text": "8.2.2. Original Documents will be returned within 20 working days from the Date of Closure of Loan after fixing a prior appointed time with the location head for collection of documents on any working day between Monday and Friday between 10am and 6 p.m.",
+    "risk_category": "Collateral",
+    "severity": "Low",
+    "rationale": "[Page 4, Section 8.2.2] Commits GICHF to return original property title documents within 20 working days of loan closure."
+  },
+  {
+    "doc_id": "11_gichfindia_MOST-IMPORTANT-TERMS-1",
+    "clause_id": "IM11",
+    "clause_text": "GICHFL may disclose any information / documents relating to the borrower to any third party for credit verification, regulatory or promotional purpose.",
+    "risk_category": "Covenants",
+    "severity": "Medium",
+    "rationale": "[Page 4, Section 8] Broad borrower consent allowing GICHFL to share borrower documents/information with third parties even for promotional purposes."
+  },
+  {
+    "doc_id": "11_gichfindia_MOST-IMPORTANT-TERMS-1",
+    "clause_id": "IM12",
+    "clause_text": "The terms and Conditions are further described in our Loan Agreement under relevant sections/schedules and therefore should be read in conjunction with those mentioned in the loan agreement.",
+    "risk_category": "Covenants",
+    "severity": "Low",
+    "rationale": "[Page 5, Section 9] Standard notice that full operative terms sit in the separate Loan Agreement [confidence: low - Loan Agreement and numeric fee amounts are omitted]."
+  }
+]

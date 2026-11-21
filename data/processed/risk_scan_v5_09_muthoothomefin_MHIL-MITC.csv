@@ -1,0 +1,650 @@
+﻿doc_id,clause_id,continuation_of,page,clause_text,prefilter_passed,matched_keywords,category,severity,clause_type,features,severity_rule,severity_explanation,rationale,number_flag,flagged_numbers,model_used,parse_error,prompt_version
+09_muthoothomefin_MHIL-MITC,C0001,,1,"THE MOST IMPORTANT TERMS AND CONDITIONS (MITC) 
+ 
+ 
+The Most Important Terms and Conditions (MITC) of the loan between the Borrower/s Mr. / Mrs. and Muthoot Homefin (India) Ltd., 
+hereinafter called “MHIL” are mentioned below. 
+ 
+1. 
+Loan Details 
+ 
+a. 
+Application Form No. 
+ 
+b. 
+Purpose of Loan",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+09_muthoothomefin_MHIL-MITC,C0002,,1,"a. Purpose / End-use of Loan: Housing Loan / Non-Housing Loan / Top-up Loan / Home Equity / 
+LAP / Other:",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+09_muthoothomefin_MHIL-MITC,C0003,,1,"b. End-use: Purchase / Construction / Extension / Renovation / Balance Transfer / Refinance / 
+Personal Use / Business Purpose / Other:",True,restrictions_transfers,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,"Administrative definition specifying the allowable end-uses for the facility without establishing rates, fees, or default terms.",False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0004,,1,"c. Business-purpose classification, if applicable: Yes / No 
+If yes, specify the business purpose:  
+ 
+c. 
+Sanctioned Loan Amount Not Exceeding 
+Rs.__________________ (Figure)
+ 
+ 
+Rs.__________________________________________________________ (Words)",True,principal_amount,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,Specifies the classification parameters and sanctioned loan amount ceiling for the facility.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0005,,1,"d.  
+   Loan Tenure 
+ __________ Months including/excluding* Moratorium period. (*Strike off whichever is not applicable) 
+ 
+e. 
+ 
+Moratorium (if applicable) 
+ 
+Months. / Not Applicable 
+f. 
+Rate of Interest - Type 
+Type 
+Reset Condition",True,interest; rate_of_interest; margin_spread_reset,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,"Outlines the loan tenure, moratorium applicability, and interest rate type and reset conditions.",False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0006,,1,"Semi fixed 
+Under Semi Fixed, the interest rate is fixed for the first 36 months of the loan
+tenure. The rate type for the subsequent period will be determined based on
+confirmation received from the borrower. 
+If no written confirmation is received from the borrower, then the 
+loan will remain on Semi-Fixed rate for the subsequent 36-month 
+period, at the prevailing ROI at the time of reset. . 
+Floating 
+Change in the reference rate 
+Fixed 
+For entire tenure of the loan.",True,interest; rate_of_interest; margin_spread_reset,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,"Details the semi-fixed and floating interest rate structures, reset periods, and borrower confirmation requirements.",False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0007,,1,"g. 
+Reference rate or calculation of applicable rate of 
+interest 
+Rate of Interest would depend upon various factors like Loan Amount, Product, and Borrower Profile 
+etc. and may vary from Loan to Loan. 
+h 
+Present rate of interest 
+MHIL Retail Prime Lending Rate (RPLR)p.a.+(mark-up)/-(mark-
+down) %p.a. = %p.a.",True,interest; rate_of_interest; principal_amount,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,Describes the benchmark reference rate and pricing spread factors determining the applicable interest rate.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0008,,1,"This rate will change as per the provisions listed as above. 
+i 
+Modes of communication of changes in Interest rate 
+Through SMS / Letter / Registered post / MHIL website-
+www.muthoothomefin.com",True,interest,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Specifies the permissible communication channels through which interest rate changes will be notified to the borrower.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0009,,1,"j. 
+Interest will be calculated on 
+Interest shall be calculated on the principal outstanding as per the loan account / repayment 
+schedule on a daily reducing balance basis at monthly rests. Unpaid charges / penal charges 
+shall not be capitalized or added to principal for charging further interest, except to the extent. 
+k 
+Interest application Frequency 
+Monthly 
+l 
+Repayment 
+Equated Monthly Instalments (EMI) 
+ 
+m 
+Interest servicing during the Pre-EMI period",True,interest; principal_amount; repayment_terms; penalties_fees; charges_expenses; covenant_undertaking,Repayment,Low,other,"{""charges_apply"": true}",R_OTHER_LOW,Severity Low because: other; general or residual term,"Defines the daily reducing balance calculation methodology, monthly application rests, and restrictions on capitalizing unpaid charges.",False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0010,,1,"During the moratorium / Pre-EMI period, the borrower shall pay interest on the amount actually 
+disbursed. Such interest is referred to as Pre-EMI Interest (PEMI) and shall be payable monthly 
+from the date/month of first disbursement until commencement of EMI, as per the repayment 
+schedule. 
+n 
+Loan repayment moratorium period 
+Equated Monthly Instalment (EMI)$ of Rs. 
+per month till repayment of all the dues 
+including principal, interest, charges and penalties wherever applicable.",True,interest; principal_amount; repayment_terms; penalties_fees; charges_expenses,Repayment,Low,other,{},R_OTHER_LOW,Severity Low because: other; general or residual term,Outlines pre-EMI interest servicing obligations during the moratorium period and subsequent EMI structure.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0011,,1,"o 
+Subsidy 
+Subsidy, if any, received for the loan will be used as per the terms and Conditions applicable to 
+the subsidy. Borrowers should inform MHIL , if they received any subsidy received on the property 
+and should submit a duly signed declaration of the same 
+p 
+Insurance 
+Since insurance transfers the risk on account of losses arising out of the events covered by the 
+insurer, borrowers are advised to consider availing cover for life and property during the tenure 
+of the loan.",True,collateral_security; enforcement_asset,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Provides terms for subsidy utilization and advises borrowers to obtain life and property insurance cover.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0012,,1,"Life insurance will commence after completion of necessary formalities, which may 
+take up to 7 working days post disbursement , under normal circumstances 
+q 
+Guarantee, if any. 
+Name of Guarantor, Resi. Address & Age : 
+r. 
+APR (Annual percentage rate) 
+Refer - MHIL website the APR 2.",True,rate_of_interest; principal_amount; collateral_security; enforcement_asset,Collateral,Medium,security_or_guarantee,{},R_SEC_MED,Severity Medium because: security_or_guarantee; standard security interest or guarantee,"Establishes insurance commencement timelines, guarantor particulars, and annual percentage rate disclosure references.",False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0013,,2,"End use of the funds: The loan amount should be used by the borrower exclusively for the purpose mentioned above. Use of funds for purposes other than 
+above would be treated as a case of diversion of funds and would attract penalty and the penal action including reporting to The National Housing Bank / Credit 
+Bureau / RBI. Similar action will be taken in the case of use of property acquired through this loan for purpose other than the one mentioned above.",True,principal_amount; penalties_fees; collateral_security,Covenants,Medium,negative_covenant,"{""penal_rate_or_default_charge"": true}",R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,"Restricts fund utilization to specified end-uses and mandates penalties, penal actions, and regulatory reporting for fund diversion.",False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0014,,2,"3. 
+Fee and Charges: Fees and charges will be applied as per the undernoted schedule. The charges are non-refundable in nature. 
+Table 1: Schedule of fees and charges",True,charges_expenses,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Introduces the non-refundable schedule of fees and charges applicable to the loan facility.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0015,,2,"SR 
+No 
+Name of the product or 
+service 
+Name of Fee / Charge Levied 
+When payable 
+Frequency 
+Amount in Rupees 
+ 
+ 
+ 
+1 
+ 
+Administrative Fees towards 
+Housing & Non-Housing Loans. 
+ 
+ 
+Administrative Fees upto 
+3.5% of Loan amount.",True,principal_amount; charges_expenses,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Specifies administrative fee percentages for housing and non-housing loans.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0016,,2,"At the time of Loan 
+Application Rs.5000 
++GST Balance fees at the 
+time of IPD booking from 
+borrower or to be 
+deducted from 
+Disbursement. 
+ 
+ 
+ 
+Once",True,principal_amount; charges_expenses,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees","Outlines application timing, payment amounts, and collection mechanics for administrative fees.",False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0017,,2,"At the time of Loan Application 
+Rs.5000 +GST 
+Balance fees at the time of IPD 
+booking from borrower or to be 
+deducted from Disbursement. 
+ 
+2 
+Charges for Top up/ Home
+Equity / Non 
+Residential property loans 
+ 
+Administrative Fees 
+ 
+At the time of first 
+disbursement",True,principal_amount; charges_expenses; collateral_security,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees","Details fee structures and calculation methods for top-up, home equity, and non-residential property loans.",False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0018,,2,"Once 
+2.5% of the Loan Amount or Rs 
+6000 
+whichever is higher + 
+Applicable 
+Taxes 
+minus 
+administrative fees paid. 
+3 
+Delay payment charges 
+Penal charges 
+On Accrual 
+For the period of 
+default / delay. 
+Penal charges shall be levied at the 
+rate of 24.00% p.a. on the overdue 
+/ defaulted amount, calculated for 
+the period of delay from the due 
+date until the date of actual 
+payment. 
+4 
+Statutory Charges 
+CERSAI 
+ 
+Once 
+As per charges levied by CERSAI 
+ 
+ 
+ 
+ 
+ 
+ 
+Twice the amount of normal 
+applicable fee . 
+ 
+5",True,principal_amount; penalties_fees; charges_expenses; default_triggers,Penalties and charges,High,fee_or_cost,"{""charges_apply"": true, ""penal_rate_or_default_charge"": true}",R_FEE_HIGH,Severity High because: fee_or_cost; penal_rate_or_default_charge,Imposes penal charges of 24.00% p.a. on overdue amounts and outlines CERSAI statutory charges.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0019,,2,"Statutory Charges 
+Delay in CERSAI Charge 
+Creation- Charge creation in 
+CERSAI portal after 30 days 
+from the date of 
+disbursement due to non-
+compliance from the 
+Borrower 
+ 
+From 31 days to 40 days of 
+Post Disbursement 
+ 
+Once",True,principal_amount; charges_expenses,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Establishes statutory charges and compliance timelines for delayed CERSAI charge creation.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0020,,2,"e.g. If the applicable fee is Rs.100/-
+then the penal charge of Rs.100 will 
+be recovered in addition to the 
+normal applicable fee.",True,penalties_fees; charges_expenses; lender_powers_remedies,Penalties and charges,High,fee_or_cost,"{""charges_apply"": true, ""penal_rate_or_default_charge"": true}",R_FEE_HIGH,Severity High because: fee_or_cost; penal_rate_or_default_charge,Specifies that additional penal charges will be recovered alongside normal applicable statutory fees.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0021,,2,"Delay in CERSAI Charge
+Creation- Charge creation in 
+CERSAI portal after 30 days 
+from the date of 
+disbursement due to non-
+compliance from the Borrower",True,principal_amount; charges_expenses,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Defines borrower non-compliance triggers resulting in delayed CERSAI charge creation.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0022,,2,"Delay in CERSAI Charge 
+Creation- Charge creation in 
+CERSAI portal after 30 days 
+from the date of 
+disbursement due to non- 
+compliance from the 
+Borrower 
+ 
+From 41 days to 50 days of 
+Post Disbursement 
+ 
+ 
+ 
+ 
+ 
+From 51 days to 60 days 
+of Post Disbursement 
+ 
+ 
+Once 
+ 
+ 
+ 
+ 
+ 
+ 
+Once",True,principal_amount; charges_expenses,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Outlines graduated post-disbursement timelines and fee application schedules for delayed CERSAI filings.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0023,,2,"Five times of the amount of normal 
+applicable fee 
+e.g. If the applicable fee is Rs. 
+100/-then applicable fee will be 
+Rs. 500/-.",True,charges_expenses,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",This clause specifies multiplier fees applicable under certain conditions.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0024,,2,"Ten times of the amount of 
+applicable fee 
+E.g. If the applicable fee is Rs. 
+100/-then applicable fee will be 
+Rs. 1000/-.",True,charges_expenses,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",This clause details escalated fee multipliers.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0025,,2,"6. 
+  Statutory Charges 
+Stamp Duty / MOD / MOE 
+Only for digital 
+documentation cases -On 
+fixing of Disbursement 
+Once
+Only for digital documentation 
+cases.As applicable in respective states 7 
+SwitchtoLower Rate in
+Variable rate Loans 
+(Housing/Extension/I m 
+improvement)",True,principal_amount; charges_expenses,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",This clause outlines statutory charges such as stamp duty for digital documentation.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0026,,3,"Conversion Fees 
+ 
+On Conversion",True,charges_expenses,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",This clause introduces conversion fees applicable upon conversion.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0027,,3,"On every spread 
+change 
+0.50% of the principle outstanding 
+and undisbursed amount (if any) 
+at the time of conversion",True,margin_spread_reset,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",This clause sets conversion charges based on outstanding and undisbursed amounts.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0028,,3,"8 
+Switching to Variable Rate
+Loan from Fixed Rate Loan 
+and vice a versa (Housing / 
+Extension/ 
+Improvement) 
+ 
+Conversion 
+Fees 
+ 
+On Conversion 
+ 
+Once",True,rate_of_interest; charges_expenses,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",This clause outlines conversion fees for switching between variable and fixed rates.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0029,,3,"0.50% of the principle outstanding 
+and undisbursed amount (if any) 
+at the time of conversion 
+ 
+9 
+ 
+Cheque /ECS / 
+Dishonour Charge 
+ 
+Dishonour / Bounce Charges 
+ 
+On dishonour / failed 
+presentation of repayment 
+instrument 
+ 
+Per instance",True,repayment_terms; penalties_fees; charges_expenses,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",This clause establishes cheque and ECS bounce charges for failed payment instruments.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0030,,3,"Rs. 600/- 
+10 
+Technical Visit 
+Technical Visit charges 
+As Required 
+Every subsequent 
+Rs. 750/-+ Applicable Taxes per Visit 
+ 
+11 
+Documents 
+Retrieval charges / fee 
+ 
+Document retrieval charges 
+ 
+Event 
+ 
+On every request 
+ 
+Rs. 500 + Applicable Taxes",True,charges_expenses,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",This clause specifies technical visit and document retrieval charges.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0031,,3,"12 
+Part Prepayment / foreclosure 
+charges on Loan 
+Part Prepayment/ 
+foreclosure charges 
+1. 
+Foreclosure / Part 
+prepayment within 12 
+months of disbursement 
+Once 
+ 
+ 
+ 
+ 
+Continuation of 12th Point 13
+Demand Notice u/s 13(2)of
+SARFAESI Act, 2002 
+Demand Notice Charges
+On Loan A/c Beco me NPA
+Asand when
+account become 
+NPA 
+Rs.1000/-
+14
+PossessionNotice u/s13(4) of
+SARFAESI Act, 2002 
+Possession Notice Charges
+On failure to payment of
+dues of Dem and Notice 
+Asand when default
+it in repayment of 
+dues of Demand 
+Notice 
+Rs.1000/-
+15
+Case filing u/s 14 of SARFAESI
+Act, 2002 
+and obtaining",True,principal_amount; repayment_terms; charges_expenses; enforcement_asset; default_triggers,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees","This clause specifies part prepayment, foreclosure, and demand notice charges.",False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0032,,4,"Possession 
+order from CMM/DM M 
+Court Filing Charges
+To obtain possession order
+from CM 
+M/D M 
+Per Filing
+Rs.1000/- Or Actual whichever is
+higher 
+16
+Execution of CMM/DM
+order 
+Order Execution Charges",True,charges_expenses; enforcement_asset,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",This clause outlines court filing charges for obtaining possession orders.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0033,C0032,4,"To take possession of
+property 
+Per order execution
+Rs.50,000/- Or Actual whichever is
+higher 
+17
+Auction Notice Publication
+Publication Charges
+After receipt of CM
+M/D M Order 
+Per Publication
+Rs.5,000/-
+18
+Case filing u/s 17 of Arbitration
+Act, 1996 
+Court Filing charges
+On failure to payment of
+dues of 
+Dem and Notice 
+Per Filing
+Rs.5,000/-
+19 
+Legal action against Cheque
+dishonored 
+Case filingu/s 138 of NI
+Act, 1881 
+On Cheque dishonored
+Once 
+Rs.10,000/- 
+20
+Lok-adalat Proceeding
+Lok-Adalat
+As and when conducted
+Asand when
+conducted 
+Rs.1000/-
+21
+Delay in
+charge
+release of
+dockets",True,penalties_fees; charges_expenses; collateral_security; enforcement_asset; lender_powers_remedies,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees","This clause details order execution, publication, and legal action charges.",False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0034,C0032,4,"Misc. Receipts
+Event
+In case of delay in releasing of
+original movable / immovable 
+property documents or failing 
+to file charge satisfaction form 
+with relevant registry beyond 
+30 days after full repayment/ 
+settlement of loan, the RE shall 
+communicate to the borrower 
+reasons for such delay. In case 
+where the delay is attributable 
+to the RE, it shall compensate 
+the borrower at the rate of 
+₹5,000/- for each day of delay.",True,repayment_terms; charges_expenses; collateral_security,Penalties and charges,Low,borrower_protective,"{""borrower_protective"": true}",R_BORROWER_PROTECTIVE_TYPE,Severity Low because: borrower_protective; borrower_protective type,[borrower-protective] This clause provides compensation to the borrower for delays in releasing original documents.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0035,,4,"In case of loss/damage to original 
+movable / immovable property 
+documents, 
+either in part or in full, the REs 
+shall assist the borrower in 
+obtaining duplicate/certified 
+copies of the movable / 
+immovable property documents 
+and shall bear the associated costs. 
+However, in such cases, an 
+additional time of 30 days will be 
+available to the REs to complete 
+this procedure and the delayed 
+period penalty will be calculated 
+thereafter (i.e., after a total period 
+of 60 days).",True,penalties_fees; collateral_security,Penalties and charges,Low,borrower_protective,"{""borrower_protective"": true}",R_BORROWER_PROTECTIVE_TYPE,Severity Low because: borrower_protective; borrower_protective type,[borrower-protective] This clause requires the lender to assist in obtaining duplicate documents and bear associated costs for lost documents.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0036,,4,"22
+Recovery of expenses
+incurred in the loan 
+cancellation cases 
+Recovery of expenses
+incurred by MHIL while 
+processing the loans per 
+the request of customer in 
+the event of loan  
+cancellation by the 
+customer 
+At the time of cancellation, at
+any stage before the loan is 
+disbursed.",True,principal_amount; termination_accel; lender_powers_remedies,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",This clause provides for the recovery of expenses incurred during loan cancellation requests.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0037,,4,"Once
+In case of loan cancellation, at
+any stage before the loan is 
+disbursed, the borrower will 
+have to bear the expenses 
+incurred towards Personal 
+Discussion, Field Investigation 
+report, extracting of Bureau 
+reports, Risk Containment 
+Unit reports, Technical reports, 
+Legal reports, execution of 
+documentation cost, 
+conveyance cost, etc.",True,principal_amount; termination_accel,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",This clause outlines specific expenses the borrower must bear upon pre-disbursement loan cancellation.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0038,,5,"4. Security for the loan 
+ 
+The loan will be secured by way of mortgage of the property mentioned below in favor of MHIL",True,collateral_security,Collateral,Medium,security_or_guarantee,{},R_SEC_MED,Severity Medium because: security_or_guarantee; standard security interest or guarantee,This clause establishes the mortgage security for the loan in favor of the lender.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0039,,5,"Mortgage Property: (Complete address of the property including boundaries, area, landmark, pin code etc.) Other Security / collateral property",True,collateral_security,Collateral,Medium,security_or_guarantee,{},R_SEC_MED,Severity Medium because: security_or_guarantee; standard security interest or guarantee,This clause specifies the mortgaged property and collateral details.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0040,,5,"Guarantor Details 
+Age: - Occupation: - 
+Nature of relationship with the borrower – 
+Approximate number of years for which the guarantor knows the borrower: Contact No.:- 
+Email: - 
+Resi. Address: - 
+Assessed net worth of the guarantor:",True,collateral_security; financial_ratios,Collateral,High,security_or_guarantee,"{""joint_and_several"": true}",R_SEC_HIGH,Severity High because: security_or_guarantee; joint_and_several,This clause captures guarantor details and assessed net worth.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0041,,5,5. Insurance of property and Borrower (Insurance is subject to option of the borrower),True,collateral_security; enforcement_asset,Covenants,Low,reporting_or_insurance_covenant,"{""borrower_protective"": true}",R_BORROWER_PROTECTIVE_FEAT,Severity Low because: reporting_or_insurance_covenant; borrower_protective,[borrower-protective] This clause outlines optional property and borrower insurance requirements.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0042,,5,"Insurance
+of
+Borrower
+if
+applicable 
+Requirement: -Toensureand protect the lifeof borrower/
+applicant Features: - Life coverage of insured. 
+Life InsuranceDaily Hospital cash benefitC Cancer cover 
+benefits Cardia cover benefits C Cancer & Cardiac cover 
+benefits Critical Illness benefits Critical Illness excluding 
+cancer benefits C Critical Illness excluding cardiac 
+benefits Life Coverage Insurance Critical Illness excluding 
+cancer & Cardiac benefits 
+Surgical Benefits Personal Accident Benefits",True,enforcement_asset,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),This clause details the specific coverage features available under borrower insurance.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0043,,5,"Insurance
+of
+Property
+if
+Applicable 
+Requirement: -To ensurethatproperty offeredas security to be 
+insured against the losses that may arise due to earthquake, 
+fire, explosion, storm, tempest etc. 
+ 
+ 
+ 
+6. Conditions for disbursement of the loan",True,principal_amount; collateral_security; enforcement_asset,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),This clause requires the borrower to insure the property offered as security against losses.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0044,,5,"a. Submission of all relevant documents as mentioned by MHIL in the sanction letter / Loan Agreement. 
+b. Satisfactory Legal & technical assessment of the property.",True,principal_amount; collateral_security,none,none,closing_condition,{},R_N1_NON_RISK,Severity none because: closing_condition; N1 non-risk type,This clause outlines standard document submission and assessment closing conditions for the loan.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0045,,5,"c. Payment of own contribution by the Borrower (total cost of house less the loan amount), as specified in the sanction letter. In case of any 
+alternative arrangement based on a specific product being offered by MHIL the same shall be informed to and acknowledged by the Borrower.  
+d. Providing adequate utilization proof as desired by MHIL",True,principal_amount,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This clause specifies the requirement for payment of the borrower's own contribution and utilization proof.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0046,,5,"e. Undertaking by the Borrower to regularly provide MHIL information, including details regarding progress / delay in construction, any major damage 
+to the property, change in employment/ contact details, non-payment of taxes pertaining to property, etc. 
+f. The construction is being undertaken as per the approved plans.",True,collateral_security; default_triggers; covenant_undertaking,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),This clause sets reporting covenants for the borrower to regularly provide construction progress and property details.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0047,,5,g. The Borrower has satisfied himself/herself that required approvals for the project have been obtained by the developer.,False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+09_muthoothomefin_MHIL-MITC,C0048,,5,h. All required approvals for the property have been obtained and are available with the seller in case the property is being purchased in resale.,True,collateral_security,none,none,closing_condition,{},R_N1_NON_RISK,Severity none because: closing_condition; N1 non-risk type,This clause outlines approval requirements as a condition for property purchase.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0049,,5,"i. On event of expiry of moratorium, if the loan remains undisbursed (partly/fully), MHIL will have right to downsize the loan.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+09_muthoothomefin_MHIL-MITC,C0050,,5,"j. In case of under construction property, EMI will be started only after disbursement of full loan amount sanctioned or completing the construction of 
+property.",True,principal_amount; repayment_terms; collateral_security,Repayment,Low,other,{},R_OTHER_LOW,Severity Low because: other; general or residual term,This clause governs when the EMI starts based on disbursement or construction completion.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0051,,6,"7. Repayment of Loan and Interest 
+ 
+For Partially disbursed cases, interest will be applied on the partially disbursed amount. This interest on the amount disbursed is called Pre-EMI interest. Pre-EMI interest is 
+payable every month from the month of first disbursement up to the month of commencement of EMI. Repayment commences from the month following the month in 
+which final disbursement of the loan is availed. 
+The loan is repaid by way of Equated Monthly Instalments (EMI). EMI comprises of interest component calculated on the outstanding principal and part of the 
+principal amount.",True,interest; principal_amount; repayment_terms,Repayment,Low,other,{},R_OTHER_LOW,Severity Low because: other; general or residual term,This clause details the repayment structure including Pre-EMI interest and Equated Monthly Instalments.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0052,,6,"EMI is calculated based on the loan amount, rate of interest and loan tenure. Change in any of these parameters may result in change in 
+EMI amount and/or tenure 
+EMI is appropriated first towards recovery of interest due and the remaining amount is used for recovery of principal amount. The recovery of principal 
+amount may get impacted due to increase in the amount of interest due to change in ROI on higher side. 
+Repayment of PEMI/EMI should be through NACH. Repayment can be accepted by PDCs, if NACH activation gets delayed due to technical reason or NACH 
+becomes In-active.",True,interest; rate_of_interest; principal_amount; repayment_terms; lender_powers_remedies,Repayment,Low,other,{},R_OTHER_LOW,Severity Low because: other; general or residual term,"This clause explains EMI calculation parameters, appropriation order, and NACH payment mechanisms.",False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0053,,6,"The deposition dates for these instruments will be 5th Or 7th of every month. “For Example – If case is disbursed on 29th of the month – 
+Broken period interest will be collect up to last day of the month. Deposition date will be 5th Or 7th of next month. 
+ 
+ 
+8. Brief Procedure to be followed for Recovery of overdue",True,interest; principal_amount; penalties_fees; lender_powers_remedies,Repayment,Low,other,{},R_OTHER_LOW,Severity Low because: other; general or residual term,This clause establishes specific deposition dates and broken period interest collection rules.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0054,,6,"Through the terms and conditions detailed above, the Borrower(s) and the Guarantor(s) have been appraised of the process and schedule and mode of 
+repayment of the loan. It shall be the responsibility of the borrower(s) to ensure timely payment of PEMI or EMI. MHI L shall not be obliged to serve notice, 
+reminder or intimation to the borrower(s) regarding his/her/their obligation to pay the EMI or PEMI regularly on due date.",True,repayment_terms; collateral_security; covenant_undertaking,Repayment,Low,other,"{""no_notice"": true}",R_OTHER_LOW,Severity Low because: other; general or residual term,This clause states the lender is not obliged to serve notice or reminders regarding EMI payment due dates.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0055,,6,"a. 
+On non-payment of Pre-EMI/EMI by the due dates, MHIL shall remind the borrowers by making telephone calls, sending written communication by 
+post and/or electronic medium or by making personal visits by MHIL's authorized personnel at the last address provided by the borrower. The 
+Borrower(s) and the Guarantor(s) shall keep MHIL informed of any change in their contact details and address. Failure to do so will be treated as a 
+breach of contract.",True,repayment_terms; collateral_security; default_triggers,Default conditions,Medium,other_default_trigger,{},R_ODEF_MED,Severity Medium because: other_default_trigger; other default trigger,This clause outlines reminder procedures and specifies that failing to update contact details is a breach of contract.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0056,,6,"b. 
+Borrowers agree to give unconditional permission to the authorized representatives of MHIL to visit the property funded through this loan and/or 
+the borrower’s residence in the event of default for collection of dues and/or inspection of the property. The Costs of such calls 
+/communication 
+/visits shall be payable by the borrower(s).",True,collateral_security; default_triggers; reporting_inspection,Collateral,Medium,remedy_on_default,{},R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),This clause grants permission for property visits upon default and makes related costs payable by the borrower.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0057,,6,"c. 
+By accepting these terms and conditions, the borrower(s) and guarantor(s) give their consent to MHIL for sharing their credit information with 
+RBI approved the Credit Information Bureau. Like CIBIL, CRIF etc. To avoid any adverse impact on their credit history with CIBIL, CRIF or any other 
+Credit Information Bureau it is advised that the borrower should ensure timely payment of the amount due on the loan amount.",True,principal_amount; collateral_security; reporting_inspection,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),This clause gives consent for sharing credit information with RBI-approved credit bureaus.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0058,,6,"d. 
+In event of continued default and declaration of the loan amount as delinquent or Non-Performing Asset (NPA), MHIL shall reserve the right to send 
+Loan Recall Notice, initiate action under section 138 of the Negotiable Instruments Act, SARFAESI act or any other provision of the law for recovery 
+of dues from the borrower(s)/Guarantor(s).",True,principal_amount; collateral_security; enforcement_asset; default_triggers; termination_accel; lender_powers_remedies,Default conditions,Medium,other_default_trigger,{},R_ODEF_MED,Severity Medium because: other_default_trigger; other default trigger,This clause details lender rights to issue loan recall notices and initiate legal recovery actions upon default or NPA declaration.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0059,,6,"The recovery process of enforcement of mortgage/securities, including but not limited to, taking 
+possession and sale of the mortgaged property in accordance with the procedure prescribed under the Securitization and Reconstruction of 
+Financial Assets and Enforcement of Security Interest Act, 2002 (SARFAESI Act) or under any other law, is followed purely as per the directions 
+laid down under the respective laws.",True,interest; collateral_security; enforcement_asset; termination_accel; lender_powers_remedies,Collateral,Medium,remedy_on_default,{},R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),This clause describes the recovery process for enforcing mortgages and taking possession under the SARFAESI Act.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0060,,6,"Intimation/Reminders/Notice(s) shall be given to borrower(s)/guarantor(s) prior to initiating steps for recovery of overdue, under the Negotiable 
+Instruments Act, Civil Suit as well as under the SARFAESI Act. 
+ 
+Cost of such legal remedies will be debited to the borrower’s account. 
+ 
+ 
+ 
+9. 
+Definitions:",True,penalties_fees; collateral_security; enforcement_asset; lender_powers_remedies,Default conditions,Medium,other_default_trigger,{},R_ODEF_MED,Severity Medium because: other_default_trigger; other default trigger,This clause provides for intimation prior to legal recovery steps and debits related legal costs to the borrower.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0061,,6,"a. 
+Overdue – Any amount due to the bank / FI under any credit facility is ‘overdue’ if it is not paid on the due date fixed by the financial institution” / “lender.",True,principal_amount; penalties_fees,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This clause provides a standard definition for overdue amounts.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0062,,6,"b. 
+NPA – An asset, including a leased asset, becomes non-performing when it ceases to generate income for the bank. A non-performing asset 
+(NPA) is a loan or an advance where; interest and/ or instalment of principal remains overdue for a period of more than 90 days in respect of a 
+term loan,",True,interest; principal_amount; repayment_terms; penalties_fees; default_triggers,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This clause defines a Non-Performing Asset based on overdue periods for term loans.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0063,,6,"c. 
+SMA – Lenders shall recognize incipient stress in loan accounts, immediately on default, by classifying such assets as special mention accounts 
+(SMA) as per the following categories:",True,default_triggers,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This clause defines special mention accounts for recognizing incipient stress.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0064,,6,"SMA Sub-
+categories 
+Basis for classification – Principal or interest payment 
+or any other amount wholly or partly overdue between
+SMA-0 
+1-30 days 
+SMA-1 
+31-60 days 
+SMA-2 
+61-90 days 10. Customer Services",True,interest; principal_amount; penalties_fees; default_triggers,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,This clause outlines the sub-categories and basis for classification of special mention accounts.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0065,,7,"For any assistance and information borrowers / guarantors can contact the customer care of the company through below modes between Monday to 
+Saturday working hours 9.00 AM to 5.30 PM (excluding Holidays and Sundays). 
+a. 
+To contact MHIL Branch Manager / Branch –in charge of the nearby branch. 
+b. 
+Write us to MHIL Customer Care e-mail ID enquiry@muthoothomefin.com",True,charges_expenses; collateral_security,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,This clause provides customer care contact details and communication channels for borrower assistance.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0066,,7,"c. 
+Call  to MHIL customer care No. 8113837788/ 8976718559,or Toll Free No. 18001211214 
+Write to us via website: www.muthoothomefin.com or written letter addressed to Muthoot Homefin (I) Ltd, The Ruby, 19th Floor, 19 NE Near Ruparel 
+College. No.29, Senapati Bapat Marg, Tulsi Pipe Road, Dadar West, Mumbai – 400028, Maharashtra. Ph:022-41010999 
+  
+ 
+Borrower(s)collect the following documents by visiting our branch",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+09_muthoothomefin_MHIL-MITC,C0067,,7,"a) 
+Photo Copies of documents, which can be provided in 15 working days from date of placing request. Necessary administrative fee shall be applicable. 
+11. Grievance Redressal :",True,charges_expenses,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true, ""cure_or_grace_10_days_or_more"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",This clause establishes the timeline for providing document copies along with applicable administrative fees.,False,,gemini-3.5-flash-lite,False,v5
+09_muthoothomefin_MHIL-MITC,C0068,,7,"There can be instances where the Borrower is not satisfied with the services provided. To highlight such instances & register a complaint, the 
+Borrower may follow the following process: 
+The Borrower can lodge his / her/their complaint at grievance@muthoothomefin.com or response@muthoothomefin.com or call on +91- 2239110999 / +91-
+2239110900 / 8113837788. The complaint can also be registered by making an entry of the complaint / grievance in the complaint register maintained by the branch.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+09_muthoothomefin_MHIL-MITC,C0069,,7,"In case the Borrower does not receive any response within a week or is not satisfied  with the response given by the branch, the Borrower can further escalate the 
+complaint /grievance to the Grievance Redressal  Officer (GRO) at grievanceredressalofficer@muthoothomefin.com or by way of letter addressed to the GRO to 
+the below  mentioned address 
+Grievance Redressal Officer Muthoot Homefin (IndIa) ltd.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+09_muthoothomefin_MHIL-MITC,C0070,,7,"2nd floor, Muthoot Chambers, Kurians Tower BanerjI Road -Ernakulam Kochi -682018 
+Kerala If the Borrower does not receive a response from the Company within a period of one month or is still not convinced with the resolution provided 
+by the Grievance Redressal Team, then the Borrower may approach the Complaint Redressal Cell of the National Housing  Bank (NHB) by registering 
+the complaint online on the website of NHB at https://grids.nhbonline.org.in.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+09_muthoothomefin_MHIL-MITC,C0071,,7,The complaint can also be sent through post to the following address in the prescribed format (https://nhb.org.in/citizencharter/Complaint_form.pdf),False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+09_muthoothomefin_MHIL-MITC,C0072,,7,"National Housing Bank, Complaint Redressal Cell Department of Supervision 4th Floor, Core 5A India Habitat Centre Lodhi Road, New 
+Delhi - 110023. 
+(The complaint can also be emailed at crcell@nhb.org.in)",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+09_muthoothomefin_MHIL-MITC,C0073,,7,The above terms and conditions have been read by the borrower/s / read over to the borrower and have been understood by the borrower/s.,False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+09_muthoothomefin_MHIL-MITC,C0074,,7,"Signature or Thumb impression 
+of Borrower/s National Housing Bank, 
+Complaint 
+Redressal Cell 
+Department of 
+Supervision 4th 
+Floor, Core 5A India 
+Habitat Centre Lodhi 
+Road, New Delhi -
+110023. 
+(The complaint can also be emailed at crcell@nhb.org.in)",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+09_muthoothomefin_MHIL-MITC,C0075,,7,"The above terms and conditions have been read by the borrower/s / read over to the borrower and have been understood by the borrower/s. 
+Signature or Thumb impression of Borrower/s 
+ 
+ 
+ 
+ 
+ 
+Authorized Signatory Muthoot Homefin (India) 
+Limited Name:   
+Designation: 
+Date :",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5

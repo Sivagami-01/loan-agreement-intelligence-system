@@ -1,0 +1,1499 @@
+﻿doc_id,clause_id,continuation_of,page,clause_text,prefilter_passed,matched_keywords,category,severity,clause_type,features,severity_rule,severity_explanation,rationale,number_flag,flagged_numbers,model_used,parse_error,prompt_version
+000087/876645/0000891618-03-004250_9.txt,C0001,,1,"EXHIBIT 10.44
+
+                                                                       EXECUTION
+                                                                       ---------
+
+
+SILICON VALLEY BANK
+
+                           LOAN AND SECURITY AGREEMENT
+
+BORROWER: PHARMCHEM, INC.
+ADDRESS:  4600 N. BEACH STREET
+          HALTOM CITY, TEXAS 76137
+
+DATE:     June 26, 2003",True,collateral_security,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,This clause contains introductory header information and document execution details.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0002,,1,"THIS LOAN AND SECURITY AGREEMENT is entered into on the above date between
+SILICON VALLEY BANK (""Silicon""), whose address is 3003 Tasman Drive, Santa
+Clara, California 95054 and the borrower(s) named above (jointly and severally,
+the ""Borrower""), whose chief executive office is located at the above address
+(""Borrower's Address""). The Schedule to this Agreement (the ""Schedule"") shall
+for all purposes be deemed to be a part of this Agreement, and the same is an
+integral part of this Agreement. (Definitions of certain terms used in this
+Agreement are set forth in Section 8 below.)
+
+1. LOANS.",True,collateral_security,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,This clause establishes baseline contract parties and general agreement structure without imposing risk terms.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0003,,1,"1.1 LOANS. Silicon will make to Borrower revolving loans (the
+""Revolving Loans""), in amounts determined by Silicon in its good faith business
+judgment, up to the amounts (the ""Revolving Credit Limit"") shown on the Schedule
+and a term loan (the ""Term Loan"") up to the amount set forth on the Schedule
+(the ""Term Credit Limit""), provided no Default or Event of Default has occurred
+and is continuing, and subject to deduction of Reserves for accrued interest and
+such other Reserves as Silicon deems proper from time to time in its good faith
+business judgment.",True,interest; principal_amount; default_triggers,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,This clause details revolving and term loan availability limits and disbursement conditions.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0004,,1,"1.2 INTEREST. All Loans and all other monetary Obligations shall bear
+interest at the rate shown on the Schedule, except where expressly set forth to
+the contrary in this Agreement. Interest shall be payable monthly, on the last
+day of the month. Interest may, in Silicon's discretion, be charged to
+Borrower's loan account, and the same shall thereafter bear interest at the same
+rate as the other Loans. Silicon may, in its discretion, charge interest to
+Borrower's Deposit Accounts maintained with Silicon. Regardless of the amount of
+Obligations that may be outstanding from time to time, Borrower shall pay
+Silicon minimum monthly interest during the term of this Agreement in the amount
+set forth on the Schedule (the ""Minimum Monthly Interest""). Notwithstanding the
+foregoing, if at any time the rate at which interest is payable on any Loan or
+other Obligation created pursuant to this Agreement hereunder exceeds the
+maximum amount of interest permitted to be contracted for, charged, or received
+by applicable law from time to time in effect (the ""Maximum Rate""), such Loan or
+other Obligation shall bear interest at the Maximum Rate only, but shall
+continue to bear interest at the Maximum Rate until such times as the total
+amount of interest accrued thereon equals (but does not exceed) the total amount
+of interest that would have accrued thereon had there been no higher than the
+Maximum Rate applicable thereto.",True,interest; payable_due; charges_expenses,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,"This clause establishes interest calculation rules, payment frequency, and maximum rate caps.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0005,,1,"1.3 OVERADVANCES. If at any time or for any reason the total of all
+outstanding Revolving Loans and all other monetary Obligations exceeds the
+Revolving Credit Limit (an ""Overadvance""), Borrower shall immediately pay the
+amount of the excess to Silicon, without notice or demand. Without limiting
+Borrower's obligation to repay to Silicon the amount of any Overadvance,
+Borrower agrees to pay Silicon interest on the outstanding amount of any
+Overadvance, on demand, at the Default Rate.",True,interest; rate_of_interest; principal_amount; repayment_terms; enforcement_asset; default_triggers,Penalties and charges,High,fee_or_cost,"{""no_notice"": true, ""penal_rate_or_default_charge"": true}",R_FEE_HIGH,Severity High because: fee_or_cost; penal_rate_or_default_charge,This clause requires immediate repayment of overadvances without notice and imposes default interest.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0006,,1,"1.4 FEES. Borrower shall pay Silicon the fees shown on the Schedule,
+which are in addition to all interest and other sums payable to Silicon and are
+not refundable.",True,interest; charges_expenses,Penalties and charges,Medium,fee_or_cost,{},R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",This clause mandates non-refundable fee payments specified in the schedule.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0007,,2,"SILICON VALLEY BANK                                  LOAN AND SECURITY AGREEMENT
+
+         1.5 LOAN REQUESTS. To obtain a Loan, Borrower shall make a request to
+Silicon by facsimile or telephone. Loan requests received after 12:00 Noon
+Pacific Standard Time will not be considered by Silicon until the next Business
+Day. Silicon may rely on any telephone request for a Loan given by a person whom
+Silicon believes is an authorized representative of Borrower, and Borrower will
+indemnify Silicon for any loss Silicon suffers as a result of that reliance.",True,charges_expenses; collateral_security,Covenants,Medium,indemnity,"{""broad_or_uncapped"": true}",R_IND_MED,Severity Medium because: indemnity; standard or narrow indemnity,This clause requires borrower indemnification for losses arising from telephone loan request reliance.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0008,,2,"1.6 LETTERS OF CREDIT. At the request of Borrower, Silicon may, in its
+good faith business judgment, issue or arrange for the issuance of letters of
+credit for the account of Borrower, in each case in form and substance
+satisfactory to Silicon in its sole discretion (collectively, ""Letters of
+Credit""). The aggregate face amount of all Letters of Credit from time to time
+outstanding shall not exceed the amount shown on the Schedule (the ""Letter of
+Credit Sublimit""), and shall be reserved against Loans which would otherwise be
+available hereunder, and in the event at any time there are insufficient Loans
+available to Borrower for such reserve, Borrower shall deposit and maintain with
+Silicon cash collateral in an amount at all times equal to such deficiency,
+which shall be held as Collateral for all purposes of this Agreement. Borrower
+shall pay all bank charges (including charges of Silicon) for the issuance of
+Letters of Credit, together with such additional fee as Silicon's letter of
+credit department shall charge in connection with the issuance of the Letters of
+Credit. Any payment by Silicon under or in connection with a Letter of Credit
+shall constitute a Loan hereunder on the date such payment is made. Each Letter
+of Credit shall have an expiry date no later than thirty days prior to the
+Maturity Date.",True,repayment_terms; charges_expenses; collateral_security; covenant_undertaking; lender_powers_remedies,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,"This clause governs letter of credit sublimits, cash collateral requirements, and bank charges.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0009,,2,"Borrower hereby agrees to indemnify and hold Silicon harmless
+from any loss, cost, expense, or liability, including payments made by Silicon,
+expenses, and reasonable attorneys"" fees incurred by Silicon arising out of or
+in connection with any Letters of Credit. Borrower agrees to be bound by the
+regulations and interpretations of the issuer of any Letters of Credit
+guarantied by Silicon and opened for Borrower's account or by Silicon's
+interpretations of any Letter of Credit issued by Silicon for Borrower's
+account, and Borrower understands and agrees that Silicon shall not be liable
+for any error, negligence, or mistake, whether of omission or commission, in
+following Borrower's instructions or those contained in the Letters of Credit or
+any modifications, amendments, or supplements thereto. Borrower understands that
+Letters of Credit may require Silicon to indemnify the issuing bank for certain
+costs or liabilities arising out of claims by Borrower against such issuing
+bank. Borrower hereby agrees to indemnify and hold Silicon harmless with respect
+to any loss, cost, expense, or liability incurred by Silicon under any Letter of
+Credit as a result of Silicon's indemnification of any such issuing bank. The
+provisions of this Loan Agreement, as it pertains to Letters of Credit, and any
+other Loan Documents relating to Letters of Credit are cumulative.",True,charges_expenses; covenant_undertaking,Covenants,Medium,indemnity,"{""broad_or_uncapped"": true}",R_IND_MED,Severity Medium because: indemnity; standard or narrow indemnity,This clause imposes broad borrower indemnification and hold-harmless obligations regarding letters of credit.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0010,,2,"2. SECURITY INTEREST. To secure the payment and performance of all of the
+Obligations when due, Borrower hereby grants to Silicon a security interest in
+all of the following (collectively, the ""Collateral""): all right, title and
+interest of Borrower in and to all of the following, whether now owned or
+hereafter arising or acquired and wherever located: all Accounts; all Inventory;
+all Equipment; all Deposit Accounts; all General Intangibles (including without
+limitation all Intellectual Property); all Investment Property; all Other
+Property; and any and all claims, rights and interests in any of the above, and
+all guaranties and security for any of the above, and all substitutions and
+replacements for, additions, accessions, attachments, accessories, and
+improvements to, and proceeds (including proceeds of any insurance policies,
+proceeds of proceeds and claims against third parties) of, any and all of the
+above, and all Borrower's books relating to any and all of the above.
+
+3. REPRESENTATIONS, WARRANTIES AND COVENANTS OF BORROWER.",True,interest; collateral_security; enforcement_asset; covenant_undertaking,Collateral,Medium,security_or_guarantee,{},R_SEC_MED,Severity Medium because: security_or_guarantee; standard security interest or guarantee,This clause grants a comprehensive security interest across all borrower assets to secure obligations.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0011,,2,"In order to induce Silicon to enter into this Agreement and to make
+Loans, Borrower represents and warrants to Silicon as follows, and Borrower
+covenants that the following representations will continue to be true, and that
+Borrower will at all times comply with all of the following covenants,
+throughout the term of this Agreement and until all Obligations have been paid
+and performed in full:",True,covenant_undertaking,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,This clause introduces ongoing borrower representations and covenants effective until full repayment.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0012,,2,"3.1 CORPORATE EXISTENCE AND AUTHORITY. Borrower is and will continue to
+be, duly organized, validly existing and in good standing under the laws of the
+jurisdiction of its incorporation. Borrower is and will continue to be qualified
+and licensed to do business in all jurisdictions in which any failure to do so
+would result in a Material Adverse Change. The execution, delivery and
+performance by Borrower of this Agreement, and all other documents contemplated
+hereby (i) have been duly and validly authorized, (ii) are enforceable against
+Borrower in accordance with their terms (except as enforcement may be limited by
+equitable principles and by bankruptcy, insolvency, reorganization, moratorium
+or similar laws relating to creditors"" rights generally), and (iii) do not
+violate Borrower's articles or certificate of incorporation, or Borrower's
+by-laws, or any law or any material agreement or instrument which is binding
+upon Borrower or its property, and (iv) do not constitute grounds for
+acceleration of any material indebtedness or obligation under any agreement or
+instrument which is binding upon Borrower or its property.",True,collateral_security; insolvency_cure; termination_accel; restrictions_transfers; lender_powers_remedies,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,"This clause affirms corporate existence, good standing, and due authorization of loan documents.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0013,,2,"3.2 NAME; TRADE NAMES AND STYLES. The name of Borrower set forth in the
+heading to this Agreement is its correct name. Listed in the Representations are
+all prior names of Borrower and all of Borrower's present and prior trade names.
+Borrower
+
+                                      -2- SILICON VALLEY BANK                                  LOAN AND SECURITY AGREEMENT",True,collateral_security,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,This clause states borrower name and prior trade name disclosures.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0014,,3,"shall give Silicon 30 days"" prior written notice before changing its name or
+doing business under any other name. Borrower has complied, and will in the
+future comply, in all material respects, with all laws relating to the conduct
+of business under a fictitious business name, except where the failure to so
+comply would not reasonably be expected to result in a Material Adverse Change.",True,insolvency_cure,Covenants,Low,reporting_or_insurance_covenant,"{""cure_or_grace_10_days_or_more"": true}",R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),This clause requires advance written notice before changing business names or fictitious styles.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0015,,3,"3.3 PLACE OF BUSINESS; LOCATION OF COLLATERAL. The address set forth in
+the heading to this Agreement is Borrower's chief executive office. In addition,
+Borrower has places of business and Collateral is located only at the locations
+set forth in the Representations. Borrower will give Silicon at least 30 days
+prior written notice before opening any additional place of business, changing
+its chief executive office, or moving any of the Collateral to a location other
+than Borrower's Address or one of the locations set forth in the
+Representations, except that Borrower may maintain sales offices in the ordinary
+course of business at which not more than a total of $10,000 fair market value
+of Equipment is located.
+
+         3.4 TITLE TO COLLATERAL; PERFECTION; PERMITTED LIENS.",True,collateral_security,Covenants,Low,reporting_or_insurance_covenant,"{""cure_or_grace_10_days_or_more"": true}",R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),This clause requires advance written notice prior to relocating collateral or opening new places of business.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0016,,3,"(a) Borrower is now, and will at all times in the future be, the sole
+owner of all the Collateral, except for items of Equipment which are leased to
+Borrower. The Collateral now is and will remain free and clear of any and all
+liens, charges, security interests, encumbrances and adverse claims, except for
+Permitted Liens. Silicon now has, and will continue to have, a first-priority
+perfected and enforceable security interest in all of the Collateral, subject
+only to the Permitted Liens, and Borrower will at all times defend Silicon and
+the Collateral against all claims of others.",True,interest; charges_expenses; collateral_security; termination_accel,Collateral,Medium,security_or_guarantee,{},R_SEC_MED,Severity Medium because: security_or_guarantee; standard security interest or guarantee,This clause warrants collateral ownership and first-priority perfected security interests subject to permitted liens.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0017,,3,"(b) Borrower has set forth in the Representations all of Borrower's
+Deposit Accounts, and Borrower will give Silicon five Business Days advance
+written notice before establishing any new Deposit Accounts and will cause the
+institution where any such new Deposit Account is maintained to execute and
+deliver to Silicon a control agreement in form sufficient to perfect Silicon's
+security interest in the Deposit Account and otherwise satisfactory to Silicon
+in its good faith business judgment. Nothing herein limits any requirements
+which may be set forth in the Schedule as to where Deposit Accounts will be
+maintained.",True,interest; collateral_security,Collateral,Medium,security_or_guarantee,"{""cure_or_grace_10_days_or_more"": true}",R_SEC_MED,Severity Medium because: security_or_guarantee; standard security interest or guarantee,This clause requires advance notice and control agreements for establishing new deposit accounts.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0018,,3,"(c) In the event that Borrower shall at any time after the date hereof
+have any commercial tort claims against others, which it is asserting or intends
+to assert, and in which the potential recovery exceeds $100,000, Borrower shall
+promptly notify Silicon thereof in writing and provide Silicon with such
+information regarding the same as Silicon shall request (unless providing such
+information would waive the Borrower's attorney-client privilege). Such
+notification to Silicon shall constitute a grant of a security interest in the
+commercial tort claim and all proceeds thereof to Silicon, and Borrower shall
+execute and deliver all such documents and take all such actions as Silicon
+shall request in connection therewith.",True,interest; collateral_security; reporting_inspection; lender_powers_remedies,Collateral,Medium,security_or_guarantee,{},R_SEC_MED,Severity Medium because: security_or_guarantee; standard security interest or guarantee,This clause grants a security interest in commercial tort claims exceeding specific thresholds upon notification.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0019,,3,"(d) None of the Collateral now is or will be affixed to any real
+property in such a manner, or with such intent, as to become a fixture. Borrower
+is not and will not become a lessee under any real property lease pursuant to
+which the lessor may obtain any rights in any of the Collateral and no such
+lease now prohibits, restrains, impairs or will prohibit, restrain or impair
+Borrower's right to remove any Collateral from the leased premises, except the
+Lease for Borrower's premises located in Haltom City Texas as to which Borrower
+will use its best efforts to obtain a landlord lien waiver satisfactory to
+Silicon. Whenever any Collateral is located upon premises in which any third
+party has an interest, Borrower shall, whenever requested by Silicon, use its
+best efforts to cause such third party to execute and deliver to Silicon, in
+form acceptable to Silicon, such waivers and subordinations as Silicon shall
+specify in its good faith business judgment. Borrower will keep in full force
+and effect, and will comply with all material terms of, any lease of real
+property where any of the Collateral now or in the future may be located.",True,interest; collateral_security; covenant_undertaking; lender_powers_remedies,Collateral,Medium,security_or_guarantee,{},R_SEC_MED,Severity Medium because: security_or_guarantee; standard security interest or guarantee,This clause restricts fixture attachments and real property lease arrangements affecting collateral.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0020,,3,"3.5 MAINTENANCE OF COLLATERAL. Borrower will maintain the Collateral in
+good working condition (ordinary wear and tear excepted), and Borrower will not
+use the Collateral for any unlawful purpose. Borrower will immediately advise
+Silicon in writing of any material loss or damage to the Collateral.",True,collateral_security,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),This clause mandates collateral maintenance and immediate written notice of material loss or damage.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0021,,3,"3.6 BOOKS AND RECORDS. Borrower has maintained and will maintain at
+Borrower's Address complete and accurate books and records, comprising an
+accounting system in accordance with GAAP.",True,reporting_inspection,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Requires the borrower to maintain complete and accurate books and records in accordance with GAAP.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0022,,3,"3.7 FINANCIAL CONDITION, STATEMENTS AND REPORTS. All financial
+statements now or in the future delivered to Silicon have been, and will be,
+prepared in conformity with GAAP and now and in the future will fairly present
+the results of operations and financial condition of Borrower, in accordance
+with GAAP, at the times and for the periods therein stated. Between the last
+date covered by any such statement provided to Silicon and the date hereof,
+there has been no Material Adverse Change.",True,insolvency_cure,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,"Contains standard representations regarding the borrower's financial condition, statements, and reports.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0023,,3,"3.8 TAX RETURNS AND PAYMENTS; PENSION CONTRIBUTIONS. Borrower has
+timely filed, and will timely file, all required tax returns and reports, and
+Borrower has timely paid, and will timely pay, all foreign, federal, state and
+local taxes, assessments, deposits and contributions now or in the future owed
+by Borrower. Borrower may, however, defer payment of any contested
+
+                                      -3- SILICON VALLEY BANK                                  LOAN AND SECURITY AGREEMENT",True,collateral_security,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Represents and warrants that the borrower has timely filed and paid all required taxes and pension contributions.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0024,,4,"taxes, provided that Borrower (i) in good faith contests Borrower's obligation
+to pay the taxes by appropriate proceedings promptly and diligently instituted
+and conducted, (ii) notifies Silicon in writing of the commencement of, and any
+material development in, the proceedings, and (iii) posts bonds or takes any
+other steps required to keep the contested taxes from becoming a lien upon any
+of the Collateral. Borrower is unaware of any claims or adjustments proposed for
+any of Borrower's prior tax years which could result in additional taxes
+becoming due and payable by Borrower. Borrower has paid, and shall continue to
+pay all amounts necessary to fund all present and future pension, profit sharing
+and deferred compensation plans in accordance with their terms, and Borrower has
+not and will not withdraw from participation in, permit partial or complete
+termination of, or permit the occurrence of any other event with respect to, any
+such plan which could reasonably be expected to result in any liability of
+Borrower, including any liability to the Pension Benefit Guaranty Corporation or
+its successors or any other governmental agency.",True,payable_due; charges_expenses; collateral_security; termination_accel,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Details conditions under which the borrower may contest taxes and confirms compliance with pension plans.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0025,,4,"3.9 COMPLIANCE WITH LAW. Borrower has, to the best of its knowledge,
+complied, and will comply, in all material respects, with all provisions of all
+foreign, federal, state and local laws and regulations applicable to Borrower,
+including, but not limited to, those relating to Borrower's ownership of real or
+personal property, the conduct and licensing of Borrower's business, and all
+environmental matters.",True,collateral_security,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Represents that the borrower has complied and will comply in all material respects with applicable laws.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0026,,4,"3.10 LITIGATION. There is no claim, suit, litigation, proceeding or
+investigation pending or (to best of Borrower's knowledge) threatened against or
+affecting Borrower in any court or before any governmental agency (or any basis
+therefor known to Borrower) which could reasonably be expected to result, either
+separately or in the aggregate, in any Material Adverse Change except as set
+forth on the Disclosure Schedule attached hereto and made a part hereof.
+Borrower will promptly inform Silicon in writing of any claim, proceeding,
+litigation or investigation in the future threatened or instituted against
+Borrower involving any single claim of $50,000 or more, or involving $100,000 or
+more in the aggregate.",True,insolvency_cure; reporting_inspection,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Requires the borrower to disclose pending litigation and notify the lender of future material claims.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0027,,4,"3.11 USE OF PROCEEDS. All proceeds of all Loans shall be used solely
+for lawful business purposes. Borrower is not purchasing or carrying any ""margin
+stock"" (as defined in Regulation U of the Board of Governors of the Federal
+Reserve System) and no part of the proceeds of any Loan will be used to purchase
+or carry any ""margin stock"" or to extend credit to others for the purpose of
+purchasing or carrying any ""margin stock.""
+
+4. ACCOUNTS.",True,margin_spread_reset,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,Restricts the use of loan proceeds to lawful business purposes and prohibits purchasing margin stock.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0028,,4,"4.1 REPRESENTATIONS RELATING TO ACCOUNTS. Borrower represents and
+warrants to Silicon as follows: Each Account with respect to which Loans are
+requested by Borrower shall, on the date each Loan is requested and made, (i)
+represent an undisputed bona fide existing unconditional obligation of the
+Account Debtor created by the sale, delivery, and acceptance of goods or the
+rendition of services, or the non-exclusive licensing of Intellectual Property,
+in the ordinary course of Borrower's business, and (ii) meet the Minimum
+Eligibility Requirements set forth in Section 8 below.",True,collateral_security,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Sets forth specific representations and warranties regarding eligible accounts.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0029,,4,"4.2 REPRESENTATIONS RELATING TO DOCUMENTS AND LEGAL COMPLIANCE.
+Borrower represents and warrants to Silicon as follows: All statements made and
+all unpaid balances appearing in all invoices, instruments and other documents
+evidencing the Accounts are and shall be true and correct, in all material
+respects, and all such invoices, instruments and other documents and all of
+Borrower's books and records are and shall be genuine in all material respects,
+and in all respects what they purport to be. All sales and other transactions
+underlying or giving rise to each Account shall comply in all material respects
+with all applicable laws and governmental rules and regulations. To the best of
+Borrower's knowledge, all signatures and endorsements on all documents,
+instruments, and agreements relating to all Accounts are and shall be genuine,
+and all such documents, instruments and agreements are and shall be legally
+enforceable in accordance with their terms.",True,termination_accel; reporting_inspection,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,"Warrants the accuracy, genuineness, and legal enforceability of documents and invoices evidencing accounts.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0030,,4,"4.3 SCHEDULES AND DOCUMENTS RELATING TO ACCOUNTS. Borrower shall
+deliver to Silicon transaction reports and schedules of collections, as provided
+in the Schedule, on Silicon's standard forms; provided, however, that Borrower's
+failure to execute and deliver the same shall not affect or limit Silicon's
+security interest and other rights in all of Borrower's Accounts, nor shall
+Silicon's failure to advance or lend against a specific Account affect or limit
+Silicon's security interest and other rights therein. If requested by Silicon,
+Borrower shall furnish Silicon with copies (or, at Silicon's request, originals)
+of all contracts, orders, invoices, and other similar documents, and all
+shipping instructions, delivery receipts, bills of lading, and other evidence of
+delivery, for any goods the sale or disposition of which gave rise to such
+Accounts, and Borrower warrants that all of the foregoing are genuine in all
+material respects. Borrower shall also furnish to Silicon an aged accounts
+receivable trial balance as provided in the Schedule. In addition, Borrower
+shall deliver to Silicon, on its request, the originals of all instruments,
+chattel paper, security agreements, guarantees and other documents and property
+evidencing or securing any Accounts, in the same form as received, with all
+necessary indorsements, and copies of all credit memos.",True,interest; collateral_security; covenant_undertaking; reporting_inspection,Collateral,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),"Requires the borrower to deliver transaction reports, schedules, and documents relating to accounts.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0031,,4,"4.4 COLLECTION OF ACCOUNTS. Borrower shall have the right to collect
+all Accounts, unless and until a Default or an Event of Default has occurred and
+is continuing. Whether or not an Event of Default has occurred and is
+continuing, Borrower shall
+
+                                      -4- SILICON VALLEY BANK                                  LOAN AND SECURITY AGREEMENT",True,collateral_security; default_triggers,Collateral,Low,borrower_protective,{},R_BORROWER_PROTECTIVE_TYPE,Severity Low because: borrower_protective; borrower_protective type,[borrower-protective] Allows the borrower to collect accounts until an Event of Default occurs and is continuing.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0032,,5,"hold all payments on, and proceeds of, Accounts in trust for Silicon, and
+Borrower shall immediately deliver all such payments and proceeds to Silicon in
+their original form, duly endorsed, to be applied to the Obligations in such
+order as Silicon shall determine. Silicon may, in its good faith business
+judgment, require that all proceeds of Collateral be deposited by Borrower into
+a lockbox account, or such other ""blocked account"" as Silicon may specify,
+pursuant to a blocked account agreement in such form as Silicon may specify in
+its good faith business judgment.",True,collateral_security,Collateral,Medium,remedy_on_default,{},R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),Requires proceeds of accounts to be held in trust and permits the lender to require a lockbox account.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0033,,5,"4.5. REMITTANCE OF PROCEEDS. All proceeds arising from the disposition
+of any Collateral shall be delivered, in kind, by Borrower to Silicon in the
+original form in which received by Borrower not later than two Business Days
+after receipt by Borrower, to be applied to the Obligations in such order as
+Silicon shall determine; provided that, if no Default or Event of Default has
+occurred and is continuing, Borrower shall not be obligated to remit to Silicon
+the proceeds of the sale of worn out or obsolete Equipment disposed of by
+Borrower in good faith in an arm's length transaction for an aggregate purchase
+price of $25,000 or less (for all such transactions in any fiscal year).
+Borrower agrees that it will not commingle proceeds of Collateral with any of
+Borrower's other funds or property, but will hold such proceeds separate and
+apart from such other funds and property and in an express trust for Silicon.
+Nothing in this Section limits the restrictions on disposition of Collateral set
+forth elsewhere in this Agreement.",True,collateral_security; default_triggers; covenant_undertaking,Collateral,Medium,remedy_on_default,{},R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),Mandates the remittance of collateral disposition proceeds to the lender within a specified timeframe.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0034,,5,"4.6 DISPUTES. Borrower shall notify Silicon promptly of all material
+disputes or claims relating to Accounts. Borrower shall not forgive (completely
+or partially), compromise or settle any Account for less than payment in full,
+or agree to do any of the foregoing, except that Borrower may do so, provided
+that: (i) Borrower does so in good faith, in a commercially reasonable manner,
+in the ordinary course of business, and in arm's length transactions, which are
+reported to Silicon on the regular reports provided to Silicon; (ii) no Default
+or Event of Default has occurred and is continuing; and (iii) taking into
+account all such discounts, settlements and forgiveness, the total outstanding
+Loans will not exceed the Credit Limit.",True,principal_amount; default_triggers; covenant_undertaking; reporting_inspection,Collateral,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,Prohibits the compromise or settlement of accounts below full payment except under specified conditions.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0035,,5,"4.7 RETURNS. Provided no Event of Default has occurred and is
+continuing, if any Account Debtor returns any Inventory to Borrower, Borrower
+shall promptly determine the reason for such return and promptly issue a credit
+memorandum to the Account Debtor in the appropriate amount. In the event any
+attempted return occurs after the occurrence and during the continuance of any
+Event of Default, Borrower shall hold the returned Inventory in trust for
+Silicon, and immediately notify Silicon of the return of the Inventory.",True,default_triggers; reporting_inspection,Collateral,Low,borrower_protective,{},R_BORROWER_PROTECTIVE_TYPE,Severity Low because: borrower_protective; borrower_protective type,[borrower-protective] Establishes borrower procedures for handling returned inventory when no default is continuing.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0036,,5,"4.8 VERIFICATION. Silicon may, from time to time, verify directly with
+the respective Account Debtors the validity, amount and other matters relating
+to the Accounts, by means of mail, telephone or otherwise, either in the name of
+Borrower or Silicon or such other name as Silicon may choose.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0037,,5,"4.9 NO LIABILITY. Silicon shall not be responsible or liable for any
+shortage or discrepancy in, damage to, or loss or destruction of, any goods, the
+sale or other disposition of which gives rise to an Account, or for any error,
+act, omission, or delay of any kind occurring in the settlement, failure to
+settle, collection or failure to collect any Account, or for settling any
+Account in good faith for less than the full amount thereof, nor shall Silicon
+be deemed to be responsible for any of Borrower's obligations under any contract
+or agreement giving rise to an Account. Nothing herein shall, however, relieve
+Silicon from liability for its own gross negligence or willful misconduct.
+
+
+5. ADDITIONAL DUTIES OF BORROWER.
+
+         5.1 FINANCIAL AND OTHER COVENANTS. Borrower shall at all times comply
+with the financial and other covenants set forth in the Schedule.",True,covenant_undertaking,Covenants,Medium,indemnity,{},R_IND_MED,Severity Medium because: indemnity; standard or narrow indemnity,Limits the lender's liability regarding collateral and accounts except for gross negligence or willful misconduct.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0038,,5,"5.2 INSURANCE. Borrower shall, at all times insure all of the tangible
+personal property Collateral and carry such other business insurance, with
+insurers reasonably acceptable to Silicon, in such form and amounts as Silicon
+may reasonably require and that are customary and in accordance with standard
+practices for Borrower's industry and locations, and Borrower shall provide
+evidence of such insurance to Silicon. All such insurance policies shall name
+Silicon as an additional loss payee, and shall contain a lenders loss payee
+endorsement in form reasonably acceptable to Silicon. Upon receipt of the
+proceeds of any such insurance, Silicon shall apply such proceeds in reduction
+of the Obligations as Silicon shall determine in its good faith business
+judgment, except that, provided no Default or Event of Default has occurred and
+is continuing, Silicon shall release to Borrower insurance proceeds with respect
+to Equipment totaling less than $100,000, which shall be utilized by Borrower
+for the replacement of the Equipment with respect to which the insurance
+proceeds were paid. Silicon may require reasonable assurance that the insurance
+proceeds so released will be so used. If Borrower fails to provide or pay for
+any
+
+                                      -5- SILICON VALLEY BANK                                  LOAN AND SECURITY AGREEMENT",True,collateral_security; enforcement_asset; default_triggers,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Requires the borrower to maintain insurance on tangible personal property collateral naming the lender as loss payee.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0039,,6,"insurance, Silicon may, but is not obligated to, obtain the same at Borrower's
+expense. Borrower shall promptly deliver to Silicon copies of all material
+reports made to insurance companies.",True,enforcement_asset,Penalties and charges,Medium,fee_or_cost,{},R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Permits the lender to obtain insurance at the borrower's expense if the borrower fails to provide it.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0040,,6,"5.3 REPORTS. Borrower, at its expense, shall provide Silicon with the
+written reports set forth in the Schedule, and such other written reports with
+respect to Borrower (including budgets, sales projections, operating plans and
+other financial documentation), as Silicon shall from time to time specify in
+its good faith business judgment.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0041,,6,"5.4 ACCESS TO COLLATERAL, BOOKS AND RECORDS. At reasonable times, and
+on not less than one Business Day's notice, Silicon, or its agents, shall have
+the right to inspect the Collateral, and the right to audit and copy Borrower's
+books and records, provided, however, that Silicon shall give Borrower not
+less than five (5) business days' notice of routine audits and inspections of
+the Collateral. Notwithstanding the foregoing, no notice shall be required if a
+Default or Event of Default has occurred and is continuing or a Material Adverse
+Change has occurred. Silicon shall take reasonable steps to keep confidential
+all information obtained in any such inspection or audit, but Silicon shall have
+the right to disclose any such information to its auditors, regulatory agencies,
+and attorneys, and pursuant to any subpoena or other legal process. The
+foregoing inspections and audits shall be at Borrower's expense and the charge
+therefor shall be $700 per person per day (or such higher amount as shall
+represent Silicon's then current standard charge for the same), plus reasonable
+out of pocket expenses.",True,charges_expenses; collateral_security; enforcement_asset; default_triggers; insolvency_cure; reporting_inspection,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Grants the lender inspection and audit rights over collateral and records at the borrower's expense.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0042,,6,"5.5 NEGATIVE COVENANTS. Except as may be permitted in the Schedule,
+Borrower shall not, without Silicon's prior written consent (which shall be a
+matter of its good faith business judgment), do any of the following: (i) merge
+or consolidate with another corporation or entity; (ii) acquire any assets,
+except in the ordinary course of business; (iii) enter into any other
+transaction outside the ordinary course of business; (iv) sell or transfer any
+Collateral, except for the sale of finished Inventory in the ordinary course of
+Borrower's business, and except for the sale of obsolete or unneeded Equipment
+in the ordinary course of business; (v) store any Inventory or other Collateral
+with any warehouseman or other third party; (vi) sell any Inventory on a
+sale-or-return, guaranteed sale, consignment, or other contingent basis; (vii)
+make any loans of any money or other assets (other than loans to any employees
+which shall not exceed $5000 outstanding at any time per employee); (viii) incur
+any debts, outside the ordinary course of business, which would result in a
+Material Adverse Change; (ix) guarantee or otherwise become liable with respect
+to the obligations of another party or entity; (x) pay or declare any dividends
+on Borrower's stock (except for dividends payable solely in stock of Borrower);",True,collateral_security; insolvency_cure; covenant_undertaking; restrictions_transfers,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,"Imposes broad negative covenants restricting mergers, asset acquisitions, debt incurrence, and dividends.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0043,,6,"(xi) redeem, retire, purchase or otherwise acquire, directly or indirectly, any
+of Borrower's stock, except that Borrower may redeem or repurchase its stock so
+long as (x) no Default or Event of Default has occurred and is continuing or
+will occur as a result there and (y) the aggregate price for all such
+redemptions and repurchases shall never exceed $1,500,000; (xii) make any change
+in Borrower's capital structure which would result in a Material Adverse Change;
+or (xiii) engage, directly or indirectly, in any business other than the
+businesses currently engaged in by Borrower or reasonably related thereto; or
+(xiv) dissolve or elect to dissolve. Transactions permitted by the foregoing
+provisions of this Section are only permitted if no Default or Event of Default
+would occur as a result of such transaction.",True,default_triggers; insolvency_cure,Covenants,Medium,negative_covenant,"{""broad_or_uncapped"": true}",R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,"Restricts stock redemptions, capital changes, business scope, and dissolution subject to an exception.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0044,,6,"5.6 LITIGATION COOPERATION. Should any third-party suit or proceeding
+be instituted by or against Silicon with respect to any Collateral or relating
+to Borrower, Borrower shall, without expense to Silicon, make available Borrower
+and its officers, employees and agents and Borrower's books and records, to the
+extent that Silicon may deem them reasonably necessary in order to prosecute or
+defend any such suit or proceeding.",True,collateral_security; reporting_inspection,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Requires Borrower to cooperate and provide records in third-party suits relating to Collateral or Borrower.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0045,,6,"5.7 FURTHER ASSURANCES. Borrower agrees, at its expense, on request by
+Silicon, to execute all documents and take all actions, as Silicon, may, in its
+good faith business judgment, deem necessary or useful in order to perfect and
+maintain Silicon's perfected first-priority security interest in the Collateral
+(subject to Permitted Liens), and in order to fully consummate the transactions
+contemplated by this Agreement.
+
+6. TERM.
+
+         6.1 MATURITY DATE. This Agreement shall continue in effect until the
+maturity date set forth on the Schedule (the ""Maturity Date""), subject to
+Section 6.3 below.",True,interest; repayment_terms; collateral_security,Collateral,Medium,security_or_guarantee,{},R_SEC_MED,Severity Medium because: security_or_guarantee; standard security interest or guarantee,Requires Borrower to execute documents and take actions to maintain a perfected security interest in the Collateral.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0046,,6,"6.2 EARLY TERMINATION. This Agreement may be terminated prior to the
+Maturity Date as follows: (i) by Borrower, effective three Business Days after
+written notice of termination is given to Silicon; or (ii) by Silicon at any
+time after the occurrence and during the continuance of an Event of Default,
+without notice, effective immediately. If this Agreement is terminated by
+Borrower or by Silicon under this Section 6.2, Borrower shall pay to Silicon a
+termination fee in an amount equal to one percent (1.0%) of the Revolving Credit
+Limit, provided that no termination fee shall be charged if the credit facility
+hereunder is replaced with a new facility from another division of Silicon
+Valley Bank. The termination fee shall be
+
+                                      -6- SILICON VALLEY BANK                                  LOAN AND SECURITY AGREEMENT",True,principal_amount; repayment_terms; charges_expenses; collateral_security; enforcement_asset; default_triggers; termination_accel,Penalties and charges,Medium,fee_or_cost,{},R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Specifies conditions for early termination and requires payment of a termination fee.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0047,,7,"due and payable on the effective date of termination and thereafter shall bear
+interest at a rate equal to the highest rate applicable to any of the
+Obligations.",True,interest; payable_due; termination_accel,Penalties and charges,High,fee_or_cost,"{""floating_or_reset_rate"": true, ""penal_rate_or_default_charge"": true}",R_FEE_HIGH,Severity High because: fee_or_cost; penal_rate_or_default_charge,States that unpaid termination fees become due and bear interest at the highest applicable rate.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0048,,7,"6.3 PAYMENT OF OBLIGATIONS. On the Maturity Date or on any earlier
+effective date of termination, Borrower shall pay and perform in full all
+Obligations, whether evidenced by installment notes or otherwise, and whether or
+not all or any part of such Obligations are otherwise then due and payable.
+Without limiting the generality of the foregoing, if on the Maturity Date, or on
+any earlier effective date of termination, there are any outstanding Letters of
+Credit issued by Silicon or issued by another institution based upon an
+application, guarantee, indemnity or similar agreement on the part of Silicon,
+then on such date Borrower shall provide to Silicon cash collateral in an amount
+equal to 105% of the face amount of all such Letters of Credit plus all
+interest, fees and cost due or to become due in connection therewith (as
+estimated by Silicon in its good faith business judgment), to secure all of the
+Obligations relating to said Letters of Credit, pursuant to Silicon's then
+standard form cash pledge agreement. Notwithstanding any termination of this
+Agreement, all of Silicon's security interests in all of the Collateral and all
+of the terms and provisions of this Agreement shall continue in full force and
+effect until all Obligations have been paid and performed in full; provided that
+Silicon may, in its sole discretion, refuse to make any further Loans after
+termination.",True,interest; repayment_terms; payable_due; charges_expenses; collateral_security; termination_accel; lender_powers_remedies,Termination,High,acceleration_or_termination_right,"{""sole_discretion"": true, ""survives_repayment"": true}",R_ACCEL_HIGH,Severity High because: acceleration_or_termination_right; acceleration or termination right by notice,"Governs final payment obligations, cash collateralization of letters of credit, and survival of security interests upon termination.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0049,,7,"No termination shall in any way affect or impair any right or
+remedy of Silicon, nor shall any such termination relieve Borrower of any
+Obligation to Silicon, until all of the Obligations have been paid and performed
+in full. Upon payment and performance in full of all the Obligations and
+termination of this Agreement, Silicon shall promptly terminate its financing
+statements with respect to the Borrower and deliver to Borrower such other
+documents as may be required to fully terminate Silicon's security interests.
+
+7. EVENTS OF DEFAULT AND REMEDIES.",True,collateral_security; default_triggers; termination_accel; lender_powers_remedies,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,"Administrative boilerplate concerning termination remedies, release of liens, and the event of default section heading.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0050,,7,"7.1 EVENTS OF DEFAULT. The occurrence of any of the following events
+shall constitute an ""Event of Default"" under this Agreement, and Borrower shall
+give Silicon immediate written notice thereof: (a) Any warranty, representation,
+statement, report or certificate made or delivered to Silicon by Borrower or any
+of Borrower's officers, employees or agents, now or in the future, shall be
+untrue or misleading in a material respect when made or deemed to be made; or",True,default_triggers,Default conditions,Medium,other_default_trigger,{},R_ODEF_MED,Severity Medium because: other_default_trigger; other default trigger,"Triggers an Event of Default if any representation, report, or certificate is untrue or misleading in a material respect.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0051,,7,"(b) Borrower shall fail to pay when due any Loan or any interest thereon or any
+other monetary Obligation; or (c) the total Loans and other Obligations
+outstanding at any time shall exceed the Credit Limit; or (d) Borrower shall
+fail to comply with any of the financial covenants set forth in the Schedule, or
+shall fail to perform any other non-monetary Obligation which by its nature
+cannot be cured, or shall fail to permit Silicon to conduct an inspection or
+audit as specified in Section 5.4 hereof; or (e) Borrower shall fail to perform
+any other non-monetary Obligation, which failure is not cured within five
+Business Days after the date due; or (f) any levy, assessment, attachment,
+seizure, lien or encumbrance (other than a Permitted Lien) is made on all or any
+part of the Collateral which is not cured within 10 days after the occurrence of
+the same; or (g) any default or event of default occurs under any obligation
+having a balance in excess of $50,000 which is secured by a Permitted Lien,
+which is not cured within any applicable cure period or waived in writing by the
+holder of the Permitted Lien; or (h) Borrower breaches any material contract or
+obligation, which has resulted or may reasonably be expected to result in a
+Material Adverse Change; or (i) Dissolution, termination of existence,
+insolvency or business failure of Borrower;",True,interest; principal_amount; collateral_security; enforcement_asset; default_triggers; insolvency_cure; termination_accel; covenant_undertaking; reporting_inspection,Default conditions,Medium,other_default_trigger,"{""cure_or_grace_10_days_or_more"": true}",R_ODEF_MED,Severity Medium because: other_default_trigger; other default trigger,"Lists multiple Event of Default triggers related to payment failures, credit limits, covenants, liens, and material contract breaches with various cure periods.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0052,,7,"or appointment of a receiver,
+trustee or custodian, for all or any part of the property of, assignment for the
+benefit of creditors by, or the commencement of any proceeding by Borrower under
+any reorganization, bankruptcy, insolvency, arrangement, readjustment of debt,
+dissolution or liquidation law or statute of any jurisdiction, now or in the
+future in effect; or (j) the commencement of any proceeding against Borrower or
+any guarantor of any of the Obligations under any reorganization, bankruptcy,
+insolvency, arrangement, readjustment of debt, dissolution or liquidation law or
+statute of any jurisdiction, now or in the future in effect, which is not cured
+by the dismissal thereof within 30 days after the date commenced; or (k)
+revocation or termination of, or limitation or denial of liability upon, any
+guaranty of the Obligations or any attempt to do any of the foregoing, or
+commencement of proceedings by any guarantor of any of the Obligations under any
+bankruptcy or insolvency law; or (l) revocation or termination of, or limitation
+or denial of liability upon, any pledge of any certificate of deposit,
+securities or other property or asset of any kind pledged by any third party to
+secure any or all of the Obligations, or any attempt to do any of the foregoing,
+or commencement of proceedings by or against any such third party under any
+bankruptcy or insolvency law;",True,collateral_security; insolvency_cure; termination_accel; restrictions_transfers; lender_powers_remedies,Default conditions,High,insolvency_default_trigger,"{""reaches_affiliates_or_third_parties"": true}",R_TRIG_HIGH,Severity High because: insolvency_default_trigger; core default trigger with short or no >=10d cure window,"Triggers an Event of Default upon insolvency proceedings, receiverships, guarantor revocations, or third-party pledge revocations.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0053,,7,"or (m) Borrower makes any payment on account of
+any indebtedness or obligation which has been subordinated to the Obligations
+other than as permitted in the applicable subordination agreement, or if any
+Person who has subordinated such indebtedness or obligations terminates or in
+any way limits his subordination agreement; or (n) any ""person"" or ""group""
+(within the meaning of Section 13(d) and 14(d)(2) of the Securities Exchange Act
+of 1934) becomes the ""beneficial owner"" (as defined in Rule 13d-3 under the
+Securities Exchange Act of 1934), directly or indirectly, of a sufficient number
+of shares of all classes of stock then outstanding of Borrower ordinarily
+entitled to vote in the election of directors, empowering such ""person"" or
+""group"" to elect a majority of the Board
+
+                                      -7- SILICON VALLEY BANK                                  LOAN AND SECURITY AGREEMENT",True,collateral_security; termination_accel; covenant_undertaking; restrictions_transfers,Default conditions,High,change_of_control_trigger,"{""reaches_affiliates_or_third_parties"": true}",R_TRIG_HIGH,Severity High because: change_of_control_trigger; core default trigger with short or no >=10d cure window,Triggers an Event of Default upon unauthorized subordinated debt payments or a change of control of the Board of Directors.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0054,,8,"of Directors of Borrower, who did not have such power before such transaction;
+or (o) Borrower shall generally not pay its debts as they become due, or
+Borrower shall conceal, remove or transfer any part of its property, with intent
+to hinder, delay or defraud its creditors, or make or suffer any transfer of any
+of its property which may be fraudulent under any bankruptcy, fraudulent
+conveyance or similar law; or (p) a Material Adverse Change shall occur; or (q)
+Silicon, acting in good faith and in a commercially reasonable manner, deems
+itself insecure because of the occurrence of an event prior to the effective
+date hereof of which Silicon had no knowledge on the effective date or because
+of the occurrence of an event on or subsequent to the effective date. Silicon
+may cease making any Loans hereunder during any of the above cure periods, and
+thereafter if an Event of Default has occurred and is continuing. (For purposes
+of this Article VII, any reference to the Borrower shall be deemed to include
+the Borrower's Subsidiaries.)",True,collateral_security; default_triggers; insolvency_cure; restrictions_transfers,Default conditions,Medium,other_default_trigger,{},R_ODEF_MED,Severity Medium because: other_default_trigger; other default trigger,"Includes additional default triggers for debt non-payment, fraudulent transfers, Material Adverse Changes, and a lender insecurity clause.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0055,,8,"7.2 REMEDIES. Upon the occurrence and during the continuance of any
+Event of Default, and at any time thereafter, Silicon, at its option, and
+without notice or demand of any kind (all of which are hereby expressly waived
+by Borrower), may do any one or more of the following: (a) Cease making Loans or
+otherwise extending credit to Borrower under this Agreement or any other Loan
+Document; (b) Accelerate and declare all or any part of the Obligations to be
+immediately due, payable, and performable, notwithstanding any deferred or
+installment payments allowed by any instrument evidencing or relating to any
+Obligation; (c) Take possession of any or all of the Collateral wherever it may
+be found, and for that purpose Borrower hereby authorizes Silicon without
+judicial process to enter onto any of Borrower's premises without interference
+to search for, take possession of, keep, store, or remove any of the Collateral,
+and remain on the premises or cause a custodian to remain on the premises in
+exclusive control thereof, without charge for so long as Silicon deems it
+necessary, in its good faith business judgment, in order to complete the
+enforcement of its rights under this Agreement or any other agreement; provided,
+however, that should Silicon seek to take possession of any of the Collateral by
+court process, Borrower hereby irrevocably waives:",True,repayment_terms; charges_expenses; collateral_security; enforcement_asset; default_triggers; termination_accel; lender_powers_remedies,Termination,Critical,acceleration_or_termination_right,"{""automatic"": true, ""no_cure_or_grace"": true, ""no_notice"": true, ""self_help_without_notice"": true}",R_ACCEL_CRIT,"Severity Critical because: acceleration_or_termination_right; automatic, no_notice","Grants the lender rights upon default to cease loans, accelerate obligations, and take possession of collateral without notice or judicial process.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0056,,8,"(i) any bond and any surety
+or security relating thereto required by any statute, court rule or otherwise as
+an incident to such possession; (ii) any demand for possession prior to the
+commencement of any suit or action to recover possession thereof; and (iii) any
+requirement that Silicon retain possession of, and not dispose of, any such
+Collateral until after trial or final judgment; (d) Require Borrower to assemble
+any or all of the Collateral and make it available to Silicon at places
+designated by Silicon which are reasonably convenient to Silicon and Borrower,
+and to remove the Collateral to such locations as Silicon may deem advisable;",True,collateral_security; enforcement_asset; restrictions_transfers; lender_powers_remedies,Collateral,Medium,remedy_on_default,{},R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),"Requires Borrower to assemble collateral and waives certain statutory bonds, demands, and trial possession requirements.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0057,,8,"(e) Complete the processing, manufacturing or repair of any Collateral prior to
+a disposition thereof and, for such purpose and for the purpose of removal,
+Silicon shall have the right to use Borrower's premises, vehicles, hoists,
+lifts, cranes, and other Equipment and all other property without charge; (f)
+Sell, lease or otherwise dispose of any of the Collateral, in its condition at
+the time Silicon obtains possession of it or after further manufacturing,
+processing or repair, at one or more public and/or private sales, in lots or in
+bulk, for cash, exchange or other property, or on credit, and to adjourn any
+such sale from time to time without notice other than oral announcement at the
+time scheduled for sale. Silicon shall have the right to conduct such
+disposition on Borrower's premises without charge, for such time or times as
+Silicon deems reasonable, or on Silicon's premises, or elsewhere and the
+Collateral need not be located at the place of disposition. Silicon may directly
+or through any affiliated company purchase or lease any Collateral at any such
+public disposition, and if permissible under applicable law, at any private
+disposition. Any sale or other disposition of Collateral shall not relieve
+Borrower of any liability Borrower may have if any Collateral is defective as to
+title or physical condition or otherwise at the time of sale;",True,charges_expenses; collateral_security; enforcement_asset; covenant_undertaking; restrictions_transfers,Collateral,Medium,remedy_on_default,"{""reaches_affiliates_or_third_parties"": true}",R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),"Permits the lender to process, repair, lease, or sell collateral at public or private sales.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0058,,8,"(g) Demand payment
+of, and collect any Accounts and General Intangibles comprising Collateral and,
+in connection therewith, Borrower irrevocably authorizes Silicon to endorse or
+sign Borrower's name on all collections, receipts, instruments and other
+documents, to take possession of and open mail addressed to Borrower and remove
+therefrom payments made with respect to any item of the Collateral or proceeds
+thereof, and, in Silicon's good faith business judgment, to grant extensions of
+time to pay, compromise claims and settle Accounts and the like for less than
+face value; (h) Offset against any sums in any of Borrower's general, special or
+other Deposit Accounts with Silicon against any or all of the Obligations; and",True,collateral_security; enforcement_asset,Collateral,Medium,remedy_on_default,{},R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),"Authorizes the lender to collect accounts, endorse instruments, open mail, and offset deposit accounts upon default.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0059,,8,"(i) Demand and receive possession of any of Borrower's federal and state income
+tax returns and the books and records utilized in the preparation thereof or
+referring thereto. All reasonable attorneys"" fees, expenses, costs, liabilities
+and obligations incurred by Silicon with respect to the foregoing shall be added
+to and become part of the Obligations, shall be due on demand, and shall bear
+interest at a rate equal to the highest interest rate applicable to any of the
+Obligations. Without limiting any of Silicon's rights and remedies, from and
+after the occurrence and during the continuance of any Event of Default, the
+interest rate applicable to the Obligations shall be increased by an additional
+three percent per annum (the ""Default Rate"").",True,interest; rate_of_interest; margin_spread_reset; charges_expenses; enforcement_asset; default_triggers; reporting_inspection; lender_powers_remedies,Penalties and charges,High,fee_or_cost,"{""broad_or_uncapped"": true, ""penal_rate_or_default_charge"": true}",R_FEE_HIGH,Severity High because: fee_or_cost; penal_rate_or_default_charge,Adds incurred legal fees and expenses to the obligations and imposes a default interest rate increase.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0060,,8,"7.3 STANDARDS FOR DETERMINING COMMERCIAL REASONABLENESS. Borrower and
+Silicon agree that a sale or other disposition (collectively, ""sale"") of any
+Collateral which complies with the following standards will conclusively be
+deemed to be commercially reasonable: (i) Notice of the sale is given to
+Borrower at least ten days prior to the sale, and, in the case of a public sale,
+notice of the sale is published at least five days before the sale in a
+newspaper of general circulation in the county where the sale is to be
+conducted; (ii) Notice of the sale describes the collateral in general,
+non-specific terms; (iii) The sale is conducted at a place designated by
+Silicon, with or without the Collateral being present; (iv) The sale commences
+at any time
+
+                                      -8- SILICON VALLEY BANK                                  LOAN AND SECURITY AGREEMENT",True,collateral_security,Collateral,Medium,remedy_on_default,"{""cure_or_grace_10_days_or_more"": true}",R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),"Establishes commercial reasonableness standards for collateral sales, including a ten-day notice requirement.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0061,,9,"between 8:00 a.m. and 6:00 p.m.; (v) Payment of the purchase price in cash or by
+cashier's check or wire transfer is required; (vi) With respect to any sale of
+any of the Collateral, Silicon may (but is not obligated to) direct any
+prospective purchaser to ascertain directly from Borrower any and all
+information concerning the same. Silicon shall be free to employ other methods
+of noticing and selling the Collateral, in its discretion, if they are
+commercially reasonable.",True,collateral_security; restrictions_transfers,Collateral,Medium,remedy_on_default,{},R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),"Specifies sale timing, cash payment terms, and permits the lender to use other commercially reasonable noticing methods.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0062,,9,"7.4 POWER OF ATTORNEY. Upon the occurrence and during the continuance
+of any Event of Default, without limiting Silicon's other rights and remedies,
+Borrower grants to Silicon an irrevocable power of attorney coupled with an
+interest, authorizing and permitting Silicon (acting through any of its
+employees, attorneys or agents) at any time, at its option, but without
+obligation, with or without notice to Borrower, and at Borrower's expense, to do
+any or all of the following, in Borrower's name or otherwise, but Silicon agrees
+that if it exercises any right hereunder, it will do so in good faith and in a
+commercially reasonable manner: (a) Execute on behalf of Borrower any documents
+that Silicon may, in its good faith business judgment, deem advisable in order
+to perfect and maintain Silicon's security interest in the Collateral, or in
+order to exercise a right of Borrower or Silicon, or in order to fully
+consummate all the transactions contemplated under this Agreement, and all other
+Loan Documents; (b) Execute on behalf of Borrower, any invoices relating to any
+Account, any draft against any Account Debtor and any notice to any Account
+Debtor, any proof of claim in bankruptcy, any Notice of Lien, claim of
+mechanic's, materialman's or other lien, or assignment or satisfaction of
+mechanic's, materialman's or other lien; (c) Take control in any manner of any
+cash or non-cash items of payment or proceeds of Collateral;",True,interest; collateral_security; enforcement_asset; default_triggers; insolvency_cure; restrictions_transfers; lender_powers_remedies,Collateral,Medium,remedy_on_default,{},R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),"Grants the lender an irrevocable power of attorney upon default to execute documents, sign invoices, and control payments.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0063,,9,"endorse the name of
+Borrower upon any instruments, or documents, evidence of payment or Collateral
+that may come into Silicon's possession; (d) Endorse all checks and other forms
+of remittances received by Silicon; (e) Pay, contest or settle any lien, charge,
+encumbrance, security interest and adverse claim in or to any of the Collateral,
+or any judgment based thereon, or otherwise take any action to terminate or
+discharge the same; (f) Grant extensions of time to pay, compromise claims and
+settle Accounts and General Intangibles for less than face value and execute all
+releases and other documents in connection therewith; (g) Pay any sums required
+on account of Borrower's taxes or to secure the release of any liens therefor,
+or both; (h) Settle and adjust, and give releases of, any insurance claim that
+relates to any of the Collateral and obtain payment therefor; (i) Instruct any
+third party having custody or control of any books or records belonging to, or
+relating to, Borrower to give Silicon the same rights of access and other rights
+with respect thereto as Silicon has under this Agreement; and (j) Take any
+action or pay any sum required of Borrower pursuant to this Agreement and any
+other Loan Documents.",True,interest; charges_expenses; collateral_security; enforcement_asset; termination_accel,Collateral,Medium,remedy_on_default,{},R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),"Grants the lender a power of attorney to endorse instruments, settle claims, and take actions regarding collateral.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0064,,9,"Any and all reasonable sums paid and any and all
+reasonable costs, expenses, liabilities, obligations and attorneys"" fees
+incurred by Silicon with respect to the foregoing shall be added to and become
+part of the Obligations, shall be payable on demand, and shall bear interest at
+a rate equal to the highest interest rate applicable to any of the Obligations.
+In no event shall Silicon's rights under the foregoing power of attorney or any
+of Silicon's other rights under this Agreement be deemed to indicate that
+Silicon is in control of the business, management or properties of Borrower.",True,interest; payable_due; charges_expenses,Penalties and charges,High,fee_or_cost,"{""penal_rate_or_default_charge"": true}",R_FEE_HIGH,Severity High because: fee_or_cost; penal_rate_or_default_charge,"Requires the borrower to pay expenses and attorney's fees incurred by Silicon, bearing interest at the highest applicable rate.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0065,,9,"7.5 APPLICATION OF PROCEEDS. All proceeds realized as the result of any
+sale of the Collateral shall be applied by Silicon first to the reasonable
+costs, expenses, liabilities, obligations and attorneys"" fees incurred by
+Silicon in the exercise of its rights under this Agreement, second to the
+interest due upon any of the Obligations, and third to the principal of the
+Obligations, in such order as Silicon shall determine in its sole discretion.
+Any surplus shall be paid to Borrower or other persons legally entitled thereto;
+Borrower shall remain liable to Silicon for any deficiency. If, Silicon, in its
+good faith business judgment, directly or indirectly enters into a deferred
+payment or other credit transaction with any purchaser at any sale of
+Collateral, Silicon shall have the option, exercisable at any time, in its good
+faith business judgment, of either reducing the Obligations by the principal
+amount of purchase price or deferring the reduction of the Obligations until the
+actual receipt by Silicon of the cash therefor.",True,interest; principal_amount; charges_expenses; collateral_security; lender_powers_remedies,Collateral,Medium,remedy_on_default,"{""sole_discretion"": true}",R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),Governs the application of proceeds from collateral sales and grants the lender discretion in reducing obligations.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0066,,9,"7.6 REMEDIES CUMULATIVE. In addition to the rights and remedies set
+forth in this Agreement, Silicon shall have all the other rights and remedies
+accorded a secured party under the California Uniform Commercial Code and under
+all other applicable laws, and under any other instrument or agreement now or in
+the future entered into between Silicon and Borrower, and all of such rights and
+remedies are cumulative and none is exclusive. Exercise or partial exercise by
+Silicon of one or more of its rights or remedies shall not be deemed an
+election, nor bar Silicon from subsequent exercise or partial exercise of any
+other rights or remedies. The failure or delay of Silicon to exercise any rights
+or remedies shall not operate as a waiver thereof, but all rights and remedies
+shall continue in full force and effect until all of the Obligations have been
+fully paid and performed.
+
+                                      -9- SILICON VALLEY BANK                                  LOAN AND SECURITY AGREEMENT",True,collateral_security; covenant_undertaking; lender_powers_remedies,Collateral,Medium,remedy_on_default,{},R_REM_MED,Severity Medium because: remedy_on_default; standard post-default secured-party remedy (S1),Specifies that all secured party rights and remedies under the Uniform Commercial Code are cumulative.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0067,,10,"8. DEFINITIONS. As used in this Agreement, the following terms have the
+following meanings:
+
+         ""Account Debtor"" means the obligor on an Account.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0068,,10,"""Accounts"" means all present and future ""accounts"" as defined in the
+California Uniform Commercial Code in effect on the date hereof with such
+additions to such term as may hereafter be made, and includes without limitation
+all accounts receivable and other sums owing to Borrower.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0069,,10,"""Affiliate"" means, with respect to any Person, a relative, partner,
+shareholder, director, officer, or employee of such Person, or any parent or
+subsidiary of such Person, or any Person controlling, controlled by or under
+common control with such Person.
+
+         ""Business Day"" means a day on which Silicon is open for business.
+
+         ""Code"" means the Uniform Commercial Code as adopted and in effect in
+the State of California from time to time.
+
+         ""Collateral"" has the meaning set forth in Section 2 above.",True,collateral_security,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,"Provides administrative definitions for standard terms like Affiliate, Business Day, Code, and Collateral.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0070,,10,"""continuing"" and ""during the continuance of"" when used with reference
+to a Default or Event of Default means that the Default or Event of Default has
+occurred and has not been either waived in writing by Silicon or cured within
+any applicable cure period.
+
+         ""Credit Limit"" means the aggregate amount of the Revolving Credit Limit
+and the Term Credit Limit.
+
+         ""Default"" means any event which with notice or passage of time or both,
+would constitute an Event of Default.
+
+         ""Default Rate"" has the meaning set forth in Section 7.2 above.",True,rate_of_interest; principal_amount; default_triggers; insolvency_cure,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,"Defines administrative terms related to defaults, credit limits, and default rates without setting independent triggers.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0071,,10,"""Deposit Accounts"" means all present and future ""deposit accounts"" as
+defined in the California Uniform Commercial Code in effect on the date hereof
+with such additions to such term as may hereafter be made, and includes without
+limitation all general and special bank accounts, demand accounts, checking
+accounts, savings accounts and certificates of deposit.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0072,,10,"""Eligible Accounts"" means Accounts and General Intangibles arising in
+the ordinary course of Borrower's business from the sale of goods or the
+rendition of services, or the non-exclusive licensing of Intellectual Property,
+which Silicon, in its good faith business judgment, shall deem eligible for
+borrowing. Without limiting the fact that the determination of which Accounts
+are eligible for borrowing is a matter of Silicon's good faith business
+judgment, the following (the ""Minimum Eligibility Requirements"") are the minimum
+requirements for a Account to be an Eligible Account:",True,collateral_security,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,Defines Eligible Accounts and establishes minimum eligibility criteria for borrowing.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0073,,10,"(i) the Account must not
+be outstanding for more than 120 days from its invoice date (the ""Eligibility
+Period""), (ii) the Account must not represent progress billings, or be due under
+a fulfillment or requirements contract with the Account Debtor, (iii) the
+Account must not be subject to any contingencies (including Accounts arising
+from sales on consignment, guaranteed sale or other terms pursuant to which
+payment by the Account Debtor may be conditional), (iv) the Account must not be
+owing from an Account Debtor with whom Borrower has any dispute involving an
+amount in excess of $50,000 (whether or not relating to the particular Account),
+(v) the Account must not be owing from an Affiliate of Borrower, (vi) the
+Account must not be owing from an Account Debtor which is subject to any
+insolvency or bankruptcy proceeding, or whose financial condition is not
+acceptable to Silicon, or which, fails or goes out of a material portion of its
+business, (vii) the Account must not be owing from the United States or any
+department, agency or instrumentality thereof (unless there has been compliance,
+to Silicon's satisfaction, with the United States Assignment of Claims Act),
+(viii) the Account must not be owing from an Account Debtor located outside the
+United States or Canada (unless pre-approved by Silicon in its discretion in
+writing, or backed by a letter of credit satisfactory to Silicon, or FCIA
+insured satisfactory to Silicon), (ix) the Account must not be owing from an",True,collateral_security; enforcement_asset; insolvency_cure; covenant_undertaking; restrictions_transfers,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,Outlines specific invoice age and debtor conditions required for accounts to be deemed eligible.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0074,C0073,10,"Account Debtor to whom Borrower is or may be liable for goods purchased from
+such Account Debtor or otherwise (but, in such case, the Account will be deemed
+not eligible only to the extent of any amounts owed by Borrower to such Account
+Debtor). Accounts owing from one Account Debtor will not be deemed Eligible
+Accounts to the extent they exceed 25% of the total Accounts outstanding, except
+for accounts owing from the Federal Probation Office A/K/A U.S. Administrative
+Courts which shall not be deemed Eligible Accounts to the extent they exceed 35%
+of the total Accounts outstanding. In addition, if more than 50% of the Accounts
+owing from an Account Debtor are outstanding for a period longer than their
+Eligibility Period (without regard to unapplied credits) or are otherwise not
+eligible Accounts, then all Accounts owing from that Account Debtor will be
+deemed ineligible for borrowing. Silicon may, from time to time, in its good
+faith business judgment, revise the Minimum Eligibility Requirements, upon
+written notice to Borrower.",True,covenant_undertaking,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,Specifies concentration limits and eligibility thresholds for specific account debtors.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0075,,10,"""Equipment"" means all present and future ""equipment"" as defined in the
+California Uniform Commercial Code in effect on the date hereof with such
+additions to such term as may hereafter be made, and includes without limitation
+all machinery, fixtures, goods, vehicles (including motor vehicles and
+trailers), and any interest in any of the foregoing.
+
+         ""Event of Default"" means any of the events set forth in Section 7.1 of
+this Agreement.
+
+         ""GAAP"" means generally accepted accounting principles consistently
+applied.
+
+                                      -10- SILICON VALLEY BANK                                  LOAN AND SECURITY AGREEMENT",True,interest; collateral_security; default_triggers,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,"Provides standard administrative definitions for Equipment, Event of Default, and GAAP.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0076,,11,"""General Intangibles"" means all present and future ""general
+intangibles"" as defined in the California Uniform Commercial Code in effect on
+the date hereof with such additions to such term as may hereafter be made, and
+includes without limitation all Intellectual Property, payment intangibles,
+royalties, contract rights, goodwill, franchise agreements, purchase orders,
+customer lists, route lists, telephone numbers, domain names, claims, income tax
+refunds, security and other deposits, options to purchase or sell real or
+personal property, rights in all litigation presently or hereafter pending
+(whether in contract, tort or otherwise), insurance policies (including without
+limitation key man, property damage, and business interruption insurance),
+payments of insurance and rights to payment of any kind.",True,collateral_security; enforcement_asset; restrictions_transfers,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,"Defines General Intangibles to include intellectual property, payment intangibles, and contract rights.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0077,,11,"""good faith business judgment"" means honesty in fact and good faith (as
+defined in Section 1201 of the Code) in the exercise of Silicon's business
+judgment.
+
+         ""including"" means including (but not limited to).",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0078,,11,"""Intellectual Property"" means all present and future (a) copyrights,
+copyright rights, copyright applications, copyright registrations and like
+protections in each work of authorship and derivative work thereof, whether
+published or unpublished, (b) trade secret rights, including all rights to
+unpatented inventions and know-how, and confidential information; (c) mask work
+or similar rights available for the protection of semiconductor chips; (d)
+patents, patent applications and like protections including without limitation
+improvements, divisions, continuations, renewals, reissues, extensions and
+continuations-in-part of the same; (e) trademarks, servicemarks, trade styles,
+and trade names, whether or not any of the foregoing are registered, and all
+applications to register and registrations of the same and like protections, and
+the entire goodwill of the business of Borrower connected with and symbolized by
+any such trademarks; (f) computer software and computer software products; (g)
+designs and design rights; (h) technology; (i) all claims for damages by way of
+past, present and future infringement of any of the rights included above; (j)
+all licenses or other rights to use any property or rights of a type described
+above.",True,collateral_security,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,"Provides a comprehensive definition encompassing copyrights, trade secrets, patents, and trademarks.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0079,,11,"""Inventory"" means all present and future ""inventory"" as defined in the
+California Uniform Commercial Code in effect on the date hereof with such
+additions to such term as may hereafter be made, and includes without limitation
+all merchandise, raw materials, parts, supplies, packing and shipping materials,
+work in process and finished products, including without limitation such
+inventory as is temporarily out of Borrower's custody or possession or in
+transit and including any returned goods and any documents of title representing
+any of the above.",True,enforcement_asset,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,"Defines Inventory to include merchandise, raw materials, supplies, and work in process.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0080,,11,"""Investment Property"" means all present and future investment property,
+securities, stocks, bonds, debentures, debt securities, partnership interests,
+limited liability company interests, options, security entitlements, securities
+accounts, commodity contracts, commodity accounts, and all financial assets held
+in any securities account or otherwise, and all options and warrants to purchase
+any of the foregoing, wherever located, and all other securities of every kind,
+whether certificated or uncertificated.",True,collateral_security,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,"Defines Investment Property covering securities, stocks, bonds, and financial assets.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0081,,11,"""Loan Documents"" means, collectively, this Agreement, the
+Representations, and all other present and future documents, instruments and
+agreements between Silicon and Borrower, including, but not limited to those
+relating to this Agreement, and all amendments and modifications thereto and
+replacements therefor.
+
+         ""Loans"" means, collectively, the Revolving Loans and the Term Loan.
+
+         ""Maximum Rate"" has the meaning given it in Section 1.2.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0082,,11,"""Material Adverse Change"" means any of the following: (i) a material
+adverse change in the business, operations, or financial or other condition of
+the Borrower, or (ii) a material impairment of the prospect of repayment of any
+portion of the Obligations; or (iii) a material impairment of the value or
+priority of Silicon's security interests in the Collateral.",True,repayment_terms; collateral_security; insolvency_cure,Default conditions,Medium,other_default_trigger,{},R_ODEF_MED,Severity Medium because: other_default_trigger; other default trigger,Defines Material Adverse Change as a material adverse change in business conditions or repayment prospects.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0083,,11,"""Obligations"" means all present and future Loans, advances, debts,
+liabilities, obligations, guaranties, covenants, duties and indebtedness at any
+time owing by Borrower to Silicon, whether evidenced by this Agreement or any
+note or other instrument or document, or otherwise, whether arising from an
+extension of credit, opening of a letter of credit, banker's acceptance, loan,
+guaranty, indemnification or otherwise, whether direct or indirect (including,
+without limitation, those acquired by assignment and any participation by
+Silicon in Borrower's debts owing to others), absolute or contingent, due or to
+become due, including, without limitation, all interest, charges, expenses,
+fees, attorney's fees, expert witness fees, audit fees, letter of credit fees,
+collateral monitoring fees, closing fees, facility fees, termination fees,
+minimum interest charges and any other sums chargeable to Borrower under this
+Agreement or under any other Loan Documents.",True,interest; charges_expenses; collateral_security; termination_accel; covenant_undertaking; reporting_inspection; restrictions_transfers,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,"Defines Obligations to include all present and future loans, advances, debts, and associated fees.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0084,,11,"""Other Property"" means the following as defined in the California
+Uniform Commercial Code in effect on the date hereof with such additions to such
+term as may hereafter be made, and all rights relating thereto: all present and
+future ""commercial tort claims"" (including without limitation any commercial
+tort claims identified in the Representations), ""documents"", ""instruments"",
+""promissory notes"", ""chattel paper"", ""letters of credit"", ""letter-of-credit
+rights"", ""fixtures"", ""farm products"" and
+
+                                      -11- SILICON VALLEY BANK                                  LOAN AND SECURITY AGREEMENT",True,collateral_security,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,"Defines Other Property to include commercial tort claims, documents, and instruments.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0085,,12,"""money""; and all other goods and personal property of every kind, tangible and
+intangible, whether or not governed by the California Uniform Commercial Code.",True,collateral_security,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,Concludes the definition of Other Property to cover money and all other personal property.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0086,,12,"""Permitted Liens"" means the following: (i) purchase money security
+interests in specific items of Equipment; (ii) leases of specific items of
+Equipment; (iii) liens for taxes not yet payable; (iv) additional security
+interests and liens consented to in writing by Silicon, which consent may be
+withheld in its good faith business judgment; (v) security interests being
+terminated substantially concurrently with this Agreement; (vi) liens of
+materialmen, mechanics, warehousemen, carriers, or other similar liens arising
+in the ordinary course of business and securing obligations which are not
+delinquent; (vii) liens incurred in connection with the extension, renewal or
+refinancing of the indebtedness secured by liens of the type described above in
+clauses (i) or (ii) above, provided that any extension, renewal or replacement
+lien is limited to the property encumbered by the existing lien and the
+principal amount of the indebtedness being extended, renewed or refinanced does
+not increase; (viii) Liens in favor of customs and revenue authorities which
+secure payment of customs duties in connection with the importation of goods,
+and (ix) liens described in the Disclosure Schedule attached hereto.",True,principal_amount; collateral_security; default_triggers; termination_accel; reporting_inspection; restrictions_transfers,Collateral,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,Defines Permitted Liens that are exceptions to the general prohibition against encumbering collateral.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0087,,12,"Silicon
+will have the right to require, as a condition to its consent under subparagraph
+(iv) above, that the holder of the additional security interest or lien sign an
+intercreditor agreement on Silicon's then standard form, acknowledge that the
+security interest is subordinate to the security interest in favor of Silicon,
+and agree not to take any action to enforce its subordinate security interest so
+long as any Obligations remain outstanding, and that Borrower agree that any
+uncured default in any obligation secured by the subordinate security interest
+shall also constitute an Event of Default under this Agreement.",True,interest; collateral_security; default_triggers; termination_accel; covenant_undertaking,Default conditions,Medium,other_default_trigger,{},R_ODEF_MED,Severity Medium because: other_default_trigger; other default trigger,Establishes that any uncured default in a subordinate security interest constitutes an Event of Default.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0088,,12,"""Person"" means any individual, sole proprietorship, partnership, joint
+venture, trust, unincorporated organization, association, corporation,
+government, or any agency or political division thereof, or any other entity.
+
+         ""Representations"" means the written Representations and Warranties
+provided by Borrower to Silicon referred to in the Schedule.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0089,,12,"""Reserves"" means, as of any date of determination, such amounts as
+Silicon may from time to time establish and revise in its good faith business
+judgment, reducing the amount of Loans, Letters of Credit and other financial
+accommodations which would otherwise be available to Borrower under the lending
+formula(s) provided in the Schedule: (a) to reflect events, conditions,
+contingencies or risks which, as determined by Silicon in its good faith
+business judgment, do or may adversely affect (i) the Collateral or any other
+property which is security for the Obligations or its value (including without
+limitation any increase in delinquencies of Accounts), (ii) the assets, business
+or prospects of Borrower or any Guarantor, or (iii) the security interests and
+other rights of Silicon in the Collateral (including the enforceability,
+perfection and priority thereof); or (b) to reflect Silicon's good faith belief
+that any collateral report or financial information furnished by or on behalf of
+Borrower or any Guarantor to Silicon is or may have been incomplete, inaccurate
+or misleading in any material respect; or (c) in respect of any state of facts
+which Silicon determines in good faith constitutes an Event of Default or may,
+with notice or passage of time or both, constitute an Event of Default.",True,collateral_security; default_triggers; termination_accel,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,Defines reserves established by the lender in its discretion that reduce available loan amounts.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0090,,12,"""Unbilled Receivable"" means an Eligible Account for which an invoice
+has not been sent to the Account Debtor, but the product or service giving rise
+to such Eligible Account has been delivered and Borrower has sufficient
+information to prepare the invoice.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0091,,12,"Other Terms. All accounting terms used in this Agreement, unless
+otherwise indicated, shall have the meanings given to such terms in accordance
+with GAAP, consistently applied. All other terms contained in this Agreement,
+unless otherwise indicated, shall have the meanings provided by the Code, to the
+extent such terms are defined therein.
+
+9. GENERAL PROVISIONS.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0092,,12,"9.1 INTEREST COMPUTATION. In computing interest on the Obligations, all
+checks, wire transfers and other items of payment received by Silicon (including
+proceeds of Accounts and payment of the Obligations in full) shall be deemed
+applied by Silicon on account of the Obligations two Business Days after receipt
+by Silicon of immediately available funds, and, for purposes of the foregoing,
+any such funds received after 12:00 Noon on any day shall be deemed received on
+the next Business Day. Silicon shall not, however, be required to credit
+Borrower's account for the amount of any item of payment which is unsatisfactory
+to Silicon in its good faith business judgment, and Silicon may charge
+Borrower's loan account for the amount of any item of payment which is returned
+to Silicon unpaid.",True,interest; charges_expenses; covenant_undertaking,Repayment,Low,other,{},R_OTHER_LOW,Severity Low because: other; general or residual term,Establishes the timing and manner for computing interest and applying payments received by the lender.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0093,,12,"9.2 APPLICATION OF PAYMENTS. All payments with respect to the
+Obligations may be applied, and in Silicon's good faith business judgment
+reversed and re-applied, to the Obligations, in such order and manner as Silicon
+shall determine in its good faith business judgment.
+
+                                      -12- SILICON VALLEY BANK                                  LOAN AND SECURITY AGREEMENT",True,repayment_terms; collateral_security,Repayment,Low,other,{},R_OTHER_LOW,Severity Low because: other; general or residual term,Permits the lender to apply and re-apply payments to obligations in its discretion.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0094,,13,"9.3 CHARGES TO ACCOUNTS. Silicon may, in its discretion, require that
+Borrower pay monetary Obligations in cash to Silicon, or charge them to
+Borrower's Loan account, in which event they will bear interest at the same rate
+applicable to the Loans. Silicon may also, in its discretion, charge any
+monetary Obligations to Borrower's Deposit Accounts maintained with Silicon.",True,interest; charges_expenses,Penalties and charges,High,fee_or_cost,"{""penal_rate_or_default_charge"": true}",R_FEE_HIGH,Severity High because: fee_or_cost; penal_rate_or_default_charge,Allows the lender to charge monetary obligations to loan accounts bearing standard interest or deposit accounts.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0095,,13,"9.4 MONTHLY ACCOUNTINGS. Silicon shall provide Borrower monthly with an
+account of advances, charges, expenses and payments made pursuant to this
+Agreement. Such account shall be deemed correct, accurate and binding on
+Borrower and an account stated (except for reverses and reapplications of
+payments made and corrections of errors discovered by Silicon), unless Borrower
+notifies Silicon in writing to the contrary within 60 days after such account is
+rendered, describing the nature of any alleged errors or omissions.",True,charges_expenses,Covenants,Low,reporting_or_insurance_covenant,"{""cure_or_grace_10_days_or_more"": true}",R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Requires the lender to provide monthly accountings which are binding unless disputed within a specified timeframe.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0096,,13,"9.5 NOTICES. All notices to be given under this Agreement shall be in
+writing and shall be given either personally or by reputable private delivery
+service or by regular first-class mail, or certified mail return receipt
+requested, addressed to Silicon or Borrower at the addresses shown in the
+heading to this Agreement, or at any other address designated in writing by one
+party to the other party. Notices to Silicon shall be directed to the Commercial
+Finance Division, to the attention of the Division Manager or the Division
+Credit Manager, with a copy to Silicon's attorney, Dorothy H. Bjorck, Thompson &
+Knight L.L.P., 1700 Pacific Avenue, Suite 3300, Dallas, Texas 75201. Notices to
+Borrower shall be directed to the Chief Financial Officer, with a copy to the
+Chief Executive Officer. All notices shall be deemed to have been given upon
+delivery in the case of notices personally delivered, or at the expiration of
+one Business Day following delivery to the private delivery service, or two
+Business Days following the deposit thereof in the United States mail, with
+postage prepaid.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0097,,13,"9.6 SEVERABILITY. Should any provision of this Agreement be held by any
+court of competent jurisdiction to be void or unenforceable, such defect shall
+not affect the remainder of this Agreement, which shall continue in full force
+and effect.",True,lender_powers_remedies,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,Standard severability clause preserving remaining agreement provisions if one is held void.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0098,,13,"9.7 INTEGRATION. This Agreement and such other written agreements,
+documents and instruments as may be executed in connection herewith are the
+final, entire and complete agreement between Borrower and Silicon and supersede
+all prior and contemporaneous negotiations and oral representations and
+agreements, all of which are merged and integrated in this Agreement. There are
+no oral understandings, representations or agreements between the parties which
+are not set forth in this Agreement or in other written agreements signed by the
+parties in connection herewith. THIS AGREEMENT AND THE OTHER LOAN DOCUMENTS
+REPRESENT THE FINAL AGREEMENT BETWEEN THE PARTIES AND MAY NOT BE CONTRADICTED BY
+EVIDENCE OF PRIOR, CONTEMPORANEOUS, OR SUBSEQUENT ORAL AGREEMENTS OF THE
+PARTIES. THERE ARE NO UNWRITTEN ORAL AGREEMENTS OF THE PARTIES.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0099,,13,"9.8 WAIVERS; INDEMNITY. The failure of Silicon at any time or times to
+require Borrower to strictly comply with any of the provisions of this Agreement
+or any other Loan Document shall not waive or diminish any right of Silicon
+later to demand and receive strict compliance therewith. Any waiver of any
+default shall not waive or affect any other default, whether prior or
+subsequent, and whether or not similar. None of the provisions of this Agreement
+or any other Loan Document shall be deemed to have been waived by any act or
+knowledge of Silicon or its agents or employees, but only by a specific written
+waiver signed by an authorized officer of Silicon and delivered to Borrower.
+Borrower waives the benefit of all statutes of limitations relating to any of
+the Obligations or this Agreement or any other Loan Document, and Borrower
+waives demand, protest, notice of protest and notice of default or dishonor,
+notice of payment and nonpayment, release, compromise, settlement, extension or
+renewal of any commercial paper, instrument, account, General Intangible,
+document or guaranty at any time held by Silicon on which Borrower is or may in
+any way be liable, and notice of any action taken by Silicon, unless expressly
+required by this Agreement.",True,penalties_fees; collateral_security; default_triggers; insolvency_cure; covenant_undertaking; lender_powers_remedies,Covenants,Low,other,{},R_OTHER_LOW,Severity Low because: other; general or residual term,Preserves lender rights upon non-compliance and includes broad waivers of notice and statutes of limitations by the borrower.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0100,,13,"Borrower hereby agrees to indemnify Silicon and its
+affiliates, subsidiaries, parent, directors, officers, employees, agents, and
+attorneys, and to hold them harmless from and against any and all claims, debts,
+liabilities, demands, obligations, actions, causes of action, penalties, costs
+and expenses (including reasonable attorneys"" fees), of every kind, which they
+may sustain or incur based upon or arising out of any of the Obligations, or any
+relationship or agreement between Silicon and Borrower, or any other matter,
+relating to Borrower or the Obligations; provided that this indemnity shall not
+extend to damages proximately caused by the indemnitee's own gross negligence or
+willful misconduct. Notwithstanding any provision in this Agreement to the
+contrary, the indemnity agreement set forth in this Section shall survive any
+termination of this Agreement and shall for all purposes continue in full force
+and effect.",True,penalties_fees; charges_expenses; termination_accel; covenant_undertaking,Covenants,High,indemnity,"{""broad_or_uncapped"": true, ""reaches_affiliates_or_third_parties"": true, ""survives_repayment"": true}",R_IND_HIGH,"Severity High because: indemnity; broad_or_uncapped, survives_repayment",Contains a broad indemnification obligation running to the lender and its affiliates that survives agreement termination.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0101,,13,"9.9 NO LIABILITY FOR ORDINARY NEGLIGENCE. Neither Silicon, nor any of
+its directors, officers, employees, agents, attorneys or any other Person
+affiliated with or representing Silicon SHALL BE LIABLE FOR ANY CLAIMS, DEMANDS,
+LOSSES OR DAMAGES, OF ANY KIND WHATSOEVER, MADE, CLAIMED, INCURRED OR SUFFERED
+BY BORROWER OR ANY OTHER PARTY THROUGH THE ORDINARY NEGLIGENCE OF SILICON, OR
+ANY OF ITS DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, ATTORNEYS OR ANY OTHER PERSON
+AFFILIATED WITH
+
+                                      -13- SILICON VALLEY BANK                                  LOAN AND SECURITY AGREEMENT",True,collateral_security,Covenants,Low,borrower_protective,"{""reaches_affiliates_or_third_parties"": true}",R_BORROWER_PROTECTIVE_TYPE,Severity Low because: borrower_protective; borrower_protective type,[borrower-protective] Limits lender and affiliate liability for ordinary negligence.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0102,,14,"OR REPRESENTING SILICON, but nothing herein shall relieve Silicon from liability
+for its own gross negligence or willful misconduct.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0103,,14,"9.10 AMENDMENT. The terms and provisions of this Agreement may not be
+waived or amended, except in a writing executed by Borrower and a duly
+authorized officer of Silicon.
+
+         9.11 TIME OF ESSENCE. Time is of the essence in the performance by
+Borrower of each and every obligation under this Agreement.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0104,,14,"9.12 ATTORNEYS FEES AND COSTS. Borrower shall reimburse Silicon for all
+reasonable attorneys"" fees and all filing, recording, search, title insurance,
+appraisal, audit, and other reasonable costs incurred by Silicon, pursuant to,
+or in connection with, or relating to this Agreement (whether or not a lawsuit
+is filed), including, but not limited to, any reasonable attorneys"" fees and
+costs Silicon incurs in order to do the following: prepare and negotiate this
+Agreement and all present and future documents relating to this Agreement;
+obtain legal advice in connection with this Agreement or Borrower; enforce, or
+seek to enforce, any of its rights; prosecute actions against, or defend actions
+by, Account Debtors; commence, intervene in, or defend any action or proceeding;
+initiate any complaint to be relieved of the automatic stay in bankruptcy; file
+or prosecute any probate claim, bankruptcy claim, third-party claim, or other
+claim; examine, audit, copy, and inspect any of the Collateral or any of
+Borrower's books and records; protect, obtain possession of, lease, dispose of,
+or otherwise enforce Silicon's security interest in, the Collateral; and
+otherwise represent Silicon in any litigation relating to Borrower. In
+satisfying Borrower's obligation hereunder to reimburse Silicon for attorneys
+fees, Borrower may, for convenience, issue checks directly to Silicon's
+attorneys, Thompson & Knight L.L.P., but Borrower acknowledges and agrees that
+Thompson & Knight L.L.P.",True,interest; charges_expenses; collateral_security; enforcement_asset; insolvency_cure; termination_accel; reporting_inspection; restrictions_transfers,Penalties and charges,Medium,fee_or_cost,"{""broad_or_uncapped"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Requires the borrower to reimburse the lender for all reasonable legal and administrative costs and expenses.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0105,,14,"is representing only Silicon and not Borrower in
+connection with this Agreement. If either Silicon or Borrower files any lawsuit
+against the other predicated on a breach of this Agreement, the prevailing party
+in such action shall be entitled to recover its reasonable costs and attorneys""
+fees, including (but not limited to) reasonable attorneys"" fees and costs
+incurred in the enforcement of, execution upon or defense of any order, decree,
+award or judgment. All attorneys"" fees and costs to which Silicon may be
+entitled pursuant to this Paragraph shall immediately become part of Borrower's
+Obligations, shall be due on demand, and shall bear interest at a rate equal to
+the highest interest rate applicable to any of the Obligations.",True,interest; charges_expenses; default_triggers; termination_accel; lender_powers_remedies,Penalties and charges,High,fee_or_cost,"{""penal_rate_or_default_charge"": true}",R_FEE_HIGH,Severity High because: fee_or_cost; penal_rate_or_default_charge,"Entitles the prevailing party to recover costs and fees in litigation, with unpaid amounts bearing default interest.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0106,,14,"9.13 BENEFIT OF AGREEMENT. The provisions of this Agreement shall be
+binding upon and inure to the benefit of the respective successors, assigns,
+heirs, beneficiaries and representatives of Borrower and Silicon; provided,
+however, that Borrower may not assign or transfer any of its rights under this
+Agreement without the prior written consent of Silicon, and any prohibited
+assignment shall be void. No consent by Silicon to any assignment shall release
+Borrower from its liability for the Obligations.",True,covenant_undertaking; restrictions_transfers,Covenants,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,Restricts the borrower from assigning rights under the agreement without prior written consent.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0107,,14,"9.14 JOINT AND SEVERAL LIABILITY. If Borrower consists of more than one
+Person, their liability shall be joint and several, and the compromise of any
+claim with, or the release of, any Borrower shall not constitute a compromise
+with, or a release of, any other Borrower.",True,covenant_undertaking,Collateral,High,security_or_guarantee,"{""joint_and_several"": true}",R_SEC_HIGH,Severity High because: security_or_guarantee; joint_and_several,Establishes joint and several liability for co-borrowers.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0108,,14,"9.15 LIMITATION OF ACTIONS. Any claim or cause of action by Borrower
+against Silicon, its directors, officers, employees, agents, accountants or
+attorneys, based upon, arising from, or relating to this Loan Agreement, or any
+other Loan Document, or any other transaction contemplated hereby or thereby or
+relating hereto or thereto, or any other matter, cause or thing whatsoever,
+occurred, done, omitted or suffered to be done by Silicon, its directors,
+officers, employees, agents, accountants or attorneys, shall be barred unless
+asserted by Borrower by the commencement of an action or proceeding in a court
+of competent jurisdiction by the filing of a complaint within one year after the
+first act, occurrence or omission upon which such claim or cause of action, or
+any part thereof, is based, and the service of a summons and complaint on an
+officer of Silicon, or on any other person authorized to accept service on
+behalf of Silicon, within thirty (30) days thereafter. Borrower agrees that such
+one-year period is a reasonable and sufficient time for Borrower to investigate
+and act upon any such claim or cause of action. The one-year period provided
+herein shall not be waived, tolled, or extended except by the written consent of
+Silicon in its sole discretion. This provision shall survive any termination of
+this Loan Agreement or any other Loan Document.",True,termination_accel; covenant_undertaking; lender_powers_remedies,Covenants,Low,other,"{""survives_repayment"": true}",R_OTHER_LOW,Severity Low because: other; general or residual term,"Imposes a strict one-year limitation period on any borrower claims against the lender, surviving agreement termination.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0109,,14,"9.16 PARAGRAPH HEADINGS; CONSTRUCTION. Paragraph headings are only used
+in this Agreement for convenience. Borrower and Silicon acknowledge that the
+headings may not describe completely the subject matter of the applicable
+paragraph, and the headings shall not be used in any manner to construe, limit,
+define or interpret any term or provision of this Agreement. This Agreement has
+been fully reviewed and negotiated between the parties and no uncertainty or
+ambiguity in any term or provision of this Agreement shall be construed strictly
+against Silicon or Borrower under any rule of construction or otherwise.
+
+                                      -14- SILICON VALLEY BANK                                  LOAN AND SECURITY AGREEMENT",True,collateral_security; covenant_undertaking,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,Boilerplate provision stating that paragraph headings are for convenience only and do not interpret provisions.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0110,,15,"9.17 GOVERNING LAW; JURISDICTION; VENUE. This Agreement and all acts
+and transactions hereunder and all rights and obligations of Silicon and
+Borrower shall be governed by the laws of the State of California. As a material
+part of the consideration to Silicon to enter into this Agreement, Borrower (i)
+agrees that all actions and proceedings relating directly or indirectly to this
+Agreement shall, at Silicon's option, be litigated in courts located within
+California, and that the exclusive venue therefor shall be Santa Clara County;
+(ii) consents to the jurisdiction and venue of any such court and consents to
+service of process in any such action or proceeding by personal delivery or any
+other method permitted by law; and (iii) waives any and all rights Borrower may
+have to object to the jurisdiction of any such court, or to transfer or change
+the venue of any such action or proceeding.",True,restrictions_transfers; lender_powers_remedies,Covenants,Low,other,{},R_OTHER_LOW,Severity Low because: other; general or residual term,Selects governing law and establishes mandatory forum selection and jurisdiction in California.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0111,,15,"9.18 MUTUAL WAIVER OF JURY TRIAL. BORROWER AND SILICON EACH HEREBY
+WAIVE THE RIGHT TO TRIAL BY JURY IN ANY ACTION OR PROCEEDING BASED UPON, ARISING
+OUT OF, OR IN ANY WAY RELATING TO, THIS AGREEMENT OR ANY OTHER PRESENT OR FUTURE
+INSTRUMENT OR AGREEMENT BETWEEN SILICON AND BORROWER, OR ANY CONDUCT, ACTS OR
+OMISSIONS OF SILICON OR BORROWER OR ANY OF THEIR DIRECTORS, OFFICERS, EMPLOYEES,
+AGENTS, ATTORNEYS OR ANY OTHER PERSONS AFFILIATED WITH SILICON OR BORROWER, IN
+ALL OF THE FOREGOING CASES, WHETHER SOUNDING IN CONTRACT OR TORT OR OTHERWISE.",True,lender_powers_remedies,Covenants,Low,other,{},R_OTHER_LOW,Severity Low because: other; general or residual term,Contains a mutual waiver of jury trial for any actions relating to the agreement.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0112,,15,"9.19 SPECIAL PROVISIONS REGARDING INTEREST. Silicon, Borrower, Secured
+Guarantors and the other parties to the Loan Documents intend to contract in
+strict compliance with applicable usury law from time to time in effect. In
+furtherance thereof such persons stipulate and agree that none of the terms and
+provisions contained in the Loan Documents shall ever be construed to provide
+for interest in excess of the Maximum Rate. Neither Borrower, Secured Guarantors
+nor any present or future guarantors, endorsers, or other Persons hereafter
+becoming liable for payment of any Obligation shall ever be liable for unearned
+interest thereon or shall ever be required to pay interest thereon in excess of
+the Maximum Rate, and the provisions of this section shall control over all
+other provisions of the Loan Documents which may be in conflict or apparent
+conflict herewith. Silicon expressly disavows any intention to charge or collect
+excessive unearned interest or finance charges in the event the maturity of any
+Obligation is accelerated. If (a) the maturity of any Obligation is accelerated
+for any reason, (b) any Obligation is prepaid and as a result any amounts held
+to constitute interest are determined to be in excess of the legal maximum, or",True,interest; repayment_terms; charges_expenses; collateral_security; termination_accel,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,Provides that interest shall not exceed the maximum rate permitted by applicable usury law.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0113,,15,"(c) Silicon or any other holder of any or all of the Obligations shall otherwise
+collect moneys which are determined to constitute interest which would otherwise
+increase the interest on any or all of the Obligations to an amount in excess of
+that permitted to be charged by applicable law then in effect, then all such
+sums determined to constitute interest in excess of such legal limit shall,
+without penalty, be promptly applied to reduce the then outstanding principal of
+the related Obligations or, at Silicon's or such holder's option, promptly
+returned to each Borrower or the other payor thereof upon such determination. In
+determining whether or not the interest paid or payable, under any specific
+circumstance, exceeds the maximum amount permitted under applicable law, Silicon
+and each Borrower (and any other payors thereof) shall to the greatest extent
+permitted under applicable law, (i) characterize any non-principal payment as an
+expense, fee or premium rather than as interest, (ii) exclude voluntary
+prepayments and the effects thereof, and (iii) amortize, prorate, allocate, and
+spread the total amount of interest throughout the entire contemplated term of
+the instruments evidencing the Obligations in accordance with the amounts
+outstanding from time to time thereunder and the maximum legal rate of interest
+from time to time in effect under applicable law in order to lawfully charge the
+maximum amount of interest permitted under applicable law.",True,interest; rate_of_interest; margin_spread_reset; principal_amount; repayment_terms; penalties_fees; charges_expenses,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,Details the application or refund of any interest collected in excess of the legal maximum limit.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0114,,15,"9.20. NON-CONSUMER LOAN. Chapter 346 of the Texas Finance Code (which
+regulates certain revolving credit loan accounts and revolving tri-party
+accounts) does not apply to the Loan Documents.
+
+            [THE REMAINDER OF THIS PAGE IS INTENTIONALLY LEFT BLANK]
+
+                                      -15- SILICON VALLEY BANK                                  LOAN AND SECURITY AGREEMENT",True,collateral_security,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,States that specific consumer loan finance code provisions do not apply to the loan documents.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0115,,16,"Borrower:                                         Silicon:
+
+   PHARMCHEM, INC.                                SILICON VALLEY BANK",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0116,,16,"By /s/ Joe Halligan                            By    /s/ Thomas N. Tone
+      ---------------------------------              ---------------------------
+      President or Vice President                 Title Portfolio Manager
+
+   By /s/ David A. Lattanzio
+      ---------------------------------
+      Secretary or Ass't Secretary
+
+Form: -3 (3/7/02)
+Version -0 SILICON VALLEY BANK",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0117,,17,"SCHEDULE TO
+
+                           LOAN AND SECURITY AGREEMENT
+
+BORROWER: PHARMCHEM, INC.
+
+ADDRESS:  4600 N. BEACH STREET
+          HALTOM CITY, TEXAS 76137
+
+DATE:     JUNE 26, 2003
+
+This Schedule forms an integral part of the Loan and Security Agreement between
+Silicon Valley Bank and the above-borrower of even date.
+
+1. CREDIT LIMIT",True,principal_amount; collateral_security,none,none,heading_or_boilerplate,{},R_N1_NON_RISK,Severity none because: heading_or_boilerplate; N1 non-risk type,Provides administrative header and identifying details for the loan schedule.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0118,,17,"Prior to the making of any advance by Silicon with respect to the Revolving Line
+of Credit or the Term Loan (or contemporaneously with the making of any such
+advance), all outstanding subordinated debt of the Borrower shall be repaid or
+the applicable creditor shall have entered into a subordination agreement with
+respect thereto on Silicon's standard form, and all liens and security interests
+in favor of Comerica Bank shall be released.",True,collateral_security; covenant_undertaking,none,none,closing_condition,{},R_N1_NON_RISK,Severity none because: closing_condition; N1 non-risk type,Sets conditions prior to loan advances regarding subordinated debt and prior lien releases.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0119,,17,"<TABLE>
+<S>                                 <C>
+(Section 1.1a):
+REVOLVING LINE OF CREDIT:           An amount not to exceed the lesser of: (i) $3,500,000 at any one time outstanding (the
+                                    ""Maximum Credit Limit""); or (ii) 80% (the ""Advance Rate"") of the amount of Borrower's Eligible
+                                    Receivables and Borrower's Unbilled Receivables (as such terms are defined in Section 8 above).",True,principal_amount,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,Defines the revolving credit limit and advance rate percentage based on eligible receivables.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0120,,17,"Silicon may, from time to time, modify the Advance Rate, in its good faith business judgment,
+                                    upon notice to the Borrower, based on changes in collection experience with respect to Accounts
+                                    or other issues or factors relating to the Accounts or other Collateral.
+</TABLE>",True,collateral_security,Covenants,Low,other,"{""sole_discretion"": true}",R_OTHER_LOW,Severity Low because: other; general or residual term,Grants the lender discretion to modify the advance rate upon notice based on collateral performance.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0121,,18,"Silicon Valley Bank                      Schedule to Loan and Security Agreement
+
+<TABLE>
+<S>                                 <C>
+TERM LOAN:                          An amount not to exceed $1,500,000 to be funded on or before the 90th day after the date
+                                    hereof, which may be made in multiple advances of not less than $500,000 each.
+
+LETTER OF CREDIT SUBLIMIT
+(Section 1.6):                      $100,000
+</TABLE>
+
+<TABLE>
+<S>                                 <C>
+2.   INTEREST.
+
+     INTEREST RATE (Section 1.2):",True,interest; collateral_security,Financial terms,Low,rate_term,{},R_RATE_LOW,Severity Low because: rate_term; fixed or standard baseline rate term,"Specifies the term loan amount, funding window, advance sizes, and letter of credit sublimit.",False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0122,,18,"(Revolving Line of Credit):    During the period from the date hereof until and including October 31, 2003, a rate equal to the
+                                    ""Prime Rate"" in effect from time to time, plus 1.0% per annum, and thereafter, BUT ONLY IF THE
+                                    MINIMUM DEBT SERVICE COVERAGE RATIO FOR THE TWO IMMEDIATELY PRECEDING FISCAL QUARTERS HAS BEEN
+                                    NOT LESS THAN 1.5 TO 1.0, a rate equal to the ""Prime Rate"" in effect from time to time plus 0.5%
+                                    per annum; provided that after the Term Loan is repaid in full, beginning on the day after the
+                                    end of the first fiscal quarter of the Borrower in which the Borrower's consolidated EBITDA (as
+                                    defined below under ""Financial Covenants"") for the two immediately preceding fiscal quarters is
+                                    greater than zero, the rate shall be reduced to a rate equal to the ""Prime Rate"" in effect from
+                                    time to time. Interest shall be calculated on the basis of a 360-day year for the actual number
+                                    of days elapsed.",True,interest; rate_of_interest; margin_spread_reset; covenant_undertaking; financial_ratios,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,Establishes the floating interest rate structure and tier reductions tied to financial ratios.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0123,,18,"""Prime Rate"" means the rate announced from time to time by Silicon as its
+                                    ""prime rate;"" it is a base rate upon which other rates charged by Silicon are based, and it is
+                                    not necessarily the best rate available at Silicon. The interest rate applicable to the
+                                    Obligations shall change on each date there is a change in the Prime Rate.
+
+     (Term Loan):                   A rate equal to the Prime Rate in effect from time to time, plus 3.0% per annum.
+
+3.   FEES (Section 1.4):",True,interest; rate_of_interest; margin_spread_reset; charges_expenses,Financial terms,Medium,rate_term,"{""floating_or_reset_rate"": true}",R_RATE_MED,Severity Medium because: rate_term; floating_or_reset_rate,Defines the prime rate base and the term loan interest spread.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0124,,18,"COMMITMENT FEE
+     (Revolving Line of Credit):    $10,000 that is fully earned at closing, $2,500 of which is payable on September 30, 2003 (and
+                                    which was paid prior
+</TABLE>
+
+                                      -2- Silicon Valley Bank                      Schedule to Loan and Security Agreement",True,principal_amount; payable_due; charges_expenses; collateral_security,Penalties and charges,Medium,fee_or_cost,{},R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Outlines the revolving commitment fee amount and scheduled installment payment dates.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0125,,19,"<TABLE>
+<S>                                 <C>
+                                    to closing), $2,500 of which is payable on December 31, 2003, $2,500 of which is payable on
+                                    March 31, 2004 and $2,500 of which is payable on June 30, 2004; provided that if the
+                                    Revolving Line of Credit is terminated prior to the maturity date set forth below in this
+                                    Schedule, the remaining balance of this commitment fee shall be due and payable in full on such
+                                    date.
+
+     COMMITMENT FEE
+     (Term Loan):                   $15,000 payable at closing.",True,principal_amount; repayment_terms; payable_due; charges_expenses; termination_accel,Penalties and charges,Medium,fee_or_cost,{},R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Continues commitment fee installment schedules and requires full payment upon early termination.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0126,,19,"UNUSED LINE FEE:               0.50% per annum multiplied by the difference between the Revolving Credit Limit and the average
+                                    daily aggregate principal balance of the Revolving Loans outstanding during each calendar month,
+                                    payable in arrears (prorated for any partial month at the beginning and at termination of this
+                                    Agreement).",True,margin_spread_reset; principal_amount; charges_expenses; termination_accel,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Imposes an unused line fee calculated on the credit limit versus outstanding balances.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0127,,19,"COLLATERAL MONITORING
+     FEE:                           $1,000, per month, payable in arrears (prorated for any partial month at the beginning and at
+                                    termination of this Agreement).",True,charges_expenses; collateral_security; termination_accel,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Assesses a monthly collateral monitoring fee payable in arrears.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0128,,19,"PAYMENT FEE REVOLVING
+     LINE OF CREDIT:                1% of the Revolving Credit Limit, $35,000, if the Revolving Line of Credit is terminated
+                                    prior to the maturity date set forth below in this schedule.
+
+     PREPAYMENT FEE FOR
+     TERM LOAN:                     None.
+
+4.   MATURITY DATE
+     (Section 6.1):
+     REVOLVING LOANS:               Three (3) years from the date of this Agreement.",True,principal_amount; repayment_terms; charges_expenses; termination_accel,Penalties and charges,Medium,fee_or_cost,"{""charges_apply"": true}",R_FEE_MED,"Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",Establishes an early termination payment fee for the revolving line and notes no prepayment fee for the term loan.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0129,,19,"TERM LOAN:                     Three years from the date of funding the Term Loan with principal installments of $41,667.00
+                                    payable on the last day of each month.",True,principal_amount; repayment_terms; payable_due,Repayment,Low,prepayment_term,{},R_PREPAY_LOW,Severity Low because: prepayment_term; routine prepayment without extra charges,Specifies the term loan maturity timeline and monthly principal installment payment obligations.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0130,,19,"5.   FINANCIAL COVENANTS
+     (Section 5.1):                 Borrower shall comply with each of the following covenants. Compliance shall be determined as of
+                                    the end of each month, except as otherwise specifically provided below:",True,covenant_undertaking,Covenants,Medium,financial_ratio_covenant,{},R_COV_CAP,Severity Medium because: financial_ratio_covenant; R2 covenant cap at Medium,Requires borrower compliance with financial covenants measured at month-end.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0131,,19,"Debt Service Coverage Ratio. Borrower shall maintain a Debt Service Coverage Ratio at all times
+                                    prior to the repayment in full of the Term
+</TABLE>
+
+                                      -3- Silicon Valley Bank                      Schedule to Loan and Security Agreement",True,repayment_terms; collateral_security; financial_ratios,Covenants,Medium,financial_ratio_covenant,{},R_COV_CAP,Severity Medium because: financial_ratio_covenant; R2 covenant cap at Medium,Mandates maintenance of a minimum debt service coverage ratio until term loan repayment.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0132,,20,"<TABLE>
+<S>                                 <C>
+                                    Loan of not less than 1.5 to 1.0 calculated as of the end of each fiscal quarter of the Borrower
+                                    for the two immediately preceding fiscal quarters then ended; provided that for the fiscal
+                                    quarter ending June 30, 2003, Borrower shall maintain a Debt Service Coverage Ratio of not less
+                                    than 1.25 to 1.0 calculated as of such date for such fiscal quarter only.",True,financial_ratios,Covenants,Medium,financial_ratio_covenant,{},R_COV_CAP,Severity Medium because: financial_ratio_covenant; R2 covenant cap at Medium,Sets specific debt service coverage ratio thresholds and quarterly calculation parameters.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0133,,20,"Liquidity Ratio. Borrower shall maintain a Liquidity Ratio at all times prior to the repayment
+                                    in full of the Term Loan of not less than 1.25 to 1.0, calculated as of the end of each calendar
+                                    month.",True,repayment_terms,Covenants,Medium,financial_ratio_covenant,{},R_COV_CAP,Severity Medium because: financial_ratio_covenant; R2 covenant cap at Medium,Requires borrower to maintain a minimum liquidity ratio calculated monthly.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0134,,20,"Minimum Tangible Net Worth Borrower shall maintain a Tangible Net Worth as of the end of each
+                                    month of not less than the amount set forth below opposite such amount:",True,financial_ratios,Covenants,Medium,financial_ratio_covenant,{},R_COV_CAP,Severity Medium because: financial_ratio_covenant; R2 covenant cap at Medium,Establishes the obligation to maintain minimum tangible net worth levels.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0135,,20,"MONTH END                                              AMOUNT
+                                         5/03                                               $7,000,000
+                                         6/03                                                7,400,000
+                                         7/03                                                7,500,000
+                                         8/03                                                7,500,000
+                                         9/03                                                7,500,000
+                                        10/03                                                7,800,000
+                                        11/03                                                7,800,000
+                                        12/03                                                7,800,000",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0136,,20,"The minimum Tangible Net Worth amounts for each calendar year, beginning with 2004, shall be
+                                    established by Silicon, in its sole and absolute discretion, based upon Borrower's annual
+                                    operating budget and projections for such year delivered to Silicon pursuant to subsection 8 of
+                                    Section 6 of this Schedule. Silicon shall notify Borrower in writing of such amounts once they
+                                    are determined.",True,financial_ratios; reporting_inspection,Covenants,Medium,financial_ratio_covenant,"{""sole_discretion"": true}",R_COV_CAP,Severity Medium because: financial_ratio_covenant; R2 covenant cap at Medium,Grants the lender sole discretion to determine future minimum tangible net worth amounts based on budgets.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0137,,20,"DEFINITIONS.                        For purposes of the foregoing financial covenants, the following term shall have the following
+                                    meaning:",True,covenant_undertaking,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,Provides introductory text for defined terms applicable to financial covenants.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0138,,20,"""Cash Equivalents"" means (i) securities issued or directly and fully guaranteed or insured by
+                                    the United States Government or any agency or instrumentality thereof which mature within ninety
+                                    (90) days from the date of acquisition, and (ii) time deposits and certificates of deposit,
+                                    which mature within ninety (90) days from the date of acquisition, of Silicon or any other
+                                    domestic commercial bank having capital and surplus in excess of $200,000,000, which has, or the
+                                    holding company of which has, a commercial paper rating of at least
+</TABLE>
+
+                                      -4- Silicon Valley Bank                      Schedule to Loan and Security Agreement",True,repayment_terms; collateral_security; enforcement_asset,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,Defines Cash Equivalents for administrative purposes without specifying operational payment or default terms.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0139,,21,"<TABLE>
+<S>                                 <C>
+                                    A-1 or the equivalent thereof by Standard & Poors Corporation or P-1 or the equivalent thereof
+                                    by Moody's Investors Service, Inc.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0140,,21,"""Cash Flow"" of any Person shall mean, for any applicable period of determination, (a) the sum of
+                                    (i) the Net Income (or loss) of such Person for such period (after deduction for income taxes
+                                    and other taxes of such Person determined by reference to income or profits of such Person),
+                                    plus (ii), to the extent deducted in the computation of such Net Income, the amount of
+                                    depreciation and amortization expense for such period.",True,repayment_terms,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,Provides a standard accounting definition of Cash Flow without establishing active financial obligations.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0141,,21,"""Current Maturities of Long Term Indebtedness"" shall mean, in respect of a Person and as of any
+                                    applicable date of determination thereof, that portion of Long Term Indebtedness that should be
+                                    classified as current in accordance with GAAP.",True,restrictions_transfers,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,Defines current maturities of long-term indebtedness according to standard accounting principles.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0142,,21,"""Debt Service Coverage Ratio"" shall mean, in respect of the Borrower and for any period of
+                                    determination, the ratio of (a) Cash Flow of the Borrower and its Subsidiaries for such period,
+                                    to (b) the sum of all principal payments made by Borrower and its Subsidiaries on all
+                                    indebtedness, including but not limited to the Term Loan, during such period.",True,principal_amount; financial_ratios; restrictions_transfers,Covenants,Medium,financial_ratio_covenant,{},R_COV_CAP,Severity Medium because: financial_ratio_covenant; R2 covenant cap at Medium,Defines the debt service coverage ratio used for measuring ongoing financial compliance.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0143,,21,"""EBITDA"" shall mean, with respect to any Person, and as to any applicable period of
+                                    determination, the Net Income of such Person for such period before deduction for interest
+                                    expense (determined in accordance with GAAP), income taxes (and other taxes of such Person
+                                    determined by reference to the income or profits of such Person) and the amount of depreciation
+                                    and amortization expense of such Person.",True,interest; repayment_terms; financial_ratios,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,Outlines the standard formula definition for EBITDA under accounting rules.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0144,,21,"""Liquidity Ratio"" shall mean, as of any date (a) the sum of the cash and Cash Equivalents of the
+                                    Borrower and its Subsidiaries plus the amount then available to be drawn under the Revolving
+                                    Line of Credit, to (b) the sum of Current Maturities of Long term Debt plus the outstanding
+                                    principal amount of the Revolving Loans outstanding under the Revolving Line of Credit.",True,principal_amount,Covenants,Medium,financial_ratio_covenant,{},R_COV_CAP,Severity Medium because: financial_ratio_covenant; R2 covenant cap at Medium,Establishes the liquidity ratio calculation for measuring borrower financial performance.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0145,,21,"""Long Term Indebtedness"" shall mean, in respect of a Person and as of any applicable date of
+                                    determination thereof, all indebtedness (other than the aggregate outstanding principal balance
+                                    of all Revolving Loans) which should be classified as ""funded indebtedness"" or ""long term
+                                    indebtedness"" on a balance sheet of such Person as of such date in accordance with GAAP.",True,principal_amount; restrictions_transfers,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,Defines long-term indebtedness categories based on financial statement classifications.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0146,,21,"""Net Income"" shall mean the net income (or loss) of a Person for any applicable period of
+                                    determination, determined in accordance with GAAP, but excluding, in any event:
+</TABLE>
+
+                                      -5- Silicon Valley Bank                      Schedule to Loan and Security Agreement",True,collateral_security,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,Provides a standard accounting-based definition of net income for the entity.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0147,,22,"<TABLE>
+<S>                                 <C>
+                                             (A) any gains or losses on the sale or other disposition, not in the ordinary course of
+                                    business, of investments or fixed or capital assets, and any taxes on the excluded gains and any
+                                    tax deductions or credits on account of any excluded losses; and",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0148,,22,"(B) in the case of the Borrower and its Subsidiaries, net earnings of any Person in
+                                    which Borrower has an ownership interest, unless such net earnings shall have actually been
+                                    received by Borrower in the form of cash distributions.",True,interest; restrictions_transfers,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,Excludes specific unreceived net earnings from equity calculations in definitions.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0149,,22,"""Tangible Net Worth"" shall mean the excess of total assets over total liabilities, determined in
+                                    accordance with GAAP, with the following adjustments:",True,financial_ratios,none,none,definition,{},R_N1_NON_RISK,Severity none because: definition; N1 non-risk type,Defines tangible net worth as the baseline excess of assets over liabilities.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0150,,22,"(A) there shall be excluded from assets: (i) notes, accounts receivable and other
+                                    obligations owing to Borrower from its officers or other Affiliates, and (ii) all assets which
+                                    would be classified as intangible assets under GAAP, including without limitation goodwill,
+                                    licenses, patents, trademarks, trade names, copyrights, organizational costs, licenses and
+                                    franchises.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0151,,22,"(B) there shall be excluded from liabilities: all indebtedness which is subordinated to
+                                    the Obligations under a subordination agreement in form specified by Silicon or by language in
+                                    the instrument evidencing the indebtedness which Silicon agrees in writing is acceptable to
+                                    Silicon in its good faith business judgment.
+
+6.   REPORTING.
+     Section 5.3):
+
+                                    Borrower shall provide Silicon with the following:
+
+                                    1. Weekly transaction reports and schedules of collections, on Silicon's standard form.
+
+                                    2. Weekly reports on the balance of unbilled receivables.
+
+                                    3. Monthly accounts receivable agings, aged by invoice date, within twenty days after the
+                                       end of each month.",True,covenant_undertaking; restrictions_transfers,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Sets routine periodic reporting obligations including transaction reports and receivable agings.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0152,,22,"4. Monthly accounts payable agings, aged by invoice date, and outstanding or held check
+                                       registers, if any, within twenty days after the end of each month.
+</TABLE>
+
+                                      -6- Silicon Valley Bank                      Schedule to Loan and Security Agreement",True,collateral_security,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Requires regular delivery of accounts payable agings and check registers.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0153,,23,"<TABLE>
+<S>                                 <C>
+                                    5.       Monthly reconciliations of accounts receivable agings (aged by invoice date),
+                                             transaction reports, and general ledger, within twenty days after the end of
+                                             each month.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0154,,23,"6.       Monthly unaudited financial statements, as soon as available, and in any event within
+                                             thirty days after the end of each month.",True,reporting_inspection,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Mandates timely delivery of monthly unaudited financial statements.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0155,,23,"7.       Monthly Compliance Certificates, within thirty days after the end of each month, in
+                                             such form as Silicon shall reasonably specify, signed by the Chief Financial Officer of
+                                             Borrower, certifying that as of the end of such month Borrower was in full compliance
+                                             with all of the terms and conditions of this Agreement, and setting forth calculations
+                                             showing compliance with the financial covenants set forth in this Agreement and such
+                                             other information as Silicon shall reasonably request, including, without limitation, a
+                                             statement that at the end of such month there were no held checks.",True,covenant_undertaking,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Requires regular compliance certificates signed by the financial officer confirming adherence to terms.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0156,,23,"8.       Annual operating budgets (including income statements, balance sheets and cash flow
+                                             statements, by month) for the upcoming fiscal year of Borrower within thirty days prior
+                                             to the end of each fiscal year of Borrower.",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0157,,23,"9.       Annual financial statements, as soon as available, and in any event within 90 days
+                                             following the end of Borrower's fiscal year, certified by, and with an unqualified
+                                             opinion of, independent certified public accountants acceptable to Silicon.",True,reporting_inspection,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Obligates the borrower to submit annual audited financial statements within a specified timeframe.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0158,,23,"10.      Copies of all filings with the Securities Exchange Commission including, but not
+                                             limited to, filings on Form 10K and Form 10Q, when each filing is made.
+
+7.   BORROWER INFORMATION:",True,collateral_security,Covenants,Low,reporting_or_insurance_covenant,{},R_COV_REP,Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),Requires the provision of copies of all official regulatory and securities filings.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0159,,23,"Borrower represents and warrants that the information set forth in the Representations and
+                                    Warranties of the Borrower dated April 8, 2003,
+</TABLE>
+
+                                      -7- Silicon Valley Bank                      Schedule to Loan and Security Agreement",True,collateral_security,none,none,representation,{},R_N1_NON_RISK,Severity none because: representation; N1 non-risk type,Incorporates standard historical borrower representations and warranties.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0160,,24,"<TABLE>
+<S>                                 <C>
+                                    previously submitted to Silicon (the ""Representations"") is true and correct as of the date
+                                    hereof.
+
+8.   ADDITIONAL PROVISIONS",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0161,,24,"(1)      BANKING RELATIONSHIP. Borrower shall at all times maintain its primary banking
+                                             relationship with Silicon. Without limiting the generality of the foregoing, Borrower
+                                             shall, at all times, maintain a majority of its total cash and investments on deposit
+                                             with Silicon. As to any Deposit Accounts and investment accounts maintained with
+                                             another institution, Borrower shall cause such institution, within 30 days after the
+                                             date of this Agreement, to enter into a control agreement in form acceptable to
+                                             Silicon in its good faith business judgment in order to perfect Silicon's
+                                             first-priority security interest in said Deposit Accounts and investment accounts.",True,interest; collateral_security,Collateral,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,Requires maintaining primary banking relationships and control agreements to protect lender security interests.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0162,,24,"(2)      SUBORDINATION OF INSIDE DEBT. All present and future indebtedness of Borrower to its
+                                             officers, directors and shareholders (""Inside Debt"") shall, at all times, be
+                                             subordinated to the Obligations pursuant to a subordination agreement on Silicon's
+                                             standard form. Borrower represents and warrants that there is no Inside Debt
+                                             presently outstanding, except for the Unsecured Subordinated Notes payable to the
+                                             Irwin Family Limited Partnership, Richard D. Irwin/Micro Cap Partners, LP in the
+                                             amounts of $375,000, $375,000 and $750,000, respectively, which may be repaid prior
+                                             to or contemporaneously with the making of the first advance by Silicon. Prior to
+                                             incurring any Inside Debt in the future, Borrower shall cause the person to whom such
+                                             Inside Debt will be owed to execute and deliver to Silicon a subordination agreement
+                                             on Silicon's standard form.
+
+</TABLE>
+
+
+                                       -8- Borrower:                                        Silicon:",True,covenant_undertaking; restrictions_transfers,Collateral,Medium,negative_covenant,{},R_COV_CAP,Severity Medium because: negative_covenant; R2 covenant cap at Medium,Mandates the subordination of inside debt and restricts future subordinated borrowings.,False,,gemini-3.5-flash-lite,False,v5
+000087/876645/0000891618-03-004250_9.txt,C0163,,25,"PHARMCHEM, INC.                               SILICON VALLEY BANK
+
+   By /s/ Joe Halligan                           By    /s/ Thomas N. Tone
+      ------------------------------                ----------------------------
+      President or Vice President                Title Portfolio Manager
+
+   By /s/ David A. Lattanzio
+      ------------------------------
+      Secretary or Ass't Secretary
+
+Form: -3 (3/7/02)
+Version -0",False,,none,none,prefilter_dropped,{},PREFILTER_DROPPED,Severity none because: prefilter_dropped; no risk keyword,[prefilter-dropped] No guideline or loan-risk keyword triggered.,False,,prefilter,False,v5

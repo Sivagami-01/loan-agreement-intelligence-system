@@ -1,0 +1,280 @@
+﻿doc_id,clause_id,page,clause_text,prefilter_passed,matched_keywords,category,severity,rationale,applied_rule,number_flag,flagged_numbers,model_used,parse_error,prompt_version
+03_dbs_mitc,C0001,1,"This Most Important Terms and Conditions (MITC) provides an upfront summary of the most important 
+terms of the financial product or service that you avail from the Bank. Your Facility will be governed by the 
+Loan Agreement. 
+I. SCOPE AND PURPOSE OF THE LOAN 
+Gold loans are granted against Gold and Gold 
+Ornaments 
+for 
+the 
+purpose 
+of 
+personal 
+use/Business/Agriculture/Agri 
+Allied 
+activities 
+(“Facility”/ “Gold Loan”). Gold Loan is offered only to 
+Individual Indian Residents. 
+II. INTEREST 
+The Borrower(s) will be required to pay interest on the 
+Facility as stipulated in the Standard Terms And 
+Conditions For Facilities Against Gold And Gold 
+Ornaments (“Standard terms”) and Transaction 
+Documents 
+(the 
+Transaction 
+Documents 
+and 
+Standard Terms shall be jointly referred to as “Loan 
+Agreement”) that will be executed between the 
+Borrower(s) and the DBS Bank. Interest on the 
+outstanding amounts under the Facility or other 
+charges, when debited to the relevant Account by 
+DBS Bank shall be calculated on the daily debit 
+balance in such Account. Interest and all other 
+charges shall accrue from day to day and shall be 
+computed on actual number of days elapsed. Penal 
+Charges, 
+additional 
+charges 
+(as 
+payable 
+in 
+accordance with the terms of the Loan Agreement will 
+be required to be paid by the Borrower additionally, 
+that is to say, the same would not be covered as part 
+of the EMIs.  
+III.",True,interest; penalties_fees; charges_expenses; collateral_security,Financial terms,Low,This clause sets out the baseline interest calculation and scope for the gold loan facility.,R4,False,,gemini-3.5-flash-lite,False,v3
+03_dbs_mitc,C0002,1,"RATE OF INTEREST/TYPE OF INTEREST AND 
+CHANGE IN RATE OF INTEREST 
+The Rate of Interest is the rate at which the DBS Bank 
+will compute and apply interest on the Loan. Rate of 
+Interest may be of 2 types:  Fixed Rate of Interest & 
+Floating Rate of Interest. 
+Fixed Rate of Interest – The rate of interest as 
+mentioned in the Loan Agreement  
+Floating Rate of Interest – This is linked to the RBI 
+Policy Repo Rate which is subject to change from time 
+to time. Any change in the RBI Policy Repo Rate will 
+result in a change in the Rate of Interest applicable to 
+the Loan. Such changes will be notified to the 
+Borrower and will apply from the date of change. The 
+standard reset date for the Floating Rate of Interest 
+(unless otherwise informed by the DBS Bank to the 
+Borrower) is the 7th day of each quarter (i.e. 7th 
+January 7th April 7th July, 7th October) or 7th day of 
+the subsequent month in which the RBI Policy Repo 
+Rate is changed.  
+IV. 
+FEES AND CHARGES APPLICABLE 
+List of Fees and charges is available in the Schedule 
+of Charges and also made available at <<<Link of 
+website to be added>>>>. Changes will be updated 
+from time to time.  The borrower has to indemnify DBS 
+Bank against all claims and losses resulting from 
+Borrower’s actions or defaults under the Loan 
+Agreement. 
+V.",True,interest; rate_of_interest; margin_spread_reset; charges_expenses; default_triggers,Financial terms,Medium,This clause governs the floating and fixed interest rate mechanics and periodic repo rate resets.,R4,False,,gemini-3.5-flash-lite,False,v3
+03_dbs_mitc,C0003,1,"PENAL    CHARGES 
+In case any dues remain unpaid on the respective Due 
+Dates or in case of breach of applicable LTV ratio/ 
+margin (“Material Breach”) or any other charges and 
+amount as per terms of the Loan Agreement, the 
+Borrower agrees to pay to the DBS Bank Penal 
+Charges, which will be computed from the date of 
+Material Breach till cure of the Material Breach. Such 
+Penal Charges shall be over and above the applicable 
+charges, interest mentioned in the Loan Agreement. 
+VI. 
+CONDITIONS FOR DISBURSEMENT 
+DBS Bank may disburse the Facility (or any part 
+thereof), at its discretion, subject to fulfilment of certain 
+conditions precedent as more particularly mentioned 
+in the Loan Agreement, a few of which are stated 
+below: -  
+• The Facility amount sanctioned to the Borrower shall 
+be subject to the value of the gold and gold ornaments 
+provided as Security and the security margin specified 
+by DBS Bank, from time to time. Subject to the terms 
+and conditions of the Loan Agreement. 
+• The Borrower must fulfill the DBS Bank's requirement 
+of creditworthiness. 
+• The Borrower must have saving account in DBS Bank 
+and loan sanctioned will be credited to the DBS bank 
+saving account.",True,interest; margin_spread_reset; principal_amount; penalties_fees; charges_expenses; collateral_security; default_triggers,Penalties and charges,High,This clause imposes penal charges computed from the date of material breach until cure.,R2,False,,gemini-3.5-flash-lite,False,v3
+03_dbs_mitc,C0004,1,"• The Borrower(s) must have executed all necessary 
+Transaction documents and Loan Agreement 
+• No ‘Events of Default’ (as fully described under Clause 
+VI of the Standard Terms) should have happened, 
+which includes but is not limited to giving of misleading 
+information to the DBS Bank, the Borrower being 
+declared insolvent, and default in duly performing 
+obligation under any other loan or facility availed of 
+from the DBS Bank by the Borrower. 
+VII. REPAYMENT 
+The Borrower will repay the principal/Loan together 
+with the interest calculated on the principal balance by 
+way of Bullet Repayment or Monthly Interest  or shall 
+pay/repay 
+the 
+Borrower's 
+Dues, 
+without 
+any 
+deductions, for or on account of any taxes 
+whatsoever, in the manner, at the rates and on the 
+Due Dates specified in the Loan Agreement, If not 
+demanded earlier by the DBS Bank in accordance 
+with the terms of the Loan Agreement, as stipulated in 
+the Repayment Schedule  or as may otherwise be 
+communicated by the DBS Bank to the Borrower from 
+time to time.   
+For Facility with Floating Interest Rate, interest rates 
+are subject to change as per RBI guidelines. Interest 
+on the outstanding amounts under the Facility or other 
+charges, when debited to the relevant Account by 
+DBS Bank shall be calculated on the daily debit 
+balance in such Account.    
+Repayment must be made via standing instructions, 
+ECS/NACH mandate, or post-dated checks as 
+acceptable to DBS Bank.",True,interest; principal_amount; repayment_terms; charges_expenses; default_triggers; insolvency_cure,Repayment,Medium,This clause specifies the standard scheduled repayment obligations and approved payment channels.,R2,False,,gemini-3.5-flash-lite,False,v3
+03_dbs_mitc,C0005,1,"Failure to maintain sufficient 
+funds, cancel payments, or alter payment instructions 
+without prior written consent from DBS Bank 
+constitutes 
+a 
+default, 
+triggering 
+consequences 
+outlined in the Loan Agreement and potentially 
+criminal remedies.",True,default_triggers; termination_accel; covenant_undertaking; lender_powers_remedies,Default conditions,High,This clause outlines immediate payment default triggers and potential criminal remedies for altered instructions.,R2,False,,gemini-3.5-flash-lite,False,v3
+03_dbs_mitc,C0006,2,"VIII. PREPAYMENT AND FORECLOSURE 
+The Borrower may, with the prior approval of DBS 
+Bank, prepay the Borrower's Dues, in full or in part, 
+subject to such terms as may be stipulated by DBS 
+Bank (including payment of pre-payment charges). 
+However, no prepayment/foreclosure charges will be 
+charged on loans where the interest rate is floating/ 
+fixed, and foreclosure is made after the fixed period 
+(during which the fixed interest rate applies), where 
+after the floating/Fixed interest rate becomes 
+applicable. 
+IX. 
+SECURITY 
+The Facility Amount, together with interest, charges, 
+costs, Penal Charges, additional interest, further 
+interest, expenses and other obligations of the 
+Borrower under the Loan Agreement and other 
+financing documents will be secured by the Gold/ Gold 
+jewels/ Gold Ornaments deposited with the DBS 
+Bank. 
+X. 
+EVENT(S) OF DEFAULT",True,interest; principal_amount; repayment_terms; penalties_fees; charges_expenses; collateral_security; default_triggers,Repayment,Low,[borrower-protective] This clause permits borrower prepayment and specifies that no charges apply after the fixed rate period.,R3,False,,gemini-3.5-flash-lite,False,v3
+03_dbs_mitc,C0007,2,"1. Event(s) of Default in terms of the Loan Agreement 
+include inter alia the following: a) Default or Breach of 
+Loan Agreement: Default in payment, breach of any 
+loan 
+agreement 
+provision, 
+or 
+any 
+fraud, 
+misrepresentation, or concealment of material facts b) 
+Borrower's Financial Distress: Death, business failure, 
+insolvency 
+of 
+the 
+borrower, 
+or 
+reasonable 
+apprehension of insolvency/bankruptcy proceedings.",True,default_triggers; insolvency_cure,Default conditions,High,"This clause defines standard events of default including breach of agreement, fraud, and financial distress.",R2,False,,gemini-3.5-flash-lite,False,v3
+03_dbs_mitc,C0008,2,"c)  Defective or Questionable Assets: Defects in the 
+borrower's title to the assets, challenges to ownership, 
+or assets found to be spurious or of inferior quality. d) 
+Wilful Default or Insolvency Proceedings: Declaration 
+of the borrower as a wilful defaulter or initiation of 
+insolvency/bankruptcy 
+proceedings 
+against 
+the 
+borrower. e) Legal Impairment or Inability to Pay: 
+Actions making it unlawful for the borrower to perform 
+obligations, or the borrower's admitted inability to pay 
+debts when due. f) Events of Default under Other 
+Agreements: Occurrence of an event of default (or 
+events that could constitute one) under any 
+agreement with DBS Bank, or events that could 
+materially adversely affect DBS Bank. g) Market Price 
+Decline of Gold Jewels: Reduction in the value of the 
+gold jewels due to market price changes. h)  Legal 
+Action Against Borrower: Statutory notices for 
+attachment, distress, execution, or arrest of the 
+borrower on charges of theft or robbery. i)  Erroneous 
+Valuation of Gold Jewels: Erroneous valuation due to 
+collusion between the gold appraiser and the borrower 
+or their related persons.",True,charges_expenses; collateral_security; enforcement_asset; default_triggers; insolvency_cure,Default conditions,High,"This clause specifies extensive default triggers including asset defects, market price declines of gold, and valuation errors.",R2,False,,gemini-3.5-flash-lite,False,v3
+03_dbs_mitc,C0009,2,"2. The Borrower shall promptly notify DBS Bank in 
+writing upon becoming aware of any Event of default 
+and the steps, if any, being taken to remedy it. The 
+decision of DBS Bank as to whether or not an Event 
+of Default has occurred shall be final and binding upon 
+the Borrower.",True,default_triggers; reporting_inspection; lender_powers_remedies,Covenants,Low,This clause establishes routine borrower reporting undertakings upon the occurrence of a default.,R1,False,,gemini-3.5-flash-lite,False,v3
+03_dbs_mitc,C0010,2,"XI. 
+CROSSDEFAULT AND CROSS 
+COLLATERALIZATION 
+If the Borrower(s) defaults on any other credit/ facility 
+agreement or arrangement with DBS Bank and/or its 
+successors-in-interest or with any of the affiliates or 
+DBS Group companies (collectively “DBS Group”), the 
+same shall be deemed to be an Event of Default in 
+terms of the Loan Agreement and the consequences 
+thereof as set out in the Loan Agreement and other 
+financing documents will follow. 
+XII. REPORTING 
+As per the relevant Reserve Bank of India guidelines, 
+the DBS Bank will provide credit information relating 
+to any Borrower who has availed of a Loan, to the 
+Credit Information Company or any other licensed 
+bureau on a monthly/periodic basis. 
+The Borrower(s) should ensure that timely payment of 
+all amounts due/payable in respect of the Loan are 
+duly paid on time to inter alia avoid any adverse credit 
+history with Credit Information Company. 
+XIII. CHANGE IN ADDRESS OR OTHER DETAILS 
+The Borrower must notify the DBS Bank regarding any 
+change 
+in residential 
+address, or any other 
+information supplied to the DBS Bank in relation to the 
+Loan. The DBS Bank must be immediately intimated 
+of such changes. 
+XIV. CUSTOMER SERVICE 
+For any service-related issue, customers can get in 
+touch with the DBS Bank by:",True,interest; collateral_security; default_triggers; reporting_inspection,Default conditions,High,This clause establishes cross-default and cross-collateralization triggers across group agreements.,R2,False,,gemini-3.5-flash-lite,False,v3
+03_dbs_mitc,C0011,2,"(i) Calling Customer Care numbers provided on our 
+official website. (ii) Visiting a DBS Bank branch. (iii) 
+Placing a request online by logging onto our official 
+website: www.dbsbank.com/in. 
+XV. CUSTOMER GRIEVANCE REDRESSAL 
+PROCEDURE 
+If there are instances where the customer is not 
+satisfied with the services provided by the DBS Bank, 
+to highlight such instances and/or register a 
+complaint, the customer may refer to the grievance 
+redressal policy displayed on our official website. 
+XVI. BCSBI Code 
+DBS Bank is a member of the Banking Codes & 
+Standards Board of India (BCSBI). Please visit the 
+homepage of our website www.dbsbank.com/in to 
+view the BCSBI code. 
+XVII. DISCLAIMER 
+The terms and conditions set out herein are only an 
+abridged form of the terms and conditions applicable 
+to the Facility availed/proposed to be availed of by the 
+Borrower from DBS Bank and do not contain the full 
+provisions of the Loan Agreement. Capitalized terms 
+used herein shall have the meaning as specified in the 
+Loan Agreement. The Borrower must carefully read 
+and understand the full Loan Agreement before 
+signing, as it is legally binding and takes precedence 
+over this MITC.",False,,none,none,[prefilter-dropped] No guideline or loan-risk keyword triggered.,none,False,,prefilter,False,v3

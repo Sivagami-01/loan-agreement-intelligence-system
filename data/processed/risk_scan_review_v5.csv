@@ -1,0 +1,365 @@
+﻿doc_id,clause_id,page,category,severity,clause_text,rationale,reviewer_verdict
+000087/876645/0000891618-03-004250_9.txt,C0055,8,Termination,Critical,"7.2 REMEDIES. Upon the occurrence and during the continuance of any
+Event of Default, and at any time thereafter, Silicon, at its option, and
+without notice or demand of any kind (all of which are hereby expressly waived
+by Borrower), may do any one or more of the following: (a) Cease making Loans or
+otherwise extending credit to Borrower under this Agreement or any other Loan
+Document; (b) Accelerate and declare all or any part of the Obligations to be
+immediately due, payable, and performable, notwithstanding any deferred or
+installment payments allowed by any instrument evidencing or relating to any
+Obligation; (c) Take possession of any or all of the Collateral wherever it may
+be found, and for that purpose Borrower hereby authorizes Silicon without
+judicial process to enter onto any of Borrower's premises without interference
+to search for, take possession of, keep, store, or remove any of the Collateral,
+and remain on the premises or cause a custodian to remain on the premises in
+exclusive control thereof, without charge for so long as Silicon deems it
+necessary, in its good faith business judgment, in order to complete the
+enforcement of its rights under this Agreement or any other agreement; provided,
+however, that should Silicon seek to take possession of any of the Collateral by
+court process, Borrower hereby irrevocably waives:","Grants the lender rights upon default to cease loans, accelerate obligations, and take possession of collateral without notice or judicial process. | Severity Critical because: acceleration_or_termination_right; automatic, no_notice",
+04_dbs_mitc-ahl,C0051,3,Termination,Critical,"shall 
+forthwith become due and payable, and the Lender shall be entitled to take such steps as mentioned in the 
+Loan Agreement or any other financing document, including but not limited to enforcement of security to recover such dues. 
+AHL Apr24 V3 4
+XV.","Outstanding amounts forthwith become due and payable allowing immediate security enforcement upon default. | Severity Critical because: acceleration_or_termination_right; automatic, no_notice",
+000087/876645/0000891618-03-004250_9.txt,C0005,1,Penalties and charges,High,"1.3 OVERADVANCES. If at any time or for any reason the total of all
+outstanding Revolving Loans and all other monetary Obligations exceeds the
+Revolving Credit Limit (an ""Overadvance""), Borrower shall immediately pay the
+amount of the excess to Silicon, without notice or demand. Without limiting
+Borrower's obligation to repay to Silicon the amount of any Overadvance,
+Borrower agrees to pay Silicon interest on the outstanding amount of any
+Overadvance, on demand, at the Default Rate.",This clause requires immediate repayment of overadvances without notice and imposes default interest. | Severity High because: fee_or_cost; penal_rate_or_default_charge,
+000087/876645/0000891618-03-004250_9.txt,C0047,7,Penalties and charges,High,"due and payable on the effective date of termination and thereafter shall bear
+interest at a rate equal to the highest rate applicable to any of the
+Obligations.",States that unpaid termination fees become due and bear interest at the highest applicable rate. | Severity High because: fee_or_cost; penal_rate_or_default_charge,
+000087/876645/0000891618-03-004250_9.txt,C0048,7,Termination,High,"6.3 PAYMENT OF OBLIGATIONS. On the Maturity Date or on any earlier
+effective date of termination, Borrower shall pay and perform in full all
+Obligations, whether evidenced by installment notes or otherwise, and whether or
+not all or any part of such Obligations are otherwise then due and payable.
+Without limiting the generality of the foregoing, if on the Maturity Date, or on
+any earlier effective date of termination, there are any outstanding Letters of
+Credit issued by Silicon or issued by another institution based upon an
+application, guarantee, indemnity or similar agreement on the part of Silicon,
+then on such date Borrower shall provide to Silicon cash collateral in an amount
+equal to 105% of the face amount of all such Letters of Credit plus all
+interest, fees and cost due or to become due in connection therewith (as
+estimated by Silicon in its good faith business judgment), to secure all of the
+Obligations relating to said Letters of Credit, pursuant to Silicon's then
+standard form cash pledge agreement. Notwithstanding any termination of this
+Agreement, all of Silicon's security interests in all of the Collateral and all
+of the terms and provisions of this Agreement shall continue in full force and
+effect until all Obligations have been paid and performed in full; provided that
+Silicon may, in its sole discretion, refuse to make any further Loans after
+termination.","Governs final payment obligations, cash collateralization of letters of credit, and survival of security interests upon termination. | Severity High because: acceleration_or_termination_right; acceleration or termination right by notice",
+000087/876645/0000891618-03-004250_9.txt,C0052,7,Default conditions,High,"or appointment of a receiver,
+trustee or custodian, for all or any part of the property of, assignment for the
+benefit of creditors by, or the commencement of any proceeding by Borrower under
+any reorganization, bankruptcy, insolvency, arrangement, readjustment of debt,
+dissolution or liquidation law or statute of any jurisdiction, now or in the
+future in effect; or (j) the commencement of any proceeding against Borrower or
+any guarantor of any of the Obligations under any reorganization, bankruptcy,
+insolvency, arrangement, readjustment of debt, dissolution or liquidation law or
+statute of any jurisdiction, now or in the future in effect, which is not cured
+by the dismissal thereof within 30 days after the date commenced; or (k)
+revocation or termination of, or limitation or denial of liability upon, any
+guaranty of the Obligations or any attempt to do any of the foregoing, or
+commencement of proceedings by any guarantor of any of the Obligations under any
+bankruptcy or insolvency law; or (l) revocation or termination of, or limitation
+or denial of liability upon, any pledge of any certificate of deposit,
+securities or other property or asset of any kind pledged by any third party to
+secure any or all of the Obligations, or any attempt to do any of the foregoing,
+or commencement of proceedings by or against any such third party under any
+bankruptcy or insolvency law;","Triggers an Event of Default upon insolvency proceedings, receiverships, guarantor revocations, or third-party pledge revocations. | Severity High because: insolvency_default_trigger; core default trigger with short or no >=10d cure window",
+000087/876645/0000891618-03-004250_9.txt,C0053,7,Default conditions,High,"or (m) Borrower makes any payment on account of
+any indebtedness or obligation which has been subordinated to the Obligations
+other than as permitted in the applicable subordination agreement, or if any
+Person who has subordinated such indebtedness or obligations terminates or in
+any way limits his subordination agreement; or (n) any ""person"" or ""group""
+(within the meaning of Section 13(d) and 14(d)(2) of the Securities Exchange Act
+of 1934) becomes the ""beneficial owner"" (as defined in Rule 13d-3 under the
+Securities Exchange Act of 1934), directly or indirectly, of a sufficient number
+of shares of all classes of stock then outstanding of Borrower ordinarily
+entitled to vote in the election of directors, empowering such ""person"" or
+""group"" to elect a majority of the Board
+
+                                      -7- SILICON VALLEY BANK                                  LOAN AND SECURITY AGREEMENT",Triggers an Event of Default upon unauthorized subordinated debt payments or a change of control of the Board of Directors. | Severity High because: change_of_control_trigger; core default trigger with short or no >=10d cure window,
+000087/876645/0000891618-03-004250_9.txt,C0059,8,Penalties and charges,High,"(i) Demand and receive possession of any of Borrower's federal and state income
+tax returns and the books and records utilized in the preparation thereof or
+referring thereto. All reasonable attorneys"" fees, expenses, costs, liabilities
+and obligations incurred by Silicon with respect to the foregoing shall be added
+to and become part of the Obligations, shall be due on demand, and shall bear
+interest at a rate equal to the highest interest rate applicable to any of the
+Obligations. Without limiting any of Silicon's rights and remedies, from and
+after the occurrence and during the continuance of any Event of Default, the
+interest rate applicable to the Obligations shall be increased by an additional
+three percent per annum (the ""Default Rate"").",Adds incurred legal fees and expenses to the obligations and imposes a default interest rate increase. | Severity High because: fee_or_cost; penal_rate_or_default_charge,
+000087/876645/0000891618-03-004250_9.txt,C0064,9,Penalties and charges,High,"Any and all reasonable sums paid and any and all
+reasonable costs, expenses, liabilities, obligations and attorneys"" fees
+incurred by Silicon with respect to the foregoing shall be added to and become
+part of the Obligations, shall be payable on demand, and shall bear interest at
+a rate equal to the highest interest rate applicable to any of the Obligations.
+In no event shall Silicon's rights under the foregoing power of attorney or any
+of Silicon's other rights under this Agreement be deemed to indicate that
+Silicon is in control of the business, management or properties of Borrower.","Requires the borrower to pay expenses and attorney's fees incurred by Silicon, bearing interest at the highest applicable rate. | Severity High because: fee_or_cost; penal_rate_or_default_charge",
+000087/876645/0000891618-03-004250_9.txt,C0094,13,Penalties and charges,High,"9.3 CHARGES TO ACCOUNTS. Silicon may, in its discretion, require that
+Borrower pay monetary Obligations in cash to Silicon, or charge them to
+Borrower's Loan account, in which event they will bear interest at the same rate
+applicable to the Loans. Silicon may also, in its discretion, charge any
+monetary Obligations to Borrower's Deposit Accounts maintained with Silicon.",Allows the lender to charge monetary obligations to loan accounts bearing standard interest or deposit accounts. | Severity High because: fee_or_cost; penal_rate_or_default_charge,
+000087/876645/0000891618-03-004250_9.txt,C0100,13,Covenants,High,"Borrower hereby agrees to indemnify Silicon and its
+affiliates, subsidiaries, parent, directors, officers, employees, agents, and
+attorneys, and to hold them harmless from and against any and all claims, debts,
+liabilities, demands, obligations, actions, causes of action, penalties, costs
+and expenses (including reasonable attorneys"" fees), of every kind, which they
+may sustain or incur based upon or arising out of any of the Obligations, or any
+relationship or agreement between Silicon and Borrower, or any other matter,
+relating to Borrower or the Obligations; provided that this indemnity shall not
+extend to damages proximately caused by the indemnitee's own gross negligence or
+willful misconduct. Notwithstanding any provision in this Agreement to the
+contrary, the indemnity agreement set forth in this Section shall survive any
+termination of this Agreement and shall for all purposes continue in full force
+and effect.","Contains a broad indemnification obligation running to the lender and its affiliates that survives agreement termination. | Severity High because: indemnity; broad_or_uncapped, survives_repayment",
+000087/876645/0000891618-03-004250_9.txt,C0105,14,Penalties and charges,High,"is representing only Silicon and not Borrower in
+connection with this Agreement. If either Silicon or Borrower files any lawsuit
+against the other predicated on a breach of this Agreement, the prevailing party
+in such action shall be entitled to recover its reasonable costs and attorneys""
+fees, including (but not limited to) reasonable attorneys"" fees and costs
+incurred in the enforcement of, execution upon or defense of any order, decree,
+award or judgment. All attorneys"" fees and costs to which Silicon may be
+entitled pursuant to this Paragraph shall immediately become part of Borrower's
+Obligations, shall be due on demand, and shall bear interest at a rate equal to
+the highest interest rate applicable to any of the Obligations.","Entitles the prevailing party to recover costs and fees in litigation, with unpaid amounts bearing default interest. | Severity High because: fee_or_cost; penal_rate_or_default_charge",
+000087/876645/0000891618-03-004250_9.txt,C0107,14,Collateral,High,"9.14 JOINT AND SEVERAL LIABILITY. If Borrower consists of more than one
+Person, their liability shall be joint and several, and the compromise of any
+claim with, or the release of, any Borrower shall not constitute a compromise
+with, or a release of, any other Borrower.",Establishes joint and several liability for co-borrowers. | Severity High because: security_or_guarantee; joint_and_several,
+000104/1041426/0000950144-99-003055_2.txt,C0017,2,Penalties and charges,High,"4. TERM; PRINCIPAL AND INTEREST; NO PREPAYMENT; LATE CHARGES.
+The term for any Loan Agreement shall be as specified in the applicable
+Equipment Schedule. No Loan Agreement is prepayable by Customer, in whole or in
+part, without the express written consent of Lender in its sole discretion.
+Principal and interest payments shall be in the amounts and shall be due and
+payable as set forth in the applicable Equipment Schedule. If any payment of
+principal or interest or other amount payable hereunder shall not be paid within
+5 days of the date when due, Customer shall pay as an administrative and late
+charge an amount equal to 5% of the amount of any such overdue payment. In
+addition, Customer shall pay overdue interest on any delinquent payment or other
+amounts due under any Loan Agreement (by reason of acceleration or otherwise)
+from the due date until paid at the rate of one and one-half percent (1.5%) per
+month or the maximum amount permitted by applicable law, whichever is lower. All
+payments to be made to Lender shall be made to Lender in immediately available
+funds at the address shown above, or at such other place as Lender shall specify
+in writing.",This clause imposes late charges and overdue default interest rates. | Severity High because: fee_or_cost; penal_rate_or_default_charge,
+000104/1041426/0000950144-99-003055_2.txt,C0050,6,Default conditions,High,"or (h) the commencement of any bankruptcy, insolvency, arrangement,
+reorganization, receivership, liquidation or other similar proceeding by or
+against Customer or any of its properties or businesses, or the appointment of a
+trustee, receiver, liquidator or custodian for Customer or any of its properties
+or businesses, or if Customer suffers the entry of an order for relief under
+Title 11 of the United States Code; or (i) the making by Customer of a general
+assignment or deed of trust for the benefit of creditors; or (j) Customer shall
+default in any payment or other material obligation to any other lender and such
+lender has accelerated the debt in accordance with its terms; or (k) Customer
+shall merge with or consolidate into any other entity or sell all or
+substantially all of its assets or in any manner terminate its existence; or (l)
+if Customer is a privately held corporation, more than 50% of Customer's voting
+capital stock, or effective control of Customer's voting capital stock, issued
+and outstanding from time to time, is not retained by the holders of such stock
+on the date the Loan Agreement is executed; or (m) if Customer is a publicly
+held corporation, there shall be a change in the ownership of Customer's stock
+such that Customer is no longer subject to the reporting requirements of the
+Securities Exchange Act of 1934 or no longer has a class of equity securities
+registered under Section 12 of the Securities Act of 1933;","This clause specifies bankruptcy, insolvency, cross-defaults, and change of control events as defaults. | Severity High because: insolvency_default_trigger; core default trigger with short or no >=10d cure window",
+000104/1041426/0000950144-99-003055_2.txt,C0052,7,Termination,High,"following remedies with respect to any or all of the Collateral: (i) by
+written notice to Customer, terminate any or all Loan Agreements as such notice
+shall specify, and, with respect to such terminated Loan Agreements, declare
+immediately due and payable and recover from Customer, as liquidated damages for
+loss of Lender's bargain and not as a penalty, an amount equal to the aggregate
+of all unpaid periodic installment payments and other sums due under Loan
+Agreements to the date of default plus the charges set forth in Section 4
+hereof, if any, plus an amount equal to the outstanding principal balances of
+and accrued and unpaid interest on any of the Notes with respect to the Loan
+Agreements, (ii) Lender may declare, at its option, all or any part of the
+Obligations immediately due and payable, without demand, notice of intention to
+accelerate, notice of acceleration, notice of nonpayment, presentment, protest,
+notice of dishonor, or any other notice whatsoever, all of which are hereby
+waived by Customer and any endorser, guarantor, surety or other party liable in
+any capacity for any of the Obligations;",This clause permits the lender to terminate agreements and accelerate obligations immediately without notice upon an event of default. | Severity High because: acceleration_or_termination_right; acceleration or termination right by notice,
+000104/1041426/0000950144-99-003055_2.txt,C0069,9,Collateral,High,"13. ASSIGNMENT. The provisions of the Loan Agreement shall be
+binding upon and shall inure to the benefit of the heirs, administrators,
+successors and assigns of Lender and Customer, provided, however, Customer may
+not assign any of its rights, transfer any interest in the Equipment or delegate
+any of its obligations under the Loan Agreement without the prior written
+consent of Lender in its sole discretion. Lender may, from time to time,
+absolutely or as security, without notice to Customer, sell, assign, transfer,
+participate, pledge or otherwise dispose of all or any part of a Loan Agreement,
+the Obligations and/or the Collateral therefor, subject to the rights of
+Customer under the Loan Agreement for the use and possession of the Equipment.
+In such event, each and every immediate and successive Assignee shall have the
+right to enforce the Loan Agreement with respect to those Obligations and/or
+Collateral transferred to the Assignee, by legal action or otherwise, for its
+own benefit as fully as if such Assignee were herein by name specifically given
+such rights. Customer agrees that the rights of any such Assignee hereunder or
+with respect to the related Obligations, shall not be subject to any defense,
+set off or counterclaim that Customer may assert or claim against Lender, and
+that any such Assignee shall have all of Lender's rights hereunder but none of
+Lender's obligations.",This clause permits assignment by the lender and waives borrower defenses against assignees. | Severity High because: security_or_guarantee; reaches_affiliates_or_third_parties,
+000104/1041426/0000950144-99-003055_2.txt,C0101,17,Default conditions,High,"Material Changes:          If there shall be, in Lender's sole good
+                                    faith judgment, (a) a material adverse
+                                    change in the financial condition,
+                                    properties or operations of Borrower, (b) a
+                                    material inaccuracy or omission in the
+                                    information provided to Lender regarding the
+                                    transaction or a failure to provide
+                                    information requested, (c) a material change
+                                    in law, regulation or other requirement
+                                    which calls into question a basic premise or
+                                    assumption underlying Lender's credit
+                                    approval or (d) other material change or
+                                    disclosure of new information which if
+                                    previously known would have resulted in
+                                    Lender denying the Loan or issuing a
+                                    modified approval, the Lender may terminate
+                                    or modify this commitment without any
+                                    liability of Lender to Borrower.",Allows the lender to terminate or modify the commitment based on its sole good faith judgment of material changes. | Severity High because: other_default_trigger; sole_discretion,
+000104/1041426/0000950144-99-003055_2.txt,C0104,18,Termination,High,"Expiration:                This loan commitment will expire if a signed
+                                    copy of this commitment letter is not
+                                    received by Oxford by facsimile or mail on
+                                    or before December 31, 1998. Following
+                                    Borrower's acceptance, Lender's commitment
+                                    hereunder and obligation to fund the Loan
+                                    shall expire on December 31, 1999.
+
+         Oxford Venture Finance welcomes the opportunity to be of service to
+AutoCyte, Inc. We look forward to working with you.
+
+                                                 Sincerely,
+                                                 OXFORD VENTURE FINANCE, LLC",Specifies expiration dates for the loan commitment and funding obligations. | Severity High because: acceleration_or_termination_right; acceleration or termination right by notice,
+04_dbs_mitc-ahl,C0005,1,Penalties and charges,High,"Penal  charges, additional interest and interest on interest (as payable in accordance with the terms of the Loan 
+Agreement) will be required to be paid by the Borrower additionally, that is to say, the same would not be covered as part of the 
+EMIs or Pre-EMIs.",This clause establishes that penal charges and additional interest are payable separately from regular EMIs. | Severity High because: fee_or_cost; penal_rate_or_default_charge,
+04_dbs_mitc-ahl,C0011,1,Penalties and charges,High,"VI.
+Penal charges
+MOST IMPORTANT TERMS AND CONDITIONS (MITC)
+AHL Apr24 V5
+In the event of occurrence of any or all of the below event(s) the Borrower agrees to pay to the Lender Penal charges as 
+mentioned in Schedule I (“Penal Charges”) :-",This clause introduces the penal charges payable upon the occurrence of specified events. | Severity High because: fee_or_cost; penal_rate_or_default_charge,
+04_dbs_mitc-ahl,C0012,1,Penalties and charges,High,"a. In the event of Material Breach related to Borrower’s non-payment of EMI or any other charges and amount as per 
+terms of this Loan Agreement, the Borrower agrees to pay to the Lender Penal Charges on overdue EMI amount.  
+Penal Charges shall be calculated daily based on the actual number of overdue days. Without prejudice to the 
+foregoing, if the Lender recalls the Loan or any part of it, the Borrower shall have to pay Penal Charges on the 
+Outstanding Balance due and owing to the Lender from the date of recall until the date of receipt of full payment by 
+the Lender.",This clause mandates daily penal charges for non-payment of EMIs or upon loan recall. | Severity High because: fee_or_cost; penal_rate_or_default_charge,
+04_dbs_mitc-ahl,C0013,1,Penalties and charges,High,"b. In the event of Material Breach (other than non-payment as mentioned in VI (a) above) by the Borrower, the Penal 
+Charges as mentioned in Schedule I will be charged till Material Breach has been cured by the Borrower to the 
+satisfaction of the Lender. 
+Provided that nothing contained in this Clause shall affect or prejudice the right of the Lender to declare an Event of Default 
+and exercise the rights vested in it under of Loan Agreement.",This clause applies penal charges for material breaches other than non-payment until cured to the lender's satisfaction. | Severity High because: fee_or_cost; penal_rate_or_default_charge,
+04_dbs_mitc-ahl,C0035,3,Default conditions,High,"Failure to ensure the above, resulting in dishonour of the SI/ECS/NACH mandate/cheque will be treated as an Event of Default in 
+terms of the Loan Agreement and trigger the consequences set out therein for the same. Without prejudice to the same, such 
+dishonour may also result in exercise by the Lender of criminal remedies as may be available under law.",Dishonour of payment mandates or cheques constitutes an event of default and may trigger criminal remedies. | Severity High because: payment_default_trigger; core default trigger with short or no >=10d cure window,
+04_dbs_mitc-ahl,C0045,3,Default conditions,High,(a) any default in payment of the Secured Obligations (or any part thereof) on the respective Due Dates.,Any failure to make payments on due dates constitutes an event of default. | Severity High because: payment_default_trigger; core default trigger with short or no >=10d cure window,
+04_dbs_mitc-ahl,C0050,3,Default conditions,High,"(f) Any event or circumstance which in the opinion of the Lender is likely to adversely affect the ability of the Borrower to repay 
+the Loan and other Secured Obligations in full to the Lender or perform any obligation under the Loan Agreement, the 
+Security Documents or any related document/agreement.
+On the occurrence of any Event of Default as mentioned in the Loan Agreement or any other financing document, the 
+outstanding principal amount plus the outstanding interest amount plus any other charges, Penal  charges, fees etc.",Any adverse circumstance determined by the lender accelerates all amounts due and payable immediately. | Severity High because: other_default_trigger; sole_discretion,
+04_dbs_mitc-ahl,C0053,4,Collateral,High,"XVI.    Borrowers and Co-Borrowers
+Where the Loan is provided to more than one Borrower, the liability of the Borrower and all Co-Borrowers to repay the Loan 
+together with all interest, and any / all other charges, fees, Penal charges, additional interest, further interest and other monies 
+due/payable, and to observe the terms and conditions of the Loan Agreement, Security Documents, and any other relevant 
+documents in relation to the Loan,  shall at all times be joint and several.",Borrowers and co-borrowers share joint and several liability for repaying the loan and charges. | Severity High because: security_or_guarantee; joint_and_several,
+000087/876645/0000891618-03-004250_9.txt,C0019,3,Collateral,Medium,"(d) None of the Collateral now is or will be affixed to any real
+property in such a manner, or with such intent, as to become a fixture. Borrower
+is not and will not become a lessee under any real property lease pursuant to
+which the lessor may obtain any rights in any of the Collateral and no such
+lease now prohibits, restrains, impairs or will prohibit, restrain or impair
+Borrower's right to remove any Collateral from the leased premises, except the
+Lease for Borrower's premises located in Haltom City Texas as to which Borrower
+will use its best efforts to obtain a landlord lien waiver satisfactory to
+Silicon. Whenever any Collateral is located upon premises in which any third
+party has an interest, Borrower shall, whenever requested by Silicon, use its
+best efforts to cause such third party to execute and deliver to Silicon, in
+form acceptable to Silicon, such waivers and subordinations as Silicon shall
+specify in its good faith business judgment. Borrower will keep in full force
+and effect, and will comply with all material terms of, any lease of real
+property where any of the Collateral now or in the future may be located.",This clause restricts fixture attachments and real property lease arrangements affecting collateral. | Severity Medium because: security_or_guarantee; standard security interest or guarantee,
+000087/876645/0000891618-03-004250_9.txt,C0030,4,Collateral,Low,"4.3 SCHEDULES AND DOCUMENTS RELATING TO ACCOUNTS. Borrower shall
+deliver to Silicon transaction reports and schedules of collections, as provided
+in the Schedule, on Silicon's standard forms; provided, however, that Borrower's
+failure to execute and deliver the same shall not affect or limit Silicon's
+security interest and other rights in all of Borrower's Accounts, nor shall
+Silicon's failure to advance or lend against a specific Account affect or limit
+Silicon's security interest and other rights therein. If requested by Silicon,
+Borrower shall furnish Silicon with copies (or, at Silicon's request, originals)
+of all contracts, orders, invoices, and other similar documents, and all
+shipping instructions, delivery receipts, bills of lading, and other evidence of
+delivery, for any goods the sale or disposition of which gave rise to such
+Accounts, and Borrower warrants that all of the foregoing are genuine in all
+material respects. Borrower shall also furnish to Silicon an aged accounts
+receivable trial balance as provided in the Schedule. In addition, Borrower
+shall deliver to Silicon, on its request, the originals of all instruments,
+chattel paper, security agreements, guarantees and other documents and property
+evidencing or securing any Accounts, in the same form as received, with all
+necessary indorsements, and copies of all credit memos.","Requires the borrower to deliver transaction reports, schedules, and documents relating to accounts. | Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5)",
+000087/876645/0000891618-03-004250_9.txt,C0039,6,Penalties and charges,Medium,"insurance, Silicon may, but is not obligated to, obtain the same at Borrower's
+expense. Borrower shall promptly deliver to Silicon copies of all material
+reports made to insurance companies.","Permits the lender to obtain insurance at the borrower's expense if the borrower fails to provide it. | Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",
+000104/1041426/0000950144-99-003055_2.txt,C0035,4,Collateral,Medium,"(q) Customer shall provide Lender with disclaimers and waivers
+from landlords, mortgagees and other persons holding any interest or claim in
+and to any premises where Equipment is located, acceptable in all respects to
+Lender, which may be necessary or advisable in the sole discretion of Lender to
+confirm that the first priority security interest and rights of Lender in the
+Equipment are and will remain valid and superior against all other parties;",This clause requires the borrower to secure landlord and mortgagee waivers to confirm the lender's first-priority security interest. | Severity Medium because: negative_covenant; R2 covenant cap at Medium,
+000104/1041426/0000950144-99-003055_2.txt,C0056,7,Penalties and charges,Medium,"Section 9 shall not affect Customer's duty to perform Customer's Obligations
+under the Loan Agreement in full. Customer agrees to reimburse Lender on demand
+for any and all costs and expenses incurred by Lender in enforcing its rights
+and remedies hereunder following the occurrence of an Event of Default,
+including, without limitation, Attorneys' Fees and Expenses, and the costs of
+repossession, storage, insuring, reletting, selling and disposing of any and all
+Equipment.
+
+                  10.","This clause requires the borrower to reimburse the lender for enforcement and collection expenses following a default. | Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",
+000104/1041426/0000950144-99-003055_2.txt,C0061,8,Penalties and charges,Medium,"(b) Without limiting the application of Section 10(a)
+hereof, Customer agrees to pay, or reimburse Lender for any and all reasonable
+fees, costs and expenses (including Attorneys' Fees and Expenses) of whatever
+kind or nature incurred in connection with the creation, preservation or
+protection of Lender's liens on, and security interest in, the Collateral,
+including, without limitation, all fees and taxes in connection with the
+recording or filing of instruments and documents in public offices, payment or
+discharge of any taxes or liens upon or in respect of the Collateral, premiums
+for insurance with respect to the Collateral and all other reasonable fees,
+costs and expenses in connection with protecting, maintaining or preserving the
+Collateral and Lender's interest therein, whether through judicial proceedings
+or otherwise, or in defending or prosecuting any actions, suits or proceedings
+arising out of or relating to the Collateral.","This clause requires the borrower to reimburse costs incurred in protecting and preserving the lender's security interest. | Severity Medium because: fee_or_cost; standard reimbursement, breakage, increased costs, or legal fees",
+000104/1041426/0000950144-99-003055_2.txt,C0063,8,Covenants,Medium,"The term ""Losses"" includes any and
+all claims, suits, liabilities (including, without limitation, strict
+liabilities), actions, proceedings, obligations, debts, damages, losses, costs,
+expenses, diminutions in value, fines, penalties, charges, fees, expenses,
+judgments, awards, amounts paid in settlement, costs of remediating a Hazardous
+Substance (whether or not performed voluntarily), engineers' fees, environmental
+consultants' fees, and costs of investigation (including, but not limited to
+sampling, testing and analysis of soil, water, air, building materials and other
+materials and substances whether solid, liquid or gas) or punitive damages, of
+whatever kind or nature (including, but not limited to Attorneys' Fees and
+Expenses).",This clause broadly defines the losses covered under the environmental and general indemnities. | Severity Medium because: indemnity; standard or narrow indemnity,
+000104/1041426/0000950144-99-003055_2.txt,C0090,15,Financial terms,Low,"Equipment:                 Production, office, computer and other
+                                    equipment for the internal use of Borrower
+                                    as summarized in Attachment A (""Equipment"").
+                                    All Equipment must be acceptable to Lender.
+
+         Total Loan Amount:         $5,000,000
+
+         Acceptance Dates:          July 1998 through December 1999
+
+         Term:                      Each Schedule shall have a fixed term of 48
+                                    months.
+
+         Periodicity:               Monthly, in advance.","Sets forth total loan amount, acceptance dates, fixed term of 48 months, periodicity, and acceptable equipment categories. | Severity Low because: rate_term; fixed or standard baseline rate term",
+04_dbs_mitc-ahl,C0018,2,Repayment,Low,"Provided that the Lender shall be entitled to re-compute and/or modify the amounts constituting the 
+EMI(s) and the dates for payment thereof by the Borrower on the occurrence of any event which in the opinion of the Lender 
+necessitates a re-computation/ modification of the same. In the event of any such modification, the Borrower hereby agrees and 
+undertakes to issue fresh Payment Instruments as the Lender may require. Strict compliance with the Repayment Schedule as 
+communicated by the Lender from time to time is an essential condition for the grant of the Loan.",This clause entitles the lender to re-compute and modify EMI amounts and payment dates upon certain occurrences. | Severity Low because: other; general or residual term,
+04_dbs_mitc-ahl,C0054,4,Covenants,Low,"XVII.  Change in Address or Other Details
+The Borrower must notify the Lender regarding any change in residential address or any other information supplied to the Lender 
+in relation to the Loan. The Lender must be immediately intimated of such changes.",The borrower must immediately notify the lender of any changes in address or provided details. | Severity Low because: reporting_or_insurance_covenant; routine reporting or standard insurance covenant (S5),

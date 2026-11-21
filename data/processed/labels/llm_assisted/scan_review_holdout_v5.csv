@@ -1,0 +1,38 @@
+﻿doc_id,clause_id,scan_category,scan_severity,rev_category,rev_severity,note
+000087/876645/0000891618-03-004250_9.txt,C0055,Termination,Critical,Termination,Critical,self-help entry without notice or court; correct
+04_dbs_mitc-ahl,C0051,Termination,Critical,Termination,High,fragment; text never says without notice; no_notice set from silence
+000087/876645/0000891618-03-004250_9.txt,C0005,Penalties and charges,High,Penalties and charges,High,default rate on overadvance
+000087/876645/0000891618-03-004250_9.txt,C0047,Penalties and charges,High,Penalties and charges,Medium,fragment; interest at normal highest loan rate is not a penalty uplift
+000087/876645/0000891618-03-004250_9.txt,C0048,Termination,High,Termination,Medium,payoff at maturity plus cash cover for letters of credit; not an acceleration right
+000087/876645/0000891618-03-004250_9.txt,C0052,Default conditions,High,Default conditions,High,insolvency triggers
+000087/876645/0000891618-03-004250_9.txt,C0053,Default conditions,High,Default conditions,High,change of control trigger
+000087/876645/0000891618-03-004250_9.txt,C0059,Penalties and charges,High,Penalties and charges,High,Default Rate plus 3 percent stated
+000087/876645/0000891618-03-004250_9.txt,C0064,Penalties and charges,High,Penalties and charges,Medium,standard cost reimbursement at normal rate
+000087/876645/0000891618-03-004250_9.txt,C0094,Penalties and charges,High,Repayment,Medium,charge to loan or deposit account; not a penalty
+000087/876645/0000891618-03-004250_9.txt,C0100,Covenants,High,Covenants,High,broad indemnity survives; borderline
+000087/876645/0000891618-03-004250_9.txt,C0105,Penalties and charges,High,Penalties and charges,Medium,mutual prevailing party legal fees
+000087/876645/0000891618-03-004250_9.txt,C0107,Collateral,High,Collateral,unclear,joint and several liability; judgment
+000104/1041426/0000950144-99-003055_2.txt,C0017,Penalties and charges,High,Penalties and charges,High,5 percent late charge plus 1.5 percent per month
+000104/1041426/0000950144-99-003055_2.txt,C0050,Default conditions,High,Default conditions,High,insolvency cross-default change of control
+000104/1041426/0000950144-99-003055_2.txt,C0052,Termination,High,Termination,High,termination and acceleration remedies
+000104/1041426/0000950144-99-003055_2.txt,C0069,Collateral,High,Covenants,Medium,assignment and waiver of defenses; standard in equipment finance
+000104/1041426/0000950144-99-003055_2.txt,C0101,Default conditions,High,Termination,High,lender may cancel commitment on its sole judgment
+000104/1041426/0000950144-99-003055_2.txt,C0104,Termination,High,Termination,Low,commitment expiry date; not a lender right
+04_dbs_mitc-ahl,C0005,Penalties and charges,High,Penalties and charges,Medium,says penal charges are separate; no amount
+04_dbs_mitc-ahl,C0011,Penalties and charges,High,Penalties and charges,Medium,heading line only; page header noise
+04_dbs_mitc-ahl,C0012,Penalties and charges,High,Penalties and charges,High,daily penal charges on overdue and on recall
+04_dbs_mitc-ahl,C0013,Penalties and charges,High,Penalties and charges,High,penal charges until cured to lender satisfaction
+04_dbs_mitc-ahl,C0035,Default conditions,High,Default conditions,High,cheque dishonour is default plus criminal remedies
+04_dbs_mitc-ahl,C0045,Default conditions,High,Default conditions,Medium,plain payment default exists in every loan
+04_dbs_mitc-ahl,C0050,Default conditions,High,Default conditions,High,default on lender opinion; subjective
+04_dbs_mitc-ahl,C0053,Collateral,High,Collateral,unclear,joint and several co-borrowers; judgment
+000087/876645/0000891618-03-004250_9.txt,C0019,Collateral,Medium,Collateral,Low,representation about fixtures
+000087/876645/0000891618-03-004250_9.txt,C0030,Collateral,Low,Covenants,Low,reporting covenant
+000087/876645/0000891618-03-004250_9.txt,C0039,Penalties and charges,Medium,Penalties and charges,Medium,lender may buy insurance at borrower cost
+000104/1041426/0000950144-99-003055_2.txt,C0035,Collateral,Medium,Collateral,Medium,landlord waivers
+000104/1041426/0000950144-99-003055_2.txt,C0056,Penalties and charges,Medium,Penalties and charges,Medium,enforcement cost reimbursement
+000104/1041426/0000950144-99-003055_2.txt,C0061,Penalties and charges,Medium,Penalties and charges,Medium,lien protection costs
+000104/1041426/0000950144-99-003055_2.txt,C0063,Covenants,Medium,Covenants,Medium,definition that widens the indemnity
+000104/1041426/0000950144-99-003055_2.txt,C0090,Financial terms,Low,Financial terms,Low,basic loan terms
+04_dbs_mitc-ahl,C0018,Repayment,Low,Repayment,Medium,lender may change EMI and dates on its own opinion
+04_dbs_mitc-ahl,C0054,Covenants,Low,Covenants,Low,notify change of address
